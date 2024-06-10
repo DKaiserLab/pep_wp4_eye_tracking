@@ -1,3 +1,11 @@
+sca;
+close all;
+clear;
+%Screen('Preference', 'SkipSyncTests', 1);
+%Set up some defult configurations for color, key names,...
+PsychDefaultSetup(2);
+
+ 
 %% set up
 dat.subjctNumber=input('Enter subject number: '); 
 dat.age=input('Enter subject age: '); 
@@ -9,12 +17,6 @@ dat.filename=['test','_s',num2str(dat.subjctNumber)];
  %% Save the data
 save(dat.filename, 'dat');
 
-sca;
-close all;
-clear;
-Screen('Preference', 'SkipSyncTests', 1);
-%Set up some defult configurations for color, key names,...
-PsychDefaultSetup(2);
 
 % returns an array of screen numbers available on the system
 screens = Screen('Screens');
@@ -32,7 +34,7 @@ Screen('BlendFunction', window, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');
 [screenXpixels, screenYpixels] = Screen('WindowSize', window);
 
 %frame duration %% when I use frame duration, the timing is not accurate!!!
-%ifi = Screen('GetFlipInterval', window);
+frame_duration = Screen('GetFlipInterval', window);
 
 % center of the window
 [xCenter, yCenter] = RectCenter(windowRect);
@@ -72,9 +74,19 @@ lineWidthPix = 4;
 
 NumImage = numel(imageFiles);
 try
+    % Initialize keyboard
+    KbName('UnifyKeyNames');
+    abortKey = KbName('ESCAPE');
     
     % Loop through each image file
     for i = 1:NumImage
+        % Check for keyboard input
+        [~, ~, keyCode] = KbCheck;
+        % If abort key is pressed, terminate the program
+        if keyCode(abortKey)
+            error('Experiment has been aborted');
+        end
+
         % Load the image
         imagePath = fullfile(imageFolder, imageFiles(i).name);
         theImage = imread(imagePath);
@@ -93,37 +105,48 @@ try
         vbl = Screen('Flip', window);
       
         % Wait for the specified duration
-        WaitSecs(presentation_time);
+        % start timer
+        elapsedTime = 0;
+        start_time = GetSecs;
+        while elapsedTime < (presentation_time - frame_duration * 0.5)
+            % option to abort experiment 
+            [~, ~, Resp1] = KbCheck;
+            if  Resp1(abortKey)
+                error('Experiment has been aborted');
+            end
+            % updating clock:
+            elapsedTime = GetSecs - start_time;
+        end
+
         % Close the texture to free memory
         Screen('Close', imageTexture);
         
-       %%
-       % Draw the fixation cross in 
-       Screen('DrawLines', window, allCoords,lineWidthPix, white, [xCenter yCenter], 2);
-       % Flip to the screen
-       %Screen('Flip', window);
-       vbl = Screen('Flip', window);
-       % Wait for 1 second
-       WaitSecs(1);
-       %% Practice session 
+        % Draw the fixation cross in 
+        Screen('DrawLines', window, allCoords,lineWidthPix, white, [xCenter yCenter], 2);
+        % Flip to the screen
+        vbl = Screen('Flip', window);
+        % Wait for 1 second
+        WaitSecs(1);
+
+        % Practice session 
         if i == 3
             DrawFormattedText(window, '...The end of the Practice session...', 'center', screenYpixels * 0.25, white);
-            %Update the window to display the drawn text
-            %Screen('Flip', window);
+            % Update the window to display the drawn text
             vbl = Screen('Flip', window);
             KbStrokeWait;
         end
-       %% Break ( it's an Example)
+
+        % Break ( it's an Example)
         if i == 5
             DrawFormattedText(window, '...Break...', 'center', screenYpixels * 0.25, white);
-            %Update the window to display the drawn text
-            %Screen('Flip', window);
+            % Update the window to display the drawn text
             vbl = Screen('Flip', window);
             KbStrokeWait;
         end
+        
     end 
     sca;
 catch
-     sca;
+    sca;
     psychrethrow(psychlasterror);
 end
