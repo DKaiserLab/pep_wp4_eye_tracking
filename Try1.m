@@ -1,7 +1,17 @@
+%% set up
+dat.subjctNumber=input('Enter subject number: '); 
+dat.age=input('Enter subject age: '); 
+dat.gender=input('Enter subject gender (1=M, 2=F, 3=D): '); 
+
+dat.filename=['test','_s',num2str(dat.subjctNumber)];
+%display(dat.filename);
+
+ %% Save the data
+save(dat.filename, 'dat');
+
 sca;
 close all;
 clear;
-% I have to remove it
 Screen('Preference', 'SkipSyncTests', 1);
 %Set up some defult configurations for color, key names,...
 PsychDefaultSetup(2);
@@ -21,8 +31,8 @@ Screen('BlendFunction', window, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');
 %get the size
 [screenXpixels, screenYpixels] = Screen('WindowSize', window);
 
-%frame duration
-frame_duration = Screen('GetFlipInterval', window);
+%frame duration %% when I use frame duration, the timing is not accurate!!!
+%ifi = Screen('GetFlipInterval', window);
 
 % center of the window
 [xCenter, yCenter] = RectCenter(windowRect);
@@ -47,7 +57,10 @@ imageFiles = dir(fullfile(imageFolder, '*.jpg'));
 
 % Set the presentation time for each image (in seconds)
 presentation_time = 3;
-waitframes = round(presentation_time / frame_duration);
+%for the images
+%waitframes3 = round(presentation_time / ifi);
+%for cross fixation
+%waitframes1 = round(1 / ifi);
 %% Fixation Cross
 %size and position of the cross fixation
 fixCrossDimPix = 40;
@@ -59,6 +72,7 @@ lineWidthPix = 4;
 
 NumImage = numel(imageFiles);
 try
+    
     % Loop through each image file
     for i = 1:NumImage
         % Load the image
@@ -75,14 +89,9 @@ try
         imageTexture = Screen('MakeTexture', window, resizedImage);
         % Draw the texture to the screen
         Screen('DrawTexture', window, imageTexture);
-
-        % (before)Get an initial screen flip for timing
-        %(now) flip the screen
+        %Flip to the screen
         vbl = Screen('Flip', window);
-       
-        % (before)Flip to the screen
-        %vbl  = Screen('Flip', window, vbl + (waitframes - 0.5) * frame_duration);
-        
+      
         % Wait for the specified duration
         WaitSecs(presentation_time);
         % Close the texture to free memory
@@ -92,14 +101,24 @@ try
        % Draw the fixation cross in 
        Screen('DrawLines', window, allCoords,lineWidthPix, white, [xCenter yCenter], 2);
        % Flip to the screen
-       Screen('Flip', window);
+       %Screen('Flip', window);
+       vbl = Screen('Flip', window);
        % Wait for 1 second
        WaitSecs(1);
+       %% Practice session 
+        if i == 3
+            DrawFormattedText(window, '...The end of the Practice session...', 'center', screenYpixels * 0.25, white);
+            %Update the window to display the drawn text
+            %Screen('Flip', window);
+            vbl = Screen('Flip', window);
+            KbStrokeWait;
+        end
        %% Break ( it's an Example)
-        if i == 2
+        if i == 5
             DrawFormattedText(window, '...Break...', 'center', screenYpixels * 0.25, white);
             %Update the window to display the drawn text
-            Screen('Flip', window);
+            %Screen('Flip', window);
+            vbl = Screen('Flip', window);
             KbStrokeWait;
         end
     end 
