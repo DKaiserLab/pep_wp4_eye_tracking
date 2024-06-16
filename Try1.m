@@ -1,152 +1,168 @@
 sca;
 close all;
 clear;
-%Screen('Preference', 'SkipSyncTests', 1);
-%Set up some defult configurations for color, key names,...
+Screen('Preference', 'SkipSyncTests', 1);
 PsychDefaultSetup(2);
 
- 
-%% set up
-dat.subjctNumber=input('Enter subject number: '); 
-dat.age=input('Enter subject age: '); 
-dat.gender=input('Enter subject gender (1=M, 2=F, 3=D): '); 
+%% Set up
+dat.subjctNumber = input('Enter subject number: ');
+dat.age = input('Enter subject age: ');
+dat.gender = input('Enter subject gender (1=M, 2=F, 3=D): ');
 
-dat.filename=['test','_s',num2str(dat.subjctNumber)];
-%display(dat.filename);
+dat.filename = ['test', '_s', num2str(dat.subjctNumber)];
 
- %% Save the data
+% Save the data
 save(dat.filename, 'dat');
 
-
-% returns an array of screen numbers available on the system
+% Returns an array of screen numbers available on the system
 screens = Screen('Screens');
-screenNumber = 0;
+screenNumber = max(screens);
 
 black = BlackIndex(screenNumber);
 white = WhiteIndex(screenNumber);
 grey = white / 2;
 
-%Open an on screen window
+% Open an on screen window
 [window, windowRect] = PsychImaging('OpenWindow', screenNumber, grey);
 
 Screen('BlendFunction', window, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');
-%get the size
+
+% Get the size of the screen
 [screenXpixels, screenYpixels] = Screen('WindowSize', window);
 
-%frame duration %% when I use frame duration, the timing is not accurate!!!
+% Frame duration
 frame_duration = Screen('GetFlipInterval', window);
 
-% center of the window
+% Center of the window
 [xCenter, yCenter] = RectCenter(windowRect);
 
-
 %% Instruction of the experiment
-%Draw text 
 Screen('TextSize', window, 70);
 Screen('TextFont', window, 'Courier');
 DrawFormattedText(window, '...Explanation...', 'center', screenYpixels * 0.25, white);
-%Update the window to display the drawn text
 Screen('Flip', window);
-% Press 'Enter' to continue. THERE is an error when I use this one :(
-% KbWait([], KbName('return'));
-    %(I have to try this one: KbWait([], 2);
 KbStrokeWait;
+
 %% Image
 % Folder containing the images
-imageFolder = fullfile(pwd, 'Images'); % pwd: Uses the current directory
-% Get a list of all image files in the folder
-imageFiles = dir(fullfile(imageFolder, '*.jpg'));
+imageFolder = fullfile(pwd, 'Images'); 
+% List of all image files in the folder
+imageFiles = dir(fullfile(imageFolder, '*.jpg')); 
+numImages = numel(imageFiles);
+% Number of repetitions for each image
+numRepeats = 3;
+% presentation time for each image (in seconds)
+presentation_time = 3; 
 
-% Set the presentation time for each image (in seconds)
-presentation_time = 3;
-%for the images
-%waitframes3 = round(presentation_time / ifi);
-%for cross fixation
-%waitframes1 = round(1 / ifi);
 %% Fixation Cross
-%size and position of the cross fixation
 fixCrossDimPix = 40;
 xCoords = [-fixCrossDimPix fixCrossDimPix 0 0];
 yCoords = [0 0 -fixCrossDimPix fixCrossDimPix];
 allCoords = [xCoords; yCoords];
-%line width
 lineWidthPix = 4;
 
-NumImage = numel(imageFiles);
+%% Preload and resize images
+%width
+resizedWidth = 0.5 * screenXpixels; 
+%height
+resizedHeight = 0.5 * screenYpixels;  
+loadedImages = cell(1, numImages);
+for i = 1:numImages
+    imagePath = fullfile(imageFolder, imageFiles(i).name);
+    theImage = imread(imagePath);
+    % Resize the image to the desired size
+    resizedImage = imresize(theImage, [resizedHeight, resizedWidth]); 
+    loadedImages{i} = resizedImage;
+end
+
+% Create textures for the images
+imageTextures = cell(1, numImages);
+for i = 1:numImages
+    imageTextures{i} = Screen('MakeTexture', window, loadedImages{i});
+end
+
+%% Prepare the log file
+logFilename = [dat.filename, '_log.txt'];
+logFile = fopen(logFilename, 'w');
+fprintf(logFile, 'Trial\tImage\tImageFlipTime\tFixationFlipTime\n');
+
+%% Generate the trial sequence
+trialSequence = [];
+for i = 1:numRepeats
+    trialSequence = [trialSequence randperm(numImages)];
+end
+
+%% Ensure no consecutive repeats
+while any(diff(trialSequence) == 0)
+    trialSequence = [];
+    for i = 1:numRepeats
+        trialSequence = [trialSequence randperm(numImages)];
+    end
+end
+%%
 try
-    % Initialize keyboard
-    KbName('UnifyKeyNames');
-    abortKey = KbName('ESCAPE');
+    %% Initialize keyboard
     
-    % Loop through each image file
-    for i = 1:NumImage
-        % Check for keyboard input
+    KbName('UnifyKeyNames');% for different devices
+    abortKey = KbName('ESCAPE');
+
+    % loop through the images
+    trial = 1;
+    for i = 1:length(trialSequence)
+        %% Check for keyboard input
         [~, ~, keyCode] = KbCheck;
-        % If abort key is pressed, terminate the program
         if keyCode(abortKey)
             error('Experiment has been aborted');
         end
 
-        % Load the image
-        imagePath = fullfile(imageFolder, imageFiles(i).name);
-        theImage = imread(imagePath);
-        % Resize the image to the desired size
-        resizedImage = imresize(theImage, [0.5 * screenYpixels, 0.5 * screenXpixels]);
-        % Get the size of the resized image
-        [s1, s2, ~] = size(resizedImage);
-        
-        % Create a destination rectangle to center the image on the screen
-        dstRect = [xCenter - s2/2, yCenter - s1/2, xCenter + s2/2, yCenter + s1/2];
-        % Display the image on the screen
-        imageTexture = Screen('MakeTexture', window, resizedImage);
-        % Draw the texture to the screen
-        Screen('DrawTexture', window, imageTexture);
-        %Flip to the screen
-        vbl = Screen('Flip', window);
-      
-        % Wait for the specified duration
-        % start timer
+        %% Get the current image index
+        imageIndex = trialSequence(i);
+
+        % Display the image
+        Screen('DrawTexture', window, imageTextures{imageIndex});
+        imageFlipTime = Screen('Flip', window);
+
+        %% Wait for the specified duration
         elapsedTime = 0;
         start_time = GetSecs;
         while elapsedTime < (presentation_time - frame_duration * 0.5)
-            % option to abort experiment 
-            [~, ~, Resp1] = KbCheck;
-            if  Resp1(abortKey)
+            [~, ~, keyCode] = KbCheck;
+            % check again for key press
+            if keyCode(abortKey)
                 error('Experiment has been aborted');
             end
-            % updating clock:
             elapsedTime = GetSecs - start_time;
         end
 
-        % Close the texture to free memory
-        Screen('Close', imageTexture);
-        
-        % Draw the fixation cross in 
-        Screen('DrawLines', window, allCoords,lineWidthPix, white, [xCenter yCenter], 2);
-        % Flip to the screen
-        vbl = Screen('Flip', window);
-        % Wait for 1 second
+        %% Draw the fixation cross
+        Screen('DrawLines', window, allCoords, lineWidthPix, white, [xCenter yCenter], 2);
+        fixationFlipTime = Screen('Flip', window);
         WaitSecs(1);
 
-        % Practice session 
-        if i == 3
+        %% Log the trial information
+        fprintf(logFile, '%d\t%s\t%.4f\t%.4f\n', trial, imageFiles(imageIndex).name, imageFlipTime, fixationFlipTime);
+
+        %% Practice session
+        if trial == 3
             DrawFormattedText(window, '...The end of the Practice session...', 'center', screenYpixels * 0.25, white);
-            % Update the window to display the drawn text
-            vbl = Screen('Flip', window);
+            Screen('Flip', window);
             KbStrokeWait;
         end
 
-        % Break ( it's an Example)
-        if i == 5
+        %% Break (it's an example)
+        % remember: we have to add more breaks!
+        if trial == 5
             DrawFormattedText(window, '...Break...', 'center', screenYpixels * 0.25, white);
-            % Update the window to display the drawn text
-            vbl = Screen('Flip', window);
+            Screen('Flip', window);
             KbStrokeWait;
         end
-        
-    end 
+
+        trial = trial + 1;
+    end
     sca;
+    fclose(logFile);
 catch
     sca;
+    fclose(logFile);
     psychrethrow(psychlasterror);
 end
