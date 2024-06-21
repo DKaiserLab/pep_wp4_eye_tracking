@@ -14,7 +14,7 @@ taskLabel = 'EyeTracking';
 dat.filename = ['Test', dat.subjctNumber, '_task-', taskLabel];
 
 %% Create participant directory
-subjectDir = fullfile('Test', dat.subjctNumber);
+subjectDir = fullfile( '..', 'sourcedata', ['sub-', char(dat.subjctNumber)]);
 if ~exist(subjectDir, 'dir')
     mkdir(subjectDir);
 end
@@ -25,7 +25,8 @@ participantMetadata.SubjctNumber = dat.subjctNumber;
 participantMetadata.Age = str2double(dat.age); 
 participantMetadata.Gender = dat.gender;
 
-participantMetadataFilename = fullfile(subjectDir, ['Test', dat.subjctNumber, '_participants.json']);
+
+participantMetadataFilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_events.json']);
 jsonText = jsonencode(participantMetadata);
 fid = fopen(participantMetadataFilename, 'w');
 if fid == -1
@@ -65,7 +66,7 @@ KbStrokeWait;
 
 %% Image
 % Folder containing the images
-imageFolder = fullfile(pwd, 'Images'); 
+imageFolder = fullfile(pwd, '..', 'stimuli'); 
 % List of all image files in the folder
 imageFiles = dir(fullfile(imageFolder, '*.jpg')); 
 numImages = numel(imageFiles);
@@ -102,7 +103,7 @@ for i = 1:numImages
 end
 
 %% Prepare the log file
-logFilename = fullfile(subjectDir, ['Test', dat.subjctNumber, '_task-', taskLabel, '_beh.tsv']);
+logFilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_events.tsv']);
 logFile = fopen(logFilename, 'w');
 fprintf(logFile, 'trial\timage\timage_flip_time\tfixation_flip_time\n');
 
