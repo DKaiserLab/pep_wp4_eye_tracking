@@ -14,7 +14,8 @@ Screen('Preference', 'SkipSyncTests', 1);
 %Get EyeTracker
 Tobii = EyeTrackingOperations();
 
-eyetracker_address = 'Address of the desired device';
+eyetrackers = Tobii.find_all_eyetrackers;
+eyetracker_address = eyetrackers(1).Address;
 % Example:
 % eyetracker_address = 'tet-tcp://172.28.195.1';
 
@@ -73,7 +74,7 @@ Screen('BlendFunction', window, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');
 % Dot size in pixels
 dotSizePix = 30;
 
-% Start collecting data
+%% Start collecting data
 % The subsequent calls return the current values in the stream buffer.
 % If a flat structure is prefered just use an extra input 'flat'.
 % i.e. gaze_data = eyetracker.get_gaze_data('flat');
@@ -95,11 +96,11 @@ while ~KbCheck
         validityColor = [1 0 0];
 
         % Check if user has both eyes inside a reasonable tacking area.
-        if last_gaze.LeftEye.GazeOrigin.Validity && last_gaze.RightEye.GazeOrigin.Validity
+        if last_gaze.LeftEye.GazeOrigin.Validity.Valid && last_gaze.RightEye.GazeOrigin.Validity.Valid
             left_validity = all(last_gaze.LeftEye.GazeOrigin.InTrackBoxCoordinateSystem(1:2) < 0.85) ...
-                                 && all(last_gaze.LeftEye.GazeOrigin.InTrackBoxCoordinateSystem(1:2) > 0.15);
+                && all(last_gaze.LeftEye.GazeOrigin.InTrackBoxCoordinateSystem(1:2) > 0.15);
             right_validity = all(last_gaze.RightEye.GazeOrigin.InTrackBoxCoordinateSystem(1:2) < 0.85) ...
-                                 && all(last_gaze.RightEye.GazeOrigin.InTrackBoxCoordinateSystem(1:2) > 0.15);
+                && all(last_gaze.RightEye.GazeOrigin.InTrackBoxCoordinateSystem(1:2) > 0.15);
             if left_validity && right_validity
                 validityColor = [0 1 0];
             end
@@ -115,7 +116,7 @@ while ~KbCheck
         Screen('FrameRect', window, validityColor, frame, penWidthPixels);
 
         % Left Eye
-        if last_gaze.LeftEye.GazeOrigin.Validity
+        if last_gaze.LeftEye.GazeOrigin.Validity.Valid
             distance = [distance; round(last_gaze.LeftEye.GazeOrigin.InUserCoordinateSystem(3)/10,1)];
             left_eye_pos_x = double(1-last_gaze.LeftEye.GazeOrigin.InTrackBoxCoordinateSystem(1))*size(1) + origin(1);
             left_eye_pos_y = double(last_gaze.LeftEye.GazeOrigin.InTrackBoxCoordinateSystem(2))*size(2) + origin(2);
@@ -123,7 +124,7 @@ while ~KbCheck
         end
 
         % Right Eye
-        if last_gaze.RightEye.GazeOrigin.Validity
+        if last_gaze.RightEye.GazeOrigin.Validity.Valid
             distance = [distance;round(last_gaze.RightEye.GazeOrigin.InUserCoordinateSystem(3)/10,1)];
             right_eye_pos_x = double(1-last_gaze.RightEye.GazeOrigin.InTrackBoxCoordinateSystem(1))*size(1) + origin(1);
             right_eye_pos_y = double(last_gaze.RightEye.GazeOrigin.InTrackBoxCoordinateSystem(2))*size(2) + origin(2);
@@ -144,7 +145,7 @@ end
 
 eyetracker.stop_gaze_data();
 
-%Calibration
+%% Calibration
 spaceKey = KbName('Space');
 RKey = KbName('R');
 
@@ -244,6 +245,8 @@ while calibrating
     end
 end
 
+
+
 %Simple data colecting experiment
 pointCount = 5;
 
@@ -256,25 +259,96 @@ eyetracker.get_gaze_data();
 
 collection_time_s = 2; % seconds
 
-% Cell array to store events
-events = cell(2, pointCount);
+% % Cell array to store events
+% events = cell(2, pointCount);
+% 
+% 
+% for i=1:pointCount
+%     Screen('DrawDots', window, points(i,:).*screen_pixels, dotSizePix, dotColor(2,:), [], 2);
+%     Screen('Flip', window);
+%     % Event when startng to show the stimulus
+%     events{1,i} = {Tobii.get_system_time_stamp, points(i,:)};
+%     pause(collection_time_s);
+%     % Event when stopping to show the stimulus
+%     events{2,i} = {Tobii.get_system_time_stamp, points(i,:)};
+% end
 
-for i=1:pointCount
-    Screen('DrawDots', window, points(i,:).*screen_pixels, dotSizePix, dotColor(2,:), [], 2);
-    Screen('Flip', window);
-    % Event when startng to show the stimulus
-    events{1,i} = {Tobii.get_system_time_stamp, points(i,:)};
-    pause(collection_time_s);
-    % Event when stopping to show the stimulus
-    events{2,i} = {Tobii.get_system_time_stamp, points(i,:)};
-end
+% Dot properties
+dotSize = 10;
+% Initialize variables to store gaze data
+gazeDataLeftEyeX = [];
+gazeDataLeftEyeY = [];
+gazeDataRightEyeX = [];
+gazeDataRightEyeY = [];
+timestamps = [];
+
 
 % Retreive data collected during experiment
 collected_gaze_data = eyetracker.get_gaze_data();
+pause(0.3);
+
+while ~KbCheck
+
+    gaze_data = eyetracker.get_gaze_data();
+
+    if ~isempty(gaze_data)
+        last_gaze = gaze_data(end);
+
+        if ~isnan(last_gaze.LeftEye.GazePoint.OnDisplayArea(1))
+            timestamp = Tobii.get_system_time_stamp;
+
+            % Left Eye
+            leftEyeX = double(last_gaze.LeftEye.GazePoint.OnDisplayArea(1)) * screenXpixels;
+            leftEyeY = double(last_gaze.LeftEye.GazePoint.OnDisplayArea(2)) * screenYpixels;
+
+            % Right Eye
+            rightEyeX = double(last_gaze.RightEye.GazePoint.OnDisplayArea(1)) * screenXpixels;
+            rightEyeY = double(last_gaze.RightEye.GazePoint.OnDisplayArea(2)) * screenYpixels;
+
+            % Append the gaze data and timestamp to the arrays
+            gazeDataLeftEyeX = [gazeDataLeftEyeX, leftEyeX];
+            gazeDataLeftEyeY = [gazeDataLeftEyeY, leftEyeY];
+            gazeDataRightEyeX = [gazeDataRightEyeX, rightEyeX];
+            gazeDataRightEyeY = [gazeDataRightEyeY, rightEyeY];
+            timestamps = [timestamps, timestamp];
+
+            Screen('FillRect', window, [0 0 0]); % Clear screen
+            Screen('FillOval', window, [0 1 0], [leftEyeX - dotSize / 2, leftEyeY - dotSize / 2, leftEyeX + dotSize / 2, leftEyeY + dotSize / 2]); % Green dot for left eye
+            Screen('FillOval', window, [0 0 1], [rightEyeX - dotSize / 2, rightEyeY - dotSize / 2, rightEyeX + dotSize / 2, rightEyeY + dotSize / 2]); % Blue dot for right eye
+            Screen('Flip', window);
+
+            pause(0.05);
+            Screen('Flip', window);
+        end
+    end
+
+end
 
 eyetracker.stop_gaze_data();
-Clear
+%Clear
+
+sca;
+
+% Save the data to an HDF5 file
+hdf5FileName = 'gaze_data.h5';
+
+% Create and write all datasets in one HDF5 file
+h5create(hdf5FileName, '/timestamps', numel(timestamps));
+h5write(hdf5FileName, '/timestamps', timestamps);
+
+h5create(hdf5FileName, '/gazeDataLeftEyeX', numel(gazeDataLeftEyeX));
+h5write(hdf5FileName, '/gazeDataLeftEyeX', gazeDataLeftEyeX);
+
+h5create(hdf5FileName, '/gazeDataLeftEyeY', numel(gazeDataLeftEyeY));
+h5write(hdf5FileName, '/gazeDataLeftEyeY', gazeDataLeftEyeY);
+
+h5create(hdf5FileName, '/gazeDataRightEyeX', numel(gazeDataRightEyeX));
+h5write(hdf5FileName, '/gazeDataRightEyeX', gazeDataRightEyeX);
+
+h5create(hdf5FileName, '/gazeDataRightEyeY', numel(gazeDataRightEyeY));
+h5write(hdf5FileName, '/gazeDataRightEyeY', gazeDataRightEyeY);
+
+disp('Gaze data has been saved to a single HDF5 file.');
 
 %Clear the screen. "sca" is short hand for "Screen CloseAll". This clears all features related to PTB. Note: we leave the variables in the workspace so you can have a look at them if you want. For help see: help sca
 
-sca;
