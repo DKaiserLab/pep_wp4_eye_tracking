@@ -46,36 +46,10 @@ try
     fwrite(fid, jsonText, 'char');
     fclose(fid);
 
-    % %% Set up experiment
-    % dat.subjctNumber = input('Enter subject number: ', 's');
-    % dat.age = input('Enter subject age: ', 's');
-    % dat.gender = input('Enter subject gender (1=M, 2=F, 3=D): ');
-    %
-    % taskLabel = 'EyeTracking';
-    % dat.filename = ['Test', dat.subjctNumber, '_task-', taskLabel];
-    %
-    % Create participant directory
-    %     subjectDir = fullfile('..', 'sourcedata', ['sub-', char(dat.subjctNumber)]);
-    %     if ~exist(subjectDir, 'dir')
-    %         mkdir(subjectDir);
-    %     end
-    %
-    % % Save participant information in a JSON file
-    % participantMetadata = struct();
-    % participantMetadata.SubjctNumber = dat.subjctNumber;
-    % participantMetadata.Age = str2double(dat.age);
-    % participantMetadata.Gender = dat.gender;
-    % 
-    % participantMetadataFilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_events.json']);
-    % jsonText = jsonencode(participantMetadata);
-    % fid = fopen(participantMetadataFilename, 'w');
-    % if fid == -1
-    %     error('Cannot create JSON file');
-    % end
-    % fwrite(fid, jsonText, 'char');
-    % fclose(fid);
-
     %% Open screen
+    Screen('Preference', 'SkipSyncTests', 1);
+    PsychDefaultSetup(2);
+
     screens = Screen('Screens');
     screenNumber = max(screens);
     [window, windowRect] = PsychImaging('OpenWindow', screenNumber, BlackIndex(screenNumber) / 2);
@@ -182,10 +156,15 @@ try
         % Get the current image index
         imageIndex = trialSequence(i);
 
+        % Draw the fixation cross
+        Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
+        fixationFlipTime = Screen('Flip', window);
+        EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(imageIndex).name), fixationFlipTime);
+        WaitSecs(1);
+
         % Display the image
         Screen('DrawTexture', window, imageTextures{imageIndex});
         imageFlipTime = Screen('Flip', window);
-        
         EThndl.sendMessage(sprintf('STIM ON: %s', imageFiles(imageIndex).name), imageFlipTime);
 
         % Wait for the specified duration
@@ -203,7 +182,7 @@ try
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
         fixationFlipTime = Screen('Flip', window);
         EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(imageIndex).name), fixationFlipTime);
-        WaitSecs(1);
+
 
         % Log the trial information
         fprintf(logFile, '%d\t%s\t%.4f\t%.4f\n', trial, imageFiles(imageIndex).name, imageFlipTime, fixationFlipTime);
