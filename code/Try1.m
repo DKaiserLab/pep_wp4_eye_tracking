@@ -105,6 +105,7 @@ end
 %% Prepare the log file
 logFilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_events.tsv']);
 logFile = fopen(logFilename, 'w');
+%header
 fprintf(logFile, 'trial\timage\timage_flip_time\tfixation_flip_time\n');
 
 %% Generate the trial sequence
