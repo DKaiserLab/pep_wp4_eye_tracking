@@ -13,6 +13,8 @@ settings = Titta.getDefaults('Tobii Pro Fusion');
 settings.debugMode = true; % Enable debug output
 calViz = AnimatedCalibrationDisplay();
 settings.cal.drawFunction = @calViz.doDraw;
+% scale down the span of the calibration point (we don't need to whole
+% screen)
 scaling_factor = 1.5;
 settings.val.pointPos = settings.val.pointPos / scaling_factor + 0.5 - 0.5 / scaling_factor;
 settings.cal.pointPos = settings.cal.pointPos / scaling_factor + 0.5 - 0.5 / scaling_factor;
@@ -28,7 +30,7 @@ try
     dat.age = input('Enter subject age: ', 's');
     dat.gender = input('Enter subject gender (1=M, 2=F, 3=D): ', 's');
     % Create participant directory 
-    subjectDir = fullfile('sub-', dat.subjctNumber);
+    subjectDir = fullfile('..', 'sourcedata', ['sub-', char(dat.subjctNumber)]);
     if ~exist(subjectDir, 'dir')
         mkdir(subjectDir);
     end
@@ -48,16 +50,16 @@ try
     % dat.subjctNumber = input('Enter subject number: ', 's');
     % dat.age = input('Enter subject age: ', 's');
     % dat.gender = input('Enter subject gender (1=M, 2=F, 3=D): ');
-    % 
+    %
     % taskLabel = 'EyeTracking';
     % dat.filename = ['Test', dat.subjctNumber, '_task-', taskLabel];
-    % 
-    % %% Create participant directory
-    % subjectDir = fullfile('..', 'sourcedata', ['sub-', char(dat.subjctNumber)]);
-    % if ~exist(subjectDir, 'dir')
-    %     mkdir(subjectDir);
-    % end
-    % 
+    %
+    % Create participant directory
+    %     subjectDir = fullfile('..', 'sourcedata', ['sub-', char(dat.subjctNumber)]);
+    %     if ~exist(subjectDir, 'dir')
+    %         mkdir(subjectDir);
+    %     end
+    %
     % % Save participant information in a JSON file
     % participantMetadata = struct();
     % participantMetadata.SubjctNumber = dat.subjctNumber;
@@ -77,6 +79,7 @@ try
     screens = Screen('Screens');
     screenNumber = max(screens);
     [window, windowRect] = PsychImaging('OpenWindow', screenNumber, BlackIndex(screenNumber) / 2);
+    Priority(1);
     Screen('BlendFunction', window, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');
 
     % Get the size of the screen
@@ -153,12 +156,15 @@ try
 
     %% Initialize eye tracker calibration
     ListenChar(-1);
-    EThndl.calibrate(window);
+    tobii.calVal{1} = EThndl.calibrate(window);
     ListenChar(0);
 
     %% Start recording eye-tracking data
     EThndl.buffer.start('gaze');
     WaitSecs(0.8);
+
+    % send message into ET data file
+    EThndl.sendMessage('start recording');
 
     %% Initialize keyboard
     KbName('UnifyKeyNames');
