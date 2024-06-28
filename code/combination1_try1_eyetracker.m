@@ -1,6 +1,7 @@
 sca;
 close all;
 clear;
+rng(1) % ensure same order for all participants 
 
 %% Set up Titta for Tobii eye trackers
 home = cd;
@@ -112,7 +113,7 @@ try
     logFilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_events.tsv']);
     logFile = fopen(logFilename, 'w');
     %header
-    fprintf(logFile, 'trial\timage\timage_flip_time\tfixation_flip_time\n');
+    fprintf(logFile, 'trial\timage\tfixation_flip_time\timage_flip_time\timage_stop_time\n');
 
     %% Generate the trial sequence
     trialSequence = [];
@@ -180,12 +181,12 @@ try
 
         % Draw the fixation cross
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
-        fixationFlipTime = Screen('Flip', window);
-        EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(imageIndex).name), fixationFlipTime);
+        imageStopTime = Screen('Flip', window);
+        EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(imageIndex).name), imageStopTime);
 
 
         % Log the trial information
-        fprintf(logFile, '%d\t%s\t%.4f\t%.4f\n', trial, imageFiles(imageIndex).name, imageFlipTime, fixationFlipTime);
+        fprintf(logFile, '%d\t%s\t%.4f\t%.4f\n', trial, imageFiles(imageIndex).name, imageFlipTime, fixationFlipTime, imageStopTime);
 
         %% Practice session
         if trial == 3
