@@ -88,7 +88,7 @@ try
     allCoords = [xCoords; yCoords];
     lineWidthPix = 4;
 
-    %% Preload and resize images#
+    %% Preload and resize images
     %width
     resizedWidth = 0.5 * screenXpixels;
     %height
@@ -137,8 +137,19 @@ try
     EThndl.buffer.start('gaze');
     WaitSecs(0.8);
 
-    % send message into ET data file
-    EThndl.sendMessage('start recording');
+    
+    %% I chose 60 because the dimention of fix cross is 40
+    while true
+
+        % send message into ET data file
+        data = EThndl.sendMessage('start recording');
+        %checking both x and y 
+        if -60 <= data(1,end) && data(1,end) <= 60 && -60 <= data(2,end) && data(2,end) <= 60
+        break
+        
+        end
+       
+    end
 
     %% Initialize keyboard
     KbName('UnifyKeyNames');
