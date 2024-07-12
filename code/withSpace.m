@@ -50,7 +50,7 @@ try
 
     taskLabel = 'EyeTracking';
     % Save participant information in a JSON file
-    datfilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, 'participants.json']);
+    datfilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_participants.json']);
     jsonText = jsonencode(dat);
     fid = fopen(datfilename, 'w');
     if fid == -1
@@ -316,8 +316,7 @@ try
 
     %% Save eye-tracking data
     ET_dat = EThndl.collectSessionData();
-    ET_dat.data.resolution = [screenXpixels, screenYpixels];
-    ET_dat.data.messages = ET_dat.messages;
+    ET_dat.expt.resolution = [screenXpixels, screenYpixels];
     EThndl.saveData(ET_dat, fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_physio']), true);
 
     %% Shut down
@@ -332,8 +331,7 @@ catch me
         WaitSecs(0.5)
         EThndl.sendMessage('STOP RECORDING', GetSecs);
         ET_dat = EThndl.collectSessionData();
-        ET_dat.data.resolution = [screenXpixels, screenYpixels];
-        ET_dat.data.messages = ET_dat.messages;
+        ET_dat.expt.resolution = [screenXpixels, screenYpixels];
         EThndl.saveData(ET_dat, fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_physio']), true);
         EThndl.deInit();
 
