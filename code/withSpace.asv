@@ -171,7 +171,7 @@ try
                 error('Experiment has been aborted');
             elseif keyCode(recalibrationPress)
 
-                EThndl.sendMessage(sprintf('RECAL: %s', imageFiles(i).name), GetSecs);
+                EThndl.sendMessage(sprintf('RECAL: %s', imageFiles(i).name), fixationFlipTime);
 
                 %% Initialize eye tracker calibration
                 ListenChar(-1);
@@ -281,27 +281,10 @@ try
     sca;
     fclose(logFile);
 catch me
-    try
-        %% Stop recording
-        EThndl.buffer.stop('gaze');
-
-        %% Save eye-tracking data
-        ET_dat = EThndl.collectSessionData();
-        ET_dat.expt.resolution = [screenXpixels, screenYpixels];
-        EThndl.saveData(ET_dat, fullfile(subjectDir, 't'), true);
-
-        sca;
-        ListenChar(0);
-        fclose(logFile);
-        rethrow(me);
-
-    catch
-
-        sca;
-        ListenChar(0);
-        fclose(logFile);
-        rethrow(me);
-
-    end
+    sca;
+    ListenChar(0);
+    fclose(logFile);
+    rethrow(me);
 end
+
 sca;
