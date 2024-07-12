@@ -3,6 +3,8 @@ close all;
 clear;
 rng(1) % ensure same order for all participants
 
+test_x = 0;
+
 %% Set up Titta for Tobii eye trackers
 home = cd;
 cd ..;
@@ -40,8 +42,9 @@ try
     dat.date = datestr(now, 'yyyy-mm-dd');
     dat.time = datestr(now, 'HH:MM:SS');
     dat.recordingModality = 'eye-tracking';
-    dat.recordingDevice = 'Tobii Pro Fusion';
-    dat.samplingFrequency = '120 Hz';  % Assuming the sampling frequency, adjust if necessary
+    dat.recordingDevice = EThndl.deviceName;
+    dat.serialNumber = EThndl.serialNumber;
+    dat.samplingFrequency = EThndl.frequency;
     dat.recordingLocation = 'math. dept. JLU Giessen';
     dat.project = 'PEP_WP4';
 
@@ -134,7 +137,7 @@ try
     logFilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_events.tsv']);
     logFile = fopen(logFilename, 'w');
     %header
-    fprintf(logFile, 'trial\timage\tfixation_flip_time\timage_flip_time\timage_stop_time\n');
+    fprintf(logFile, 'trial\timage\tfixation_flip_time\tspace_press_time\timage_flip_time\timage_stop_time\n');
 
     %% Initialize eye tracker calibration
     ListenChar(-1);
@@ -155,11 +158,9 @@ try
     %% Loop through the images
     trial = 1;
     for i = 1:numImages
-        % Check for keyboard input
-        [~, ~, keyCode] = KbCheck;
-        if keyCode(abortKey)
-            error('Experiment has been aborted');
-        end
+
+        % wait for 200ms
+        WaitSecs(0.2)
 
         % Draw the fixation cross
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
@@ -176,9 +177,9 @@ try
                 error('Experiment has been aborted');
             elseif keyCode(recalibrationPress)
 
-                EThndl.sendMessage(sprintf('RECAL: %s', imageFiles(i).name), GetSecs);
+                %% Initialize eye tracker re-calibration
+                EThndl.sendMessage('RECALIBRATE', GetSecs);
 
-                %% Initialize eye tracker calibration
                 ListenChar(-1);
                 tobii.calVal{1} = EThndl.calibrate(window);
                 ListenChar(0);
@@ -188,6 +189,12 @@ try
                 fixationFlipTime = Screen('Flip', window);
                 %on
                 EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
+
+                % start recording again
+                EThndl.buffer.start('gaze');
+                WaitSecs(0.8);
+                EThndl.sendMessage('start recording');
+                
             end
 
             gazeData  = EThndl.buffer.peekN('gaze');% chatgpt suggested to use peek:)
@@ -201,14 +208,23 @@ try
                 if ~isempty(gazeX) && ~isnan(gazeX) && inRect([gazeX,gazeY], rect)
 
                     % Wait for 'space' key press
-                    [~, ~, keyCode] = KbCheck;
+                    [~, keyTime, keyCode] = KbCheck;
                     if keyCode(keyPress)
                         % send message
-                        EThndl.sendMessage(sprintf('SPACE PRESS: %s', imageFiles(i).name), fixationFlipTime);
+                        EThndl.sendMessage(sprintf('SPACE PRESS: %s', imageFiles(i).name), keyTime);
+
+                        %% test event
+                        test_x = test_x + 1;
+                        test.gaze_data_left(test_x) = gazeData(end).left.gazePoint.onDisplayArea(1);
+                        test.gaze_data_right(test_x) = gazeData(end).right.gazePoint.onDisplayArea(1);
+                        test_time = GetSecs;
+                        test.gaze_data_time(test_x) = test_time;
+                        EThndl.sendMessage(sprintf('Test: %s', imageFiles(i).name), test_time);
 
                         % Draw the NEW green fixation cross
                         Screen('DrawLines', window, allCoord2, lineWidthPix2, [0 1 0], [xCenter yCenter], 2);
-                        fixationFlipTime = Screen('Flip', window);
+                        Screen('Flip', window);
+                        space_press_time = keyTime;
                         break;
 
                     elseif  keyCode(abortKey)
@@ -232,49 +248,76 @@ try
 
         % Wait for the specified duration
         elapsedTime = 0;
-        start_time = GetSecs;
         while elapsedTime < (presentation_time - frame_duration * 0.5)
             [~, ~, keyCode] = KbCheck;
             if keyCode(abortKey)
                 error('Experiment has been aborted');
             end
-            elapsedTime = GetSecs - start_time;
+            elapsedTime = GetSecs - imageFlipTime;
         end
 
         % Draw the fixation cross
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
         imageStopTime = Screen('Flip', window);
         EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(i).name), imageStopTime);
-        % is it okay?
-        WaitSecs(0.2)
-
 
         % Log the trial information
-        fprintf(logFile, '%d\t%s\t%.4f\t%.4f\n', trial, imageFiles(i).name, imageFlipTime, fixationFlipTime, imageStopTime);
+        fprintf(logFile, '%d\t%s\t%.4f\t%.4f\t%.4f\t%.4f\n', trial, imageFiles(i).name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime);
 
         %% Practice session
         if trial == 3
             DrawFormattedText(window, '...The end of the Practice session...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+            EThndl.sendMessage('END OF PRACTICE', GetSecs);
             Screen('Flip', window);
             KbStrokeWait;
+            EThndl.sendMessage('START EXPERIMENT', GetSecs);
         end
 
         %% Break (we have to change here)
         if trial == 5
             DrawFormattedText(window, '...Break...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
             Screen('Flip', window);
+            EThndl.sendMessage('START BREAK', GetSecs);
             KbStrokeWait;
+            EThndl.sendMessage('END BREAK', GetSecs);
+
+            %% Initialize eye tracker re-calibration
+            EThndl.sendMessage('RECALIBRATE', GetSecs);
+
+            ListenChar(-1);
+            tobii.calVal{1} = EThndl.calibrate(window);
+            ListenChar(0);
+
+            % Draw the fixation cross
+            Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
+            fixationFlipTime = Screen('Flip', window);
+            %on
+            EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
+
+            % start recording again
+            EThndl.buffer.start('gaze');
+            WaitSecs(0.8);
+            EThndl.sendMessage('start recording');
         end
 
         trial = trial + 1;
     end
 
+    %% End of Experiment 
+    DrawFormattedText(window, ['The end', newline, newline, 'Thank you'], 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+    End_time = Screen('Flip', window);
+    EThndl.sendMessage('END OF EXPERIMENT', End_time);
+    WaitSecs(0.5)
+
     %% Stop recording
     EThndl.buffer.stop('gaze');
+    WaitSecs(0.5)
+    EThndl.sendMessage('STOP RECORDING', GetSecs);
 
     %% Save eye-tracking data
     ET_dat = EThndl.collectSessionData();
-    ET_dat.expt.resolution = [screenXpixels, screenYpixels];
+    ET_dat.data.resolution = [screenXpixels, screenYpixels];
+    ET_dat.data.messages = ET_dat.messages;
     EThndl.saveData(ET_dat, fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_physio']), true);
 
     %% Shut down
@@ -282,11 +325,15 @@ try
     sca;
     fclose(logFile);
 catch me
-    try
+    try % try to save what has been recorded
         % Stop and save recording
+        EThndl.sendMessage('ERROR - PROGRAM ABORTED', GetSecs);
         EThndl.buffer.stop('gaze');
+        WaitSecs(0.5)
+        EThndl.sendMessage('STOP RECORDING', GetSecs);
         ET_dat = EThndl.collectSessionData();
-        ET_dat.expt.resolution = [screenXpixels, screenYpixels];
+        ET_dat.data.resolution = [screenXpixels, screenYpixels];
+        ET_dat.data.messages = ET_dat.messages;
         EThndl.saveData(ET_dat, fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_physio']), true);
         EThndl.deInit();
 
