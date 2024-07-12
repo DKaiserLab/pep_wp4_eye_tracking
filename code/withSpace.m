@@ -88,12 +88,12 @@ try
     allCoords = [xCoords; yCoords];
     lineWidthPix = 4;
 
-   %% new Fixation Cross
-   fixCrossDimPix2 = 60;
-   xCoord2 = [-fixCrossDimPix2 fixCrossDimPix2 0 0];
-   yCoord2 = [0 0 -fixCrossDimPix2 fixCrossDimPix2];
-   allCoord2 = [xCoord2; yCoord2];
-   lineWidthPix2 = 5;
+    %% new Fixation Cross
+    fixCrossDimPix2 = 60;
+    xCoord2 = [-fixCrossDimPix2 fixCrossDimPix2 0 0];
+    yCoord2 = [0 0 -fixCrossDimPix2 fixCrossDimPix2];
+    allCoord2 = [xCoord2; yCoord2];
+    lineWidthPix2 = 5;
 
     %% Preload and resize images
     %width
@@ -121,8 +121,6 @@ try
     %header
     fprintf(logFile, 'trial\timage\tfixation_flip_time\timage_flip_time\timage_stop_time\n');
 
-
-
     %% Initialize eye tracker calibration
     ListenChar(-1);
     tobii.calVal{1} = EThndl.calibrate(window);
@@ -132,10 +130,12 @@ try
     EThndl.buffer.start('gaze');
     WaitSecs(0.8);
     EThndl.sendMessage('start recording');
+
     %% Initialize keyboard
     KbName('UnifyKeyNames');
     abortKey = KbName('ESCAPE');
     keyPress = KbName('space');
+    recalibrationPress = KbName('r');
 
     %% Loop through the images
     trial = 1;
@@ -146,86 +146,92 @@ try
             error('Experiment has been aborted');
         end
 
-        %%
+        % Draw the fixation cross
+        Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
+        fixationFlipTime = Screen('Flip', window);
+        %on
+        EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
+
+        %checking both x and y
         while true
 
-            % Draw the fixation cross
-            Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
-            fixationFlipTime = Screen('Flip', window);
-            %on
-            EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
-
-            %checking both x and y 
-            
             data = EThndl.buffer.peek();% chatgpt suggested to use peek:)
             if ~isempty(data) && -60 <= data(1,end) && data(1,end) <= 60 && -60 <= data(2,end) && data(2,end) <= 60
-                
+
                 % Draw the NEW fixation cross
                 Screen('DrawLines', window, allCoord2, lineWidthPix2, [0 1 0], [xCenter yCenter], 2);
                 fixationFlipTime = Screen('Flip', window);
-                % new, on
+                % send message
                 EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
 
                 % Wait for 'space' key press
-                while true
-                    [~, ~, keyCode] = KbCheck;
-                    if keyCode(keyPress)
-                        break;
-                    end
-                end
-                % Draw the fixation cross (second time)
-                Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
-                fixationFlipTime = Screen('Flip', window);
-                %second on
-                EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
-                % random duration between 0.50 and 1.40 seconds
-                WaitSecs(0.5 + rand() * 0.9); 
+                [~, ~, keyCode] = KbCheck;
+                if keyCode(keyPress)
+                    % send message
+                    EThndl.sendMessage(sprintf('SPACE PRESS: %s', imageFiles(i).name), fixationFlipTime);
+                    break;
+                elseif keyCode(recalibrationPress)
 
-                % Display the image
-                Screen('DrawTexture', window, imageTextures{i});
-                imageFlipTime = Screen('Flip', window);
-                EThndl.sendMessage(sprintf('STIM ON: %s', imageFiles(i).name), imageFlipTime);
+                    %% Initialize eye tracker calibration
+                    ListenChar(-1);
+                    tobii.calVal{1} = EThndl.calibrate(window);
+                    ListenChar(0);
 
-                % Wait for the specified duration
-                elapsedTime = 0;
-                start_time = GetSecs;
-                while elapsedTime < (presentation_time - frame_duration * 0.5)
-                    [~, ~, keyCode] = KbCheck;
-                    if keyCode(abortKey)
-                        error('Experiment has been aborted');
-                    end
-                    elapsedTime = GetSecs - start_time;
                 end
 
-                % Draw the fixation cross
-                Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
-                imageStopTime = Screen('Flip', window);
-                EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(i).name), imageStopTime);
-                % is it okay?
-                WaitSecs(0.5)
-
-
-                % Log the trial information
-                fprintf(logFile, '%d\t%s\t%.4f\t%.4f\n', trial, imageFiles(i).name, imageFlipTime, fixationFlipTime, imageStopTime);
-
-                %% Practice session
-                if trial == 3
-                    DrawFormattedText(window, '...The end of the Practice session...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
-                    Screen('Flip', window);
-                    KbStrokeWait;
-                end
-
-                %% Break (we have to change here)
-                if trial == 5
-                    DrawFormattedText(window, '...Break...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
-                    Screen('Flip', window);
-                    KbStrokeWait;
-                end
-
-                trial = trial + 1;
-                break;
             end
         end
+
+        %% Start trial
+        % Draw the fixation cross (second time)
+        Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
+        fixationFlipTime = Screen('Flip', window);
+
+        % random duration between 0.50 and 1.40 seconds
+        WaitSecs(0.5 + rand() * 0.9);
+
+        % Display the image
+        Screen('DrawTexture', window, imageTextures{i});
+        imageFlipTime = Screen('Flip', window);
+        EThndl.sendMessage(sprintf('STIM ON: %s', imageFiles(i).name), imageFlipTime);
+
+        % Wait for the specified duration
+        elapsedTime = 0;
+        start_time = GetSecs;
+        while elapsedTime < (presentation_time - frame_duration * 0.5)
+            [~, ~, keyCode] = KbCheck;
+            if keyCode(abortKey)
+                error('Experiment has been aborted');
+            end
+            elapsedTime = GetSecs - start_time;
+        end
+
+        % Draw the fixation cross
+        Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
+        imageStopTime = Screen('Flip', window);
+        EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(i).name), imageStopTime);
+        % is it okay?
+        WaitSecs(0.5)
+
+
+        % Log the trial information
+        fprintf(logFile, '%d\t%s\t%.4f\t%.4f\n', trial, imageFiles(i).name, imageFlipTime, fixationFlipTime, imageStopTime);
+
+        %% Practice session
+        if trial == 3
+            DrawFormattedText(window, '...The end of the Practice session...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+            Screen('Flip', window);
+            KbStrokeWait;
+        end
+
+        %% Break (we have to change here)
+        if trial == 5
+            DrawFormattedText(window, '...Break...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+            Screen('Flip', window);
+            KbStrokeWait;
+        end
+
+        trial = trial + 1;
     end
 
     %% Stop recording
