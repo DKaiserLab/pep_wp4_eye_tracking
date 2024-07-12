@@ -36,9 +36,18 @@ try
         mkdir(subjectDir);
     end
 
+    % Additional metadata
+    dat.date = datestr(now, 'yyyy-mm-dd');
+    dat.time = datestr(now, 'HH:MM:SS');
+    dat.recordingModality = 'eye-tracking';
+    dat.recordingDevice = 'Tobii Pro Fusion';
+    dat.samplingFrequency = '120 Hz';  % Assuming the sampling frequency, adjust if necessary
+    dat.recordingLocation = 'math. dept. JLU Giessen';
+    dat.project = 'PEP_WP4';
+
     taskLabel = 'EyeTracking';
     % Save participant information in a JSON file
-    datfilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_participants.json']);
+    datfilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, 'participants.json']);
     jsonText = jsonencode(dat);
     fid = fopen(datfilename, 'w');
     if fid == -1
@@ -65,12 +74,8 @@ try
     [xCenter, yCenter] = RectCenter(windowRect);
 
     % Rectangle properties
-%     screenCenterX = screenXpixels / 2;
-%     screenCenterY = screenYpixels / 2;
     rectWidth = 100;
     rectHeight = 100;
-    rectColor = [255, 182, 193];  % Light pink color
-    rectColorGaze = [144, 238, 144];  % Light green color
     rect = [xCenter - rectWidth/2; yCenter - rectHeight/2; ...
         xCenter + rectWidth/2; yCenter + rectHeight/2];
 
@@ -92,14 +97,14 @@ try
     presentation_time = 3;
 
     %% Fixation Cross
-    fixCrossDimPix = 40;
+    fixCrossDimPix = 60;
     xCoords = [-fixCrossDimPix fixCrossDimPix 0 0];
     yCoords = [0 0 -fixCrossDimPix fixCrossDimPix];
     allCoords = [xCoords; yCoords];
     lineWidthPix = 4;
 
     %% new Fixation Cross
-    fixCrossDimPix2 = 60;
+    fixCrossDimPix2 = 40;
     xCoord2 = [-fixCrossDimPix2 fixCrossDimPix2 0 0];
     yCoord2 = [0 0 -fixCrossDimPix2 fixCrossDimPix2];
     allCoord2 = [xCoord2; yCoord2];
@@ -195,17 +200,15 @@ try
 
                 if ~isempty(gazeX) && ~isnan(gazeX) && inRect([gazeX,gazeY], rect)
 
-                    % Draw the NEW fixation cross
-                    Screen('DrawLines', window, allCoord2, lineWidthPix2, [0 1 0], [xCenter yCenter], 2);
-                    fixationFlipTime = Screen('Flip', window);
-                    % send message
-                    EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
-
                     % Wait for 'space' key press
                     [~, ~, keyCode] = KbCheck;
                     if keyCode(keyPress)
                         % send message
                         EThndl.sendMessage(sprintf('SPACE PRESS: %s', imageFiles(i).name), fixationFlipTime);
+
+                        % Draw the NEW green fixation cross
+                        Screen('DrawLines', window, allCoord2, lineWidthPix2, [0 1 0], [xCenter yCenter], 2);
+                        fixationFlipTime = Screen('Flip', window);
                         break;
 
                     elseif  keyCode(abortKey)
@@ -217,12 +220,10 @@ try
         end
 
         %% Start trial
-        % Draw the fixation cross (second time)
-        Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
-        fixationFlipTime = Screen('Flip', window);
 
-        % random duration between 0.50 and 1.40 seconds
-        WaitSecs(0.5 + rand() * 0.9);
+        % random duration between 0.50 and 1 seconds
+        wait_duration = 0.5 + rand() * 0.5;
+        WaitSecs(wait_duration);
 
         % Display the image
         Screen('DrawTexture', window, imageTextures{i});
@@ -274,7 +275,7 @@ try
     %% Save eye-tracking data
     ET_dat = EThndl.collectSessionData();
     ET_dat.expt.resolution = [screenXpixels, screenYpixels];
-    EThndl.saveData(ET_dat, fullfile(subjectDir, 't'), true);
+    EThndl.saveData(ET_dat, fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_physio']), true);
 
     %% Shut down
     EThndl.deInit();
@@ -282,13 +283,12 @@ try
     fclose(logFile);
 catch me
     try
-        %% Stop recording
+        % Stop and save recording
         EThndl.buffer.stop('gaze');
-
-        %% Save eye-tracking data
         ET_dat = EThndl.collectSessionData();
         ET_dat.expt.resolution = [screenXpixels, screenYpixels];
-        EThndl.saveData(ET_dat, fullfile(subjectDir, 't'), true);
+        EThndl.saveData(ET_dat, fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_physio']), true);
+        EThndl.deInit();
 
         sca;
         ListenChar(0);
