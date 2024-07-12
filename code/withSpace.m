@@ -3,8 +3,6 @@ close all;
 clear;
 rng(1) % ensure same order for all participants
 
-test_x = 0;
-
 %% Set up Titta for Tobii eye trackers
 home = cd;
 cd ..;
@@ -212,14 +210,6 @@ try
                     if keyCode(keyPress)
                         % send message
                         EThndl.sendMessage(sprintf('SPACE PRESS: %s', imageFiles(i).name), keyTime);
-
-                        %% test event
-                        test_x = test_x + 1;
-                        test.gaze_data_left(test_x) = gazeData(end).left.gazePoint.onDisplayArea(1);
-                        test.gaze_data_right(test_x) = gazeData(end).right.gazePoint.onDisplayArea(1);
-                        test_time = GetSecs;
-                        test.gaze_data_time(test_x) = test_time;
-                        EThndl.sendMessage(sprintf('Test: %s', imageFiles(i).name), test_time);
 
                         % Draw the NEW green fixation cross
                         Screen('DrawLines', window, allCoord2, lineWidthPix2, [0 1 0], [xCenter yCenter], 2);
