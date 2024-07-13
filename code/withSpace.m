@@ -154,7 +154,8 @@ try
     recalibrationPress = KbName('r');
 
     %% Loop through the images
-    trial = 1;
+    num_prc_trials = 10;
+    trial = 1 - num_prc_trials; % practive trial have trialnumber <1
     for i = 1:numImages
 
         % wait for 200ms
@@ -256,7 +257,7 @@ try
             trial, imageFiles(i).name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime, wait_duration);
 
         %% Practice session
-        if trial == 3
+        if trial == 0
             DrawFormattedText(window, '...The end of the Practice session...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
             EThndl.sendMessage('END OF PRACTICE', GetSecs);
             Screen('Flip', window);
@@ -264,8 +265,8 @@ try
             EThndl.sendMessage('START EXPERIMENT', GetSecs);
         end
 
-        %% Break (we have to change here)
-        if trial == 5
+        %% Break (after every 100 images)
+        if mod(trial,100) == 0
             DrawFormattedText(window, '...Break...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
             Screen('Flip', window);
             EThndl.sendMessage('START BREAK', GetSecs);
