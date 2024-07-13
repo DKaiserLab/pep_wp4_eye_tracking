@@ -135,7 +135,7 @@ try
     logFilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_events.tsv']);
     logFile = fopen(logFilename, 'w');
     %header
-    fprintf(logFile, 'trial\timage\tfixation_flip_time\tspace_press_time\timage_flip_time\timage_stop_time\n');
+    fprintf(logFile, 'trial\timage\tfixation_flip_time\tspace_press_time\timage_flip_time\timage_stop_time\wait_duration\n');
 
     %% Initialize eye tracker calibration
     ListenChar(-1);
@@ -227,8 +227,8 @@ try
 
         %% Start trial
 
-        % random duration between 0.50 and 1 seconds
-        wait_duration = 0.5 + rand() * 0.5;
+        % random duration between 0.1 and 0.5 seconds
+        wait_duration = 0.1 + rand() * 0.4;
         WaitSecs(wait_duration);
 
         % Display the image
@@ -252,7 +252,8 @@ try
         EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(i).name), imageStopTime);
 
         % Log the trial information
-        fprintf(logFile, '%d\t%s\t%.4f\t%.4f\t%.4f\t%.4f\n', trial, imageFiles(i).name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime);
+        fprintf(logFile, '%d\t%s\t%.4f\t%.4f\t%.4f\t%.4f\t%.4f\n',...
+            trial, imageFiles(i).name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime, wait_duration);
 
         %% Practice session
         if trial == 3
