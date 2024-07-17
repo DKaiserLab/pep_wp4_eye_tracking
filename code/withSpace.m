@@ -115,25 +115,51 @@ try
     allCoord2 = [xCoord2; yCoord2];
     lineWidthPix2 = 5;
 
+    %% Calculate size for desired degree of visual angle
+
+    % define visual angle
+    x_degree = 19.9;
+    y_degree = 15;
+
+    % Viewing distance in cm
+    viewing_dist = 60;
+
+    % Get the screen resolution in pixels per inch
+    [width, height] = Screen('DisplaySize', window); % width and height in mm
+    width = width / 10; % convert to cm
+    height = height / 10; % convert to cm
+
+    % Calculate pixels per centimeter
+    pixPerCmX = screenXpixels / width;
+    pixPerCmY = screenYpixels / height;
+
+    % Calculate the size in cm for the given visual angles
+    sizeCmX = 2 * viewing_dist * tan(deg2rad(x_degree) / 2);
+    sizeCmY = 2 * viewing_dist * tan(deg2rad(y_degree) / 2);
+
+    % Convert the size from cm to pixels
+    sizePixX = round(sizeCmX * pixPerCmX);
+    sizePixY = round(sizeCmY * pixPerCmY);
+
+    % get rectangle for image of correct size
+    image_rect = CenterRectOnPointd([0 0 sizePixX sizePixY], xCenter, yCenter);
+
+    
     %% Preload and resize images
-    %width
-    resizedWidth = 0.5 * screenXpixels;
-    %height
-    resizedHeight = 0.5 * screenYpixels;
     loadedImages = cell(1, numImages);
     stim_info = struct;
     for i = 1:numImages
         imagePath = fullfile(imageFolder, imageFiles(i).name);
         theImage = imread(imagePath);
-        % Resize the image
-        resizedImage = imresize(theImage, [resizedHeight, resizedWidth]);
+        resizedImage = imresize(theImage, [sizePixY, sizePixX]);
         loadedImages{i} = resizedImage;
         % add stimuli information
-        [~,file,ext] = fileparts(imagePath);
+        [~,file_name,ext] = fileparts(imagePath);
         stim_info(1,i).fInfo = dir(imagePath);
-        stim_info(1,i).fInfo.fname = file;
+        stim_info(1,i).fInfo.fname = file_name;
         stim_info(1,i).fInfo.ext   = ext;
         stim_info(i).iInfo = imfinfo(imagePath);
+        stim_info(i).scrRect = image_rect;
     end
 
     %% Create textures for the images
