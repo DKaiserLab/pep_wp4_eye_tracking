@@ -2,6 +2,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
+dummy_mode = true; % 1 = to use without eye-tracker, 0 for normal use
 
 %% Set up Titta for Tobii eye trackers
 home = cd;
@@ -22,6 +23,9 @@ settings.cal.pointPos = settings.cal.pointPos / scaling_factor + 0.5 - 0.5 / sca
 
 %% Initialize Titta
 EThndl = Titta(settings);
+if dummy_mode
+    EThndl = EThndl.setDummyMode();
+end
 EThndl.init();
 
 try
@@ -117,12 +121,19 @@ try
     %height
     resizedHeight = 0.5 * screenYpixels;
     loadedImages = cell(1, numImages);
+    stim_info = struct;
     for i = 1:numImages
         imagePath = fullfile(imageFolder, imageFiles(i).name);
         theImage = imread(imagePath);
         % Resize the image
         resizedImage = imresize(theImage, [resizedHeight, resizedWidth]);
         loadedImages{i} = resizedImage;
+        % add stimuli information
+        [~,file,ext] = fileparts(imagePath);
+        stim_info(1,i).fInfo = dir(imagePath);
+        stim_info(1,i).fInfo.fname = file;
+        stim_info(1,i).fInfo.ext   = ext;
+        stim_info(i).iInfo = imfinfo(imagePath);
     end
 
     %% Create textures for the images
@@ -164,8 +175,6 @@ try
         % Draw the fixation cross
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
         fixationFlipTime = Screen('Flip', window);
-        %on
-        EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
 
         %checking both x and y
         while true
@@ -186,31 +195,30 @@ try
                 % Draw the fixation cross
                 Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
                 fixationFlipTime = Screen('Flip', window);
-                %on
-                EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
 
                 % start recording again
                 EThndl.buffer.start('gaze');
                 WaitSecs(0.8);
                 EThndl.sendMessage('start recording');
-                
+
             end
 
-            gazeData  = EThndl.buffer.peekN('gaze');% chatgpt suggested to use peek:)
+            gazeData  = EThndl.buffer.peekN('gaze');
             gazeX = [];
             gazeY = [];
+            space_press_tim = [];
+            
             % Extract gaze coordinates (we'll use the average position of both eyes)
-            if ~isempty(gazeData)
+            if ~isempty(gazeData) || dummy_mode
                 gazeX = mean([gazeData(end).left.gazePoint.onDisplayArea(1), gazeData(end).right.gazePoint.onDisplayArea(1)]) * screenXpixels;
                 gazeY = mean([gazeData(end).left.gazePoint.onDisplayArea(2), gazeData(end).right.gazePoint.onDisplayArea(2)]) * screenYpixels;
 
-                if ~isempty(gazeX) && ~isnan(gazeX) && inRect([gazeX,gazeY], rect)
-
+                if (~isempty(gazeX) && ~isnan(gazeX) && inRect([gazeX,gazeY], rect)) || dummy_mode
+           
                     % Wait for 'space' key press
                     [~, keyTime, keyCode] = KbCheck;
                     if keyCode(keyPress)
-                        % send message
-                        EThndl.sendMessage(sprintf('SPACE PRESS: %s', imageFiles(i).name), keyTime);
+
 
                         % Draw the NEW green fixation cross
                         Screen('DrawLines', window, allCoord2, lineWidthPix2, [0 1 0], [xCenter yCenter], 2);
@@ -225,6 +233,13 @@ try
                 end
             end
         end
+
+        % send message of events with correct timing
+        % (This is executed here because in case of recalibration the FIX
+        % On message would be sent twice, before and after recalibration,
+        % now only the later fixation onset will we logged)
+        EThndl.sendMessage('FIX ON', fixationFlipTime);
+        EThndl.sendMessage('SPACE PRESS', space_press_time);
 
         %% Start trial
 
@@ -284,7 +299,7 @@ try
             Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
             fixationFlipTime = Screen('Flip', window);
             %on
-            EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(i).name), fixationFlipTime);
+            EThndl.sendMessage('FIX ON', fixationFlipTime);
 
             % start recording again
             EThndl.buffer.start('gaze');
@@ -295,7 +310,7 @@ try
         trial = trial + 1;
     end
 
-    %% End of Experiment 
+    %% End of Experiment
     DrawFormattedText(window, ['The end', newline, newline, 'Thank you'], 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
     End_time = Screen('Flip', window);
     EThndl.sendMessage('END OF EXPERIMENT', End_time);
@@ -309,6 +324,7 @@ try
     %% Save eye-tracking data
     ET_dat = EThndl.collectSessionData();
     ET_dat.expt.resolution = [screenXpixels, screenYpixels];
+    ET_dat.expt.stim = stim_info;
     EThndl.saveData(ET_dat, fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_physio']), true);
 
     %% Shut down
@@ -324,6 +340,7 @@ catch me
         EThndl.sendMessage('STOP RECORDING', GetSecs);
         ET_dat = EThndl.collectSessionData();
         ET_dat.expt.resolution = [screenXpixels, screenYpixels];
+        ET_dat.expt.stim = stim_info;
         EThndl.saveData(ET_dat, fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_physio']), true);
         EThndl.deInit();
 

@@ -15,9 +15,9 @@ gaze_x = data.gaze.right.gazePoint.onDisplayArea(1,:);
 gaze_y = data.gaze.right.gazePoint.onDisplayArea(2,:);
 
 % Set the color and transparency of the bars
-barColor = [0.3, 0.3, 0.3]; % Gray color
+barColor = [0.3, 0.3, 0.3];
 barTransparency = 0.3; % Transparency (0 is fully transparent, 1 is fully opaque)
-barHeight = [min([gaze_x,gaze_y]), max([gaze_x,gaze_y])]; % Using the y-axis limits
+barHeight = [0, 1];
 presentation_duration = 3;
 
 hold on
