@@ -2,7 +2,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = true; % 1 = to use without eye-tracker, 0 for normal use
+dummy_mode = true; % true = to use without eye-tracker, false for normal use
 
 %% Set up Titta for Tobii eye trackers
 home = cd;
@@ -375,12 +375,12 @@ catch me
         fclose(logFile);
         rethrow(me);
 
-    catch
+    catch me2
 
         sca;
         ListenChar(0);
         fclose(logFile);
-        rethrow(me);
+        rethrow(me2);
 
     end
 end
