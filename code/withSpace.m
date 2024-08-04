@@ -29,7 +29,7 @@ end
 EThndl.init();
 
 try
-    %%%%%%% new Set up ( shorter) %%%%%%%%%%%
+    %% Set up 
     dat = struct();
     dat.subjctNumber = input('Enter subject number: ', 's');
     dat.age = input('Enter subject age: ', 's');
@@ -92,7 +92,7 @@ try
 
     %% Image
     % Folder containing the images
-    imageFolder = fullfile(pwd, '..', 'stimuli');
+    imageFolder = fullfile(pwd, '..', 'randomized_image');
     % List of all image files in the folder
     imageFiles = dir(fullfile(imageFolder, '*.jpg'));
     numImages = numel(imageFiles);
@@ -152,7 +152,7 @@ try
         theImage = imread(imagePath);
         resizedImage = imresize(theImage, [sizePixY, sizePixX]);
         loadedImages{i} = resizedImage;
-        % add stimuli information
+        % add randomized_image information
         [~,file_name,ext] = fileparts(imagePath);
         stim_info(1,i).fInfo = dir(imagePath);
         stim_info(1,i).fInfo.fname = file_name;

@@ -146,6 +146,24 @@ try
         data = EThndl.sendMessage('start recording');
         %checking both x and y 
         if -60 <= data(1,end) && data(1,end) <= 60 && -60 <= data(2,end) && data(2,end) <= 60
+            fixCrossDimPix = 60;
+            xCoords = [-fixCrossDimPix fixCrossDimPix 0 0];
+            yCoords = [0 0 -fixCrossDimPix fixCrossDimPix];
+            allCoords = [xCoords; yCoords];
+            lineWidthPix = 5;
+            % Draw the fixation cross
+            Screen('DrawLines', window, allCoords, lineWidthPix, [0 1 0], [xCenter yCenter], 2);
+            fixationFlipTime = Screen('Flip', window);
+            EThndl.sendMessage(sprintf('FIX ON: %s', imageFiles(imageIndex).name), fixationFlipTime);
+            [~, ~, keyCode] = KbCheck;
+            if keyCode(keyPress)
+            
+            % Draw the fixation cross (second time)
+            Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
+            fixationFlipTime = Screen('Flip', window);
+            EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(imageIndex).name), imageStopTime);
+            % WaitSecs(1);
+            end
         break
         
         end
@@ -155,6 +173,7 @@ try
     %% Initialize keyboard
     KbName('UnifyKeyNames');
     abortKey = KbName('ESCAPE');
+    keyPress = kbName('SPACE');
 
     %% Loop through the images
     trial = 1;
