@@ -168,7 +168,15 @@ try
     end
 
     %% Instruction of the experiment
-    DrawFormattedText(window, '...Explanation...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+    Explanation = ['In each trial, you will be presented with a picture on the screen for a short amount of time.\n' ...
+                   'Please view each picture freely, as you normally would.\n' ...
+                   'There are no right or wrong ways to view the pictures.\n' ...
+                   'Simply relax and look at the screen as you would in any everyday situation.\n' ...
+                   'Before starting each trial, you have to make sure you are looking at the center of the plus point (+) in the middle of the screen, and then press space to continue.\n\n' ...
+                   'The first 6 pictures are for practice.\n'
+                   'Press any key to start the practice session'];
+    
+    DrawFormattedText(window, Explanation, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
     Screen('Flip', window);
     KbStrokeWait;
 
@@ -195,7 +203,7 @@ try
     recalibrationPress = KbName('r');
 
     %% Loop through the images
-    num_prc_trials = 10;
+    num_prc_trials = 6;
     trial = 1 - num_prc_trials; % practive trial have trialnumber <1
     for i = 1:numImages
 
@@ -308,7 +316,10 @@ try
 
         %% Break (after every 100 images)
         if mod(trial,100) == 0 && trial > 1
-            DrawFormattedText(window, '...Break...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+            BreakText = ['..Break...\n' 
+                         'You can rest for a minute.\n\n'...
+                         'Press any key to continue'];
+            DrawFormattedText(window, BreakText, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
             Screen('Flip', window);
             EThndl.sendMessage('START BREAK', GetSecs);
             KbStrokeWait;
