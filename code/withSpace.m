@@ -1,9 +1,16 @@
+Screen('Preference', 'SkipSyncTests', 0);
 sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
 dummy_mode = false; % true = to use without eye-tracker, false for normal use
+%%%%%%%%%%
+%imitialize logFile
+logFile = -1;
+%%%%%%%%%%%%%%%
+%%%%%%%
 
+%%%%%%%%%
 %% Set up Titta for Tobii eye trackers
 home = cd;
 cd ..;
@@ -85,7 +92,7 @@ try
         xCenter + rectWidth/2; yCenter + rectHeight/2];
 
     %% Instruction of the experiment
-    Screen('TextSize', window, 70);
+    Screen('TextSize', window, 40);
     Screen('TextFont', window, 'Courier');
     DrawFormattedText(window, 'Loading...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
     Screen('Flip', window);
@@ -168,12 +175,15 @@ try
     end
 
     %% Instruction of the experiment
-    Explanation = ['In each trial, you will be presented with a picture on the screen for a short amount of time.\n' ...
+    Explanation = ['In each trial, you will be presented with a picture\n' ...
+                   'on the screen for a short amount of time.\n' ...
                    'Please view each picture freely, as you normally would.\n' ...
                    'There are no right or wrong ways to view the pictures.\n' ...
                    'Simply relax and look at the screen as you would in any everyday situation.\n' ...
-                   'Before starting each trial, you have to make sure you are looking at the center of the plus point (+) in the middle of the screen, and then press space to continue.\n\n' ...
-                   'The first 6 pictures are for practice.\n'
+                   'Before starting each trial, you have to make sure\n' ...
+                   'you are looking at the center of the plus point(+)\n'...
+                   'in the middle of the screen, and then press space to continue.\n\n' ...
+                   'The first 6 pictures are for practice.\n\n\n\n\n'...
                    'Press any key to start the practice session'];
     
     DrawFormattedText(window, Explanation, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
@@ -183,6 +193,11 @@ try
     %% Prepare the log file
     logFilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_events.tsv']);
     logFile = fopen(logFilename, 'w');
+
+    if logFile == -1
+        error('cannot open the file')
+    end    
+
     %header
     fprintf(logFile, 'trial\timage\tfixation_flip_time\tspace_press_time\timage_flip_time\timage_stop_time\n');
 
@@ -368,7 +383,10 @@ try
     %% Shut down
     EThndl.deInit();
     sca;
-    fclose(logFile);
+    %%%%
+    if logFile ~= -1
+        fclose(logFile);
+    end  
 catch me
     try % try to save what has been recorded
         % Stop and save recording
@@ -385,16 +403,23 @@ catch me
 
         sca;
         ListenChar(0);
+        %%%%%
+        if logFile ~= -1
         fclose(logFile);
+        end
         rethrow(me);
 
     catch me2
 
         sca;
         ListenChar(0);
+        %%%%%
+        if logFile ~= -1
         fclose(logFile);
+        end
         rethrow(me2);
 
     end
 end
+
 sca;
