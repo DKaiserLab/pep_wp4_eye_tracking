@@ -114,7 +114,7 @@ try
     allCoords = [xCoords; yCoords];
     lineWidthPix = 4;
 
-    %% new Fixation Cross
+    %% new Fixation Cross 
     fixCrossDimPix2 = 40;
     xCoord2 = [-fixCrossDimPix2 fixCrossDimPix2 0 0];
     yCoord2 = [0 0 -fixCrossDimPix2 fixCrossDimPix2];
@@ -344,8 +344,16 @@ try
             EThndl.sendMessage('RECALIBRATE', GetSecs);
 
             ListenChar(-1);
+            try
             tobii.calVal{1} = EThndl.calibrate(window);
+            catch calibrationError
+                % Handle calibration error if needed
+                  disp('Calibration failed.');
             ListenChar(0);
+            rethrow(calibrationError);  
+            end
+           % Restore command window input
+           ListenChar(0);
 
             % Draw the fixation cross
             Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
