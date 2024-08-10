@@ -186,7 +186,7 @@ try
     recalibrationPress = KbName('r');
 
     % Loop through the images
-    num_prc_trials = 6;
+    num_prc_trials = 2;
     trial = 1 - num_prc_trials; % practice trial have trialnumber <1
     for i = 1:numImages
 
@@ -283,7 +283,7 @@ try
         end
 
         % Break (after every 100 images)
-        if mod(trial,100) == 0 && trial > 1
+        if mod(trial,5) == 0 && trial > 1
             BreakText = ['..Break...\n' ...
                          'You can rest for a minute.\n\n' ...
                          'Press any key to continue'];
@@ -358,9 +358,6 @@ catch me
     catch me2
         sca;
         ListenChar(0);
-        if logFile ~= -1
-            fclose(logFile);
-        end
         rethrow(me2);
     end
 end
