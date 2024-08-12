@@ -98,8 +98,9 @@ try
     Screen('Flip', window);
 
     %% Image
+    load('random_images.mat', 'randomOrder');
     % Folder containing the images
-    imageFolder = fullfile(pwd, '..', 'randomized_image');
+    imageFolder = fullfile(pwd, '..', 'All_images_anno');
     % List of all image files in the folder
     imageFiles = dir(fullfile(imageFolder, '*.jpg'));
     numImages = numel(imageFiles);
@@ -155,10 +156,11 @@ try
     loadedImages = cell(1, numImages);
     stim_info = struct;
     for i = 1:numImages
-        imagePath = fullfile(imageFolder, imageFiles(i).name);
+        imgIndex = randomOrder(i); 
+        imagePath = fullfile(imageFolder, imageFiles(imgIndex).name);
         theImage = imread(imagePath);
         resizedImage = imresize(theImage, [sizePixY, sizePixX]);
-        loadedImages{i} = resizedImage;
+        loadedImages{imgIndex} = resizedImage;
         % add randomized_image information
         [~,file_name,ext] = fileparts(imagePath);
         stim_info(1,i).fInfo = dir(imagePath);
@@ -171,7 +173,7 @@ try
     %% Create textures for the images
     imageTextures = cell(1, numImages);
     for i = 1:numImages
-        imageTextures{i} = Screen('MakeTexture', window, loadedImages{i});
+        imageTextures{imgIndex} = Screen('MakeTexture', window, loadedImages{imgIndex});
     end
 
     %% Instruction of the experiment
@@ -297,9 +299,9 @@ try
         %% Start trial
 
         % Display the image
-        Screen('DrawTexture', window, imageTextures{i});
+        Screen('DrawTexture', window, imageTextures{imgIndex});
         imageFlipTime = Screen('Flip', window);
-        EThndl.sendMessage(sprintf('STIM ON: %s', imageFiles(i).name), imageFlipTime);
+        EThndl.sendMessage(sprintf('STIM ON: %s', imageFiles(imgIndex).name), imageFlipTime);
 
         % Wait for the specified duration
         elapsedTime = 0;
@@ -314,11 +316,11 @@ try
         % Draw the fixation cross
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
         imageStopTime = Screen('Flip', window);
-        EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(i).name), imageStopTime);
+        EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(imgIndex).name), imageStopTime);
 
         % Log the trial information
         fprintf(logFile, '%d\t%s\t%.4f\t%.4f\t%.4f\t%.4f\n',...
-            trial, imageFiles(i).name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime);
+            trial, imageFiles(imgIndex).name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime);
 
         %% Practice session
         if trial == 0
