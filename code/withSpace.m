@@ -324,7 +324,10 @@ try
 
         %% Practice session
         if trial == 0
-            DrawFormattedText(window, '...The end of the Practice session...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+            Endprc = ['...The end of the Practice session...\n\n'... 
+                         'Do you have any questions?\n\n'...
+                         'Press any key to start the experiment'];
+            DrawFormattedText(window, Endprc, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
             EThndl.sendMessage('END OF PRACTICE', GetSecs);
             Screen('Flip', window);
             KbStrokeWait;
@@ -333,7 +336,7 @@ try
 
         %% Break (after every 100 images)
         if mod(trial,100) == 0 && trial > 1
-            BreakText = ['..Break...\n' 
+            BreakText = ['...Break...\n'... 
                          'You can rest for a minute.\n\n'...
                          'Press any key to continue'];
             DrawFormattedText(window, BreakText, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
@@ -415,10 +418,7 @@ catch me
 
         sca;
         ListenChar(0);
-        %%%%%
-        if logFile ~= -1
-        fclose(logFile);
-        end
+        
         rethrow(me2);
 
     end
