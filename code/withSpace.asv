@@ -299,7 +299,7 @@ try
         %% Start trial
 
         % Display the image
-        Screen('DrawTexture', window, imageTextures{i});
+        Screen('DrawTexture', window, imageTextures{imgIndex});
         imageFlipTime = Screen('Flip', window);
         EThndl.sendMessage(sprintf('STIM ON: %s', imageFiles(imgIndex).name), imageFlipTime);
 
@@ -331,25 +331,6 @@ try
             EThndl.sendMessage('END OF PRACTICE', GetSecs);
             Screen('Flip', window);
             KbStrokeWait;
-            %% 
-            %%%%%%%%%%% I add it here again
-            % Initialize eye tracker re-calibration
-            EThndl.sendMessage('RECALIBRATE', GetSecs);
-
-            ListenChar(-1);
-            tobii.calVal{1} = EThndl.calibrate(window);
-            ListenChar(0);
-
-            % Draw the fixation cross
-            Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
-            fixationFlipTime = Screen('Flip', window);
-            %on
-            EThndl.sendMessage('FIX ON', fixationFlipTime);
-
-            % start recording again
-            EThndl.buffer.start('gaze');
-            WaitSecs(0.8);
-            EThndl.sendMessage('start recording');
             EThndl.sendMessage('START EXPERIMENT', GetSecs);
         end
 
