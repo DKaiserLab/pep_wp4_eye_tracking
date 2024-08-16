@@ -1,0 +1,145 @@
+% this code is adapted from Titta, a toolbox providing access to
+% eye tracking functionality using Tobii eye trackers
+%
+% Titta can be found at https://github.com/dcnieho/Titta.
+%
+% Niehorster, D.C., Andersson, R. & Nystrom, M., (2020). Titta: A toolbox
+% for creating Psychtoolbox and Psychopy experiments with Tobii eye
+% trackers. Behavior Research Methods.
+% doi: https://doi.org/10.3758/s13428-020-01358-8
+%
+% it furthermore uses I2MC, make sure you downloaded it
+% and placed it in /function_library/I2MC
+
+clear variables; clear global; clear mex; close all; fclose('all'); clc
+dbstop if error % for debugging: trigger a debug point when an error occurs
+myDir = pwd;
+
+% params
+disttoscreen = 68;  % cm, change to whatever is appropriate, though it matters little for I2MC
+maxMergeDist = 15;
+minFixDur    = 60;
+
+% define subjets
+subs = {'thelasttrialll'};
+
+%% loop through subjects
+for sub = subs
+
+    if isnumeric(sub)
+        sub = num2str(sub);
+    elseif iscell(sub)
+        sub = char(sub);
+    end
+
+    %% setup directories
+    dirs.sub = fullfile('..','sourcedata', ['sub-', sub]);   % directory where subject mat files are placed
+    dirs.msgs  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'msgs');
+    if ~isfolder(dirs.msgs)
+        mkdir(dirs.msgs);
+    end
+    dirs.samples  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'samples');
+    if ~isfolder(dirs.samples)
+        mkdir(dirs.samples);
+    end
+    dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
+    dirs.stims = fullfile(myDir, '..', 'stimuli');
+    dirs.all_fix  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'all_fixations');
+    if ~isfolder(dirs.all_fix)
+        mkdir(dirs.all_fix);
+    end
+
+    % add directories path
+    addpath(genpath(dirs.funclib));
+
+    % check I2MC (fixation classifier) is available
+assert(~~exist('I2MCfunc','file'),'It appears that I2MC is not available. please follow the instructions in /demo_analysis/function_library/I2MC/get_I2MC.txt to download it.')
+
+
+    %% get all trials, parse into subject and stimulus
+    [files,nfiles]  = FileFromFolder(dirs.samples,[],'txt');
+    files           = parseFileNames(files);
+
+    % create textfile and open for writing fixations
+    fid = fopen(fullfile(dirs.all_fix,'allfixations.txt'),'w');
+    fprintf(fid,'Subject\tRunNr\tFixStart\tFixEnd\tFixDur\tXPos\tYPos\tRMSxy\tBCEA\tFixRangeX\tFixRangeY\n');
+
+    lastRead= '';
+    for p=1:nfiles
+        fprintf('%s:\n',files(p).fname);
+        % load data
+        data    = readNumericFile(fullfile(dirs.samples,files(p).name),7,1);
+
+        % load session data
+        sessionFileName = sprintf('%s.mat',files(p).subj);
+        if ~strcmp(lastRead,sessionFileName)
+            sess = load(fullfile(dirs.sub,sessionFileName),'expt','geometry','settings','systemInfo');
+        end
+
+        % load messges and trial mat file. We'll need to find when in trial the
+        % stimulus came on to use that as t==0
+        msgs    = loadMsgs(fullfile(dirs.msgs,[files(p).fname '.txt']));
+        [times,what,msgs] = parseMsgs(msgs);
+
+        %% set options for event detection
+        % make params struct (only have to specify those you want to be
+        % different from their defaults)
+        opt.xres          = sess.expt.winRect(3);
+        opt.yres          = sess.expt.winRect(4);
+        opt.missingx      = nan;
+        opt.missingy      = nan;
+        opt.scrSz         = [sess.geometry.displayArea.width sess.geometry.displayArea.height]/10;  % mm -> cm
+        opt.disttoscreen  = disttoscreen;
+        opt.freq          = sess.settings.freq;
+        if opt.freq>120
+            opt.downsamples   = [2 5 10];
+            opt.chebyOrder    = 8;
+        elseif opt.freq==120
+            opt.downsamples   = [2 3 5];
+            opt.chebyOrder    = 7;
+        else
+            % 90 Hz, 60 Hz, 30 Hz
+            opt.downsampFilter= false;
+            opt.downsamples   = [2 3];
+        end
+        if strcmp(sess.systemInfo.model,'X2-30_Compact')
+            if sess.settings.freq==40
+                % for some weird reason the X2-30 reports 40Hz even though it is 30
+                opt.freq = 30;
+            end
+        end
+        if opt.freq==30
+            warning('Be careful about using I2MC with data that is only 30 Hz. In a brief test, this did not appear to work well with the settings in this file.')
+        end
+        if (~isfield(opt,'downsampFilter') || opt.downsampFilter) && ~exist('cheby1','file')
+            warning('By default, I2MC runs a Chebyshev filter over the data as part of its operation. It appears that this filter (the function ''cheby1'' from the signal processing toolbox) is not available in your installation. I am thus disabling the filter.')
+            opt.downsampFilter= false;
+        end
+        opt.maxMergeDist  = maxMergeDist;
+        opt.minFixDur     = minFixDur;
+
+        %% event detection
+        % make data struct
+        clear dat;
+        dat.time        = (data(:,1)-double(times.start))./1000; % mu_s to ms, make samples relative to onset of picture
+        dat.left.X      = data(:,2);
+        dat.left.Y      = data(:,3);
+        dat.right.X     = data(:,4);
+        dat.right.Y     = data(:,5);
+        dat.left.pupil  = data(:,6);    % add pupil data to file. not used by I2MC but good for plotting
+        dat.right.pupil = data(:,7);
+        [fix,dat]       = I2MCfunc(dat,opt);
+
+        % collect info and store
+        dat.fix         = fix;
+        dat.I2MCopt     = opt;
+        save(fullfile(dirs.all_fix,[files(p).fname '.mat']),'dat');
+
+        % also store to text file
+        for f=1:numel(fix.start)
+            fprintf(fid,'%s\t%d\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f\n',files(p).subj, files(p).runnr, [fix.startT(f) fix.endT(f) fix.dur(f) fix.xpos(f) fix.ypos(f) fix.RMSxy(f), fix.BCEA(f), fix.fixRangeX(f), fix.fixRangeY(f)]);
+        end
+    end
+
+    rmpath(genpath(dirs.funclib));                  % cleanup path
+end

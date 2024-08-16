@@ -36,7 +36,7 @@ end
 EThndl.init();
 
 try
-    %% Set up 
+    %% Set up
     dat = struct();
     dat.subjctNumber = input('Enter subject number: ', 's');
     dat.age = input('Enter subject age: ', 's');
@@ -55,6 +55,7 @@ try
     dat.recordingDevice = EThndl.deviceName;
     dat.serialNumber = EThndl.serialNumber;
     dat.samplingFrequency = EThndl.frequency;
+    dat.viewing_dist_cm = 68;
     dat.recordingLocation = 'math. dept. JLU Giessen';
     dat.project = 'PEP_WP4';
 
@@ -123,7 +124,7 @@ try
     y_degree = 15;
 
     % Viewing distance in cm
-    viewing_dist = 68;
+    viewing_dist = dat.viewing_dist_cm;
 
     % Get the screen resolution in pixels per inch
     [width, height] = Screen('DisplaySize', window); % width and height in mm
@@ -145,12 +146,12 @@ try
     % get rectangle for image of correct size
     image_rect = CenterRectOnPointd([0 0 sizePixX sizePixY], xCenter, yCenter);
 
-    
+
     %% Preload and resize images
     loadedImages = cell(1, numImages);
     stim_info = struct;
     for i = 1:numImages
-        imgIndex = randomOrder(i); 
+        imgIndex = randomOrder(i);
         imagePath = fullfile(imageFolder, imageFiles(imgIndex).name);
         theImage = imread(imagePath);
         resizedImage = imresize(theImage, [sizePixY, sizePixX]);
@@ -172,16 +173,16 @@ try
 
     %% Instruction of the experiment
     Explanation = ['In each trial, you will be presented with a picture\n' ...
-                   'on the screen for a short amount of time.\n' ...
-                   'Please view each picture freely, as you normally would.\n' ...
-                   'There are no right or wrong ways to view the pictures.\n' ...
-                   'Simply relax and look at the screen as you would in any everyday situation.\n' ...
-                   'Before starting each trial, you have to make sure\n' ...
-                   'you are looking at the center of the fixation cross(+)\n'...
-                   'in the middle of the screen, and then press space to continue.\n\n' ...
-                   'The first 6 pictures are for practice.\n\n\n\n\n'...
-                   'Press any key to start the practice session'];
-    
+        'on the screen for a short amount of time.\n' ...
+        'Please view each picture freely, as you normally would.\n' ...
+        'There are no right or wrong ways to view the pictures.\n' ...
+        'Simply relax and look at the screen as you would in any everyday situation.\n' ...
+        'Before starting each trial, you have to make sure\n' ...
+        'you are looking at the center of the fixation cross(+)\n'...
+        'in the middle of the screen, and then press space to continue.\n\n' ...
+        'The first 6 pictures are for practice.\n\n\n\n\n'...
+        'Press any key to start the practice session'];
+
     DrawFormattedText(window, Explanation, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
     Screen('Flip', window);
     KbStrokeWait;
@@ -192,7 +193,7 @@ try
 
     if logFile == -1
         error('cannot open the file')
-    end    
+    end
 
     %header
     fprintf(logFile, 'trial\timage\tfixation_flip_time\tspace_press_time\timage_flip_time\timage_stop_time\n');
@@ -217,6 +218,30 @@ try
     num_prc_trials = 6;
     trial = 1 - num_prc_trials; % practive trial have trialnumber <1
     for i = 1:numImages
+
+        %% Break (after every 100 images)
+        if mod(trial,100) == 1 && trial > 1
+            BreakText = ['...Break...\n'...
+                'You can rest for a minute.\n\n'...
+                'Press any key to continue'];
+            DrawFormattedText(window, BreakText, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+            Screen('Flip', window);
+            EThndl.sendMessage('START BREAK', GetSecs);
+            KbStrokeWait;
+            EThndl.sendMessage('END BREAK', GetSecs);
+
+            %% Initialize eye tracker re-calibration
+            EThndl.sendMessage('RECALIBRATE', GetSecs);
+
+            ListenChar(-1);
+            tobii.calVal{1} = EThndl.calibrate(window);
+            ListenChar(0);
+
+            % start recording again
+            EThndl.buffer.start('gaze');
+            WaitSecs(0.8);
+            EThndl.sendMessage('start recording');
+        end
 
         % wait for 200ms
         WaitSecs(0.2)
@@ -256,14 +281,14 @@ try
             gazeX = [];
             gazeY = [];
             space_press_tim = [];
-            
+
             % Extract gaze coordinates (we'll use the average position of both eyes)
             if ~isempty(gazeData) || dummy_mode
                 gazeX = mean([gazeData(end).left.gazePoint.onDisplayArea(1), gazeData(end).right.gazePoint.onDisplayArea(1)]) * screenXpixels;
                 gazeY = mean([gazeData(end).left.gazePoint.onDisplayArea(2), gazeData(end).right.gazePoint.onDisplayArea(2)]) * screenYpixels;
 
                 if (~isempty(gazeX) && ~isnan(gazeX) && inRect([gazeX,gazeY], rect)) || dummy_mode
-           
+
                     % Wait for 'space' key press
                     [~, keyTime, keyCode] = KbCheck;
                     if keyCode(keyPress)
@@ -314,14 +339,14 @@ try
 
         %% Practice session
         if trial == 0
-            Endprc = ['...The end of the Practice session...\n\n'... 
-                         'Do you have any questions?\n\n'...
-                         'Press any key to start the experiment'];
+            Endprc = ['...The end of the Practice session...\n\n'...
+                'Do you have any questions?\n\n'...
+                'Press any key to start the experiment'];
             DrawFormattedText(window, Endprc, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
             EThndl.sendMessage('END OF PRACTICE', GetSecs);
             Screen('Flip', window);
             KbStrokeWait;
-            %% 
+            %%
             %%%%%%%%%%% I add it here again
             % Initialize eye tracker re-calibration
             EThndl.sendMessage('RECALIBRATE', GetSecs);
@@ -333,8 +358,6 @@ try
             % Draw the fixation cross
             Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
             fixationFlipTime = Screen('Flip', window);
-            %on
-            EThndl.sendMessage('FIX ON', fixationFlipTime);
 
             % start recording again
             EThndl.buffer.start('gaze');
@@ -342,37 +365,7 @@ try
             EThndl.sendMessage('start recording');
             EThndl.sendMessage('START EXPERIMENT', GetSecs);
         end
-
-        %% Break (after every 100 images)
-        if mod(trial,100) == 0 && trial > 1
-            BreakText = ['...Break...\n'... 
-                         'You can rest for a minute.\n\n'...
-                         'Press any key to continue'];
-            DrawFormattedText(window, BreakText, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
-            Screen('Flip', window);
-            EThndl.sendMessage('START BREAK', GetSecs);
-            KbStrokeWait;
-            EThndl.sendMessage('END BREAK', GetSecs);
-
-            %% Initialize eye tracker re-calibration
-            EThndl.sendMessage('RECALIBRATE', GetSecs);
-
-            ListenChar(-1);
-            tobii.calVal{1} = EThndl.calibrate(window);
-            ListenChar(0);
-
-            % Draw the fixation cross
-            Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
-            fixationFlipTime = Screen('Flip', window);
-            %on
-            EThndl.sendMessage('FIX ON', fixationFlipTime);
-
-            % start recording again
-            EThndl.buffer.start('gaze');
-            WaitSecs(0.8);
-            EThndl.sendMessage('start recording');
-        end
-
+        
         trial = trial + 1;
     end
 
@@ -400,7 +393,7 @@ try
     %%%%
     if logFile ~= -1
         fclose(logFile);
-    end  
+    end
 catch me
     try % try to save what has been recorded
         % Stop and save recording
@@ -410,7 +403,7 @@ catch me
         EThndl.sendMessage('STOP RECORDING', GetSecs);
         ET_dat = EThndl.collectSessionData();
         ET_dat.expt.winRect = [0, 0, screenXpixels, screenYpixels]; % anaylsis scripts need that information
-        ET_dat.expt.resolution = [screenXpixels, screenYpixels]; 
+        ET_dat.expt.resolution = [screenXpixels, screenYpixels];
         ET_dat.expt.stim = stim_info;
         EThndl.saveData(ET_dat, fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_physio']), true);
         EThndl.deInit();
@@ -419,7 +412,7 @@ catch me
         ListenChar(0);
         %%%%%
         if logFile ~= -1
-        fclose(logFile);
+            fclose(logFile);
         end
         rethrow(me);
 
@@ -427,7 +420,7 @@ catch me
 
         sca;
         ListenChar(0);
-        
+
         rethrow(me2);
 
     end
