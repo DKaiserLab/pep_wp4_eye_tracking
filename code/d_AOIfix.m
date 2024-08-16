@@ -1,9 +1,7 @@
-% this demo code is part of Titta, a toolbox providing convenient access to
+% this code is adapted from Titta, a toolbox providing access to
 % eye tracking functionality using Tobii eye trackers
 %
-% Titta can be found at https://github.com/dcnieho/Titta. Check there for
-% the latest version.
-% When using Titta, please cite the following paper:
+% Titta can be found at https://github.com/dcnieho/Titta.
 %
 % Niehorster, D.C., Andersson, R. & Nystrom, M., (2020). Titta: A toolbox
 % for creating Psychtoolbox and Psychopy experiments with Tobii eye
@@ -11,32 +9,43 @@
 % doi: https://doi.org/10.3758/s13428-020-01358-8
 
 clear variables; clear global; clear mex; close all; fclose('all'); clc
-
 dbstop if error % for debugging: trigger a debug point when an error occurs
+myDir = pwd;
 
-% setup directories
-myDir = fileparts(mfilename('fullpath'));
-cd(myDir);
-                                dirs.home       = cd;
-cd data;                        dirs.data       = cd;
-        cd samples_ophak;       dirs.samples    = cd;
-cd ..;  cd fixDet;              dirs.fix        = cd;
-cd ..;
-if ~isdir('AOIfix') %#ok<*ISDIR>
-    mkdir(fullfile(cd,'AOIfix'));
+% define subjets
+subs = [];
+dirs.sourcedata = fullfile('..','sourcedata');
+folders = dir(dirs.sourcedata);
+for n = numel(folders)
+    if contains({folders(n).name},'sub-')
+        subs{end+1} = strrep(folders(n).name, 'sub-', '');
+    end
 end
-        cd AOIfix;              dirs.AOIfix     = cd;
-cd ..;  cd msgs_ophak;          dirs.msgsO      = cd;
-cd ..;  cd mat;                 dirs.mat        = cd;
-cd ..;
-cd ..;
-cd function_library;            dirs.funclib    = cd;
-cd ..;
-cd AOIs;                        dirs.AOIs       = cd;
-cd ..;
-cd results;                     dirs.res        = cd;
-cd(dirs.home);
-addpath(genpath(dirs.funclib));                 % add dirs to path
+
+%% setup directories
+dirs.sub   = fullfile('..','sourcedata', ['sub-', sub]);   % directory where subject mat files are placed
+dirs.msgs  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'msgs');
+if ~isfolder(dirs.msgs)
+    mkdir(dirs.msgs);
+end
+dirs.samples = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'samples');
+if ~isfolder(dirs.samples)
+    mkdir(dirs.samples);
+end
+dirs.AOIfix = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'AOIfix');
+if ~isfolder(dirs.AOIfix)
+    mkdir(dirs.AOIfix);
+end
+dirs.AOIs = fullfile(myDir, '..', 'AOIs');
+if ~isfolder(dirs.AOIs)
+    mkdir(dirs.AOIs);
+end
+dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
+dirs.stims   = fullfile(myDir, '..', 'stimuli');
+
+% add directories path
+addpath(genpath(dirs.funclib));
+
 
 %*****************************************************************
 %*****************************************************************
@@ -62,33 +71,33 @@ AOInms  = {AOI.name};
 lastRead= '';
 for p=1:nfiles
     disp(files(p).fname)
-    
+
     % load fix data
     dat     = load(fullfile(dirs.fix,[files(p).fname '.mat'])); dat = dat.dat;
-    
+
     if isempty(dat.time)
         warning('no data for %s, empty file',files(p).fname);
         continue;
     end
-    
+
     % get msgs
     msgs    = loadMsgs(fullfile(dirs.msgsO,[files(p).fname '.txt']));
     [times,what,~] = parseMsgs(msgs);
 
     sessionFileName = sprintf('%s.mat',files(p).subj);
     if ~strcmp(lastRead,sessionFileName)
-        sess = load(fullfile(dirs.mat,sessionFileName),'expt');
+        sess = load(fullfile(dirs.sub,sessionFileName),'expt');
         lastRead = sessionFileName;
         fInfo = [sess.expt.stim.fInfo];
     end
     qWhich= strcmp({fInfo.name},what{1});
     assert(sum(qWhich)==1,'No or too many presentation info (texs field) found for this stimulus')
-    
+
     % get more info about stimulus shown etc
     tex     = sess.expt.stim(qWhich);
     qAOI    = strcmp(what{1},AOInms);
     assert(sum(qAOI)==1,'No or too many AOIs lists found for this stimulus: %s',what{1})
-    
+
     % throw out fixations that onset before first stimulus shown
     qDel = dat.fix.startT<=0;
     fields = fieldnames(dat.fix);
@@ -97,16 +106,16 @@ for p=1:nfiles
             dat.fix.(fields{f})(qDel) = [];
         end
     end
-    
+
     % check sizes are correct, i.e., AOI boolean images match in size with
     % shown images
     AOIbools    = {AOI(qAOI).AOIs.bool};
     szs         = cellfun(@size,AOIbools,'uni',false);
     assert(isequal(tex.size,szs{:}),'Some AOIs have wrong size (doesn''t match stimulus)');
-    
+
     % see which AOIs fixations are in
     temp    = detAOIfix(AOI(qAOI).AOIs,dat.fix.xpos,dat.fix.ypos,sess.expt.winRect(3:4),tex.scrRect,1./tex.scaleFac);
-    
+
     % use fixation ID to find corresponding info about the fixations.
     % This as one fixation can be in multiple AOIs
     fixAOI          = cell(size(temp,1),11);
@@ -116,7 +125,7 @@ for p=1:nfiles
         fnr = fixAOI{r,2};
         fixAOI(r,[1 3:9]) = {what{1},dat.fix.startT(fnr)/1000,dat.fix.dur(fnr)/1000,dat.fix.xpos(fnr),dat.fix.ypos(fnr),dat.fix.RMSxy(fnr),dat.fix.BCEA(fnr),dat.fix.fracinterped(fnr)*100};
     end
-    
+
     % open file, write data
     fid = fopen(fullfile(dirs.AOIfix,[files(p).fname '.tsv']),'wt');
     fprintf(fid,'stimulus name\tfixNr\tstartT\tduration\tX (pix)\tY (pix)\tRMS\tBCEA\tdata loss (%%)\tAOI nr\tAOI name\n');
