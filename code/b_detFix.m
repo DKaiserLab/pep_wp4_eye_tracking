@@ -21,7 +21,14 @@ maxMergeDist = 15;
 minFixDur    = 60;
 
 % define subjets
-subs = {'thelasttrialll'};
+subs = [];
+dirs.sourcedata = fullfile('..','sourcedata');
+folders = dir(dirs.sourcedata);
+for n = numel(folders)
+    if contains({folders(n).name},'sub-')
+        subs{end+1} = strrep(folders(n).name, 'sub-', '');
+    end
+end
 
 %% loop through subjects
 for sub = subs
@@ -33,7 +40,7 @@ for sub = subs
     end
 
     %% setup directories
-    dirs.sub = fullfile('..','sourcedata', ['sub-', sub]);   % directory where subject mat files are placed
+    dirs.sub   = fullfile('..','sourcedata', ['sub-', sub]);   % directory where subject mat files are placed
     dirs.msgs  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'msgs');
     if ~isfolder(dirs.msgs)
         mkdir(dirs.msgs);
@@ -42,8 +49,8 @@ for sub = subs
     if ~isfolder(dirs.samples)
         mkdir(dirs.samples);
     end
-    dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
-    dirs.stims = fullfile(myDir, '..', 'stimuli');
+    dirs.funclib  = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
+    dirs.stims    = fullfile(myDir, '..', 'stimuli');
     dirs.all_fix  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'all_fixations');
     if ~isfolder(dirs.all_fix)
         mkdir(dirs.all_fix);
@@ -53,7 +60,7 @@ for sub = subs
     addpath(genpath(dirs.funclib));
 
     % check I2MC (fixation classifier) is available
-assert(~~exist('I2MCfunc','file'),'It appears that I2MC is not available. please follow the instructions in /demo_analysis/function_library/I2MC/get_I2MC.txt to download it.')
+    assert(~~exist('I2MCfunc','file'),'It appears that I2MC is not available. please follow the instructions in /demo_analysis/function_library/I2MC/get_I2MC.txt to download it.')
 
 
     %% get all trials, parse into subject and stimulus

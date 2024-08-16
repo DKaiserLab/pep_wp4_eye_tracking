@@ -12,8 +12,15 @@ clear variables; clear global; clear mex; close all; fclose('all'); clc
 dbstop if error % for debugging: trigger a debug point when an error occurs
 myDir = pwd;
 
-% define subjets 
-subs = {'thelasttrialll'};
+% define subjets
+subs = [];
+dirs.sourcedata = fullfile('..','sourcedata');
+folders = dir(dirs.sourcedata);
+for n = numel(folders)
+    if contains({folders(n).name},'sub-')
+        subs{end+1} = strrep(folders(n).name, 'sub-', '');
+    end
+end
 
 %% loop through subjects
 for sub = subs
@@ -25,24 +32,29 @@ for sub = subs
     end
 
     %% setup directories
-    dirs.sub = fullfile('..','sourcedata', ['sub-', sub]);   % directory where subject mat files are placed
+    dirs.sub   = fullfile('..','sourcedata', ['sub-', sub]);   % directory where subject mat files are placed
     dirs.msgs  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'msgs');
     if ~isfolder(dirs.msgs)
         mkdir(dirs.msgs);
     end
-    dirs.samples  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'samples');
+    dirs.samples = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'samples');
     if ~isfolder(dirs.samples)
         mkdir(dirs.samples);
     end
+    dirs.validation = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'validation');
+    if ~isfolder(dirs.validation)
+        mkdir(dirs.validation);
+    end
     dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
-    dirs.stims = fullfile(myDir, '..', 'stimuli');
+    dirs.stims   = fullfile(myDir, '..', 'stimuli');
 
     % add directories path
-    addpath(genpath(dirs.funclib)); 
+    addpath(genpath(dirs.funclib));
 
-    %% cut up the data file into trials
+    % get files
     [files,nfiles] = FileFromFolder(dirs.sub,[],'mat');
 
+    %% cut up the data file into trials
     for p=1:nfiles
         disp(files(p).name)
         % read msgs and data
@@ -59,7 +71,7 @@ for sub = subs
         % coordinates into pixels
         samp    = [bsxfun(@times,dat.data.gaze.left.gazePoint.onDisplayArea,scrRes.'); bsxfun(@times,dat.data.gaze.right.gazePoint.onDisplayArea,scrRes.'); dat.data.gaze.left.pupil.diameter; dat.data.gaze.right.pupil.diameter];
         header  = {'t','gaze_point_LX','gaze_point_LY','gaze_point_RX','gaze_point_RY','pupil_diameter_L','pupil_diameter_R'};
-        
+
         % remove 'FIX ON' messages after start recording
         start_msgs = find(strcmp(dat.messages(:,2),'start recording'));
         for start_msg = start_msgs'
@@ -75,7 +87,7 @@ for sub = subs
         [timest,what,msgs] = parseMsgs(dat.messages);
 
         % split up trials and write
-        for q=1:length(timest.fix)
+        for q=1:length(timest.fix) % loop through trials
             fname = sprintf('%s_R%03d.txt',files(p).fname,q);
             fprintf('%s\n',fname);
 
@@ -100,15 +112,51 @@ for sub = subs
             fclose(fid);
 
             % copy stimuli, if needed
-            fInfo = [dat.expt.stim.fInfo];
-            qWhich= strcmp({fInfo.name},what{q});
+            fInfo  = [dat.expt.stim.fInfo];
+            qWhich = strcmp({fInfo.name},what{q});
             imgFile     = fullfile(dat.expt.stim(qWhich).fInfo.folder,what{q});
             imgFileOut  = fullfile(dirs.stims,what{q});
             if exist(imgFile,'file') && ~exist(imgFileOut,'file')
                 copyfile(imgFile,imgFileOut,'f');
             end
-        end
-    end
+
+            %% validation
+
+            % load calibration data file
+            C = load(fullfile(dirs.sub,files(p).name),'calibration');
+            if C.calibration{end}.wasSkipped
+                acc = nan(1,4);
+            elseif strcmp(C.calibration{end}.type,'standard')
+                sel = C.calibration{end}.selectedCal;
+                cal = C.calibration{end}.attempt{sel};
+                if ~isfield(cal.val{end},'acc1D')
+                    % no validation done
+                    acc = nan(1,8);
+                else
+                    acc = [cal.val{end}.acc1D cal.val{end}.RMS1D cal.val{end}.STD1D cal.val{end}.dataLoss*100]; % each [L R]
+                end
+            elseif strcmp(C.calibration{end}.type,'advanced')
+                sel = C.calibration{end}.selectedCal;
+                cal = C.calibration{end}.attempt{sel(1)};
+                if ~isfield(cal,'val')
+                    % no validation done
+                    acc = nan(1,8);
+                else
+                    % find the active/last valid validation for this
+                    % calibration, if any
+                    whichCals = cellfun(@(x) x.whichCal, cal.val);
+                    idx     = find(whichCals==sel(2),1,'last');
+                    if isempty(idx) || ~isfield(cal.val{idx},'allPoints')
+                        % no validation done for this calibration, or all
+                        % validation data discarded again by operator
+                        acc = nan(1,8);
+                    else
+                        acc = [cal.val{idx}.allPoints.acc1D cal.val{idx}.allPoints.RMS1D cal.val{idx}.allPoints.STD1D cal.val{idx}.allPoints.dataLoss*100]; % each [L R]
+                    end
+                end
+            end 
+        end % trial loop
+    end % file loop
 
     rmpath(genpath(dirs.funclib));                  % cleanup path
-end
+end % subject loop
