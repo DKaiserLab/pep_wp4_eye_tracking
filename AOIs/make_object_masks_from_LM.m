@@ -1,3 +1,7 @@
+% This script converts the object annotations from LabelMe (where polygons
+% define object edges) to binary mask. For each image, a folder is created 
+% with the image (jpg) and all object mask images (.png).
+
 % define folder where annotations are stored 
 home_annotations = 'C:\Users\JLU-SU\OneDrive - Justus-Liebig-Universität Gießen\Dokumente\GitHub\pep_wp4_eye_tracking\stimuli\annotations';
 cd(home_annotations)

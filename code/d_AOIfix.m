@@ -21,119 +21,120 @@ for n = numel(folders)
         subs{end+1} = strrep(folders(n).name, 'sub-', '');
     end
 end
+%% loop through subjects
+for sub = subs
 
-%% setup directories
-dirs.sub   = fullfile('..','sourcedata', ['sub-', sub]);   % directory where subject mat files are placed
-dirs.msgs  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'msgs');
-if ~isfolder(dirs.msgs)
-    mkdir(dirs.msgs);
-end
-dirs.samples = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'samples');
-if ~isfolder(dirs.samples)
-    mkdir(dirs.samples);
-end
-dirs.AOIfix = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'AOIfix');
-if ~isfolder(dirs.AOIfix)
-    mkdir(dirs.AOIfix);
-end
-dirs.AOIs = fullfile(myDir, '..', 'AOIs');
-if ~isfolder(dirs.AOIs)
-    mkdir(dirs.AOIs);
-end
-dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
-dirs.stims   = fullfile(myDir, '..', 'stimuli');
-
-% add directories path
-addpath(genpath(dirs.funclib));
-
-
-%*****************************************************************
-%*****************************************************************
-
-%%% get all trials, parse into subject and stimulus
-[files,nfiles] = FileFromFolder(dirs.fix,[],'mat');
-files           = parseFileNames(files);
-
-if 0
-    % filter so we only get data that matches the filter. uses regexp
-    filtstr = '^(?!01|02|03).*$';
-    results = regexpi({files.name}.',filtstr,'start');
-    files   = files(~cellfun(@isempty,results));
-    nfiles  = length(files);
-end
-
-% load all AOIs
-AOI     = loadAllAOIFolders(dirs.AOIs,'png');    % AOI is struct met alle gegevens van de AOI masks
-AOInms  = {AOI.name};
-
-% per subject, per trial, read data and see which AOIs fixations are in, if
-% any. 0 is other (no AOI), -1 is not on stimulus, -2 is out of screen
-lastRead= '';
-for p=1:nfiles
-    disp(files(p).fname)
-
-    % load fix data
-    dat     = load(fullfile(dirs.fix,[files(p).fname '.mat'])); dat = dat.dat;
-
-    if isempty(dat.time)
-        warning('no data for %s, empty file',files(p).fname);
-        continue;
+    if isnumeric(sub)
+        sub = num2str(sub);
+    elseif iscell(sub)
+        sub = char(sub);
     end
 
-    % get msgs
-    msgs    = loadMsgs(fullfile(dirs.msgsO,[files(p).fname '.txt']));
-    [times,what,~] = parseMsgs(msgs);
-
-    sessionFileName = sprintf('%s.mat',files(p).subj);
-    if ~strcmp(lastRead,sessionFileName)
-        sess = load(fullfile(dirs.sub,sessionFileName),'expt');
-        lastRead = sessionFileName;
-        fInfo = [sess.expt.stim.fInfo];
+    %% setup directories
+    dirs.sub   = fullfile('..','sourcedata', ['sub-', sub]);   % directory where subject mat files are placed
+    dirs.msgs  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'msgs');
+    if ~isfolder(dirs.msgs)
+        mkdir(dirs.msgs);
     end
-    qWhich= strcmp({fInfo.name},what{1});
-    assert(sum(qWhich)==1,'No or too many presentation info (texs field) found for this stimulus')
+    dirs.samples = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'samples');
+    if ~isfolder(dirs.samples)
+        mkdir(dirs.samples);
+    end
+    dirs.AOIfix = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'AOIfix');
+    if ~isfolder(dirs.AOIfix)
+        mkdir(dirs.AOIfix);
+    end
+    dirs.AOIs = fullfile(myDir, '..', 'AOIs');
+    if ~isfolder(dirs.AOIs)
+        mkdir(dirs.AOIs);
+    end
+    dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
+    dirs.stims   = fullfile(myDir, '..', 'stimuli');
 
-    % get more info about stimulus shown etc
-    tex     = sess.expt.stim(qWhich);
-    qAOI    = strcmp(what{1},AOInms);
-    assert(sum(qAOI)==1,'No or too many AOIs lists found for this stimulus: %s',what{1})
+    % add directories path
+    addpath(genpath(dirs.funclib));
 
-    % throw out fixations that onset before first stimulus shown
-    qDel = dat.fix.startT<=0;
-    fields = fieldnames(dat.fix);
-    for f=1:length(fields)
-        if ~isscalar(dat.fix.(fields{f}))
-            dat.fix.(fields{f})(qDel) = [];
+
+    %*****************************************************************
+    %*****************************************************************
+
+    %%% get all trials, parse into subject and stimulus
+    [files,nfiles] = FileFromFolder(dirs.all_fix,[],'mat');
+    files           = parseFileNames(files);
+
+    % load all AOIs
+    AOI     = loadAllAOIFolders(dirs.AOIs,'png');
+    AOInms  = {AOI.name};
+
+    % per subject, per trial, read data and see which AOIs fixations are in, if
+    % any. 0 is other (no AOI), -1 is not on stimulus, -2 is out of screen
+    lastRead= '';
+    for p=1:nfiles
+        disp(files(p).fname)
+
+        % load fix data
+        dat     = load(fullfile(dirs.all_fix,[files(p).fname '.mat'])); dat = dat.dat;
+
+        if isempty(dat.time)
+            warning('no data for %s, empty file',files(p).fname);
+            continue;
         end
+
+        % get msgs
+        msgs    = loadMsgs(fullfile(dirs.msgsO,[files(p).fname '.txt']));
+        [times,what,~] = parseMsgs(msgs);
+
+        sessionFileName = sprintf('%s.mat',files(p).subj);
+        if ~strcmp(lastRead,sessionFileName)
+            sess = load(fullfile(dirs.sub,sessionFileName),'expt');
+            lastRead = sessionFileName;
+            fInfo = [sess.expt.stim.fInfo];
+        end
+        qWhich= strcmp({fInfo.name},what{1});
+        assert(sum(qWhich)==1,'No or too many presentation info (texs field) found for this stimulus')
+
+        % get more info about stimulus shown etc
+        tex     = sess.expt.stim(qWhich);
+        qAOI    = strcmp(what{1},AOInms);
+        assert(sum(qAOI)==1,'No or too many AOIs lists found for this stimulus: %s',what{1})
+
+        % throw out fixations that onset before first stimulus shown
+        qDel = dat.fix.startT<=0;
+        fields = fieldnames(dat.fix);
+        for f=1:length(fields)
+            if ~isscalar(dat.fix.(fields{f}))
+                dat.fix.(fields{f})(qDel) = [];
+            end
+        end
+
+        % check sizes are correct, i.e., AOI boolean images match in size with
+        % shown images
+        AOIbools    = {AOI(qAOI).AOIs.bool};
+        szs         = cellfun(@size,AOIbools,'uni',false);
+        assert(isequal(tex.size,szs{:}),'Some AOIs have wrong size (doesn''t match stimulus)');
+
+        % see which AOIs fixations are in
+        temp    = detAOIfix(AOI(qAOI).AOIs,dat.fix.xpos,dat.fix.ypos,sess.expt.winRect(3:4),tex.scrRect,1./tex.scaleFac);
+
+        % use fixation ID to find corresponding info about the fixations.
+        % This as one fixation can be in multiple AOIs
+        fixAOI          = cell(size(temp,1),11);
+        fixAOI(:,2)     = temp(:,1);    % fixation sequence number
+        fixAOI(:,10:11) = temp(:,2:3);  % AOI sequence number and name
+        for r=1:size(fixAOI,1)
+            fnr = fixAOI{r,2};
+            fixAOI(r,[1 3:9]) = {what{1},dat.fix.startT(fnr)/1000,dat.fix.dur(fnr)/1000,dat.fix.xpos(fnr),dat.fix.ypos(fnr),dat.fix.RMSxy(fnr),dat.fix.BCEA(fnr),dat.fix.fracinterped(fnr)*100};
+        end
+
+        % open file, write data
+        fid = fopen(fullfile(dirs.AOIfix,[files(p).fname '.tsv']),'wt');
+        fprintf(fid,'stimulus name\tfixNr\tstartT\tduration\tX (pix)\tY (pix)\tRMS\tBCEA\tdata loss (%%)\tAOI nr\tAOI name\n');
+        schrijfdata = fixAOI.';
+        fprintf(fid,'%s\t%d\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f\t%.1f\t%d\t%s\n',schrijfdata{:});
+        fclose(fid);
     end
 
-    % check sizes are correct, i.e., AOI boolean images match in size with
-    % shown images
-    AOIbools    = {AOI(qAOI).AOIs.bool};
-    szs         = cellfun(@size,AOIbools,'uni',false);
-    assert(isequal(tex.size,szs{:}),'Some AOIs have wrong size (doesn''t match stimulus)');
+    fclose('all');
 
-    % see which AOIs fixations are in
-    temp    = detAOIfix(AOI(qAOI).AOIs,dat.fix.xpos,dat.fix.ypos,sess.expt.winRect(3:4),tex.scrRect,1./tex.scaleFac);
-
-    % use fixation ID to find corresponding info about the fixations.
-    % This as one fixation can be in multiple AOIs
-    fixAOI          = cell(size(temp,1),11);
-    fixAOI(:,2)     = temp(:,1);    % fixation sequence number
-    fixAOI(:,10:11) = temp(:,2:3);  % AOI sequence number and name
-    for r=1:size(fixAOI,1)
-        fnr = fixAOI{r,2};
-        fixAOI(r,[1 3:9]) = {what{1},dat.fix.startT(fnr)/1000,dat.fix.dur(fnr)/1000,dat.fix.xpos(fnr),dat.fix.ypos(fnr),dat.fix.RMSxy(fnr),dat.fix.BCEA(fnr),dat.fix.fracinterped(fnr)*100};
-    end
-
-    % open file, write data
-    fid = fopen(fullfile(dirs.AOIfix,[files(p).fname '.tsv']),'wt');
-    fprintf(fid,'stimulus name\tfixNr\tstartT\tduration\tX (pix)\tY (pix)\tRMS\tBCEA\tdata loss (%%)\tAOI nr\tAOI name\n');
-    schrijfdata = fixAOI.';
-    fprintf(fid,'%s\t%d\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f\t%.1f\t%d\t%s\n',schrijfdata{:});
-    fclose(fid);
+    rmpath(genpath(dirs.funclib));
 end
-
-fclose('all');
-
-rmpath(genpath(dirs.funclib));
