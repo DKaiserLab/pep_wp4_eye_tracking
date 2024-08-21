@@ -83,8 +83,15 @@ for sub = subs
             end
         end
 
+
         % parse messages by trials
         [timest,what,msgs] = parseMsgs(dat.messages);
+        %%%
+        timest.fix = timest.fix(7: end,1);
+        timest.start = timest.start(7:end, 1);
+        timest.end = timest.end(7:end, 1);
+        msgs = msgs(7:end);
+        what = what(7:end);
 
         % split up trials and write
         for q=1:length(timest.fix) % loop through trials
@@ -154,7 +161,7 @@ for sub = subs
                         acc = [cal.val{idx}.allPoints.acc1D cal.val{idx}.allPoints.RMS1D cal.val{idx}.allPoints.STD1D cal.val{idx}.allPoints.dataLoss*100]; % each [L R]
                     end
                 end
-            end 
+            end
         end % trial loop
     end % file loop
 
