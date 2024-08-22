@@ -48,6 +48,10 @@ for sub = subs
     if ~isfolder(dirs.AOIs)
         mkdir(dirs.AOIs);
     end
+    dirs.all_fix  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'all_fixations');
+    if ~isfolder(dirs.all_fix)
+        mkdir(dirs.all_fix);
+    end
     dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
     dirs.stims   = fullfile(myDir, '..', 'stimuli');
 
