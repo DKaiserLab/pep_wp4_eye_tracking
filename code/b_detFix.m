@@ -18,7 +18,7 @@ myDir = pwd;
 % params
 disttoscreen = 68;  % cm, change to whatever is appropriate, though it matters little for I2MC
 maxMergeDist = 15;
-minFixDur    = 60;
+minFixDur    = 100;
 
 % define subjets
 subs = [];
