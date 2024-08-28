@@ -54,8 +54,8 @@ try
     else; dat.gender = 'diverse'; 
     end
     if strcmp(dat.handedness,'1'); dat.handedness = 'left'; 
-    elseif strcmp(dat.handedness,'2'); dat.handedness = 'right';
-    else; dat.handedness = 'mixed'; 
+    elseif strcmp(dat.handedness,'2'); dat.handedness = 'female';
+    else; dat.handedness = 'diverse'; 
     end 
 
 
