@@ -3,7 +3,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = false; % true = to use without eye-tracker, false for normal use
+dummy_mode = true; % true = to use without eye-tracker, false for normal use
 %%%%%%%%%%
 %imitialize logFile
 logFile = -1;
@@ -316,7 +316,7 @@ try
         % Display the image
         Screen('DrawTexture', window, imageTextures{i});
         imageFlipTime = Screen('Flip', window);
-        EThndl.sendMessage(sprintf('STIM ON: %s', imageFiles(imgIndex).name), imageFlipTime);
+        EThndl.sendMessage(sprintf('STIM ON: %s', imageFiles(i).name), imageFlipTime);
 
         % Wait for the specified duration
         elapsedTime = 0;
@@ -331,11 +331,11 @@ try
         % Draw the fixation cross
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
         imageStopTime = Screen('Flip', window);
-        EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(imgIndex).name), imageStopTime);
+        EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(i).name), imageStopTime);
 
         % Log the trial information
         fprintf(logFile, '%d\t%s\t%.4f\t%.4f\t%.4f\t%.4f\n',...
-            trial, imageFiles(imgIndex).name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime);
+            trial, imageFiles(i).name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime);
 
         %% Practice session
         if trial == 0
