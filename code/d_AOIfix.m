@@ -85,7 +85,7 @@ for sub = subs
         end
 
         % get msgs
-        msgs    = loadMsgs(fullfile(dirs.msgsO,[files(p).fname '.txt']));
+        msgs    = loadMsgs(fullfile(dirs.msgs,[files(p).fname '.txt']));
         [times,what,~] = parseMsgs(msgs);
 
         sessionFileName = sprintf('%s.mat',files(p).subj);
@@ -115,9 +115,11 @@ for sub = subs
         % shown images
         AOIbools    = {AOI(qAOI).AOIs.bool};
         szs         = cellfun(@size,AOIbools,'uni',false);
+        tex.size = [tex.iInfo.Height, tex.iInfo.Width];
         assert(isequal(tex.size,szs{:}),'Some AOIs have wrong size (doesn''t match stimulus)');
 
         % see which AOIs fixations are in
+        tex.scaleFac = 1;
         temp    = detAOIfix(AOI(qAOI).AOIs,dat.fix.xpos,dat.fix.ypos,sess.expt.winRect(3:4),tex.scrRect,1./tex.scaleFac);
 
         % use fixation ID to find corresponding info about the fixations.
