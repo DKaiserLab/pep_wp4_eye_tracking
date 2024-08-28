@@ -41,12 +41,25 @@ try
     dat.subjctNumber = input('Enter subject number: ', 's');
     dat.age = input('Enter subject age: ', 's');
     dat.gender = input('Enter subject gender (1=M, 2=F, 3=D): ', 's');
-    dat.gender = input('Enter subject handedness (1=L, 2=R, 3=M): ', 's');
+    dat.handedness = input('Enter subject handedness (1=L, 2=R, 3=M): ', 's');
     % Create participant directory
     subjectDir = fullfile('..', 'sourcedata', ['sub-', char(dat.subjctNumber)]);
     if ~exist(subjectDir, 'dir')
         mkdir(subjectDir);
     end
+
+    % evaluate input
+    if strcmp(dat.gender,'1'); dat.gender = 'male'; 
+    elseif strcmp(dat.gender,'2'); dat.gender = 'female';
+    else; dat.gender = 'diverse'; 
+    end
+    if strcmp(dat.handedness,'1'); dat.handedness = 'left'; 
+    elseif strcmp(dat.handedness,'2'); dat.handedness = 'right';
+    else; dat.handedness = 'mixed'; 
+    end 
+
+
+
 
     % Additional metadata
     dat.date = datestr(now, 'yyyy-mm-dd');
@@ -316,7 +329,8 @@ try
         % Display the image
         Screen('DrawTexture', window, imageTextures{i});
         imageFlipTime = Screen('Flip', window);
-        EThndl.sendMessage(sprintf('STIM ON: %s', imageFiles(imgIndex).name), imageFlipTime);
+        current_image_name = [stim_info(1,i).fInfo.fname, stim_info(1,i).fInfo.ext];
+        EThndl.sendMessage(sprintf('STIM ON: %s', current_image_name), imageFlipTime);
 
         % Wait for the specified duration
         elapsedTime = 0;
@@ -331,11 +345,11 @@ try
         % Draw the fixation cross
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
         imageStopTime = Screen('Flip', window);
-        EThndl.sendMessage(sprintf('STIM OFF: %s', imageFiles(imgIndex).name), imageStopTime);
+        EThndl.sendMessage(sprintf('STIM OFF: %s', current_image_name), imageStopTime);
 
         % Log the trial information
         fprintf(logFile, '%d\t%s\t%.4f\t%.4f\t%.4f\t%.4f\n',...
-            trial, imageFiles(imgIndex).name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime);
+            trial, current_image_name, fixationFlipTime, space_press_time, imageFlipTime, imageStopTime);
 
         %% Practice session
         if trial == 0

@@ -91,7 +91,7 @@ for sub = subs
         end
         if ~isempty(img)
             % get position on screen
-            stimRect = [640, 360, 1920, 1080];
+            stimRect = sess.expt.stim(p).scrRect;
             img.x    = linspace(stimRect(1),stimRect(3),size(img.data,2));
             img.y    = linspace(stimRect(2),stimRect(4),size(img.data,1));
         end

@@ -83,10 +83,10 @@ for sub = subs
             end
         end
 
-
         % parse messages by trials
         [timest,what,msgs] = parseMsgs(dat.messages);
-        %%%
+
+        % remove first 9 trials (practice)
         timest.fix = timest.fix(7: end,1);
         timest.start = timest.start(7:end, 1);
         timest.end = timest.end(7:end, 1);
