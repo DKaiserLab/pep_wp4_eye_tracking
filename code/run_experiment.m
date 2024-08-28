@@ -242,18 +242,6 @@ try
             EThndl.sendMessage('START BREAK', GetSecs);
             KbStrokeWait;
             EThndl.sendMessage('END BREAK', GetSecs);
-
-            %% Initialize eye tracker re-calibration
-            EThndl.sendMessage('RECALIBRATE', GetSecs);
-
-            ListenChar(-1);
-            tobii.calVal{1} = EThndl.calibrate(window);
-            ListenChar(0);
-
-            % start recording again
-            EThndl.buffer.start('gaze');
-            WaitSecs(0.8);
-            EThndl.sendMessage('start recording');
         end
 
         % wait for 200ms
