@@ -59,8 +59,6 @@ try
     end 
 
 
-
-
     % Additional metadata
     dat.date = datestr(now, 'yyyy-mm-dd');
     dat.time = datestr(now, 'HH:MM:SS');
