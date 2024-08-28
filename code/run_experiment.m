@@ -3,7 +3,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = true; % true = to use without eye-tracker, false for normal use
+dummy_mode = false; % true = to use without eye-tracker, false for normal use
 %%%%%%%%%%
 %imitialize logFile
 logFile = -1;
@@ -41,7 +41,7 @@ try
     dat.subjctNumber = input('Enter subject number: ', 's');
     dat.age = input('Enter subject age: ', 's');
     dat.gender = input('Enter subject gender (1=M, 2=F, 3=D): ', 's');
-    dat.gender = input('Enter subject handedness (1=L, 2=R, 3=M): ', 's');
+    dat.handedness = input('Enter subject handedness (1=L, 2=R, 3=M): ', 's');
     % Create participant directory
     subjectDir = fullfile('..', 'sourcedata', ['sub-', char(dat.subjctNumber)]);
     if ~exist(subjectDir, 'dir')
