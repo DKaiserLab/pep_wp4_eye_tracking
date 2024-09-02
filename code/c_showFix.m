@@ -19,9 +19,9 @@ myDir = pwd;
 subs = [];
 dirs.sourcedata = fullfile('..','sourcedata');
 folders = dir(dirs.sourcedata);
-for n = numel(folders)
+for n = 1:numel(folders)
     if contains({folders(n).name},'sub-')
-        subs{end+1} = strrep(folders(n).name, 'sub-', '');
+        subs = [subs, {strrep(folders(n).name, 'sub-', '')}];
     end
 end
 
@@ -50,7 +50,7 @@ for sub = subs
     if ~isfolder(dirs.all_fix)
         mkdir(dirs.all_fix);
     end
-    dirs.AOImasks = fullfile(myDir, '..', 'AOImasks');
+    dirs.AOImasks = fullfile(myDir, '..', 'AOIs', 'AOImasks');
 
     % add directories path
     addpath(genpath(dirs.funclib));

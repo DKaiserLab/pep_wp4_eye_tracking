@@ -16,9 +16,9 @@ myDir = pwd;
 subs = [];
 dirs.sourcedata = fullfile('..','sourcedata');
 folders = dir(dirs.sourcedata);
-for n = numel(folders)
+for n = 1:numel(folders)
     if contains({folders(n).name},'sub-')
-        subs{end+1} = strrep(folders(n).name, 'sub-', '');
+        subs = [subs, {strrep(folders(n).name, 'sub-', '')}];
     end
 end
 
