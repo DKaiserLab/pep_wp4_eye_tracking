@@ -7,7 +7,7 @@ home_annotations = 'C:\Users\JLU-SU\OneDrive - Justus-Liebig-Universität Gieße
 cd(home_annotations)
 no_anno = [];
 
-D = LMdatabase(home_annotations);
+%D = LMdatabase(home_annotations);
 
 % Loop through all images in the annotation struct
 for i = 1:length(D)
@@ -51,6 +51,12 @@ for i = 1:length(D)
         
         % Get the name of the object
         obj_name = obj.name;
+
+        % Check if the object has is member of background 
+        background_objects = {'wall', 'floor', 'ground', 'ceiling'};
+        if ismember(obj_name, background_objects) 
+            continue; % Skip background objects
+        end
         
         % Initialize mask if the object is encountered for the first time
         if ~isKey(object_masks, obj_name)
