@@ -12,13 +12,22 @@ clear variables; clear global; clear mex; close all; fclose('all'); clc
 dbstop if error % for debugging: trigger a debug point when an error occurs
 myDir = pwd;
 
+% load all AOIs
+disp('Loading AOIs...')
+dirs.AOIs = fullfile(myDir, '..', 'AOIs');
+if ~isfolder(dirs.AOIs)
+    warning('AOI filder is missing');
+end
+AOI     = loadAllAOIFolders(dirs.AOIs,'png');
+AOInms  = {AOI.name};
+
 % define subjets
 subs = [];
 dirs.sourcedata = fullfile('..','sourcedata');
 folders = dir(dirs.sourcedata);
-for n = numel(folders)
+for n = 1:numel(folders)
     if contains({folders(n).name},'sub-')
-        subs{end+1} = strrep(folders(n).name, 'sub-', '');
+        subs = [subs, {strrep(folders(n).name, 'sub-', '')}];
     end
 end
 %% loop through subjects
@@ -44,10 +53,6 @@ for sub = subs
     if ~isfolder(dirs.AOIfix)
         mkdir(dirs.AOIfix);
     end
-    dirs.AOIs = fullfile(myDir, '..', 'AOIs');
-    if ~isfolder(dirs.AOIs)
-        mkdir(dirs.AOIs);
-    end
     dirs.all_fix  = fullfile(myDir, '..', 'derivatives', ['sub-', sub], 'all_fixations');
     if ~isfolder(dirs.all_fix)
         mkdir(dirs.all_fix);
@@ -58,17 +63,10 @@ for sub = subs
     % add directories path
     addpath(genpath(dirs.funclib));
 
-
-    %*****************************************************************
-    %*****************************************************************
-
     %%% get all trials, parse into subject and stimulus
     [files,nfiles] = FileFromFolder(dirs.all_fix,[],'mat');
     files           = parseFileNames(files);
 
-    % load all AOIs
-    AOI     = loadAllAOIFolders(dirs.AOIs,'png');
-    AOInms  = {AOI.name};
 
     % per subject, per trial, read data and see which AOIs fixations are in, if
     % any. 0 is other (no AOI), -1 is not on stimulus, -2 is out of screen
@@ -102,8 +100,8 @@ for sub = subs
         qAOI    = strcmp(what{1},AOInms);
         assert(sum(qAOI)==1,'No or too many AOIs lists found for this stimulus: %s',what{1})
 
-        % throw out fixations that onset before first stimulus shown
-        qDel = dat.fix.startT<=0;
+        % throw out fixations that onset earlier than 100 ms after stimulus onset
+        qDel = dat.fix.startT<=100;
         fields = fieldnames(dat.fix);
         for f=1:length(fields)
             if ~isscalar(dat.fix.(fields{f}))
@@ -118,8 +116,17 @@ for sub = subs
         tex.size = [tex.iInfo.Height, tex.iInfo.Width];
         assert(isequal(tex.size,szs{:}),'Some AOIs have wrong size (doesn''t match stimulus)');
 
+        % get scaling factor
+        imageWidth = tex.scrRect(3) - tex.scrRect(1);
+        imageHeight = tex.scrRect(4) - tex.scrRect(2);
+
+        scaleFacHeight = imageHeight/tex.size(1);
+        scaleFacWidth = imageWidth/tex.size(2); 
+        assert(round(scaleFacHeight, 1) == round(scaleFacWidth, 1))
+        tex.scaleFac = mean([scaleFacHeight,scaleFacWidth]);
+
+
         % see which AOIs fixations are in
-        tex.scaleFac = 1;
         temp    = detAOIfix(AOI(qAOI).AOIs,dat.fix.xpos,dat.fix.ypos,sess.expt.winRect(3:4),tex.scrRect,1./tex.scaleFac);
 
         % use fixation ID to find corresponding info about the fixations.

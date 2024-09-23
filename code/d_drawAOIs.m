@@ -14,31 +14,44 @@ clear variables; clear global; clear mex; close all; fclose('all'); clc
 
 dbstop if error % for debugging: trigger a debug point when an error occurs
 
-% setup directories
-myDir = fileparts(mfilename('fullpath'));
-cd(myDir);
-                                dirs.home       = cd;
-cd function_library;            dirs.funclib    = cd;
-cd ..;  cd stimuli;             dirs.stims      = cd;
-cd ..;  cd AOIs;                dirs.AOIs       = cd;
-cd ..;  cd results;             dirs.out        = cd;
-cd ..;
-addpath(genpath(dirs.funclib));                 % add dirs to path
 
-%*****************************************************************
-clr   = {[230 25 75],[245 130 49],[67 99 216],[255 225 25],[60 180 75],[128 0 0],[66 212 244],[240 50 230],[169 169 169]};
+%% setup directories
+myDir = pwd;
+dirs.AOImasks = fullfile(myDir, '..', 'AOIs', 'AOImasks');
+dirs.AOIs = fullfile(myDir, '..', 'AOIs');
+if ~isfolder(dirs.AOIs)
+    warning('AOI filder is missing');
+end
+dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
+dirs.stims   = fullfile(myDir, '..', 'stimuli');
+
+% add directories path
+addpath(genpath(dirs.funclib));
+
+% settings
 trans = [.35 .9];
 qAlsoIndivAOIs  = false;    % if true, also save image for each individual AOI
-%*****************************************************************
 
 % make AOI masks output folder
-dirs.out = fullfile(dirs.out,'AOImasks');
-if ~isdir(dirs.out) %#ok<ISDIR> 
-    mkdir(dirs.out);
+if isdir(dirs.AOImasks) %#ok<ISDIR> 
+    rmdir(dirs.AOImasks);
 end
 
 % see for which stimuli we have AOIs
+disp('Loading AOIs...')
 AOIs    = loadAllAOIFolders(dirs.AOIs,'png');
+
+% make AOI masks output folder
+if ~isdir(dirs.AOImasks) %#ok<ISDIR> 
+    mkdir(dirs.AOImasks);
+end
+
+% defrine colors
+aois_length = zeros(1,numel(AOIs));
+for num_aois = 1:numel(AOIs)
+    aois_length(num_aois) = numel(AOIs(num_aois).AOIs);
+end
+clr   = colormap(jet(max(aois_length)));
 
 for f=1:length(AOIs)
     img     = imread(fullfile(dirs.stims, AOIs(f).name));
@@ -46,9 +59,9 @@ for f=1:length(AOIs)
     fprintf(' %s\n',AOIs(f).name);
     
     if qAlsoIndivAOIs
-        dirs.outf = fullfile(dirs.out,[AOIs(f).name '_AOIs']);
-        if ~isdir(dirs.outf) %#ok<ISDIR> 
-            mkdir(dirs.outf);
+        dirs.AOImasksf = fullfile(dirs.AOImasks,[AOIs(f).name '_AOIs']);
+        if ~isdir(dirs.AOImasksf) %#ok<ISDIR> 
+            mkdir(dirs.AOImasksf);
         end
     end
     
@@ -56,14 +69,14 @@ for f=1:length(AOIs)
     for r=1:length(AOIs(f).AOIs)
         fprintf('  AOI: %s\n',AOIs(f).AOIs(r).name);
         
-        allAOI  = drawAOIsOnImage(allAOI,AOIs(f).AOIs(r).bool,clr{r},trans);
+        allAOI  = drawAOIsOnImage(allAOI,AOIs(f).AOIs(r).bool,clr(r,:),trans);
         
         if qAlsoIndivAOIs
-            AOIimage = drawAOIsOnImage(img ,AOIs(f).AOIs(r).bool,clr{r},trans);
+            AOIimage = drawAOIsOnImage(img ,AOIs(f).AOIs(r).bool,clr(r,:),trans);
             filenaam = [AOIs(f).AOIs(r).name '.jpg'];
-            imwrite(AOIimage,fullfile(dirs.outf,filenaam),'jpg');
+            imwrite(AOIimage,fullfile(dirs.AOImasksf,filenaam),'jpg');
         end
     end
     
-    imwrite(allAOI,fullfile(dirs.out,AOIs(f).name));
+    imwrite(allAOI,fullfile(dirs.AOImasks,AOIs(f).name));
 end
