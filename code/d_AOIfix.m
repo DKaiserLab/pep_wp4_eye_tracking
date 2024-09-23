@@ -36,6 +36,7 @@ for n = 1:numel(folders)
         subs = [subs, {strrep(folders(n).name, 'sub-', '')}];
     end
 end
+
 %% loop through subjects
 for sub = subs
 
