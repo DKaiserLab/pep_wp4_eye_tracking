@@ -12,11 +12,17 @@ clear variables; clear global; clear mex; close all; fclose('all'); clc
 dbstop if error % for debugging: trigger a debug point when an error occurs
 myDir = pwd;
 
+% add directories path
+dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
+dirs.stims   = fullfile(myDir, '..', 'stimuli');
+dirs.AOIs = fullfile(myDir, '..', 'AOIs');
+addpath(genpath(dirs.funclib));
+
+
 % load all AOIs
 disp('Loading AOIs...')
-dirs.AOIs = fullfile(myDir, '..', 'AOIs');
 if ~isfolder(dirs.AOIs)
-    warning('AOI filder is missing');
+    warning('AOI folder is missing');
 end
 AOI     = loadAllAOIFolders(dirs.AOIs,'png');
 AOInms  = {AOI.name};
@@ -57,11 +63,7 @@ for sub = subs
     if ~isfolder(dirs.all_fix)
         mkdir(dirs.all_fix);
     end
-    dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
-    dirs.stims   = fullfile(myDir, '..', 'stimuli');
 
-    % add directories path
-    addpath(genpath(dirs.funclib));
 
     %%% get all trials, parse into subject and stimulus
     [files,nfiles] = FileFromFolder(dirs.all_fix,[],'mat');
@@ -149,5 +151,6 @@ for sub = subs
 
     fclose('all');
 
-    rmpath(genpath(dirs.funclib));
 end
+
+rmpath(genpath(dirs.funclib));

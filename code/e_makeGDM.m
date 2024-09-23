@@ -60,14 +60,14 @@ for iSubj = 1:n
     end
     all_trials = dir(fullfile(FixData_dir,'sub-*'));
 
-    %FixData = LabeledFix.Data{1,iSubj}; %overwrites previous FixData, which is no longer needed
-
-%    LabeledFix.ObjectDwells(iSubj,:)       = zeros(1, NumObjsTotal);
+    % init data structures
     LabeledFix.ObjectDwellsMulti(iSubj,:)  = zeros(1, NumObjsTotal);
-%   LabeledFix.ObjectFixated(iSubj,:)      = zeros(1, NumObjsTotal);
     LabeledFix.ObjectMultiFixated(iSubj,:) = zeros(1, NumObjsTotal);
+    LabeledFix.isOdd(iSubj,:) = logical(zeros(1, NumObjsTotal));
     LabeledFix.ObjectDwellsMultiCate(iSubj,:) = zeros(1, height(category_file));
-%    IsOdd = logical(rem(FixData(:,1),2));%mark fixations in odd trials
+    LabeledFix.ObjectDwellsMultiCateOdd(iSubj,:) = zeros(1, height(category_file));
+    LabeledFix.ObjectDwellsMultiCateEven(iSubj,:) = zeros(1, height(category_file));
+
 
     ObjCount = 0;
     ObjEven  = [];
@@ -77,6 +77,9 @@ for iSubj = 1:n
         % get object in image
         image_name = char(log_file.image(iImg));
         ObjsInImg = dir(fullfile('..','AOIs',char(image_name),'*.png'));
+
+        % check whether image is odd
+        if mod(iImg, 2) == 1; isOdd = true; else; isOdd = false; end
 
         % get AOI fix data for image and participant
         warning off
@@ -98,40 +101,9 @@ for iSubj = 1:n
         for iObjs = 1:height(ObjsInImg)
             ObjCount = ObjCount + 1;
 
-
-            %             %Check if there are eyetracking data for this image from
-            %             %this participant (sometimes there are missing images)
-            %             if any(FixData(IsOdd,3) == uniqueIMG(iImg))
-            %                 ObjOdd   = [ObjOdd ObjCount]; %used to calculate split-half
-            %             elseif any(FixData(~IsOdd,3) == uniqueIMG(iImg))
-            %                 ObjEven  = [ObjEven ObjCount]; %used to calculate split-half
-            %             end
-            %
-            %             if ~any(FixData(:, 3) == uniqueIMG(iImg)) %if yes (missing)
-            %                 LabeledFix.ObjectDwells(iSubj,ObjCount)      = NaN;
-            %                 LabeledFix.ObjectDwellsMulti(iSubj,ObjCount) = NaN;
-            %                 LabeledFix.ObjectFixCount(iSubj,iImg)        = NaN;
-            %             elseif any(FixData(:, 3) == uniqueIMG(iImg)) %if there are existing eye-tracking data for this image
-
-            % get rows with object
             fix_data_obj = fix_data(fix_data.AOINr == iObjs,:);
 
-%             ObjRowsImg = FixData(:, 3)  == uniqueIMG(iImg);
-%             ObjRowsObj = FixData(:, 11) == iObjs; %list the rows of interest
-%             %multi objects
-%             ObjRowsImgMulti = FixData(:, 3)     == uniqueIMG(iImg);
-%             ObjRowsObjMulti = FixData(:, 12:18) == iObjs; %list the rows of interest
-% 
-%             [ObjRows, ObjCol] = find(ObjRowsImg & ObjRowsObj);
-%             [ObjRowsMulti, ObjColMulti] = find(ObjRowsImgMulti & ObjRowsObjMulti);
-% 
-%             if ~isempty(ObjRows) %if the current object was indeed fixated (otherwise it will be skipped and the zero (no dwell time) will remain)
-%                 LabeledFix.ObjectDwells(iSubj,ObjCount)  = nansum(FixData(ObjRows,9));%sum over all the rows were the current object was fixated and sum the durations
-%                 LabeledFix.ObjectFixated(iSubj,ObjCount) = LabeledFix.ObjectFixated(iSubj,ObjCount)+length(ObjRows);
-%             end
-
             if ~isempty(fix_data_obj) %if the current object was indeed fixated (otherwise it will be skipped and the zero (no dwell time) will remain)
-                
                 
                 %sum over all the rows were the current object was fixated and sum the durations
                 LabeledFix.ObjectDwellsMulti(iSubj,ObjCount)  = ...
@@ -142,11 +114,23 @@ for iSubj = 1:n
                 % check which category the stimulus belongs to
                 [~,obj_name,~] = fileparts(ObjsInImg(iObjs).name);
                 obj_idx = strcmp(table2cell(category_file), obj_name);
+
                 % if part of a category
                 if sum(sum(obj_idx)) > 0 
                     cate_num = find(sum(obj_idx, 2));
+
+                    % add dwell time to category
                     LabeledFix.ObjectDwellsMultiCate(iSubj,cate_num) = LabeledFix.ObjectDwellsMultiCate(iSubj,cate_num)...
-                        + nansum(fix_data_obj.duration)/LabeledFix.ObjectDwellTotal(iSubj,iImg);
+                        + sum(fix_data_obj.duration)/LabeledFix.ObjectDwellTotal(iSubj,iImg);
+
+                    % add dwell time to category seperate for odd and even trials
+                    if isOdd
+                        LabeledFix.ObjectDwellsMultiCateOdd(iSubj,cate_num) = LabeledFix.ObjectDwellsMultiCateOdd(iSubj,cate_num)...
+                            + sum(fix_data_obj.duration)/LabeledFix.ObjectDwellTotal(iSubj,iImg);
+                    else
+                        LabeledFix.ObjectDwellsMultiCateEven(iSubj,cate_num) = LabeledFix.ObjectDwellsMultiCateEven(iSubj,cate_num)...
+                            + sum(fix_data_obj.duration)/LabeledFix.ObjectDwellTotal(iSubj,iImg);
+                    end
                 end
             end
             %end
@@ -157,30 +141,30 @@ for iSubj = 1:n
         if ~any(isnan(LabeledFix.ObjectMultiFixated(iSubj,ObjCountinit:ObjCount)))
             LabeledFix.ObjectFixCount(iSubj,iImg) = sum(LabeledFix.ObjectDwellsMulti(iSubj,ObjCountinit:ObjCount)~= 0); %sum how many objects were fixated
         end
-        LabeledFix.Data{iImg,iSubj} = fix_data; %write back
+        
+        % mark odd trials
+        if isOdd
+            LabeledFix.isOdd(iSubj,ObjCountinit:ObjCount) = true;
+        else
+            LabeledFix.isOdd(iSubj,ObjCountinit:ObjCount) = false;
+        end
+        
+        %write data in struct
+        LabeledFix.Data{iImg,iSubj} = fix_data; 
     end % images
 end % subjects
 
-% %4. calculate pairwise comparisons between individuals,
-% %producing an Gaze Dissimilarity Matrix (GDM) by using
-% %euclidian distances (provides very similar results as correlation)
-% ObserverMatObjects     = squareform(rescale(pdist(nanzscore(LabeledFix.ObjectDwellsMulti, 0, 2),@naneucdist),0,1));
-% ObserverMatObjectsFix  = squareform(rescale(pdist(nanzscore(LabeledFix.ObjectMultiFixated, 0, 2),@naneucdist),0,1));
-% %pdist doesn't work with correlation as there are nans in the matrix: ObserverMatObjectsC = squareform(rescale(pdist(LabeledFix.ObjectDwells,'correlation'),0,1));
-% 
-% %     ObserverMatObjectsC = [zeros(30,30)];
-% %     for iParticipant1 = 1:30
-% %         for iParticipant2 = 1:30
-% %             PairCorr = corrcoef(LabeledFix.ObjectDwellsMulti(iParticipant1,:), LabeledFix.ObjectDwellsMulti(iParticipant2,:),'rows','pairwise');
-% %             ObserverMatObjectsC(iParticipant1,iParticipant2) = PairCorr(1,2);
-% %         end
-% %     end
-% %     ObserverMatObjectsC = 1-ObserverMatObjectsC;
-% %     ObserverMatObjectsC = rescale(ObserverMatObjectsC,0,1);
-% 
-% %5. split-half reliablity
-% ObserverMatOdd  = squareform(rescale(pdist(nanzscore(LabeledFix.ObjectDwellsMulti(:, ObjOdd),0,2),@naneucdist),0,1));
-% ObserverMatEven = squareform(rescale(pdist(nanzscore(LabeledFix.ObjectDwellsMulti(:, ObjEven),0,2),@naneucdist),0,1));
+%4. calculate pairwise comparisons between individuals,
+%producing an Gaze Dissimilarity Matrix (GDM) by using spearman
+%correlations
+[ObserverMatObjects, ~] = corr(LabeledFix.ObjectDwellsMulti', 'type', 'spearman', 'rows', 'complete');
+[ObserverMatObjectCategories, ~] = corr(LabeledFix.ObjectDwellsMultiCate', 'type', 'spearman', 'rows', 'complete');
+[ObserverMatObjectsFix, ~] = corr(LabeledFix.ObjectMultiFixated', 'type', 'spearman', 'rows', 'complete');
+
+%5. split-half reliablity - single object dwell time
+[ObserverMatOdd, ~] = corr(LabeledFix.ObjectDwellsMulti(:,LabeledFix.isOdd(1,:))', 'type', 'spearman', 'rows', 'complete');
+[ObserverMatEven, ~] = corr(LabeledFix.ObjectDwellsMulti(:,~LabeledFix.isOdd(1,:))', 'type', 'spearman', 'rows', 'complete');
+
 % fs = filesep();
 % CreateDissimilarityPlots(ObserverMatOdd, 'ObserverMatObjectsOdd', ['GDM:'...
 %     sprintf('\n Object dwell time')], ['data' fs 'gaze' fs 'Results' fs]);
@@ -188,30 +172,56 @@ end % subjects
 % CreateDissimilarityPlots(ObserverMatEven, 'ObserverMatObjectsEven', ['GDM:'...
 %     sprintf('\n Object dwell time')], ['data' fs 'gaze' fs 'Results' fs]);
 % save('data/gaze/Results/ObserverMatEven','ObserverMatEven')
-% %odd
-% [C] = triuMatrix(ObserverMatOdd);
-% %even
-% [D] = triuMatrix(ObserverMatEven);
-% 
-% %correlation
-% [R, p] = corr(C, D);
-% disp(['pearsons r: ' num2str(R) ', p = ' num2str(p)]);
-% [R, p] = corr(C, D,'Type','Spearman');
-% disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
-% 
-% 
-% %for fixations: %5. split-half reliablity
-% ObserverFixOdd  = squareform(rescale(pdist(nanzscore(LabeledFix.ObjectMultiFixated(:, ObjOdd),0,2),@naneucdist),0,1));
-% ObserverFixEven = squareform(rescale(pdist(nanzscore(LabeledFix.ObjectMultiFixated(:, ObjEven),0,2),@naneucdist),0,1));
-% 
-% %odd
-% [A] = triuMatrix(ObserverFixOdd);
-% %even
-% [B] = triuMatrix(ObserverFixEven);
-% 
-% %correlation
-% [R, p] = corr(A, B);
-% disp(['pearsons r: ' num2str(R) ', p = ' num2str(p)]);
-% [R, p] = corr(A, B,'Type','Spearman');
-% disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
+
+%odd
+ObserverMatOdd(logical(eye(size(ObserverMatOdd)))) = 0;
+[C] = squareform(ObserverMatOdd);
+%even
+ObserverMatEven(logical(eye(size(ObserverMatEven)))) = 0;
+[D] = squareform(ObserverMatEven);
+
+%correlation
+disp('Single object dwell time')
+[R, p] = corr(C', D');
+disp(['pearsons r: ' num2str(R) ', p = ' num2str(p)]);
+[R, p] = corr(C', D','Type','Spearman');
+disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
+
+
+%for fixations: %5. split-half reliablity
+[ObserverFixOdd, ~] = corr(LabeledFix.ObjectMultiFixated(:,LabeledFix.isOdd(1,:))', 'type', 'spearman', 'rows', 'complete');
+[ObserverFixEven, ~] = corr(LabeledFix.ObjectMultiFixated(:,~LabeledFix.isOdd(1,:))', 'type', 'spearman', 'rows', 'complete');
+
+%odd
+ObserverFixOdd(logical(eye(size(ObserverFixOdd)))) = 0;
+[A] = squareform(ObserverFixOdd);
+%even
+ObserverFixEven(logical(eye(size(ObserverFixEven)))) = 0;
+[B] = squareform(ObserverFixEven);
+
+%correlation
+disp('Fixation count')
+[R, p] = corr(A', B');
+disp(['pearsons r: ' num2str(R) ', p = ' num2str(p)]);
+[R, p] = corr(A', B','Type','Spearman');
+disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
+
+
+%for category: %6. split-half reliablity
+[ObserverMatOddCate, ~] = corr(LabeledFix.ObjectDwellsMultiCateOdd', 'type', 'spearman', 'rows', 'complete');
+[ObserverMatEvenCate, ~] = corr(LabeledFix.ObjectDwellsMultiCateEven', 'type', 'spearman', 'rows', 'complete');
+
+%odd
+ObserverMatOddCate(logical(eye(size(ObserverMatOddCate)))) = 0;
+[E] = squareform(ObserverMatOddCate);
+%even
+ObserverMatEvenCate(logical(eye(size(ObserverMatEvenCate)))) = 0;
+[F] = squareform(ObserverMatEvenCate);
+
+%correlation
+disp('Category dwell time')
+[R, p] = corr(E', F');
+disp(['pearsons r: ' num2str(R) ', p = ' num2str(p)]);
+[R, p] = corr(E', F','Type','Spearman');
+disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
 
