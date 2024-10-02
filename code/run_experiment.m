@@ -3,7 +3,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = false; % true = to use without eye-tracker, false for normal use
+dummy_mode = true; % true = to use without eye-tracker, false for normal use
 %%%%%%%%%%
 %imitialize logFile
 logFile = -1;
@@ -16,24 +16,6 @@ home = cd;
 cd ..;
 addTittaToPath;
 cd(home);
-
-%% Get setup struct and configure settings
-settings = Titta.getDefaults('Tobii Pro Fusion');
-settings.debugMode = true; % Enable debug output
-calViz = AnimatedCalibrationDisplay();
-settings.cal.drawFunction = @calViz.doDraw;
-% scale down the span of the calibration point (we don't need to whole
-% screen)
-scaling_factor = 1.5;
-settings.val.pointPos = settings.val.pointPos / scaling_factor + 0.5 - 0.5 / scaling_factor;
-settings.cal.pointPos = settings.cal.pointPos / scaling_factor + 0.5 - 0.5 / scaling_factor;
-
-%% Initialize Titta
-EThndl = Titta(settings);
-if dummy_mode
-    EThndl = EThndl.setDummyMode();
-end
-EThndl.init();
 
 try
     %% Set up
@@ -84,7 +66,7 @@ try
     %% Open screen
     Screen('Preference', 'SkipSyncTests', 1);
     PsychDefaultSetup(2);
-
+    HideCursor
     screens = Screen('Screens');
     screenNumber = max(screens);
     [window, windowRect] = PsychImaging('OpenWindow', screenNumber, BlackIndex(screenNumber) / 2);
@@ -209,6 +191,50 @@ try
     %header
     fprintf(logFile, 'trial\timage\tfixation_flip_time\tspace_press_time\timage_flip_time\timage_stop_time\n');
 
+    %% Get setup struct and configure settings
+    settings = Titta.getDefaults('Tobii Pro Fusion');
+    settings.debugMode = true; % Enable debug output
+    calViz = AnimatedCalibrationDisplay();
+    settings.cal.drawFunction = @calViz.doDraw;
+
+    % scale down the span of the calibration point 
+    % (1.5 times as big as the presented simtuli)
+    scaling_factor = (sizePixX/screenXpixels) * 1.5;
+    center = 0.5;
+    top = 0.5 - 0.5 * scaling_factor;
+    bottom = 1 * scaling_factor + 0.5 - 0.5 * scaling_factor;
+
+    % get 9 calibration points (X-shaped)
+    calibrationPoints = [
+        top, top;  % Top-left
+        mean([top, center]), mean([top, center]);  % Intermediate top-left
+        bottom, top;  % Top-right
+        mean([bottom, center]), mean([top, center]);  % Intermediate top-right
+        center, center;  % Center
+        1, 0.5;  % Middle-right
+        mean([top, center]), mean([bottom, center]);  % Intermediate left-right
+        top, bottom;  % Bottom-left
+        mean([bottom, center]), mean([bottom, center]);  % Intermediate bottom-right
+        bottom, bottom];  % Bottom-right
+
+    % get 5 validation points (diament + center)
+    validationPoints = [
+        center, center;  % Center
+        mean([top, center]), center;  % Middle-left
+        center, mean([top, center]);  % Middle-top
+        mean([bottom, center]), center;  % Middle-right
+        center, mean([bottom, center])];  % Middle-bottom
+         
+    settings.val.pointPos = calibrationPoints;
+    settings.cal.pointPos = validationPoints;
+
+    %% Initialize Titta
+    EThndl = Titta(settings);
+    if dummy_mode
+        EThndl = EThndl.setDummyMode();
+    end
+    EThndl.init();
+
     %% Initialize eye tracker calibration
     ListenChar(-1);
     tobii.calVal{1} = EThndl.calibrate(window);
@@ -223,7 +249,9 @@ try
     KbName('UnifyKeyNames');
     abortKey = KbName('ESCAPE');
     keyPress = KbName('space');
-    recalibrationPress = KbName('r');
+    recalibrationKey = KbName('r');
+    showGazeKey = KbName('g');
+    hideGazeKey = KbName('h');
 
     %% Loop through the images
     num_prc_trials = 6;
@@ -249,6 +277,10 @@ try
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
         fixationFlipTime = Screen('Flip', window);
 
+        % default is not the show the gaze
+        showGaze = false;
+        rect_color = [255 182 193] / 255;  % Light pink color (RGB)
+
         %checking both x and y
         while true
 
@@ -256,7 +288,18 @@ try
             [~, ~, keyCode] = KbCheck;
             if keyCode(abortKey)
                 error('Experiment has been aborted');
-            elseif keyCode(recalibrationPress)
+
+            elseif keyCode(showGazeKey)
+                showGaze = true; % show gaze online
+
+            elseif keyCode(hideGazeKey)
+                showGaze = false; % stop showing gaze online
+
+                % Draw the fixation cross again
+                Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
+                Screen('Flip', window);
+
+            elseif keyCode(recalibrationKey)
 
                 %% Initialize eye tracker re-calibration
                 EThndl.sendMessage('RECALIBRATE', GetSecs);
@@ -281,12 +324,37 @@ try
             gazeY = [];
             space_press_tim = [];
 
+
             % Extract gaze coordinates (we'll use the average position of both eyes)
             if ~isempty(gazeData) || dummy_mode
                 gazeX = mean([gazeData(end).left.gazePoint.onDisplayArea(1), gazeData(end).right.gazePoint.onDisplayArea(1)]) * screenXpixels;
                 gazeY = mean([gazeData(end).left.gazePoint.onDisplayArea(2), gazeData(end).right.gazePoint.onDisplayArea(2)]) * screenYpixels;
 
+                % show ganz online if wanted
+                if showGaze
+
+                    % check if gaze data is there
+                    if isnan(gazeX) || isnan(gazeY)
+                        DrawFormattedText(window, 'No gaze data', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+                        Screen('Flip', window);
+
+                    else
+
+                        % draw the average gaze postion as a green dot
+                        % along with the fixation cross
+                        Screen('FillRect', window, rect_color, rect);  % Draw rectangle
+                        Screen('DrawDots', window, [gazeX, gazeY], 20, [0 255 0], [], 2);
+                        Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
+                        Screen('Flip', window);
+                    end
+                end
+
                 if (~isempty(gazeX) && ~isnan(gazeX) && inRect([gazeX,gazeY], rect)) || dummy_mode
+
+                    % change color of rectangle when showing gaze position
+                    if showGaze
+                        rect_color = [144 238 144] / 255;  % Light green color (RGB)
+                    end
 
                     % Wait for 'space' key press
                     [~, keyTime, keyCode] = KbCheck;
