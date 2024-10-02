@@ -3,7 +3,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = true; % true = to use without eye-tracker, false for normal use
+dummy_mode = false; % true = to use without eye-tracker, false for normal use
 %%%%%%%%%%
 %imitialize logFile
 logFile = -1;
@@ -40,14 +40,10 @@ try
     else; dat.handedness = 'mixed'; 
     end 
 
-
     % Additional metadata
     dat.date = datestr(now, 'yyyy-mm-dd');
     dat.time = datestr(now, 'HH:MM:SS');
     dat.recordingModality = 'eye-tracking';
-    dat.recordingDevice = EThndl.deviceName;
-    dat.serialNumber = EThndl.serialNumber;
-    dat.samplingFrequency = EThndl.frequency;
     dat.viewing_dist_cm = 68;
     dat.recordingLocation = 'math. dept. JLU Giessen';
     dat.project = 'PEP_WP4';
@@ -211,13 +207,13 @@ try
         bottom, top;  % Top-right
         mean([bottom, center]), mean([top, center]);  % Intermediate top-right
         center, center;  % Center
-        1, 0.5;  % Middle-right
+        bottom, center;  % Middle-right
         mean([top, center]), mean([bottom, center]);  % Intermediate left-right
         top, bottom;  % Bottom-left
         mean([bottom, center]), mean([bottom, center]);  % Intermediate bottom-right
         bottom, bottom];  % Bottom-right
 
-    % get 5 validation points (diament + center)
+    % get 5 validation points (diamant + center)
     validationPoints = [
         center, center;  % Center
         mean([top, center]), center;  % Middle-left
@@ -225,8 +221,8 @@ try
         mean([bottom, center]), center;  % Middle-right
         center, mean([bottom, center])];  % Middle-bottom
          
-    settings.val.pointPos = calibrationPoints;
-    settings.cal.pointPos = validationPoints;
+    settings.cal.pointPos = calibrationPoints;
+    settings.val.pointPos = validationPoints;
 
     %% Initialize Titta
     EThndl = Titta(settings);
@@ -234,6 +230,11 @@ try
         EThndl = EThndl.setDummyMode();
     end
     EThndl.init();
+
+    % add eye-tracker information to metadata
+    dat.recordingDevice = EThndl.deviceName;
+    dat.serialNumber = EThndl.serialNumber;
+    dat.samplingFrequency = EThndl.frequency;
 
     %% Initialize eye tracker calibration
     ListenChar(-1);
@@ -323,7 +324,7 @@ try
             gazeX = [];
             gazeY = [];
             space_press_tim = [];
-
+            
 
             % Extract gaze coordinates (we'll use the average position of both eyes)
             if ~isempty(gazeData) || dummy_mode
@@ -353,7 +354,8 @@ try
 
                     % change color of rectangle when showing gaze position
                     if showGaze
-                        rect_color = [144 238 144] / 255;  % Light green color (RGB)
+                        % Light green color for AOI recatangle
+                        rect_color = [144 238 144] / 255; 
                     end
 
                     % Wait for 'space' key press
@@ -367,6 +369,9 @@ try
                         error('Experiment has been aborted');
 
                     end
+                else
+                    % Light pink color for AOI rectangle
+                    rect_color = [255 182 193] / 255;  
                 end
             end
         end
