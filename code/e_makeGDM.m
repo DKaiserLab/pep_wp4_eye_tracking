@@ -54,6 +54,10 @@ category_file = category_file_all(category_file_all.Frequency >= 10, :);
 %3. gather individual dwell times
 
 for iSubj = 1:n
+
+    % run time control
+    disp(['Evaluating subject ',subs{iSubj}])
+
     FixData_dir = fullfile(pwd, '..', 'derivatives', ['sub-', subs{iSubj}], 'AOIfix');
     if ~isfolder(FixData_dir)
         disp(['Missing AOI fixation data for: ',subs{iSubj}]);
@@ -87,12 +91,14 @@ for iSubj = 1:n
         warning on
 
         % get sum of all fixations
-        LabeledFix.ObjectDwellTotal(iSubj,iImg) = fix_data.duration(1);
-        for ifix = 1:height(fix_data)
-            if ifix > 1
-                if fix_data.fixNr(ifix) ~= fix_data.fixNr(ifix-1)
-                    LabeledFix.ObjectDwellTotal(iSubj,iImg) = ...
-                        LabeledFix.ObjectDwellTotal(iSubj,iImg) + fix_data.duration(ifix);
+        if height(fix_data) > 0
+            LabeledFix.ObjectDwellTotal(iSubj,iImg) = fix_data.duration(1);
+            for ifix = 1:height(fix_data)
+                if ifix > 1
+                    if fix_data.fixNr(ifix) ~= fix_data.fixNr(ifix-1)
+                        LabeledFix.ObjectDwellTotal(iSubj,iImg) = ...
+                            LabeledFix.ObjectDwellTotal(iSubj,iImg) + fix_data.duration(ifix);
+                    end
                 end
             end
         end
