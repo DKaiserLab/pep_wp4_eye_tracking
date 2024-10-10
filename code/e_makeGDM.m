@@ -28,7 +28,7 @@ sourcedata_folder = dir(fullfile(pwd,'..','sourcedata','sub-*'));
 for n = 1:numel(sourcedata_folder)
     subs = [subs, {strrep(sourcedata_folder(n).name, 'sub-', '')}];
 end
-subs =subs (4:end);
+subs = subs(5:end); % removes pilot subjects
 n = length(subs);
 
 % get log file
@@ -73,6 +73,7 @@ for iCate = 1:length(categories)
     % get category memberships
     category_file_all = readtable(fullfile(pwd, '..', 'objectCategories.xlsx'),'Format','auto');
     category_file = category_file_all(category_file_all.([category, 'Frequency']) >= 10, :);
+    LabeledFix.(category).category_file = category_file;
 
     %% 3. gather individual dwell times
 
