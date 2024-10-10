@@ -51,10 +51,24 @@ for sub = subs
     % add directories path
     addpath(genpath(dirs.funclib));
 
+    %% check if subject was preprocessed already
+
+    % check sample output folder
+    check_files = dir(dirs.samples);
+
+    % check if files exist already, if yes skip that subject
+    if length({check_files.name}) > 100
+
+        % run time control
+        disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
+        continue
+    end
+
+    %% cut up the data file into trials
+
     % get files
     [files,nfiles] = FileFromFolder(dirs.sub,[],'mat');
 
-    %% cut up the data file into trials
     for p=1:nfiles
         disp(files(p).name)
         % read msgs and data

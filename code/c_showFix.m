@@ -16,14 +16,8 @@ dbstop if error % for debugging: trigger a debug point when an error occurs
 myDir = pwd;
 
 % define subjets
-subs = [];
-dirs.sourcedata = fullfile('..','sourcedata');
-folders = dir(dirs.sourcedata);
-for n = 1:numel(folders)
-    if contains({folders(n).name},'sub-')
-        subs = [subs, {strrep(folders(n).name, 'sub-', '')}];
-    end
-end
+subs = input('Subjects (input must be a cell like {''001''}): ');
+
 
 %% loop through subjects
 for sub = subs
