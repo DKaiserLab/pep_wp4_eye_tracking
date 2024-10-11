@@ -64,19 +64,22 @@ for sub = subs
     if ~isfolder(dirs.all_fix)
         mkdir(dirs.all_fix);
     end
+ 
+    % add directories path
+    addpath(genpath(dirs.funclib));
 
     %% check if subject was preprocessed already
 
     % check sample output folder
     check_files = dir(dirs.AOIfix);
 
-    % check if files exist already, if yes skip that subject
-    if length({check_files.name}) > 100
-
-        % run time control
-        disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
-        continue
-    end
+%     % check if files exist already, if yes skip that subject
+%     if length({check_files.name}) > 100
+% 
+%         % run time control
+%         disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
+%         continue
+%     end
 
     %% get all trials, parse into subject and stimulus
     [files,nfiles] = FileFromFolder(dirs.all_fix,[],'mat');
@@ -141,8 +144,37 @@ for sub = subs
         tex.scaleFac = mean([scaleFacHeight,scaleFacWidth]);
 
 
+        %%% add 0.5° visual angle as tolerance to the mask
+
+        % get tolerance area
+        if ~exist('tolerance', 'var')
+
+            % Visual angle in height (degrees)
+            visual_angle_height = 15;
+
+            % Calculate the height of the image in pixels
+            coords = sess.expt.stim(p).scrRect;
+            height_pixels = coords(4) - coords(2);  % bottom - top
+
+            % Calculate pixels per degree
+            pixels_per_degree = height_pixels / visual_angle_height;
+
+            % Calculate pixels for 0.5° of visual angle
+            tolerance = pixels_per_degree * 0.5;
+
+            % Calculate circular tolerance area
+            tolerance_area = strel('disk', round(tolerance) + 1);
+        end
+ 
+        % Create a structuring element with a round shape to extend the mask
+        currentAOIs = AOI(qAOI).AOIs;       
+        for iAOI = 1:length(currentAOIs)
+            % Dilate the mask by the structuring element
+            currentAOIs(iAOI).bool = imdilate(currentAOIs(iAOI).bool, tolerance_area);
+        end
+
         % see which AOIs fixations are in
-        temp    = detAOIfix(AOI(qAOI).AOIs,dat.fix.xpos,dat.fix.ypos,sess.expt.winRect(3:4),tex.scrRect,1./tex.scaleFac);
+        temp    = detAOIfix(currentAOIs,dat.fix.xpos,dat.fix.ypos,sess.expt.winRect(3:4),tex.scrRect,1./tex.scaleFac);
 
         % use fixation ID to find corresponding info about the fixations.
         % This as one fixation can be in multiple AOIs
