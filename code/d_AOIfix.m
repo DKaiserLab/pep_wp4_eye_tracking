@@ -69,10 +69,10 @@ for sub = subs
     addpath(genpath(dirs.funclib));
 
     %% check if subject was preprocessed already
-
-    % check sample output folder
-    check_files = dir(dirs.AOIfix);
-
+% 
+%     % check sample output folder
+%     check_files = dir(dirs.AOIfix);
+% 
 %     % check if files exist already, if yes skip that subject
 %     if length({check_files.name}) > 100
 % 
@@ -166,10 +166,9 @@ for sub = subs
             tolerance_area = strel('disk', round(tolerance) + 1);
         end
  
-        % Create a structuring element with a round shape to extend the mask
+        % Dilate the mask by the tolerance area
         currentAOIs = AOI(qAOI).AOIs;       
         for iAOI = 1:length(currentAOIs)
-            % Dilate the mask by the structuring element
             currentAOIs(iAOI).bool = imdilate(currentAOIs(iAOI).bool, tolerance_area);
         end
 
