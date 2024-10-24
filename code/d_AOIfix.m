@@ -69,17 +69,17 @@ for sub = subs
     addpath(genpath(dirs.funclib));
 
     %% check if subject was preprocessed already
-% 
-%     % check sample output folder
-%     check_files = dir(dirs.AOIfix);
-% 
-%     % check if files exist already, if yes skip that subject
-%     if length({check_files.name}) > 100
-% 
-%         % run time control
-%         disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
-%         continue
-%     end
+
+    % check sample output folder
+    check_files = dir(dirs.AOIfix);
+
+    % check if files exist already, if yes skip that subject
+    if length({check_files.name}) > 100
+
+        % run time control
+        disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
+        continue
+    end
 
     %% get all trials, parse into subject and stimulus
     [files,nfiles] = FileFromFolder(dirs.all_fix,[],'mat');
