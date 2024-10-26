@@ -115,7 +115,7 @@ try
     % Viewing distance in cm
     viewing_dist = dat.viewing_dist_cm;
 
-    % Get the screen resolution in pixels per inch
+    % Get the screen resolution in pixels per cm
     [width, height] = Screen('DisplaySize', window); % width and height in mm
     width = width / 10; % convert to cm
     height = height / 10; % convert to cm

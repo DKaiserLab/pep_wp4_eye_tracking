@@ -59,6 +59,19 @@ for sub = subs
     % add directories path
     addpath(genpath(dirs.funclib));
 
+    %% check if subject was preprocessed already
+    
+    % check sample output folder
+    check_files = dir(dirs.all_fix);
+
+    % check if files exist already, if yes skip that subject
+    if length({check_files.name}) > 100
+
+        % run time control
+        disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
+        continue
+    end
+
     % check I2MC (fixation classifier) is available
     assert(~~exist('I2MCfunc','file'),'It appears that I2MC is not available. please follow the instructions in /demo_analysis/function_library/I2MC/get_I2MC.txt to download it.')
 
