@@ -1,3 +1,4 @@
+function d = e_makeGDM(d, cfg)
 
 %This script is adapted from Kollenda and de Haas 2024 (https://osf.io/83mjc/)
 %It produces the Gaze Dissimilarity Matrix (GDM)
@@ -19,16 +20,19 @@
 %ObjectDwellsMulti.
 
 
-clear variables; clear global; clear mex; close all; fclose('all'); clc
 
 %% 2. initialize
 % define subjets
+
 subs = [];
-sourcedata_folder = dir(fullfile(pwd,'..','sourcedata','sub-*'));
-for n = 1:numel(sourcedata_folder)
-    subs = [subs, {strrep(sourcedata_folder(n).name, 'sub-', '')}];
+for sub = 1:numel(cfg.subNums)
+
+    if cfg.subNums(sub) < 10
+        subs = [subs, {['00', num2str(cfg.subNums(sub))]}];
+    elseif cfg.subNums(sub) < 100
+        subs = [subs, {['0', num2str(cfg.subNums(sub))]}];
+    end
 end
-subs = subs(5:end); % removes pilot subjects
 n = length(subs);
 
 % get log file
@@ -61,7 +65,7 @@ for iCate = 1:length(categories)
 
         % check if images belongs to current category
         if strcmp(currentImageCategory, category)
-            isCurrentCategory(iTrial) = true; 
+            isCurrentCategory(iTrial) = true;
 
             % get all object in that image
             object_masks = dir(fullfile('..','AOIs', img_name, '*.png'));
@@ -87,7 +91,7 @@ for iCate = 1:length(categories)
             disp(['Missing AOI fixation data for: ',subs{iSubj}]);
         end
 
-        % get current trials 
+        % get current trials
         all_trials = dir(fullfile(FixData_dir,'sub-*'));
         category_trials = all_trials(isCurrentCategory);
         category_idx = find(isCurrentCategory);
@@ -273,4 +277,8 @@ for iCate = 1:length(categories)
     [R, p] = corr(E', F','Type','Spearman');
     disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
 
+end
+
+% write to data structure
+d.GDM = LabeledFix;
 end
