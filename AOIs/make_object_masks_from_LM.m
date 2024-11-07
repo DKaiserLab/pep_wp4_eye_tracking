@@ -7,7 +7,7 @@ home_annotations = 'C:\Users\JLU-SU\OneDrive - Justus-Liebig-Universität Gieße
 cd(home_annotations)
 no_anno = [];
 
-%D = LMdatabase(home_annotations);
+D = LMdatabase(home_annotations);
 
 % Loop through all images in the annotation struct
 for i = 1:length(D)

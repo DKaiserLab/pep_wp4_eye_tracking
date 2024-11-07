@@ -73,13 +73,13 @@ for sub = subs
     % check sample output folder
     check_files = dir(dirs.AOIfix);
 
-%     % check if files exist already, if yes skip that subject
-%     if length({check_files.name}) > 100
-% 
-%         % run time control
-%         disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
-%         continue
-%     end
+    % check if files exist already, if yes skip that subject
+    if length({check_files.name}) > 100
+
+        % run time control
+        disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
+        continue
+    end
 
     %% get all trials, parse into subject and stimulus
     [files,nfiles] = FileFromFolder(dirs.all_fix,[],'mat');
@@ -166,10 +166,9 @@ for sub = subs
             tolerance_area = strel('disk', round(tolerance) + 1);
         end
  
-        % Create a structuring element with a round shape to extend the mask
+        % Dilate the mask by the tolerance area
         currentAOIs = AOI(qAOI).AOIs;       
         for iAOI = 1:length(currentAOIs)
-            % Dilate the mask by the structuring element
             currentAOIs(iAOI).bool = imdilate(currentAOIs(iAOI).bool, tolerance_area);
         end
 
