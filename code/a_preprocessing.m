@@ -9,7 +9,6 @@
 % doi: https://doi.org/10.3758/s13428-020-01358-8
 
 clear variables; clear global; clear mex; close all; fclose('all'); clc
-dbstop if error % for debugging: trigger a debug point when an error occurs
 myDir = pwd;
 
 % define subjets
