@@ -3,7 +3,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = false; % true = to use without eye-tracker, false for normal use
+dummy_mode = true; % true = to use without eye-tracker, false for normal use
 %%%%%%%%%%
 %imitialize logFile
 logFile = -1;
@@ -29,6 +29,9 @@ try
     if ~exist(subjectDir, 'dir')
         mkdir(subjectDir);
     end
+
+    % decide on experiment type
+    gaze_contingency = input('Gaze contingency 1=yes, 0=no: ');
 
     % evaluate input
     if strcmp(dat.gender,'1'); dat.gender = 'male'; 
@@ -134,6 +137,15 @@ try
 
     % get rectangle for image of correct size
     image_rect = CenterRectOnPointd([0 0 sizePixX sizePixY], xCenter, yCenter);
+
+    % get size for gaze contingency circle
+    if gaze_contingency == 1
+        cricle_degree = 3.5;
+
+        % Calculate the size in cm for the given visual angles
+        sizeCmCircle = 2 * viewing_dist * tan(deg2rad(cricle_degree) / 2);
+        sizePixCircle = round(sizeCmCircle * pixPerCmX);
+    end
 
 
     %% Preload and resize images
