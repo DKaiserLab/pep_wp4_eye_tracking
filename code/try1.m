@@ -401,22 +401,63 @@ try
 
         %% Start trial
 
-        % Display the image
-        Screen('DrawTexture', window, imageTextures{i});
+       
+    
         imageFlipTime = Screen('Flip', window);
         current_image_name = [stim_info(1,i).fInfo.fname, stim_info(1,i).fInfo.ext];
         EThndl.sendMessage(sprintf('STIM ON: %s', current_image_name), imageFlipTime);
-
-        % Wait for the specified duration
-        elapsedTime = 0;
+        
+        % time tracking
+        startTime = GetSecs;  
+        elapsedTime = 0;      
+        
+        % Get the current image (unblurred version) for this trial
+        currentImage = imread(fullfile(imageFolder, imageFiles(randomOrder(i)).name));
+        currentImage = imresize(currentImage, [sizePixY, sizePixX]); 
+        
+        % Loop ---> gaze-contingent update during image display
         while elapsedTime < (presentation_time - frame_duration * 0.5)
+        
+            % Check for abort key
             [~, ~, keyCode] = KbCheck;
             if keyCode(abortKey)
                 error('Experiment has been aborted');
             end
-            elapsedTime = GetSecs - imageFlipTime;
-            
+
+        % Fetch gaze data
+        gazeData = EThndl.buffer.peekN('gaze');
+        if ~isempty(gazeData)
+            % Compute gaze coordinates
+            gazeX = mean([gazeData(end).left.gazePoint.onDisplayArea(1), gazeData(end).right.gazePoint.onDisplayArea(1)]) * screenXpixels;
+            gazeY = mean([gazeData(end).left.gazePoint.onDisplayArea(2), gazeData(end).right.gazePoint.onDisplayArea(2)]) * screenYpixels;
+
+        % gaze contingent
+        if ~isnan(gazeX) && ~isnan(gazeY)
+            %  circular mask centered at gaze position
+            [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
+            mask = sqrt((X - (gazeX - xCenter + sizePixX / 2)).^2 + ...
+                        (Y - (gazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
+
+            % Apply unblur effect using the mask
+            unblurredImage = loadedImages{i};  
+            unblurredImage(repmat(mask, [1, 1, 3])) = currentImage(repmat(mask, [1, 1, 3])); 
+
+            % updated texture
+            imageTexture = Screen('MakeTexture', window, unblurredImage);
+            Screen('DrawTexture', window, imageTexture, [], image_rect);
+            Screen('Close', imageTexture);  
         end
+        else
+            % if no gaze data available
+            Screen('DrawTexture', window, imageTextures{i});
+        end
+    
+        % Update the screen
+        Screen('Flip', window);
+    
+        % Update elapsed time
+        elapsedTime = GetSecs - startTime;
+      end
 
         % Draw the fixation cross
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
