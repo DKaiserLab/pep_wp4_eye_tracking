@@ -12,9 +12,9 @@ logFile = -1;
 
 %%%%%%%%%
 %% Set up Titta for Tobii eye trackers
+addpath(fullfile(pwd, '..','..','Titta'))
 home = cd;
 cd ..;
-addpath('C:\GitHub\Titta')
 addTittaToPath;
 cd(home);
 
@@ -51,17 +51,8 @@ try
     dat.viewing_dist_cm = 68;
     dat.recordingLocation = 'math. dept. JLU Giessen';
     dat.project = 'PEP_WP4';
-
     taskLabel = 'EyeTracking';
-    % Save participant information in a JSON file
-    datfilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_participants.json']);
-    jsonText = jsonencode(dat);
-    fid = fopen(datfilename, 'w');
-    if fid == -1
-        error('Cannot create JSON file');
-    end
-    fwrite(fid, jsonText, 'char');
-    fclose(fid);
+
 
     %% Open screen
     Screen('Preference', 'SkipSyncTests', 1);
@@ -251,6 +242,16 @@ try
     dat.recordingDevice = EThndl.deviceName;
     dat.serialNumber = EThndl.serialNumber;
     dat.samplingFrequency = EThndl.frequency;
+
+    % Save participant information in a JSON file
+    datfilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_participants.json']);
+    jsonText = jsonencode(dat);
+    fid = fopen(datfilename, 'w');
+    if fid == -1
+        error('Cannot create JSON file');
+    end
+    fwrite(fid, jsonText, 'char');
+    fclose(fid);
 
     %% Initialize eye tracker calibration
     ListenChar(-1);

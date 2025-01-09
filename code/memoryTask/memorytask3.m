@@ -107,7 +107,8 @@ try
     for k = 1:numImages
         % Wait for key press
         KbReleaseWait;
-        %% importantttttt
+        
+        %% important
         % Reset `choice` for the trial
         choice = '';
         fprintf('Trial %d: Preparing images...\n', k);
