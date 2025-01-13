@@ -3,7 +3,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = true; % true = to use without eye-tracker, false for normal use
+dummy_mode = false; % true = to use without eye-tracker, false for normal use
 %%%%%%%%%%
 %imitialize logFile
 logFile = -1;
@@ -35,14 +35,14 @@ try
     gaze_contingency = input('Gaze contingency 1=yes, 0=no: ');
 
     % evaluate input
-    if strcmp(dat.gender,'1'); dat.gender = 'male'; 
+    if strcmp(dat.gender,'1'); dat.gender = 'male';
     elseif strcmp(dat.gender,'2'); dat.gender = 'female';
-    else; dat.gender = 'diverse'; 
+    else; dat.gender = 'diverse';
     end
-    if strcmp(dat.handedness,'1'); dat.handedness = 'left'; 
+    if strcmp(dat.handedness,'1'); dat.handedness = 'left';
     elseif strcmp(dat.handedness,'2'); dat.handedness = 'right';
-    else; dat.handedness = 'mixed'; 
-    end 
+    else; dat.handedness = 'mixed';
+    end
 
     % Additional metadata
     dat.date = datestr(now, 'yyyy-mm-dd');
@@ -76,6 +76,15 @@ try
     rectHeight = 50;
     rect = [xCenter - rectWidth/2; yCenter - rectHeight/2; ...
         xCenter + rectWidth/2; yCenter + rectHeight/2];
+
+    %% control refresh rate
+
+    desiredFps = 60;
+    originalFps = Screen('FrameRate', window);
+   
+    Oldres = SetResolution(screenNumber, screenXpixels, screenYpixels, desiredFps;
+    newFps = Screen('FrameRate', window);
+
 
     %% Instruction of the experiment
     Screen('TextSize', window, 40);
@@ -151,7 +160,7 @@ try
         % blur
         blurred = imgaussfilt(resizedImage,25);
         loadedImages{i} = blurred;
-        
+
         % add randomized_image information
         [~,file_name,ext] = fileparts(imagePath);
         stim_info(1,i).fInfo = dir(imagePath);
@@ -200,7 +209,7 @@ try
     calViz = AnimatedCalibrationDisplay();
     settings.cal.drawFunction = @calViz.doDraw;
 
-    % scale down the span of the calibration point 
+    % scale down the span of the calibration point
     % (1.5 times as big as the presented simtuli)
     scaling_factor = (sizePixX/screenXpixels) * 1.5;
     center = 0.5;
@@ -227,7 +236,7 @@ try
         center, mean([top, center]);  % Middle-top
         mean([bottom, center]), center;  % Middle-right
         center, mean([bottom, center])];  % Middle-bottom
-         
+
     settings.cal.pointPos = calibrationPoints;
     settings.val.pointPos = validationPoints;
 
@@ -341,7 +350,7 @@ try
             gazeX = [];
             gazeY = [];
             space_press_tim = [];
-            
+
 
             % Extract gaze coordinates (we'll use the average position of both eyes)
             if ~isempty(gazeData) || dummy_mode
@@ -372,7 +381,7 @@ try
                     % change color of rectangle when showing gaze position
                     if showGaze
                         % Light green color for AOI recatangle
-                        rect_color = [144 238 144] / 255; 
+                        rect_color = [144 238 144] / 255;
                     end
 
                     % Wait for 'space' key press
@@ -388,7 +397,7 @@ try
                     end
                 else
                     % Light pink color for AOI rectangle
-                    rect_color = [255 182 193] / 255;  
+                    rect_color = [255 182 193] / 255;
                 end
             end
         end
@@ -402,63 +411,70 @@ try
 
         %% Start trial
 
-       
-    
+        % Get the current image (blurred and unblurred version) for this trial
+        currentImage = imread(fullfile(imageFolder, imageFiles(randomOrder(i)).name));
+        currentImage = imresize(currentImage, [sizePixY, sizePixX]);
+        blurredImage = loadedImages{i};
+
+        % flip intial image
+        Screen('DrawTexture', window, imageTextures{i});
         imageFlipTime = Screen('Flip', window);
         current_image_name = [stim_info(1,i).fInfo.fname, stim_info(1,i).fInfo.ext];
         EThndl.sendMessage(sprintf('STIM ON: %s', current_image_name), imageFlipTime);
-        
+
         % time tracking
-        startTime = GetSecs;  
-        elapsedTime = 0;      
-        
-        % Get the current image (unblurred version) for this trial
-        currentImage = imread(fullfile(imageFolder, imageFiles(randomOrder(i)).name));
-        currentImage = imresize(currentImage, [sizePixY, sizePixX]); 
-        
-        % Loop ---> gaze-contingent update during image display
+        startTime = GetSecs;
+        elapsedTime = 0;
+
+
+        % Loop through trials 
         while elapsedTime < (presentation_time - frame_duration * 0.5)
-        
+
             % Check for abort key
             [~, ~, keyCode] = KbCheck;
             if keyCode(abortKey)
                 error('Experiment has been aborted');
             end
 
-        % Fetch gaze data
-        gazeData = EThndl.buffer.peekN('gaze');
-        if ~isempty(gazeData)
-            % Compute gaze coordinates
-            gazeX = mean([gazeData(end).left.gazePoint.onDisplayArea(1), gazeData(end).right.gazePoint.onDisplayArea(1)]) * screenXpixels;
-            gazeY = mean([gazeData(end).left.gazePoint.onDisplayArea(2), gazeData(end).right.gazePoint.onDisplayArea(2)]) * screenYpixels;
+            % gaze-contingent update during image display
+            if gaze_contingency == 1
 
-        % gaze contingent
-        if ~isnan(gazeX) && ~isnan(gazeY)
-            %  circular mask centered at gaze position
-            [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
-            mask = sqrt((X - (gazeX - xCenter + sizePixX / 2)).^2 + ...
-                        (Y - (gazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
+                % Fetch gaze data
+                gazeData = EThndl.buffer.peekN('gaze');
+                if ~isempty(gazeData)
 
-            % Apply unblur effect using the mask
-            unblurredImage = loadedImages{i};  
-            unblurredImage(repmat(mask, [1, 1, 3])) = currentImage(repmat(mask, [1, 1, 3])); 
+                    % Compute gaze coordinates
+                    gazeX = mean([gazeData(end).left.gazePoint.onDisplayArea(1), gazeData(end).right.gazePoint.onDisplayArea(1)]) * screenXpixels;
+                    gazeY = mean([gazeData(end).left.gazePoint.onDisplayArea(2), gazeData(end).right.gazePoint.onDisplayArea(2)]) * screenYpixels;
 
-            % updated texture
-            imageTexture = Screen('MakeTexture', window, unblurredImage);
-            Screen('DrawTexture', window, imageTexture, [], image_rect);
-            Screen('Close', imageTexture);  
+                    % gaze contingent
+                    if ~isnan(gazeX) && ~isnan(gazeY)
+
+                        %  circular mask centered at gaze position
+                        [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
+                        mask = sqrt((X - (gazeX - xCenter + sizePixX / 2)).^2 + ...
+                            (Y - (gazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
+
+                        % add unblurred circle based on bask
+                        blurredImage(repmat(mask, [1, 1, 3])) = currentImage(repmat(mask, [1, 1, 3]));
+
+                        % updated texture
+                        imageTexture = Screen('MakeTexture', window, unblurredImage);
+                        Screen('DrawTexture', window, imageTexture, [], image_rect);
+                        Screen('Close', imageTexture);
+                    end
+                else
+                    % if no gaze data available
+                    Screen('DrawTexture', window, imageTextures{i});
+                end
+
+                % Update the screen
+                Screen('Flip', window);
+            end
+
+            % Update elapsed time
+            elapsedTime = GetSecs - startTime;
         end
-        else
-            % if no gaze data available
-            Screen('DrawTexture', window, imageTextures{i});
-        end
-    
-        % Update the screen
-        Screen('Flip', window);
-    
-        % Update elapsed time
-        elapsedTime = GetSecs - startTime;
-      end
 
         % Draw the fixation cross
         Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
@@ -497,7 +513,7 @@ try
             EThndl.sendMessage('start recording');
             EThndl.sendMessage('START EXPERIMENT', GetSecs);
         end
-        
+
         trial = trial + 1;
     end
 
@@ -526,6 +542,7 @@ try
     if logFile ~= -1
         fclose(logFile);
     end
+
 catch me
     try % try to save what has been recorded
         % Stop and save recordingimgaussfilt
@@ -546,6 +563,8 @@ catch me
         if logFile ~= -1
             fclose(logFile);
         end
+
+
         rethrow(me);
 
     catch me2
