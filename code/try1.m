@@ -53,6 +53,21 @@ try
     dat.project = 'PEP_WP4';
     taskLabel = 'EyeTracking';
 
+    %% Control refreshrate
+
+    % define refrehrate
+    desiredRefreshRate = 60;
+
+    % get default estting of screen
+    defaultResolution = Screen('Resolution', screenNumber);
+
+    % Set the screen resolution and refresh rate
+    oldResolution = Screen('Resolution', screenNumber,...
+        defaultResolution.width, defaultResolution.height, desiredRefreshRate);
+
+    % Display the old resolution details (optional)
+    disp(['Old resolution: ', num2str(oldResolution.width), 'x', num2str(oldResolution.height), ...
+        ' at ', num2str(oldResolution.hz), ' Hz']);
 
     %% Open screen
     Screen('Preference', 'SkipSyncTests', 1);
@@ -60,6 +75,9 @@ try
     HideCursor
     screens = Screen('Screens');
     screenNumber = max(screens);
+
+
+    % open window
     [window, windowRect] = PsychImaging('OpenWindow', screenNumber, BlackIndex(screenNumber) / 2);
     Priority(1);
     Screen('BlendFunction', window, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');
@@ -76,14 +94,6 @@ try
     rectHeight = 50;
     rect = [xCenter - rectWidth/2; yCenter - rectHeight/2; ...
         xCenter + rectWidth/2; yCenter + rectHeight/2];
-
-    %% control refresh rate
-
-    desiredFps = 60;
-    originalFps = Screen('FrameRate', window);
-   
-    Oldres = SetResolution(screenNumber, screenXpixels, screenYpixels, desiredFps;
-    newFps = Screen('FrameRate', window);
 
 
     %% Instruction of the experiment
@@ -427,7 +437,7 @@ try
         elapsedTime = 0;
 
 
-        % Loop through trials 
+        % Loop through trials
         while elapsedTime < (presentation_time - frame_duration * 0.5)
 
             % Check for abort key
@@ -538,7 +548,10 @@ try
     %% Shut down
     EThndl.deInit();
     sca;
-    %%%%
+
+    % restore default screen settings
+    Screen('Resolution', screenNumber, oldResolution.width, oldResolution.height, oldResolution.hz);
+
     if logFile ~= -1
         fclose(logFile);
     end
@@ -559,17 +572,23 @@ catch me
 
         sca;
         ListenChar(0);
-        %%%%%
+
+        % restore default screen settings
+        Screen('Resolution', screenNumber, oldResolution.width, oldResolution.height, oldResolution.hz);
+
         if logFile ~= -1
             fclose(logFile);
         end
-
 
         rethrow(me);
 
     catch me2
 
         sca;
+
+        % restore default screen settings
+        Screen('Resolution', screenNumber, oldResolution.width, oldResolution.height, oldResolution.hz);
+
         ListenChar(0);
 
         rethrow(me2);
@@ -578,3 +597,5 @@ catch me
 end
 
 sca;
+% restore default screen settings
+Screen('Resolution', screenNumber, oldResolution.width, oldResolution.height, oldResolution.hz);
