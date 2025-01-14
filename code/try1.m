@@ -54,6 +54,8 @@ try
     taskLabel = 'EyeTracking';
 
     %% Control refreshrate
+    screens = Screen('Screens');
+    screenNumber = max(screens);
 
     % define refrehrate
     desiredRefreshRate = 60;
@@ -73,9 +75,6 @@ try
     Screen('Preference', 'SkipSyncTests', 1);
     PsychDefaultSetup(2);
     HideCursor
-    screens = Screen('Screens');
-    screenNumber = max(screens);
-
 
     % open window
     [window, windowRect] = PsychImaging('OpenWindow', screenNumber, BlackIndex(screenNumber) / 2);
@@ -151,11 +150,20 @@ try
 
     %% get size for gaze contingency circle
     if gaze_contingency == 1
-        cricle_degree = 3.5;
+
+        % define size of ganze-contingency mask (° visual angle)
+        cricle_degree = 4;
 
         % Calculate the size in cm for the given visual angles
         sizeCmCircle = 2 * viewing_dist * tan(deg2rad(cricle_degree) / 2);
         sizePixCircle = round(sizeCmCircle * pixPerCmX);
+
+        % define treshold for update of mask position (° visual angle)
+        update_treshold = 0.5;
+
+        % Calculate the size in cm for the given visual angles
+        sizeCmTreshold = 2 * viewing_dist * tan(deg2rad(update_treshold) / 2);
+        sizePixTreshold = round(sizeCmTreshold * pixPerCmX);
     end
 
 
@@ -167,9 +175,15 @@ try
         imagePath = fullfile(imageFolder, imageFiles(imgIndex).name);
         theImage = imread(imagePath);
         resizedImage = imresize(theImage, [sizePixY, sizePixX]);
-        % blur
+        % blur 
         blurred = imgaussfilt(resizedImage,25);
-        loadedImages{i} = blurred;
+        % reduce saturation
+        grayImg = rgb2gray(blurred); % convert to grayscale
+        grayImg = cat(3, grayImg, grayImg, grayImg); % replicate to RGB dimensions
+        blendFactor = 0.5; % set the desaturation level (0 = original, 1 = grayscale)
+        desaturatedImg = blurred * (1 - blendFactor) + grayImg * blendFactor; 
+        % add to loaded images
+        loadedImages{i} = desaturatedImg;
 
         % add randomized_image information
         [~,file_name,ext] = fileparts(imagePath);
@@ -424,7 +438,10 @@ try
         % Get the current image (blurred and unblurred version) for this trial
         currentImage = imread(fullfile(imageFolder, imageFiles(randomOrder(i)).name));
         currentImage = imresize(currentImage, [sizePixY, sizePixX]);
-        blurredImage = loadedImages{i};
+
+        % Initialize previous gaze position variables
+        prevGazeX = NaN;
+        prevGazeY = NaN;
 
         % flip intial image
         Screen('DrawTexture', window, imageTextures{i});
@@ -435,7 +452,6 @@ try
         % time tracking
         startTime = GetSecs;
         elapsedTime = 0;
-
 
         % Loop through trials
         while elapsedTime < (presentation_time - frame_duration * 0.5)
@@ -449,6 +465,9 @@ try
             % gaze-contingent update during image display
             if gaze_contingency == 1
 
+                % if no gaze data available
+                Screen('DrawTexture', window, imageTextures{i});
+
                 % Fetch gaze data
                 gazeData = EThndl.buffer.peekN('gaze');
                 if ~isempty(gazeData)
@@ -460,22 +479,42 @@ try
                     % gaze contingent
                     if ~isnan(gazeX) && ~isnan(gazeY)
 
-                        %  circular mask centered at gaze position
-                        [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
-                        mask = sqrt((X - (gazeX - xCenter + sizePixX / 2)).^2 + ...
-                            (Y - (gazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
+                        % calculate the distance from the previous gaze position
+                        if ~isnan(prevGazeX) && ~isnan(prevGazeY)
+                            distance = sqrt((gazeX - prevGazeX)^2 + (gazeY - prevGazeY)^2);
+                        else
+                            distance = Inf; % force update for the first frame
+                        end
+
+                        % only update the mask if the distance exceeds the threshold
+                        if distance > sizePixTreshold
+
+                            % update the previous gaze position
+                            prevGazeX = gazeX;
+                            prevGazeY = gazeY;
+
+                            %  circular mask centered at gaze position
+                            [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
+                            mask = sqrt((X - (gazeX - xCenter + sizePixX / 2)).^2 + ...
+                                (Y - (gazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
+                        end
 
                         % add unblurred circle based on bask
+                        blurredImage = loadedImages{i};
                         blurredImage(repmat(mask, [1, 1, 3])) = currentImage(repmat(mask, [1, 1, 3]));
 
                         % updated texture
-                        imageTexture = Screen('MakeTexture', window, unblurredImage);
+                        imageTexture = Screen('MakeTexture', window, blurredImage);
                         Screen('DrawTexture', window, imageTexture, [], image_rect);
                         Screen('Close', imageTexture);
+
+                    else
+                        % if gaze data is nan
+                        Screen('DrawTexture', window, imageTextures{i});
                     end
+
                 else
-                    % if no gaze data available
-                    Screen('DrawTexture', window, imageTextures{i});
+
                 end
 
                 % Update the screen
