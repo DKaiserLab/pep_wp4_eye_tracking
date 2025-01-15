@@ -159,7 +159,7 @@ try
         sizePixCircle = round(sizeCmCircle * pixPerCmX);
 
         % define treshold for update of mask position (° visual angle)
-        update_treshold = 0.5;
+        update_treshold = 1;
 
         % Calculate the size in cm for the given visual angles
         sizeCmTreshold = 2 * viewing_dist * tan(deg2rad(update_treshold) / 2);
