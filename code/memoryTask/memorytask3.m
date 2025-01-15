@@ -10,7 +10,7 @@ try
     
     % participant directory 
     currentDir = pwd; 
-    subjectDir = fullfile(currentDir, ['sub-', char(dat.subjctNumber)]);
+    subjectDir = fullfile(currentDir, '..', '..', 'sourcedata', ['sub-', char(dat.subjctNumber)]);
     if ~exist(subjectDir, 'dir')
         mkdir(subjectDir);
     end

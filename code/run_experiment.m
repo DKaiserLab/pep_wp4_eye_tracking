@@ -3,7 +3,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = true; % true = to use without eye-tracker, false for normal use
+dummy_mode = false; % true = to use without eye-tracker, false for normal use
 %%%%%%%%%%
 %imitialize logFile
 logFile = -1;
@@ -12,9 +12,9 @@ logFile = -1;
 
 %%%%%%%%%
 %% Set up Titta for Tobii eye trackers
+addpath(fullfile(pwd, '..','..','Titta'))
 home = cd;
 cd ..;
-addpath('C:\GitHub\Titta')
 addTittaToPath;
 cd(home);
 
@@ -35,14 +35,14 @@ try
     gaze_contingency = input('Gaze contingency 1=yes, 0=no: ');
 
     % evaluate input
-    if strcmp(dat.gender,'1'); dat.gender = 'male'; 
+    if strcmp(dat.gender,'1'); dat.gender = 'male';
     elseif strcmp(dat.gender,'2'); dat.gender = 'female';
-    else; dat.gender = 'diverse'; 
+    else; dat.gender = 'diverse';
     end
-    if strcmp(dat.handedness,'1'); dat.handedness = 'left'; 
+    if strcmp(dat.handedness,'1'); dat.handedness = 'left';
     elseif strcmp(dat.handedness,'2'); dat.handedness = 'right';
-    else; dat.handedness = 'mixed'; 
-    end 
+    else; dat.handedness = 'mixed';
+    end
 
     % Additional metadata
     dat.date = datestr(now, 'yyyy-mm-dd');
@@ -51,24 +51,32 @@ try
     dat.viewing_dist_cm = 68;
     dat.recordingLocation = 'math. dept. JLU Giessen';
     dat.project = 'PEP_WP4';
-
     taskLabel = 'EyeTracking';
-    % Save participant information in a JSON file
-    datfilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_participants.json']);
-    jsonText = jsonencode(dat);
-    fid = fopen(datfilename, 'w');
-    if fid == -1
-        error('Cannot create JSON file');
-    end
-    fwrite(fid, jsonText, 'char');
-    fclose(fid);
+
+    %% Control refreshrate
+    screens = Screen('Screens');
+    screenNumber = max(screens);
+
+    % define refrehrate
+    desiredRefreshRate = 60;
+
+    % get default estting of screen
+    defaultResolution = Screen('Resolution', screenNumber);
+
+    % Set the screen resolution and refresh rate
+    oldResolution = Screen('Resolution', screenNumber,...
+        defaultResolution.width, defaultResolution.height, desiredRefreshRate);
+
+    % Display the old resolution details (optional)
+    disp(['Old resolution: ', num2str(oldResolution.width), 'x', num2str(oldResolution.height), ...
+        ' at ', num2str(oldResolution.hz), ' Hz']);
 
     %% Open screen
     Screen('Preference', 'SkipSyncTests', 1);
     PsychDefaultSetup(2);
     HideCursor
-    screens = Screen('Screens');
-    screenNumber = max(screens);
+
+    % open window
     [window, windowRect] = PsychImaging('OpenWindow', screenNumber, BlackIndex(screenNumber) / 2);
     Priority(1);
     Screen('BlendFunction', window, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');
@@ -85,6 +93,7 @@ try
     rectHeight = 50;
     rect = [xCenter - rectWidth/2; yCenter - rectHeight/2; ...
         xCenter + rectWidth/2; yCenter + rectHeight/2];
+
 
     %% Instruction of the experiment
     Screen('TextSize', window, 40);
@@ -141,11 +150,20 @@ try
 
     %% get size for gaze contingency circle
     if gaze_contingency == 1
-        cricle_degree = 3.5;
+
+        % define size of ganze-contingency mask (° visual angle)
+        cricle_degree = 4;
 
         % Calculate the size in cm for the given visual angles
         sizeCmCircle = 2 * viewing_dist * tan(deg2rad(cricle_degree) / 2);
         sizePixCircle = round(sizeCmCircle * pixPerCmX);
+
+        % define treshold for update of mask position (° visual angle)
+        update_treshold = 0.5;
+
+        % Calculate the size in cm for the given visual angles
+        sizeCmTreshold = 2 * viewing_dist * tan(deg2rad(update_treshold) / 2);
+        sizePixTreshold = round(sizeCmTreshold * pixPerCmX);
     end
 
 
@@ -157,10 +175,16 @@ try
         imagePath = fullfile(imageFolder, imageFiles(imgIndex).name);
         theImage = imread(imagePath);
         resizedImage = imresize(theImage, [sizePixY, sizePixX]);
-        % blur
+        % blur 
         blurred = imgaussfilt(resizedImage,25);
-        loadedImages{i} = blurred;
-        
+        % reduce saturation
+        grayImg = rgb2gray(blurred); % convert to grayscale
+        grayImg = cat(3, grayImg, grayImg, grayImg); % replicate to RGB dimensions
+        blendFactor = 0.5; % set the desaturation level (0 = original, 1 = grayscale)
+        desaturatedImg = blurred * (1 - blendFactor) + grayImg * blendFactor; 
+        % add to loaded images
+        loadedImages{i} = desaturatedImg;
+
         % add randomized_image information
         [~,file_name,ext] = fileparts(imagePath);
         stim_info(1,i).fInfo = dir(imagePath);
@@ -209,7 +233,7 @@ try
     calViz = AnimatedCalibrationDisplay();
     settings.cal.drawFunction = @calViz.doDraw;
 
-    % scale down the span of the calibration point 
+    % scale down the span of the calibration point
     % (1.5 times as big as the presented simtuli)
     scaling_factor = (sizePixX/screenXpixels) * 1.5;
     center = 0.5;
@@ -236,7 +260,7 @@ try
         center, mean([top, center]);  % Middle-top
         mean([bottom, center]), center;  % Middle-right
         center, mean([bottom, center])];  % Middle-bottom
-         
+
     settings.cal.pointPos = calibrationPoints;
     settings.val.pointPos = validationPoints;
 
@@ -251,6 +275,16 @@ try
     dat.recordingDevice = EThndl.deviceName;
     dat.serialNumber = EThndl.serialNumber;
     dat.samplingFrequency = EThndl.frequency;
+
+    % Save participant information in a JSON file
+    datfilename = fullfile(subjectDir, ['sub-', dat.subjctNumber, '_task-', taskLabel, '_participants.json']);
+    jsonText = jsonencode(dat);
+    fid = fopen(datfilename, 'w');
+    if fid == -1
+        error('Cannot create JSON file');
+    end
+    fwrite(fid, jsonText, 'char');
+    fclose(fid);
 
     %% Initialize eye tracker calibration
     ListenChar(-1);
@@ -340,7 +374,7 @@ try
             gazeX = [];
             gazeY = [];
             space_press_tim = [];
-            
+
 
             % Extract gaze coordinates (we'll use the average position of both eyes)
             if ~isempty(gazeData) || dummy_mode
@@ -371,7 +405,7 @@ try
                     % change color of rectangle when showing gaze position
                     if showGaze
                         % Light green color for AOI recatangle
-                        rect_color = [144 238 144] / 255; 
+                        rect_color = [144 238 144] / 255;
                     end
 
                     % Wait for 'space' key press
@@ -387,7 +421,7 @@ try
                     end
                 else
                     % Light pink color for AOI rectangle
-                    rect_color = [255 182 193] / 255;  
+                    rect_color = [255 182 193] / 255;
                 end
             end
         end
@@ -401,21 +435,94 @@ try
 
         %% Start trial
 
-        % Display the image
+        % Get the current image (blurred and unblurred version) for this trial
+        currentImage = imread(fullfile(imageFolder, imageFiles(randomOrder(i)).name));
+        currentImage = imresize(currentImage, [sizePixY, sizePixX]);
+
+        % Initialize previous gaze position variables
+        prevGazeX = NaN;
+        prevGazeY = NaN;
+
+        % flip intial image
         Screen('DrawTexture', window, imageTextures{i});
         imageFlipTime = Screen('Flip', window);
         current_image_name = [stim_info(1,i).fInfo.fname, stim_info(1,i).fInfo.ext];
         EThndl.sendMessage(sprintf('STIM ON: %s', current_image_name), imageFlipTime);
 
-        % Wait for the specified duration
+        % time tracking
+        startTime = GetSecs;
         elapsedTime = 0;
+
+        % Loop through trials
         while elapsedTime < (presentation_time - frame_duration * 0.5)
+
+            % Check for abort key
             [~, ~, keyCode] = KbCheck;
             if keyCode(abortKey)
                 error('Experiment has been aborted');
             end
-            elapsedTime = GetSecs - imageFlipTime;
-            
+
+            % gaze-contingent update during image display
+            if gaze_contingency == 1
+
+                % if no gaze data available
+                Screen('DrawTexture', window, imageTextures{i});
+
+                % Fetch gaze data
+                gazeData = EThndl.buffer.peekN('gaze');
+                if ~isempty(gazeData)
+
+                    % Compute gaze coordinates
+                    gazeX = mean([gazeData(end).left.gazePoint.onDisplayArea(1), gazeData(end).right.gazePoint.onDisplayArea(1)]) * screenXpixels;
+                    gazeY = mean([gazeData(end).left.gazePoint.onDisplayArea(2), gazeData(end).right.gazePoint.onDisplayArea(2)]) * screenYpixels;
+
+                    % gaze contingent
+                    if ~isnan(gazeX) && ~isnan(gazeY)
+
+                        % calculate the distance from the previous gaze position
+                        if ~isnan(prevGazeX) && ~isnan(prevGazeY)
+                            distance = sqrt((gazeX - prevGazeX)^2 + (gazeY - prevGazeY)^2);
+                        else
+                            distance = Inf; % force update for the first frame
+                        end
+
+                        % only update the mask if the distance exceeds the threshold
+                        if distance > sizePixTreshold
+
+                            % update the previous gaze position
+                            prevGazeX = gazeX;
+                            prevGazeY = gazeY;
+
+                            %  circular mask centered at gaze position
+                            [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
+                            mask = sqrt((X - (gazeX - xCenter + sizePixX / 2)).^2 + ...
+                                (Y - (gazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
+                        end
+
+                        % add unblurred circle based on bask
+                        blurredImage = loadedImages{i};
+                        blurredImage(repmat(mask, [1, 1, 3])) = currentImage(repmat(mask, [1, 1, 3]));
+
+                        % updated texture
+                        imageTexture = Screen('MakeTexture', window, blurredImage);
+                        Screen('DrawTexture', window, imageTexture, [], image_rect);
+                        Screen('Close', imageTexture);
+
+                    else
+                        % if gaze data is nan
+                        Screen('DrawTexture', window, imageTextures{i});
+                    end
+
+                else
+
+                end
+
+                % Update the screen
+                Screen('Flip', window);
+            end
+
+            % Update elapsed time
+            elapsedTime = GetSecs - startTime;
         end
 
         % Draw the fixation cross
@@ -455,7 +562,7 @@ try
             EThndl.sendMessage('start recording');
             EThndl.sendMessage('START EXPERIMENT', GetSecs);
         end
-        
+
         trial = trial + 1;
     end
 
@@ -480,10 +587,14 @@ try
     %% Shut down
     EThndl.deInit();
     sca;
-    %%%%
+
+    % restore default screen settings
+    Screen('Resolution', screenNumber, oldResolution.width, oldResolution.height, oldResolution.hz);
+
     if logFile ~= -1
         fclose(logFile);
     end
+
 catch me
     try % try to save what has been recorded
         % Stop and save recordingimgaussfilt
@@ -500,15 +611,23 @@ catch me
 
         sca;
         ListenChar(0);
-        %%%%%
+
+        % restore default screen settings
+        Screen('Resolution', screenNumber, oldResolution.width, oldResolution.height, oldResolution.hz);
+
         if logFile ~= -1
             fclose(logFile);
         end
+
         rethrow(me);
 
     catch me2
 
         sca;
+
+        % restore default screen settings
+        Screen('Resolution', screenNumber, oldResolution.width, oldResolution.height, oldResolution.hz);
+
         ListenChar(0);
 
         rethrow(me2);
@@ -517,3 +636,5 @@ catch me
 end
 
 sca;
+% restore default screen settings
+Screen('Resolution', screenNumber, oldResolution.width, oldResolution.height, oldResolution.hz);
