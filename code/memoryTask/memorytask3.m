@@ -29,6 +29,34 @@ try
     [screenXpixels, screenYpixels] = Screen('WindowSize', window);
     [xCenter, yCenter] = RectCenter(windowRect);
     
+    %% screen
+    % define visual angle
+    x_degree = 19.9;
+    y_degree = 15;
+     % Viewing distance in cm
+    dat.viewing_dist_cm = 68;
+    viewing_dist = dat.viewing_dist_cm;
+
+    % Get the screen resolution in pixels per cm
+    [width, height] = Screen('DisplaySize', window); % width and height in mm
+    width = width / 10; % convert to cm
+    height = height / 10; % convert to cm
+
+    % Calculate pixels per centimeter
+    pixPerCmX = screenXpixels / width;
+    pixPerCmY = screenYpixels / height;
+
+    % Calculate the size in cm for the given visual angles
+    sizeCmX = 2 * viewing_dist * tan(deg2rad(x_degree) / 2);
+    sizeCmY = 2 * viewing_dist * tan(deg2rad(y_degree) / 2);
+
+    % Convert the size from cm to pixels
+    sizePixX = round(sizeCmX * pixPerCmX);
+    sizePixY = round(sizeCmY * pixPerCmY);
+
+    % get rectangle for image of correct size
+    image_rect = CenterRectOnPointd([0 0 sizePixX sizePixY], xCenter, yCenter);
+    
     %% Experiment Instructions
     Screen('TextSize', window, 40);
     Screen('TextFont', window, 'Courier');
@@ -36,49 +64,63 @@ try
     Screen('Flip', window);
     KbStrokeWait;
     
-    %% Load Images and Order
-    
-    imageFolderl = fullfile(currentDir, 'leftImages');
-    imageFolderr = fullfile(currentDir, 'rightImages');
-    
-    % Load .mat files 
-    load('left.mat', 'left');
-    load('right.mat', 'right');
-    
-    % List image files
-    imageFilesl = dir(fullfile(imageFolderl, '*.jpg'));
-    imageFilesr = dir(fullfile(imageFolderr, '*.jpg'));
-    
-    %check mat file
-    if max(left) > numel(imageFilesl) || max(right) > numel(imageFilesr)
-        error('The indices in left.mat or right.mat exceed the number of available images.');
-    end
-    
-    numImages = numel(left); % Use the number of trials defined in left.mat/right.mat
-    
-    %% Preload images
-    loadedImagesl = cell(1, numImages);
-    loadedImagesr = cell(1, numImages);
-    
-    for i = 1:numImages
-        
-        imagePathl = fullfile(imageFolderl, imageFilesl(left(i)).name);
-        imagePathr = fullfile(imageFolderr, imageFilesr(right(i)).name);
-        
-        theImagel = imread(imagePathl);
-        theImager = imread(imagePathr);
-        
-        %% Resize images 
-        % 50% of screen height
-        resizedHeight = screenYpixels * 0.5; % 50% of screen height
-        aspectRatioL = size(theImagel, 2) / size(theImagel, 1);
-        aspectRatioR = size(theImager, 2) / size(theImager, 1);
-        resizedWidthL = round(resizedHeight * aspectRatioL);
-        resizedWidthR = round(resizedHeight * aspectRatioR);
-        
-        loadedImagesl{i} = imresize(theImagel, [resizedHeight, resizedWidthL]);
-        loadedImagesr{i} = imresize(theImager, [resizedHeight, resizedWidthR]);
-    end
+   % Load .mat files
+load('left.mat', 'left');
+load('right.mat', 'right');
+
+% Validate the loaded variables
+if ~exist('left', 'var')
+    error('The variable "left" was not found in left.mat.');
+end
+if ~exist('right', 'var')
+    error('The variable "right" was not found in right.mat.');
+end
+
+% Load image files
+imageFilesl = dir(fullfile('leftImages', '*.jpg'));
+imageFilesr = dir(fullfile('rightImages', '*.jpg'));
+
+% Sort files by name to ensure correct order
+[~, idxl] = sort({imageFilesl.name});
+[~, idxr] = sort({imageFilesr.name});
+imageFilesl = imageFilesl(idxl);
+imageFilesr = imageFilesr(idxr);
+
+% Debug: Print sorted filenames to check order
+disp('Sorted filenames in leftImages:');
+disp({imageFilesl.name});
+disp('Sorted filenames in rightImages:');
+disp({imageFilesr.name});
+
+% Check if indices in left.mat and right.mat are valid
+if max(left) > numel(imageFilesl)
+    error('Index in left.mat exceeds the number of images in leftImages.');
+end
+if max(right) > numel(imageFilesr)
+    error('Index in right.mat exceeds the number of images in rightImages.');
+end
+
+% Preload images
+numImages = numel(left); % Number of trials from left.mat
+loadedImagesl = cell(1, numImages);
+loadedImagesr = cell(1, numImages);
+
+for i = 1:numImages
+    % File paths using indices from left.mat and right.mat
+    imagePathl = fullfile('leftImages', imageFilesl(left(i)).name);
+    imagePathr = fullfile('rightImages', imageFilesr(right(i)).name);
+
+    % Debug: Print mappings for verification
+    fprintf('Trial %d: Loading left image: %s (Index %d)\n', i, imageFilesl(left(i)).name, left(i));
+    fprintf('Trial %d: Loading right image: %s (Index %d)\n', i, imageFilesr(right(i)).name, right(i));
+
+    % Load and resize the images
+    theImagel = imread(imagePathl);
+    theImager = imread(imagePathr);
+
+    loadedImagesl{i} = imresize(theImagel, [sizePixY, sizePixX]);
+    loadedImagesr{i} = imresize(theImager, [sizePixY, sizePixX]);
+end
     
     %% Create textures for the images
     imageTexturesl = cell(1, numImages);
