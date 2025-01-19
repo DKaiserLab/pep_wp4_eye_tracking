@@ -58,7 +58,14 @@ try
     %% Experiment Instructions
     Screen('TextSize', window, 40);
     Screen('TextFont', window, 'Courier');
-    DrawFormattedText(window, 'Press any key to begin...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
+     Explanation = ['Two pictures will appear: one on the left and one on the right.\n\n'...
+                               'Identify which picture appeared in the eye-tracking experiment.\n\n'...
+                               'Press the left arrow key if the correct picture is on the left.\n'...
+                               'Press the right arrow key if the correct picture is on the right.\n\n\n'...
+                               'Press any key to start'];
+                               
+
+    DrawFormattedText(window, Explanation, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
     Screen('Flip', window);
     KbStrokeWait;
     DrawFormattedText(window, 'Loading...', 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
