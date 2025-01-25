@@ -123,9 +123,19 @@ try
     abortKey = KbName('ESCAPE');
 
     %% Define positions for left and right images
+
+    % define postion based on visual angle
+    x_postion = x_degree/2 + 2;
+
+    % Calculate the size in cm for the given visual angles
+    postionCmX = 2 * viewing_dist * tan(deg2rad(x_postion) / 2);
+
+    % Convert the size from cm to pixels
+    postionPixX = round(pixPerCmX * postionCmX);
+
     % 30% of screen width
-    leftX = xCenter - screenXpixels * 0.3;
-    rightX = xCenter + screenXpixels * 0.3;
+    leftX = xCenter - postionPixX;
+    rightX = xCenter + postionPixX;
     imageY = yCenter;
 
     %% Run trials
@@ -169,7 +179,7 @@ try
         %% Record response
         dat.results{k, 1} = trialOrder.expImg{k}; % experiment Image
         dat.results{k, 2} = trialOrder.novelImg{k}; % experiment Image
-        dat.results{k, 2} = trialOrder.expImgLocation{k}; % side of experiment image
+        dat.results{k, 3} = trialOrder.expImgLocation{k}; % side of experiment image
         dat.results{k, 4} = choice; % Choice (left or right)
         dat.results{k, 5} = num2str(strcmp(choice, ...
             trialOrder.expImgLocation{k})); % Accuracy
@@ -192,7 +202,7 @@ try
     %% Save results
     fprintf('Saving results...\n');
     resultsFile = fullfile(subjectDir, ['results_sub-', char(dat.subjctNumber), '.mat']);
-    save(resultsFile, 'results');
+    save(resultsFile, 'dat');
     fprintf('Results saved successfully.\n');
 
     %% end messagee
