@@ -176,11 +176,11 @@ try
         theImage = imread(imagePath);
         resizedImage = imresize(theImage, [sizePixY, sizePixX]);
         % blur 
-        blurred = imgaussfilt(resizedImage,25);
+        blurred = imgaussfilt(resizedImage, 20);
         % reduce saturation
         grayImg = rgb2gray(blurred); % convert to grayscale
         grayImg = cat(3, grayImg, grayImg, grayImg); % replicate to RGB dimensions
-        blendFactor = 0.5; % set the desaturation level (0 = original, 1 = grayscale)
+        blendFactor = 0.75; % set the desaturation level (0 = original, 1 = grayscale)
         desaturatedImg = blurred * (1 - blendFactor) + grayImg * blendFactor; 
         % add to loaded images
         loadedImages{i} = desaturatedImg;
