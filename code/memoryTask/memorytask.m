@@ -201,7 +201,7 @@ try
 
     %% Save results
     fprintf('Saving results...\n');
-    resultsFile = fullfile(subjectDir, ['results_sub-', char(dat.subjctNumber), '.mat']);
+    resultsFile = fullfile(subjectDir, ['memory_task_sub-', char(dat.subjctNumber), '.mat']);
     save(resultsFile, 'dat');
     fprintf('Results saved successfully.\n');
 
