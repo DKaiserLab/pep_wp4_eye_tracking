@@ -58,12 +58,12 @@ try
     %% Experiment Instructions
     Screen('TextSize', window, 40);
     Screen('TextFont', window, 'Courier');
-     Explanation = ['Two pictures will appear: one on the left and one on the right.\n\n'...
-                               'Identify which picture appeared in the eye-tracking experiment.\n\n'...
-                               'Press the left arrow key if the correct picture is on the left.\n'...
-                               'Press the right arrow key if the correct picture is on the right.\n\n\n'...
-                               'Press any key to start'];
-                               
+    Explanation = ['Two pictures will appear: one on the left and one on the right.\n\n'...
+        'Identify which picture appeared in the eye-tracking experiment.\n\n'...
+        'Press the left arrow key if the correct picture is on the left.\n'...
+        'Press the right arrow key if the correct picture is on the right.\n\n\n'...
+        'Press any key to start'];
+
 
     DrawFormattedText(window, Explanation, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
     Screen('Flip', window);
@@ -201,9 +201,8 @@ try
 
     %% Save results
     fprintf('Saving results...\n');
-    resultsFile = fullfile(subjectDir, ['memory_task_sub-', char(dat.subjctNumber), '.mat']);
-    save(resultsFile, 'dat');
-    fprintf('Results saved successfully.\n');
+    resultsFile = fullfile(subjectDir, ['memory_task_sub-', char(dat.subjctNumber), '.csv']);
+    writetable(cell2table(dat.results), resultsFile);
 
     %% end messagee
     DrawFormattedText(window, 'Thank you for participating!', 'center', 'center', WhiteIndex(screenNumber));
@@ -220,9 +219,8 @@ catch ME
     try
         %% Save results
         fprintf('Saving results...\n');
-        resultsFile = fullfile(subjectDir, ['results_sub-', char(dat.subjctNumber), '.mat']);
-        save(resultsFile, 'dat');
-        fprintf('Results saved successfully.\n');
+        resultsFile = fullfile(subjectDir, ['memory_task_sub-', char(dat.subjctNumber), '.csv']);
+        writetable(cell2table(dat.results), resultsFile);
 
         %% end messagee
         DrawFormattedText(window, 'Thank you for participating!', 'center', 'center', WhiteIndex(screenNumber));

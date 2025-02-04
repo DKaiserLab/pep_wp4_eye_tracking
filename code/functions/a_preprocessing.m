@@ -14,8 +14,8 @@ myDir = pwd;
 
 % define subjets
 subs = [];
-for sub = 1:numel(cfg.subNums)
-    subs = [subs, {sprintf('sub-%0.3d', sub)}];
+for sub = cfg.subNums
+    subs = [subs, {sprintf('%0.3d', sub)}];
 end
 n = length(subs);
 
