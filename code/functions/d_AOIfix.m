@@ -1,3 +1,5 @@
+function d_AOIfix(cfg)
+
 % this code is adapted from Titta, a toolbox providing access to
 % eye tracking functionality using Tobii eye trackers
 %
@@ -8,8 +10,6 @@
 % trackers. Behavior Research Methods.
 % doi: https://doi.org/10.3758/s13428-020-01358-8
 
-clear variables; clear global; clear mex; close all; fclose('all'); clc
-dbstop if error % for debugging: trigger a debug point when an error occurs
 myDir = pwd;
 
 % add directories path
@@ -29,13 +29,10 @@ AOInms  = {AOI.name};
 
 % define subjets
 subs = [];
-dirs.sourcedata = fullfile('..','sourcedata');
-folders = dir(dirs.sourcedata);
-for n = 1:numel(folders)
-    if contains({folders(n).name},'sub-')
-        subs = [subs, {strrep(folders(n).name, 'sub-', '')}];
-    end
+for sub = cfg.subNums
+    subs = [subs, {sprintf('%0.3d', sub)}];
 end
+n = length(subs);
 
 %% loop through subjects
 for sub = subs
@@ -64,7 +61,7 @@ for sub = subs
     if ~isfolder(dirs.all_fix)
         mkdir(dirs.all_fix);
     end
- 
+
     % add directories path
     addpath(genpath(dirs.funclib));
 
@@ -139,7 +136,7 @@ for sub = subs
         imageHeight = tex.scrRect(4) - tex.scrRect(2);
 
         scaleFacHeight = imageHeight/tex.size(1);
-        scaleFacWidth = imageWidth/tex.size(2); 
+        scaleFacWidth = imageWidth/tex.size(2);
         assert(round(scaleFacHeight, 1) == round(scaleFacWidth, 1))
         tex.scaleFac = mean([scaleFacHeight,scaleFacWidth]);
 
@@ -165,9 +162,9 @@ for sub = subs
             % Calculate circular tolerance area
             tolerance_area = strel('disk', round(tolerance) + 1);
         end
- 
+
         % Dilate the mask by the tolerance area
-        currentAOIs = AOI(qAOI).AOIs;       
+        currentAOIs = AOI(qAOI).AOIs;
         for iAOI = 1:length(currentAOIs)
             currentAOIs(iAOI).bool = imdilate(currentAOIs(iAOI).bool, tolerance_area);
         end
@@ -198,3 +195,4 @@ for sub = subs
 end
 
 rmpath(genpath(dirs.funclib));
+end

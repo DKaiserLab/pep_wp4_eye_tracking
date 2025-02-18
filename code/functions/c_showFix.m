@@ -1,3 +1,5 @@
+function c_showFix
+
 % this code is adapted from Titta, a toolbox providing access to
 % eye tracking functionality using Tobii eye trackers
 %
@@ -11,13 +13,10 @@
 % it furthermore uses I2MC, make sure you downloaded it
 % and placed it in /function_library/I2MC
 
-clear variables; clear global; clear mex; close all; fclose('all'); clc
-dbstop if error % for debugging: trigger a debug point when an error occurs
 myDir = pwd;
 
 % define subjets
 subs = input('Subjects (input must be a cell like {''001''}): ');
-
 
 %% loop through subjects
 for sub = subs
@@ -109,4 +108,5 @@ for sub = subs
     end
 
     rmpath(genpath(dirs.funclib));                  % cleanup path
+end
 end

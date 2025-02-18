@@ -1,4 +1,6 @@
- % this code is adapted from Titta, a toolbox providing access to
+function a_preprocessing(cfg)
+
+% this code is adapted from Titta, a toolbox providing access to
 % eye tracking functionality using Tobii eye trackers
 %
 % Titta can be found at https://github.com/dcnieho/Titta.
@@ -8,18 +10,14 @@
 % trackers. Behavior Research Methods.
 % doi: https://doi.org/10.3758/s13428-020-01358-8
 
-clear variables; clear global; clear mex; close all; fclose('all'); clc
 myDir = pwd;
 
 % define subjets
 subs = [];
-dirs.sourcedata = fullfile('..','sourcedata');
-folders = dir(dirs.sourcedata);
-for n = 1:numel(folders)
-    if contains({folders(n).name},'sub-')
-        subs = [subs, {strrep(folders(n).name, 'sub-', '')}];
-    end
+for sub = cfg.subNums
+    subs = [subs, {sprintf('%0.3d', sub)}];
 end
+n = length(subs);
 
 %% loop through subjects
 for sub = subs
@@ -180,3 +178,4 @@ for sub = subs
 
     rmpath(genpath(dirs.funclib));                  % cleanup path
 end % subject loop
+end

@@ -26,12 +26,7 @@ function d = e_makeGDM(d, cfg)
 
 subs = [];
 for sub = 1:numel(cfg.subNums)
-
-    if cfg.subNums(sub) < 10
-        subs = [subs, {['00', num2str(cfg.subNums(sub))]}];
-    elseif cfg.subNums(sub) < 100
-        subs = [subs, {['0', num2str(cfg.subNums(sub))]}];
-    end
+    subs = [subs, {sprintf('%0.3d', cfg.subNums(sub))}];
 end
 n = length(subs);
 

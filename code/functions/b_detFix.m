@@ -1,3 +1,5 @@
+function b_detFix(cfg)
+
 % this code is adapted from Titta, a toolbox providing access to
 % eye tracking functionality using Tobii eye trackers
 %
@@ -11,8 +13,6 @@
 % it furthermore uses I2MC, make sure you downloaded it
 % and placed it in /function_library/I2MC
 
-clear variables; clear global; clear mex; close all; fclose('all'); clc
-dbstop if error % for debugging: trigger a debug point when an error occurs
 myDir = pwd;
 
 % params
@@ -22,13 +22,10 @@ minFixDur    = 100;
 
 % define subjets
 subs = [];
-dirs.sourcedata = fullfile('..','sourcedata');
-folders = dir(dirs.sourcedata);
-for n = 1:numel(folders)
-    if contains({folders(n).name},'sub-')
-        subs = [subs, {strrep(folders(n).name, 'sub-', '')}];
-    end
+for sub = cfg.subNums
+    subs = [subs, {sprintf('%0.3d', sub)}];
 end
+n = length(subs);
 
 %% loop through subjects
 for sub = subs
@@ -60,7 +57,7 @@ for sub = subs
     addpath(genpath(dirs.funclib));
 
     %% check if subject was preprocessed already
-    
+
     % check sample output folder
     check_files = dir(dirs.all_fix);
 
@@ -162,4 +159,5 @@ for sub = subs
     end
 
     rmpath(genpath(dirs.funclib));                  % cleanup path
+end
 end
