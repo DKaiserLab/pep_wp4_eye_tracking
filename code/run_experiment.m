@@ -209,7 +209,7 @@ try
         'Before starting each trial, you have to make sure\n' ...
         'you are looking at the center of the fixation cross(+)\n'...
         'in the middle of the screen, and then press space to continue.\n\n' ...
-        'The first 6 pictures are for practice.\n\n\n\n\n'...
+        'The first 10 pictures are for practice.\n\n\n\n\n'...
         'Press any key to start the practice session'];
 
     DrawFormattedText(window, Explanation, 'center', screenYpixels * 0.25, WhiteIndex(screenNumber));
@@ -305,7 +305,7 @@ try
     hideGazeKey = KbName('h');
 
     %% Loop through the images
-    num_prc_trials = 6;
+    num_prc_trials = 10;
     trial = 1 - num_prc_trials; % practive trial have trialnumber <1
     for i = 1:numImages
 
@@ -581,12 +581,12 @@ try
             KbStrokeWait;
             %%
             %%%%%%%%%%% I add it here again
-%             % Initialize eye tracker re-calibration
-%             EThndl.sendMessage('RECALIBRATE', GetSecs);
-% 
-%             ListenChar(-1);
-%             tobii.calVal{1} = EThndl.calibrate(window);
-%             ListenChar(0);
+            % Initialize eye tracker re-calibration
+            EThndl.sendMessage('RECALIBRATE', GetSecs);
+
+            ListenChar(-1);
+            tobii.calVal{1} = EThndl.calibrate(window);
+            ListenChar(0);
 
             % Draw the fixation cross
             Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
