@@ -3,7 +3,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = true; % true = to use without eye-tracker, false for normal use
+dummy_mode = false; % true = to use without eye-tracker, false for normal use
 %%%%%%%%%%
 %imitialize logFile
 logFile = -1;
@@ -65,7 +65,7 @@ try
 
     % Set the screen resolution and refresh rate
     oldResolution = Screen('Resolution', screenNumber,...
-        defaultResolution.width, defaultResolution.height);
+        defaultResolution.width, defaultResolution.height, desiredRefreshRate);
 
     % Display the old resolution details (optional)
     disp(['Old resolution: ', num2str(oldResolution.width), 'x', num2str(oldResolution.height), ...
@@ -152,11 +152,18 @@ try
     if gaze_contingency == 1
 
         % define size of ganze-contingency mask (° visual angle)
-        cricle_degree = 4;
+        cricle_degree = 5;
 
         % Calculate the size in cm for the given visual angles
         sizeCmCircle = 2 * viewing_dist * tan(deg2rad(cricle_degree) / 2);
         sizePixCircle = round(sizeCmCircle * pixPerCmX);
+
+        % define treshold for update of mask position (° visual angle)
+        update_treshold = 0.4;
+
+        % Calculate the size in cm for the given visual angles
+        sizeCmTreshold = 2 * viewing_dist * tan(deg2rad(update_treshold) / 2);
+        sizePixTreshold = round(sizeCmTreshold * pixPerCmX);
 
     end
 
@@ -450,6 +457,9 @@ try
         end
 
         %% Start trial
+        % Initialize previous gaze position variables
+        prevGazeX = NaN;
+        prevGazeY = NaN;
 
         % Get the current image (blurred and unblurred version) for this trial
         currentImage = imread(fullfile(imageFolder, imageFiles(randomOrder(i)).name));
@@ -477,9 +487,6 @@ try
             % gaze-contingent update during image display
             if gaze_contingency == 1
 
-                % if no gaze data available
-                Screen('DrawTexture', window, imageTextures{i});
-
                 % Fetch gaze data
                 gazeData = EThndl.buffer.peekN('gaze');
                 if ~isempty(gazeData)
@@ -502,8 +509,9 @@ try
                         P = (eye(4) - K * H) * P_pred;
 
                     else
-                        % if gaze data is nan
-                        Screen('DrawTexture', window, imageTextures{i});
+                        % keep predicted gaze position
+                        x_est = x_pred;
+                        P = P_pred;
                     end
 
                 else
@@ -516,22 +524,37 @@ try
                 smoothedGazeX = x_est(1);
                 smoothedGazeY = x_est(2);
 
-                %  circular mask centered at gaze position
-                [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
-                mask = sqrt((X - (smoothedGazeX - xCenter + sizePixX / 2)).^2 + ...
-                    (Y - (smoothedGazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
+                % calculate the distance from the previous gaze position
+                if ~isnan(prevGazeX) && ~isnan(prevGazeY)
+                    distance = sqrt((smoothedGazeX - prevGazeX)^2 + (smoothedGazeY - prevGazeY)^2);
+                else
+                    distance = Inf; % force update for the first frame
+                end
 
-                % add unblurred circle based on bask
-                blurredImage = loadedImages{i};
-                blurredImage(repmat(mask, [1, 1, 3])) = currentImage(repmat(mask, [1, 1, 3]));
+                % only update the mask if the distance exceeds the threshold
+                if distance > sizePixTreshold
 
-                % updated texture
-                imageTexture = Screen('MakeTexture', window, blurredImage);
-                Screen('DrawTexture', window, imageTexture, [], image_rect);
-                Screen('Close', imageTexture);
+                    % update the previous gaze position
+                    prevGazeX = smoothedGazeX;
+                    prevGazeY = smoothedGazeY;
 
-                % Update the screen
-                Screen('Flip', window);
+                    %  circular mask centered at gaze position
+                    [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
+                    mask = sqrt((X - (smoothedGazeX - xCenter + sizePixX / 2)).^2 + ...
+                        (Y - (smoothedGazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
+
+                    % add unblurred circle based on bask
+                    blurredImage = loadedImages{i};
+                    blurredImage(repmat(mask, [1, 1, 3])) = currentImage(repmat(mask, [1, 1, 3]));
+
+                    % updated texture
+                    imageTexture = Screen('MakeTexture', window, blurredImage);
+
+                    % Update the screen
+                    Screen('DrawTexture', window, imageTexture, [], image_rect);
+                    Screen('Close', imageTexture);
+                    Screen('Flip', window);
+                end
             end
 
             % Update elapsed time
@@ -558,12 +581,12 @@ try
             KbStrokeWait;
             %%
             %%%%%%%%%%% I add it here again
-            % Initialize eye tracker re-calibration
-            EThndl.sendMessage('RECALIBRATE', GetSecs);
-
-            ListenChar(-1);
-            tobii.calVal{1} = EThndl.calibrate(window);
-            ListenChar(0);
+%             % Initialize eye tracker re-calibration
+%             EThndl.sendMessage('RECALIBRATE', GetSecs);
+% 
+%             ListenChar(-1);
+%             tobii.calVal{1} = EThndl.calibrate(window);
+%             ListenChar(0);
 
             % Draw the fixation cross
             Screen('DrawLines', window, allCoords, lineWidthPix, WhiteIndex(screenNumber), [xCenter yCenter], 2);
