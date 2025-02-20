@@ -3,7 +3,7 @@ sca;
 close all;
 clear;
 rng(1) % ensure same order for all participants
-dummy_mode = false; % true = to use without eye-tracker, false for normal use
+dummy_mode = true; % true = to use without eye-tracker, false for normal use
 %%%%%%%%%%
 %imitialize logFile
 logFile = -1;
@@ -65,7 +65,7 @@ try
 
     % Set the screen resolution and refresh rate
     oldResolution = Screen('Resolution', screenNumber,...
-        defaultResolution.width, defaultResolution.height, desiredRefreshRate);
+        defaultResolution.width, defaultResolution.height);
 
     % Display the old resolution details (optional)
     disp(['Old resolution: ', num2str(oldResolution.width), 'x', num2str(oldResolution.height), ...
@@ -158,14 +158,7 @@ try
         sizeCmCircle = 2 * viewing_dist * tan(deg2rad(cricle_degree) / 2);
         sizePixCircle = round(sizeCmCircle * pixPerCmX);
 
-        % define treshold for update of mask position (° visual angle)
-        update_treshold = 0.75;
-
-        % Calculate the size in cm for the given visual angles
-        sizeCmTreshold = 2 * viewing_dist * tan(deg2rad(update_treshold) / 2);
-        sizePixTreshold = round(sizeCmTreshold * pixPerCmX);
     end
-
 
     %% Preload and resize images
     loadedImages = cell(1, numImages);
@@ -433,15 +426,34 @@ try
         EThndl.sendMessage('FIX ON', fixationFlipTime);
         EThndl.sendMessage('SPACE PRESS', space_press_time);
 
+        %% initialize Kalman filtering
+        if gaze_contingency == 1
+            if isfield(dat, "samplingFrequency")
+                if ~isempty(dat.samplingFrequency)
+                    dt = dat.samplingFrequency;
+                else
+                    dt = 1/120; % Assume 120 Hz eye-tracker
+                end
+            else
+                dt = 1/120; % Assume 120 Hz eye-tracker
+            end
+
+            % Define system matrices for a simple constant velocity model
+            A = [1 0 dt 0; 0 1 0 dt; 0 0 1 0; 0 0 0 1];
+            H = [1 0 0 0; 0 1 0 0]; % Observation model
+
+            Q = eye(4) * 0.01; % Process noise (motion uncertainty)
+            R = eye(2) * 0.1;  % Measurement noise (eye-tracker errors)
+
+            x_est = [xCenter; yCenter; 0; 0]; % Initial state (x, y, velocity_x, velocity_y)
+            P = eye(4); % Initial uncertainty
+        end
+
         %% Start trial
 
         % Get the current image (blurred and unblurred version) for this trial
         currentImage = imread(fullfile(imageFolder, imageFiles(randomOrder(i)).name));
         currentImage = imresize(currentImage, [sizePixY, sizePixX]);
-
-        % Initialize previous gaze position variables
-        prevGazeX = NaN;
-        prevGazeY = NaN;
 
         % flip intial image
         Screen('DrawTexture', window, imageTextures{i});
@@ -476,37 +488,18 @@ try
                     gazeX = mean([gazeData(end).left.gazePoint.onDisplayArea(1), gazeData(end).right.gazePoint.onDisplayArea(1)]) * screenXpixels;
                     gazeY = mean([gazeData(end).left.gazePoint.onDisplayArea(2), gazeData(end).right.gazePoint.onDisplayArea(2)]) * screenYpixels;
 
-                    % gaze contingent
+                    % Kalman filter prediction
+                    x_pred = A * x_est;
+                    P_pred = A * P * A' + Q;
+
+                    % update gaze contingent window
                     if ~isnan(gazeX) && ~isnan(gazeY)
 
-                        % calculate the distance from the previous gaze position
-                        if ~isnan(prevGazeX) && ~isnan(prevGazeY)
-                            distance = sqrt((gazeX - prevGazeX)^2 + (gazeY - prevGazeY)^2);
-                        else
-                            distance = Inf; % force update for the first frame
-                        end
-
-                        % only update the mask if the distance exceeds the threshold
-                        if distance > sizePixTreshold
-
-                            % update the previous gaze position
-                            prevGazeX = gazeX;
-                            prevGazeY = gazeY;
-
-                            %  circular mask centered at gaze position
-                            [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
-                            mask = sqrt((X - (gazeX - xCenter + sizePixX / 2)).^2 + ...
-                                (Y - (gazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
-                        end
-
-                        % add unblurred circle based on bask
-                        blurredImage = loadedImages{i};
-                        blurredImage(repmat(mask, [1, 1, 3])) = currentImage(repmat(mask, [1, 1, 3]));
-
-                        % updated texture
-                        imageTexture = Screen('MakeTexture', window, blurredImage);
-                        Screen('DrawTexture', window, imageTexture, [], image_rect);
-                        Screen('Close', imageTexture);
+                        % get Kalman filtered gaze position
+                        z = [gazeX; gazeY];
+                        K = P_pred * H' / (H * P_pred * H' + R);
+                        x_est = x_pred + K * (z - H * x_pred);
+                        P = (eye(4) - K * H) * P_pred;
 
                     else
                         % if gaze data is nan
@@ -514,8 +507,28 @@ try
                     end
 
                 else
-
+                    % keep predicted gaze position
+                    x_est = x_pred;
+                    P = P_pred;
                 end
+
+                % Extract smoothed gaze position
+                smoothedGazeX = x_est(1);
+                smoothedGazeY = x_est(2);
+
+                %  circular mask centered at gaze position
+                [X, Y] = meshgrid(1:sizePixX, 1:sizePixY);
+                mask = sqrt((X - (smoothedGazeX - xCenter + sizePixX / 2)).^2 + ...
+                    (Y - (smoothedGazeY - yCenter + sizePixY / 2)).^2) <= sizePixCircle / 2;
+
+                % add unblurred circle based on bask
+                blurredImage = loadedImages{i};
+                blurredImage(repmat(mask, [1, 1, 3])) = currentImage(repmat(mask, [1, 1, 3]));
+
+                % updated texture
+                imageTexture = Screen('MakeTexture', window, blurredImage);
+                Screen('DrawTexture', window, imageTexture, [], image_rect);
+                Screen('Close', imageTexture);
 
                 % Update the screen
                 Screen('Flip', window);
