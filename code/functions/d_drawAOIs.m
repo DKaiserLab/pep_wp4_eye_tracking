@@ -26,12 +26,12 @@ dirs.stims   = fullfile(myDir, '..', 'stimuli');
 addpath(genpath(dirs.funclib));
 
 % settings
-trans = [.35 .9];
+trans = [.5 .9];
 qAlsoIndivAOIs  = false;    % if true, also save image for each individual AOI
 
 % make AOI masks output folder
 if isdir(dirs.AOImasks) %#ok<ISDIR>
-    rmdir(dirs.AOImasks);
+    rmdir(dirs.AOImasks, 's');
 end
 
 % see for which stimuli we have AOIs
@@ -48,7 +48,8 @@ aois_length = zeros(1,numel(AOIs));
 for num_aois = 1:numel(AOIs)
     aois_length(num_aois) = numel(AOIs(num_aois).AOIs);
 end
-clr   = colormap(jet(max(aois_length)));
+clr = colormap(distinguishable_colors(max(aois_length)));
+clr = clr(randperm(height(clr)), :);
 
 for f=1:length(AOIs)
     img     = imread(fullfile(dirs.stims, AOIs(f).name));
