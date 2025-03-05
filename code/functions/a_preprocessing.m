@@ -97,12 +97,17 @@ for sub = subs
         % parse messages by trials
         [timest,what,msgs] = parseMsgs(dat.messages);
 
-        % remove first 9 trials (practice)
-        timest.fix = timest.fix(7: end,1);
-        timest.start = timest.start(7:end, 1);
-        timest.end = timest.end(7:end, 1);
-        msgs = msgs(7:end);
-        what = what(7:end);
+        % remove first trials (practice)
+        if cfg.exp_num == 1
+            numPracticeTrials = 6;
+        elseif cfg.exp_num == 2
+            numPracticeTrials = 10;
+        end
+        timest.fix = timest.fix(numPracticeTrials + 1: end,1);
+        timest.start = timest.start(numPracticeTrials + 1:end, 1);
+        timest.end = timest.end(numPracticeTrials + 1:end, 1);
+        msgs = msgs(numPracticeTrials + 1:end);
+        what = what(numPracticeTrials + 1:end);
 
         % split up trials and write
         for q=1:length(timest.fix) % loop through trials
