@@ -203,74 +203,7 @@ for iCate = 1:length(categories)
     [ObserverMatObjectsFix, ~] = corr(LabeledFix.(category).ObjectMultiFixated', 'type',...
         'spearman', 'rows', 'complete');
 
-    %% 5. split-half reliablity - single object dwell time
-    [ObserverMatOdd, ~] = corr(LabeledFix.(category).ObjectDwellsMulti(:,LabeledFix.(category).isOdd(1,:))',...
-        'type', 'spearman', 'rows', 'complete');
-    [ObserverMatEven, ~] = corr(LabeledFix.(category).ObjectDwellsMulti(:,~LabeledFix.(category).isOdd(1,:))',...
-        'type', 'spearman', 'rows', 'complete');
-
-    % runtime control
-    disp(' ')
-    disp(['Split-half reliablity for ', category, ' images'])
-
-    % odd
-    ObserverMatOdd(logical(eye(size(ObserverMatOdd)))) = 0;
-    [C] = squareform(ObserverMatOdd);
-    % even
-    ObserverMatEven(logical(eye(size(ObserverMatEven)))) = 0;
-    [D] = squareform(ObserverMatEven);
-
-    % print correlation
-    disp(' ')
-    disp('Single object dwell time')
-    [R, p] = corr(C', D');
-    disp(['pearson r: ' num2str(R) ', p = ' num2str(p)]);
-    [R, p] = corr(C', D','Type','Spearman');
-    disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
-
-
-    % for fixations: %5. split-half reliablity
-    [ObserverFixOdd, ~] = corr(LabeledFix.(category).ObjectMultiFixated(:,LabeledFix.(category).isOdd(1,:))',...
-        'type', 'spearman', 'rows', 'complete');
-    [ObserverFixEven, ~] = corr(LabeledFix.(category).ObjectMultiFixated(:,~LabeledFix.(category).isOdd(1,:))',...
-        'type', 'spearman', 'rows', 'complete');
-
-    % odd
-    ObserverFixOdd(logical(eye(size(ObserverFixOdd)))) = 0;
-    [A] = squareform(ObserverFixOdd);
-    % even
-    ObserverFixEven(logical(eye(size(ObserverFixEven)))) = 0;
-    [B] = squareform(ObserverFixEven);
-
-    % print correlation
-    disp(' ')
-    disp('Fixation count')
-    [R, p] = corr(A', B');
-    disp(['pearson r: ' num2str(R) ', p = ' num2str(p)]);
-    [R, p] = corr(A', B','Type','Spearman');
-    disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
-
-
-    % for category: %6. split-half reliablity
-    [ObserverMatOddCate, ~] = corr(LabeledFix.(category).ObjectDwellsMultiCateOdd',...
-        'type', 'spearman', 'rows', 'complete');
-    [ObserverMatEvenCate, ~] = corr(LabeledFix.(category).ObjectDwellsMultiCateEven',...
-        'type', 'spearman', 'rows', 'complete');
-
-    % odd
-    ObserverMatOddCate(logical(eye(size(ObserverMatOddCate)))) = 0;
-    [E] = squareform(ObserverMatOddCate);
-    % even
-    ObserverMatEvenCate(logical(eye(size(ObserverMatEvenCate)))) = 0;
-    [F] = squareform(ObserverMatEvenCate);
-
-    % print correlation
-    disp(' ')
-    disp('Category dwell time')
-    [R, p] = corr(E', F');
-    disp(['pearson r: ' num2str(R) ', p = ' num2str(p)]);
-    [R, p] = corr(E', F','Type','Spearman');
-    disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
+    
 
 end
 

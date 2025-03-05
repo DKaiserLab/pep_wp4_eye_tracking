@@ -199,60 +199,22 @@ for iCate = 1:length(categories)
     %     [ObserverMatObjectsFix, ~] = corr(LabeledFix.(category).ObjectMultiFixated', 'type',...
     %         'spearman', 'rows', 'complete');
 
-    %% 5. split-half reliablity - single object dwell time
-
-    % runtime control
-    disp(' ')
-    disp(['Split-half reliablity for ', category, ' images on first fixation'])
-
-    [ObserverMatOdd, ~] = corr(LabeledFix.(category).Objects_firstFix(:,LabeledFix.(category).isOdd_firstFix(1,:))',...
-        'type', 'spearman', 'rows', 'complete');
-    [ObserverMatEven, ~] = corr(LabeledFix.(category).Objects_firstFix(:,~LabeledFix.(category).isOdd_firstFix(1,:))',...
-        'type', 'spearman', 'rows', 'complete');
-
-    % odd
-    ObserverMatOdd(logical(eye(size(ObserverMatOdd)))) = 0;
-    [C] = squareform(ObserverMatOdd);
-    % even
-    ObserverMatEven(logical(eye(size(ObserverMatEven)))) = 0;
-    [D] = squareform(ObserverMatEven);
-
-    % print correlation
-    disp(' ')
-    disp('Single object first fixation')
-    [R, p] = corr(C', D');
-    disp(['pearson r: ' num2str(R) ', p = ' num2str(p)]);
-    [R, p] = corr(C', D','Type','Spearman');
-    disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
+   
 
 
-    % for category: %6. split-half reliablity
-    [ObserverMatOddCate, ~] = corr(LabeledFix.(category).ObjectsCate_firstFixOdd',...
-        'type', 'spearman', 'rows', 'complete');
-    [ObserverMatEvenCate, ~] = corr(LabeledFix.(category).ObjectsCate_firstFixEven',...
-        'type', 'spearman', 'rows', 'complete');
-
-    % odd
-    ObserverMatOddCate(logical(eye(size(ObserverMatOddCate)))) = 0;
-    [E] = squareform(ObserverMatOddCate);
-    % even
-    ObserverMatEvenCate(logical(eye(size(ObserverMatEvenCate)))) = 0;
-    [F] = squareform(ObserverMatEvenCate);
-
-    % print correlation
-    disp(' ')
-    disp('Category first fixation count')
-    [R, p] = corr(E', F');
-    disp(['pearson r: ' num2str(R) ', p = ' num2str(p)]);
-    [R, p] = corr(E', F','Type','Spearman');
-    disp(['spearman r: ' num2str(R) ', p = ' num2str(p)]);
-
-
-    % write to data structure
+    % write to data structure without overwritting pervious data
     field_names = fieldnames(LabeledFix.(category));
     for field = 1:length(field_names)
         field_name = char(field_names{field});
-        d.GDM.(category).(field_name) = LabeledFix.(category).(field_name);
+        if strcmp(field_name, 'splitHalfReliability')
+            field_names2 = fieldnames(LabeledFix.(category).splitHalfReliability);
+            for field2 = 1:length(field_names2)
+                field_name2 = char(field_names2{field2});
+                d.GDM.(category).splitHalfReliability.(field_name2) = LabeledFix.(category).splitHalfReliability.(field_name2);
+            end
+        else
+            d.GDM.(category).(field_name) = LabeledFix.(category).(field_name);
+        end
     end
 
 end
