@@ -98,7 +98,10 @@ for iCate = 1:length(categories)
         LabeledFix.(category).ObjectDwellsMultiCate(iSubj,:) = zeros(1, height(category_file));
         LabeledFix.(category).ObjectDwellsMultiCateOdd(iSubj,:) = zeros(1, height(category_file));
         LabeledFix.(category).ObjectDwellsMultiCateEven(iSubj,:) = zeros(1, height(category_file));
-
+        LabeledFix.(category).ObjectCatePrio(iSubj,:) = nan(1, height(category_file));
+        LabeledFix.(category).ObjectCatePrioOdd(iSubj,:) = nan(1, height(category_file));
+        LabeledFix.(category).ObjectCatePrioEven(iSubj,:) = nan(1, height(category_file));
+        timeToFixMat = nan(height(category_trials), height(category_file));
 
         ObjCount = 0;
         ObjEven  = [];
@@ -135,6 +138,11 @@ for iCate = 1:length(categories)
             for iObjs = 1:height(ObjsInImg)
                 ObjCount = ObjCount + 1;
 
+                % check which category the stimulus belongs to
+                [~,obj_name,~] = fileparts(ObjsInImg(iObjs).name);
+                obj_idx = strcmp(table2cell(category_file), obj_name);
+
+                % get fixation with current object (if any)
                 fix_data_obj = fix_data(fix_data.AOINr == iObjs,:);
 
                 if ~isempty(fix_data_obj) %if the current object was indeed fixated (otherwise it will be skipped and the zero (no dwell time) will remain)
@@ -144,11 +152,6 @@ for iCate = 1:length(categories)
                     LabeledFix.(category).ObjectDwellsMulti(iSubj,ObjCount)  = ...
                         nansum(fix_data_obj.duration)/LabeledFix.(category).ObjectDwellTotal(iSubj,iImg);
                     LabeledFix.(category).ObjectMultiFixated(iSubj,ObjCount) = 1;
-
-
-                    % check which category the stimulus belongs to
-                    [~,obj_name,~] = fileparts(ObjsInImg(iObjs).name);
-                    obj_idx = strcmp(table2cell(category_file), obj_name);
 
                     % if part of a category
                     if sum(sum(obj_idx)) > 0
@@ -169,9 +172,25 @@ for iCate = 1:length(categories)
                                 LabeledFix.(category).ObjectDwellsMultiCateEven(iSubj,cate_num)...
                                 + sum(fix_data_obj.duration)/LabeledFix.(category).ObjectDwellTotal(iSubj,iImg);
                         end
+
+                        % get time when object category was fixated first
+                        firstCateFix = fix_data_obj.startT(1);
+                        if isnan(timeToFixMat(iImg, cate_num(1)))
+                            timeToFixMat(iImg, cate_num(1)) = firstCateFix;
+                        else
+                            if firstCateFix < timeToFixMat(iImg, cate_num(1))
+                                timeToFixMat(iImg, cate_num(1)) = firstCateFix;
+                            end
+                        end
+                    end
+                else
+                    % if object was not looked it time to fixation =
+                    % trial length (3s)
+                    if sum(sum(obj_idx)) > 0
+                        cate_num = find(sum(obj_idx, 2));
+                        timeToFixMat(iImg, cate_num(1)) = 3;
                     end
                 end
-                %end
             end %iObjs
 
             %sum how many objects have been fixated by the participant in
@@ -191,6 +210,14 @@ for iCate = 1:length(categories)
             %write data in struct
             LabeledFix.(category).Data{iImg,iSubj} = fix_data;
         end % images
+
+        % average time to fixation (= fixation priority)
+        LabeledFix.(category).ObjectCatePrio(iSubj,:) = mean(timeToFixMat, 'omitnan');
+        oddTrialsTimeToFixMat = timeToFixMat(1:2:height(timeToFixMat), :);
+        LabeledFix.(category).ObjectCatePrioOdd(iSubj,:) = mean(oddTrialsTimeToFixMat, 'omitnan');
+        evenTrialsTimeToFixMat = timeToFixMat(2:2:height(timeToFixMat), :);
+        LabeledFix.(category).ObjectCatePrioEven(iSubj,:) = mean(evenTrialsTimeToFixMat, 'omitnan');
+
     end % subjects
 
     %% 4. calculate pairwise comparisons between individuals,

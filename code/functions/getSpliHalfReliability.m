@@ -1,10 +1,11 @@
 function d = getSpliHalfReliability(d, cfg)
 
 % loop through categories
+cfg.dissimilarity = false; % use correlations not dissimilarity
 for iCate = 1:length(cfg.categories)
     category = cfg.categories{iCate};
 
-     %% fixation count
+    %% fixation count
     [ObserverFixOdd, ~] = corr(d.GDM.(category).ObjectMultiFixated(:,d.GDM.(category).isOdd(1,:))',...
         'type', 'spearman', 'rows', 'complete');
     [ObserverFixEven, ~] = corr(d.GDM.(category).ObjectMultiFixated(:,~d.GDM.(category).isOdd(1,:))',...
@@ -53,12 +54,12 @@ for iCate = 1:length(cfg.categories)
     disp(['r: ' num2str(R) ', p = ' num2str(p)]);
     d.GDM.(category).splitHalfReliability.singleObjects.r = R;
 
-    % do permutation test 
+    % do permutation test
     res = doPermutations([C',D'], R, cfg);
     d.GDM.(category).splitHalfReliability.singleObjects.p = res.p_value;
     d.GDM.(category).splitHalfReliability.singleObjects.ci = [res.ci_lower, res.ci_upper];
 
-   
+
     %% object category dwell time
     [ObserverMatOddCate, ~] = corr(d.GDM.(category).ObjectDwellsMultiCateOdd',...
         'type', 'spearman', 'rows', 'complete');
@@ -138,6 +139,31 @@ for iCate = 1:length(cfg.categories)
     res = doPermutations([I',J'], R, cfg);
     d.GDM.(category).splitHalfReliability.objectCateFirstFix.p = res.p_value;
     d.GDM.(category).splitHalfReliability.objectCateFirstFix.ci = [res.ci_lower, res.ci_upper];
+
+    %% object category fixation priority
+    [ObserverMatOddCate, ~] = corr(d.GDM.(category).ObjectCatePrioOdd',...
+        'type', 'spearman', 'rows', 'complete');
+    [ObserverMatEvenCate, ~] = corr(d.GDM.(category).ObjectCatePrioEven',...
+        'type', 'spearman', 'rows', 'complete');
+
+    % odd
+    ObserverMatOddCate(logical(eye(size(ObserverMatOddCate)))) = 0;
+    [K] = squareform(ObserverMatOddCate);
+    % even
+    ObserverMatEvenCate(logical(eye(size(ObserverMatEvenCate)))) = 0;
+    [L] = squareform(ObserverMatEvenCate);
+
+    % print correlation
+    disp(' ')
+    disp('Category first fixation count')
+    [R, p] = corr(K', L', 'Type', cfg.correlation_type);
+    disp(['r: ' num2str(R) ', p = ' num2str(p)]);
+    d.GDM.(category).splitHalfReliability.ObjectCatePrio.r = R;
+
+    % do permutation test
+    res = doPermutations([I',J'], R, cfg);
+    d.GDM.(category).splitHalfReliability.ObjectCatePrio.p = res.p_value;
+    d.GDM.(category).splitHalfReliability.ObjectCatePrio.ci = [res.ci_lower, res.ci_upper];
 end
 end
 
