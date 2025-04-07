@@ -1,25 +1,4 @@
-function d = e_makeGDM(d, cfg)
-
-%This script is adapted from Kollenda and de Haas 2024 (https://osf.io/83mjc/)
-%It produces the Gaze Dissimilarity Matrix (GDM)
-%--> how similar are the dwell time distributions across objects are
-%between a given pair of observers?
-
-%script:
-%1. creates a matrix with one row per observer and one column for each object
-%   in the image set (there are several hundreds across all 100 images).
-%2. Initializes all entries to zero and
-%3. gathers the individual dwell time for each object and observer.
-%4. calculates euclidean distances dwell time distributions between
-%   pairs of observer.
-%5. performs a consistency check.
-
-%Note, some fixations fall in between mutiple objects. The variable 'LabeledFix.(category).ObjectDwellsMulti'
-%takes this into account whereas 'LabeledFix.(category).ObjectDwells' does not.
-%In the manuscript we only report results that consider
-%ObjectDwellsMulti.
-
-
+function e_getGazePatterns(cfg)
 
 %% 2. initialize
 % define subjets
@@ -40,14 +19,12 @@ imageCategoriesFile = fullfile(pwd, '..', 'imageCategories.csv');
 imageCategories = readtable(imageCategoriesFile,'Format','auto');
 
 % loop through categories
-categories = {'bathroom', 'kitchen'};
-for iCate = 1:length(categories)
-
+for iCate = 1:length(cfg.categories)
     % get category
-    category = categories{iCate};
+    category = cfg.categories{iCate};
 
     % init data struct
-    LabeledFix.(category).ObjectFixCount = zeros(n, height(log_file));
+    ObjectFixCount = zeros(n, height(log_file));
 
     % get total number of objects
     NumObjsTotal = 0;
@@ -72,13 +49,31 @@ for iCate = 1:length(categories)
     % get category memberships
     category_file_all = readtable(fullfile(pwd, '..', 'objectCategories.xlsx'),'Format','auto');
     category_file = category_file_all(category_file_all.([category, 'Frequency']) >= 10, :);
-    LabeledFix.(category).category_file = category_file;
 
     %% 3. gather individual dwell times
-
     for iSubj = 1:n
 
-        % run time control
+        % check if subject data exists
+        outputDir = fullfile(pwd, '..', 'derivatives',  ['sub-', subs{iSubj}], 'gazePatterns', category);
+        if exist(outputDir, 'dir')
+            % check if all files exist
+            allExist = exist(fullfile(outputDir, 'ObjectFixCount.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'IndividualObjectDwells.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectFixated.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectDwellsCate.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectDwellsCateOdd.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectDwellsCateEven.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectCatePrio.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectCatePrioOdd.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectCatePrioEven.mat'), 'file');
+            if allExist
+                disp(['Subject ',subs{iSubj}, ' already exists'])
+                continue
+            end 
+        else
+            % run time control
+            mkdir(outputDir)
+        end
         disp(['Evaluating subject ',subs{iSubj}])
 
         FixData_dir = fullfile(pwd, '..', 'derivatives', ['sub-', subs{iSubj}], 'AOIfix');
@@ -92,15 +87,13 @@ for iCate = 1:length(categories)
         category_idx = find(isCurrentCategory);
 
         % init data structures
-        LabeledFix.(category).ObjectDwellsMulti(iSubj,:)  = zeros(1, NumObjsTotal);
-        LabeledFix.(category).ObjectMultiFixated(iSubj,:) = zeros(1, NumObjsTotal);
-        LabeledFix.(category).isOdd(iSubj,:) = logical(zeros(1, NumObjsTotal));
-        LabeledFix.(category).ObjectDwellsMultiCate(iSubj,:) = zeros(1, height(category_file));
-        LabeledFix.(category).ObjectDwellsMultiCateOdd(iSubj,:) = zeros(1, height(category_file));
-        LabeledFix.(category).ObjectDwellsMultiCateEven(iSubj,:) = zeros(1, height(category_file));
-        LabeledFix.(category).ObjectCatePrio(iSubj,:) = nan(1, height(category_file));
-        LabeledFix.(category).ObjectCatePrioOdd(iSubj,:) = nan(1, height(category_file));
-        LabeledFix.(category).ObjectCatePrioEven(iSubj,:) = nan(1, height(category_file));
+        ObjectFixCount = zeros(1, height(category_trials));
+        IndividualObjectDwells  = zeros(1, NumObjsTotal);
+        ObjectFixated = zeros(1, NumObjsTotal);
+        isOdd = logical(zeros(1, NumObjsTotal));
+        ObjectDwellsCate = zeros(1, height(category_file));
+        ObjectDwellsCateOdd = zeros(1, height(category_file));
+        ObjectDwellsCateEven = zeros(1, height(category_file));
         timeToFixMat = nan(height(category_trials), height(category_file));
 
         ObjCount = 0;
@@ -113,7 +106,7 @@ for iCate = 1:length(categories)
             ObjsInImg = dir(fullfile('..','AOIs',char(image_name),'*.png'));
 
             % check whether image is odd
-            if mod(iImg, 2) == 1; isOdd = true; else; isOdd = false; end
+            if mod(iImg, 2) == 1; isCurrentOdd = true; else; isCurrentOdd = false; end
 
             % get AOI fix data for image and participant
             warning off
@@ -122,13 +115,14 @@ for iCate = 1:length(categories)
             warning on
 
             % get sum of all fixations
+            ObjectDwellTotal = nan(1, height(fix_data));
             if height(fix_data) > 0
-                LabeledFix.(category).ObjectDwellTotal(iSubj,iImg) = fix_data.duration(1);
+                ObjectDwellTotal(iImg) = fix_data.duration(1);
                 for ifix = 1:height(fix_data)
                     if ifix > 1
                         if fix_data.fixNr(ifix) ~= fix_data.fixNr(ifix-1)
-                            LabeledFix.(category).ObjectDwellTotal(iSubj,iImg) = ...
-                                LabeledFix.(category).ObjectDwellTotal(iSubj,iImg) + fix_data.duration(ifix);
+                            ObjectDwellTotal(iImg) = ...
+                                ObjectDwellTotal(iImg) + fix_data.duration(ifix);
                         end
                     end
                 end
@@ -149,28 +143,28 @@ for iCate = 1:length(categories)
 
                     % sum over duration were the current object was fixated
                     % and divide by total duration of all fixations
-                    LabeledFix.(category).ObjectDwellsMulti(iSubj,ObjCount)  = ...
-                        nansum(fix_data_obj.duration)/LabeledFix.(category).ObjectDwellTotal(iSubj,iImg);
-                    LabeledFix.(category).ObjectMultiFixated(iSubj,ObjCount) = 1;
+                    IndividualObjectDwells(ObjCount)  = ...
+                        nansum(fix_data_obj.duration)/ObjectDwellTotal(iImg);
+                    ObjectFixated(ObjCount) = 1;
 
                     % if part of a category
                     if sum(sum(obj_idx)) > 0
                         cate_num = find(sum(obj_idx, 2));
 
                         % add dwell time to category
-                        LabeledFix.(category).ObjectDwellsMultiCate(iSubj,cate_num) = ...
-                            LabeledFix.(category).ObjectDwellsMultiCate(iSubj,cate_num)...
-                            + sum(fix_data_obj.duration)/LabeledFix.(category).ObjectDwellTotal(iSubj,iImg);
+                        ObjectDwellsCate(cate_num) = ...
+                            ObjectDwellsCate(cate_num)...
+                            + sum(fix_data_obj.duration)/ObjectDwellTotal(iImg);
 
                         % add dwell time to category seperate for odd and even trials
-                        if isOdd
-                            LabeledFix.(category).ObjectDwellsMultiCateOdd(iSubj,cate_num) = ...
-                                LabeledFix.(category).ObjectDwellsMultiCateOdd(iSubj,cate_num)...
-                                + sum(fix_data_obj.duration)/LabeledFix.(category).ObjectDwellTotal(iSubj,iImg);
+                        if isCurrentOdd
+                            ObjectDwellsCateOdd(cate_num) = ...
+                                ObjectDwellsCateOdd(cate_num)...
+                                + sum(fix_data_obj.duration)/ObjectDwellTotal(iImg);
                         else
-                            LabeledFix.(category).ObjectDwellsMultiCateEven(iSubj,cate_num) = ...
-                                LabeledFix.(category).ObjectDwellsMultiCateEven(iSubj,cate_num)...
-                                + sum(fix_data_obj.duration)/LabeledFix.(category).ObjectDwellTotal(iSubj,iImg);
+                            ObjectDwellsCateEven(cate_num) = ...
+                                ObjectDwellsCateEven(cate_num)...
+                                + sum(fix_data_obj.duration)/ObjectDwellTotal(iImg);
                         end
 
                         % get time when object category was fixated first
@@ -195,45 +189,41 @@ for iCate = 1:length(categories)
 
             %sum how many objects have been fixated by the participant in
             %the current image
-            if ~any(isnan(LabeledFix.(category).ObjectMultiFixated(iSubj,ObjCountinit:ObjCount)))
-                LabeledFix.(category).ObjectFixCount(iSubj,iImg) = ...
-                    sum(LabeledFix.(category).ObjectDwellsMulti(iSubj,ObjCountinit:ObjCount)~= 0); %sum how many objects were fixated
+            if ~any(isnan(ObjectFixated(ObjCountinit:ObjCount)))
+                ObjectFixCount(iImg) = ...
+                    sum(IndividualObjectDwells(ObjCountinit:ObjCount)~= 0); %sum how many objects were fixated
             end
 
             % mark odd trials
-            if isOdd
-                LabeledFix.(category).isOdd(iSubj,ObjCountinit:ObjCount) = true;
+            if isCurrentOdd
+                isOdd(ObjCountinit:ObjCount) = true;
             else
-                LabeledFix.(category).isOdd(iSubj,ObjCountinit:ObjCount) = false;
+                isOdd(ObjCountinit:ObjCount) = false;
             end
 
             %write data in struct
-            LabeledFix.(category).Data{iImg,iSubj} = fix_data;
+            Data{iImg} = fix_data;
         end % images
 
         % average time to fixation (= fixation priority)
-        LabeledFix.(category).ObjectCatePrio(iSubj,:) = mean(timeToFixMat, 'omitnan');
+        ObjectCatePrio = mean(timeToFixMat, 'omitnan');
         oddTrialsTimeToFixMat = timeToFixMat(1:2:height(timeToFixMat), :);
-        LabeledFix.(category).ObjectCatePrioOdd(iSubj,:) = mean(oddTrialsTimeToFixMat, 'omitnan');
+        ObjectCatePrioOdd = mean(oddTrialsTimeToFixMat, 'omitnan');
         evenTrialsTimeToFixMat = timeToFixMat(2:2:height(timeToFixMat), :);
-        LabeledFix.(category).ObjectCatePrioEven(iSubj,:) = mean(evenTrialsTimeToFixMat, 'omitnan');
+        ObjectCatePrioEven = mean(evenTrialsTimeToFixMat, 'omitnan');
+
+        % save subject data
+        save(fullfile(outputDir, 'ObjectFixCount.mat'), 'ObjectFixCount');
+        save(fullfile(outputDir, 'IndividualObjectDwells.mat'), 'IndividualObjectDwells');
+        save(fullfile(outputDir, 'ObjectFixated.mat'), 'ObjectFixated');
+        save(fullfile(outputDir, 'ObjectDwellsCate.mat'), 'ObjectDwellsCate');
+        save(fullfile(outputDir, 'ObjectDwellsCateOdd.mat'), 'ObjectDwellsCateOdd');
+        save(fullfile(outputDir, 'ObjectDwellsCateEven.mat'), 'ObjectDwellsCateEven');
+        save(fullfile(outputDir, 'ObjectCatePrio.mat'), 'ObjectCatePrio');
+        save(fullfile(outputDir, 'ObjectCatePrioOdd.mat'), 'ObjectCatePrioOdd');
+        save(fullfile(outputDir, 'ObjectCatePrioEven.mat'), 'ObjectCatePrioEven');
+        save(fullfile(outputDir, 'fixData.mat'), 'Data', 'isOdd');
 
     end % subjects
-
-    %% 4. calculate pairwise comparisons between individuals,
-    %producing an Gaze Dissimilarity Matrix (GDM) by using spearman
-    %correlations
-    [ObserverMatObjects, ~] = corr(LabeledFix.(category).ObjectDwellsMulti',...
-        'type', 'spearman', 'rows', 'complete');
-    [ObserverMatObjectCategories, ~] = corr(LabeledFix.(category).ObjectDwellsMultiCate',...
-        'type', 'spearman', 'rows', 'complete');
-    [ObserverMatObjectsFix, ~] = corr(LabeledFix.(category).ObjectMultiFixated', 'type',...
-        'spearman', 'rows', 'complete');
-
-    
-
 end
-
-% write to data structure
-d.GDM = LabeledFix;
 end

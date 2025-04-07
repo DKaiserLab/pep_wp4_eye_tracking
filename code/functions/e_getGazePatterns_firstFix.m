@@ -1,4 +1,4 @@
-function d = e_makeGDM_firstFix(d, cfg)
+function e_getGazePatterns_firstFix(cfg)
 
 %This script is adapted from Kollenda and de Haas 2024 (https://osf.io/83mjc/)
 %It produces the Gaze Dissimilarity Matrix (GDM)
@@ -14,10 +14,10 @@ function d = e_makeGDM_firstFix(d, cfg)
 %   pairs of observer.
 %5. performs a consistency check.
 
-%Note, some fixations fall in between mutiple objects. The variable 'LabeledFix.(category).ObjectDwellsMulti'
-%takes this into account whereas 'LabeledFix.(category).ObjectDwells' does not.
+%Note, some fixations fall in between mutiple objects. The variable 'ObjectDwells'
+%takes this into account whereas 'ObjectDwells' does not.
 %In the manuscript we only report results that consider
-%ObjectDwellsMulti.
+%ObjectDwells.
 
 
 
@@ -69,14 +69,28 @@ for iCate = 1:length(categories)
     % get category memberships
     category_file_all = readtable(fullfile(pwd, '..', 'objectCategories.xlsx'),'Format','auto');
     category_file = category_file_all(category_file_all.([category, 'Frequency']) >= 10, :);
-    LabeledFix.(category).category_file = category_file;
 
     %% 3. gather individual first fixes
 
     for iSubj = 1:n
 
-        % run time control
-        disp(['Evaluating subject ', subs{iSubj}])
+        % check if subject data exists
+        outputDir = fullfile(pwd, '..', 'derivatives',  ['sub-', subs{iSubj}], 'gazePatterns', category);
+        if exist(outputDir, 'dir')
+            % check if all files exist
+            allExist = exist(fullfile(outputDir, 'IndividualObjects_firstFix.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectsCate_firstFix.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectsCate_firstFixOdd.mat'), 'file') ||...
+                exist(fullfile(outputDir, 'ObjectsCate_firstFixEven.mat'), 'file');
+            if allExist
+                disp(['Subject ',subs{iSubj}, ' already exists'])
+                continue
+            end
+        else
+            % run time control
+            mkdir(outputDir)
+        end
+        disp(['Evaluating subject ',subs{iSubj}])
 
         FixData_dir = fullfile(pwd, '..', 'derivatives', ['sub-', subs{iSubj}], 'AOIfix');
         if ~isfolder(FixData_dir)
@@ -89,11 +103,11 @@ for iCate = 1:length(categories)
         category_idx = find(isCurrentCategory);
 
         % init data structures
-        LabeledFix.(category).Objects_firstFix(iSubj,:)  = zeros(1, NumObjsTotal);
-        LabeledFix.(category).isOdd_firstFix(iSubj,:) = logical(zeros(1, NumObjsTotal));
-        LabeledFix.(category).ObjectsCate_firstFix(iSubj,:) = zeros(1, height(category_file));
-        LabeledFix.(category).ObjectsCate_firstFixOdd(iSubj,:) = zeros(1, height(category_file));
-        LabeledFix.(category).ObjectsCate_firstFixEven(iSubj,:) = zeros(1, height(category_file));
+        IndividualObjects_firstFix  = zeros(1, NumObjsTotal);
+        isOdd_firstFix = logical(zeros(1, NumObjsTotal));
+        ObjectsCate_firstFix = zeros(1, height(category_file));
+        ObjectsCate_firstFixOdd = zeros(1, height(category_file));
+        ObjectsCate_firstFixEven = zeros(1, height(category_file));
 
         % get mat file for subject
         matFile = fullfile('..','sourcedata', ['sub-', subs{iSubj}], ['sub-', subs{iSubj} '_task-EyeTracking_physio']); % directory where subject mat files are placed
@@ -109,7 +123,7 @@ for iCate = 1:length(categories)
             ObjsInImg = dir(fullfile('..','AOIs',char(image_name),'*.png'));
 
             % check whether image is odd
-            if mod(iImg, 2) == 1; isOdd = true; else; isOdd = false; end
+            if mod(iImg, 2) == 1; isCurrentOdd = true; else; isCurrentOdd = false; end
 
             % get AOI fix data for image and participant
             warning off
@@ -117,8 +131,8 @@ for iCate = 1:length(categories)
                 'FileType', 'text', 'Delimiter', '\t');
             warning on
 
-            
-            % Calculate pixels per degree of visual angle 
+
+            % Calculate pixels per degree of visual angle
             visual_angle_height = 15;
             coords = sess.expt.stim(iImg).scrRect;
             height_pixels = coords(4) - coords(2);  % bottom - top
@@ -137,7 +151,7 @@ for iCate = 1:length(categories)
             end
 
             % select first fixation more than 0.5 degrees of visual angle away
-            % from center 
+            % from center
             notCenter = fix_data.dist2center > pixels_per_degree/2;
             fix_data = fix_data(notCenter, :);
             first_fix_data = fix_data(fix_data.fixNr == min(fix_data.fixNr), :);
@@ -151,7 +165,7 @@ for iCate = 1:length(categories)
                 if ~isempty(fix_data_obj) %if the current object was indeed fixated (otherwise it will be skipped and the zero (no dwell time) will remain)
 
                     % add 1 if object in first fixation
-                    LabeledFix.(category).Objects_firstFix(iSubj, ObjCount) = 1;
+                    IndividualObjects_firstFix(ObjCount) = 1;
 
                     % check which category the stimulus belongs to
                     [~,obj_name,~] = fileparts(ObjsInImg(iObjs).name);
@@ -162,60 +176,40 @@ for iCate = 1:length(categories)
                         cate_num = find(sum(obj_idx, 2));
 
                         % add 1 to category value
-                        LabeledFix.(category).ObjectsCate_firstFix(iSubj, cate_num) = ...
-                            LabeledFix.(category).ObjectsCate_firstFix(iSubj, cate_num) + 1;
+                        ObjectsCate_firstFix(cate_num) = ...
+                            ObjectsCate_firstFix(cate_num) + 1;
 
                         % add 1 to category seperate for odd and even trials
-                        if isOdd
-                        LabeledFix.(category).ObjectsCate_firstFixOdd(iSubj, cate_num) = ...
-                            LabeledFix.(category).ObjectsCate_firstFixOdd(iSubj, cate_num) + 1;
+                        if isCurrentOdd
+                            ObjectsCate_firstFixOdd(cate_num) = ...
+                                ObjectsCate_firstFixOdd(cate_num) + 1;
                         else
-                        LabeledFix.(category).ObjectsCate_firstFixEven(iSubj, cate_num) = ...
-                            LabeledFix.(category).ObjectsCate_firstFixEven(iSubj, cate_num) + 1;
+                            ObjectsCate_firstFixEven(cate_num) = ...
+                                ObjectsCate_firstFixEven(cate_num) + 1;
                         end
                     end
                 end
             end %iObjs
 
             % mark odd trials
-            if isOdd
-                LabeledFix.(category).isOdd_firstFix(iSubj,ObjCountinit:ObjCount) = true;
+            if isCurrentOdd
+                isOdd_firstFix(ObjCountinit:ObjCount) = true;
             else
-                LabeledFix.(category).isOdd_firstFix(iSubj,ObjCountinit:ObjCount) = false;
+                isOdd_firstFix(ObjCountinit:ObjCount) = false;
             end
 
             %write data in struct
-            LabeledFix.(category).Data_firstFix{iImg,iSubj} = first_fix_data;
+            Data_firstFix{iImg} = first_fix_data;
         end % images
+
+        % save subject data
+        save(fullfile(outputDir, 'IndividualObjects_firstFix.mat'), 'IndividualObjects_firstFix');
+        save(fullfile(outputDir, 'ObjectsCate_firstFix.mat'), 'ObjectsCate_firstFix');
+        save(fullfile(outputDir, 'ObjectsCate_firstFixOdd.mat'), 'ObjectsCate_firstFixOdd');
+        save(fullfile(outputDir, 'ObjectsCate_firstFixEven.mat'), 'ObjectsCate_firstFixEven');
+        save(fullfile(outputDir, 'firstFixData.mat'), 'Data_firstFix', 'isOdd_firstFix');
+
     end % subjects
 
-    %     %% 4. calculate pairwise comparisons between individuals,
-    %     %producing an Gaze Dissimilarity Matrix (GDM) by using spearman
-    %     %correlations
-    %     [ObserverMatObjects, ~] = corr(LabeledFix.(category).ObjectDwellsMulti',...
-    %         'type', 'spearman', 'rows', 'complete');
-    %     [ObserverMatObjectCategories, ~] = corr(LabeledFix.(category).ObjectDwellsMultiCate',...
-    %         'type', 'spearman', 'rows', 'complete');
-    %     [ObserverMatObjectsFix, ~] = corr(LabeledFix.(category).ObjectMultiFixated', 'type',...
-    %         'spearman', 'rows', 'complete');
-
-   
-
-
-    % write to data structure without overwritting pervious data
-    field_names = fieldnames(LabeledFix.(category));
-    for field = 1:length(field_names)
-        field_name = char(field_names{field});
-        if strcmp(field_name, 'splitHalfReliability')
-            field_names2 = fieldnames(LabeledFix.(category).splitHalfReliability);
-            for field2 = 1:length(field_names2)
-                field_name2 = char(field_names2{field2});
-                d.GDM.(category).splitHalfReliability.(field_name2) = LabeledFix.(category).splitHalfReliability.(field_name2);
-            end
-        else
-            d.GDM.(category).(field_name) = LabeledFix.(category).(field_name);
-        end
-    end
-
 end
-end 
+end
