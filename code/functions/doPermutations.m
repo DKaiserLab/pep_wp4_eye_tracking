@@ -2,7 +2,6 @@ function res = doPermutations(matin2D, rval, cfg)
 
 % get default values
 if ~isfield(cfg, 'permutation_type'); cfg.permutation_type = 'row_col_shuffle_ref';end
-if ~isfield(cfg, 'permutation_test'); cfg.permutation_test = false;end
 if ~isfield(cfg, 'n_permutations'); cfg.n_permutations = 10000;end
 if ~isfield(cfg, 'partial_cor'); cfg.partial_cor = false;end
 if ~isfield(cfg, 'random_seqs')
