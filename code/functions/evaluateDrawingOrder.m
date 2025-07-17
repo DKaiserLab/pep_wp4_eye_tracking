@@ -12,3 +12,5 @@ end
 allObjects = allObjects(logical(realObjects));
 uniqueObjects = unique(allObjects);
 
+outputFile = fullfile(pwd, 'unqiueOrder.csv');
+writecell(uniqueObjects, outputFile);
