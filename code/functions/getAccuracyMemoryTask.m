@@ -38,23 +38,40 @@ meanBathroom = mean(d.memoryTask.bathroomMeans, 'omitnan');
 semKitchen = std(d.memoryTask.kitchenMeans, 'omitnan') / sqrt(length(d.memoryTask.kitchenMeans));
 semBathroom = std(d.memoryTask.bathroomMeans, 'omitnan') / sqrt(length(d.memoryTask.bathroomMeans));
 
+% stats including False Discovery Rate (FDR) correction
+[~, pv] = ttest([d.memoryTask.kitchenMeans', d.memoryTask.bathroomMeans'], 0, 'tail', 'right');
+[~, ~, ~, adj_pv] = fdr_bh(pv);
+
 % Plot bar chart with error bars and scatter dots
 figure;
 hold on;
+
 barHandles = bar([1, 2], [meanKitchen, meanBathroom], 'FaceColor', 'flat');  % Bar plot for means
 
 % Add error bars
 errorbar([1, 2], [meanKitchen, meanBathroom], [semKitchen, semBathroom], 'k', 'LineStyle', 'none', 'LineWidth', 1.5);
 
 % Scatter individual subject values
-scatter(ones(size(d.memoryTask.kitchenMeans)), d.memoryTask.kitchenMeans, 50, 'k', 'filled', 'jitter', 'on', 'jitterAmount', 0.1);
-scatter(2 * ones(size(d.memoryTask.bathroomMeans)), d.memoryTask.bathroomMeans, 50, 'k', 'filled', 'jitter', 'on', 'jitterAmount', 0.1);
+scatter(ones(size(d.memoryTask.kitchenMeans)), d.memoryTask.kitchenMeans, 10,...
+    'MarkerEdgeColor', 'k', 'jitter', 'on', 'jitterAmount', 0.1);
+scatter(2 * ones(size(d.memoryTask.bathroomMeans)), d.memoryTask.bathroomMeans, 10,...
+    'MarkerEdgeColor', 'k', 'jitter', 'on', 'jitterAmount', 0.1);
+
+% Add horizontal line at chance level
+yline(0.5, '--r', 'Chance Level', 'LineWidth', 1.5, 'LabelHorizontalAlignment', 'right');
+
+% add asterisks
+text(1-0.1, max(d.memoryTask.kitchenMeans) + 0.05, pval2asterisks(adj_pv(1)), 'FontSize', 15, 'FontWeight', 'bold')
+text(2-0.1, max(d.memoryTask.bathroomMeans) + 0.05, pval2asterisks(adj_pv(2)), 'FontSize', 15, 'FontWeight', 'bold')
 
 % Customize plot
+ylim([0.3,0.9])
 xticks([1, 2]);
 xticklabels({'Kitchen', 'Bathroom'});
 ylabel('Mean Accuracy');
 title('Accuracy in Kitchen vs. Bathroom Trials');
-grid on;
 hold off;
 end
+
+
+
