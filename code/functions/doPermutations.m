@@ -6,6 +6,7 @@ if ~isfield(cfg, 'n_permutations'); cfg.n_permutations = 10000;end
 if ~isfield(cfg, 'partial_cor'); cfg.partial_cor = false;end
 if ~isfield(cfg, 'random_seqs')
     % generate permutated subjects list
+    rng(1) % ensure reproducible outcome
     cfg.random_seqs = cell(width(matin2D), cfg.n_permutations);
     for i = 1:cfg.n_permutations
         if ismember(cfg.permutation_type, {'row_col_shuffle_ref',...

@@ -14,7 +14,7 @@ if cfg.regressOutMean
     GDM_field = 'GDM_demeaned';
 else
     GDM_field = 'GDM';
-end 
+end
 cfg.dissimilarity = false; % use correlations not dissimilarity
 
 
@@ -48,6 +48,7 @@ for iCate = 1:length(cfg.categories)
         res = doPermutations([A',B'], R, cfg);
         d.(GDM_field).(category).splitHalfReliability.ObjectFixCount.p = res.p_value;
         d.(GDM_field).(category).splitHalfReliability.ObjectFixCount.ci = [res.ci_lower, res.ci_upper];
+        d.(GDM_field).(category).splitHalfReliability.ObjectFixCount.perm_r_mat = res.perm_r_mat;
     end
 
     %% single object dwell time
@@ -79,6 +80,7 @@ for iCate = 1:length(cfg.categories)
         res = doPermutations([C',D'], R, cfg);
         d.(GDM_field).(category).splitHalfReliability.IndividualObjectDwells.p = res.p_value;
         d.(GDM_field).(category).splitHalfReliability.IndividualObjectDwells.ci = [res.ci_lower, res.ci_upper];
+        d.(GDM_field).(category).splitHalfReliability.IndividualObjectDwells.perm_r_mat = res.perm_r_mat;
     end
 
     %% object category dwell time
@@ -106,6 +108,7 @@ for iCate = 1:length(cfg.categories)
         res = doPermutations([E',F'], R, cfg);
         d.(GDM_field).(category).splitHalfReliability.ObjectDwellsCate.p = res.p_value;
         d.(GDM_field).(category).splitHalfReliability.ObjectDwellsCate.ci = [res.ci_lower, res.ci_upper];
+        d.(GDM_field).(category).splitHalfReliability.ObjectDwellsCate.perm_r_mat = res.perm_r_mat;
     end
 
     %% first fix - single object dwell time
@@ -138,6 +141,7 @@ for iCate = 1:length(cfg.categories)
         res = doPermutations([G',H'], R, cfg);
         d.(GDM_field).(category).splitHalfReliability.IndividualObjects_firstFix.p = res.p_value;
         d.(GDM_field).(category).splitHalfReliability.IndividualObjects_firstFix.ci = [res.ci_lower, res.ci_upper];
+        d.(GDM_field).(category).splitHalfReliability.IndividualObjects_firstFix.perm_r_mat = res.perm_r_mat;
     end
 
     %% first fix - object category dwell time
@@ -165,6 +169,7 @@ for iCate = 1:length(cfg.categories)
         res = doPermutations([I',J'], R, cfg);
         d.(GDM_field).(category).splitHalfReliability.ObjectsCate_firstFix.p = res.p_value;
         d.(GDM_field).(category).splitHalfReliability.ObjectsCate_firstFix.ci = [res.ci_lower, res.ci_upper];
+        d.(GDM_field).(category).splitHalfReliability.ObjectsCate_firstFix.perm_r_mat = res.perm_r_mat;
     end
 
     %% object category fixation priority
@@ -192,7 +197,78 @@ for iCate = 1:length(cfg.categories)
         res = doPermutations([I',J'], R, cfg);
         d.(GDM_field).(category).splitHalfReliability.ObjectCatePrio.p = res.p_value;
         d.(GDM_field).(category).splitHalfReliability.ObjectCatePrio.ci = [res.ci_lower, res.ci_upper];
+        d.(GDM_field).(category).splitHalfReliability.ObjectCatePrio.perm_r_mat = res.perm_r_mat;
     end
 end
+
+
+%% get stats for category average
+%% fixation count
+if ismember('ObjectFixCount' , cfg.variables_of_interest)
+    % asses permutation test
+    meanPermRes = mean([d.(GDM_field).bathroom.splitHalfReliability.ObjectFixCount.perm_r_mat;...
+        d.(GDM_field).kitchen.splitHalfReliability.ObjectFixCount.perm_r_mat]);
+    meanR = mean([d.(GDM_field).bathroom.splitHalfReliability.ObjectFixCount.r;...
+        d.(GDM_field).kitchen.splitHalfReliability.ObjectFixCount.r]);
+    d.(GDM_field).combined.splitHalfReliability.ObjectFixCount.p = sum(meanPermRes >= meanR) / cfg.n_permutations;
+    d.(GDM_field).combined.splitHalfReliability.ObjectFixCount.ci = [meanR - prctile(meanPermRes, 5), meanR - prctile(meanPermRes, 95)];
+end
+
+%% single object dwell time
+if ismember('IndividualObjectDwells' , cfg.variables_of_interest)
+    % asses permutation test
+    meanPermRes = mean([d.(GDM_field).bathroom.splitHalfReliability.IndividualObjectDwells.perm_r_mat;...
+        d.(GDM_field).kitchen.splitHalfReliability.IndividualObjectDwells.perm_r_mat]);
+    meanR = mean([d.(GDM_field).bathroom.splitHalfReliability.IndividualObjectDwells.r;...
+        d.(GDM_field).kitchen.splitHalfReliability.IndividualObjectDwells.r]);
+    d.(GDM_field).combined.splitHalfReliability.IndividualObjectDwells.p = sum(meanPermRes >= meanR) / cfg.n_permutations;
+    d.(GDM_field).combined.splitHalfReliability.IndividualObjectDwells.ci = [meanR - prctile(meanPermRes, 5), meanR - prctile(meanPermRes, 95)];
+end
+
+%% object category dwell time
+if ismember('ObjectDwellsCate' , cfg.variables_of_interest)
+    % asses permutation test
+    meanPermRes = mean([d.(GDM_field).bathroom.splitHalfReliability.ObjectDwellsCate.perm_r_mat;...
+        d.(GDM_field).kitchen.splitHalfReliability.ObjectDwellsCate.perm_r_mat]);
+    meanR = mean([d.(GDM_field).bathroom.splitHalfReliability.ObjectDwellsCate.r;...
+        d.(GDM_field).kitchen.splitHalfReliability.ObjectDwellsCate.r]);
+    d.(GDM_field).combined.splitHalfReliability.ObjectDwellsCate.p = sum(meanPermRes >= meanR) / cfg.n_permutations;
+    d.(GDM_field).combined.splitHalfReliability.ObjectDwellsCate.ci = [meanR - prctile(meanPermRes, 5), meanR - prctile(meanPermRes, 95)];
+end
+
+%% first fix - single object dwell time
+if ismember('IndividualObjects_firstFix' , cfg.variables_of_interest)
+    % asses permutation test
+    meanPermRes = mean([d.(GDM_field).bathroom.splitHalfReliability.IndividualObjects_firstFix.perm_r_mat;...
+        d.(GDM_field).kitchen.splitHalfReliability.IndividualObjects_firstFix.perm_r_mat]);
+    meanR = mean([d.(GDM_field).bathroom.splitHalfReliability.IndividualObjects_firstFix.r;...
+        d.(GDM_field).kitchen.splitHalfReliability.IndividualObjects_firstFix.r]);
+    d.(GDM_field).combined.splitHalfReliability.IndividualObjects_firstFix.p = sum(meanPermRes >= meanR) / cfg.n_permutations;
+    d.(GDM_field).combined.splitHalfReliability.IndividualObjects_firstFix.ci = [meanR - prctile(meanPermRes, 5), meanR - prctile(meanPermRes, 95)];
+end
+
+%% first fix - object category dwell time
+if ismember('ObjectsCate_firstFix' , cfg.variables_of_interest)
+    % asses permutation test
+    meanPermRes = mean([d.(GDM_field).bathroom.splitHalfReliability.ObjectsCate_firstFix.perm_r_mat;...
+        d.(GDM_field).kitchen.splitHalfReliability.ObjectsCate_firstFix.perm_r_mat]);
+    meanR = mean([d.(GDM_field).bathroom.splitHalfReliability.ObjectsCate_firstFix.r;...
+        d.(GDM_field).kitchen.splitHalfReliability.ObjectsCate_firstFix.r]);
+    d.(GDM_field).combined.splitHalfReliability.ObjectsCate_firstFix.p = sum(meanPermRes >= meanR) / cfg.n_permutations;
+    d.(GDM_field).combined.splitHalfReliability.ObjectsCate_firstFix.ci = [meanR - prctile(meanPermRes, 5), meanR - prctile(meanPermRes, 95)];
+end
+
+%% object category fixation priority
+if ismember('ObjectCatePrio' , cfg.variables_of_interest)
+    % asses permutation test
+    meanPermRes = mean([d.(GDM_field).bathroom.splitHalfReliability.ObjectCatePrio.perm_r_mat;...
+        d.(GDM_field).kitchen.splitHalfReliability.ObjectCatePrio.perm_r_mat]);
+    meanR = mean([d.(GDM_field).bathroom.splitHalfReliability.ObjectCatePrio.r;...
+        d.(GDM_field).kitchen.splitHalfReliability.ObjectCatePrio.r]);
+    d.(GDM_field).combined.splitHalfReliability.ObjectCatePrio.p = sum(meanPermRes >= meanR) / cfg.n_permutations;
+    d.(GDM_field).combined.splitHalfReliability.ObjectCatePrio.ci = [meanR - prctile(meanPermRes, 5), meanR - prctile(meanPermRes, 95)];
+    d.(GDM_field).(category).splitHalfReliability.ObjectCatePrio.perm_r_mat = res.perm_r_mat;
+end
+
 end
 
