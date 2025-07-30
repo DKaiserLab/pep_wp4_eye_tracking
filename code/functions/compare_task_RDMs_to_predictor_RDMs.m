@@ -277,19 +277,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
                 res_table.p_val_cate1(row) = r2p(res_table.r_val_cate1(row), N);
                 res_table.p_val_cate2(row) = r2p(res_table.r_val_cate2(row), N);
             end
-            % plot p and r values
-            disp(' ')
-            disp(['For ', res_table.name{row}])
-            disp('Category average')
-            disp(['p value: ', num2str(res_table.p_val(row))])
-            disp(['r value for: ', num2str(res_table.r_val(row))])
-            disp(['Category: ', cfg.categories{1}])
-            disp(['p value: ', num2str(res_table.p_val_cate1(row))])
-            disp(['r value for: ', num2str(res_table.r_val_cate1(row))])
-            disp(['Category: ', cfg.categories{2}])
-            disp(['p value: ', num2str(res_table.p_val_cate2(row))])
-            disp(['r value for: ', num2str(res_table.r_val_cate2(row))])
-
+         
             % store in data struct
             d.compare_task_to_predictor.(voi).category_average = res_table;
         end
@@ -337,7 +325,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
                     % add confidence interval if available
                     if ismember('ci_lower', res_table.Properties.VariableNames)
                         r_val = res_table.r_val(xiPos);
-                        errorbar(current_x_pos, r_val, r_val-res_table.ci_lower(xiPos), res_table.ci_upper(xiPos)-r_val, 'k', 'LineWidth', 1);  % Error bars
+                        errorHandles(current_x_pos) = errorbar(current_x_pos, r_val, r_val-res_table.ci_lower(xiPos), res_table.ci_upper(xiPos)-r_val, 'k', 'LineWidth', 1);  % Error bars
                     end
                     % add bootstrapping median if available
                     if ismember('boot_median', res_table.Properties.VariableNames)
@@ -368,21 +356,43 @@ end
 
 if cfg.plotting
 
+    % collect p values
+    all_p_vals = nan(height(res_table), numel(cfg.variables_of_interest));
     for voi_n = 1:numel(cfg.variables_of_interest)
+        voi = char(cfg.variables_of_interest(voi_n));
+        all_p_vals(:, voi_n) = d.compare_task_to_predictor.(voi).category_average.p_val;
+    end
 
-        % get asterisks
-        correction = 'fdr';
-        pval_asterisks =  pval2asterisks(res_table.p_val', correction);
-        for xiPos = 1:height(res_table)
-            % get x_pos of asterisks
-            if ismember('ci_upper', res_table.Properties.VariableNames)
-                y_pos = res_table.ci_upper(xiPos) + res_table.ci_upper(xiPos) * 0.15;
-            else
-                y_pos = b.YEndPoints(x_pos) + 0.08;
-            end
-            if y_pos < 0.05; y_pos = 0.05; end
-            text(current_x_pos, y_pos, pval_asterisks{xiPos}, 'HorizontalAlignment', 'center', 'FontSize', 12);
+    % get asterisks
+    all_asterisks = cell(height(res_table), numel(cfg.variables_of_interest));
+    for i_pred = 1:height(res_table)
+        % do fdr correction
+        [~, ~, ~, fdr_pval] = fdr_bh(all_p_vals(i_pred, :));
+        all_asterisks(i_pred, :) = pval2asterisks(fdr_pval, 'none');
+
+        % write back adjusted p values and print them
+        disp([newline, newline])
+        disp(char(res_table.name(i_pred)))
+        for voi_n = 1:numel(cfg.variables_of_interest)
+            voi = char(cfg.variables_of_interest(voi_n));
+            d.compare_task_to_predictor.(voi).category_average.p_val(i_pred) = fdr_pval(voi_n);
+            disp(['FDR corrected p value for ', voi, ': ', num2str(fdr_pval(voi_n)),...
+                ' ', char(all_asterisks(i_pred, voi_n))])
         end
+    end
+
+    % plot asterisks
+    ast_vec = reshape(all_asterisks, 1, []);
+    count = 0;
+    for i_bar = 1:length(barHandles)
+        if ~isgraphics(barHandles(i_bar))
+            continue
+        end
+        count = count + 1;
+
+        % get y position based on error bars
+        y_pos = errorHandles(i_bar).YPositiveDelta + errorHandles(i_bar).YData + 0.08;
+        text(i_bar, y_pos, ast_vec{count}, 'HorizontalAlignment', 'center', 'FontSize', 12);
     end
 
     % get aesthetics

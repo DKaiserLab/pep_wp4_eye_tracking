@@ -16,6 +16,8 @@ if ~isfield(cfg, 'plot_type'); cfg.plot_type = 'bar';end
 if ~isfield(cfg, 'dnns'); cfg.dnns = {cfg.dnn};end
 if ~isfield(cfg, 'ylim'); cfg.ylim = [-0.3, 0.5];end
 if ~isfield(cfg, 'smoothing_window'); cfg.smoothing_window = 6;end
+if ~isfield(cfg, 'stimDur'); cfg.stimDur = 3;end
+
 % prepare figure
 if cfg.plotting
     figure;
