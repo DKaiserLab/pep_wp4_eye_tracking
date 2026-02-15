@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adoqbnxbotablpwl.jpg	1	0.301	0.225	1029.835	706.985	0.203	0.076	0.0	9	sink
+sun_adoqbnxbotablpwl.jpg	1	0.301	0.225	1029.835	706.985	0.203	0.076	0.0	11	worktop
+sun_adoqbnxbotablpwl.jpg	2	0.543	0.208	908.450	636.130	0.153	0.043	0.0	3	counter
+sun_adoqbnxbotablpwl.jpg	3	0.785	0.150	1027.943	957.217	0.129	0.025	0.0	4	dishwasher
+sun_adoqbnxbotablpwl.jpg	4	0.968	0.158	1349.535	1019.975	0.111	0.025	0.0	0	other
+sun_adoqbnxbotablpwl.jpg	5	1.151	0.425	1701.830	918.165	0.102	0.032	0.0	0	other
+sun_adoqbnxbotablpwl.jpg	6	1.710	0.208	1350.430	664.250	0.146	0.041	0.0	8	range
+sun_adoqbnxbotablpwl.jpg	7	1.935	0.308	1306.490	588.090	0.116	0.035	0.0	8	range
+sun_adoqbnxbotablpwl.jpg	8	2.268	0.208	1290.800	633.740	0.170	0.029	0.0	8	range
+sun_adoqbnxbotablpwl.jpg	8	2.268	0.208	1290.800	633.740	0.170	0.029	0.0	11	worktop
+sun_adoqbnxbotablpwl.jpg	9	2.501	0.225	1404.920	736.235	0.148	0.044	0.0	8	range
+sun_adoqbnxbotablpwl.jpg	10	2.751	0.250	1321.207	757.152	0.122	0.034	0.0	8	range

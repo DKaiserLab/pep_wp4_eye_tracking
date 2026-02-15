@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aawefvrbscajixha.jpg	1	0.359	0.325	1038.530	847.255	0.110	0.040	0.0	0	other
+sun_aawefvrbscajixha.jpg	2	0.725	0.358	1583.465	901.575	0.060	0.023	0.0	1	breadbasket
+sun_aawefvrbscajixha.jpg	2	0.725	0.358	1583.465	901.575	0.060	0.023	0.0	15	window
+sun_aawefvrbscajixha.jpg	3	1.109	0.342	1235.300	680.025	3.457	2.518	0.0	3	cabinet
+sun_aawefvrbscajixha.jpg	3	1.109	0.342	1235.300	680.025	3.457	2.518	0.0	5	extractor hood
+sun_aawefvrbscajixha.jpg	4	1.484	0.317	1002.618	688.015	3.277	2.326	0.0	15	window
+sun_aawefvrbscajixha.jpg	5	1.834	1.175	1485.110	688.830	2.449	3.455	0.0	4	curtain
+sun_aawefvrbscajixha.jpg	5	1.834	1.175	1485.110	688.830	2.449	3.455	0.0	15	window

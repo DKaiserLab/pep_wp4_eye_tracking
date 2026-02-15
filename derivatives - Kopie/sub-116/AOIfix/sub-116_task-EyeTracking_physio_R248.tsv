@@ -1,0 +1,27 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_annrglxxvocekqkh.jpg	1	0.408	0.267	1273.525	578.947	0.104	0.033	0.0	4	bottle
+sun_annrglxxvocekqkh.jpg	1	0.408	0.267	1273.525	578.947	0.104	0.033	0.0	5	bottlr
+sun_annrglxxvocekqkh.jpg	1	0.408	0.267	1273.525	578.947	0.104	0.033	0.0	18	range
+sun_annrglxxvocekqkh.jpg	1	0.408	0.267	1273.525	578.947	0.104	0.033	0.0	24	window
+sun_annrglxxvocekqkh.jpg	1	0.408	0.267	1273.525	578.947	0.104	0.033	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	2	0.700	0.433	1310.185	671.362	0.207	0.097	0.0	2	board
+sun_annrglxxvocekqkh.jpg	2	0.700	0.433	1310.185	671.362	0.207	0.097	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	2	0.700	0.433	1310.185	671.362	0.207	0.097	0.0	13	knife
+sun_annrglxxvocekqkh.jpg	2	0.700	0.433	1310.185	671.362	0.207	0.097	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	3	1.141	0.108	1279.255	662.570	0.181	0.062	0.0	2	board
+sun_annrglxxvocekqkh.jpg	3	1.141	0.108	1279.255	662.570	0.181	0.062	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	3	1.141	0.108	1279.255	662.570	0.181	0.062	0.0	13	knife
+sun_annrglxxvocekqkh.jpg	3	1.141	0.108	1279.255	662.570	0.181	0.062	0.0	21	sink
+sun_annrglxxvocekqkh.jpg	3	1.141	0.108	1279.255	662.570	0.181	0.062	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	4	1.275	0.158	1237.025	544.050	0.097	0.027	0.0	4	bottle
+sun_annrglxxvocekqkh.jpg	4	1.275	0.158	1237.025	544.050	0.097	0.027	0.0	16	plant pot
+sun_annrglxxvocekqkh.jpg	4	1.275	0.158	1237.025	544.050	0.097	0.027	0.0	17	plant
+sun_annrglxxvocekqkh.jpg	4	1.275	0.158	1237.025	544.050	0.097	0.027	0.0	24	window
+sun_annrglxxvocekqkh.jpg	5	1.458	0.192	1103.665	534.490	0.090	0.018	0.0	24	window
+sun_annrglxxvocekqkh.jpg	6	1.666	0.167	1019.067	521.938	0.140	0.052	0.0	17	plant
+sun_annrglxxvocekqkh.jpg	7	1.858	0.258	979.185	579.790	0.126	0.051	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	8	2.133	0.267	902.308	647.345	0.214	0.133	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	8	2.133	0.267	902.308	647.345	0.214	0.133	0.0	9	chair
+sun_annrglxxvocekqkh.jpg	9	2.441	0.325	1423.005	678.295	0.204	0.109	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	9	2.441	0.325	1423.005	678.295	0.204	0.109	0.0	18	range
+sun_annrglxxvocekqkh.jpg	10	2.783	0.217	1488.577	647.925	0.187	0.065	0.0	6	cabinet

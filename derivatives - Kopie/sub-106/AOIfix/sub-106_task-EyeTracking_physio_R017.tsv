@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahmxuekfssakrqmm.jpg	1	0.421	0.375	1033.485	998.205	0.129	0.050	0.0	7	flowers
+sun_ahmxuekfssakrqmm.jpg	1	0.421	0.375	1033.485	998.205	0.129	0.050	0.0	15	refrigerator
+sun_ahmxuekfssakrqmm.jpg	1	0.421	0.375	1033.485	998.205	0.129	0.050	0.0	20	table crop
+sun_ahmxuekfssakrqmm.jpg	2	0.829	0.250	1338.675	989.183	0.134	0.037	0.0	2	cabinet
+sun_ahmxuekfssakrqmm.jpg	2	0.829	0.250	1338.675	989.183	0.134	0.037	0.0	3	chair
+sun_ahmxuekfssakrqmm.jpg	2	0.829	0.250	1338.675	989.183	0.134	0.037	0.0	19	stool
+sun_ahmxuekfssakrqmm.jpg	3	1.121	0.158	1508.860	958.100	0.091	0.021	0.0	2	cabinet
+sun_ahmxuekfssakrqmm.jpg	3	1.121	0.158	1508.860	958.100	0.091	0.021	0.0	18	stool crop
+sun_ahmxuekfssakrqmm.jpg	4	1.312	0.267	1586.930	827.003	0.110	0.026	0.0	2	cabinet
+sun_ahmxuekfssakrqmm.jpg	4	1.312	0.267	1586.930	827.003	0.110	0.026	0.0	25	worktop
+sun_ahmxuekfssakrqmm.jpg	5	1.596	0.242	1571.875	719.065	0.134	0.031	0.0	13	pot
+sun_ahmxuekfssakrqmm.jpg	5	1.596	0.242	1571.875	719.065	0.134	0.031	0.0	25	worktop
+sun_ahmxuekfssakrqmm.jpg	6	1.871	0.258	1425.230	601.815	0.147	0.038	0.0	24	window
+sun_ahmxuekfssakrqmm.jpg	7	2.162	0.300	1318.970	575.082	0.129	0.033	0.0	24	window
+sun_ahmxuekfssakrqmm.jpg	8	2.496	0.333	1363.133	633.308	0.116	0.041	0.0	24	window
+sun_ahmxuekfssakrqmm.jpg	9	2.846	0.158	1142.195	606.165	0.123	0.062	0.0	2	cabinet

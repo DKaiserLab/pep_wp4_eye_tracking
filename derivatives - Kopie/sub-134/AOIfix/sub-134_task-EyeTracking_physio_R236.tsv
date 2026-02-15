@@ -1,0 +1,25 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahbhthuvbhsokcnl.jpg	1	0.255	0.150	1333.778	736.088	0.222	0.112	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	1	0.255	0.150	1333.778	736.088	0.222	0.112	0.0	21	worktop
+sun_ahbhthuvbhsokcnl.jpg	2	0.430	0.333	1476.447	738.125	0.102	0.044	0.0	11	hotpl
+sun_ahbhthuvbhsokcnl.jpg	2	0.430	0.333	1476.447	738.125	0.102	0.044	0.0	15	oven
+sun_ahbhthuvbhsokcnl.jpg	2	0.430	0.333	1476.447	738.125	0.102	0.044	0.0	21	worktop
+sun_ahbhthuvbhsokcnl.jpg	3	0.788	0.125	1567.810	704.690	0.156	0.045	0.0	13	microwave
+sun_ahbhthuvbhsokcnl.jpg	3	0.788	0.125	1567.810	704.690	0.156	0.045	0.0	21	worktop
+sun_ahbhthuvbhsokcnl.jpg	4	0.946	0.408	1075.970	712.305	0.199	0.088	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	4	0.946	0.408	1075.970	712.305	0.199	0.088	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	5	1.371	0.283	1045.240	663.400	0.123	0.031	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	5	1.371	0.283	1045.240	663.400	0.123	0.031	0.0	10	flowers
+sun_ahbhthuvbhsokcnl.jpg	6	1.671	0.167	1029.942	665.267	0.099	0.021	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	6	1.671	0.167	1029.942	665.267	0.099	0.021	0.0	10	flowers
+sun_ahbhthuvbhsokcnl.jpg	6	1.671	0.167	1029.942	665.267	0.099	0.021	0.0	20	vase
+sun_ahbhthuvbhsokcnl.jpg	7	1.863	0.192	1087.975	726.855	0.105	0.025	0.0	2	books
+sun_ahbhthuvbhsokcnl.jpg	7	1.863	0.192	1087.975	726.855	0.105	0.025	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	7	1.863	0.192	1087.975	726.855	0.105	0.025	0.0	6	candleholder
+sun_ahbhthuvbhsokcnl.jpg	7	1.863	0.192	1087.975	726.855	0.105	0.025	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	8	2.071	0.725	1094.430	751.940	0.109	0.068	0.0	2	books
+sun_ahbhthuvbhsokcnl.jpg	8	2.071	0.725	1094.430	751.940	0.109	0.068	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	8	2.071	0.725	1094.430	751.940	0.109	0.068	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	9	2.821	0.183	1113.967	721.795	0.085	0.012	0.0	2	books
+sun_ahbhthuvbhsokcnl.jpg	9	2.821	0.183	1113.967	721.795	0.085	0.012	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	9	2.821	0.183	1113.967	721.795	0.085	0.012	0.0	6	candleholder

@@ -1,0 +1,29 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atfmueokdeplnsdy.jpg	1	0.253	0.275	1305.365	750.935	0.100	0.055	0.0	16	plant
+sun_atfmueokdeplnsdy.jpg	1	0.253	0.275	1305.365	750.935	0.100	0.055	0.0	20	sink
+sun_atfmueokdeplnsdy.jpg	1	0.253	0.275	1305.365	750.935	0.100	0.055	0.0	21	stove
+sun_atfmueokdeplnsdy.jpg	1	0.253	0.275	1305.365	750.935	0.100	0.055	0.0	23	teapot
+sun_atfmueokdeplnsdy.jpg	1	0.253	0.275	1305.365	750.935	0.100	0.055	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	2	0.545	0.217	1356.043	776.363	0.100	0.048	0.0	21	stove
+sun_atfmueokdeplnsdy.jpg	2	0.545	0.217	1356.043	776.363	0.100	0.048	0.0	23	teapot
+sun_atfmueokdeplnsdy.jpg	3	0.778	0.267	1481.695	796.340	0.154	0.117	0.0	2	bowl
+sun_atfmueokdeplnsdy.jpg	3	0.778	0.267	1481.695	796.340	0.154	0.117	0.0	12	fruit
+sun_atfmueokdeplnsdy.jpg	4	1.061	0.283	1568.197	800.110	0.125	0.038	0.0	2	bowl
+sun_atfmueokdeplnsdy.jpg	4	1.061	0.283	1568.197	800.110	0.125	0.038	0.0	12	fruit
+sun_atfmueokdeplnsdy.jpg	4	1.061	0.283	1568.197	800.110	0.125	0.038	0.0	27	window
+sun_atfmueokdeplnsdy.jpg	4	1.061	0.283	1568.197	800.110	0.125	0.038	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	5	1.370	0.150	1620.527	823.903	0.069	0.015	0.0	27	window
+sun_atfmueokdeplnsdy.jpg	5	1.370	0.150	1620.527	823.903	0.069	0.015	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	6	1.561	0.183	1348.758	767.257	0.111	0.092	0.0	21	stove
+sun_atfmueokdeplnsdy.jpg	6	1.561	0.183	1348.758	767.257	0.111	0.092	0.0	23	teapot
+sun_atfmueokdeplnsdy.jpg	6	1.561	0.183	1348.758	767.257	0.111	0.092	0.0	28	windows
+sun_atfmueokdeplnsdy.jpg	7	1.778	0.292	1227.200	760.875	0.096	0.034	0.0	1	basket
+sun_atfmueokdeplnsdy.jpg	7	1.778	0.292	1227.200	760.875	0.096	0.034	0.0	8	dishwasher
+sun_atfmueokdeplnsdy.jpg	7	1.778	0.292	1227.200	760.875	0.096	0.034	0.0	10	drawers
+sun_atfmueokdeplnsdy.jpg	7	1.778	0.292	1227.200	760.875	0.096	0.034	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	8	2.120	0.308	1118.670	759.690	0.055	0.011	0.0	2	bowl
+sun_atfmueokdeplnsdy.jpg	8	2.120	0.308	1118.670	759.690	0.055	0.011	0.0	13	kitchen island
+sun_atfmueokdeplnsdy.jpg	8	2.120	0.308	1118.670	759.690	0.055	0.011	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	9	2.461	0.183	1035.408	771.028	0.131	0.039	0.0	18	refrigerator
+sun_atfmueokdeplnsdy.jpg	10	2.670	0.333	987.898	792.845	0.069	0.035	0.0	11	football trophy
+sun_atfmueokdeplnsdy.jpg	10	2.670	0.333	987.898	792.845	0.069	0.035	0.0	29	worktop

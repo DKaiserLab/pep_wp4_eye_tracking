@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ayfwodsvoatztibh.jpg	1	0.305	0.117	1346.973	757.215	0.131	0.060	0.0	1	bathtub
+sun_ayfwodsvoatztibh.jpg	1	0.305	0.117	1346.973	757.215	0.131	0.060	0.0	3	countertop
+sun_ayfwodsvoatztibh.jpg	2	0.455	0.167	1578.430	834.765	0.121	0.044	0.0	3	countertop
+sun_ayfwodsvoatztibh.jpg	2	0.455	0.167	1578.430	834.765	0.121	0.044	0.0	4	sink
+sun_ayfwodsvoatztibh.jpg	3	0.646	0.258	1657.460	728.660	0.124	0.039	0.0	0	other
+sun_ayfwodsvoatztibh.jpg	4	0.930	0.108	1619.325	710.520	0.128	0.028	0.0	3	countertop
+sun_ayfwodsvoatztibh.jpg	5	1.088	0.250	1441.827	527.467	0.092	0.030	0.0	0	other
+sun_ayfwodsvoatztibh.jpg	6	1.371	0.183	1274.330	485.485	0.091	0.032	0.0	0	other
+sun_ayfwodsvoatztibh.jpg	7	1.713	0.292	978.695	745.315	0.168	0.095	0.0	1	bathtub
+sun_ayfwodsvoatztibh.jpg	8	2.055	0.233	1245.617	912.520	0.162	0.053	0.0	0	other
+sun_ayfwodsvoatztibh.jpg	9	2.313	0.208	1434.035	888.030	0.199	0.078	0.0	3	countertop
+sun_ayfwodsvoatztibh.jpg	9	2.313	0.208	1434.035	888.030	0.199	0.078	0.0	4	sink
+sun_ayfwodsvoatztibh.jpg	10	2.538	0.200	1542.912	854.168	0.256	0.078	0.0	3	countertop
+sun_ayfwodsvoatztibh.jpg	10	2.538	0.200	1542.912	854.168	0.256	0.078	0.0	4	sink
+sun_ayfwodsvoatztibh.jpg	11	2.746	0.258	1573.770	843.815	0.194	0.067	0.0	3	countertop
+sun_ayfwodsvoatztibh.jpg	11	2.746	0.258	1573.770	843.815	0.194	0.067	0.0	4	sink

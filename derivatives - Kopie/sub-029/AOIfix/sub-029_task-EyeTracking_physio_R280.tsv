@@ -1,0 +1,24 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_angrmjwcbqlakjjz.jpg	1	0.456	0.225	1441.705	890.555	0.113	0.037	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	1	0.456	0.225	1441.705	890.555	0.113	0.037	0.0	25	rug
+sun_angrmjwcbqlakjjz.jpg	2	0.706	0.225	1049.055	829.705	0.188	0.136	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	2	0.706	0.225	1049.055	829.705	0.188	0.136	0.0	14	food
+sun_angrmjwcbqlakjjz.jpg	2	0.706	0.225	1049.055	829.705	0.188	0.136	0.0	26	shelf
+sun_angrmjwcbqlakjjz.jpg	3	0.973	0.208	1374.425	625.560	0.187	0.079	0.0	8	curtains
+sun_angrmjwcbqlakjjz.jpg	3	0.973	0.208	1374.425	625.560	0.187	0.079	0.0	31	window
+sun_angrmjwcbqlakjjz.jpg	3	0.973	0.208	1374.425	625.560	0.187	0.079	0.0	32	wooden utensils
+sun_angrmjwcbqlakjjz.jpg	4	1.206	0.458	1256.360	722.260	0.115	0.062	0.0	2	bowl
+sun_angrmjwcbqlakjjz.jpg	4	1.206	0.458	1256.360	722.260	0.115	0.062	0.0	10	dishwasher
+sun_angrmjwcbqlakjjz.jpg	4	1.206	0.458	1256.360	722.260	0.115	0.062	0.0	24	range
+sun_angrmjwcbqlakjjz.jpg	4	1.206	0.458	1256.360	722.260	0.115	0.062	0.0	33	worktop
+sun_angrmjwcbqlakjjz.jpg	5	1.690	0.142	1187.110	734.010	0.121	0.035	0.0	24	range
+sun_angrmjwcbqlakjjz.jpg	6	1.856	0.292	1452.695	656.975	0.132	0.037	0.0	31	window
+sun_angrmjwcbqlakjjz.jpg	7	2.173	0.175	1550.650	700.120	0.118	0.025	0.0	27	sink
+sun_angrmjwcbqlakjjz.jpg	7	2.173	0.175	1550.650	700.120	0.118	0.025	0.0	28	soap dispenser
+sun_angrmjwcbqlakjjz.jpg	7	2.173	0.175	1550.650	700.120	0.118	0.025	0.0	33	worktop
+sun_angrmjwcbqlakjjz.jpg	8	2.381	0.225	1634.660	728.155	0.189	0.058	0.0	12	dried herbs
+sun_angrmjwcbqlakjjz.jpg	8	2.381	0.225	1634.660	728.155	0.189	0.058	0.0	23	rack
+sun_angrmjwcbqlakjjz.jpg	9	2.631	0.192	1675.835	817.105	0.129	0.028	0.0	12	dried herbs
+sun_angrmjwcbqlakjjz.jpg	9	2.631	0.192	1675.835	817.105	0.129	0.028	0.0	23	rack
+sun_angrmjwcbqlakjjz.jpg	10	2.848	0.158	1646.480	856.350	0.142	0.037	0.0	12	dried herbs
+sun_angrmjwcbqlakjjz.jpg	10	2.848	0.158	1646.480	856.350	0.142	0.037	0.0	23	rack

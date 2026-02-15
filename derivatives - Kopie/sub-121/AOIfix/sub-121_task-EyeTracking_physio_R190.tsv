@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anbqoyitlozwisvu.jpg	1	0.409	0.475	1250.520	718.400	0.118	0.133	0.0	3	cabinet
+sun_anbqoyitlozwisvu.jpg	2	0.909	0.208	1344.905	733.595	0.141	0.168	0.0	26	toaster
+sun_anbqoyitlozwisvu.jpg	3	1.142	0.200	1400.875	744.393	0.197	0.069	0.0	26	toaster
+sun_anbqoyitlozwisvu.jpg	3	1.142	0.200	1400.875	744.393	0.197	0.069	0.0	27	utensils canister
+sun_anbqoyitlozwisvu.jpg	4	1.367	0.192	1395.055	749.910	0.069	0.018	0.0	26	toaster
+sun_anbqoyitlozwisvu.jpg	4	1.367	0.192	1395.055	749.910	0.069	0.018	0.0	27	utensils canister
+sun_anbqoyitlozwisvu.jpg	5	1.584	0.183	1460.697	775.320	0.081	0.019	0.0	0	other
+sun_anbqoyitlozwisvu.jpg	6	1.851	0.875	1480.465	793.100	0.076	0.054	0.0	12	kettle
+sun_anbqoyitlozwisvu.jpg	6	1.851	0.875	1480.465	793.100	0.076	0.054	0.0	23	stove
+sun_anbqoyitlozwisvu.jpg	7	2.759	0.250	1347.420	830.330	0.131	0.092	0.0	3	cabinet
+sun_anbqoyitlozwisvu.jpg	7	2.759	0.250	1347.420	830.330	0.131	0.092	0.0	13	kitchen island

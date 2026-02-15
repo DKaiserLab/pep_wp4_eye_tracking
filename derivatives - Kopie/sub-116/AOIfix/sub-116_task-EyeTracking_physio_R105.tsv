@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anydqmweocgeuwol.jpg	1	0.371	0.192	1328.540	582.730	0.123	0.056	0.0	10	window
+sun_anydqmweocgeuwol.jpg	2	0.587	0.200	1402.778	570.472	0.127	0.041	0.0	3	plant
+sun_anydqmweocgeuwol.jpg	2	0.587	0.200	1402.778	570.472	0.127	0.041	0.0	9	vase
+sun_anydqmweocgeuwol.jpg	2	0.587	0.200	1402.778	570.472	0.127	0.041	0.0	10	window
+sun_anydqmweocgeuwol.jpg	3	0.804	0.283	1400.110	524.617	0.129	0.041	0.0	3	plant
+sun_anydqmweocgeuwol.jpg	3	0.804	0.283	1400.110	524.617	0.129	0.041	0.0	10	window
+sun_anydqmweocgeuwol.jpg	4	1.104	0.692	1362.695	511.645	0.140	0.058	0.0	3	plant
+sun_anydqmweocgeuwol.jpg	4	1.104	0.692	1362.695	511.645	0.140	0.058	0.0	10	window
+sun_anydqmweocgeuwol.jpg	5	1.821	0.525	1384.745	554.585	0.153	0.060	0.0	3	plant
+sun_anydqmweocgeuwol.jpg	5	1.821	0.525	1384.745	554.585	0.153	0.060	0.0	9	vase
+sun_anydqmweocgeuwol.jpg	5	1.821	0.525	1384.745	554.585	0.153	0.060	0.0	10	window
+sun_anydqmweocgeuwol.jpg	6	2.371	0.433	1374.398	583.995	0.141	0.059	0.0	3	plant
+sun_anydqmweocgeuwol.jpg	6	2.371	0.433	1374.398	583.995	0.141	0.059	0.0	9	vase
+sun_anydqmweocgeuwol.jpg	6	2.371	0.433	1374.398	583.995	0.141	0.059	0.0	10	window
+sun_anydqmweocgeuwol.jpg	7	2.837	0.167	1095.315	676.168	0.194	0.083	0.0	1	bathtub crop

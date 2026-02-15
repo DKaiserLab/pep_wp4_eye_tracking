@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acpufsxakyzrtcti.jpg	1	0.247	0.125	1252.930	703.710	0.221	0.055	0.0	3	cabinet
+sun_acpufsxakyzrtcti.jpg	1	0.247	0.125	1252.930	703.710	0.221	0.055	0.0	20	refrigerator
+sun_acpufsxakyzrtcti.jpg	1	0.247	0.125	1252.930	703.710	0.221	0.055	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	2	0.514	0.267	1003.985	529.820	0.080	0.020	0.0	3	cabinet
+sun_acpufsxakyzrtcti.jpg	3	0.822	0.208	1170.790	657.610	0.100	0.023	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	3	0.822	0.208	1170.790	657.610	0.100	0.023	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	4	1.056	0.342	1212.080	643.530	0.078	0.036	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	5	1.406	0.642	1187.605	624.640	0.106	0.045	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	6	2.164	0.183	1478.527	634.610	0.091	0.059	0.0	21	sconce
+sun_acpufsxakyzrtcti.jpg	7	2.397	0.217	1464.807	951.225	0.182	0.067	0.0	19	plate
+sun_acpufsxakyzrtcti.jpg	7	2.397	0.217	1464.807	951.225	0.182	0.067	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	8	2.664	0.217	891.398	806.632	0.218	0.090	0.0	24	stove
+sun_acpufsxakyzrtcti.jpg	8	2.664	0.217	891.398	806.632	0.218	0.090	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	9	2.897	0.125	911.735	724.180	0.159	0.081	0.0	22	sink
+sun_acpufsxakyzrtcti.jpg	9	2.897	0.125	911.735	724.180	0.159	0.081	0.0	28	worktop

@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_jdgkziouohmryxw.jpg	1	0.199	0.200	1332.622	755.942	0.090	0.016	0.0	0	other
+labelme_jdgkziouohmryxw.jpg	2	0.433	0.192	1384.885	783.080	0.177	0.036	0.0	3	countertop
+labelme_jdgkziouohmryxw.jpg	2	0.433	0.192	1384.885	783.080	0.177	0.036	0.0	7	sink
+labelme_jdgkziouohmryxw.jpg	3	0.649	0.200	1482.050	787.712	0.245	0.048	0.0	3	countertop
+labelme_jdgkziouohmryxw.jpg	3	0.649	0.200	1482.050	787.712	0.245	0.048	0.0	7	sink
+labelme_jdgkziouohmryxw.jpg	4	0.883	0.483	1549.105	782.850	0.121	0.036	0.0	3	countertop
+labelme_jdgkziouohmryxw.jpg	4	0.883	0.483	1549.105	782.850	0.121	0.036	0.0	7	sink
+labelme_jdgkziouohmryxw.jpg	5	1.383	0.300	1499.767	776.965	0.121	0.052	0.0	3	countertop
+labelme_jdgkziouohmryxw.jpg	5	1.383	0.300	1499.767	776.965	0.121	0.052	0.0	7	sink
+labelme_jdgkziouohmryxw.jpg	6	1.699	0.267	1475.780	770.957	0.111	0.048	0.0	3	countertop
+labelme_jdgkziouohmryxw.jpg	6	1.699	0.267	1475.780	770.957	0.111	0.048	0.0	7	sink
+labelme_jdgkziouohmryxw.jpg	7	1.983	0.292	1450.730	766.360	0.109	0.026	0.0	3	countertop
+labelme_jdgkziouohmryxw.jpg	7	1.983	0.292	1450.730	766.360	0.109	0.026	0.0	7	sink
+labelme_jdgkziouohmryxw.jpg	8	2.291	0.375	1422.845	773.615	0.142	0.040	0.0	3	countertop
+labelme_jdgkziouohmryxw.jpg	8	2.291	0.375	1422.845	773.615	0.142	0.040	0.0	7	sink
+labelme_jdgkziouohmryxw.jpg	9	2.683	0.142	1468.500	782.655	0.131	0.048	0.0	3	countertop
+labelme_jdgkziouohmryxw.jpg	9	2.683	0.142	1468.500	782.655	0.131	0.048	0.0	7	sink

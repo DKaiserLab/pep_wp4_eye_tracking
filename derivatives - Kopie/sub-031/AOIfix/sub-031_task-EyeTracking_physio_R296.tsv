@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_rbrrbtaxscidgzz.jpg	1	0.403	0.167	1143.283	644.155	0.146	0.124	0.0	1	breadbin
+labelme_rbrrbtaxscidgzz.jpg	1	0.403	0.167	1143.283	644.155	0.146	0.124	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	2	0.587	0.233	1085.642	635.433	0.121	0.081	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	2	0.587	0.233	1085.642	635.433	0.121	0.081	0.0	12	tissue box
+labelme_rbrrbtaxscidgzz.jpg	3	0.862	0.275	1223.125	649.315	0.076	0.017	0.0	1	breadbin
+labelme_rbrrbtaxscidgzz.jpg	3	0.862	0.275	1223.125	649.315	0.076	0.017	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	4	1.153	0.300	1314.633	647.478	0.076	0.028	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	5	1.487	0.317	1534.508	772.092	0.152	0.107	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	6	1.828	0.225	1323.720	770.265	0.210	0.126	0.0	10	pot
+labelme_rbrrbtaxscidgzz.jpg	7	2.070	0.150	1115.158	767.510	0.158	0.124	0.0	13	toaster
+labelme_rbrrbtaxscidgzz.jpg	8	2.253	0.250	951.210	799.712	0.145	0.120	0.0	5	cutlery
+labelme_rbrrbtaxscidgzz.jpg	8	2.253	0.250	951.210	799.712	0.145	0.120	0.0	9	plant
+labelme_rbrrbtaxscidgzz.jpg	9	2.528	0.342	1219.845	649.595	0.104	0.065	0.0	1	breadbin
+labelme_rbrrbtaxscidgzz.jpg	9	2.528	0.342	1219.845	649.595	0.104	0.065	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	10	2.895	0.108	1091.675	639.835	0.142	0.062	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	10	2.895	0.108	1091.675	639.835	0.142	0.062	0.0	12	tissue box

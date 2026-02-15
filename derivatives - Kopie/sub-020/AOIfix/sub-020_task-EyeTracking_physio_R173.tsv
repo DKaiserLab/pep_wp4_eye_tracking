@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrkvwbkgrglcoga.jpg	1	0.299	0.292	1427.435	747.360	0.127	0.091	0.0	8	kettle
+sun_agrkvwbkgrglcoga.jpg	2	0.607	0.258	1486.860	743.670	0.134	0.094	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	3	0.882	0.267	1422.517	797.502	0.115	0.104	0.0	8	kettle
+sun_agrkvwbkgrglcoga.jpg	4	1.182	0.250	1069.628	736.910	0.250	0.144	0.0	13	refrigerator
+sun_agrkvwbkgrglcoga.jpg	5	1.466	0.167	1174.038	525.747	0.210	0.109	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	6	1.649	0.233	1224.352	460.393	0.346	0.242	0.0	12	pendant lamp crop
+sun_agrkvwbkgrglcoga.jpg	7	1.916	0.350	1475.907	779.688	0.145	0.068	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	8	2.282	0.250	1477.130	728.037	0.111	0.044	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	9	2.557	0.192	1253.410	773.245	0.109	0.029	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	9	2.557	0.192	1253.410	773.245	0.109	0.029	0.0	7	jar
+sun_agrkvwbkgrglcoga.jpg	10	2.766	0.233	1392.023	716.102	0.192	0.082	0.0	0	other

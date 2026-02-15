@@ -1,0 +1,26 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aowvammdqpmypflg.jpg	1	0.379	0.175	1291.170	738.240	0.072	0.023	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	1	0.379	0.175	1291.170	738.240	0.072	0.023	0.0	11	refrigerator
+sun_aowvammdqpmypflg.jpg	2	0.596	0.175	1128.160	911.500	0.142	0.064	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	2	0.596	0.175	1128.160	911.500	0.142	0.064	0.0	4	chair
+sun_aowvammdqpmypflg.jpg	2	0.596	0.175	1128.160	911.500	0.142	0.064	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	3	0.796	0.325	1050.105	951.785	0.180	0.101	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	4	1.163	0.150	1369.495	911.650	0.158	0.058	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	4	1.163	0.150	1369.495	911.650	0.158	0.058	0.0	10	oven
+sun_aowvammdqpmypflg.jpg	5	1.346	0.192	1463.145	880.740	0.100	0.025	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	5	1.346	0.192	1463.145	880.740	0.100	0.025	0.0	10	oven
+sun_aowvammdqpmypflg.jpg	5	1.346	0.192	1463.145	880.740	0.100	0.025	0.0	14	washing machine
+sun_aowvammdqpmypflg.jpg	5	1.346	0.192	1463.145	880.740	0.100	0.025	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	6	1.546	0.150	1507.693	864.503	0.138	0.052	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	6	1.546	0.150	1507.693	864.503	0.138	0.052	0.0	14	washing machine
+sun_aowvammdqpmypflg.jpg	6	1.546	0.150	1507.693	864.503	0.138	0.052	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	7	1.721	0.233	1519.628	692.850	0.251	0.178	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	8	1.971	0.142	1496.700	729.485	0.181	0.037	0.0	0	other
+sun_aowvammdqpmypflg.jpg	9	2.121	0.242	1485.365	810.875	0.197	0.262	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	9	2.121	0.242	1485.365	810.875	0.197	0.262	0.0	8	kettle
+sun_aowvammdqpmypflg.jpg	9	2.121	0.242	1485.365	810.875	0.197	0.262	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	10	2.388	0.208	1527.405	946.115	0.132	0.089	0.0	14	washing machine
+sun_aowvammdqpmypflg.jpg	11	2.621	0.225	1582.515	1009.405	0.160	0.058	0.0	14	washing machine
+sun_aowvammdqpmypflg.jpg	11	2.621	0.225	1582.515	1009.405	0.160	0.058	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	12	2.863	0.142	1612.430	960.510	0.150	0.063	0.0	14	washing machine
+sun_aowvammdqpmypflg.jpg	12	2.863	0.142	1612.430	960.510	0.150	0.063	0.0	16	worktop

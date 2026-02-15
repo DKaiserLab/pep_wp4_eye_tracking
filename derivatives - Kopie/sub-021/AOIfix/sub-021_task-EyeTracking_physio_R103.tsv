@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acxkpeoqbwcxfvip.jpg	1	0.312	0.200	1315.953	723.405	0.102	0.029	0.0	4	chair
+sun_acxkpeoqbwcxfvip.jpg	2	0.528	0.192	1224.340	996.530	0.168	0.063	0.0	11	kitchen island
+sun_acxkpeoqbwcxfvip.jpg	3	0.737	0.133	1183.773	1004.750	0.152	0.034	0.0	3	chair crop
+sun_acxkpeoqbwcxfvip.jpg	3	0.737	0.133	1183.773	1004.750	0.152	0.034	0.0	11	kitchen island
+sun_acxkpeoqbwcxfvip.jpg	4	0.903	0.250	984.462	738.963	0.118	0.036	0.0	1	cabinet
+sun_acxkpeoqbwcxfvip.jpg	4	0.903	0.250	984.462	738.963	0.118	0.036	0.0	16	paper
+sun_acxkpeoqbwcxfvip.jpg	4	0.903	0.250	984.462	738.963	0.118	0.036	0.0	27	worktop
+sun_acxkpeoqbwcxfvip.jpg	5	1.170	0.133	989.822	692.800	0.131	0.024	0.0	16	paper
+sun_acxkpeoqbwcxfvip.jpg	6	1.345	0.200	1445.697	705.303	0.129	0.037	0.0	23	sideboard
+sun_acxkpeoqbwcxfvip.jpg	7	1.562	0.167	1545.887	693.253	0.118	0.022	0.0	7	door
+sun_acxkpeoqbwcxfvip.jpg	8	1.745	0.167	1591.545	738.098	0.130	0.058	0.0	25	sofa
+sun_acxkpeoqbwcxfvip.jpg	9	1.928	0.117	1630.372	760.072	0.160	0.045	0.0	25	sofa
+sun_acxkpeoqbwcxfvip.jpg	10	2.070	0.133	1538.565	666.977	0.126	0.037	0.0	7	door
+sun_acxkpeoqbwcxfvip.jpg	11	2.237	0.308	1275.650	678.025	0.111	0.025	0.0	13	mirror
+sun_acxkpeoqbwcxfvip.jpg	12	2.562	0.100	1277.438	651.000	0.114	0.010	0.0	13	mirror
+sun_acxkpeoqbwcxfvip.jpg	13	2.687	0.167	1184.045	651.075	0.111	0.036	0.0	6	door frame
+sun_acxkpeoqbwcxfvip.jpg	14	2.878	0.125	1200.870	658.075	0.098	0.029	0.0	0	other

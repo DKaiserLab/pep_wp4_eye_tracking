@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqxypnffmypblepf.jpg	1	0.287	0.267	1193.555	746.502	0.162	0.053	0.0	2	cabinet
+sun_aqxypnffmypblepf.jpg	2	0.571	0.192	1257.195	726.255	0.219	0.046	0.0	2	cabinet
+sun_aqxypnffmypblepf.jpg	2	0.571	0.192	1257.195	726.255	0.219	0.046	0.0	12	microwave
+sun_aqxypnffmypblepf.jpg	2	0.571	0.192	1257.195	726.255	0.219	0.046	0.0	14	range
+sun_aqxypnffmypblepf.jpg	3	0.787	0.225	1327.655	718.045	0.148	0.032	0.0	14	range
+sun_aqxypnffmypblepf.jpg	4	1.029	0.183	1424.430	715.637	0.129	0.024	0.0	20	toaster
+sun_aqxypnffmypblepf.jpg	5	1.229	0.267	1361.143	707.523	0.177	0.041	0.0	14	range
+sun_aqxypnffmypblepf.jpg	6	1.512	0.367	1303.598	705.775	0.195	0.051	0.0	14	range
+sun_aqxypnffmypblepf.jpg	7	1.904	0.242	1288.130	619.005	0.130	0.027	0.0	7	extractor hood
+sun_aqxypnffmypblepf.jpg	8	2.171	0.258	1313.615	545.710	0.119	0.020	0.0	2	cabinet
+sun_aqxypnffmypblepf.jpg	9	2.446	0.267	1294.035	519.950	0.076	0.012	0.0	2	cabinet
+sun_aqxypnffmypblepf.jpg	9	2.446	0.267	1294.035	519.950	0.076	0.012	0.0	9	flush mount light
+sun_aqxypnffmypblepf.jpg	10	2.754	0.208	1111.015	535.255	0.072	0.014	0.0	2	cabinet

@@ -1,0 +1,27 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aclkmsuodfedolnj.jpg	1	0.158	0.133	1262.255	595.320	0.607	0.672	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	2	0.308	0.492	1248.425	744.820	0.188	0.137	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	2	0.308	0.492	1248.425	744.820	0.188	0.137	0.0	12	range
+sun_aclkmsuodfedolnj.jpg	3	0.825	0.333	1393.963	703.358	0.185	0.063	0.0	5	dishwasher
+sun_aclkmsuodfedolnj.jpg	3	0.825	0.333	1393.963	703.358	0.185	0.063	0.0	11	pot
+sun_aclkmsuodfedolnj.jpg	3	0.825	0.333	1393.963	703.358	0.185	0.063	0.0	13	scales
+sun_aclkmsuodfedolnj.jpg	3	0.825	0.333	1393.963	703.358	0.185	0.063	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	4	1.191	0.467	1496.275	685.678	0.157	0.077	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	4	1.191	0.467	1496.275	685.678	0.157	0.077	0.0	5	dishwasher
+sun_aclkmsuodfedolnj.jpg	4	1.191	0.467	1496.275	685.678	0.157	0.077	0.0	11	pot
+sun_aclkmsuodfedolnj.jpg	4	1.191	0.467	1496.275	685.678	0.157	0.077	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	5	1.683	0.183	1565.880	674.128	0.118	0.027	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	5	1.683	0.183	1565.880	674.128	0.118	0.027	0.0	10	outlet
+sun_aclkmsuodfedolnj.jpg	5	1.683	0.183	1565.880	674.128	0.118	0.027	0.0	14	sink
+sun_aclkmsuodfedolnj.jpg	5	1.683	0.183	1565.880	674.128	0.118	0.027	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	6	1.900	0.417	1641.965	650.525	0.159	0.073	0.0	14	sink
+sun_aclkmsuodfedolnj.jpg	6	1.900	0.417	1641.965	650.525	0.159	0.073	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	7	2.341	0.217	1577.275	635.395	0.228	0.092	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	7	2.341	0.217	1577.275	635.395	0.228	0.092	0.0	10	outlet
+sun_aclkmsuodfedolnj.jpg	8	2.583	0.233	1470.550	644.773	0.275	0.095	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	8	2.583	0.233	1470.550	644.773	0.275	0.095	0.0	11	pot
+sun_aclkmsuodfedolnj.jpg	8	2.583	0.233	1470.550	644.773	0.275	0.095	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	9	2.841	0.158	1360.810	677.510	0.223	0.092	0.0	5	dishwasher
+sun_aclkmsuodfedolnj.jpg	9	2.841	0.158	1360.810	677.510	0.223	0.092	0.0	6	drawers
+sun_aclkmsuodfedolnj.jpg	9	2.841	0.158	1360.810	677.510	0.223	0.092	0.0	13	scales
+sun_aclkmsuodfedolnj.jpg	9	2.841	0.158	1360.810	677.510	0.223	0.092	0.0	16	worktop

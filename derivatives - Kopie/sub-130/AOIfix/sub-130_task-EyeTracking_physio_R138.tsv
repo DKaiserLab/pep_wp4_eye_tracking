@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aovnyfewezfmgwke.jpg	1	0.362	0.258	1270.965	769.600	0.226	0.062	0.0	4	dishcloth
+sun_aovnyfewezfmgwke.jpg	1	0.362	0.258	1270.965	769.600	0.226	0.062	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	2	0.646	0.192	1307.485	721.635	0.189	0.033	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	3	0.862	0.200	1335.190	671.040	0.121	0.020	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	4	1.087	0.208	1290.565	577.635	0.203	0.031	0.0	0	other
+sun_aovnyfewezfmgwke.jpg	5	1.329	0.367	1245.447	523.055	0.082	0.016	0.0	6	extractor hood
+sun_aovnyfewezfmgwke.jpg	6	1.712	0.192	1306.915	513.405	0.090	0.020	0.0	6	extractor hood
+sun_aovnyfewezfmgwke.jpg	7	1.921	0.258	1336.355	516.250	0.107	0.028	0.0	6	extractor hood
+sun_aovnyfewezfmgwke.jpg	8	2.187	0.675	1321.560	522.620	0.171	0.090	0.0	6	extractor hood
+sun_aovnyfewezfmgwke.jpg	9	2.879	0.142	1316.470	658.565	0.228	0.049	0.0	14	range

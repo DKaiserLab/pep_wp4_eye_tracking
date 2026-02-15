@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apaxvwendkkxoteh.jpg	1	0.517	0.108	1274.695	596.605	0.099	0.019	0.0	6	mirror
+sun_apaxvwendkkxoteh.jpg	2	0.642	0.192	1224.800	514.560	0.107	0.044	0.0	6	mirror
+sun_apaxvwendkkxoteh.jpg	3	0.859	0.233	1181.180	456.887	0.071	0.024	0.0	6	mirror
+sun_apaxvwendkkxoteh.jpg	4	1.126	0.183	1054.730	578.115	0.100	0.021	0.0	6	mirror
+sun_apaxvwendkkxoteh.jpg	5	1.334	0.292	998.350	722.000	0.141	0.041	0.0	0	other
+sun_apaxvwendkkxoteh.jpg	6	1.634	0.200	999.722	741.692	0.174	0.040	0.0	4	countertop
+sun_apaxvwendkkxoteh.jpg	7	1.859	0.175	1143.060	815.300	0.132	0.042	0.0	4	countertop
+sun_apaxvwendkkxoteh.jpg	7	1.859	0.175	1143.060	815.300	0.132	0.042	0.0	5	glass
+sun_apaxvwendkkxoteh.jpg	8	2.076	0.158	1266.110	868.175	0.075	0.016	0.0	4	countertop
+sun_apaxvwendkkxoteh.jpg	8	2.076	0.158	1266.110	868.175	0.075	0.016	0.0	7	sink
+sun_apaxvwendkkxoteh.jpg	9	2.251	0.192	1379.995	903.610	0.145	0.035	0.0	4	countertop
+sun_apaxvwendkkxoteh.jpg	9	2.251	0.192	1379.995	903.610	0.145	0.035	0.0	7	sink
+sun_apaxvwendkkxoteh.jpg	10	2.476	0.150	1466.722	903.060	0.083	0.015	0.0	4	countertop
+sun_apaxvwendkkxoteh.jpg	10	2.476	0.150	1466.722	903.060	0.083	0.015	0.0	7	sink
+sun_apaxvwendkkxoteh.jpg	11	2.651	0.175	1586.165	863.265	0.112	0.045	0.0	4	countertop
+sun_apaxvwendkkxoteh.jpg	12	2.859	0.142	1672.270	876.190	0.109	0.024	0.0	4	countertop

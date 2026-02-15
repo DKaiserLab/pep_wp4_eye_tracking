@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_arvuykssgbdzaavk.jpg	1	0.466	0.325	1403.555	776.160	0.117	0.048	0.0	26	range
+sun_arvuykssgbdzaavk.jpg	2	0.807	0.275	1394.515	754.310	0.108	0.033	0.0	26	range
+sun_arvuykssgbdzaavk.jpg	3	1.107	0.517	1116.142	738.342	0.185	0.065	0.0	1	basket
+sun_arvuykssgbdzaavk.jpg	3	1.107	0.517	1116.142	738.342	0.185	0.065	0.0	9	dishwasher
+sun_arvuykssgbdzaavk.jpg	3	1.107	0.517	1116.142	738.342	0.185	0.065	0.0	12	flowers
+sun_arvuykssgbdzaavk.jpg	4	1.657	0.192	1270.705	826.985	0.180	0.085	0.0	14	kitchen island
+sun_arvuykssgbdzaavk.jpg	4	1.657	0.192	1270.705	826.985	0.180	0.085	0.0	29	table
+sun_arvuykssgbdzaavk.jpg	5	1.941	0.192	1253.270	745.040	0.229	0.088	0.0	3	cabinet
+sun_arvuykssgbdzaavk.jpg	6	2.149	0.100	1194.003	1111.445	NaN	0.000	83.3	-1	off stimulus
+sun_arvuykssgbdzaavk.jpg	7	2.291	0.308	1171.450	700.340	0.239	0.139	0.0	3	cabinet
+sun_arvuykssgbdzaavk.jpg	7	2.291	0.308	1171.450	700.340	0.239	0.139	0.0	21	plantpot
+sun_arvuykssgbdzaavk.jpg	7	2.291	0.308	1171.450	700.340	0.239	0.139	0.0	33	worktop
+sun_arvuykssgbdzaavk.jpg	8	2.616	0.267	1043.693	735.135	0.233	0.114	0.0	1	basket
+sun_arvuykssgbdzaavk.jpg	8	2.616	0.267	1043.693	735.135	0.233	0.114	0.0	9	dishwasher
+sun_arvuykssgbdzaavk.jpg	8	2.616	0.267	1043.693	735.135	0.233	0.114	0.0	12	flowers
+sun_arvuykssgbdzaavk.jpg	8	2.616	0.267	1043.693	735.135	0.233	0.114	0.0	27	sink
+sun_arvuykssgbdzaavk.jpg	8	2.616	0.267	1043.693	735.135	0.233	0.114	0.0	33	worktop
+sun_arvuykssgbdzaavk.jpg	9	2.899	0.108	1047.045	670.725	0.233	0.056	0.0	8	dish rack

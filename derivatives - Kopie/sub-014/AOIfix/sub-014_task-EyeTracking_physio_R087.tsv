@@ -1,0 +1,24 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aclkmsuodfedolnj.jpg	1	0.410	0.142	1328.290	684.120	0.102	0.087	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	1	0.410	0.142	1328.290	684.120	0.102	0.087	0.0	5	dishwasher
+sun_aclkmsuodfedolnj.jpg	1	0.410	0.142	1328.290	684.120	0.102	0.087	0.0	6	drawers
+sun_aclkmsuodfedolnj.jpg	1	0.410	0.142	1328.290	684.120	0.102	0.087	0.0	13	scales
+sun_aclkmsuodfedolnj.jpg	1	0.410	0.142	1328.290	684.120	0.102	0.087	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	2	0.577	0.317	1450.303	665.168	0.120	0.031	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	2	0.577	0.317	1450.303	665.168	0.120	0.031	0.0	5	dishwasher
+sun_aclkmsuodfedolnj.jpg	2	0.577	0.317	1450.303	665.168	0.120	0.031	0.0	11	pot
+sun_aclkmsuodfedolnj.jpg	2	0.577	0.317	1450.303	665.168	0.120	0.031	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	3	0.918	0.192	1294.900	580.205	0.134	0.057	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	4	1.293	0.408	1139.260	720.485	0.091	0.060	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	4	1.293	0.408	1139.260	720.485	0.091	0.060	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	5	1.785	0.233	1348.033	720.075	0.084	0.034	0.0	5	dishwasher
+sun_aclkmsuodfedolnj.jpg	5	1.785	0.233	1348.033	720.075	0.084	0.034	0.0	6	drawers
+sun_aclkmsuodfedolnj.jpg	6	2.152	0.408	1112.585	603.670	0.260	0.176	0.0	0	other
+sun_aclkmsuodfedolnj.jpg	7	2.593	0.233	1314.125	678.733	0.114	0.030	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	7	2.593	0.233	1314.125	678.733	0.114	0.030	0.0	6	drawers
+sun_aclkmsuodfedolnj.jpg	7	2.593	0.233	1314.125	678.733	0.114	0.030	0.0	13	scales
+sun_aclkmsuodfedolnj.jpg	7	2.593	0.233	1314.125	678.733	0.114	0.030	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	8	2.852	0.150	1395.903	694.265	0.119	0.025	0.0	5	dishwasher
+sun_aclkmsuodfedolnj.jpg	8	2.852	0.150	1395.903	694.265	0.119	0.025	0.0	11	pot
+sun_aclkmsuodfedolnj.jpg	8	2.852	0.150	1395.903	694.265	0.119	0.025	0.0	13	scales
+sun_aclkmsuodfedolnj.jpg	8	2.852	0.150	1395.903	694.265	0.119	0.025	0.0	16	worktop

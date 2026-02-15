@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahvpoenucqfbjkep.jpg	1	0.477	1.158	1087.085	918.085	0.126	0.091	0.0	9	dishcloth
+sun_ahvpoenucqfbjkep.jpg	1	0.477	1.158	1087.085	918.085	0.126	0.091	0.0	24	plate
+sun_ahvpoenucqfbjkep.jpg	1	0.477	1.158	1087.085	918.085	0.126	0.091	0.0	34	worktop
+sun_ahvpoenucqfbjkep.jpg	2	1.669	0.192	1289.175	908.990	0.099	0.041	0.0	34	worktop
+sun_ahvpoenucqfbjkep.jpg	3	1.886	0.808	1221.200	906.330	0.108	0.026	0.0	20	mug
+sun_ahvpoenucqfbjkep.jpg	3	1.886	0.808	1221.200	906.330	0.108	0.026	0.0	34	worktop
+sun_ahvpoenucqfbjkep.jpg	4	2.786	0.217	1322.690	736.033	0.121	0.023	0.0	6	cabinet
+sun_ahvpoenucqfbjkep.jpg	4	2.786	0.217	1322.690	736.033	0.121	0.023	0.0	21	oven

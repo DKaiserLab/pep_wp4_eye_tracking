@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajtqfkwqpektgwsv.jpg	1	0.280	0.167	1362.347	663.952	0.268	0.103	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	1	0.280	0.167	1362.347	663.952	0.268	0.103	0.0	4	microwave
+sun_ajtqfkwqpektgwsv.jpg	2	0.480	0.300	1204.740	751.415	0.238	0.058	0.0	8	refrigerator
+sun_ajtqfkwqpektgwsv.jpg	3	0.805	0.400	1411.963	676.425	0.202	0.063	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	3	0.805	0.400	1411.963	676.425	0.202	0.063	0.0	4	microwave
+sun_ajtqfkwqpektgwsv.jpg	4	1.246	0.158	1468.905	651.710	0.069	0.009	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	4	1.246	0.158	1468.905	651.710	0.069	0.009	0.0	4	microwave
+sun_ajtqfkwqpektgwsv.jpg	5	1.438	0.283	1295.112	518.787	0.148	0.104	0.0	0	other
+sun_ajtqfkwqpektgwsv.jpg	6	1.746	0.308	1160.975	751.750	0.240	0.073	0.0	6	plant
+sun_ajtqfkwqpektgwsv.jpg	6	1.746	0.308	1160.975	751.750	0.240	0.073	0.0	8	refrigerator
+sun_ajtqfkwqpektgwsv.jpg	7	2.080	0.150	1158.297	861.032	0.132	0.024	0.0	6	plant
+sun_ajtqfkwqpektgwsv.jpg	7	2.080	0.150	1158.297	861.032	0.132	0.024	0.0	8	refrigerator
+sun_ajtqfkwqpektgwsv.jpg	7	2.080	0.150	1158.297	861.032	0.132	0.024	0.0	10	vase
+sun_ajtqfkwqpektgwsv.jpg	7	2.080	0.150	1158.297	861.032	0.132	0.024	0.0	11	worktop
+sun_ajtqfkwqpektgwsv.jpg	8	2.255	0.283	941.635	745.045	0.183	0.073	0.0	10	vase
+sun_ajtqfkwqpektgwsv.jpg	9	2.555	0.150	983.350	781.952	0.265	0.079	0.0	10	vase
+sun_ajtqfkwqpektgwsv.jpg	10	2.730	0.175	818.580	769.030	0.230	0.104	0.0	-1	off stimulus

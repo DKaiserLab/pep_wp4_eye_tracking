@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_vvuttgvlwdydbkh.jpg	1	0.237	0.158	1070.380	635.140	0.067	0.018	0.0	7	picture
+labelme_vvuttgvlwdydbkh.jpg	2	0.428	0.358	934.330	538.295	0.057	0.029	0.0	7	picture
+labelme_vvuttgvlwdydbkh.jpg	3	0.828	0.275	1530.535	439.730	0.077	0.033	0.0	9	sconce
+labelme_vvuttgvlwdydbkh.jpg	4	1.137	0.317	1635.077	422.593	0.042	0.013	0.0	9	sconce
+labelme_vvuttgvlwdydbkh.jpg	5	1.487	0.217	1565.340	670.030	0.094	0.048	0.0	5	mirror
+labelme_vvuttgvlwdydbkh.jpg	6	1.762	0.192	1605.310	729.880	0.092	0.037	0.0	5	mirror
+labelme_vvuttgvlwdydbkh.jpg	7	2.003	0.325	971.855	826.430	0.107	0.059	0.0	12	towel
+labelme_vvuttgvlwdydbkh.jpg	8	2.378	0.217	1417.735	879.970	0.065	0.012	0.0	0	other
+labelme_vvuttgvlwdydbkh.jpg	9	2.612	0.250	1604.028	892.705	0.066	0.022	0.0	3	cup
+labelme_vvuttgvlwdydbkh.jpg	10	2.887	0.117	1527.990	864.388	0.065	0.011	0.0	8	plant
+labelme_vvuttgvlwdydbkh.jpg	10	2.887	0.117	1527.990	864.388	0.065	0.011	0.0	13	vase

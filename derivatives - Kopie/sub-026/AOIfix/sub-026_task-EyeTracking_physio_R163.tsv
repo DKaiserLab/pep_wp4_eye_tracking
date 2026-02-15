@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anuwqvomituqoawj.jpg	1	0.296	0.175	1231.140	799.300	0.250	0.114	0.0	2	countertop
+sun_anuwqvomituqoawj.jpg	2	0.479	0.158	1219.775	827.170	0.277	0.120	0.0	2	countertop
+sun_anuwqvomituqoawj.jpg	2	0.479	0.158	1219.775	827.170	0.277	0.120	0.0	5	sink
+sun_anuwqvomituqoawj.jpg	3	0.662	0.142	1291.465	829.690	0.351	0.134	0.0	2	countertop
+sun_anuwqvomituqoawj.jpg	4	0.829	0.233	1303.543	679.170	0.093	0.023	0.0	3	mirror
+sun_anuwqvomituqoawj.jpg	5	1.087	0.317	1514.715	675.727	0.101	0.018	0.0	3	mirror
+sun_anuwqvomituqoawj.jpg	6	1.437	0.167	1590.398	785.215	0.220	0.101	0.0	3	mirror
+sun_anuwqvomituqoawj.jpg	7	1.637	0.233	1305.733	737.273	0.268	0.062	0.0	6	soap dispenser
+sun_anuwqvomituqoawj.jpg	8	1.887	0.133	1283.565	717.485	0.187	0.052	0.0	6	soap dispenser
+sun_anuwqvomituqoawj.jpg	9	2.054	0.192	1149.815	829.080	0.167	0.129	0.0	2	countertop
+sun_anuwqvomituqoawj.jpg	9	2.054	0.192	1149.815	829.080	0.167	0.129	0.0	5	sink
+sun_anuwqvomituqoawj.jpg	10	2.287	0.133	1091.075	831.898	0.287	0.077	0.0	2	countertop
+sun_anuwqvomituqoawj.jpg	11	2.446	0.158	1186.500	760.065	0.206	0.071	0.0	2	countertop
+sun_anuwqvomituqoawj.jpg	12	2.637	0.167	1153.910	674.525	0.058	0.010	0.0	0	other
+sun_anuwqvomituqoawj.jpg	13	2.829	0.175	996.765	687.100	0.076	0.015	0.0	0	other

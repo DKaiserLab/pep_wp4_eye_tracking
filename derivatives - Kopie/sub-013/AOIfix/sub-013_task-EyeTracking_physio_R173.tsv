@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrkvwbkgrglcoga.jpg	1	0.338	0.100	1079.735	769.793	0.113	0.028	0.0	13	refrigerator
+sun_agrkvwbkgrglcoga.jpg	2	0.463	0.308	1100.690	504.685	0.134	0.097	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	3	0.779	0.125	1081.170	494.585	0.080	0.042	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	4	0.954	0.192	1339.645	709.970	0.078	0.038	0.0	5	extractor hood
+sun_agrkvwbkgrglcoga.jpg	5	1.171	0.258	1314.670	742.735	0.078	0.016	0.0	7	jar
+sun_agrkvwbkgrglcoga.jpg	6	1.446	0.183	1295.447	764.227	0.051	0.009	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	6	1.446	0.183	1295.447	764.227	0.051	0.009	0.0	7	jar
+sun_agrkvwbkgrglcoga.jpg	7	1.663	0.275	981.180	702.995	0.065	0.028	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	7	1.663	0.275	981.180	702.995	0.065	0.028	0.0	11	oven
+sun_agrkvwbkgrglcoga.jpg	8	1.971	0.108	1043.250	798.570	0.163	0.046	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	8	1.971	0.108	1043.250	798.570	0.163	0.046	0.0	13	refrigerator
+sun_agrkvwbkgrglcoga.jpg	8	1.971	0.108	1043.250	798.570	0.163	0.046	0.0	17	worktop
+sun_agrkvwbkgrglcoga.jpg	9	2.088	0.175	976.890	819.020	0.070	0.019	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	9	2.088	0.175	976.890	819.020	0.070	0.019	0.0	11	oven
+sun_agrkvwbkgrglcoga.jpg	10	2.288	0.258	1255.595	798.420	0.183	0.063	0.0	7	jar
+sun_agrkvwbkgrglcoga.jpg	11	2.579	0.117	1371.165	783.608	0.082	0.016	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	12	2.713	0.258	1496.620	798.135	0.078	0.040	0.0	0	other

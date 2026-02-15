@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aiwjjxhtgtrwjdsf.jpg	1	0.159	0.192	1310.850	684.040	0.118	0.029	0.0	15	worktop
+sun_aiwjjxhtgtrwjdsf.jpg	2	0.393	0.158	1262.830	685.915	0.079	0.025	0.0	15	worktop
+sun_aiwjjxhtgtrwjdsf.jpg	3	0.584	0.133	1307.090	696.138	0.084	0.020	0.0	1	cabinet
+sun_aiwjjxhtgtrwjdsf.jpg	3	0.584	0.133	1307.090	696.138	0.084	0.020	0.0	15	worktop
+sun_aiwjjxhtgtrwjdsf.jpg	4	0.726	0.108	1279.955	698.035	0.111	0.032	0.0	1	cabinet
+sun_aiwjjxhtgtrwjdsf.jpg	4	0.726	0.108	1279.955	698.035	0.111	0.032	0.0	15	worktop
+sun_aiwjjxhtgtrwjdsf.jpg	5	0.901	0.150	1454.520	680.748	0.122	0.093	0.0	1	cabinet
+sun_aiwjjxhtgtrwjdsf.jpg	5	0.901	0.150	1454.520	680.748	0.122	0.093	0.0	15	worktop
+sun_aiwjjxhtgtrwjdsf.jpg	6	1.076	0.117	1491.463	668.310	0.103	0.027	0.0	15	worktop
+sun_aiwjjxhtgtrwjdsf.jpg	7	1.218	0.142	1557.265	666.035	0.103	0.030	0.0	9	oven
+sun_aiwjjxhtgtrwjdsf.jpg	8	1.384	0.233	1496.167	684.983	0.101	0.148	0.0	1	cabinet
+sun_aiwjjxhtgtrwjdsf.jpg	8	1.384	0.233	1496.167	684.983	0.101	0.148	0.0	15	worktop
+sun_aiwjjxhtgtrwjdsf.jpg	9	1.635	0.250	1393.533	671.450	0.101	0.516	0.0	0	other
+sun_aiwjjxhtgtrwjdsf.jpg	10	1.893	0.900	1304.835	692.285	0.891	9.790	0.0	1	cabinet
+sun_aiwjjxhtgtrwjdsf.jpg	10	1.893	0.900	1304.835	692.285	0.891	9.790	0.0	15	worktop
+sun_aiwjjxhtgtrwjdsf.jpg	11	2.810	0.192	1424.230	598.920	0.177	0.062	0.0	14	window

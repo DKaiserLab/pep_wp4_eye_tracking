@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_kxvouciolcpqplr.jpg	1	0.416	0.200	1249.370	495.465	0.121	0.056	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	2	0.641	0.158	1082.200	471.440	0.123	0.046	0.0	7	flush mount light
+labelme_kxvouciolcpqplr.jpg	3	0.841	0.292	950.390	723.925	0.140	0.045	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	4	1.166	0.283	1356.767	698.933	0.133	0.037	0.0	12	sink
+labelme_kxvouciolcpqplr.jpg	4	1.166	0.283	1356.767	698.933	0.133	0.037	0.0	16	worktop
+labelme_kxvouciolcpqplr.jpg	5	1.483	0.175	1477.940	642.380	0.130	0.042	0.0	1	cabinet
+labelme_kxvouciolcpqplr.jpg	6	1.691	0.425	1546.200	463.165	0.166	0.051	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	7	2.133	0.175	1531.135	551.590	0.161	0.047	0.0	6	extractor hood
+labelme_kxvouciolcpqplr.jpg	8	2.341	0.192	1377.260	896.360	0.124	0.035	0.0	1	cabinet
+labelme_kxvouciolcpqplr.jpg	9	2.558	0.108	1209.985	1019.255	0.300	0.133	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	10	2.716	0.192	1037.575	1043.285	0.072	0.013	0.0	0	other

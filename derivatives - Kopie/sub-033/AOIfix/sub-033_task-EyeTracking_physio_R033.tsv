@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrhekhltqnhqoau.jpg	1	0.420	0.200	1230.168	598.815	0.091	0.015	0.0	11	microwave
+sun_agrhekhltqnhqoau.jpg	2	0.653	0.300	964.193	579.250	0.123	0.033	0.0	6	calendar
+sun_agrhekhltqnhqoau.jpg	2	0.653	0.300	964.193	579.250	0.123	0.033	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	3	0.987	0.300	897.783	668.680	0.135	0.054	0.0	10	jar
+sun_agrhekhltqnhqoau.jpg	3	0.987	0.300	897.783	668.680	0.135	0.054	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	4	1.303	0.283	920.030	690.880	0.186	0.044	0.0	6	calendar
+sun_agrhekhltqnhqoau.jpg	4	1.303	0.283	920.030	690.880	0.186	0.044	0.0	10	jar
+sun_agrhekhltqnhqoau.jpg	4	1.303	0.283	920.030	690.880	0.186	0.044	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	5	1.603	0.250	945.112	604.340	0.102	0.022	0.0	6	calendar
+sun_agrhekhltqnhqoau.jpg	5	1.603	0.250	945.112	604.340	0.102	0.022	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	6	1.878	0.192	1001.030	586.805	0.119	0.053	0.0	6	calendar
+sun_agrhekhltqnhqoau.jpg	6	1.878	0.192	1001.030	586.805	0.119	0.053	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	7	2.128	0.217	1037.365	627.755	0.106	0.022	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	8	2.370	0.200	1279.592	594.403	0.228	0.149	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	8	2.370	0.200	1279.592	594.403	0.228	0.149	0.0	11	microwave
+sun_agrhekhltqnhqoau.jpg	9	2.595	0.192	1541.515	606.465	0.244	0.162	0.0	21	window
+sun_agrhekhltqnhqoau.jpg	10	2.828	0.175	1688.375	676.630	0.159	0.052	0.0	14	plant

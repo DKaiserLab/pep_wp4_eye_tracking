@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_maitcyodsfflkgk.jpg	1	0.355	0.175	1185.120	738.170	0.135	0.106	0.0	2	countertop
+labelme_maitcyodsfflkgk.jpg	1	0.355	0.175	1185.120	738.170	0.135	0.106	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	1	0.355	0.175	1185.120	738.170	0.135	0.106	0.0	6	sink
+labelme_maitcyodsfflkgk.jpg	1	0.355	0.175	1185.120	738.170	0.135	0.106	0.0	9	vase
+labelme_maitcyodsfflkgk.jpg	2	0.547	0.400	1165.137	570.312	0.117	0.076	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	2	0.547	0.400	1165.137	570.312	0.117	0.076	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	3	0.972	0.275	1295.395	746.425	0.188	0.098	0.0	2	countertop
+labelme_maitcyodsfflkgk.jpg	3	0.972	0.275	1295.395	746.425	0.188	0.098	0.0	6	sink
+labelme_maitcyodsfflkgk.jpg	4	1.263	0.217	1274.567	729.685	0.155	0.045	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	5	1.505	0.575	1247.120	764.420	0.132	0.060	0.0	2	countertop
+labelme_maitcyodsfflkgk.jpg	5	1.505	0.575	1247.120	764.420	0.132	0.060	0.0	5	plug
+labelme_maitcyodsfflkgk.jpg	5	1.505	0.575	1247.120	764.420	0.132	0.060	0.0	6	sink
+labelme_maitcyodsfflkgk.jpg	6	2.113	0.150	1529.838	684.215	0.134	0.029	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	7	2.288	0.717	1246.573	740.227	0.141	0.086	0.0	2	countertop
+labelme_maitcyodsfflkgk.jpg	7	2.288	0.717	1246.573	740.227	0.141	0.086	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	7	2.288	0.717	1246.573	740.227	0.141	0.086	0.0	5	plug
+labelme_maitcyodsfflkgk.jpg	7	2.288	0.717	1246.573	740.227	0.141	0.086	0.0	6	sink

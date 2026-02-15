@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aavzagnbsbymxlyh.jpg	1	0.437	0.242	1307.890	754.120	0.139	0.027	0.0	18	range
+sun_aavzagnbsbymxlyh.jpg	1	0.437	0.242	1307.890	754.120	0.139	0.027	0.0	19	sink
+sun_aavzagnbsbymxlyh.jpg	1	0.437	0.242	1307.890	754.120	0.139	0.027	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	2	0.704	0.175	1261.020	925.815	0.250	0.115	0.0	3	bowl
+sun_aavzagnbsbymxlyh.jpg	2	0.704	0.175	1261.020	925.815	0.250	0.115	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	3	0.912	0.400	1594.600	937.197	0.200	0.107	0.0	1	basket
+sun_aavzagnbsbymxlyh.jpg	3	0.912	0.400	1594.600	937.197	0.200	0.107	0.0	4	box
+sun_aavzagnbsbymxlyh.jpg	3	0.912	0.400	1594.600	937.197	0.200	0.107	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	4	1.345	0.217	1597.895	650.345	0.123	0.043	0.0	5	cabinet
+sun_aavzagnbsbymxlyh.jpg	5	1.587	0.158	1557.330	618.085	0.100	0.023	0.0	5	cabinet
+sun_aavzagnbsbymxlyh.jpg	5	1.587	0.158	1557.330	618.085	0.100	0.023	0.0	11	microwave
+sun_aavzagnbsbymxlyh.jpg	6	1.770	0.217	1234.503	639.345	0.132	0.059	0.0	2	board
+sun_aavzagnbsbymxlyh.jpg	7	2.245	0.192	1193.875	676.495	0.129	0.060	0.0	2	board
+sun_aavzagnbsbymxlyh.jpg	7	2.245	0.192	1193.875	676.495	0.129	0.060	0.0	17	pot
+sun_aavzagnbsbymxlyh.jpg	7	2.245	0.192	1193.875	676.495	0.129	0.060	0.0	18	range
+sun_aavzagnbsbymxlyh.jpg	8	2.454	0.300	1157.540	666.002	0.161	0.068	0.0	2	board
+sun_aavzagnbsbymxlyh.jpg	8	2.454	0.300	1157.540	666.002	0.161	0.068	0.0	17	pot
+sun_aavzagnbsbymxlyh.jpg	8	2.454	0.300	1157.540	666.002	0.161	0.068	0.0	18	range
+sun_aavzagnbsbymxlyh.jpg	9	2.770	0.208	1332.435	677.830	0.208	0.111	0.0	14	picture

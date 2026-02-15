@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alyergctkjrpiwgr.jpg	1	0.268	0.208	1140.755	674.300	0.233	0.087	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	2	0.510	0.300	1040.923	677.035	0.083	0.017	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	3	0.835	0.208	1229.070	761.450	0.322	0.087	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	3	0.835	0.208	1229.070	761.450	0.322	0.087	0.0	19	frying pan
+sun_alyergctkjrpiwgr.jpg	4	1.068	0.125	1369.195	686.845	0.116	0.022	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	4	1.068	0.125	1369.195	686.845	0.116	0.022	0.0	24	oven
+sun_alyergctkjrpiwgr.jpg	5	1.226	0.400	1657.625	728.225	0.121	0.042	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	5	1.226	0.400	1657.625	728.225	0.121	0.042	0.0	25	picture
+sun_alyergctkjrpiwgr.jpg	6	1.651	0.150	1678.045	683.875	0.081	0.028	0.0	10	chandelier crop
+sun_alyergctkjrpiwgr.jpg	6	1.651	0.150	1678.045	683.875	0.081	0.028	0.0	25	picture
+sun_alyergctkjrpiwgr.jpg	7	1.851	0.258	933.875	696.105	0.133	0.047	0.0	0	other
+sun_alyergctkjrpiwgr.jpg	8	2.126	0.217	870.913	696.010	0.098	0.034	0.0	28	sconce
+sun_alyergctkjrpiwgr.jpg	9	2.376	0.158	1028.970	649.075	0.102	0.019	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	10	2.576	0.250	1400.195	601.283	0.122	0.028	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	10	2.576	0.250	1400.195	601.283	0.122	0.028	0.0	30	speaker
+sun_alyergctkjrpiwgr.jpg	11	2.851	0.150	1658.513	615.572	0.100	0.018	0.0	10	chandelier crop

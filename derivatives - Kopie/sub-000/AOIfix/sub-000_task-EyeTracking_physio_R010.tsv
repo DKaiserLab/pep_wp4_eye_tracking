@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azgmgniivgpqrqvu.jpg	1	0.215	0.200	1228.773	763.463	0.111	0.038	0.0	12	worktop
+sun_azgmgniivgpqrqvu.jpg	2	0.440	0.308	1089.380	774.225	0.126	0.041	0.0	10	sink
+sun_azgmgniivgpqrqvu.jpg	2	0.440	0.308	1089.380	774.225	0.126	0.041	0.0	12	worktop
+sun_azgmgniivgpqrqvu.jpg	3	0.765	0.133	1063.512	774.653	0.143	0.071	0.0	10	sink
+sun_azgmgniivgpqrqvu.jpg	3	0.765	0.133	1063.512	774.653	0.143	0.071	0.0	12	worktop
+sun_azgmgniivgpqrqvu.jpg	4	0.998	0.133	1080.145	781.383	0.106	0.024	0.0	1	cabinet
+sun_azgmgniivgpqrqvu.jpg	4	0.998	0.133	1080.145	781.383	0.106	0.024	0.0	10	sink
+sun_azgmgniivgpqrqvu.jpg	4	0.998	0.133	1080.145	781.383	0.106	0.024	0.0	12	worktop
+sun_azgmgniivgpqrqvu.jpg	5	1.223	0.208	1097.185	758.735	0.146	0.079	0.0	10	sink
+sun_azgmgniivgpqrqvu.jpg	6	1.448	0.817	1081.835	781.170	0.112	0.083	0.0	1	cabinet
+sun_azgmgniivgpqrqvu.jpg	6	1.448	0.817	1081.835	781.170	0.112	0.083	0.0	10	sink
+sun_azgmgniivgpqrqvu.jpg	6	1.448	0.817	1081.835	781.170	0.112	0.083	0.0	12	worktop
+sun_azgmgniivgpqrqvu.jpg	7	2.282	0.658	1098.305	783.455	0.120	0.068	0.0	1	cabinet
+sun_azgmgniivgpqrqvu.jpg	7	2.282	0.658	1098.305	783.455	0.120	0.068	0.0	10	sink
+sun_azgmgniivgpqrqvu.jpg	7	2.282	0.658	1098.305	783.455	0.120	0.068	0.0	12	worktop

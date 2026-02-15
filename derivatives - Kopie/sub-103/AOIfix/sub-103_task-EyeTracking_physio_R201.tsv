@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aaslbwtcdcwjukuo.jpg	1	0.350	0.200	1321.168	699.533	0.145	0.093	0.0	17	sink
+sun_aaslbwtcdcwjukuo.jpg	1	0.350	0.200	1321.168	699.533	0.145	0.093	0.0	18	soap dispenser
+sun_aaslbwtcdcwjukuo.jpg	1	0.350	0.200	1321.168	699.533	0.145	0.093	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	2	0.575	0.333	1377.040	670.840	0.110	0.048	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	3	0.941	0.192	1266.215	653.020	0.117	0.035	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	4	1.158	0.175	1202.425	661.100	0.109	0.028	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	5	1.350	0.217	1127.705	653.095	0.130	0.050	0.0	13	range
+sun_aaslbwtcdcwjukuo.jpg	6	1.583	0.317	1054.570	651.180	0.092	0.028	0.0	13	range
+sun_aaslbwtcdcwjukuo.jpg	7	1.933	0.233	1201.977	665.732	0.083	0.032	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	8	2.191	0.175	1299.240	680.485	0.102	0.064	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	9	2.400	0.200	1453.733	691.348	0.104	0.051	0.0	17	sink
+sun_aaslbwtcdcwjukuo.jpg	9	2.400	0.200	1453.733	691.348	0.104	0.051	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	10	2.616	0.308	1519.735	700.375	0.078	0.028	0.0	19	worktop

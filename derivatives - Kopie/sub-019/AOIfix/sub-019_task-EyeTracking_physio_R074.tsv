@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aknopalvgzzgfngw.jpg	1	0.302	0.150	1246.310	827.592	0.245	0.089	0.0	3	countertop
+sun_aknopalvgzzgfngw.jpg	1	0.302	0.150	1246.310	827.592	0.245	0.089	0.0	9	sink
+sun_aknopalvgzzgfngw.jpg	2	0.710	0.525	1297.195	837.455	0.658	0.268	0.0	1	bottle
+sun_aknopalvgzzgfngw.jpg	2	0.710	0.525	1297.195	837.455	0.658	0.268	0.0	3	countertop
+sun_aknopalvgzzgfngw.jpg	2	0.710	0.525	1297.195	837.455	0.658	0.268	0.0	7	newspaper
+sun_aknopalvgzzgfngw.jpg	2	0.710	0.525	1297.195	837.455	0.658	0.268	0.0	9	sink
+sun_aknopalvgzzgfngw.jpg	2	0.710	0.525	1297.195	837.455	0.658	0.268	0.0	10	soap dispenser
+sun_aknopalvgzzgfngw.jpg	3	1.519	0.267	1280.012	692.185	0.565	0.420	0.0	2	cabinet
+sun_aknopalvgzzgfngw.jpg	4	1.794	0.508	1310.355	740.255	0.153	0.043	0.0	0	other
+sun_aknopalvgzzgfngw.jpg	5	2.327	0.675	1289.255	815.710	0.154	0.059	0.0	1	bottle
+sun_aknopalvgzzgfngw.jpg	5	2.327	0.675	1289.255	815.710	0.154	0.059	0.0	3	countertop
+sun_aknopalvgzzgfngw.jpg	5	2.327	0.675	1289.255	815.710	0.154	0.059	0.0	7	newspaper
+sun_aknopalvgzzgfngw.jpg	5	2.327	0.675	1289.255	815.710	0.154	0.059	0.0	10	soap dispenser

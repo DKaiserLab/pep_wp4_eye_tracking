@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aenotlpyftoioydp.jpg	1	0.736	0.200	1047.827	750.327	0.146	0.054	0.0	17	plates rack
+sun_aenotlpyftoioydp.jpg	1	0.736	0.200	1047.827	750.327	0.146	0.054	0.0	18	refrigerator
+sun_aenotlpyftoioydp.jpg	2	0.970	0.142	952.255	770.010	0.137	0.034	0.0	18	refrigerator
+sun_aenotlpyftoioydp.jpg	3	1.178	0.433	1625.720	857.737	0.185	0.158	0.0	6	chair crop
+sun_aenotlpyftoioydp.jpg	4	1.628	0.175	1588.010	833.690	0.173	0.085	0.0	15	plant
+sun_aenotlpyftoioydp.jpg	4	1.628	0.175	1588.010	833.690	0.173	0.085	0.0	16	plantpot
+sun_aenotlpyftoioydp.jpg	5	1.986	0.208	944.440	401.540	0.266	0.109	0.0	0	other
+sun_aenotlpyftoioydp.jpg	6	2.211	0.792	987.515	431.165	0.085	0.032	0.0	0	other

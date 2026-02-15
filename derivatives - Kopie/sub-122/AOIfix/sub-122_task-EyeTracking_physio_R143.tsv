@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anjgzxqwccbiozsw.jpg	1	0.428	0.108	1129.765	641.405	0.179	0.076	0.0	17	pitcher
+sun_anjgzxqwccbiozsw.jpg	2	0.553	0.292	1099.570	612.950	0.110	0.054	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	3	0.862	0.233	1032.990	586.202	0.151	0.071	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	4	1.120	0.192	913.675	656.185	0.145	0.040	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	5	1.345	0.200	885.297	689.400	0.148	0.037	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	6	1.570	0.175	1074.290	664.125	0.152	0.066	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	7	1.778	0.200	1373.698	634.805	0.141	0.039	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	8	1.995	0.200	1445.335	650.565	0.190	0.056	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	9	2.212	0.317	1551.280	698.342	0.239	0.114	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	10	2.562	0.325	1576.915	863.330	0.171	0.045	0.0	13	mug
+sun_anjgzxqwccbiozsw.jpg	10	2.562	0.325	1576.915	863.330	0.171	0.045	0.0	24	table
+sun_anjgzxqwccbiozsw.jpg	10	2.562	0.325	1576.915	863.330	0.171	0.045	0.0	25	teapot

@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abtdlltafvpypcff.jpg	1	0.271	0.192	1161.525	619.730	0.201	0.082	0.0	0	other
+sun_abtdlltafvpypcff.jpg	2	0.487	0.233	1311.668	535.375	0.156	0.046	0.0	5	cabinet
+sun_abtdlltafvpypcff.jpg	3	0.746	0.192	1311.750	490.540	0.104	0.027	0.0	5	cabinet
+sun_abtdlltafvpypcff.jpg	4	0.971	0.267	1523.362	688.528	0.142	0.040	0.0	20	sink
+sun_abtdlltafvpypcff.jpg	4	0.971	0.267	1523.362	688.528	0.142	0.040	0.0	21	soap dispenser
+sun_abtdlltafvpypcff.jpg	4	0.971	0.267	1523.362	688.528	0.142	0.040	0.0	26	worktop
+sun_abtdlltafvpypcff.jpg	5	1.296	0.292	1152.625	683.250	0.089	0.016	0.0	17	range
+sun_abtdlltafvpypcff.jpg	6	1.604	0.183	982.645	628.600	0.154	0.050	0.0	18	refrigerator
+sun_abtdlltafvpypcff.jpg	7	1.804	0.167	982.450	568.045	0.187	0.040	0.0	18	refrigerator
+sun_abtdlltafvpypcff.jpg	8	1.996	0.225	1151.470	709.625	0.125	0.027	0.0	17	range
+sun_abtdlltafvpypcff.jpg	9	2.237	0.167	1188.080	586.072	0.200	0.074	0.0	9	extractor hood
+sun_abtdlltafvpypcff.jpg	9	2.237	0.167	1188.080	586.072	0.200	0.074	0.0	15	picture
+sun_abtdlltafvpypcff.jpg	10	2.421	0.200	1203.670	537.658	0.168	0.037	0.0	5	cabinet
+sun_abtdlltafvpypcff.jpg	10	2.421	0.200	1203.670	537.658	0.168	0.037	0.0	9	extractor hood
+sun_abtdlltafvpypcff.jpg	11	2.646	0.300	1492.780	665.545	0.181	0.065	0.0	0	other

@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acdlgczjpwkeuvgy.jpg	1	0.266	0.167	1186.257	755.210	0.228	0.096	0.0	13	dishwasher
+sun_acdlgczjpwkeuvgy.jpg	1	0.266	0.167	1186.257	755.210	0.228	0.096	0.0	29	range
+sun_acdlgczjpwkeuvgy.jpg	1	0.266	0.167	1186.257	755.210	0.228	0.096	0.0	41	worktop
+sun_acdlgczjpwkeuvgy.jpg	2	0.449	0.225	1125.105	754.570	0.159	0.051	0.0	13	dishwasher
+sun_acdlgczjpwkeuvgy.jpg	2	0.449	0.225	1125.105	754.570	0.159	0.051	0.0	18	glass
+sun_acdlgczjpwkeuvgy.jpg	2	0.449	0.225	1125.105	754.570	0.159	0.051	0.0	41	worktop
+sun_acdlgczjpwkeuvgy.jpg	3	0.699	0.208	1220.885	682.185	0.107	0.052	0.0	23	microwave
+sun_acdlgczjpwkeuvgy.jpg	4	0.957	0.192	1226.450	647.610	0.086	0.013	0.0	23	microwave
+sun_acdlgczjpwkeuvgy.jpg	5	1.166	0.233	1182.530	697.898	0.082	0.022	0.0	29	range
+sun_acdlgczjpwkeuvgy.jpg	6	1.424	0.225	993.480	671.565	0.096	0.036	0.0	3	board
+sun_acdlgczjpwkeuvgy.jpg	7	1.674	0.233	890.403	641.983	0.113	0.033	0.0	30	refrigerator crop
+sun_acdlgczjpwkeuvgy.jpg	8	1.932	0.217	930.883	605.970	0.089	0.014	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	8	1.932	0.217	930.883	605.970	0.089	0.014	0.0	19	jar
+sun_acdlgczjpwkeuvgy.jpg	8	1.932	0.217	930.883	605.970	0.089	0.014	0.0	30	refrigerator crop
+sun_acdlgczjpwkeuvgy.jpg	9	2.182	0.200	1128.670	561.010	0.094	0.017	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	10	2.424	0.325	1546.675	627.130	0.112	0.064	0.0	15	door
+sun_acdlgczjpwkeuvgy.jpg	11	2.807	0.192	1216.115	998.010	0.119	0.031	0.0	12	cushion crop
+sun_acdlgczjpwkeuvgy.jpg	11	2.807	0.192	1216.115	998.010	0.119	0.031	0.0	35	sofa

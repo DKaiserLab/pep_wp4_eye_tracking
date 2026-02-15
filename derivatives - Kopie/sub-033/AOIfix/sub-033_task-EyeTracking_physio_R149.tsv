@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxqlzmoovksgjbl.jpg	1	0.204	0.367	1490.528	806.837	0.172	0.087	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	2	0.587	0.567	1458.445	873.715	0.139	0.037	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	2	0.587	0.567	1458.445	873.715	0.139	0.037	0.0	11	plantpot
+sun_ajxqlzmoovksgjbl.jpg	3	1.170	0.183	1496.408	858.805	0.154	0.043	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	3	1.170	0.183	1496.408	858.805	0.154	0.043	0.0	11	plantpot
+sun_ajxqlzmoovksgjbl.jpg	4	1.395	0.308	1134.340	732.370	0.201	0.088	0.0	4	chair
+sun_ajxqlzmoovksgjbl.jpg	4	1.395	0.308	1134.340	732.370	0.201	0.088	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	4	1.395	0.308	1134.340	732.370	0.201	0.088	0.0	15	table
+sun_ajxqlzmoovksgjbl.jpg	5	1.837	0.233	1149.795	698.715	0.281	0.070	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	5	1.837	0.233	1149.795	698.715	0.281	0.070	0.0	4	chair
+sun_ajxqlzmoovksgjbl.jpg	6	2.095	0.275	1379.200	656.415	0.189	0.174	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	6	2.095	0.275	1379.200	656.415	0.189	0.174	0.0	6	extractor hood
+sun_ajxqlzmoovksgjbl.jpg	7	2.404	0.433	1218.722	751.243	0.275	0.125	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	7	2.404	0.433	1218.722	751.243	0.275	0.125	0.0	7	oven
+sun_ajxqlzmoovksgjbl.jpg	8	2.854	0.150	1201.015	735.350	0.203	0.072	0.0	2	cabinet

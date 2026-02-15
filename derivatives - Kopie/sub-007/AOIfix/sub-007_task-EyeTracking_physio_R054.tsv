@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajnzhggqkskokvyd.jpg	1	0.885	0.158	1240.535	755.615	0.308	0.318	0.0	4	curtain
+sun_ajnzhggqkskokvyd.jpg	1	0.885	0.158	1240.535	755.615	0.308	0.318	0.0	14	window
+sun_ajnzhggqkskokvyd.jpg	2	1.052	0.267	1256.670	748.945	0.147	0.069	0.0	4	curtain
+sun_ajnzhggqkskokvyd.jpg	2	1.052	0.267	1256.670	748.945	0.147	0.069	0.0	14	window
+sun_ajnzhggqkskokvyd.jpg	3	1.343	0.183	1071.015	783.170	0.136	0.070	0.0	2	cabinets
+sun_ajnzhggqkskokvyd.jpg	3	1.343	0.183	1071.015	783.170	0.136	0.070	0.0	9	sink
+sun_ajnzhggqkskokvyd.jpg	4	1.560	0.275	1426.830	742.880	0.216	0.096	0.0	3	coffee maker
+sun_ajnzhggqkskokvyd.jpg	4	1.560	0.275	1426.830	742.880	0.216	0.096	0.0	13	tray
+sun_ajnzhggqkskokvyd.jpg	5	1.852	0.208	1397.120	734.065	0.138	0.039	0.0	3	coffee maker
+sun_ajnzhggqkskokvyd.jpg	5	1.852	0.208	1397.120	734.065	0.138	0.039	0.0	13	tray
+sun_ajnzhggqkskokvyd.jpg	6	2.085	0.267	1466.635	640.910	0.106	0.032	0.0	1	cabinet
+sun_ajnzhggqkskokvyd.jpg	6	2.085	0.267	1466.635	640.910	0.106	0.032	0.0	5	extractor hood
+sun_ajnzhggqkskokvyd.jpg	7	2.368	0.433	1404.010	731.572	0.104	0.032	0.0	3	coffee maker
+sun_ajnzhggqkskokvyd.jpg	7	2.368	0.433	1404.010	731.572	0.104	0.032	0.0	13	tray
+sun_ajnzhggqkskokvyd.jpg	8	2.827	0.175	1154.550	801.475	0.155	0.077	0.0	2	cabinets
+sun_ajnzhggqkskokvyd.jpg	8	2.827	0.175	1154.550	801.475	0.155	0.077	0.0	9	sink

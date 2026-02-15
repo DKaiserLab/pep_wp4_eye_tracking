@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxvejtymbkewxpy.jpg	1	0.481	0.150	1122.778	726.330	0.260	0.132	0.0	11	kettle
+sun_ajxvejtymbkewxpy.jpg	1	0.481	0.150	1122.778	726.330	0.260	0.132	0.0	17	utensils canister
+sun_ajxvejtymbkewxpy.jpg	2	0.647	0.225	1264.570	838.990	0.115	0.043	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	3	0.898	0.208	1084.285	638.545	0.187	0.051	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	4	1.298	0.475	1075.680	646.520	0.175	0.123	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	5	1.806	0.250	1296.540	853.415	0.147	0.047	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	6	2.073	0.300	1275.340	689.345	0.233	0.083	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	7	2.398	0.175	1221.095	628.425	0.192	0.042	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	7	2.398	0.175	1221.095	628.425	0.192	0.042	0.0	9	extractor hood
+sun_ajxvejtymbkewxpy.jpg	8	2.598	0.208	1506.030	696.715	0.295	0.145	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	8	2.598	0.208	1506.030	696.715	0.295	0.145	0.0	6	coffee maker
+sun_ajxvejtymbkewxpy.jpg	9	2.831	0.167	1328.395	700.912	0.179	0.054	0.0	0	other

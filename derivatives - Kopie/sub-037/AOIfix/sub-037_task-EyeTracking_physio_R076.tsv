@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afmgqyvomuhprelx.jpg	1	0.218	0.325	1388.765	638.345	0.159	0.088	0.0	5	plant
+sun_afmgqyvomuhprelx.jpg	1	0.218	0.325	1388.765	638.345	0.159	0.088	0.0	6	plantpot
+sun_afmgqyvomuhprelx.jpg	1	0.218	0.325	1388.765	638.345	0.159	0.088	0.0	9	window
+sun_afmgqyvomuhprelx.jpg	2	0.560	0.175	1297.755	801.525	0.118	0.051	0.0	7	sink
+sun_afmgqyvomuhprelx.jpg	3	0.760	0.342	1401.675	639.765	0.140	0.092	0.0	5	plant
+sun_afmgqyvomuhprelx.jpg	3	0.760	0.342	1401.675	639.765	0.140	0.092	0.0	6	plantpot
+sun_afmgqyvomuhprelx.jpg	3	0.760	0.342	1401.675	639.765	0.140	0.092	0.0	9	window
+sun_afmgqyvomuhprelx.jpg	4	1.252	0.125	1254.205	622.515	1.690	8.039	0.0	9	window
+sun_afmgqyvomuhprelx.jpg	5	1.393	0.267	1073.062	840.827	0.233	0.151	0.0	0	other
+sun_afmgqyvomuhprelx.jpg	6	1.668	0.308	1058.275	866.365	0.120	0.071	0.0	1	bathtub crop
+sun_afmgqyvomuhprelx.jpg	7	2.010	0.333	1299.957	827.173	0.110	0.047	0.0	7	sink
+sun_afmgqyvomuhprelx.jpg	8	2.368	0.208	1629.395	911.540	0.169	0.145	0.0	2	cistern crop
+sun_afmgqyvomuhprelx.jpg	9	2.593	0.250	1589.025	890.777	0.135	0.095	0.0	2	cistern crop
+sun_afmgqyvomuhprelx.jpg	9	2.593	0.250	1589.025	890.777	0.135	0.095	0.0	8	toilet paper
+sun_afmgqyvomuhprelx.jpg	10	2.893	0.108	1617.160	899.945	0.123	0.027	0.0	2	cistern crop

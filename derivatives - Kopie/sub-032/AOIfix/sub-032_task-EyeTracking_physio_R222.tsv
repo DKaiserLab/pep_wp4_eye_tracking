@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahjvciulzdwyyshu.jpg	1	0.339	0.175	1088.790	705.025	0.178	0.070	0.0	9	faucet
+sun_ahjvciulzdwyyshu.jpg	1	0.339	0.175	1088.790	705.025	0.178	0.070	0.0	19	soap dispenser
+sun_ahjvciulzdwyyshu.jpg	1	0.339	0.175	1088.790	705.025	0.178	0.070	0.0	23	window
+sun_ahjvciulzdwyyshu.jpg	2	0.564	0.350	1598.673	609.680	0.125	0.078	0.0	6	chandelier
+sun_ahjvciulzdwyyshu.jpg	2	0.564	0.350	1598.673	609.680	0.125	0.078	0.0	23	window
+sun_ahjvciulzdwyyshu.jpg	3	0.947	0.183	1631.463	698.362	0.167	0.044	0.0	5	chair
+sun_ahjvciulzdwyyshu.jpg	3	0.947	0.183	1631.463	698.362	0.167	0.044	0.0	23	window
+sun_ahjvciulzdwyyshu.jpg	4	1.197	0.183	1015.298	590.140	0.149	0.065	0.0	23	window
+sun_ahjvciulzdwyyshu.jpg	5	1.406	0.425	956.960	509.065	0.117	0.041	0.0	10	frying pan
+sun_ahjvciulzdwyyshu.jpg	5	1.406	0.425	956.960	509.065	0.117	0.041	0.0	11	grater
+sun_ahjvciulzdwyyshu.jpg	5	1.406	0.425	956.960	509.065	0.117	0.041	0.0	16	saucepan
+sun_ahjvciulzdwyyshu.jpg	6	2.056	0.283	891.825	548.690	0.370	0.954	0.0	10	frying pan
+sun_ahjvciulzdwyyshu.jpg	6	2.056	0.283	891.825	548.690	0.370	0.954	0.0	16	saucepan
+sun_ahjvciulzdwyyshu.jpg	7	2.356	0.342	934.995	517.905	0.098	0.024	0.0	10	frying pan
+sun_ahjvciulzdwyyshu.jpg	7	2.356	0.342	934.995	517.905	0.098	0.024	0.0	11	grater
+sun_ahjvciulzdwyyshu.jpg	8	2.722	0.267	1005.337	516.275	0.122	0.045	0.0	16	saucepan

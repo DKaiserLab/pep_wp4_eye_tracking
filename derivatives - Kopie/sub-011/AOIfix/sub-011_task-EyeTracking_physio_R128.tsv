@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anjplxxhrqpqpzlr.jpg	1	0.361	0.333	1124.030	770.658	0.103	0.031	0.0	11	chair
+sun_anjplxxhrqpqpzlr.jpg	1	0.361	0.333	1124.030	770.658	0.103	0.031	0.0	21	kitchen island
+sun_anjplxxhrqpqpzlr.jpg	2	0.720	0.192	961.660	819.725	0.118	0.031	0.0	9	cabinets
+sun_anjplxxhrqpqpzlr.jpg	2	0.720	0.192	961.660	819.725	0.118	0.031	0.0	11	chair
+sun_anjplxxhrqpqpzlr.jpg	3	0.936	0.283	1270.987	787.630	0.134	0.061	0.0	21	kitchen island
+sun_anjplxxhrqpqpzlr.jpg	4	1.253	0.317	1252.495	662.243	0.104	0.025	0.0	4	bottles
+sun_anjplxxhrqpqpzlr.jpg	4	1.253	0.317	1252.495	662.243	0.104	0.025	0.0	8	cabinet
+sun_anjplxxhrqpqpzlr.jpg	4	1.253	0.317	1252.495	662.243	0.104	0.025	0.0	12	clock
+sun_anjplxxhrqpqpzlr.jpg	4	1.253	0.317	1252.495	662.243	0.104	0.025	0.0	40	window
+sun_anjplxxhrqpqpzlr.jpg	5	1.603	0.283	1402.085	674.240	0.096	0.020	0.0	4	bottles
+sun_anjplxxhrqpqpzlr.jpg	5	1.603	0.283	1402.085	674.240	0.096	0.020	0.0	30	range
+sun_anjplxxhrqpqpzlr.jpg	6	1.911	0.458	1343.990	804.920	0.128	0.047	0.0	11	chair
+sun_anjplxxhrqpqpzlr.jpg	6	1.911	0.458	1343.990	804.920	0.128	0.047	0.0	21	kitchen island
+sun_anjplxxhrqpqpzlr.jpg	7	2.395	0.217	1268.220	927.688	0.414	0.180	0.0	21	kitchen island
+sun_anjplxxhrqpqpzlr.jpg	8	2.645	0.358	1249.185	711.075	0.104	0.036	0.0	4	bottles
+sun_anjplxxhrqpqpzlr.jpg	8	2.645	0.358	1249.185	711.075	0.104	0.036	0.0	8	cabinet
+sun_anjplxxhrqpqpzlr.jpg	8	2.645	0.358	1249.185	711.075	0.104	0.036	0.0	27	plate
+sun_anjplxxhrqpqpzlr.jpg	8	2.645	0.358	1249.185	711.075	0.104	0.036	0.0	41	worktop

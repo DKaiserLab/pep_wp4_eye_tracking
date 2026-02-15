@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwvdhqsbtcesevi.jpg	1	0.372	0.192	1206.110	759.875	0.125	0.023	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	2	0.580	0.267	1213.130	668.295	0.108	0.018	0.0	6	glass
+sun_akwvdhqsbtcesevi.jpg	2	0.580	0.267	1213.130	668.295	0.108	0.018	0.0	7	knife set
+sun_akwvdhqsbtcesevi.jpg	3	0.880	0.217	1262.985	772.460	0.101	0.019	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	4	1.122	0.258	1135.420	890.145	0.277	0.066	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	4	1.122	0.258	1135.420	890.145	0.277	0.066	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	5	1.397	0.200	1155.330	883.087	0.332	0.145	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	5	1.397	0.200	1155.330	883.087	0.332	0.145	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	6	1.622	0.275	1002.360	820.555	0.124	0.041	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	6	1.622	0.275	1002.360	820.555	0.124	0.041	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	7	1.913	0.250	1128.872	685.040	0.106	0.026	0.0	1	blender
+sun_akwvdhqsbtcesevi.jpg	7	1.913	0.250	1128.872	685.040	0.106	0.026	0.0	4	coffee maker
+sun_akwvdhqsbtcesevi.jpg	8	2.197	0.358	1516.115	719.000	0.097	0.034	0.0	20	window
+sun_akwvdhqsbtcesevi.jpg	9	2.588	0.417	1343.385	588.260	0.075	0.014	0.0	3	cabinet

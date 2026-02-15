@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acdlgczjpwkeuvgy.jpg	1	0.325	0.217	1204.375	753.317	0.088	0.025	0.0	29	range
+sun_acdlgczjpwkeuvgy.jpg	2	0.567	0.283	1090.078	844.265	0.079	0.012	0.0	9	chair
+sun_acdlgczjpwkeuvgy.jpg	2	0.567	0.283	1090.078	844.265	0.079	0.012	0.0	20	kitchen island
+sun_acdlgczjpwkeuvgy.jpg	3	0.892	0.267	1469.090	855.345	0.070	0.024	0.0	9	chair
+sun_acdlgczjpwkeuvgy.jpg	4	1.183	0.192	1536.990	799.125	0.071	0.015	0.0	9	chair
+sun_acdlgczjpwkeuvgy.jpg	4	1.183	0.192	1536.990	799.125	0.071	0.015	0.0	15	door
+sun_acdlgczjpwkeuvgy.jpg	5	1.425	0.183	1265.125	607.400	0.086	0.022	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	5	1.425	0.183	1265.125	607.400	0.086	0.022	0.0	23	microwave
+sun_acdlgczjpwkeuvgy.jpg	6	1.633	0.317	1109.267	543.538	0.153	0.041	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	6	1.633	0.317	1109.267	543.538	0.153	0.041	0.0	39	tray
+sun_acdlgczjpwkeuvgy.jpg	7	1.958	0.600	1085.220	539.580	0.129	0.048	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	7	1.958	0.600	1085.220	539.580	0.129	0.048	0.0	39	tray
+sun_acdlgczjpwkeuvgy.jpg	8	2.583	0.242	1158.385	683.325	0.093	0.017	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	8	2.583	0.242	1158.385	683.325	0.093	0.017	0.0	21	knife set
+sun_acdlgczjpwkeuvgy.jpg	9	2.842	0.167	1120.120	716.622	0.055	0.010	0.0	11	coffee maker
+sun_acdlgczjpwkeuvgy.jpg	9	2.842	0.167	1120.120	716.622	0.055	0.010	0.0	21	knife set

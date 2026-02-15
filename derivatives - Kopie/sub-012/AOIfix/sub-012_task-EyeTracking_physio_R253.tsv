@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aeqdtdmvphproomc.jpg	1	0.129	0.208	1284.215	731.920	0.138	0.032	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	2	0.346	0.275	1286.600	688.900	0.138	0.102	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	3	0.646	0.333	1141.312	875.085	0.153	0.027	0.0	22	range
+sun_aeqdtdmvphproomc.jpg	4	0.996	0.367	1006.528	735.630	0.259	0.086	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	5	1.379	0.150	986.515	654.025	0.206	0.051	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	6	1.563	0.250	1417.062	740.658	0.210	0.130	0.0	18	plant
+sun_aeqdtdmvphproomc.jpg	6	1.563	0.250	1417.062	740.658	0.210	0.130	0.0	19	plantpot
+sun_aeqdtdmvphproomc.jpg	7	1.829	0.367	1563.665	824.543	0.188	0.075	0.0	10	dishwasher
+sun_aeqdtdmvphproomc.jpg	7	1.829	0.367	1563.665	824.543	0.188	0.075	0.0	15	mug
+sun_aeqdtdmvphproomc.jpg	7	1.829	0.367	1563.665	824.543	0.188	0.075	0.0	26	table
+sun_aeqdtdmvphproomc.jpg	8	2.238	0.433	1337.237	711.590	0.184	0.071	0.0	9	clock
+sun_aeqdtdmvphproomc.jpg	9	2.696	0.158	1399.805	671.185	0.082	0.015	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	10	2.879	0.125	1398.755	590.765	0.096	0.021	0.0	2	bowls
+sun_aeqdtdmvphproomc.jpg	10	2.879	0.125	1398.755	590.765	0.096	0.021	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	10	2.879	0.125	1398.755	590.765	0.096	0.021	0.0	15	mug

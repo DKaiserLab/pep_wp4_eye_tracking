@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aowvammdqpmypflg.jpg	1	0.267	0.167	1180.590	686.790	0.120	0.028	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	1	0.267	0.167	1180.590	686.790	0.120	0.028	0.0	15	window
+sun_aowvammdqpmypflg.jpg	2	0.467	0.375	1073.355	545.075	0.103	0.042	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	2	0.467	0.375	1073.355	545.075	0.103	0.042	0.0	15	window
+sun_aowvammdqpmypflg.jpg	3	0.875	0.300	1037.445	609.632	0.102	0.026	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	3	0.875	0.300	1037.445	609.632	0.102	0.026	0.0	15	window
+sun_aowvammdqpmypflg.jpg	4	1.209	0.233	955.622	820.688	0.170	0.066	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	4	1.209	0.233	955.622	820.688	0.170	0.066	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	5	1.475	0.217	918.955	887.842	0.141	0.051	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	6	1.717	0.600	915.553	832.387	0.151	0.060	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	6	1.717	0.600	915.553	832.387	0.151	0.060	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	7	2.334	0.375	917.120	887.175	0.178	0.059	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	8	2.725	0.208	919.995	852.710	0.172	0.068	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	8	2.725	0.208	919.995	852.710	0.172	0.068	0.0	12	table crop

@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aomzbprctpzqwjzj.jpg	1	0.266	0.283	1179.378	585.720	0.107	0.042	0.0	16	radiator
+sun_aomzbprctpzqwjzj.jpg	2	0.582	0.367	1473.352	544.142	0.105	0.030	0.0	12	light switch
+sun_aomzbprctpzqwjzj.jpg	3	0.966	0.333	1562.655	549.015	0.094	0.031	0.0	13	oven
+sun_aomzbprctpzqwjzj.jpg	4	1.324	0.200	1493.422	719.820	0.108	0.021	0.0	11	kitchen island
+sun_aomzbprctpzqwjzj.jpg	5	1.532	0.333	1485.652	702.820	0.138	0.084	0.0	11	kitchen island
+sun_aomzbprctpzqwjzj.jpg	6	1.899	0.333	1005.608	556.977	0.128	0.040	0.0	10	door
+sun_aomzbprctpzqwjzj.jpg	7	2.249	0.367	902.770	538.200	0.109	0.098	0.0	0	other
+sun_aomzbprctpzqwjzj.jpg	8	2.641	0.367	1113.140	516.967	0.134	0.031	0.0	16	radiator

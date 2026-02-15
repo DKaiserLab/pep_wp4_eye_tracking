@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awlmntruykfbsame.jpg	1	0.369	0.350	1326.045	490.613	0.073	0.018	0.0	6	extractor hood
+sun_awlmntruykfbsame.jpg	2	0.761	0.167	1129.572	639.402	0.078	0.009	0.0	3	chair
+sun_awlmntruykfbsame.jpg	3	0.969	0.158	1028.165	506.980	0.082	0.010	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	3	0.969	0.158	1028.165	506.980	0.082	0.010	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	4	1.153	0.233	963.005	509.390	0.066	0.010	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	4	1.153	0.233	963.005	509.390	0.066	0.010	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	4	1.153	0.233	963.005	509.390	0.066	0.010	0.0	12	vase
+sun_awlmntruykfbsame.jpg	5	1.411	0.167	1076.035	463.847	0.057	0.010	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	5	1.411	0.167	1076.035	463.847	0.057	0.010	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	6	1.603	0.175	935.275	465.075	0.097	0.016	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	6	1.603	0.175	935.275	465.075	0.097	0.016	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	6	1.603	0.175	935.275	465.075	0.097	0.016	0.0	12	vase
+sun_awlmntruykfbsame.jpg	7	1.803	0.142	995.745	455.990	0.053	0.007	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	7	1.803	0.142	995.745	455.990	0.053	0.007	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	8	1.961	0.317	951.337	515.410	0.095	0.027	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	8	1.961	0.317	951.337	515.410	0.095	0.027	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	8	1.961	0.317	951.337	515.410	0.095	0.027	0.0	12	vase
+sun_awlmntruykfbsame.jpg	9	2.336	0.133	1513.742	620.765	0.098	0.050	0.0	0	other
+sun_awlmntruykfbsame.jpg	10	2.494	0.442	1627.055	639.605	0.093	0.026	0.0	0	other

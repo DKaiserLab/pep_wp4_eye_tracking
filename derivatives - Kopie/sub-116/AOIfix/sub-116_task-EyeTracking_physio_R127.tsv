@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apdxoksqpmpghypf.jpg	1	0.671	0.392	1040.030	715.365	0.284	0.205	0.0	7	refrigerator
+sun_apdxoksqpmpghypf.jpg	2	1.088	0.200	1197.625	726.110	0.262	0.146	0.0	3	chair
+sun_apdxoksqpmpghypf.jpg	3	1.304	0.217	1323.517	715.180	0.327	0.134	0.0	3	chair
+sun_apdxoksqpmpghypf.jpg	3	1.304	0.217	1323.517	715.180	0.327	0.134	0.0	9	table
+sun_apdxoksqpmpghypf.jpg	4	1.538	0.217	1399.165	712.312	0.303	0.094	0.0	3	chair
+sun_apdxoksqpmpghypf.jpg	4	1.538	0.217	1399.165	712.312	0.303	0.094	0.0	9	table
+sun_apdxoksqpmpghypf.jpg	5	1.771	0.200	1482.318	637.970	0.292	0.110	0.0	2	cabinet
+sun_apdxoksqpmpghypf.jpg	6	2.104	0.117	1194.838	501.340	0.204	0.060	0.0	10	window
+sun_apdxoksqpmpghypf.jpg	7	2.246	0.175	1062.245	512.975	0.140	0.056	0.0	7	refrigerator
+sun_apdxoksqpmpghypf.jpg	8	2.446	0.258	1116.930	556.980	0.162	0.045	0.0	7	refrigerator
+sun_apdxoksqpmpghypf.jpg	9	2.796	0.200	1300.117	684.092	0.256	0.089	0.0	8	shelf
+sun_apdxoksqpmpghypf.jpg	9	2.796	0.200	1300.117	684.092	0.256	0.089	0.0	9	table

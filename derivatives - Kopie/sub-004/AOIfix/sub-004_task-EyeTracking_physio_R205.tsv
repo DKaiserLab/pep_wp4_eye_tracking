@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azkonpsbldzbkqim.jpg	1	0.313	0.200	1355.325	743.883	0.123	0.029	0.0	0	other
+sun_azkonpsbldzbkqim.jpg	2	0.538	0.308	1639.255	763.050	0.119	0.041	0.0	4	candle
+sun_azkonpsbldzbkqim.jpg	2	0.538	0.308	1639.255	763.050	0.119	0.041	0.0	11	window crop
+sun_azkonpsbldzbkqim.jpg	3	0.871	0.358	1503.000	848.065	0.133	0.142	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	3	0.871	0.358	1503.000	848.065	0.133	0.142	0.0	10	towel
+sun_azkonpsbldzbkqim.jpg	4	1.263	0.258	1069.970	908.920	0.225	0.085	0.0	2	bathtub crop
+sun_azkonpsbldzbkqim.jpg	5	1.538	0.217	978.990	938.382	0.187	0.084	0.0	2	bathtub crop
+sun_azkonpsbldzbkqim.jpg	6	1.771	0.217	920.590	970.180	0.131	0.029	0.0	2	bathtub crop
+sun_azkonpsbldzbkqim.jpg	7	2.029	0.142	925.590	717.385	0.112	0.017	0.0	0	other
+sun_azkonpsbldzbkqim.jpg	8	2.221	0.167	1051.145	659.610	0.080	0.015	0.0	0	other
+sun_azkonpsbldzbkqim.jpg	9	2.429	0.225	1621.420	702.795	0.112	0.041	0.0	11	window crop
+sun_azkonpsbldzbkqim.jpg	10	2.671	0.167	1613.590	745.012	0.132	0.040	0.0	4	candle
+sun_azkonpsbldzbkqim.jpg	10	2.671	0.167	1613.590	745.012	0.132	0.040	0.0	11	window crop
+sun_azkonpsbldzbkqim.jpg	11	2.871	0.133	1362.503	569.540	0.103	0.017	0.0	7	mirror crop

@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aasmevtpkslccptd.jpg	1	0.454	0.233	1316.760	684.005	0.103	0.046	0.0	29	table
+sun_aasmevtpkslccptd.jpg	2	0.729	0.200	999.402	702.055	0.105	0.028	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	3	0.946	0.175	943.845	739.040	0.096	0.037	0.0	1	backpack
+sun_aasmevtpkslccptd.jpg	3	0.946	0.175	943.845	739.040	0.096	0.037	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	4	1.138	0.325	1001.065	670.400	0.103	0.055	0.0	22	purse
+sun_aasmevtpkslccptd.jpg	4	1.138	0.325	1001.065	670.400	0.103	0.055	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	5	1.488	0.108	1074.295	640.920	0.122	0.030	0.0	11	dishwasher
+sun_aasmevtpkslccptd.jpg	5	1.488	0.108	1074.295	640.920	0.122	0.030	0.0	15	glass
+sun_aasmevtpkslccptd.jpg	5	1.488	0.108	1074.295	640.920	0.122	0.030	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	6	1.646	0.308	1356.455	613.325	0.070	0.027	0.0	7	casserole
+sun_aasmevtpkslccptd.jpg	7	1.979	0.358	1398.235	620.370	0.117	0.042	0.0	23	range
+sun_aasmevtpkslccptd.jpg	8	2.388	0.167	1056.835	644.010	0.081	0.021	0.0	11	dishwasher
+sun_aasmevtpkslccptd.jpg	8	2.388	0.167	1056.835	644.010	0.081	0.021	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	9	2.604	0.400	1580.347	686.672	0.315	3.223	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	9	2.604	0.400	1580.347	686.672	0.315	3.223	0.0	24	refrigerator

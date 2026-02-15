@@ -1,0 +1,26 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_maitcyodsfflkgk.jpg	1	0.297	0.192	1245.330	607.635	0.088	0.025	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	2	0.514	0.200	1177.442	595.337	0.091	0.015	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	2	0.514	0.200	1177.442	595.337	0.091	0.015	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	3	0.955	0.242	1176.730	661.625	0.089	0.029	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	3	0.955	0.242	1176.730	661.625	0.089	0.029	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	3	0.955	0.242	1176.730	661.625	0.089	0.029	0.0	9	vase
+labelme_maitcyodsfflkgk.jpg	4	1.214	0.250	1203.040	664.263	0.089	0.023	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	5	1.497	0.150	1175.037	645.905	0.071	0.012	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	5	1.497	0.150	1175.037	645.905	0.071	0.012	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	5	1.497	0.150	1175.037	645.905	0.071	0.012	0.0	9	vase
+labelme_maitcyodsfflkgk.jpg	6	1.664	0.217	1201.223	653.533	0.103	0.020	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	7	1.914	0.183	1165.767	645.250	0.074	0.021	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	7	1.914	0.183	1165.767	645.250	0.074	0.021	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	7	1.914	0.183	1165.767	645.250	0.074	0.021	0.0	9	vase
+labelme_maitcyodsfflkgk.jpg	8	2.114	0.200	1184.578	657.650	0.084	0.014	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	8	2.114	0.200	1184.578	657.650	0.084	0.014	0.0	9	vase
+labelme_maitcyodsfflkgk.jpg	9	2.330	0.250	1156.585	655.947	0.105	0.031	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	9	2.330	0.250	1156.585	655.947	0.105	0.031	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	9	2.330	0.250	1156.585	655.947	0.105	0.031	0.0	9	vase
+labelme_maitcyodsfflkgk.jpg	10	2.605	0.208	1179.170	655.525	0.095	0.018	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	10	2.605	0.208	1179.170	655.525	0.095	0.018	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	10	2.605	0.208	1179.170	655.525	0.095	0.018	0.0	9	vase
+labelme_maitcyodsfflkgk.jpg	11	2.830	0.175	1158.015	652.490	0.099	0.014	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	11	2.830	0.175	1158.015	652.490	0.099	0.014	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	11	2.830	0.175	1158.015	652.490	0.099	0.014	0.0	9	vase

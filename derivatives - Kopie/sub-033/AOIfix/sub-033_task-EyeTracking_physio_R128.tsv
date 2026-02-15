@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anjplxxhrqpqpzlr.jpg	1	0.260	0.175	1212.835	776.385	0.184	0.084	0.0	11	chair
+sun_anjplxxhrqpqpzlr.jpg	1	0.260	0.175	1212.835	776.385	0.184	0.084	0.0	21	kitchen island
+sun_anjplxxhrqpqpzlr.jpg	2	0.452	0.208	1340.145	781.445	0.277	0.142	0.0	11	chair
+sun_anjplxxhrqpqpzlr.jpg	2	0.452	0.208	1340.145	781.445	0.277	0.142	0.0	21	kitchen island
+sun_anjplxxhrqpqpzlr.jpg	3	0.702	0.208	1529.550	594.835	0.103	0.035	0.0	15	extractor hood
+sun_anjplxxhrqpqpzlr.jpg	4	0.944	0.142	1293.645	541.860	0.122	0.050	0.0	8	cabinet
+sun_anjplxxhrqpqpzlr.jpg	5	1.110	0.308	1053.255	524.145	0.166	0.056	0.0	8	cabinet
+sun_anjplxxhrqpqpzlr.jpg	5	1.110	0.308	1053.255	524.145	0.166	0.056	0.0	26	plant
+sun_anjplxxhrqpqpzlr.jpg	6	1.444	0.192	971.785	648.255	0.359	0.242	0.0	8	cabinet
+sun_anjplxxhrqpqpzlr.jpg	6	1.444	0.192	971.785	648.255	0.359	0.242	0.0	9	cabinets
+sun_anjplxxhrqpqpzlr.jpg	6	1.444	0.192	971.785	648.255	0.359	0.242	0.0	18	fruit
+sun_anjplxxhrqpqpzlr.jpg	6	1.444	0.192	971.785	648.255	0.359	0.242	0.0	38	vase
+sun_anjplxxhrqpqpzlr.jpg	7	1.660	0.250	1038.912	876.085	0.225	0.122	0.0	11	chair
+sun_anjplxxhrqpqpzlr.jpg	8	2.135	0.275	1603.210	599.900	0.112	0.030	0.0	15	extractor hood
+sun_anjplxxhrqpqpzlr.jpg	9	2.444	0.167	1482.480	643.190	0.162	0.068	0.0	23	picture
+sun_anjplxxhrqpqpzlr.jpg	10	2.635	0.275	1291.170	655.040	0.232	0.119	0.0	4	bottles
+sun_anjplxxhrqpqpzlr.jpg	10	2.635	0.275	1291.170	655.040	0.232	0.119	0.0	8	cabinet

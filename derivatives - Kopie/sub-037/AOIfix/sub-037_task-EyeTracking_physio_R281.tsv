@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aarslpsdvwwqyohc.jpg	1	0.254	0.150	1364.827	599.503	0.513	0.320	0.0	12	mirror
+sun_aarslpsdvwwqyohc.jpg	2	0.579	0.117	1206.685	456.195	0.169	0.071	0.0	12	mirror
+sun_aarslpsdvwwqyohc.jpg	3	0.729	0.217	1245.890	746.678	0.126	0.072	0.0	12	mirror
+sun_aarslpsdvwwqyohc.jpg	4	0.970	0.217	1311.173	743.365	0.101	0.052	0.0	12	mirror
+sun_aarslpsdvwwqyohc.jpg	5	1.212	0.275	1330.125	826.890	0.108	0.040	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	5	1.212	0.275	1330.125	826.890	0.108	0.040	0.0	13	mug
+sun_aarslpsdvwwqyohc.jpg	5	1.212	0.275	1330.125	826.890	0.108	0.040	0.0	16	sink
+sun_aarslpsdvwwqyohc.jpg	6	1.495	0.158	1284.780	846.535	0.115	0.044	0.0	16	sink
+sun_aarslpsdvwwqyohc.jpg	7	1.679	0.342	1438.415	833.535	0.105	0.050	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	7	1.679	0.342	1438.415	833.535	0.105	0.050	0.0	15	razor
+sun_aarslpsdvwwqyohc.jpg	8	2.037	0.175	1460.450	823.440	0.089	0.041	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	8	2.037	0.175	1460.450	823.440	0.089	0.041	0.0	15	razor
+sun_aarslpsdvwwqyohc.jpg	9	2.229	0.258	1433.725	821.955	0.108	0.042	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	9	2.229	0.258	1433.725	821.955	0.108	0.042	0.0	15	razor
+sun_aarslpsdvwwqyohc.jpg	10	2.512	0.258	1456.430	740.370	0.125	0.045	0.0	0	other
+sun_aarslpsdvwwqyohc.jpg	11	2.795	0.208	1405.240	810.555	0.084	0.036	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	11	2.795	0.208	1405.240	810.555	0.084	0.036	0.0	17	soap dispenser
+sun_aarslpsdvwwqyohc.jpg	11	2.795	0.208	1405.240	810.555	0.084	0.036	0.0	20	toothbrush

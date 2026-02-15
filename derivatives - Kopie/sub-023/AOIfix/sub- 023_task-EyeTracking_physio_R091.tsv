@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amjiwsczphtrowfh.jpg	1	0.306	0.183	1349.888	742.690	0.282	0.223	0.0	2	books
+sun_amjiwsczphtrowfh.jpg	1	0.306	0.183	1349.888	742.690	0.282	0.223	0.0	5	candle
+sun_amjiwsczphtrowfh.jpg	1	0.306	0.183	1349.888	742.690	0.282	0.223	0.0	10	curtain
+sun_amjiwsczphtrowfh.jpg	1	0.306	0.183	1349.888	742.690	0.282	0.223	0.0	22	table
+sun_amjiwsczphtrowfh.jpg	2	0.522	0.608	1452.045	505.165	0.125	0.051	0.0	24	television
+sun_amjiwsczphtrowfh.jpg	3	1.181	0.158	1083.555	555.505	0.113	0.048	0.0	8	clock
+sun_amjiwsczphtrowfh.jpg	4	1.364	0.425	1032.930	515.465	0.115	0.054	0.0	8	clock
+sun_amjiwsczphtrowfh.jpg	5	1.839	0.267	1243.650	872.962	0.142	0.100	0.0	22	table
+sun_amjiwsczphtrowfh.jpg	6	2.139	0.450	1096.693	647.520	0.132	0.075	0.0	19	skimmer
+sun_amjiwsczphtrowfh.jpg	6	2.139	0.450	1096.693	647.520	0.132	0.075	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	7	2.622	0.383	1450.900	497.803	0.106	0.044	0.0	24	television

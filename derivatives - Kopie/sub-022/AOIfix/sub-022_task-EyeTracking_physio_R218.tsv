@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alyergctkjrpiwgr.jpg	1	0.353	0.200	1149.160	725.135	0.079	0.035	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	1	0.353	0.200	1149.160	725.135	0.079	0.035	0.0	36	utensils canister
+sun_alyergctkjrpiwgr.jpg	2	0.578	0.175	1120.325	742.820	0.091	0.029	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	2	0.578	0.175	1120.325	742.820	0.091	0.029	0.0	36	utensils canister
+sun_alyergctkjrpiwgr.jpg	3	0.819	0.192	1215.045	693.890	0.073	0.021	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	4	1.036	0.183	1291.457	694.923	0.109	0.046	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	4	1.036	0.183	1291.457	694.923	0.109	0.046	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	5	1.253	0.158	1362.335	702.900	0.090	0.052	0.0	24	oven
+sun_alyergctkjrpiwgr.jpg	6	1.436	0.150	1441.068	711.638	0.097	0.028	0.0	14	door
+sun_alyergctkjrpiwgr.jpg	7	1.603	0.192	1409.030	712.245	0.117	0.035	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	7	1.603	0.192	1409.030	712.245	0.117	0.035	0.0	37	vase
+sun_alyergctkjrpiwgr.jpg	8	1.803	1.025	1585.665	727.185	0.610	22.485	0.0	25	picture
+sun_alyergctkjrpiwgr.jpg	9	2.836	0.167	1226.070	930.710	2.383	9.788	25.0	6	cabinets

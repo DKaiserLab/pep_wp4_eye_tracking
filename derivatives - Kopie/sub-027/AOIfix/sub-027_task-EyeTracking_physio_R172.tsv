@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agguqiubmwhqqunb.jpg	1	0.315	0.150	1333.145	548.197	0.095	0.029	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	2	0.482	0.200	1314.645	501.312	0.101	0.025	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	3	0.890	0.217	1081.577	803.607	0.245	0.151	0.0	7	shower
+sun_agguqiubmwhqqunb.jpg	3	0.890	0.217	1081.577	803.607	0.245	0.151	0.0	9	step
+sun_agguqiubmwhqqunb.jpg	4	1.124	0.225	1085.915	750.305	0.229	0.083	0.0	5	dish
+sun_agguqiubmwhqqunb.jpg	4	1.124	0.225	1085.915	750.305	0.229	0.083	0.0	9	step
+sun_agguqiubmwhqqunb.jpg	5	1.365	0.233	1173.342	731.660	0.235	0.075	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	6	1.624	0.258	1446.195	743.385	0.270	0.140	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	6	1.624	0.258	1446.195	743.385	0.270	0.140	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	6	1.624	0.258	1446.195	743.385	0.270	0.140	0.0	12	tube
+sun_agguqiubmwhqqunb.jpg	7	1.907	0.592	1622.190	723.230	0.122	0.037	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	7	1.907	0.592	1622.190	723.230	0.122	0.037	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	8	2.524	0.275	1386.025	717.580	0.234	0.081	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	9	2.832	0.175	1160.670	728.000	0.155	0.032	0.0	2	bottle

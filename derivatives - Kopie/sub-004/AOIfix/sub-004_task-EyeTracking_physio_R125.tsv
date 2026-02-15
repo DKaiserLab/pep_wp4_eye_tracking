@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apmpdqangkfvwrpn.jpg	1	0.280	0.325	1394.970	705.590	0.112	0.024	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	1	0.280	0.325	1394.970	705.590	0.112	0.024	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	2	0.621	0.167	1458.947	678.585	0.126	0.026	0.0	12	microwave
+sun_apmpdqangkfvwrpn.jpg	3	0.805	0.417	1332.443	699.737	0.112	0.031	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	4	1.246	0.175	1237.490	714.535	0.101	0.020	0.0	9	faucet
+sun_apmpdqangkfvwrpn.jpg	5	1.446	0.225	990.195	770.410	0.130	0.063	0.0	6	curtain
+sun_apmpdqangkfvwrpn.jpg	5	1.446	0.225	990.195	770.410	0.130	0.063	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	6	1.688	0.267	952.500	781.277	0.124	0.048	0.0	6	curtain
+sun_apmpdqangkfvwrpn.jpg	6	1.688	0.267	952.500	781.277	0.124	0.048	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	7	1.996	0.158	1402.730	697.830	0.118	0.031	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	7	1.996	0.158	1402.730	697.830	0.118	0.031	0.0	12	microwave
+sun_apmpdqangkfvwrpn.jpg	8	2.188	0.200	1580.490	690.442	0.115	0.036	0.0	2	cabinet
+sun_apmpdqangkfvwrpn.jpg	9	2.405	0.308	1641.205	711.545	0.122	0.035	0.0	14	refrigerator
+sun_apmpdqangkfvwrpn.jpg	10	2.721	0.133	1619.023	727.660	0.161	0.058	0.0	14	refrigerator
+sun_apmpdqangkfvwrpn.jpg	11	2.880	0.125	1474.500	780.455	0.095	0.059	0.0	13	range

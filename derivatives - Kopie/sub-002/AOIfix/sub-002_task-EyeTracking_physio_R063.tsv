@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acznlxcgnetogsai.jpg	1	0.284	0.233	1218.540	810.118	0.153	0.051	0.0	0	other
+sun_acznlxcgnetogsai.jpg	2	0.542	0.175	1409.815	885.645	0.139	0.048	0.0	10	kettle
+sun_acznlxcgnetogsai.jpg	2	0.542	0.175	1409.815	885.645	0.139	0.048	0.0	18	range
+sun_acznlxcgnetogsai.jpg	2	0.542	0.175	1409.815	885.645	0.139	0.048	0.0	23	worktop
+sun_acznlxcgnetogsai.jpg	3	0.742	0.117	1506.903	1217.532	1.807	13.281	71.4	-1	off stimulus
+sun_acznlxcgnetogsai.jpg	4	0.892	0.192	1392.440	812.565	0.368	0.290	0.0	0	other
+sun_acznlxcgnetogsai.jpg	5	1.101	0.383	1283.505	835.003	0.171	0.072	0.0	8	coffee maker
+sun_acznlxcgnetogsai.jpg	6	1.509	0.175	1392.015	799.735	0.162	0.071	0.0	0	other
+sun_acznlxcgnetogsai.jpg	7	1.701	0.233	1564.673	859.322	0.162	0.047	0.0	0	other
+sun_acznlxcgnetogsai.jpg	8	1.951	0.250	1656.378	894.202	0.154	0.063	0.0	2	bottle
+sun_acznlxcgnetogsai.jpg	8	1.951	0.250	1656.378	894.202	0.154	0.063	0.0	20	saucepan
+sun_acznlxcgnetogsai.jpg	9	2.234	0.317	1298.712	835.350	0.198	0.071	0.0	8	coffee maker
+sun_acznlxcgnetogsai.jpg	10	2.567	0.375	1335.540	827.530	0.163	0.054	0.0	14	outlet

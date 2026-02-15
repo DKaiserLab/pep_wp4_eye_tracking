@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agxuuvqtddjgypyr.jpg	1	0.280	0.225	1265.260	618.950	0.161	0.063	0.0	6	dishcloth
+sun_agxuuvqtddjgypyr.jpg	1	0.280	0.225	1265.260	618.950	0.161	0.063	0.0	15	sink
+sun_agxuuvqtddjgypyr.jpg	1	0.280	0.225	1265.260	618.950	0.161	0.063	0.0	20	worktop
+sun_agxuuvqtddjgypyr.jpg	2	0.530	0.200	1357.450	498.538	4.199	5.889	0.0	0	other
+sun_agxuuvqtddjgypyr.jpg	3	0.746	0.300	1546.787	448.692	0.175	0.193	0.0	0	other
+sun_agxuuvqtddjgypyr.jpg	4	1.071	0.350	1599.180	535.150	0.330	0.649	0.0	20	worktop
+sun_agxuuvqtddjgypyr.jpg	5	1.455	0.275	1607.865	964.750	3.706	22.998	0.0	14	rug
+sun_agxuuvqtddjgypyr.jpg	6	1.763	0.283	1563.795	916.605	2.257	3.012	0.0	14	rug
+sun_agxuuvqtddjgypyr.jpg	7	2.105	0.183	1134.795	863.145	0.070	0.021	0.0	4	cabinet
+sun_agxuuvqtddjgypyr.jpg	8	2.313	0.183	1101.062	723.938	0.198	0.129	0.0	5	cutting board
+sun_agxuuvqtddjgypyr.jpg	8	2.313	0.183	1101.062	723.938	0.198	0.129	0.0	20	worktop
+sun_agxuuvqtddjgypyr.jpg	9	2.521	0.217	1121.627	632.758	0.214	0.096	0.0	15	sink
+sun_agxuuvqtddjgypyr.jpg	9	2.521	0.217	1121.627	632.758	0.214	0.096	0.0	20	worktop
+sun_agxuuvqtddjgypyr.jpg	10	2.755	0.250	1190.537	599.097	2.666	3.828	0.0	20	worktop

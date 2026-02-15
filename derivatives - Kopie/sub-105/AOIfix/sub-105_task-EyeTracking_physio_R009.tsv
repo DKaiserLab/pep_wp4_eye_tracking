@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglpqkbwvbofhrgt.jpg	1	0.271	0.208	1278.435	756.395	0.136	0.055	0.0	10	range
+sun_aglpqkbwvbofhrgt.jpg	1	0.271	0.208	1278.435	756.395	0.136	0.055	0.0	16	worktop
+sun_aglpqkbwvbofhrgt.jpg	2	0.496	0.283	1237.283	893.173	0.176	0.099	0.0	10	range
+sun_aglpqkbwvbofhrgt.jpg	2	0.496	0.283	1237.283	893.173	0.176	0.099	0.0	14	tray
+sun_aglpqkbwvbofhrgt.jpg	3	0.821	0.292	1110.290	924.885	0.114	0.049	0.0	0	other
+sun_aglpqkbwvbofhrgt.jpg	4	1.155	0.258	1020.190	939.070	0.094	0.023	0.0	12	sink
+sun_aglpqkbwvbofhrgt.jpg	5	1.446	0.200	967.355	967.793	0.122	0.026	0.0	12	sink
+sun_aglpqkbwvbofhrgt.jpg	6	1.680	0.308	947.130	1022.685	0.133	0.050	0.0	12	sink
+sun_aglpqkbwvbofhrgt.jpg	7	2.046	0.267	966.767	551.298	0.105	0.059	0.0	0	other
+sun_aglpqkbwvbofhrgt.jpg	8	2.363	0.233	1061.930	543.780	0.095	0.041	0.0	0	other
+sun_aglpqkbwvbofhrgt.jpg	9	2.613	0.250	1181.293	498.812	0.119	0.072	0.0	5	ceiling recessed light
+sun_aglpqkbwvbofhrgt.jpg	10	2.880	0.142	1346.840	519.810	0.442	0.276	0.0	0	other

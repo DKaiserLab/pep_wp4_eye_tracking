@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_avnmtylgpdxtehve.jpg	1	0.286	0.250	1153.365	869.340	0.135	0.129	0.0	8	faucet
+sun_avnmtylgpdxtehve.jpg	1	0.286	0.250	1153.365	869.340	0.135	0.129	0.0	14	refrigerator
+sun_avnmtylgpdxtehve.jpg	2	0.561	0.283	1041.535	875.900	0.084	0.032	0.0	5	camera
+sun_avnmtylgpdxtehve.jpg	3	0.870	0.450	1112.028	863.697	0.090	0.074	0.0	8	faucet
+sun_avnmtylgpdxtehve.jpg	4	1.336	0.325	1071.650	885.970	0.162	0.172	0.0	5	camera
+sun_avnmtylgpdxtehve.jpg	4	1.336	0.325	1071.650	885.970	0.162	0.172	0.0	17	worktop
+sun_avnmtylgpdxtehve.jpg	5	1.695	0.200	1162.352	880.450	0.061	0.026	0.0	14	refrigerator
+sun_avnmtylgpdxtehve.jpg	5	1.695	0.200	1162.352	880.450	0.061	0.026	0.0	17	worktop
+sun_avnmtylgpdxtehve.jpg	6	1.911	0.183	1151.537	854.812	0.070	0.014	0.0	8	faucet
+sun_avnmtylgpdxtehve.jpg	6	1.911	0.183	1151.537	854.812	0.070	0.014	0.0	14	refrigerator
+sun_avnmtylgpdxtehve.jpg	7	2.128	0.242	1479.060	791.775	0.084	0.048	0.0	16	window
+sun_avnmtylgpdxtehve.jpg	8	2.395	0.292	1583.525	794.885	0.097	0.067	0.0	0	other
+sun_avnmtylgpdxtehve.jpg	9	2.761	0.242	1420.480	808.020	0.072	0.017	0.0	9	knife set
+sun_avnmtylgpdxtehve.jpg	9	2.761	0.242	1420.480	808.020	0.072	0.017	0.0	14	refrigerator

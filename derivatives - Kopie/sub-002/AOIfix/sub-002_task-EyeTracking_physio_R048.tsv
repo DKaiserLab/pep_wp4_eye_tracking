@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvoexkareccqxgq.jpg	1	0.330	0.167	1237.115	719.352	0.236	0.111	0.0	19	jar
+sun_alvoexkareccqxgq.jpg	1	0.330	0.167	1237.115	719.352	0.236	0.111	0.0	35	range
+sun_alvoexkareccqxgq.jpg	1	0.330	0.167	1237.115	719.352	0.236	0.111	0.0	45	worktop
+sun_alvoexkareccqxgq.jpg	2	0.530	0.217	884.957	765.135	0.223	0.103	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	2	0.530	0.217	884.957	765.135	0.223	0.103	0.0	45	worktop
+sun_alvoexkareccqxgq.jpg	3	0.755	0.175	877.315	827.305	0.216	0.085	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	3	0.755	0.175	877.315	827.305	0.216	0.085	0.0	11	crackers
+sun_alvoexkareccqxgq.jpg	3	0.755	0.175	877.315	827.305	0.216	0.085	0.0	17	fruit
+sun_alvoexkareccqxgq.jpg	4	0.972	0.175	1381.980	649.450	0.365	0.195	0.0	4	bottles
+sun_alvoexkareccqxgq.jpg	4	0.972	0.175	1381.980	649.450	0.365	0.195	0.0	24	mug
+sun_alvoexkareccqxgq.jpg	5	1.172	0.175	1543.275	626.960	0.228	0.086	0.0	29	plant
+sun_alvoexkareccqxgq.jpg	5	1.172	0.175	1543.275	626.960	0.228	0.086	0.0	44	window
+sun_alvoexkareccqxgq.jpg	6	1.363	0.250	1701.660	637.115	0.226	0.149	0.0	15	flowers
+sun_alvoexkareccqxgq.jpg	7	1.647	0.467	1245.528	670.638	0.286	0.338	0.0	19	jar
+sun_alvoexkareccqxgq.jpg	8	2.130	0.250	1350.040	655.537	0.306	0.162	0.0	2	books
+sun_alvoexkareccqxgq.jpg	8	2.130	0.250	1350.040	655.537	0.306	0.162	0.0	22	microwave
+sun_alvoexkareccqxgq.jpg	8	2.130	0.250	1350.040	655.537	0.306	0.162	0.0	24	mug
+sun_alvoexkareccqxgq.jpg	9	2.397	0.333	1481.693	626.173	0.294	0.149	0.0	29	plant
+sun_alvoexkareccqxgq.jpg	9	2.397	0.333	1481.693	626.173	0.294	0.149	0.0	44	window
+sun_alvoexkareccqxgq.jpg	10	2.747	0.258	1369.615	643.245	0.254	0.164	0.0	24	mug

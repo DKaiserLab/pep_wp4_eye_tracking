@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agfbbeozqztznacq.jpg	1	0.361	0.208	1250.470	641.260	0.086	0.041	0.0	1	bottle
+sun_agfbbeozqztznacq.jpg	1	0.361	0.208	1250.470	641.260	0.086	0.041	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	2	0.594	0.300	1511.040	543.375	0.094	0.018	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	2	0.594	0.300	1511.040	543.375	0.094	0.018	0.0	8	microwave
+sun_agfbbeozqztznacq.jpg	3	0.927	0.183	1432.975	474.707	0.082	0.028	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	4	1.144	0.250	1348.420	771.650	0.168	0.043	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	4	1.144	0.250	1348.420	771.650	0.168	0.043	0.0	5	kitchen island
+sun_agfbbeozqztznacq.jpg	5	1.419	0.283	1184.773	674.163	0.099	0.021	0.0	14	spice rack
+sun_agfbbeozqztznacq.jpg	6	1.744	0.125	1135.990	672.700	0.062	0.009	0.0	1	bottle
+sun_agfbbeozqztznacq.jpg	6	1.744	0.125	1135.990	672.700	0.062	0.009	0.0	14	spice rack
+sun_agfbbeozqztznacq.jpg	7	2.036	0.275	1167.160	663.100	0.118	0.058	0.0	14	spice rack
+sun_agfbbeozqztznacq.jpg	8	2.361	0.308	1471.475	607.540	0.068	0.013	0.0	8	microwave
+sun_agfbbeozqztznacq.jpg	9	2.702	0.275	1597.350	594.900	0.077	0.016	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	9	2.702	0.275	1597.350	594.900	0.077	0.016	0.0	8	microwave

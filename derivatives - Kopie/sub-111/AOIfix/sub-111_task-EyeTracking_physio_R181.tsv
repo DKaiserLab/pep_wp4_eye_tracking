@@ -1,0 +1,45 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqqabpdqjxygueuw.jpg	1	0.245	0.183	1376.930	728.973	0.171	0.065	0.0	1	board
+sun_aqqabpdqjxygueuw.jpg	1	0.245	0.183	1376.930	728.973	0.171	0.065	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	1	0.245	0.183	1376.930	728.973	0.171	0.065	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	2	0.445	0.175	1448.040	744.515	0.133	0.057	0.0	1	board
+sun_aqqabpdqjxygueuw.jpg	2	0.445	0.175	1448.040	744.515	0.133	0.057	0.0	4	bowl
+sun_aqqabpdqjxygueuw.jpg	2	0.445	0.175	1448.040	744.515	0.133	0.057	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	2	0.445	0.175	1448.040	744.515	0.133	0.057	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	3	0.637	0.267	1510.045	785.340	0.126	0.038	0.0	22	oven
+sun_aqqabpdqjxygueuw.jpg	3	0.637	0.267	1510.045	785.340	0.126	0.038	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	3	0.637	0.267	1510.045	785.340	0.126	0.038	0.0	26	plantpot
+sun_aqqabpdqjxygueuw.jpg	3	0.637	0.267	1510.045	785.340	0.126	0.038	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	4	0.920	0.233	1531.150	732.518	0.143	0.038	0.0	4	bowl
+sun_aqqabpdqjxygueuw.jpg	4	0.920	0.233	1531.150	732.518	0.143	0.038	0.0	15	food
+sun_aqqabpdqjxygueuw.jpg	4	0.920	0.233	1531.150	732.518	0.143	0.038	0.0	29	rock
+sun_aqqabpdqjxygueuw.jpg	5	1.170	0.250	1533.928	636.815	0.116	0.024	0.0	6	cabinets
+sun_aqqabpdqjxygueuw.jpg	5	1.170	0.250	1533.928	636.815	0.116	0.024	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	6	1.554	0.183	1184.705	735.655	0.137	0.037	0.0	11	dishwasher
+sun_aqqabpdqjxygueuw.jpg	6	1.554	0.183	1184.705	735.655	0.137	0.037	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	6	1.554	0.183	1184.705	735.655	0.137	0.037	0.0	34	utensils
+sun_aqqabpdqjxygueuw.jpg	6	1.554	0.183	1184.705	735.655	0.137	0.037	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	7	1.745	0.292	1107.745	750.195	0.121	0.037	0.0	3	bottles
+sun_aqqabpdqjxygueuw.jpg	7	1.745	0.292	1107.745	750.195	0.121	0.037	0.0	5	cabinet
+sun_aqqabpdqjxygueuw.jpg	7	1.745	0.292	1107.745	750.195	0.121	0.037	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	7	1.745	0.292	1107.745	750.195	0.121	0.037	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	8	2.054	0.192	1125.235	697.465	0.108	0.026	0.0	3	bottles
+sun_aqqabpdqjxygueuw.jpg	8	2.054	0.192	1125.235	697.465	0.108	0.026	0.0	5	cabinet
+sun_aqqabpdqjxygueuw.jpg	8	2.054	0.192	1125.235	697.465	0.108	0.026	0.0	11	dishwasher
+sun_aqqabpdqjxygueuw.jpg	8	2.054	0.192	1125.235	697.465	0.108	0.026	0.0	19	jars
+sun_aqqabpdqjxygueuw.jpg	8	2.054	0.192	1125.235	697.465	0.108	0.026	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	9	2.254	0.175	1188.155	706.395	0.137	0.034	0.0	11	dishwasher
+sun_aqqabpdqjxygueuw.jpg	9	2.254	0.175	1188.155	706.395	0.137	0.034	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	9	2.254	0.175	1188.155	706.395	0.137	0.034	0.0	34	utensils
+sun_aqqabpdqjxygueuw.jpg	10	2.445	0.233	1214.415	738.770	0.113	0.026	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	10	2.445	0.233	1214.415	738.770	0.113	0.026	0.0	34	utensils
+sun_aqqabpdqjxygueuw.jpg	10	2.445	0.233	1214.415	738.770	0.113	0.026	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	11	2.695	0.175	1280.330	794.240	0.132	0.036	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	11	2.695	0.175	1280.330	794.240	0.132	0.036	0.0	27	plate
+sun_aqqabpdqjxygueuw.jpg	11	2.695	0.175	1280.330	794.240	0.132	0.036	0.0	30	sink
+sun_aqqabpdqjxygueuw.jpg	11	2.695	0.175	1280.330	794.240	0.132	0.036	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	12	2.895	0.108	1366.075	808.165	0.108	0.022	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	12	2.895	0.108	1366.075	808.165	0.108	0.022	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	12	2.895	0.108	1366.075	808.165	0.108	0.022	0.0	26	plantpot
+sun_aqqabpdqjxygueuw.jpg	12	2.895	0.108	1366.075	808.165	0.108	0.022	0.0	31	spoons
+sun_aqqabpdqjxygueuw.jpg	12	2.895	0.108	1366.075	808.165	0.108	0.022	0.0	37	worktop

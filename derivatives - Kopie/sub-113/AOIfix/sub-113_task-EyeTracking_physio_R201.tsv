@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aaslbwtcdcwjukuo.jpg	1	0.256	0.167	1250.263	695.662	0.109	0.050	0.0	12	paper towels
+sun_aaslbwtcdcwjukuo.jpg	1	0.256	0.167	1250.263	695.662	0.109	0.050	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	2	0.448	0.225	1041.200	688.415	0.094	0.032	0.0	13	range
+sun_aaslbwtcdcwjukuo.jpg	3	0.698	0.150	970.325	670.660	0.103	0.019	0.0	13	range
+sun_aaslbwtcdcwjukuo.jpg	4	0.889	0.258	1235.170	680.450	0.074	0.022	0.0	12	paper towels
+sun_aaslbwtcdcwjukuo.jpg	5	1.181	0.267	1171.488	664.760	0.070	0.013	0.0	4	bottle
+sun_aaslbwtcdcwjukuo.jpg	6	1.506	0.267	1583.578	891.628	0.131	0.048	0.0	14	refrigerator
+sun_aaslbwtcdcwjukuo.jpg	7	1.798	0.342	1606.055	855.235	0.098	0.029	0.0	14	refrigerator
+sun_aaslbwtcdcwjukuo.jpg	8	2.173	0.258	1310.970	845.380	0.093	0.024	0.0	6	cabinet
+sun_aaslbwtcdcwjukuo.jpg	8	2.173	0.258	1310.970	845.380	0.093	0.024	0.0	8	dishwasher
+sun_aaslbwtcdcwjukuo.jpg	9	2.456	0.267	1133.010	848.500	0.116	0.031	0.0	8	dishwasher
+sun_aaslbwtcdcwjukuo.jpg	10	2.756	0.250	1011.983	799.338	0.083	0.018	0.0	7	dishcloth
+sun_aaslbwtcdcwjukuo.jpg	10	2.756	0.250	1011.983	799.338	0.083	0.018	0.0	13	range

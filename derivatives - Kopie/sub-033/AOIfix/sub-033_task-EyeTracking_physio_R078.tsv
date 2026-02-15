@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adcrxklhlbwrbkgm.jpg	1	0.440	0.367	1634.618	743.837	0.215	0.109	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	1	0.440	0.367	1634.618	743.837	0.215	0.109	0.0	20	saltcellar
+sun_adcrxklhlbwrbkgm.jpg	2	0.831	0.308	1569.880	771.125	0.158	0.050	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	2	0.831	0.308	1569.880	771.125	0.158	0.050	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	3	1.173	0.333	1139.935	793.585	0.172	0.073	0.0	21	sink
+sun_adcrxklhlbwrbkgm.jpg	3	1.173	0.333	1139.935	793.585	0.172	0.073	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	4	1.523	0.875	1268.605	727.835	0.229	0.088	0.0	9	faucet
+sun_adcrxklhlbwrbkgm.jpg	5	2.523	0.367	1283.140	700.182	0.203	0.090	0.0	15	outlet

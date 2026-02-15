@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_avtdeaxixgmwquck.jpg	1	0.688	0.275	1174.255	738.280	0.157	0.056	0.0	14	light switches
+sun_avtdeaxixgmwquck.jpg	2	0.988	0.208	1202.730	733.750	0.163	0.067	0.0	22	vase
+sun_avtdeaxixgmwquck.jpg	3	1.222	0.192	1245.270	738.885	0.123	0.022	0.0	0	other
+sun_avtdeaxixgmwquck.jpg	4	1.438	0.408	1264.765	758.165	0.121	0.048	0.0	2	bottle
+sun_avtdeaxixgmwquck.jpg	4	1.438	0.408	1264.765	758.165	0.121	0.048	0.0	3	bowl
+sun_avtdeaxixgmwquck.jpg	5	1.863	0.233	1394.128	768.915	0.146	0.046	0.0	4	box
+sun_avtdeaxixgmwquck.jpg	6	2.122	0.175	1448.955	783.865	0.121	0.038	0.0	4	box
+sun_avtdeaxixgmwquck.jpg	7	2.313	0.200	1581.320	745.533	0.277	0.194	0.0	21	toaster oven
+sun_avtdeaxixgmwquck.jpg	8	2.530	0.283	1620.293	747.700	0.181	0.096	0.0	21	toaster oven
+sun_avtdeaxixgmwquck.jpg	9	2.830	0.175	1481.385	666.765	0.186	0.138	0.0	5	cabinet
+sun_avtdeaxixgmwquck.jpg	9	2.830	0.175	1481.385	666.765	0.186	0.138	0.0	16	oven

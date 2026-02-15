@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aydxycepjgosoubm.jpg	1	0.292	0.150	1080.497	807.335	0.206	0.072	0.0	2	cabinet
+sun_aydxycepjgosoubm.jpg	1	0.292	0.150	1080.497	807.335	0.206	0.072	0.0	11	worktop
+sun_aydxycepjgosoubm.jpg	2	0.476	0.433	1318.352	743.195	0.249	0.107	0.0	0	other
+sun_aydxycepjgosoubm.jpg	3	0.926	0.117	1354.672	924.660	0.146	0.027	0.0	8	range
+sun_aydxycepjgosoubm.jpg	4	1.059	0.167	1347.132	886.377	0.104	0.020	0.0	8	range
+sun_aydxycepjgosoubm.jpg	5	1.276	0.350	910.312	741.890	0.172	0.084	0.0	10	water tank
+sun_aydxycepjgosoubm.jpg	6	1.651	0.242	889.860	630.190	0.117	0.029	0.0	10	water tank
+sun_aydxycepjgosoubm.jpg	7	1.909	0.350	928.180	793.205	0.198	0.056	0.0	9	stool
+sun_aydxycepjgosoubm.jpg	7	1.909	0.350	928.180	793.205	0.198	0.056	0.0	10	water tank
+sun_aydxycepjgosoubm.jpg	8	2.276	0.117	904.620	764.393	0.171	0.044	0.0	10	water tank
+sun_aydxycepjgosoubm.jpg	9	2.417	0.125	899.920	643.240	0.149	0.037	0.0	10	water tank
+sun_aydxycepjgosoubm.jpg	10	2.559	0.442	886.765	608.615	0.134	0.034	0.0	10	water tank

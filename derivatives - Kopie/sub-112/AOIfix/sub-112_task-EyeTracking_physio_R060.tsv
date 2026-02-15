@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awusemdipqlufrmt.jpg	1	0.337	0.192	1182.270	690.315	0.127	0.040	0.0	2	door
+sun_awusemdipqlufrmt.jpg	2	0.546	0.217	1096.685	695.342	0.160	0.054	0.0	5	light switch
+sun_awusemdipqlufrmt.jpg	3	0.796	0.250	1003.540	719.805	0.091	0.030	0.0	1	cabinet
+sun_awusemdipqlufrmt.jpg	4	1.062	0.325	979.975	768.365	0.197	0.075	0.0	1	cabinet
+sun_awusemdipqlufrmt.jpg	4	1.062	0.325	979.975	768.365	0.197	0.075	0.0	7	pitcher
+sun_awusemdipqlufrmt.jpg	4	1.062	0.325	979.975	768.365	0.197	0.075	0.0	11	sink
+sun_awusemdipqlufrmt.jpg	5	1.446	0.467	1548.702	616.197	0.138	0.112	0.0	1	cabinet
+sun_awusemdipqlufrmt.jpg	5	1.446	0.467	1548.702	616.197	0.138	0.112	0.0	6	microwave
+sun_awusemdipqlufrmt.jpg	5	1.446	0.467	1548.702	616.197	0.138	0.112	0.0	9	refrigerator
+sun_awusemdipqlufrmt.jpg	5	1.446	0.467	1548.702	616.197	0.138	0.112	0.0	10	shelf
+sun_awusemdipqlufrmt.jpg	6	1.954	0.425	1019.850	846.220	0.133	0.071	0.0	1	cabinet
+sun_awusemdipqlufrmt.jpg	6	1.954	0.425	1019.850	846.220	0.133	0.071	0.0	4	glass
+sun_awusemdipqlufrmt.jpg	6	1.954	0.425	1019.850	846.220	0.133	0.071	0.0	7	pitcher
+sun_awusemdipqlufrmt.jpg	7	2.396	0.517	964.173	846.515	0.148	0.093	0.0	1	cabinet
+sun_awusemdipqlufrmt.jpg	7	2.396	0.517	964.173	846.515	0.148	0.093	0.0	4	glass
+sun_awusemdipqlufrmt.jpg	7	2.396	0.517	964.173	846.515	0.148	0.093	0.0	7	pitcher

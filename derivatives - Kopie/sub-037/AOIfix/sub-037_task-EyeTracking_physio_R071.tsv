@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajmwiafzffjerzeb.jpg	1	0.301	0.233	1202.207	591.457	0.171	0.064	0.0	3	cabinet
+sun_ajmwiafzffjerzeb.jpg	1	0.301	0.233	1202.207	591.457	0.171	0.064	0.0	11	microwave
+sun_ajmwiafzffjerzeb.jpg	2	0.551	0.417	1475.983	589.820	0.117	0.086	0.0	14	window
+sun_ajmwiafzffjerzeb.jpg	3	0.985	0.217	1518.255	746.215	0.133	0.111	0.0	13	sink
+sun_ajmwiafzffjerzeb.jpg	3	0.985	0.217	1518.255	746.215	0.133	0.111	0.0	15	worktop
+sun_ajmwiafzffjerzeb.jpg	4	1.226	0.258	1303.045	793.730	0.185	0.210	0.0	3	cabinet
+sun_ajmwiafzffjerzeb.jpg	4	1.226	0.258	1303.045	793.730	0.185	0.210	0.0	12	oven
+sun_ajmwiafzffjerzeb.jpg	4	1.226	0.258	1303.045	793.730	0.185	0.210	0.0	15	worktop
+sun_ajmwiafzffjerzeb.jpg	5	1.501	0.267	1295.878	728.445	0.140	0.083	0.0	10	knife set
+sun_ajmwiafzffjerzeb.jpg	5	1.501	0.267	1295.878	728.445	0.140	0.083	0.0	15	worktop
+sun_ajmwiafzffjerzeb.jpg	6	1.793	0.375	1446.270	749.405	0.118	0.070	0.0	13	sink
+sun_ajmwiafzffjerzeb.jpg	6	1.793	0.375	1446.270	749.405	0.118	0.070	0.0	15	worktop
+sun_ajmwiafzffjerzeb.jpg	7	2.193	0.175	1559.640	763.660	0.108	0.015	0.0	5	dishwasher
+sun_ajmwiafzffjerzeb.jpg	7	2.193	0.175	1559.640	763.660	0.108	0.015	0.0	13	sink
+sun_ajmwiafzffjerzeb.jpg	7	2.193	0.175	1559.640	763.660	0.108	0.015	0.0	15	worktop
+sun_ajmwiafzffjerzeb.jpg	8	2.393	0.292	1266.785	634.105	0.104	0.092	0.0	3	cabinet
+sun_ajmwiafzffjerzeb.jpg	9	2.701	0.167	1166.350	684.890	0.118	0.039	0.0	3	cabinet
+sun_ajmwiafzffjerzeb.jpg	9	2.701	0.167	1166.350	684.890	0.118	0.039	0.0	11	microwave
+sun_ajmwiafzffjerzeb.jpg	10	2.885	0.117	1180.338	762.880	0.089	0.017	0.0	8	food processor
+sun_ajmwiafzffjerzeb.jpg	10	2.885	0.117	1180.338	762.880	0.089	0.017	0.0	9	hotplate

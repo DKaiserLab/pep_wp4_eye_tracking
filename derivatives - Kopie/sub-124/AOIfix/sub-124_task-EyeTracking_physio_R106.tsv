@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajjktnfzwntvwsfh.jpg	1	0.344	0.108	1122.485	598.935	0.098	0.029	0.0	0	other
+sun_ajjktnfzwntvwsfh.jpg	2	0.477	0.150	1041.672	531.840	0.083	0.018	0.0	15	window
+sun_ajjktnfzwntvwsfh.jpg	3	0.635	0.242	1054.985	487.800	0.066	0.015	0.0	15	window
+sun_ajjktnfzwntvwsfh.jpg	4	0.894	0.150	1093.847	444.702	0.069	0.021	0.0	15	window
+sun_ajjktnfzwntvwsfh.jpg	5	1.060	0.183	1245.422	468.450	0.077	0.012	0.0	15	window
+sun_ajjktnfzwntvwsfh.jpg	6	1.269	0.200	1402.473	505.673	0.077	0.023	0.0	6	microwave
+sun_ajjktnfzwntvwsfh.jpg	7	1.494	0.233	1482.537	516.460	0.082	0.018	0.0	6	microwave
+sun_ajjktnfzwntvwsfh.jpg	7	1.494	0.233	1482.537	516.460	0.082	0.018	0.0	13	shelf
+sun_ajjktnfzwntvwsfh.jpg	8	1.752	0.183	1561.780	616.230	0.109	0.036	0.0	0	other
+sun_ajjktnfzwntvwsfh.jpg	9	1.952	0.408	1603.320	717.935	0.169	0.055	0.0	13	shelf
+sun_ajjktnfzwntvwsfh.jpg	9	1.952	0.408	1603.320	717.935	0.169	0.055	0.0	16	worktop
+sun_ajjktnfzwntvwsfh.jpg	10	2.394	0.125	1330.130	850.030	0.130	0.025	0.0	2	cabinet
+sun_ajjktnfzwntvwsfh.jpg	10	2.394	0.125	1330.130	850.030	0.130	0.025	0.0	3	dishwasher crop
+sun_ajjktnfzwntvwsfh.jpg	11	2.535	0.208	1160.900	906.460	0.104	0.023	0.0	3	dishwasher crop
+sun_ajjktnfzwntvwsfh.jpg	11	2.535	0.208	1160.900	906.460	0.104	0.023	0.0	16	worktop
+sun_ajjktnfzwntvwsfh.jpg	12	2.769	0.192	1077.230	913.150	0.086	0.016	0.0	3	dishwasher crop
+sun_ajjktnfzwntvwsfh.jpg	12	2.769	0.192	1077.230	913.150	0.086	0.016	0.0	12	range crop
+sun_ajjktnfzwntvwsfh.jpg	12	2.769	0.192	1077.230	913.150	0.086	0.016	0.0	16	worktop

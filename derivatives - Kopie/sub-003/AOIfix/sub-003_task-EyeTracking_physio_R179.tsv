@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aczamediblpgqmwt.jpg	1	0.366	0.408	1418.410	867.165	0.142	0.048	0.0	8	toilet
+sun_aczamediblpgqmwt.jpg	2	0.799	0.208	1481.915	906.980	0.124	0.065	0.0	2	cabinet crop
+sun_aczamediblpgqmwt.jpg	2	0.799	0.208	1481.915	906.980	0.124	0.065	0.0	3	countertop
+sun_aczamediblpgqmwt.jpg	3	1.024	0.267	1443.950	937.908	0.126	0.061	0.0	2	cabinet crop
+sun_aczamediblpgqmwt.jpg	3	1.024	0.267	1443.950	937.908	0.126	0.061	0.0	8	toilet
+sun_aczamediblpgqmwt.jpg	3	1.024	0.267	1443.950	937.908	0.126	0.061	0.0	9	towel
+sun_aczamediblpgqmwt.jpg	4	1.316	0.158	1532.930	967.180	0.142	0.053	0.0	2	cabinet crop
+sun_aczamediblpgqmwt.jpg	5	1.491	0.192	1489.870	978.005	0.153	0.070	0.0	2	cabinet crop
+sun_aczamediblpgqmwt.jpg	6	1.957	0.225	1440.115	993.715	0.209	0.389	0.0	2	cabinet crop
+sun_aczamediblpgqmwt.jpg	6	1.957	0.225	1440.115	993.715	0.209	0.389	0.0	8	toilet
+sun_aczamediblpgqmwt.jpg	6	1.957	0.225	1440.115	993.715	0.209	0.389	0.0	9	towel
+sun_aczamediblpgqmwt.jpg	7	2.207	0.125	1368.810	868.365	0.159	0.066	0.0	8	toilet
+sun_aczamediblpgqmwt.jpg	8	2.374	0.242	1453.360	649.545	0.138	0.046	0.0	9	towel
+sun_aczamediblpgqmwt.jpg	9	2.641	0.267	1543.000	545.443	0.139	0.035	0.0	9	towel

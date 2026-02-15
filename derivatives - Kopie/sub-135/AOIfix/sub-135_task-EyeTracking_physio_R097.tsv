@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abjtwfukuwddzted.jpg	1	0.270	0.150	1105.997	809.398	0.392	0.427	0.0	0	other
+sun_abjtwfukuwddzted.jpg	2	0.437	0.192	974.490	821.360	0.153	0.050	0.0	0	other
+sun_abjtwfukuwddzted.jpg	3	0.653	0.225	825.835	731.860	5.507	102.077	0.0	-1	off stimulus
+sun_abjtwfukuwddzted.jpg	4	0.920	0.217	1485.740	545.217	0.199	0.087	0.0	0	other
+sun_abjtwfukuwddzted.jpg	5	1.162	0.450	1565.592	544.170	0.187	0.175	0.0	16	tissue dispenser
+sun_abjtwfukuwddzted.jpg	6	1.653	0.317	1004.037	750.955	0.108	0.042	0.0	0	other
+sun_abjtwfukuwddzted.jpg	7	1.995	0.767	1040.585	792.015	0.123	0.055	0.0	3	can
+sun_abjtwfukuwddzted.jpg	7	1.995	0.767	1040.585	792.015	0.123	0.055	0.0	11	shelves
+sun_abjtwfukuwddzted.jpg	8	2.795	0.208	1336.285	768.625	0.117	0.128	0.0	0	other

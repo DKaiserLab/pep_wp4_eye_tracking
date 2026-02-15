@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akbyysnpwewzraii.jpg	1	0.323	0.225	1468.390	605.930	0.163	0.077	0.0	3	cabinet
+sun_akbyysnpwewzraii.jpg	2	0.564	0.150	1510.608	587.952	0.091	0.026	0.0	3	cabinet
+sun_akbyysnpwewzraii.jpg	3	0.756	0.450	1107.525	607.668	0.114	0.045	0.0	2	bottle
+sun_akbyysnpwewzraii.jpg	3	0.756	0.450	1107.525	607.668	0.114	0.045	0.0	12	shelf
+sun_akbyysnpwewzraii.jpg	3	0.756	0.450	1107.525	607.668	0.114	0.045	0.0	17	tube
+sun_akbyysnpwewzraii.jpg	4	1.248	0.217	1131.062	789.015	0.141	0.037	0.0	10	pitcher
+sun_akbyysnpwewzraii.jpg	5	1.481	0.283	1216.330	843.255	0.138	0.047	0.0	1	bathtub crop
+sun_akbyysnpwewzraii.jpg	5	1.481	0.283	1216.330	843.255	0.138	0.047	0.0	5	curtain
+sun_akbyysnpwewzraii.jpg	6	1.781	0.217	1102.653	786.110	0.188	0.078	0.0	10	pitcher
+sun_akbyysnpwewzraii.jpg	7	2.039	0.175	1112.565	598.185	0.109	0.023	0.0	12	shelf
+sun_akbyysnpwewzraii.jpg	7	2.039	0.175	1112.565	598.185	0.109	0.023	0.0	17	tube
+sun_akbyysnpwewzraii.jpg	8	2.231	0.275	1258.150	501.325	0.080	0.026	0.0	5	curtain
+sun_akbyysnpwewzraii.jpg	9	2.548	0.283	1401.322	801.767	0.252	0.083	0.0	14	toilet paper rolls
+sun_akbyysnpwewzraii.jpg	9	2.548	0.283	1401.322	801.767	0.252	0.083	0.0	16	toilet
+sun_akbyysnpwewzraii.jpg	10	2.848	0.158	1520.880	602.385	0.140	0.039	0.0	3	cabinet

@@ -1,0 +1,6 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahqrrgokszxtlsyi.jpg	1	0.632	0.258	1265.025	792.680	0.091	0.028	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	2	0.915	0.500	1261.325	818.820	0.132	0.042	0.0	2	bottle
+sun_ahqrrgokszxtlsyi.jpg	3	1.440	0.308	1208.440	787.750	0.083	0.024	0.0	7	knife
+sun_ahqrrgokszxtlsyi.jpg	4	1.773	0.317	1168.412	767.425	0.095	0.030	0.0	7	knife
+sun_ahqrrgokszxtlsyi.jpg	5	2.107	0.892	1121.535	776.390	0.086	0.027	0.0	1	ax

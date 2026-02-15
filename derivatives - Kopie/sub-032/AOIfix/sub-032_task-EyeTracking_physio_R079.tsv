@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aepvxmukjcxphfiy.jpg	1	0.316	0.342	1109.660	1006.015	0.169	0.078	0.0	2	cabinet
+sun_aepvxmukjcxphfiy.jpg	1	0.316	0.342	1109.660	1006.015	0.169	0.078	0.0	4	fire extinguisher
+sun_aepvxmukjcxphfiy.jpg	2	0.699	0.208	1014.000	784.920	0.161	0.090	0.0	2	cabinet
+sun_aepvxmukjcxphfiy.jpg	2	0.699	0.208	1014.000	784.920	0.161	0.090	0.0	9	sink
+sun_aepvxmukjcxphfiy.jpg	3	0.924	0.158	926.040	700.060	0.244	0.082	0.0	2	cabinet
+sun_aepvxmukjcxphfiy.jpg	4	1.116	0.375	1114.995	573.005	0.121	0.028	0.0	5	flowers
+sun_aepvxmukjcxphfiy.jpg	4	1.116	0.375	1114.995	573.005	0.121	0.028	0.0	11	window
+sun_aepvxmukjcxphfiy.jpg	5	1.516	0.200	1085.940	576.915	0.115	0.025	0.0	5	flowers
+sun_aepvxmukjcxphfiy.jpg	5	1.516	0.200	1085.940	576.915	0.115	0.025	0.0	10	vase
+sun_aepvxmukjcxphfiy.jpg	5	1.516	0.200	1085.940	576.915	0.115	0.025	0.0	11	window
+sun_aepvxmukjcxphfiy.jpg	6	1.741	0.233	1087.095	521.270	0.101	0.020	0.0	5	flowers
+sun_aepvxmukjcxphfiy.jpg	6	1.741	0.233	1087.095	521.270	0.101	0.020	0.0	11	window
+sun_aepvxmukjcxphfiy.jpg	7	1.999	0.408	1122.985	511.995	0.111	0.025	0.0	5	flowers
+sun_aepvxmukjcxphfiy.jpg	7	1.999	0.408	1122.985	511.995	0.111	0.025	0.0	11	window
+sun_aepvxmukjcxphfiy.jpg	8	2.424	0.183	1048.210	525.880	0.130	0.031	0.0	5	flowers
+sun_aepvxmukjcxphfiy.jpg	8	2.424	0.183	1048.210	525.880	0.130	0.031	0.0	11	window
+sun_aepvxmukjcxphfiy.jpg	9	2.658	0.317	1444.203	660.725	0.176	0.089	0.0	2	cabinet
+sun_aepvxmukjcxphfiy.jpg	9	2.658	0.317	1444.203	660.725	0.176	0.089	0.0	6	microwave

@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akoozmcccyrpzqdd.jpg	1	0.415	0.192	1011.045	636.600	0.193	0.081	0.0	23	refrigerator
+sun_akoozmcccyrpzqdd.jpg	2	0.632	0.175	906.945	710.440	0.183	0.046	0.0	23	refrigerator
+sun_akoozmcccyrpzqdd.jpg	3	0.840	0.108	963.335	918.125	0.100	0.027	0.0	12	kitchen island
+sun_akoozmcccyrpzqdd.jpg	3	0.840	0.108	963.335	918.125	0.100	0.027	0.0	25	stool
+sun_akoozmcccyrpzqdd.jpg	4	0.965	0.183	1047.523	972.378	0.100	0.024	0.0	12	kitchen island
+sun_akoozmcccyrpzqdd.jpg	5	1.173	0.183	1244.055	946.695	0.084	0.026	0.0	12	kitchen island
+sun_akoozmcccyrpzqdd.jpg	5	1.173	0.183	1244.055	946.695	0.084	0.026	0.0	25	stool
+sun_akoozmcccyrpzqdd.jpg	6	1.398	0.183	1474.608	819.067	0.129	0.024	0.0	12	kitchen island
+sun_akoozmcccyrpzqdd.jpg	7	1.623	0.192	1552.610	597.465	0.130	0.039	0.0	8	extractor hood
+sun_akoozmcccyrpzqdd.jpg	8	1.840	0.200	1318.960	538.400	0.106	0.017	0.0	3	cabinet
+sun_akoozmcccyrpzqdd.jpg	9	2.065	0.292	1105.305	589.775	0.172	0.048	0.0	4	cabubet
+sun_akoozmcccyrpzqdd.jpg	10	2.373	0.167	1091.350	652.085	0.144	0.021	0.0	15	microwave
+sun_akoozmcccyrpzqdd.jpg	11	2.573	0.167	1499.307	751.800	0.142	0.055	0.0	3	cabinet
+sun_akoozmcccyrpzqdd.jpg	11	2.573	0.167	1499.307	751.800	0.142	0.055	0.0	28	worktop
+sun_akoozmcccyrpzqdd.jpg	12	2.790	0.192	1621.545	805.520	0.078	0.013	0.0	3	cabinet

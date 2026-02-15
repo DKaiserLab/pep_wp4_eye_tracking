@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aicgqimzgcarglin.jpg	1	0.454	0.225	1398.040	709.805	0.141	0.056	0.0	21	window
+sun_aicgqimzgcarglin.jpg	2	0.695	0.283	1574.152	723.942	0.126	0.033	0.0	2	bottle
+sun_aicgqimzgcarglin.jpg	2	0.695	0.283	1574.152	723.942	0.126	0.033	0.0	21	window
+sun_aicgqimzgcarglin.jpg	3	1.004	0.300	1660.760	694.450	0.105	0.022	0.0	21	window
+sun_aicgqimzgcarglin.jpg	4	1.329	0.217	1664.005	607.828	0.087	0.015	0.0	21	window
+sun_aicgqimzgcarglin.jpg	5	1.579	0.283	1427.470	574.115	0.095	0.037	0.0	14	pendant lamp
+sun_aicgqimzgcarglin.jpg	5	1.579	0.283	1427.470	574.115	0.095	0.037	0.0	21	window
+sun_aicgqimzgcarglin.jpg	6	1.879	0.350	1287.662	640.043	0.237	0.150	0.0	8	curtain
+sun_aicgqimzgcarglin.jpg	6	1.879	0.350	1287.662	640.043	0.237	0.150	0.0	21	window
+sun_aicgqimzgcarglin.jpg	7	2.254	0.225	1081.185	742.460	0.130	0.037	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	7	2.254	0.225	1081.185	742.460	0.130	0.037	0.0	15	radio
+sun_aicgqimzgcarglin.jpg	7	2.254	0.225	1081.185	742.460	0.130	0.037	0.0	22	worktop
+sun_aicgqimzgcarglin.jpg	8	2.495	0.408	997.935	795.710	0.123	0.062	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	8	2.495	0.408	997.935	795.710	0.123	0.062	0.0	13	oven
+sun_aicgqimzgcarglin.jpg	8	2.495	0.408	997.935	795.710	0.123	0.062	0.0	19	stove
+sun_aicgqimzgcarglin.jpg	8	2.495	0.408	997.935	795.710	0.123	0.062	0.0	22	worktop

@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.500	0.250	1188.793	728.817	0.069	0.011	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	1	0.500	0.250	1188.793	728.817	0.069	0.011	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	2	0.783	0.258	1114.525	688.355	0.083	0.014	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	2	0.783	0.258	1114.525	688.355	0.083	0.014	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	3	1.100	0.300	1528.652	843.665	0.057	0.012	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	3	1.100	0.300	1528.652	843.665	0.057	0.012	0.0	25	scales
+labelme_qglnhnudtmzmocz.jpg	4	1.433	0.458	1562.310	876.330	0.064	0.013	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	4	1.433	0.458	1562.310	876.330	0.064	0.013	0.0	25	scales
+labelme_qglnhnudtmzmocz.jpg	4	1.433	0.458	1562.310	876.330	0.064	0.013	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	5	1.966	0.150	1078.943	991.952	0.069	0.023	0.0	24	rug
+labelme_qglnhnudtmzmocz.jpg	6	2.158	0.292	1049.885	921.860	0.064	0.008	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	7	2.483	0.183	982.890	847.472	0.076	0.011	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	8	2.700	0.308	915.370	547.035	0.149	0.066	0.0	5	cabinet

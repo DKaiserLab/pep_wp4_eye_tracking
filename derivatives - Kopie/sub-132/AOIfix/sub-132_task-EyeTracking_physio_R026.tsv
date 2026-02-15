@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_avtdeaxixgmwquck.jpg	1	0.583	0.208	1263.080	645.555	0.088	0.018	0.0	20	television
+sun_avtdeaxixgmwquck.jpg	2	0.817	0.408	1234.950	626.010	0.070	0.019	0.0	20	television
+sun_avtdeaxixgmwquck.jpg	3	1.267	0.508	1295.975	730.950	0.173	0.071	0.0	23	window
+sun_avtdeaxixgmwquck.jpg	4	1.808	0.100	1513.760	736.645	0.204	0.107	0.0	5	cabinet
+sun_avtdeaxixgmwquck.jpg	4	1.808	0.100	1513.760	736.645	0.204	0.107	0.0	16	oven
+sun_avtdeaxixgmwquck.jpg	5	1.925	0.533	1634.375	770.120	0.158	0.103	0.0	24	worktop
+sun_avtdeaxixgmwquck.jpg	6	2.500	0.225	1546.135	862.980	0.084	0.028	0.0	13	kitchen island
+sun_avtdeaxixgmwquck.jpg	7	2.742	0.117	1403.463	857.717	0.136	0.031	0.0	13	kitchen island
+sun_avtdeaxixgmwquck.jpg	8	2.900	0.108	1231.425	833.980	0.086	0.016	0.0	8	chair
+sun_avtdeaxixgmwquck.jpg	8	2.900	0.108	1231.425	833.980	0.086	0.016	0.0	13	kitchen island

@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amgkcbncvhsceeuq.jpg	1	0.414	0.233	1483.340	515.822	0.177	0.071	0.0	6	extractor hood
+sun_amgkcbncvhsceeuq.jpg	1	0.414	0.233	1483.340	515.822	0.177	0.071	0.0	14	plate
+sun_amgkcbncvhsceeuq.jpg	1	0.414	0.233	1483.340	515.822	0.177	0.071	0.0	17	shelf
+sun_amgkcbncvhsceeuq.jpg	2	0.664	0.233	1609.540	555.070	0.117	0.049	0.0	18	shelves
+sun_amgkcbncvhsceeuq.jpg	3	0.931	0.250	1485.345	517.985	0.085	0.023	0.0	6	extractor hood
+sun_amgkcbncvhsceeuq.jpg	3	0.931	0.250	1485.345	517.985	0.085	0.023	0.0	14	plate
+sun_amgkcbncvhsceeuq.jpg	3	0.931	0.250	1485.345	517.985	0.085	0.023	0.0	17	shelf
+sun_amgkcbncvhsceeuq.jpg	4	1.214	0.267	1279.408	713.340	0.176	0.041	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	4	1.214	0.267	1279.408	713.340	0.176	0.041	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	5	1.498	0.275	1189.245	732.315	0.106	0.033	0.0	2	bowl
+sun_amgkcbncvhsceeuq.jpg	5	1.498	0.275	1189.245	732.315	0.106	0.033	0.0	5	chair
+sun_amgkcbncvhsceeuq.jpg	5	1.498	0.275	1189.245	732.315	0.106	0.033	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	6	1.831	0.117	1462.660	514.852	0.063	0.009	0.0	6	extractor hood
+sun_amgkcbncvhsceeuq.jpg	6	1.831	0.117	1462.660	514.852	0.063	0.009	0.0	14	plate
+sun_amgkcbncvhsceeuq.jpg	7	1.965	0.550	1495.198	501.610	0.073	0.039	0.0	6	extractor hood
+sun_amgkcbncvhsceeuq.jpg	7	1.965	0.550	1495.198	501.610	0.073	0.039	0.0	14	plate
+sun_amgkcbncvhsceeuq.jpg	8	2.573	0.142	1193.015	598.200	0.062	0.006	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	9	2.740	0.142	1072.670	599.000	0.156	0.030	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	10	2.906	0.100	900.560	555.423	0.112	0.034	0.0	12	picture

@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.249	0.183	1149.112	643.915	0.078	0.034	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	2	0.482	0.133	1406.120	818.122	0.067	0.013	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	3	0.640	0.250	1422.995	716.372	0.069	0.021	0.0	30	spoons
+labelme_qglnhnudtmzmocz.jpg	3	0.640	0.250	1422.995	716.372	0.069	0.021	0.0	31	stairs
+labelme_qglnhnudtmzmocz.jpg	4	0.924	0.350	1522.145	531.483	0.097	0.053	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	4	0.924	0.350	1522.145	531.483	0.097	0.053	0.0	18	pan
+labelme_qglnhnudtmzmocz.jpg	5	1.332	0.175	1170.025	542.740	0.049	0.012	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	6	1.549	0.342	950.595	665.925	0.136	0.047	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	6	1.549	0.342	950.595	665.925	0.136	0.047	0.0	35	window
+labelme_qglnhnudtmzmocz.jpg	6	1.549	0.342	950.595	665.925	0.136	0.047	0.0	38	wreath
+labelme_qglnhnudtmzmocz.jpg	7	1.924	0.317	876.605	691.418	0.085	0.027	0.0	9	candleholder
+labelme_qglnhnudtmzmocz.jpg	7	1.924	0.317	876.605	691.418	0.085	0.027	0.0	22	plate
+labelme_qglnhnudtmzmocz.jpg	8	2.282	0.308	1483.895	823.105	0.128	0.092	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	9	2.624	0.133	1634.727	867.165	0.104	0.036	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	9	2.624	0.133	1634.727	867.165	0.104	0.036	0.0	25	scales

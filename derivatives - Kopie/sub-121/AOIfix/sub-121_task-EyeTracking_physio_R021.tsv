@@ -1,0 +1,25 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azxetkujrgobhzbi.jpg	1	0.118	0.217	1253.263	702.605	0.164	0.092	0.0	7	coffee maker
+sun_azxetkujrgobhzbi.jpg	1	0.118	0.217	1253.263	702.605	0.164	0.092	0.0	21	plate
+sun_azxetkujrgobhzbi.jpg	1	0.118	0.217	1253.263	702.605	0.164	0.092	0.0	27	teacup
+sun_azxetkujrgobhzbi.jpg	1	0.118	0.217	1253.263	702.605	0.164	0.092	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	2	0.368	0.167	1236.735	640.352	0.108	0.020	0.0	0	other
+sun_azxetkujrgobhzbi.jpg	3	0.618	0.192	1105.875	561.710	0.077	0.025	0.0	4	cabinet
+sun_azxetkujrgobhzbi.jpg	3	0.618	0.192	1105.875	561.710	0.077	0.025	0.0	19	microwave
+sun_azxetkujrgobhzbi.jpg	4	0.835	0.217	1056.418	534.285	0.184	0.119	0.0	4	cabinet
+sun_azxetkujrgobhzbi.jpg	5	1.068	0.242	970.575	517.220	0.115	0.138	0.0	29	window
+sun_azxetkujrgobhzbi.jpg	6	1.335	0.225	889.125	550.220	0.260	0.448	0.0	13	flowers
+sun_azxetkujrgobhzbi.jpg	6	1.335	0.225	889.125	550.220	0.260	0.448	0.0	29	window
+sun_azxetkujrgobhzbi.jpg	7	1.585	0.392	885.780	596.020	0.227	0.260	0.0	23	pot
+sun_azxetkujrgobhzbi.jpg	7	1.585	0.392	885.780	596.020	0.227	0.260	0.0	28	vase
+sun_azxetkujrgobhzbi.jpg	7	1.585	0.392	885.780	596.020	0.227	0.260	0.0	29	window
+sun_azxetkujrgobhzbi.jpg	8	1.985	0.142	907.095	705.755	2.850	7.718	23.5	2	bottle
+sun_azxetkujrgobhzbi.jpg	8	1.985	0.142	907.095	705.755	2.850	7.718	23.5	4	cabinet
+sun_azxetkujrgobhzbi.jpg	9	2.152	0.225	960.850	787.295	0.341	0.271	0.0	1	books
+sun_azxetkujrgobhzbi.jpg	9	2.152	0.225	960.850	787.295	0.341	0.271	0.0	17	kitchen island
+sun_azxetkujrgobhzbi.jpg	10	2.435	0.183	1038.183	794.760	0.174	0.126	0.0	15	glass
+sun_azxetkujrgobhzbi.jpg	10	2.435	0.183	1038.183	794.760	0.174	0.126	0.0	17	kitchen island
+sun_azxetkujrgobhzbi.jpg	11	2.652	0.308	1112.375	801.550	0.183	0.089	0.0	2	bottle
+sun_azxetkujrgobhzbi.jpg	11	2.652	0.308	1112.375	801.550	0.183	0.089	0.0	4	cabinet
+sun_azxetkujrgobhzbi.jpg	11	2.652	0.308	1112.375	801.550	0.183	0.089	0.0	17	kitchen island
+sun_azxetkujrgobhzbi.jpg	11	2.652	0.308	1112.375	801.550	0.183	0.089	0.0	19	microwave

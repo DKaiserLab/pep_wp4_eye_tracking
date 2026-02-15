@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aepdfzurhsaporkg.jpg	1	0.388	0.133	1325.010	775.345	0.338	0.184	0.0	0	other
+sun_aepdfzurhsaporkg.jpg	2	0.538	0.217	1447.515	811.487	0.424	0.157	0.0	5	toilet
+sun_aepdfzurhsaporkg.jpg	3	0.771	0.142	1561.435	818.985	0.267	0.161	0.0	5	toilet
+sun_aepdfzurhsaporkg.jpg	4	0.938	0.183	1507.120	720.612	0.217	0.082	0.0	5	toilet
+sun_aepdfzurhsaporkg.jpg	5	1.146	0.192	1200.500	723.670	0.288	0.088	0.0	0	other
+sun_aepdfzurhsaporkg.jpg	6	1.363	0.225	1055.725	716.650	0.194	0.067	0.0	0	other
+sun_aepdfzurhsaporkg.jpg	7	1.613	0.192	934.390	683.710	0.133	0.034	0.0	0	other
+sun_aepdfzurhsaporkg.jpg	8	1.829	0.117	872.655	645.955	0.139	0.028	0.0	0	other
+sun_aepdfzurhsaporkg.jpg	9	1.971	0.233	909.463	537.015	0.099	0.038	0.0	0	other
+sun_aepdfzurhsaporkg.jpg	10	2.238	0.333	901.888	504.340	0.080	0.046	0.0	0	other
+sun_aepdfzurhsaporkg.jpg	11	2.588	0.417	884.102	468.695	0.100	0.060	0.0	2	curtain

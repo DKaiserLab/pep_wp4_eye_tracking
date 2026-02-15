@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglwoufpxbtxqecp.jpg	1	0.413	0.200	1053.798	563.380	0.096	0.017	0.0	11	extractor hood
+sun_aglwoufpxbtxqecp.jpg	2	0.630	0.167	1032.130	546.765	0.088	0.019	0.0	11	extractor hood
+sun_aglwoufpxbtxqecp.jpg	3	0.813	0.208	1013.400	515.685	0.072	0.014	0.0	8	crockpot
+sun_aglwoufpxbtxqecp.jpg	3	0.813	0.208	1013.400	515.685	0.072	0.014	0.0	11	extractor hood
+sun_aglwoufpxbtxqecp.jpg	3	0.813	0.208	1013.400	515.685	0.072	0.014	0.0	23	shelf
+sun_aglwoufpxbtxqecp.jpg	4	1.063	0.300	1066.227	811.015	0.203	0.065	0.0	10	drawers
+sun_aglwoufpxbtxqecp.jpg	4	1.063	0.300	1066.227	811.015	0.203	0.065	0.0	21	range
+sun_aglwoufpxbtxqecp.jpg	5	1.388	0.158	1230.335	875.060	0.150	0.039	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	6	1.563	0.292	1315.850	843.375	0.165	0.043	0.0	3	bowl
+sun_aglwoufpxbtxqecp.jpg	6	1.563	0.292	1315.850	843.375	0.165	0.043	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	6	1.563	0.292	1315.850	843.375	0.165	0.043	0.0	12	fruit
+sun_aglwoufpxbtxqecp.jpg	6	1.563	0.292	1315.850	843.375	0.165	0.043	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	7	1.889	0.225	1518.950	718.815	0.124	0.025	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	7	1.889	0.225	1518.950	718.815	0.124	0.025	0.0	22	refrigerator
+sun_aglwoufpxbtxqecp.jpg	8	2.130	0.183	1614.445	657.970	0.097	0.013	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	8	2.130	0.183	1614.445	657.970	0.097	0.013	0.0	5	cabinets
+sun_aglwoufpxbtxqecp.jpg	9	2.330	0.675	1646.140	582.335	0.083	0.030	0.0	5	cabinets
+sun_aglwoufpxbtxqecp.jpg	9	2.330	0.675	1646.140	582.335	0.083	0.030	0.0	13	glass

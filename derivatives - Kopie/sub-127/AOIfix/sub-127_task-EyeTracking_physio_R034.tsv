@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwvdhqsbtcesevi.jpg	1	0.386	0.150	1182.832	780.662	0.089	0.018	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	2	0.553	0.267	1069.320	807.423	0.102	0.030	0.0	6	glass
+sun_akwvdhqsbtcesevi.jpg	2	0.553	0.267	1069.320	807.423	0.102	0.030	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	3	0.845	0.208	996.590	705.175	0.119	0.075	0.0	14	range
+sun_akwvdhqsbtcesevi.jpg	3	0.845	0.208	996.590	705.175	0.119	0.075	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	4	1.086	0.200	1057.400	657.038	0.094	0.017	0.0	0	other
+sun_akwvdhqsbtcesevi.jpg	5	1.311	0.308	1160.035	635.665	0.089	0.024	0.0	1	blender
+sun_akwvdhqsbtcesevi.jpg	6	1.645	0.258	1261.540	686.525	0.121	0.027	0.0	2	bottle
+sun_akwvdhqsbtcesevi.jpg	6	1.645	0.258	1261.540	686.525	0.121	0.027	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	7	1.953	0.175	1478.075	789.610	0.093	0.017	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	8	2.153	0.458	1630.985	825.395	0.093	0.032	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	8	2.153	0.458	1630.985	825.395	0.093	0.032	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	9	2.653	0.283	1243.320	869.045	0.114	0.031	0.0	6	glass
+sun_akwvdhqsbtcesevi.jpg	9	2.653	0.283	1243.320	869.045	0.114	0.031	0.0	21	worktop

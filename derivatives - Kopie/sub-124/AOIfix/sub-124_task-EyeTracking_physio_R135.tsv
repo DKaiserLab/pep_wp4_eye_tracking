@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amgkcbncvhsceeuq.jpg	1	0.265	0.167	1204.395	721.207	0.175	0.123	0.0	2	bowl
+sun_amgkcbncvhsceeuq.jpg	1	0.265	0.167	1204.395	721.207	0.175	0.123	0.0	7	fruits
+sun_amgkcbncvhsceeuq.jpg	1	0.265	0.167	1204.395	721.207	0.175	0.123	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	2	0.465	0.233	1064.735	571.505	0.090	0.022	0.0	1	blind
+sun_amgkcbncvhsceeuq.jpg	2	0.465	0.233	1064.735	571.505	0.090	0.022	0.0	11	pendant lamp
+sun_amgkcbncvhsceeuq.jpg	2	0.465	0.233	1064.735	571.505	0.090	0.022	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	3	0.715	0.242	1043.075	519.980	0.088	0.017	0.0	0	other
+sun_amgkcbncvhsceeuq.jpg	4	0.974	0.192	1055.060	456.955	0.066	0.010	0.0	11	pendant lamp
+sun_amgkcbncvhsceeuq.jpg	5	1.190	0.208	1283.860	476.735	0.114	0.040	0.0	0	other
+sun_amgkcbncvhsceeuq.jpg	6	1.415	0.183	1432.738	517.067	0.164	0.045	0.0	6	extractor hood
+sun_amgkcbncvhsceeuq.jpg	7	1.615	0.208	1521.315	624.300	0.128	0.045	0.0	0	other
+sun_amgkcbncvhsceeuq.jpg	8	1.849	0.250	1567.035	748.050	0.119	0.032	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	9	2.115	0.175	1539.905	799.005	0.097	0.038	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	9	2.115	0.175	1539.905	799.005	0.097	0.038	0.0	15	range
+sun_amgkcbncvhsceeuq.jpg	10	2.307	0.242	1424.900	846.890	0.097	0.024	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	11	2.565	0.208	1364.460	814.775	0.100	0.026	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	12	2.799	0.200	1293.155	805.940	0.105	0.017	0.0	8	kitchen island

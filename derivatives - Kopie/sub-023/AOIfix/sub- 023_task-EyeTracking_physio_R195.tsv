@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alxnnlzdudyhqwig.jpg	1	0.512	0.325	1284.335	849.680	0.135	0.051	0.0	9	chair
+sun_alxnnlzdudyhqwig.jpg	1	0.512	0.325	1284.335	849.680	0.135	0.051	0.0	18	kitchen island
+sun_alxnnlzdudyhqwig.jpg	2	0.871	0.333	1308.602	774.908	0.101	0.034	0.0	6	cabinet
+sun_alxnnlzdudyhqwig.jpg	2	0.871	0.333	1308.602	774.908	0.101	0.034	0.0	18	kitchen island
+sun_alxnnlzdudyhqwig.jpg	3	1.221	0.283	1186.455	717.293	0.120	0.059	0.0	0	other
+sun_alxnnlzdudyhqwig.jpg	4	1.529	0.325	1189.950	599.650	0.173	0.079	0.0	14	extractor hood
+sun_alxnnlzdudyhqwig.jpg	4	1.529	0.325	1189.950	599.650	0.173	0.079	0.0	25	pendant lamp
+sun_alxnnlzdudyhqwig.jpg	5	1.871	0.417	1064.053	606.675	0.195	0.082	0.0	6	cabinet
+sun_alxnnlzdudyhqwig.jpg	5	1.871	0.417	1064.053	606.675	0.195	0.082	0.0	21	microwave
+sun_alxnnlzdudyhqwig.jpg	6	2.304	0.217	1118.578	777.370	0.183	0.090	0.0	6	cabinet
+sun_alxnnlzdudyhqwig.jpg	6	2.304	0.217	1118.578	777.370	0.183	0.090	0.0	34	worktop
+sun_alxnnlzdudyhqwig.jpg	7	2.546	0.142	1294.455	782.980	0.150	0.087	0.0	6	cabinet
+sun_alxnnlzdudyhqwig.jpg	7	2.546	0.142	1294.455	782.980	0.150	0.087	0.0	18	kitchen island
+sun_alxnnlzdudyhqwig.jpg	7	2.546	0.142	1294.455	782.980	0.150	0.087	0.0	30	sink
+sun_alxnnlzdudyhqwig.jpg	8	2.713	0.183	1480.332	735.080	0.135	0.041	0.0	0	other

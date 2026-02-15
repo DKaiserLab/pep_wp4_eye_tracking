@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aobyfgpmnvnnuolx.jpg	1	0.276	0.208	1347.965	759.025	0.079	0.013	0.0	2	canister
+sun_aobyfgpmnvnnuolx.jpg	2	0.501	0.233	1369.912	769.872	0.078	0.015	0.0	2	canister
+sun_aobyfgpmnvnnuolx.jpg	3	0.759	0.358	1425.575	756.195	0.072	0.014	0.0	1	cabinet
+sun_aobyfgpmnvnnuolx.jpg	3	0.759	0.358	1425.575	756.195	0.072	0.014	0.0	9	oven
+sun_aobyfgpmnvnnuolx.jpg	4	1.143	0.208	1368.250	770.980	0.075	0.012	0.0	2	canister
+sun_aobyfgpmnvnnuolx.jpg	5	1.376	0.233	1353.075	767.465	0.073	0.015	0.0	2	canister
+sun_aobyfgpmnvnnuolx.jpg	6	1.634	0.383	1320.600	766.757	0.077	0.010	0.0	2	canister
+sun_aobyfgpmnvnnuolx.jpg	7	2.034	0.267	1338.057	766.362	0.082	0.012	0.0	2	canister
+sun_aobyfgpmnvnnuolx.jpg	8	2.326	0.258	1415.570	753.625	0.084	0.013	0.0	1	cabinet
+sun_aobyfgpmnvnnuolx.jpg	8	2.326	0.258	1415.570	753.625	0.084	0.013	0.0	9	oven
+sun_aobyfgpmnvnnuolx.jpg	9	2.601	0.258	1443.490	728.355	0.066	0.009	0.0	1	cabinet
+sun_aobyfgpmnvnnuolx.jpg	9	2.601	0.258	1443.490	728.355	0.066	0.009	0.0	8	microwave
+sun_aobyfgpmnvnnuolx.jpg	10	2.884	0.125	1467.725	719.230	0.076	0.012	0.0	1	cabinet
+sun_aobyfgpmnvnnuolx.jpg	10	2.884	0.125	1467.725	719.230	0.076	0.012	0.0	8	microwave

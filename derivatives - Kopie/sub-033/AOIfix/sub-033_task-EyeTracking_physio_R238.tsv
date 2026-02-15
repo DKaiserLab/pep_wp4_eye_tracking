@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abvctdwfbgsumtid.jpg	1	0.394	0.225	1343.165	692.930	0.166	0.056	0.0	1	blind
+sun_abvctdwfbgsumtid.jpg	1	0.394	0.225	1343.165	692.930	0.166	0.056	0.0	11	window
+sun_abvctdwfbgsumtid.jpg	2	0.635	0.325	1370.275	635.790	0.195	0.051	0.0	1	blind
+sun_abvctdwfbgsumtid.jpg	2	0.635	0.325	1370.275	635.790	0.195	0.051	0.0	11	window
+sun_abvctdwfbgsumtid.jpg	3	0.985	0.433	1338.475	745.485	0.182	0.084	0.0	1	blind
+sun_abvctdwfbgsumtid.jpg	3	0.985	0.433	1338.475	745.485	0.182	0.084	0.0	11	window
+sun_abvctdwfbgsumtid.jpg	4	1.444	0.283	1612.312	845.013	0.228	0.112	0.0	2	cabinet
+sun_abvctdwfbgsumtid.jpg	5	1.877	0.242	1709.080	847.065	0.170	0.082	0.0	7	range
+sun_abvctdwfbgsumtid.jpg	5	1.877	0.242	1709.080	847.065	0.170	0.082	0.0	12	worktop
+sun_abvctdwfbgsumtid.jpg	6	2.152	0.300	1422.935	781.047	0.132	0.057	0.0	9	sink
+sun_abvctdwfbgsumtid.jpg	6	2.152	0.300	1422.935	781.047	0.132	0.057	0.0	11	window
+sun_abvctdwfbgsumtid.jpg	6	2.152	0.300	1422.935	781.047	0.132	0.057	0.0	12	worktop
+sun_abvctdwfbgsumtid.jpg	7	2.469	0.533	1350.903	758.190	0.170	0.055	0.0	1	blind
+sun_abvctdwfbgsumtid.jpg	7	2.469	0.533	1350.903	758.190	0.170	0.055	0.0	11	window

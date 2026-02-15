@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abqihmfbiddwtcmz.jpg	1	0.329	0.300	1231.605	701.315	0.075	0.020	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	1	0.329	0.300	1231.605	701.315	0.075	0.020	0.0	15	sink
+sun_abqihmfbiddwtcmz.jpg	1	0.329	0.300	1231.605	701.315	0.075	0.020	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	2	0.837	0.192	1029.050	538.720	0.087	0.026	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	3	1.054	0.417	984.588	582.795	0.085	0.036	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	3	1.054	0.417	984.588	582.795	0.085	0.036	0.0	13	refrigerator
+sun_abqihmfbiddwtcmz.jpg	4	1.512	0.250	1553.517	519.205	0.065	0.021	0.0	1	box
+sun_abqihmfbiddwtcmz.jpg	4	1.512	0.250	1553.517	519.205	0.065	0.021	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	4	1.512	0.250	1553.517	519.205	0.065	0.021	0.0	6	extractor hood
+sun_abqihmfbiddwtcmz.jpg	4	1.512	0.250	1553.517	519.205	0.065	0.021	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	5	1.812	0.317	1600.475	520.650	0.050	0.007	0.0	1	box
+sun_abqihmfbiddwtcmz.jpg	5	1.812	0.317	1600.475	520.650	0.050	0.007	0.0	3	canister
+sun_abqihmfbiddwtcmz.jpg	5	1.812	0.317	1600.475	520.650	0.050	0.007	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	6	2.162	0.283	1622.158	502.895	0.065	0.017	0.0	1	box
+sun_abqihmfbiddwtcmz.jpg	6	2.162	0.283	1622.158	502.895	0.065	0.017	0.0	3	canister
+sun_abqihmfbiddwtcmz.jpg	6	2.162	0.283	1622.158	502.895	0.065	0.017	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	7	2.471	0.175	1597.920	464.980	0.064	0.012	0.0	1	box
+sun_abqihmfbiddwtcmz.jpg	7	2.471	0.175	1597.920	464.980	0.064	0.012	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	8	2.712	0.283	1625.275	969.347	0.134	0.140	0.0	4	chair crop
+sun_abqihmfbiddwtcmz.jpg	8	2.712	0.283	1625.275	969.347	0.134	0.140	0.0	18	table crop

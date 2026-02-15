@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.407	0.233	982.010	545.663	0.092	0.022	0.0	13	figure
+sun_acfmftudsenhrfhy.jpg	1	0.407	0.233	982.010	545.663	0.092	0.022	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	2	0.657	0.167	938.378	520.610	0.085	0.017	0.0	13	figure
+sun_acfmftudsenhrfhy.jpg	2	0.657	0.167	938.378	520.610	0.085	0.017	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	3	0.857	0.233	1328.280	519.773	0.078	0.018	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	4	1.115	0.208	1494.340	508.900	0.072	0.019	0.0	0	other
+sun_acfmftudsenhrfhy.jpg	5	1.340	0.192	1565.650	563.905	0.119	0.035	0.0	21	picture
+sun_acfmftudsenhrfhy.jpg	6	1.565	0.292	1555.735	791.800	0.105	0.040	0.0	6	canister
+sun_acfmftudsenhrfhy.jpg	6	1.565	0.292	1555.735	791.800	0.105	0.040	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	7	1.882	0.242	1453.240	829.950	0.081	0.016	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	8	2.149	0.208	1218.910	837.720	0.110	0.025	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	9	2.382	0.367	1101.733	866.725	0.085	0.053	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	9	2.382	0.367	1101.733	866.725	0.085	0.053	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	10	2.765	0.200	1143.517	897.092	0.075	0.021	0.0	7	chair crop

@@ -1,0 +1,23 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abqihmfbiddwtcmz.jpg	1	0.478	0.192	1351.865	748.150	0.057	0.010	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	1	0.478	0.192	1351.865	748.150	0.057	0.010	0.0	15	sink
+sun_abqihmfbiddwtcmz.jpg	1	0.478	0.192	1351.865	748.150	0.057	0.010	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	2	0.719	0.192	1471.220	760.870	0.054	0.007	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	2	0.719	0.192	1471.220	760.870	0.054	0.007	0.0	5	chair
+sun_abqihmfbiddwtcmz.jpg	2	0.719	0.192	1471.220	760.870	0.054	0.007	0.0	17	stove
+sun_abqihmfbiddwtcmz.jpg	3	0.944	0.250	1564.055	730.572	0.123	0.038	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	3	0.944	0.250	1564.055	730.572	0.123	0.038	0.0	17	stove
+sun_abqihmfbiddwtcmz.jpg	4	1.211	0.325	1639.655	690.770	0.135	0.071	0.0	8	fruits
+sun_abqihmfbiddwtcmz.jpg	4	1.211	0.325	1639.655	690.770	0.135	0.071	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	5	1.619	0.242	1090.670	694.335	0.042	0.015	0.0	11	plate rack
+sun_abqihmfbiddwtcmz.jpg	5	1.619	0.242	1090.670	694.335	0.042	0.015	0.0	12	plate
+sun_abqihmfbiddwtcmz.jpg	5	1.619	0.242	1090.670	694.335	0.042	0.015	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	6	1.911	0.225	1034.250	752.860	0.058	0.021	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	6	1.911	0.225	1034.250	752.860	0.058	0.021	0.0	11	plate rack
+sun_abqihmfbiddwtcmz.jpg	6	1.911	0.225	1034.250	752.860	0.058	0.021	0.0	12	plate
+sun_abqihmfbiddwtcmz.jpg	6	1.911	0.225	1034.250	752.860	0.058	0.021	0.0	13	refrigerator
+sun_abqihmfbiddwtcmz.jpg	6	1.911	0.225	1034.250	752.860	0.058	0.021	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	7	2.211	0.333	1400.023	968.080	0.232	0.308	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	8	2.619	0.242	1684.880	776.600	0.054	0.008	0.0	10	paper towels
+sun_abqihmfbiddwtcmz.jpg	8	2.619	0.242	1684.880	776.600	0.054	0.008	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	8	2.619	0.242	1684.880	776.600	0.054	0.008	0.0	18	table crop

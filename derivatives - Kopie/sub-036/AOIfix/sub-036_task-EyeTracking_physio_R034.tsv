@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwvdhqsbtcesevi.jpg	1	0.347	0.250	1099.162	847.477	0.208	0.060	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	2	0.606	0.133	1156.512	867.410	0.117	0.028	0.0	16	sink
+sun_akwvdhqsbtcesevi.jpg	2	0.606	0.133	1156.512	867.410	0.117	0.028	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	3	0.764	0.200	1369.628	965.608	0.146	0.101	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	4	1.006	0.167	1022.745	761.773	0.110	0.023	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	4	1.006	0.167	1022.745	761.773	0.110	0.023	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	5	1.206	0.192	926.055	643.595	0.090	0.023	0.0	0	other
+sun_akwvdhqsbtcesevi.jpg	6	1.431	0.208	1273.625	641.195	0.117	0.033	0.0	0	other
+sun_akwvdhqsbtcesevi.jpg	7	1.656	0.225	1368.970	651.810	0.108	0.027	0.0	4	coffee maker
+sun_akwvdhqsbtcesevi.jpg	8	1.906	0.150	1628.780	665.562	0.139	0.028	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	9	2.081	0.175	1715.350	637.420	0.120	0.039	0.0	15	refrigerator
+sun_akwvdhqsbtcesevi.jpg	10	2.289	0.167	1348.862	570.548	0.083	0.031	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	11	2.514	0.317	1069.610	542.130	0.080	0.021	0.0	8	microwave
+sun_akwvdhqsbtcesevi.jpg	11	2.514	0.317	1069.610	542.130	0.080	0.021	0.0	11	pendant lamp
+sun_akwvdhqsbtcesevi.jpg	12	2.872	0.133	1286.050	547.085	0.087	0.011	0.0	11	pendant lamp

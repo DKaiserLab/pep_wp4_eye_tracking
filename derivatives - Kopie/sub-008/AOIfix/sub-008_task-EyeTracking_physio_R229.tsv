@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aicgqimzgcarglin.jpg	1	0.346	0.192	1238.475	840.130	0.120	0.048	0.0	12	kitchen island
+sun_aicgqimzgcarglin.jpg	1	0.346	0.192	1238.475	840.130	0.120	0.048	0.0	18	stool
+sun_aicgqimzgcarglin.jpg	2	0.563	0.275	1428.945	782.480	0.099	0.027	0.0	3	bowl
+sun_aicgqimzgcarglin.jpg	2	0.563	0.275	1428.945	782.480	0.099	0.027	0.0	9	dishwasher
+sun_aicgqimzgcarglin.jpg	2	0.563	0.275	1428.945	782.480	0.099	0.027	0.0	10	fruit
+sun_aicgqimzgcarglin.jpg	2	0.563	0.275	1428.945	782.480	0.099	0.027	0.0	12	kitchen island
+sun_aicgqimzgcarglin.jpg	2	0.563	0.275	1428.945	782.480	0.099	0.027	0.0	22	worktop
+sun_aicgqimzgcarglin.jpg	3	0.871	0.292	1624.200	922.935	0.085	0.041	0.0	0	other
+sun_aicgqimzgcarglin.jpg	4	1.188	0.142	1573.790	966.675	0.109	0.027	0.0	0	other
+sun_aicgqimzgcarglin.jpg	5	1.354	0.192	1536.980	596.940	0.106	0.091	0.0	0	other
+sun_aicgqimzgcarglin.jpg	6	1.563	0.217	1513.560	515.320	0.083	0.041	0.0	0	other
+sun_aicgqimzgcarglin.jpg	7	1.829	0.175	1724.225	484.390	0.055	0.011	0.0	-1	off stimulus
+sun_aicgqimzgcarglin.jpg	8	2.054	0.275	987.355	512.085	0.108	0.048	0.0	1	basket
+sun_aicgqimzgcarglin.jpg	9	2.379	0.233	845.095	448.830	0.104	0.079	0.0	1	basket
+sun_aicgqimzgcarglin.jpg	9	2.379	0.233	845.095	448.830	0.104	0.079	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	10	2.638	0.175	967.535	420.440	0.052	0.017	0.0	0	other
+sun_aicgqimzgcarglin.jpg	11	2.838	0.167	878.670	449.445	0.064	0.046	0.0	1	basket

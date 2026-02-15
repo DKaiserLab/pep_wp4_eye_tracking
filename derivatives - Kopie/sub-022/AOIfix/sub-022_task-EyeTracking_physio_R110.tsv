@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anaaondppjmietbw.jpg	1	0.310	0.167	1160.640	709.300	0.131	0.036	0.0	10	towel
+sun_anaaondppjmietbw.jpg	2	0.502	0.158	1379.765	685.235	0.096	0.021	0.0	9	towel dispenser
+sun_anaaondppjmietbw.jpg	3	0.693	0.142	1083.550	780.190	0.219	0.132	0.0	7	sink
+sun_anaaondppjmietbw.jpg	4	1.135	0.258	1075.925	784.115	0.175	0.056	0.0	7	sink
+sun_anaaondppjmietbw.jpg	5	1.410	0.192	1139.490	714.605	0.139	0.057	0.0	10	towel
+sun_anaaondppjmietbw.jpg	6	1.635	0.483	924.668	922.020	0.155	0.066	0.0	6	sink crop
+sun_anaaondppjmietbw.jpg	7	2.143	0.225	880.375	977.710	0.180	0.058	0.0	6	sink crop
+sun_anaaondppjmietbw.jpg	8	2.402	0.600	1386.750	685.643	0.091	0.028	0.0	9	towel dispenser

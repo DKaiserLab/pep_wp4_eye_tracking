@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abntrinbqbsqoowj.jpg	1	0.536	0.275	1234.805	853.365	0.167	0.086	0.0	13	refrigerator
+sun_abntrinbqbsqoowj.jpg	2	0.986	0.192	1228.980	915.010	0.087	0.024	0.0	7	chair crop
+sun_abntrinbqbsqoowj.jpg	3	1.194	0.183	1327.043	896.143	0.137	0.029	0.0	8	chair
+sun_abntrinbqbsqoowj.jpg	3	1.194	0.183	1327.043	896.143	0.137	0.029	0.0	15	table
+sun_abntrinbqbsqoowj.jpg	4	1.394	0.183	1426.975	884.572	0.156	0.079	0.0	4	cabinets
+sun_abntrinbqbsqoowj.jpg	4	1.394	0.183	1426.975	884.572	0.156	0.079	0.0	5	candle
+sun_abntrinbqbsqoowj.jpg	4	1.394	0.183	1426.975	884.572	0.156	0.079	0.0	8	chair
+sun_abntrinbqbsqoowj.jpg	4	1.394	0.183	1426.975	884.572	0.156	0.079	0.0	15	table
+sun_abntrinbqbsqoowj.jpg	5	1.594	0.175	1467.970	875.580	0.211	0.099	0.0	1	bottle
+sun_abntrinbqbsqoowj.jpg	5	1.594	0.175	1467.970	875.580	0.211	0.099	0.0	4	cabinets
+sun_abntrinbqbsqoowj.jpg	5	1.594	0.175	1467.970	875.580	0.211	0.099	0.0	5	candle
+sun_abntrinbqbsqoowj.jpg	5	1.594	0.175	1467.970	875.580	0.211	0.099	0.0	15	table
+sun_abntrinbqbsqoowj.jpg	6	1.794	0.267	1503.995	849.398	0.195	0.055	0.0	1	bottle
+sun_abntrinbqbsqoowj.jpg	6	1.794	0.267	1503.995	849.398	0.195	0.055	0.0	4	cabinets
+sun_abntrinbqbsqoowj.jpg	7	2.078	0.200	1527.598	698.030	0.180	0.084	0.0	18	window
+sun_abntrinbqbsqoowj.jpg	8	2.303	0.175	1515.880	589.930	0.124	0.026	0.0	18	window
+sun_abntrinbqbsqoowj.jpg	9	2.503	0.283	1441.862	548.575	0.087	0.016	0.0	17	watering can
+sun_abntrinbqbsqoowj.jpg	10	2.811	0.192	1325.265	564.520	0.120	0.030	0.0	1	bottle

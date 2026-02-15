@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apmpdqangkfvwrpn.jpg	1	0.303	0.125	1289.260	729.830	0.109	0.037	0.0	0	other
+sun_apmpdqangkfvwrpn.jpg	2	0.586	0.333	1353.835	723.947	0.102	0.061	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	2	0.586	0.333	1353.835	723.947	0.102	0.061	0.0	18	vase
+sun_apmpdqangkfvwrpn.jpg	3	0.936	0.192	1410.480	744.975	0.076	0.027	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	4	1.153	0.217	1507.680	755.680	0.087	0.025	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	4	1.153	0.217	1507.680	755.680	0.087	0.025	0.0	19	worktop
+sun_apmpdqangkfvwrpn.jpg	5	1.386	0.167	1561.418	751.062	0.093	0.027	0.0	19	worktop
+sun_apmpdqangkfvwrpn.jpg	6	1.578	0.283	1501.370	757.683	0.076	0.022	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	7	1.878	0.217	1464.920	759.553	0.075	0.018	0.0	3	candle holder
+sun_apmpdqangkfvwrpn.jpg	7	1.878	0.217	1464.920	759.553	0.075	0.018	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	8	2.119	0.233	1390.592	734.055	0.082	0.023	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	9	2.369	0.233	1373.210	728.285	0.073	0.021	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	9	2.369	0.233	1373.210	728.285	0.073	0.021	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	9	2.369	0.233	1373.210	728.285	0.073	0.021	0.0	18	vase
+sun_apmpdqangkfvwrpn.jpg	10	2.619	0.250	1441.298	744.885	0.092	0.026	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	11	2.894	0.108	1469.250	764.830	0.050	0.006	0.0	3	candle holder
+sun_apmpdqangkfvwrpn.jpg	11	2.894	0.108	1469.250	764.830	0.050	0.006	0.0	13	range

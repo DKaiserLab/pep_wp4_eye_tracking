@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aasmevtpkslccptd.jpg	1	0.263	0.250	1347.193	662.770	0.168	0.081	0.0	10	dishcloth
+sun_aasmevtpkslccptd.jpg	1	0.263	0.250	1347.193	662.770	0.168	0.081	0.0	29	table
+sun_aasmevtpkslccptd.jpg	2	0.529	0.167	1252.918	616.820	0.221	0.095	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	3	0.729	0.233	933.017	727.260	0.218	0.117	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	4	0.996	0.250	1249.345	646.645	0.199	0.096	0.0	20	oven
+sun_aasmevtpkslccptd.jpg	4	0.996	0.250	1249.345	646.645	0.199	0.096	0.0	29	table
+sun_aasmevtpkslccptd.jpg	5	1.288	0.250	1702.008	932.553	0.140	0.060	0.0	26	shoe
+sun_aasmevtpkslccptd.jpg	6	1.588	0.392	1340.615	681.435	0.146	0.080	0.0	10	dishcloth
+sun_aasmevtpkslccptd.jpg	6	1.588	0.392	1340.615	681.435	0.146	0.080	0.0	29	table
+sun_aasmevtpkslccptd.jpg	7	2.004	0.342	1301.085	631.560	0.178	0.055	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	7	2.004	0.342	1301.085	631.560	0.178	0.055	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	8	2.354	0.317	1287.052	601.000	0.235	0.077	0.0	18	microwave
+sun_aasmevtpkslccptd.jpg	9	2.696	0.200	1289.775	769.280	0.138	0.060	0.0	32	worktop

@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azkonpsbldzbkqim.jpg	1	0.272	0.150	1212.230	777.750	0.082	0.044	0.0	1	basket
+sun_azkonpsbldzbkqim.jpg	1	0.272	0.150	1212.230	777.750	0.082	0.044	0.0	6	flowers
+sun_azkonpsbldzbkqim.jpg	2	0.456	0.192	1347.210	618.625	0.075	0.057	0.0	7	mirror crop
+sun_azkonpsbldzbkqim.jpg	3	0.672	0.292	1359.515	552.935	0.079	0.085	0.0	7	mirror crop
+sun_azkonpsbldzbkqim.jpg	4	0.997	0.292	1626.205	882.585	0.092	0.058	0.0	8	outlet
+sun_azkonpsbldzbkqim.jpg	5	1.322	0.242	1485.205	863.500	0.070	0.019	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	5	1.322	0.242	1485.205	863.500	0.070	0.019	0.0	10	towel
+sun_azkonpsbldzbkqim.jpg	6	1.597	0.242	1352.080	838.700	0.102	0.055	0.0	5	faucet
+sun_azkonpsbldzbkqim.jpg	6	1.597	0.242	1352.080	838.700	0.102	0.055	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	7	1.864	0.167	1257.575	801.305	0.075	0.031	0.0	1	basket
+sun_azkonpsbldzbkqim.jpg	7	1.864	0.167	1257.575	801.305	0.075	0.031	0.0	6	flowers
+sun_azkonpsbldzbkqim.jpg	7	1.864	0.167	1257.575	801.305	0.075	0.031	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	8	2.039	0.183	1239.965	796.560	0.097	0.041	0.0	1	basket
+sun_azkonpsbldzbkqim.jpg	8	2.039	0.183	1239.965	796.560	0.097	0.041	0.0	6	flowers
+sun_azkonpsbldzbkqim.jpg	9	2.231	0.775	1237.480	778.445	0.076	0.059	0.0	1	basket
+sun_azkonpsbldzbkqim.jpg	9	2.231	0.775	1237.480	778.445	0.076	0.059	0.0	6	flowers

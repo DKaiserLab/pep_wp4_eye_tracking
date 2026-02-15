@@ -1,0 +1,6 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abgovsbwwyozjdzp.jpg	1	0.246	0.125	1205.145	781.670	0.124	0.046	0.0	4	chair
+sun_abgovsbwwyozjdzp.jpg	1	0.246	0.125	1205.145	781.670	0.124	0.046	0.0	5	dishwasher
+sun_abgovsbwwyozjdzp.jpg	2	0.396	0.233	1655.938	792.298	0.155	0.075	0.0	10	range
+sun_abgovsbwwyozjdzp.jpg	3	0.671	0.267	1445.490	744.808	0.127	0.061	0.0	2	cabinet
+sun_abgovsbwwyozjdzp.jpg	4	0.954	2.050	1402.923	736.483	0.114	0.069	0.0	2	cabinet

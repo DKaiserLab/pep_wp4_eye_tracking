@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ateoptjjakachbou.jpg	1	0.405	0.133	933.425	638.112	0.143	0.051	0.0	0	other
+sun_ateoptjjakachbou.jpg	2	0.571	0.217	895.590	494.310	0.125	0.051	0.0	0	other
+sun_ateoptjjakachbou.jpg	3	0.813	0.342	984.695	444.740	0.214	0.071	0.0	14	pendant lamp crop
+sun_ateoptjjakachbou.jpg	4	1.196	0.292	1334.720	597.960	0.133	0.060	0.0	3	cabinets
+sun_ateoptjjakachbou.jpg	5	1.521	0.258	1471.725	731.465	0.113	0.055	0.0	2	cabinet
+sun_ateoptjjakachbou.jpg	5	1.521	0.258	1471.725	731.465	0.113	0.055	0.0	23	worktop
+sun_ateoptjjakachbou.jpg	6	1.805	0.267	1570.552	844.862	0.095	0.020	0.0	17	refrigerator
+sun_ateoptjjakachbou.jpg	7	2.096	0.208	1603.650	806.210	0.084	0.043	0.0	2	cabinet
+sun_ateoptjjakachbou.jpg	7	2.096	0.208	1603.650	806.210	0.084	0.043	0.0	17	refrigerator
+sun_ateoptjjakachbou.jpg	8	2.338	0.158	1423.165	764.285	0.140	0.032	0.0	2	cabinet
+sun_ateoptjjakachbou.jpg	9	2.530	0.217	1176.810	795.418	0.107	0.035	0.0	9	kitchen island
+sun_ateoptjjakachbou.jpg	10	2.771	0.233	1098.102	839.402	0.087	0.018	0.0	9	kitchen island

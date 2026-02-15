@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agqborhpkvvwbvfl.jpg	1	0.269	0.175	1238.465	714.055	0.203	0.137	0.0	5	flowers
+sun_agqborhpkvvwbvfl.jpg	1	0.269	0.175	1238.465	714.055	0.203	0.137	0.0	9	pitcher
+sun_agqborhpkvvwbvfl.jpg	1	0.269	0.175	1238.465	714.055	0.203	0.137	0.0	12	window
+sun_agqborhpkvvwbvfl.jpg	2	0.477	0.142	1082.830	564.370	0.080	0.020	0.0	8	picture
+sun_agqborhpkvvwbvfl.jpg	2	0.477	0.142	1082.830	564.370	0.080	0.020	0.0	12	window
+sun_agqborhpkvvwbvfl.jpg	3	0.644	0.200	1019.685	500.225	0.069	0.013	0.0	8	picture
+sun_agqborhpkvvwbvfl.jpg	4	0.919	0.133	1505.205	659.308	0.081	0.020	0.0	4	door
+sun_agqborhpkvvwbvfl.jpg	5	1.244	0.383	1512.993	684.097	0.113	0.076	0.0	0	other
+sun_agqborhpkvvwbvfl.jpg	6	1.652	0.275	1209.275	715.460	0.107	0.036	0.0	5	flowers
+sun_agqborhpkvvwbvfl.jpg	6	1.652	0.275	1209.275	715.460	0.107	0.036	0.0	9	pitcher
+sun_agqborhpkvvwbvfl.jpg	6	1.652	0.275	1209.275	715.460	0.107	0.036	0.0	12	window
+sun_agqborhpkvvwbvfl.jpg	7	1.952	0.325	993.090	806.545	0.110	0.033	0.0	3	dishwasher
+sun_agqborhpkvvwbvfl.jpg	7	1.952	0.325	993.090	806.545	0.110	0.033	0.0	13	worktop
+sun_agqborhpkvvwbvfl.jpg	8	2.302	0.325	1200.145	726.330	0.081	0.022	0.0	12	window
+sun_agqborhpkvvwbvfl.jpg	9	2.644	0.208	1227.690	719.340	0.083	0.015	0.0	5	flowers
+sun_agqborhpkvvwbvfl.jpg	9	2.644	0.208	1227.690	719.340	0.083	0.015	0.0	9	pitcher
+sun_agqborhpkvvwbvfl.jpg	9	2.644	0.208	1227.690	719.340	0.083	0.015	0.0	12	window
+sun_agqborhpkvvwbvfl.jpg	10	2.877	0.125	1167.630	658.035	0.089	0.023	0.0	12	window

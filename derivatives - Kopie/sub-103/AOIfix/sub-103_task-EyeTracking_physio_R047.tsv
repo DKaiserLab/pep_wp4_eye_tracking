@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azbjiqtpgvxjjuzr.jpg	1	0.367	0.183	1211.783	750.785	0.083	0.049	0.0	0	other
+sun_azbjiqtpgvxjjuzr.jpg	2	0.567	0.300	1151.410	792.025	0.092	0.037	0.0	6	mirror
+sun_azbjiqtpgvxjjuzr.jpg	2	0.567	0.300	1151.410	792.025	0.092	0.037	0.0	9	sink
+sun_azbjiqtpgvxjjuzr.jpg	3	0.883	0.250	1114.227	808.085	0.097	0.029	0.0	9	sink
+sun_azbjiqtpgvxjjuzr.jpg	4	1.150	0.233	1062.200	804.847	0.072	0.014	0.0	10	tissue box
+sun_azbjiqtpgvxjjuzr.jpg	5	1.400	0.233	1016.242	794.270	0.099	0.020	0.0	6	mirror
+sun_azbjiqtpgvxjjuzr.jpg	5	1.400	0.233	1016.242	794.270	0.099	0.020	0.0	10	tissue box
+sun_azbjiqtpgvxjjuzr.jpg	6	1.650	0.217	980.095	791.060	0.083	0.025	0.0	1	bottle
+sun_azbjiqtpgvxjjuzr.jpg	6	1.650	0.217	980.095	791.060	0.083	0.025	0.0	13	vase
+sun_azbjiqtpgvxjjuzr.jpg	7	1.883	0.333	948.132	786.395	0.111	0.031	0.0	6	mirror
+sun_azbjiqtpgvxjjuzr.jpg	8	2.233	0.217	914.878	805.283	0.078	0.017	0.0	2	box
+sun_azbjiqtpgvxjjuzr.jpg	8	2.233	0.217	914.878	805.283	0.078	0.017	0.0	6	mirror
+sun_azbjiqtpgvxjjuzr.jpg	9	2.475	0.258	953.030	792.860	0.082	0.021	0.0	2	box
+sun_azbjiqtpgvxjjuzr.jpg	9	2.475	0.258	953.030	792.860	0.082	0.021	0.0	6	mirror
+sun_azbjiqtpgvxjjuzr.jpg	9	2.475	0.258	953.030	792.860	0.082	0.021	0.0	13	vase
+sun_azbjiqtpgvxjjuzr.jpg	10	2.750	0.192	980.095	785.530	0.072	0.014	0.0	1	bottle
+sun_azbjiqtpgvxjjuzr.jpg	10	2.750	0.192	980.095	785.530	0.072	0.014	0.0	13	vase

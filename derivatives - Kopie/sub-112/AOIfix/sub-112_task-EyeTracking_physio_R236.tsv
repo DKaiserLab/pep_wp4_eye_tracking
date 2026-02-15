@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahbhthuvbhsokcnl.jpg	1	0.291	0.425	1288.655	689.345	0.122	0.059	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	1	0.291	0.425	1288.655	689.345	0.122	0.059	0.0	17	sink
+sun_ahbhthuvbhsokcnl.jpg	1	0.291	0.425	1288.655	689.345	0.122	0.059	0.0	21	worktop
+sun_ahbhthuvbhsokcnl.jpg	2	0.758	0.250	1468.070	732.342	0.086	0.031	0.0	11	hotpl
+sun_ahbhthuvbhsokcnl.jpg	2	0.758	0.250	1468.070	732.342	0.086	0.031	0.0	15	oven
+sun_ahbhthuvbhsokcnl.jpg	2	0.758	0.250	1468.070	732.342	0.086	0.031	0.0	21	worktop
+sun_ahbhthuvbhsokcnl.jpg	3	1.033	0.233	1557.675	666.890	0.077	0.020	0.0	13	microwave
+sun_ahbhthuvbhsokcnl.jpg	4	1.291	0.533	1602.142	609.015	0.096	0.044	0.0	16	pitcher
+sun_ahbhthuvbhsokcnl.jpg	5	1.841	0.225	1607.695	640.085	0.098	0.025	0.0	13	microwave
+sun_ahbhthuvbhsokcnl.jpg	5	1.841	0.225	1607.695	640.085	0.098	0.025	0.0	16	pitcher
+sun_ahbhthuvbhsokcnl.jpg	6	2.108	0.217	1046.233	721.013	0.330	0.337	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	6	2.108	0.217	1046.233	721.013	0.330	0.337	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	6	2.108	0.217	1046.233	721.013	0.330	0.337	0.0	20	vase
+sun_ahbhthuvbhsokcnl.jpg	7	2.383	0.583	1487.645	446.072	0.081	0.029	0.0	4	cabinet crop
+sun_ahbhthuvbhsokcnl.jpg	7	2.383	0.583	1487.645	446.072	0.081	0.029	0.0	9	extractor hood

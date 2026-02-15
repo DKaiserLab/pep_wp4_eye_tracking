@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxqlzmoovksgjbl.jpg	1	0.367	0.300	1130.928	725.065	0.146	0.045	0.0	4	chair
+sun_ajxqlzmoovksgjbl.jpg	1	0.367	0.300	1130.928	725.065	0.146	0.045	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	1	0.367	0.300	1130.928	725.065	0.146	0.045	0.0	15	table
+sun_ajxqlzmoovksgjbl.jpg	2	0.683	0.300	1063.840	765.400	0.158	0.057	0.0	15	table
+sun_ajxqlzmoovksgjbl.jpg	3	1.008	0.242	934.765	844.915	0.149	0.062	0.0	13	sink
+sun_ajxqlzmoovksgjbl.jpg	3	1.008	0.242	934.765	844.915	0.149	0.062	0.0	16	worktop
+sun_ajxqlzmoovksgjbl.jpg	4	1.267	0.367	954.555	756.498	0.162	0.052	0.0	16	worktop
+sun_ajxqlzmoovksgjbl.jpg	5	1.667	0.583	1298.400	742.695	0.178	0.097	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	5	1.667	0.583	1298.400	742.695	0.178	0.097	0.0	16	worktop
+sun_ajxqlzmoovksgjbl.jpg	6	2.267	0.150	1323.105	750.762	0.255	0.070	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	6	2.267	0.150	1323.105	750.762	0.255	0.070	0.0	14	stove
+sun_ajxqlzmoovksgjbl.jpg	6	2.267	0.150	1323.105	750.762	0.255	0.070	0.0	16	worktop
+sun_ajxqlzmoovksgjbl.jpg	7	2.442	0.242	1130.685	743.955	0.201	0.081	0.0	4	chair
+sun_ajxqlzmoovksgjbl.jpg	7	2.442	0.242	1130.685	743.955	0.201	0.081	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	7	2.442	0.242	1130.685	743.955	0.201	0.081	0.0	11	plantpot
+sun_ajxqlzmoovksgjbl.jpg	8	2.700	0.300	1084.040	704.710	0.252	0.087	0.0	4	chair
+sun_ajxqlzmoovksgjbl.jpg	8	2.700	0.300	1084.040	704.710	0.252	0.087	0.0	9	picture
+sun_ajxqlzmoovksgjbl.jpg	8	2.700	0.300	1084.040	704.710	0.252	0.087	0.0	15	table

@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahqrrgokszxtlsyi.jpg	1	0.272	0.225	1334.355	760.495	0.094	0.061	0.0	11	refrigerator
+sun_ahqrrgokszxtlsyi.jpg	2	0.514	0.200	1275.342	633.200	0.070	0.017	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	3	0.747	0.200	1042.443	740.192	0.101	0.038	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	4	0.964	0.283	1025.557	931.378	0.098	0.053	0.0	13	stove crop
+sun_ahqrrgokszxtlsyi.jpg	5	1.272	0.225	1134.135	919.640	0.100	0.025	0.0	13	stove crop
+sun_ahqrrgokszxtlsyi.jpg	6	1.514	0.333	1187.452	993.535	0.101	0.029	0.0	6	frying pan
+sun_ahqrrgokszxtlsyi.jpg	6	1.514	0.333	1187.452	993.535	0.101	0.029	0.0	13	stove crop
+sun_ahqrrgokszxtlsyi.jpg	6	1.514	0.333	1187.452	993.535	0.101	0.029	0.0	17	worktop
+sun_ahqrrgokszxtlsyi.jpg	7	1.864	0.175	1292.140	900.365	0.087	0.014	0.0	11	refrigerator
+sun_ahqrrgokszxtlsyi.jpg	8	2.064	0.217	1559.205	854.062	0.118	0.046	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	9	2.314	0.183	1607.395	570.298	0.086	0.024	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	10	2.522	0.158	1607.710	504.205	0.052	0.006	0.0	12	semi-flush mount light
+sun_ahqrrgokszxtlsyi.jpg	11	2.706	0.175	1382.860	507.670	0.097	0.037	0.0	0	other

@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ateoptjjakachbou.jpg	1	0.344	0.217	991.947	750.812	0.122	0.032	0.0	3	cabinets
+sun_ateoptjjakachbou.jpg	2	0.586	0.258	905.890	847.860	0.138	0.056	0.0	7	door
+sun_ateoptjjakachbou.jpg	3	0.869	0.508	946.265	845.550	0.162	0.056	0.0	1	bag
+sun_ateoptjjakachbou.jpg	4	1.419	0.250	1107.580	607.702	0.079	0.031	0.0	15	pendant lamp
+sun_ateoptjjakachbou.jpg	4	1.419	0.250	1107.580	607.702	0.079	0.031	0.0	22	window
+sun_ateoptjjakachbou.jpg	5	1.686	0.192	1156.385	594.135	0.082	0.040	0.0	15	pendant lamp
+sun_ateoptjjakachbou.jpg	5	1.686	0.192	1156.385	594.135	0.082	0.040	0.0	22	window
+sun_ateoptjjakachbou.jpg	6	1.903	0.192	1223.100	604.080	0.085	0.018	0.0	3	cabinets
+sun_ateoptjjakachbou.jpg	6	1.903	0.192	1223.100	604.080	0.085	0.018	0.0	15	pendant lamp
+sun_ateoptjjakachbou.jpg	7	2.111	0.217	1262.548	616.652	0.101	0.032	0.0	3	cabinets
+sun_ateoptjjakachbou.jpg	7	2.111	0.217	1262.548	616.652	0.101	0.032	0.0	15	pendant lamp
+sun_ateoptjjakachbou.jpg	8	2.469	0.567	1422.830	826.580	0.300	0.190	0.0	2	cabinet

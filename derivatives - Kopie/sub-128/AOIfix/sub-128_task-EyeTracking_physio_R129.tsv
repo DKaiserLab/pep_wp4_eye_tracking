@@ -1,0 +1,24 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abqihmfbiddwtcmz.jpg	1	0.273	0.267	1244.912	706.555	0.129	0.037	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	1	0.273	0.267	1244.912	706.555	0.129	0.037	0.0	15	sink
+sun_abqihmfbiddwtcmz.jpg	1	0.273	0.267	1244.912	706.555	0.129	0.037	0.0	16	soap dispenser
+sun_abqihmfbiddwtcmz.jpg	1	0.273	0.267	1244.912	706.555	0.129	0.037	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	2	0.798	0.325	1251.120	661.340	0.198	0.045	0.0	16	soap dispenser
+sun_abqihmfbiddwtcmz.jpg	2	0.798	0.325	1251.120	661.340	0.198	0.045	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	3	1.139	0.283	1226.240	700.230	0.198	0.045	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	3	1.139	0.283	1226.240	700.230	0.198	0.045	0.0	15	sink
+sun_abqihmfbiddwtcmz.jpg	3	1.139	0.283	1226.240	700.230	0.198	0.045	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	4	1.448	0.183	1406.005	664.908	0.287	0.093	0.0	17	stove
+sun_abqihmfbiddwtcmz.jpg	4	1.448	0.183	1406.005	664.908	0.287	0.093	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	5	1.664	0.208	1592.915	710.765	0.140	0.036	0.0	8	fruits
+sun_abqihmfbiddwtcmz.jpg	5	1.664	0.208	1592.915	710.765	0.140	0.036	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	6	1.898	0.208	1613.250	855.895	0.108	0.022	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	7	2.148	0.200	1555.438	879.102	0.093	0.016	0.0	7	french bread
+sun_abqihmfbiddwtcmz.jpg	7	2.148	0.200	1555.438	879.102	0.093	0.016	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	8	2.364	0.217	1495.275	887.440	0.077	0.016	0.0	7	french bread
+sun_abqihmfbiddwtcmz.jpg	8	2.364	0.217	1495.275	887.440	0.077	0.016	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	9	2.598	0.267	1406.688	811.582	0.123	0.053	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	9	2.598	0.267	1406.688	811.582	0.123	0.053	0.0	5	chair
+sun_abqihmfbiddwtcmz.jpg	9	2.598	0.267	1406.688	811.582	0.123	0.053	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	10	2.906	0.100	1101.408	783.655	0.087	0.012	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	10	2.906	0.100	1101.408	783.655	0.087	0.012	0.0	20	worktop

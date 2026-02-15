@@ -133,23 +133,20 @@ for iCate = 1:length(cfg.categories)
         drawOwn = drawMat(iSub, :);
 
         % Own correlation
-        if cfg.partialCorr
-            [rval, ~] = partialcorr(fixOwn', drawOwn', avgObjSize', 'tail','right', 'type', 'Spearman','rows','pairwise');
-        else
-            [rvals, ~] = corr([fixOwn', drawOwn'], 'tail','right', 'type', 'Spearman','rows','pairwise');
-            rval = rvals(1,2);
-        end
+        [rvals, ~] = corr([fixOwn', drawOwn'], 'tail','right', 'type', 'Spearman','rows','pairwise');
+        rval = rvals(1,2);
+
         ownCorrs(iSub) = rval;
 
         % Other correlations (exclude self)
         otherSubs = setdiff(1:cfg.n, iSub);
         tmpCorrs = zeros(length(otherSubs), 1);
         for iOther = 1:length(otherSubs)
-            drawOther = drawMat(otherSubs(iOther), :);
+            fixOther = fixMat(otherSubs(iOther), :);
             if cfg.partialCorr
-                [rval, ~] = partialcorr(fixOwn', drawOther', avgObjSize', 'tail','right', 'type', 'Spearman','rows','pairwise');
+                [rval, ~] = partialcorr(fixOther', drawOwn', avgObjSize', 'tail','right', 'type', 'Spearman','rows','pairwise');
             else
-                [rvals, ~] = corr([fixOwn', drawOther'], 'tail','right', 'type', 'Spearman','rows','pairwise');
+                [rvals, ~] = corr([fixOther', drawOwn'], 'tail','right', 'type', 'Spearman','rows','pairwise');
                 rval = rvals(1,2);
             end
             tmpCorrs(iOther) = rval;
@@ -171,7 +168,7 @@ for iCate = 1:length(cfg.categories)
 
 end
 
-% plot own vs other bar plots
+% plot own vs other with bar plots for each category
 diffs = [d.drawingOrder.bathroom.ownVsOther.Difference, ....
     d.drawingOrder.kitchen.ownVsOther.Difference];
 
@@ -197,7 +194,8 @@ for iBar = 1:2
     scatter(x_jitter, diffs(:, iBar), 5, 'filled', 'MarkerEdgeColor', 'k', 'MarkerFaceColor', 'b');
 
     % add asterisks
-    text(iBar-0.1, max(diffs(:, iBar)) + 0.01, pval2asterisks(adj_pv(iBar)), 'FontSize', 15, 'FontWeight', 'bold')
+    text(iBar-0.1, max(diffs(:, iBar)) + 0.1, pval2asterisks(adj_pv(iBar), 'none'),...
+        'FontSize', 15, 'FontWeight', 'bold')
 end
 
 % Customize plot
@@ -206,6 +204,42 @@ xticklabels(cfg.categories);
 xlabel('Scene category');
 ylabel('Own correlation - mean other correlation');
 title('Own vs other');
+
+% plot own vs other with bar plots for each category
+avgDiffs = mean(diffs, 2);
+
+mean_data = mean(avgDiffs, 1, 'omitnan');
+sem_data = std(avgDiffs, 0, 1, 'omitnan')/sqrt(cfg.n);
+
+% stats including False Discovery Rate (FDR) correction
+[~, pv] = ttest(avgDiffs, 0, 'tail', 'right');
+
+% Create bar plot
+figure;
+hold on;
+
+% Bar plot with error bars
+bar_handle = bar(mean_data, 'FaceColor', [.4, .1, .7]);
+errorbar(1, mean_data, sem_data, 'k', 'LineStyle', 'none', 'LineWidth', 1.5);
+
+% Add jittered individual points
+jitter_amount = 0.1; % Adjust jitter spread
+x_jitter = 1 + (rand(cfg.n, 1) - 0.5) * jitter_amount;
+scatter(x_jitter, avgDiffs, 5, 'filled', 'MarkerEdgeColor', 'k', 'MarkerFaceColor', 'k',...
+    'MarkerEdgeAlpha', .2, 'MarkerFaceAlpha', .2);
+
+% add asterisks
+text(1-0.02, sem_data + mean_data + 0.1, pval2asterisks(pv, 'none'),...
+    'FontSize', cfg.FontSize, 'FontWeight', 'bold')
+
+% Customize plot
+xticks([]);
+ylabel('Own correlation - mean other correlation');
+title('Own vs other');
+set(gca, 'LineWidth', 1, 'FontName', cfg.FontName, 'FontSize', cfg.FontSize, 'FontWeight', 'bold')
+ax = gca;
+ax.Box = 'off';
+
 
 %% liner modelling for full experiment
 
@@ -247,9 +281,9 @@ r2_nodraw   = lme_nodraw.Rsquared.Ordinary;
 r2_noInt    = lme_noInt.Rsquared.Ordinary;
 
 % estimate variance contributions
-var_DrawOrder  = r2_full - r2_nodraw
-var_ObjSize    = r2_full - r2_noobj
-var_Interaction = r2_full - r2_noInt
+var_DrawOrder  = r2_full - r2_nodraw;
+var_ObjSize    = r2_full - r2_noobj;
+var_Interaction = r2_full - r2_noInt;
 
 % sizes based on contributions (scale for visibility)
 A = 1:round(var_DrawOrder*1000); 

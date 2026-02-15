@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anneoguowdhugwoy.jpg	1	0.509	0.358	1185.170	816.490	0.333	0.115	0.0	2	box
+sun_anneoguowdhugwoy.jpg	1	0.509	0.358	1185.170	816.490	0.333	0.115	0.0	4	countertop
+sun_anneoguowdhugwoy.jpg	1	0.509	0.358	1185.170	816.490	0.333	0.115	0.0	12	sink
+sun_anneoguowdhugwoy.jpg	1	0.509	0.358	1185.170	816.490	0.333	0.115	0.0	16	wardrobe
+sun_anneoguowdhugwoy.jpg	2	0.884	0.392	1225.380	742.340	0.299	0.143	0.0	8	mirror
+sun_anneoguowdhugwoy.jpg	2	0.884	0.392	1225.380	742.340	0.299	0.143	0.0	14	towel
+sun_anneoguowdhugwoy.jpg	3	1.309	0.375	1304.115	569.450	0.227	0.065	0.0	7	light troffer
+sun_anneoguowdhugwoy.jpg	4	1.709	0.192	1398.670	546.605	0.167	0.049	0.0	7	light troffer
+sun_anneoguowdhugwoy.jpg	5	1.926	0.383	1588.445	605.582	0.158	0.089	0.0	6	door
+sun_anneoguowdhugwoy.jpg	6	2.334	0.333	1490.455	693.808	0.223	0.102	0.0	5	curtain
+sun_anneoguowdhugwoy.jpg	6	2.334	0.333	1490.455	693.808	0.223	0.102	0.0	9	picture
+sun_anneoguowdhugwoy.jpg	6	2.334	0.333	1490.455	693.808	0.223	0.102	0.0	14	towel
+sun_anneoguowdhugwoy.jpg	6	2.334	0.333	1490.455	693.808	0.223	0.102	0.0	15	towels
+sun_anneoguowdhugwoy.jpg	7	2.693	0.308	1383.320	746.210	0.120	0.052	0.0	5	curtain

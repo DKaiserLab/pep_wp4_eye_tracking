@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awlmntruykfbsame.jpg	1	0.560	0.158	1296.310	707.280	1.352	0.374	0.0	8	range
+sun_awlmntruykfbsame.jpg	1	0.560	0.158	1296.310	707.280	1.352	0.374	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	2	0.743	0.217	1389.503	714.890	0.077	0.026	0.0	8	range
+sun_awlmntruykfbsame.jpg	2	0.743	0.217	1389.503	714.890	0.077	0.026	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	3	0.985	0.342	1445.820	721.645	0.079	0.077	0.0	4	dish drainer
+sun_awlmntruykfbsame.jpg	3	0.985	0.342	1445.820	721.645	0.079	0.077	0.0	8	range
+sun_awlmntruykfbsame.jpg	3	0.985	0.342	1445.820	721.645	0.079	0.077	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	4	1.468	0.475	915.990	700.595	0.221	2.714	0.0	3	chair
+sun_awlmntruykfbsame.jpg	5	1.968	0.400	961.673	714.500	0.091	0.090	0.0	3	chair
+sun_awlmntruykfbsame.jpg	5	1.968	0.400	961.673	714.500	0.091	0.090	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	6	2.393	0.242	1016.825	694.455	0.111	0.119	0.0	3	chair
+sun_awlmntruykfbsame.jpg	6	2.393	0.242	1016.825	694.455	0.111	0.119	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	7	2.660	0.292	1088.585	644.720	0.076	0.117	0.0	3	chair

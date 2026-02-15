@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxqlzmoovksgjbl.jpg	1	0.275	0.300	1217.622	778.317	0.100	0.038	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	1	0.275	0.300	1217.622	778.317	0.100	0.038	0.0	7	oven
+sun_ajxqlzmoovksgjbl.jpg	2	0.608	0.100	1251.030	693.570	0.102	0.018	0.0	7	oven
+sun_ajxqlzmoovksgjbl.jpg	3	0.825	0.242	1270.075	670.925	0.665	0.257	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	3	0.825	0.242	1270.075	670.925	0.665	0.257	0.0	7	oven
+sun_ajxqlzmoovksgjbl.jpg	4	1.091	0.167	1319.983	727.547	0.103	0.017	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	5	1.283	0.200	1396.485	751.770	0.139	0.030	0.0	14	stove
+sun_ajxqlzmoovksgjbl.jpg	6	1.516	0.258	1475.565	798.765	0.108	0.037	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	7	1.808	0.592	1479.670	865.195	0.083	0.021	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	7	1.808	0.592	1479.670	865.195	0.083	0.021	0.0	11	plantpot
+sun_ajxqlzmoovksgjbl.jpg	8	2.408	0.100	1419.350	865.655	0.135	0.034	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	8	2.408	0.100	1419.350	865.655	0.135	0.034	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	8	2.408	0.100	1419.350	865.655	0.135	0.034	0.0	11	plantpot
+sun_ajxqlzmoovksgjbl.jpg	9	2.516	0.125	1423.600	977.085	1.869	6.741	0.0	1	cabinet crop
+sun_ajxqlzmoovksgjbl.jpg	9	2.516	0.125	1423.600	977.085	1.869	6.741	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	9	2.516	0.125	1423.600	977.085	1.869	6.741	0.0	16	worktop
+sun_ajxqlzmoovksgjbl.jpg	10	2.675	0.108	1411.695	842.710	0.159	0.042	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	10	2.675	0.108	1411.695	842.710	0.159	0.042	0.0	10	plant

@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aarslpsdvwwqyohc.jpg	1	0.306	0.292	1072.695	839.660	0.145	0.075	0.0	18	tissue box
+sun_aarslpsdvwwqyohc.jpg	2	0.639	0.442	1381.280	624.355	0.131	0.037	0.0	12	mirror
+sun_aarslpsdvwwqyohc.jpg	3	1.106	0.233	1329.793	921.045	0.149	0.056	0.0	5	cabinet
+sun_aarslpsdvwwqyohc.jpg	4	1.364	0.183	1296.760	901.513	0.120	0.025	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	5	1.564	0.375	1232.605	857.490	0.133	0.062	0.0	16	sink
+sun_aarslpsdvwwqyohc.jpg	6	1.964	0.250	1401.440	841.615	0.163	0.056	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	6	1.964	0.250	1401.440	841.615	0.163	0.056	0.0	10	hairbrush
+sun_aarslpsdvwwqyohc.jpg	7	2.231	0.200	1443.928	828.560	0.151	0.035	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	7	2.231	0.200	1443.928	828.560	0.151	0.035	0.0	15	razor
+sun_aarslpsdvwwqyohc.jpg	8	2.456	0.208	1539.990	776.760	0.095	0.022	0.0	9	door frame
+sun_aarslpsdvwwqyohc.jpg	9	2.681	0.325	1471.550	740.800	0.127	0.049	0.0	0	other

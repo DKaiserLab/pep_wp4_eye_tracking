@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adcrxklhlbwrbkgm.jpg	1	0.461	0.267	1329.372	601.865	0.065	0.053	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	2	0.761	0.183	1437.395	507.347	0.068	0.027	0.0	4	cabinets
+sun_adcrxklhlbwrbkgm.jpg	3	0.970	0.400	1692.850	467.410	0.112	0.070	0.0	13	microwave
+sun_adcrxklhlbwrbkgm.jpg	4	1.478	0.192	1652.840	918.585	0.096	0.043	0.0	6	dishcloth
+sun_adcrxklhlbwrbkgm.jpg	4	1.478	0.192	1652.840	918.585	0.096	0.043	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	5	1.686	0.167	1631.832	863.950	0.153	0.089	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	6	1.870	0.517	1574.423	799.335	0.113	0.128	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	6	1.870	0.517	1574.423	799.335	0.113	0.128	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	7	2.403	0.292	1463.890	785.695	0.782	0.793	0.0	5	coffee maker
+sun_adcrxklhlbwrbkgm.jpg	7	2.403	0.292	1463.890	785.695	0.782	0.793	0.0	11	knife set
+sun_adcrxklhlbwrbkgm.jpg	7	2.403	0.292	1463.890	785.695	0.782	0.793	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	8	2.703	0.267	1430.330	752.365	0.359	0.578	0.0	5	coffee maker

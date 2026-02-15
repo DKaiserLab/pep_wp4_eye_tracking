@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_angrmjwcbqlakjjz.jpg	1	0.318	0.225	1058.360	744.415	0.111	0.032	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	2	0.568	0.208	970.555	669.015	0.104	0.034	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	3	0.793	0.192	967.265	596.385	0.101	0.028	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	4	1.018	0.258	1042.210	585.535	0.110	0.040	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	5	1.302	0.250	1460.947	660.092	0.110	0.063	0.0	31	window
+sun_angrmjwcbqlakjjz.jpg	6	1.568	0.250	1460.965	758.938	0.130	0.050	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	7	1.943	0.558	1000.845	797.900	0.158	0.135	0.0	3	bread
+sun_angrmjwcbqlakjjz.jpg	7	1.943	0.558	1000.845	797.900	0.158	0.135	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	7	1.943	0.558	1000.845	797.900	0.158	0.135	0.0	26	shelf
+sun_angrmjwcbqlakjjz.jpg	8	2.535	0.292	1274.725	711.040	0.100	0.039	0.0	2	bowl
+sun_angrmjwcbqlakjjz.jpg	8	2.535	0.292	1274.725	711.040	0.100	0.039	0.0	19	jug
+sun_angrmjwcbqlakjjz.jpg	8	2.535	0.292	1274.725	711.040	0.100	0.039	0.0	33	worktop
+sun_angrmjwcbqlakjjz.jpg	9	2.852	0.150	1193.648	702.740	0.110	0.023	0.0	2	bowl
+sun_angrmjwcbqlakjjz.jpg	9	2.852	0.150	1193.648	702.740	0.110	0.023	0.0	24	range
+sun_angrmjwcbqlakjjz.jpg	9	2.852	0.150	1193.648	702.740	0.110	0.023	0.0	30	teapot
+sun_angrmjwcbqlakjjz.jpg	9	2.852	0.150	1193.648	702.740	0.110	0.023	0.0	33	worktop

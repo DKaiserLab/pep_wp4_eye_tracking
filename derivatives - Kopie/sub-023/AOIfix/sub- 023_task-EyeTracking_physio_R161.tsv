@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahdycvpopffkzzsu.jpg	1	0.376	0.275	1336.715	644.430	0.213	0.080	0.0	4	extractor hood
+sun_ahdycvpopffkzzsu.jpg	2	0.676	0.342	1215.750	616.910	0.119	0.042	0.0	0	other
+sun_ahdycvpopffkzzsu.jpg	3	1.043	0.208	1311.315	682.705	0.325	0.117	0.0	1	bottle
+sun_ahdycvpopffkzzsu.jpg	4	1.268	0.233	1458.755	757.953	0.206	0.072	0.0	7	soap bottle
+sun_ahdycvpopffkzzsu.jpg	4	1.268	0.233	1458.755	757.953	0.206	0.072	0.0	10	toaster
+sun_ahdycvpopffkzzsu.jpg	5	1.526	0.242	1336.540	655.375	0.193	0.068	0.0	1	bottle
+sun_ahdycvpopffkzzsu.jpg	5	1.526	0.242	1336.540	655.375	0.193	0.068	0.0	4	extractor hood
+sun_ahdycvpopffkzzsu.jpg	6	1.785	0.483	1312.930	646.418	0.111	0.053	0.0	1	bottle
+sun_ahdycvpopffkzzsu.jpg	6	1.785	0.483	1312.930	646.418	0.111	0.053	0.0	4	extractor hood
+sun_ahdycvpopffkzzsu.jpg	7	2.285	0.183	1327.932	675.783	0.192	0.049	0.0	1	bottle
+sun_ahdycvpopffkzzsu.jpg	7	2.285	0.183	1327.932	675.783	0.192	0.049	0.0	4	extractor hood
+sun_ahdycvpopffkzzsu.jpg	8	2.485	0.417	1361.395	667.310	0.168	0.056	0.0	4	extractor hood

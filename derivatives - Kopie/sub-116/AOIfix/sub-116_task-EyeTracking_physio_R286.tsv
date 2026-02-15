@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abkdszjmterwgxgk.jpg	1	0.275	0.275	1319.405	733.225	0.242	0.082	0.0	1	blind
+sun_abkdszjmterwgxgk.jpg	1	0.275	0.275	1319.405	733.225	0.242	0.082	0.0	3	bottle
+sun_abkdszjmterwgxgk.jpg	2	0.566	0.133	1299.795	805.715	0.566	0.433	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	2	0.566	0.133	1299.795	805.715	0.566	0.433	0.0	12	sink
+sun_abkdszjmterwgxgk.jpg	2	0.566	0.133	1299.795	805.715	0.566	0.433	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	3	0.725	0.450	1332.060	876.805	0.248	0.127	0.0	4	bowl
+sun_abkdszjmterwgxgk.jpg	3	0.725	0.450	1332.060	876.805	0.248	0.127	0.0	9	fruit
+sun_abkdszjmterwgxgk.jpg	4	1.208	0.258	1215.860	738.225	0.189	0.109	0.0	1	blind
+sun_abkdszjmterwgxgk.jpg	5	1.491	0.392	1069.530	676.785	0.139	0.061	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	6	1.908	0.175	1033.415	617.860	0.116	0.034	0.0	8	extractor hood
+sun_abkdszjmterwgxgk.jpg	7	2.116	0.225	808.375	567.000	0.127	0.052	0.0	-1	off stimulus
+sun_abkdszjmterwgxgk.jpg	8	2.375	0.308	1163.775	658.635	0.158	0.106	0.0	1	blind
+sun_abkdszjmterwgxgk.jpg	8	2.375	0.308	1163.775	658.635	0.158	0.106	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	9	2.700	0.300	1260.088	705.040	0.392	0.128	0.0	3	bottle

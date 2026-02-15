@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akzfjiqikzlwlbaq.jpg	1	0.423	0.267	1543.402	614.273	0.187	0.063	0.0	4	cabinet
+sun_akzfjiqikzlwlbaq.jpg	1	0.423	0.267	1543.402	614.273	0.187	0.063	0.0	6	mirror
+sun_akzfjiqikzlwlbaq.jpg	2	0.715	0.233	1484.730	528.360	0.113	0.025	0.0	6	mirror
+sun_akzfjiqikzlwlbaq.jpg	2	0.715	0.233	1484.730	528.360	0.113	0.025	0.0	7	sconce
+sun_akzfjiqikzlwlbaq.jpg	3	1.007	0.358	1476.855	826.890	0.108	0.023	0.0	8	sink
+sun_akzfjiqikzlwlbaq.jpg	3	1.007	0.358	1476.855	826.890	0.108	0.023	0.0	9	soap dish
+sun_akzfjiqikzlwlbaq.jpg	3	1.007	0.358	1476.855	826.890	0.108	0.023	0.0	10	soap
+sun_akzfjiqikzlwlbaq.jpg	4	1.398	0.317	1231.918	804.450	0.113	0.025	0.0	1	bathtub
+sun_akzfjiqikzlwlbaq.jpg	4	1.398	0.317	1231.918	804.450	0.113	0.025	0.0	5	curtain
+sun_akzfjiqikzlwlbaq.jpg	4	1.398	0.317	1231.918	804.450	0.113	0.025	0.0	12	toilet
+sun_akzfjiqikzlwlbaq.jpg	5	1.857	0.250	1368.730	569.000	0.094	0.021	0.0	13	towel
+sun_akzfjiqikzlwlbaq.jpg	6	2.132	0.142	1536.280	665.575	0.194	0.075	0.0	4	cabinet
+sun_akzfjiqikzlwlbaq.jpg	6	2.132	0.142	1536.280	665.575	0.194	0.075	0.0	6	mirror
+sun_akzfjiqikzlwlbaq.jpg	7	2.323	0.233	1240.585	862.588	0.091	0.012	0.0	12	toilet
+sun_akzfjiqikzlwlbaq.jpg	8	2.582	0.183	1104.440	822.990	0.138	0.035	0.0	1	bathtub
+sun_akzfjiqikzlwlbaq.jpg	8	2.582	0.183	1104.440	822.990	0.138	0.035	0.0	5	curtain
+sun_akzfjiqikzlwlbaq.jpg	9	2.882	0.117	1456.990	688.398	0.638	2.457	0.0	4	cabinet
+sun_akzfjiqikzlwlbaq.jpg	9	2.882	0.117	1456.990	688.398	0.638	2.457	0.0	13	towel

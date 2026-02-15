@@ -1,0 +1,8 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apdxoksqpmpghypf.jpg	1	0.405	0.225	913.620	883.980	0.165	0.105	0.0	4	frying pan
+sun_apdxoksqpmpghypf.jpg	1	0.405	0.225	913.620	883.980	0.165	0.105	0.0	6	range
+sun_apdxoksqpmpghypf.jpg	2	0.663	0.267	1600.628	876.838	0.261	0.189	0.0	5	microwave
+sun_apdxoksqpmpghypf.jpg	3	1.030	0.200	921.965	930.055	0.399	0.457	0.0	4	frying pan
+sun_apdxoksqpmpghypf.jpg	3	1.030	0.200	921.965	930.055	0.399	0.457	0.0	6	range
+sun_apdxoksqpmpghypf.jpg	4	1.263	0.108	1314.710	575.710	0.392	0.794	0.0	10	window
+sun_apdxoksqpmpghypf.jpg	5	2.063	0.942	1494.965	223.140	0.389	0.554	0.0	-1	off stimulus

@@ -1,0 +1,25 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awvfnogmotsvhofs.jpg	1	0.328	0.258	1203.880	827.605	0.103	0.034	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	1	0.328	0.258	1203.880	827.605	0.103	0.034	0.0	7	soap dish
+sun_awvfnogmotsvhofs.jpg	1	0.328	0.258	1203.880	827.605	0.103	0.034	0.0	9	towel
+sun_awvfnogmotsvhofs.jpg	2	0.603	0.150	1234.790	826.425	0.111	0.018	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	2	0.603	0.150	1234.790	826.425	0.111	0.018	0.0	7	soap dish
+sun_awvfnogmotsvhofs.jpg	2	0.603	0.150	1234.790	826.425	0.111	0.018	0.0	9	towel
+sun_awvfnogmotsvhofs.jpg	3	0.786	0.208	1335.805	753.500	0.101	0.017	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	3	0.786	0.208	1335.805	753.500	0.101	0.017	0.0	4	mirror
+sun_awvfnogmotsvhofs.jpg	4	1.028	0.192	1174.665	609.615	0.181	0.127	0.0	4	mirror
+sun_awvfnogmotsvhofs.jpg	5	1.244	0.192	1064.460	564.970	0.177	0.063	0.0	4	mirror
+sun_awvfnogmotsvhofs.jpg	6	1.461	0.275	1400.750	646.955	0.140	0.038	0.0	4	mirror
+sun_awvfnogmotsvhofs.jpg	6	1.461	0.275	1400.750	646.955	0.140	0.038	0.0	5	shower door
+sun_awvfnogmotsvhofs.jpg	6	1.461	0.275	1400.750	646.955	0.140	0.038	0.0	10	vase
+sun_awvfnogmotsvhofs.jpg	7	1.761	0.158	1337.660	734.815	0.200	0.048	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	7	1.761	0.158	1337.660	734.815	0.200	0.048	0.0	4	mirror
+sun_awvfnogmotsvhofs.jpg	8	1.970	0.283	1109.148	975.570	0.109	0.024	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	8	1.970	0.283	1109.148	975.570	0.109	0.024	0.0	6	sink
+sun_awvfnogmotsvhofs.jpg	9	2.270	0.150	1124.540	925.627	0.096	0.034	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	9	2.270	0.150	1124.540	925.627	0.096	0.034	0.0	6	sink
+sun_awvfnogmotsvhofs.jpg	10	2.453	0.333	1219.225	843.023	0.100	0.018	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	10	2.453	0.333	1219.225	843.023	0.100	0.018	0.0	7	soap dish
+sun_awvfnogmotsvhofs.jpg	10	2.453	0.333	1219.225	843.023	0.100	0.018	0.0	9	towel
+sun_awvfnogmotsvhofs.jpg	11	2.820	0.183	1313.970	762.805	0.103	0.024	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	11	2.820	0.183	1313.970	762.805	0.103	0.024	0.0	4	mirror

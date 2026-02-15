@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alkabxwdzpdmkuvo.jpg	1	0.250	0.392	1565.865	496.505	0.111	0.090	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	2	0.666	0.275	1183.075	520.670	0.133	0.037	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	3	0.975	0.267	1200.055	695.610	0.177	0.049	0.0	15	statue
+sun_alkabxwdzpdmkuvo.jpg	4	1.283	0.375	1518.035	703.020	0.138	0.060	0.0	6	curtain
+sun_alkabxwdzpdmkuvo.jpg	4	1.283	0.375	1518.035	703.020	0.138	0.060	0.0	21	window
+sun_alkabxwdzpdmkuvo.jpg	5	1.700	0.217	1587.175	861.153	0.092	0.028	0.0	3	cabinet
+sun_alkabxwdzpdmkuvo.jpg	5	1.700	0.217	1587.175	861.153	0.092	0.028	0.0	5	countertop
+sun_alkabxwdzpdmkuvo.jpg	5	1.700	0.217	1587.175	861.153	0.092	0.028	0.0	12	shelf
+sun_alkabxwdzpdmkuvo.jpg	6	1.958	0.175	1168.895	826.260	0.092	0.037	0.0	1	bathtub
+sun_alkabxwdzpdmkuvo.jpg	6	1.958	0.175	1168.895	826.260	0.092	0.037	0.0	15	statue
+sun_alkabxwdzpdmkuvo.jpg	6	1.958	0.175	1168.895	826.260	0.092	0.037	0.0	20	vase
+sun_alkabxwdzpdmkuvo.jpg	7	2.158	0.233	982.950	747.880	0.128	0.098	0.0	13	shower screen
+sun_alkabxwdzpdmkuvo.jpg	8	2.425	0.267	1129.250	557.445	0.111	0.046	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	9	2.708	0.175	1328.705	607.110	0.182	0.050	0.0	0	other

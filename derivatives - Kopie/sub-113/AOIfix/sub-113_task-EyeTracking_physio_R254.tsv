@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aowvammdqpmypflg.jpg	1	0.512	0.500	1081.673	747.533	0.111	0.040	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	1	0.512	0.500	1081.673	747.533	0.111	0.040	0.0	15	window
+sun_aowvammdqpmypflg.jpg	2	1.053	0.342	1476.265	750.320	0.118	0.052	0.0	8	kettle
+sun_aowvammdqpmypflg.jpg	2	1.053	0.342	1476.265	750.320	0.118	0.052	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	3	1.412	0.267	1453.250	715.960	0.093	0.019	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	4	1.695	0.267	1476.195	643.350	0.086	0.023	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	4	1.695	0.267	1476.195	643.350	0.086	0.023	0.0	9	microwave
+sun_aowvammdqpmypflg.jpg	5	1.987	0.258	1460.080	591.045	0.084	0.028	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	5	1.987	0.258	1460.080	591.045	0.084	0.028	0.0	6	extractor hood
+sun_aowvammdqpmypflg.jpg	6	2.387	0.325	1472.390	933.190	0.200	0.175	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	6	2.387	0.325	1472.390	933.190	0.200	0.175	0.0	14	washing machine
+sun_aowvammdqpmypflg.jpg	7	2.754	0.225	1559.705	967.090	0.111	0.032	0.0	14	washing machine

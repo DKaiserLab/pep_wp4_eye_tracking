@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqrpegblszgcoujh.jpg	1	0.103	0.308	1261.555	746.705	0.108	0.033	0.0	3	cabinet
+sun_aqrpegblszgcoujh.jpg	2	0.428	0.225	1249.765	695.885	0.088	0.023	0.0	6	plant
+sun_aqrpegblszgcoujh.jpg	2	0.428	0.225	1249.765	695.885	0.088	0.023	0.0	7	plantpot
+sun_aqrpegblszgcoujh.jpg	3	0.670	0.100	1276.385	656.432	0.093	0.018	0.0	6	plant
+sun_aqrpegblszgcoujh.jpg	4	0.803	0.300	1314.545	644.158	0.052	0.012	0.0	6	plant
+sun_aqrpegblszgcoujh.jpg	4	0.803	0.300	1314.545	644.158	0.052	0.012	0.0	13	vase
+sun_aqrpegblszgcoujh.jpg	5	1.128	0.192	1230.385	609.785	0.080	0.021	0.0	0	other
+sun_aqrpegblszgcoujh.jpg	6	1.337	0.267	1215.065	561.380	0.066	0.018	0.0	4	picture
+sun_aqrpegblszgcoujh.jpg	7	1.612	0.258	1227.255	552.285	0.070	0.017	0.0	4	picture
+sun_aqrpegblszgcoujh.jpg	8	1.895	0.275	1291.110	630.090	0.070	0.021	0.0	6	plant
+sun_aqrpegblszgcoujh.jpg	8	1.895	0.275	1291.110	630.090	0.070	0.021	0.0	13	vase
+sun_aqrpegblszgcoujh.jpg	9	2.187	0.350	1306.053	654.638	0.070	0.012	0.0	6	plant
+sun_aqrpegblszgcoujh.jpg	9	2.187	0.350	1306.053	654.638	0.070	0.012	0.0	13	vase
+sun_aqrpegblszgcoujh.jpg	10	2.562	0.233	1259.975	650.225	0.067	0.011	0.0	6	plant
+sun_aqrpegblszgcoujh.jpg	11	2.828	0.175	1239.215	599.065	0.082	0.017	0.0	0	other

@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azxetkujrgobhzbi.jpg	1	0.402	0.300	1409.220	596.690	0.096	0.031	0.0	5	cabinets
+sun_azxetkujrgobhzbi.jpg	2	0.727	0.183	1404.425	681.765	0.127	0.026	0.0	0	other
+sun_azxetkujrgobhzbi.jpg	3	0.936	0.333	1296.225	731.572	0.106	0.027	0.0	4	cabinet
+sun_azxetkujrgobhzbi.jpg	3	0.936	0.333	1296.225	731.572	0.106	0.027	0.0	5	cabinets
+sun_azxetkujrgobhzbi.jpg	3	0.936	0.333	1296.225	731.572	0.106	0.027	0.0	25	sink
+sun_azxetkujrgobhzbi.jpg	3	0.936	0.333	1296.225	731.572	0.106	0.027	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	4	1.302	0.317	970.020	760.352	0.111	0.063	0.0	1	books
+sun_azxetkujrgobhzbi.jpg	4	1.302	0.317	970.020	760.352	0.111	0.063	0.0	17	kitchen island
+sun_azxetkujrgobhzbi.jpg	5	1.636	0.300	1077.378	739.735	0.099	0.026	0.0	4	cabinet
+sun_azxetkujrgobhzbi.jpg	5	1.636	0.300	1077.378	739.735	0.099	0.026	0.0	19	microwave
+sun_azxetkujrgobhzbi.jpg	6	1.952	0.267	987.460	778.475	0.117	0.033	0.0	1	books
+sun_azxetkujrgobhzbi.jpg	6	1.952	0.267	987.460	778.475	0.117	0.033	0.0	17	kitchen island
+sun_azxetkujrgobhzbi.jpg	7	2.252	0.150	1156.625	703.230	0.155	0.050	0.0	4	cabinet
+sun_azxetkujrgobhzbi.jpg	7	2.252	0.150	1156.625	703.230	0.155	0.050	0.0	19	microwave
+sun_azxetkujrgobhzbi.jpg	8	2.427	0.575	1507.475	721.470	0.165	0.066	0.0	30	wok
+sun_azxetkujrgobhzbi.jpg	8	2.427	0.575	1507.475	721.470	0.165	0.066	0.0	31	worktop

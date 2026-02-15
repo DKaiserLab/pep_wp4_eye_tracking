@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atfmueokdeplnsdy.jpg	1	0.503	0.108	1278.605	838.085	0.239	0.116	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	2	0.628	0.167	1321.575	749.420	0.097	0.021	0.0	16	plant
+sun_atfmueokdeplnsdy.jpg	2	0.628	0.167	1321.575	749.420	0.097	0.021	0.0	20	sink
+sun_atfmueokdeplnsdy.jpg	2	0.628	0.167	1321.575	749.420	0.097	0.021	0.0	23	teapot
+sun_atfmueokdeplnsdy.jpg	2	0.628	0.167	1321.575	749.420	0.097	0.021	0.0	28	windows
+sun_atfmueokdeplnsdy.jpg	2	0.628	0.167	1321.575	749.420	0.097	0.021	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	3	0.828	0.383	1394.483	716.078	0.083	0.022	0.0	0	other
+sun_atfmueokdeplnsdy.jpg	4	1.361	0.167	1005.838	693.505	0.089	0.025	0.0	16	plant
+sun_atfmueokdeplnsdy.jpg	5	1.561	0.350	927.000	694.392	0.103	0.024	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	5	1.561	0.350	927.000	694.392	0.103	0.024	0.0	16	plant
+sun_atfmueokdeplnsdy.jpg	6	1.928	0.233	872.492	642.080	0.106	0.038	0.0	15	oven
+sun_atfmueokdeplnsdy.jpg	7	2.178	0.250	882.618	586.965	0.086	0.025	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	7	2.178	0.250	882.618	586.965	0.086	0.025	0.0	15	oven
+sun_atfmueokdeplnsdy.jpg	8	2.444	0.283	1052.175	621.283	0.184	0.161	0.0	18	refrigerator
+sun_atfmueokdeplnsdy.jpg	8	2.444	0.283	1052.175	621.283	0.184	0.161	0.0	26	vent
+sun_atfmueokdeplnsdy.jpg	9	2.753	0.175	1131.380	707.505	0.095	0.047	0.0	4	cabinets

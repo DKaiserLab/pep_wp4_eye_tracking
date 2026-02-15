@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahrhvpdhoamfdhpf.jpg	1	0.482	0.200	1403.420	775.148	0.110	0.026	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	1	0.482	0.200	1403.420	775.148	0.110	0.026	0.0	7	magazine
+sun_ahrhvpdhoamfdhpf.jpg	1	0.482	0.200	1403.420	775.148	0.110	0.026	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	2	0.715	0.208	1540.905	803.870	0.098	0.044	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	2	0.715	0.208	1540.905	803.870	0.098	0.044	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	3	0.948	0.225	1631.365	813.250	0.101	0.020	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	4	1.207	0.425	1711.550	847.030	0.084	0.019	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	5	1.673	0.242	1324.990	806.505	0.102	0.069	0.0	1	armchair
+sun_ahrhvpdhoamfdhpf.jpg	5	1.673	0.242	1324.990	806.505	0.102	0.069	0.0	7	magazine
+sun_ahrhvpdhoamfdhpf.jpg	5	1.673	0.242	1324.990	806.505	0.102	0.069	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	6	1.932	0.283	1224.648	794.540	0.100	0.022	0.0	1	armchair
+sun_ahrhvpdhoamfdhpf.jpg	6	1.932	0.283	1224.648	794.540	0.100	0.022	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	7	2.240	0.208	1118.120	794.900	0.084	0.022	0.0	1	armchair
+sun_ahrhvpdhoamfdhpf.jpg	7	2.240	0.208	1118.120	794.900	0.084	0.022	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	8	2.465	0.333	1070.200	771.567	0.070	0.022	0.0	1	armchair
+sun_ahrhvpdhoamfdhpf.jpg	8	2.465	0.333	1070.200	771.567	0.070	0.022	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	9	2.815	0.183	1103.438	722.575	0.118	0.033	0.0	13	table

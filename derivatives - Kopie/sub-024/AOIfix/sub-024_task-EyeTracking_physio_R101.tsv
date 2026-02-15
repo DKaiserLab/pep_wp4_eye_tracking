@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agxuuvqtddjgypyr.jpg	1	0.241	0.392	1280.355	587.370	0.139	0.064	0.0	9	kettle
+sun_agxuuvqtddjgypyr.jpg	1	0.241	0.392	1280.355	587.370	0.139	0.064	0.0	15	sink
+sun_agxuuvqtddjgypyr.jpg	1	0.241	0.392	1280.355	587.370	0.139	0.064	0.0	20	worktop
+sun_agxuuvqtddjgypyr.jpg	2	0.658	0.200	1197.965	622.345	0.164	0.053	0.0	15	sink
+sun_agxuuvqtddjgypyr.jpg	2	0.658	0.200	1197.965	622.345	0.164	0.053	0.0	20	worktop
+sun_agxuuvqtddjgypyr.jpg	3	0.883	0.158	1048.260	671.540	0.190	0.061	0.0	20	worktop
+sun_agxuuvqtddjgypyr.jpg	4	1.066	0.442	962.805	679.345	0.185	0.128	0.0	18	telephone
+sun_agxuuvqtddjgypyr.jpg	4	1.066	0.442	962.805	679.345	0.185	0.128	0.0	20	worktop
+sun_agxuuvqtddjgypyr.jpg	5	1.533	0.225	1185.790	713.870	0.150	0.048	0.0	5	cutting board
+sun_agxuuvqtddjgypyr.jpg	5	1.533	0.225	1185.790	713.870	0.150	0.048	0.0	20	worktop
+sun_agxuuvqtddjgypyr.jpg	6	1.791	0.333	1446.098	648.797	0.195	0.114	0.0	7	dishwasher
+sun_agxuuvqtddjgypyr.jpg	7	2.149	0.383	1577.217	613.015	0.111	0.038	0.0	4	cabinet
+sun_agxuuvqtddjgypyr.jpg	8	2.574	0.433	1565.315	973.452	0.132	0.052	0.0	14	rug

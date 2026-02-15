@@ -1,0 +1,8 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acjcdbqhletirjdl.jpg	1	0.379	0.167	1255.388	718.658	0.180	0.052	0.0	0	other
+sun_acjcdbqhletirjdl.jpg	2	0.571	0.450	1238.483	574.173	0.091	0.043	0.0	2	jar
+sun_acjcdbqhletirjdl.jpg	3	1.054	0.450	1226.525	498.830	0.063	0.029	0.0	3	mirror
+sun_acjcdbqhletirjdl.jpg	4	1.537	0.775	963.690	639.700	0.103	0.083	0.0	4	shelf
+sun_acjcdbqhletirjdl.jpg	4	1.537	0.775	963.690	639.700	0.103	0.083	0.0	8	soap dispenser
+sun_acjcdbqhletirjdl.jpg	5	2.371	0.450	1683.348	836.827	0.151	0.047	0.0	0	other
+sun_acjcdbqhletirjdl.jpg	6	2.854	0.150	1432.940	902.990	0.126	0.031	0.0	6	sink

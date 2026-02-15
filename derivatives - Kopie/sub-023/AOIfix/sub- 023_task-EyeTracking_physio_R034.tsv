@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwvdhqsbtcesevi.jpg	1	0.452	0.175	1315.840	688.295	0.126	0.032	0.0	2	bottle
+sun_akwvdhqsbtcesevi.jpg	1	0.452	0.175	1315.840	688.295	0.126	0.032	0.0	4	coffee maker
+sun_akwvdhqsbtcesevi.jpg	2	0.652	0.267	1164.915	816.215	0.172	0.106	0.0	14	range
+sun_akwvdhqsbtcesevi.jpg	2	0.652	0.267	1164.915	816.215	0.172	0.106	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	3	0.943	0.233	1268.780	664.132	0.214	0.059	0.0	2	bottle
+sun_akwvdhqsbtcesevi.jpg	4	1.193	0.233	1309.860	672.188	0.198	0.090	0.0	2	bottle
+sun_akwvdhqsbtcesevi.jpg	5	1.452	0.275	1493.930	711.450	0.192	0.093	0.0	20	window
+sun_akwvdhqsbtcesevi.jpg	6	1.752	0.250	1638.593	756.253	0.180	0.103	0.0	0	other
+sun_akwvdhqsbtcesevi.jpg	7	2.035	0.258	1159.280	919.815	0.184	0.169	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	7	2.035	0.258	1159.280	919.815	0.184	0.169	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	8	2.327	0.383	1029.115	838.482	0.151	0.085	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	8	2.327	0.383	1029.115	838.482	0.151	0.085	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	9	2.727	0.183	1106.225	890.317	0.163	0.086	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	9	2.727	0.183	1106.225	890.317	0.163	0.086	0.0	9	napkin
+sun_akwvdhqsbtcesevi.jpg	9	2.727	0.183	1106.225	890.317	0.163	0.086	0.0	21	worktop

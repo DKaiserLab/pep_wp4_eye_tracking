@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afznskzeyysxrlqg.jpg	1	0.378	0.200	1081.662	798.860	0.135	0.032	0.0	22	range
+sun_afznskzeyysxrlqg.jpg	2	0.603	0.167	922.730	703.050	0.127	0.034	0.0	19	picture
+sun_afznskzeyysxrlqg.jpg	3	0.786	0.175	907.565	658.130	0.103	0.026	0.0	19	picture
+sun_afznskzeyysxrlqg.jpg	4	0.994	0.217	1147.160	892.440	0.277	0.113	0.0	4	can
+sun_afznskzeyysxrlqg.jpg	4	0.994	0.217	1147.160	892.440	0.277	0.113	0.0	26	sink
+sun_afznskzeyysxrlqg.jpg	4	0.994	0.217	1147.160	892.440	0.277	0.113	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	5	1.228	0.150	1192.113	924.393	0.264	0.063	0.0	4	can
+sun_afznskzeyysxrlqg.jpg	5	1.228	0.150	1192.113	924.393	0.264	0.063	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	6	1.403	0.217	1275.845	958.597	0.239	0.065	0.0	14	jar
+sun_afznskzeyysxrlqg.jpg	6	1.403	0.217	1275.845	958.597	0.239	0.065	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	7	1.636	0.150	1365.040	974.793	0.257	0.089	0.0	14	jar
+sun_afznskzeyysxrlqg.jpg	7	1.636	0.150	1365.040	974.793	0.257	0.089	0.0	21	purse
+sun_afznskzeyysxrlqg.jpg	7	1.636	0.150	1365.040	974.793	0.257	0.089	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	8	1.803	0.192	1462.840	1009.690	0.197	0.093	0.0	21	purse
+sun_afznskzeyysxrlqg.jpg	8	1.803	0.192	1462.840	1009.690	0.197	0.093	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	9	2.011	0.200	1520.385	1033.048	0.202	0.076	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	10	2.244	0.225	1579.980	678.585	0.097	0.031	0.0	23	refrigerator
+sun_afznskzeyysxrlqg.jpg	11	2.553	0.175	1440.585	686.935	0.100	0.026	0.0	10	door
+sun_afznskzeyysxrlqg.jpg	11	2.553	0.175	1440.585	686.935	0.100	0.026	0.0	28	table
+sun_afznskzeyysxrlqg.jpg	12	2.744	0.258	1467.900	686.740	0.132	0.047	0.0	6	chair
+sun_afznskzeyysxrlqg.jpg	12	2.744	0.258	1467.900	686.740	0.132	0.047	0.0	28	table

@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajjktnfzwntvwsfh.jpg	1	0.356	0.375	1301.790	742.535	0.066	0.019	0.0	11	plug
+sun_ajjktnfzwntvwsfh.jpg	1	0.356	0.375	1301.790	742.535	0.066	0.019	0.0	14	sink
+sun_ajjktnfzwntvwsfh.jpg	1	0.356	0.375	1301.790	742.535	0.066	0.019	0.0	16	worktop
+sun_ajjktnfzwntvwsfh.jpg	2	0.764	0.517	901.530	905.152	0.120	0.248	0.0	12	range crop
+sun_ajjktnfzwntvwsfh.jpg	3	1.322	0.325	1163.545	531.630	0.088	0.088	0.0	15	window
+sun_ajjktnfzwntvwsfh.jpg	4	1.672	0.225	1350.025	528.610	0.060	0.023	0.0	13	shelf
+sun_ajjktnfzwntvwsfh.jpg	5	1.914	0.308	1467.070	681.230	0.090	0.070	0.0	9	pitcher
+sun_ajjktnfzwntvwsfh.jpg	6	2.231	0.133	1479.885	657.275	0.064	0.008	0.0	9	pitcher
+sun_ajjktnfzwntvwsfh.jpg	7	2.381	0.192	1649.525	653.975	0.150	0.066	0.0	10	plates
+sun_ajjktnfzwntvwsfh.jpg	8	2.581	0.150	1628.318	643.862	0.170	0.205	0.0	1	bowls
+sun_ajjktnfzwntvwsfh.jpg	9	2.756	0.250	1474.213	510.658	0.088	0.031	0.0	6	microwave

@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axnnsaaqniecbwhm.jpg	1	0.252	0.142	1233.755	771.300	0.122	0.068	0.0	4	flowers
+sun_axnnsaaqniecbwhm.jpg	1	0.252	0.142	1233.755	771.300	0.122	0.068	0.0	5	mirror
+sun_axnnsaaqniecbwhm.jpg	2	0.410	0.217	1123.660	888.973	0.192	0.149	0.0	2	countertop
+sun_axnnsaaqniecbwhm.jpg	3	0.660	0.400	998.225	926.672	0.106	0.062	0.0	2	countertop
+sun_axnnsaaqniecbwhm.jpg	4	1.210	0.208	1126.905	1028.385	0.114	0.043	0.0	2	countertop
+sun_axnnsaaqniecbwhm.jpg	4	1.210	0.208	1126.905	1028.385	0.114	0.043	0.0	7	sink crop
+sun_axnnsaaqniecbwhm.jpg	5	1.452	0.175	1310.210	991.030	0.102	0.029	0.0	2	countertop
+sun_axnnsaaqniecbwhm.jpg	6	1.644	0.183	1501.915	952.638	0.089	0.041	0.0	3	curtain
+sun_axnnsaaqniecbwhm.jpg	7	1.852	0.358	1643.070	950.220	0.098	0.066	0.0	3	curtain
+sun_axnnsaaqniecbwhm.jpg	8	2.260	0.100	1470.203	932.920	0.124	0.036	0.0	3	curtain
+sun_axnnsaaqniecbwhm.jpg	9	2.377	0.150	1330.287	920.755	0.089	0.028	0.0	2	countertop
+sun_axnnsaaqniecbwhm.jpg	10	2.552	0.192	1253.035	849.035	0.083	0.015	0.0	2	countertop
+sun_axnnsaaqniecbwhm.jpg	10	2.552	0.192	1253.035	849.035	0.083	0.015	0.0	9	vase
+sun_axnnsaaqniecbwhm.jpg	11	2.760	0.250	1256.115	744.275	0.108	0.028	0.0	4	flowers
+sun_axnnsaaqniecbwhm.jpg	11	2.760	0.250	1256.115	744.275	0.108	0.028	0.0	5	mirror

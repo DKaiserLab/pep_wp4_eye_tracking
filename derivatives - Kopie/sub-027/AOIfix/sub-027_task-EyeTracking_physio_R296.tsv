@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_rbrrbtaxscidgzz.jpg	1	0.333	0.225	1530.915	732.870	0.164	0.096	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	2	0.575	0.183	1410.807	762.702	0.168	0.070	0.0	10	pot
+labelme_rbrrbtaxscidgzz.jpg	3	0.775	0.558	1543.435	732.485	0.196	0.185	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	4	1.342	0.242	1530.740	777.665	0.151	0.057	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	5	1.617	0.175	922.535	819.115	0.217	0.075	0.0	5	cutlery
+labelme_rbrrbtaxscidgzz.jpg	5	1.617	0.175	922.535	819.115	0.217	0.075	0.0	14	worktop
+labelme_rbrrbtaxscidgzz.jpg	6	1.808	0.283	981.095	824.730	0.181	0.076	0.0	9	plant
+labelme_rbrrbtaxscidgzz.jpg	6	1.808	0.283	981.095	824.730	0.181	0.076	0.0	14	worktop
+labelme_rbrrbtaxscidgzz.jpg	7	2.117	0.292	1286.525	785.135	0.273	0.125	0.0	10	pot
+labelme_rbrrbtaxscidgzz.jpg	7	2.117	0.292	1286.525	785.135	0.273	0.125	0.0	14	worktop
+labelme_rbrrbtaxscidgzz.jpg	8	2.425	0.283	1361.290	777.565	0.207	0.069	0.0	10	pot
+labelme_rbrrbtaxscidgzz.jpg	9	2.733	0.167	1206.842	612.822	0.156	0.072	0.0	1	breadbin
+labelme_rbrrbtaxscidgzz.jpg	9	2.733	0.167	1206.842	612.822	0.156	0.072	0.0	3	cabinet

@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azxetkujrgobhzbi.jpg	1	0.353	0.275	1550.600	844.195	0.208	0.366	0.0	4	cabinet
+sun_azxetkujrgobhzbi.jpg	1	0.353	0.275	1550.600	844.195	0.208	0.366	0.0	5	cabinets
+sun_azxetkujrgobhzbi.jpg	2	0.645	0.167	1598.457	781.495	0.160	0.049	0.0	8	cup
+sun_azxetkujrgobhzbi.jpg	2	0.645	0.167	1598.457	781.495	0.160	0.049	0.0	24	salt and pepper
+sun_azxetkujrgobhzbi.jpg	2	0.645	0.167	1598.457	781.495	0.160	0.049	0.0	26	stove
+sun_azxetkujrgobhzbi.jpg	2	0.645	0.167	1598.457	781.495	0.160	0.049	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	3	0.836	0.267	1598.822	688.405	0.180	0.043	0.0	26	stove
+sun_azxetkujrgobhzbi.jpg	4	1.170	0.108	860.285	987.420	0.173	0.082	0.0	17	kitchen island
+sun_azxetkujrgobhzbi.jpg	4	1.170	0.108	860.285	987.420	0.173	0.082	0.0	22	plates
+sun_azxetkujrgobhzbi.jpg	5	1.303	0.292	964.170	875.445	0.106	0.037	0.0	17	kitchen island
+sun_azxetkujrgobhzbi.jpg	6	1.620	0.242	943.955	766.570	0.163	0.049	0.0	1	books
+sun_azxetkujrgobhzbi.jpg	6	1.620	0.242	943.955	766.570	0.163	0.049	0.0	17	kitchen island
+sun_azxetkujrgobhzbi.jpg	7	1.886	0.250	968.203	680.405	0.160	0.070	0.0	4	cabinet
+sun_azxetkujrgobhzbi.jpg	8	2.386	0.275	1301.895	964.470	0.111	0.071	0.0	0	other
+sun_azxetkujrgobhzbi.jpg	9	2.720	0.283	1582.918	904.155	0.115	0.050	0.0	4	cabinet
+sun_azxetkujrgobhzbi.jpg	9	2.720	0.283	1582.918	904.155	0.115	0.050	0.0	5	cabinets

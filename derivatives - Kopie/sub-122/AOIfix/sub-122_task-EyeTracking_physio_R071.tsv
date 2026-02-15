@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajmwiafzffjerzeb.jpg	1	0.297	0.233	1248.673	755.650	0.255	0.101	0.0	9	hotplate
+sun_ajmwiafzffjerzeb.jpg	1	0.297	0.233	1248.673	755.650	0.255	0.101	0.0	15	worktop
+sun_ajmwiafzffjerzeb.jpg	2	0.555	0.325	1130.520	762.745	0.144	0.040	0.0	8	food processor
+sun_ajmwiafzffjerzeb.jpg	3	0.905	0.858	1047.815	768.495	0.214	0.097	0.0	0	other
+sun_ajmwiafzffjerzeb.jpg	4	1.788	0.175	1156.250	828.540	0.326	0.280	0.0	7	drawers
+sun_ajmwiafzffjerzeb.jpg	4	1.788	0.175	1156.250	828.540	0.326	0.280	0.0	15	worktop
+sun_ajmwiafzffjerzeb.jpg	5	1.980	0.183	1269.068	826.590	0.285	0.122	0.0	3	cabinet
+sun_ajmwiafzffjerzeb.jpg	5	1.980	0.183	1269.068	826.590	0.285	0.122	0.0	7	drawers
+sun_ajmwiafzffjerzeb.jpg	6	2.188	0.208	1388.550	785.260	0.209	0.060	0.0	3	cabinet
+sun_ajmwiafzffjerzeb.jpg	7	2.413	0.592	1500.980	773.555	0.199	0.130	0.0	5	dishwasher
+sun_ajmwiafzffjerzeb.jpg	7	2.413	0.592	1500.980	773.555	0.199	0.130	0.0	15	worktop

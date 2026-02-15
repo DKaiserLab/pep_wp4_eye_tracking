@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amjiwsczphtrowfh.jpg	1	0.266	0.175	1236.750	683.865	0.186	0.172	0.0	11	outlet
+sun_amjiwsczphtrowfh.jpg	1	0.266	0.175	1236.750	683.865	0.186	0.172	0.0	24	television
+sun_amjiwsczphtrowfh.jpg	2	0.474	0.125	1414.910	555.075	0.092	0.033	0.0	24	television
+sun_amjiwsczphtrowfh.jpg	2	0.474	0.125	1414.910	555.075	0.092	0.033	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	3	0.616	0.367	1446.260	517.523	0.093	0.027	0.0	24	television
+sun_amjiwsczphtrowfh.jpg	4	1.016	0.300	1303.548	738.140	0.153	0.085	0.0	5	candle
+sun_amjiwsczphtrowfh.jpg	4	1.016	0.300	1303.548	738.140	0.153	0.085	0.0	10	curtain
+sun_amjiwsczphtrowfh.jpg	4	1.016	0.300	1303.548	738.140	0.153	0.085	0.0	17	shelves
+sun_amjiwsczphtrowfh.jpg	4	1.016	0.300	1303.548	738.140	0.153	0.085	0.0	27	worktop
+sun_amjiwsczphtrowfh.jpg	5	1.349	0.208	1113.260	636.255	0.254	0.051	0.0	13	pendant lamp
+sun_amjiwsczphtrowfh.jpg	6	1.574	0.150	1063.810	590.495	0.158	0.031	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	7	1.750	0.250	1062.872	530.987	0.101	0.022	0.0	8	clock
+sun_amjiwsczphtrowfh.jpg	8	2.033	0.200	984.938	657.290	0.174	0.046	0.0	0	other
+sun_amjiwsczphtrowfh.jpg	9	2.258	0.200	913.785	686.858	0.163	0.090	0.0	9	coffee maker
+sun_amjiwsczphtrowfh.jpg	10	2.466	0.242	891.305	685.060	0.136	0.056	0.0	9	coffee maker
+sun_amjiwsczphtrowfh.jpg	11	2.725	0.200	1073.557	684.805	0.207	0.084	0.0	19	skimmer

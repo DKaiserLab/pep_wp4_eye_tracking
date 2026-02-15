@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amjiwsczphtrowfh.jpg	1	0.389	0.417	1076.490	678.037	0.111	0.035	0.0	19	skimmer
+sun_amjiwsczphtrowfh.jpg	1	0.389	0.417	1076.490	678.037	0.111	0.035	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	2	0.831	0.433	1008.615	622.795	0.108	0.029	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	3	1.306	0.275	1297.765	636.430	0.101	0.021	0.0	15	plants
+sun_amjiwsczphtrowfh.jpg	3	1.306	0.275	1297.765	636.430	0.101	0.021	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	4	1.614	0.583	1450.968	703.565	0.096	0.032	0.0	3	box
+sun_amjiwsczphtrowfh.jpg	4	1.614	0.583	1450.968	703.565	0.096	0.032	0.0	7	cheese dish
+sun_amjiwsczphtrowfh.jpg	4	1.614	0.583	1450.968	703.565	0.096	0.032	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	5	2.247	0.300	1284.362	727.290	0.100	0.027	0.0	4	cabinet
+sun_amjiwsczphtrowfh.jpg	5	2.247	0.300	1284.362	727.290	0.100	0.027	0.0	14	plantpot
+sun_amjiwsczphtrowfh.jpg	5	2.247	0.300	1284.362	727.290	0.100	0.027	0.0	17	shelves
+sun_amjiwsczphtrowfh.jpg	5	2.247	0.300	1284.362	727.290	0.100	0.027	0.0	24	television
+sun_amjiwsczphtrowfh.jpg	5	2.247	0.300	1284.362	727.290	0.100	0.027	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	5	2.247	0.300	1284.362	727.290	0.100	0.027	0.0	27	worktop
+sun_amjiwsczphtrowfh.jpg	6	2.581	0.242	1067.315	728.950	0.091	0.019	0.0	4	cabinet
+sun_amjiwsczphtrowfh.jpg	6	2.581	0.242	1067.315	728.950	0.091	0.019	0.0	18	sink
+sun_amjiwsczphtrowfh.jpg	6	2.581	0.242	1067.315	728.950	0.091	0.019	0.0	19	skimmer
+sun_amjiwsczphtrowfh.jpg	6	2.581	0.242	1067.315	728.950	0.091	0.019	0.0	27	worktop
+sun_amjiwsczphtrowfh.jpg	7	2.847	0.158	903.785	705.280	0.122	0.028	0.0	9	coffee maker

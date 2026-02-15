@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awjcipnjtpkdqhfw.jpg	1	0.291	0.233	1326.155	688.390	0.092	0.016	0.0	2	bottle
+sun_awjcipnjtpkdqhfw.jpg	1	0.291	0.233	1326.155	688.390	0.092	0.016	0.0	4	countertop
+sun_awjcipnjtpkdqhfw.jpg	2	0.541	0.208	1367.380	724.870	0.075	0.019	0.0	4	countertop
+sun_awjcipnjtpkdqhfw.jpg	3	0.775	0.200	1458.303	720.848	0.065	0.008	0.0	4	countertop
+sun_awjcipnjtpkdqhfw.jpg	4	1.008	0.242	1536.995	714.130	0.076	0.012	0.0	4	countertop
+sun_awjcipnjtpkdqhfw.jpg	4	1.008	0.242	1536.995	714.130	0.076	0.012	0.0	11	towel
+sun_awjcipnjtpkdqhfw.jpg	5	1.275	0.217	1616.405	696.305	0.096	0.017	0.0	4	countertop
+sun_awjcipnjtpkdqhfw.jpg	5	1.275	0.217	1616.405	696.305	0.096	0.017	0.0	8	mirror
+sun_awjcipnjtpkdqhfw.jpg	6	1.516	0.350	1686.012	694.115	0.078	0.014	0.0	4	countertop
+sun_awjcipnjtpkdqhfw.jpg	6	1.516	0.350	1686.012	694.115	0.078	0.014	0.0	7	faucet
+sun_awjcipnjtpkdqhfw.jpg	6	1.516	0.350	1686.012	694.115	0.078	0.014	0.0	8	mirror
+sun_awjcipnjtpkdqhfw.jpg	7	1.891	0.367	1684.862	669.795	0.068	0.013	0.0	8	mirror
+sun_awjcipnjtpkdqhfw.jpg	8	2.283	0.200	1617.535	639.900	0.068	0.014	0.0	8	mirror
+sun_awjcipnjtpkdqhfw.jpg	9	2.516	0.200	1542.963	629.900	0.060	0.008	0.0	8	mirror
+sun_awjcipnjtpkdqhfw.jpg	9	2.516	0.200	1542.963	629.900	0.060	0.008	0.0	11	towel
+sun_awjcipnjtpkdqhfw.jpg	10	2.750	0.183	1418.150	628.435	0.064	0.008	0.0	8	mirror

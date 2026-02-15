@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afbibxsnpvkmvhxn.jpg	1	0.259	0.183	1285.915	827.257	0.149	0.066	0.0	10	worktop
+sun_afbibxsnpvkmvhxn.jpg	2	0.467	0.275	1162.915	953.860	0.177	0.071	0.0	8	range
+sun_afbibxsnpvkmvhxn.jpg	3	0.784	0.450	1036.090	951.487	0.126	0.031	0.0	8	range
+sun_afbibxsnpvkmvhxn.jpg	4	1.275	0.417	1121.390	538.493	0.125	0.057	0.0	2	cabinet
+sun_afbibxsnpvkmvhxn.jpg	4	1.275	0.417	1121.390	538.493	0.125	0.057	0.0	5	extractor hood
+sun_afbibxsnpvkmvhxn.jpg	5	1.717	0.367	1338.312	560.970	0.206	0.101	0.0	2	cabinet
+sun_afbibxsnpvkmvhxn.jpg	6	2.117	0.242	1540.610	774.525	0.249	0.120	0.0	0	other
+sun_afbibxsnpvkmvhxn.jpg	7	2.400	0.125	1616.610	882.075	0.107	0.036	0.0	9	sink
+sun_afbibxsnpvkmvhxn.jpg	7	2.400	0.125	1616.610	882.075	0.107	0.036	0.0	10	worktop
+sun_afbibxsnpvkmvhxn.jpg	8	2.709	0.300	1700.282	1062.793	0.099	0.131	0.0	-1	off stimulus

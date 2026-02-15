@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aovnyfewezfmgwke.jpg	1	0.221	0.108	1304.090	641.810	0.090	0.017	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	2	0.355	0.392	1453.560	648.865	0.100	0.038	0.0	7	glass
+sun_aovnyfewezfmgwke.jpg	2	0.355	0.392	1453.560	648.865	0.100	0.038	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	2	0.355	0.392	1453.560	648.865	0.100	0.038	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	3	0.780	0.150	1120.955	634.680	0.110	0.020	0.0	10	outlet
+sun_aovnyfewezfmgwke.jpg	4	0.963	0.317	1518.882	661.450	0.142	0.054	0.0	16	shaker
+sun_aovnyfewezfmgwke.jpg	4	0.963	0.317	1518.882	661.450	0.142	0.054	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	4	0.963	0.317	1518.882	661.450	0.142	0.054	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	5	1.305	0.225	1601.955	819.070	0.180	0.055	0.0	18	sink
+sun_aovnyfewezfmgwke.jpg	5	1.305	0.225	1601.955	819.070	0.180	0.055	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	6	1.580	0.442	1124.625	635.095	0.098	0.030	0.0	10	outlet
+sun_aovnyfewezfmgwke.jpg	6	1.580	0.442	1124.625	635.095	0.098	0.030	0.0	19	spices
+sun_aovnyfewezfmgwke.jpg	7	2.055	0.192	885.220	621.315	0.159	0.059	0.0	11	picture crop
+sun_aovnyfewezfmgwke.jpg	8	2.271	0.442	1283.800	503.185	0.104	0.044	0.0	6	extractor hood
+sun_aovnyfewezfmgwke.jpg	9	2.813	0.192	1265.115	649.310	0.624	3.299	0.0	14	range

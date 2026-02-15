@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_arrmumgicgcoptbt.jpg	1	0.364	0.208	1237.075	705.215	0.089	0.019	0.0	2	cabinet
+sun_arrmumgicgcoptbt.jpg	1	0.364	0.208	1237.075	705.215	0.089	0.019	0.0	8	microwave
+sun_arrmumgicgcoptbt.jpg	2	0.589	0.158	1270.095	732.465	0.112	0.017	0.0	8	microwave
+sun_arrmumgicgcoptbt.jpg	3	0.764	0.342	1125.515	760.740	0.118	0.066	0.0	14	soap bottle
+sun_arrmumgicgcoptbt.jpg	4	1.122	0.233	1043.358	751.355	0.086	0.017	0.0	4	dish rack
+sun_arrmumgicgcoptbt.jpg	4	1.122	0.233	1043.358	751.355	0.086	0.017	0.0	14	soap bottle
+sun_arrmumgicgcoptbt.jpg	5	1.447	0.475	1379.095	605.365	0.106	0.039	0.0	10	paper
+sun_arrmumgicgcoptbt.jpg	5	1.447	0.475	1379.095	605.365	0.106	0.039	0.0	12	refrigerator
+sun_arrmumgicgcoptbt.jpg	6	1.980	0.208	1099.915	689.780	0.105	0.037	0.0	0	other
+sun_arrmumgicgcoptbt.jpg	7	2.222	0.267	1026.628	756.045	0.130	0.030	0.0	4	dish rack
+sun_arrmumgicgcoptbt.jpg	7	2.222	0.267	1026.628	756.045	0.130	0.030	0.0	14	soap bottle
+sun_arrmumgicgcoptbt.jpg	8	2.514	0.192	984.950	789.685	0.097	0.018	0.0	4	dish rack
+sun_arrmumgicgcoptbt.jpg	9	2.739	0.267	1188.942	695.160	0.099	0.044	0.0	2	cabinet

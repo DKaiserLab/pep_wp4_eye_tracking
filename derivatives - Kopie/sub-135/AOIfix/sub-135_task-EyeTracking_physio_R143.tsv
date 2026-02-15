@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anjgzxqwccbiozsw.jpg	1	0.412	0.267	994.913	806.085	0.078	0.021	0.0	4	cabinet
+sun_anjgzxqwccbiozsw.jpg	2	0.720	0.200	1038.090	488.277	0.134	0.050	0.0	16	picture
+sun_anjgzxqwccbiozsw.jpg	3	0.962	0.317	1336.463	510.382	0.106	0.029	0.0	4	cabinet
+sun_anjgzxqwccbiozsw.jpg	3	0.962	0.317	1336.463	510.382	0.106	0.029	0.0	10	extractor hood
+sun_anjgzxqwccbiozsw.jpg	4	1.303	0.200	1366.903	621.753	0.053	0.010	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	5	1.562	0.250	1505.395	825.770	0.127	0.040	0.0	20	plate
+sun_anjgzxqwccbiozsw.jpg	5	1.562	0.250	1505.395	825.770	0.127	0.040	0.0	24	table
+sun_anjgzxqwccbiozsw.jpg	6	1.895	0.483	1551.795	904.740	0.096	0.070	0.0	7	coaster
+sun_anjgzxqwccbiozsw.jpg	6	1.895	0.483	1551.795	904.740	0.096	0.070	0.0	24	table
+sun_anjgzxqwccbiozsw.jpg	7	2.395	0.300	1345.573	977.815	0.398	0.614	0.0	24	table
+sun_anjgzxqwccbiozsw.jpg	8	2.720	0.183	1184.178	980.095	0.101	0.104	0.0	1	bench

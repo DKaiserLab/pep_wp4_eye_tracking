@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahbhthuvbhsokcnl.jpg	1	0.310	0.200	1090.105	761.707	0.094	0.017	0.0	2	books
+sun_ahbhthuvbhsokcnl.jpg	1	0.310	0.200	1090.105	761.707	0.094	0.017	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	1	0.310	0.200	1090.105	761.707	0.094	0.017	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	2	0.535	0.325	983.930	810.460	0.092	0.034	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	2	0.535	0.325	983.930	810.460	0.092	0.034	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	3	0.885	0.258	1097.475	763.510	0.105	0.029	0.0	2	books
+sun_ahbhthuvbhsokcnl.jpg	3	0.885	0.258	1097.475	763.510	0.105	0.029	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	4	1.160	0.250	1117.258	724.688	0.141	0.027	0.0	2	books
+sun_ahbhthuvbhsokcnl.jpg	4	1.160	0.250	1117.258	724.688	0.141	0.027	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	4	1.160	0.250	1117.258	724.688	0.141	0.027	0.0	6	candleholder
+sun_ahbhthuvbhsokcnl.jpg	5	1.427	0.267	1109.710	658.258	0.162	0.051	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	5	1.427	0.267	1109.710	658.258	0.162	0.051	0.0	6	candleholder
+sun_ahbhthuvbhsokcnl.jpg	6	1.710	0.225	1075.640	639.085	0.120	0.071	0.0	10	flowers
+sun_ahbhthuvbhsokcnl.jpg	7	1.952	0.225	1036.820	636.505	0.176	0.069	0.0	10	flowers
+sun_ahbhthuvbhsokcnl.jpg	8	2.194	0.208	988.850	632.160	0.101	0.030	0.0	10	flowers
+sun_ahbhthuvbhsokcnl.jpg	9	2.444	0.583	1467.928	747.388	0.157	0.113	0.0	15	oven
+sun_ahbhthuvbhsokcnl.jpg	9	2.444	0.583	1467.928	747.388	0.157	0.113	0.0	21	worktop

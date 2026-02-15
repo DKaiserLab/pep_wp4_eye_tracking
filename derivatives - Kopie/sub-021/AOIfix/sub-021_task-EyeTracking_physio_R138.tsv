@@ -1,0 +1,24 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aovnyfewezfmgwke.jpg	1	0.391	0.150	1335.080	692.200	0.119	0.054	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	2	0.566	0.267	1463.472	682.500	0.107	0.024	0.0	7	glass
+sun_aovnyfewezfmgwke.jpg	2	0.566	0.267	1463.472	682.500	0.107	0.024	0.0	9	napkin
+sun_aovnyfewezfmgwke.jpg	2	0.566	0.267	1463.472	682.500	0.107	0.024	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	2	0.566	0.267	1463.472	682.500	0.107	0.024	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	3	0.849	0.258	1481.755	671.530	0.103	0.028	0.0	8	jar
+sun_aovnyfewezfmgwke.jpg	3	0.849	0.258	1481.755	671.530	0.103	0.028	0.0	9	napkin
+sun_aovnyfewezfmgwke.jpg	3	0.849	0.258	1481.755	671.530	0.103	0.028	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	3	0.849	0.258	1481.755	671.530	0.103	0.028	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	4	1.133	0.233	1299.537	663.352	0.113	0.025	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	5	1.383	0.150	1329.342	675.030	0.086	0.021	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	6	1.558	0.267	1486.720	676.415	0.097	0.054	0.0	8	jar
+sun_aovnyfewezfmgwke.jpg	6	1.558	0.267	1486.720	676.415	0.097	0.054	0.0	9	napkin
+sun_aovnyfewezfmgwke.jpg	6	1.558	0.267	1486.720	676.415	0.097	0.054	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	6	1.558	0.267	1486.720	676.415	0.097	0.054	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	7	1.866	0.250	1616.903	762.808	0.174	0.056	0.0	18	sink
+sun_aovnyfewezfmgwke.jpg	7	1.866	0.250	1616.903	762.808	0.174	0.056	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	8	2.149	0.183	1565.920	606.250	0.099	0.027	0.0	12	plant
+sun_aovnyfewezfmgwke.jpg	9	2.374	0.375	1134.210	660.505	0.096	0.020	0.0	3	clock
+sun_aovnyfewezfmgwke.jpg	9	2.374	0.375	1134.210	660.505	0.096	0.020	0.0	19	spices
+sun_aovnyfewezfmgwke.jpg	9	2.374	0.375	1134.210	660.505	0.096	0.020	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	10	2.774	0.200	1115.185	665.108	0.087	0.018	0.0	3	clock
+sun_aovnyfewezfmgwke.jpg	10	2.774	0.200	1115.185	665.108	0.087	0.018	0.0	23	worktop

@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_rwwtgnnqniabmbw.jpg	1	0.206	0.208	1271.515	685.795	0.199	0.043	0.0	5	mirror
+labelme_rwwtgnnqniabmbw.jpg	2	0.497	0.325	1025.430	736.550	0.181	0.106	0.0	3	door
+labelme_rwwtgnnqniabmbw.jpg	3	0.856	0.175	1285.420	896.140	0.103	0.024	0.0	2	countertop
+labelme_rwwtgnnqniabmbw.jpg	4	1.056	0.242	1503.580	942.150	0.133	0.046	0.0	2	countertop
+labelme_rwwtgnnqniabmbw.jpg	5	1.322	0.283	1425.812	644.057	0.258	0.153	0.0	5	mirror
+labelme_rwwtgnnqniabmbw.jpg	6	1.631	0.167	1090.860	634.625	0.220	0.102	0.0	4	light switch
+labelme_rwwtgnnqniabmbw.jpg	7	1.814	0.200	915.433	659.235	0.216	0.058	0.0	0	other
+labelme_rwwtgnnqniabmbw.jpg	8	2.031	0.283	880.503	663.632	0.199	0.086	0.0	3	door
+labelme_rwwtgnnqniabmbw.jpg	9	2.339	0.225	1161.015	653.455	0.196	0.112	0.0	0	other
+labelme_rwwtgnnqniabmbw.jpg	10	2.589	0.175	1065.770	739.045	0.194	0.072	0.0	3	door
+labelme_rwwtgnnqniabmbw.jpg	11	2.789	0.158	990.145	796.005	0.127	0.023	0.0	6	outlet

@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_vvuttgvlwdydbkh.jpg	1	0.107	0.192	1234.540	723.990	0.124	0.064	0.0	0	other
+labelme_vvuttgvlwdydbkh.jpg	2	0.315	0.250	1307.832	774.445	0.128	0.045	0.0	5	mirror
+labelme_vvuttgvlwdydbkh.jpg	3	0.590	0.175	1424.185	807.480	0.097	0.022	0.0	0	other
+labelme_vvuttgvlwdydbkh.jpg	4	0.799	0.217	1481.267	900.202	0.136	0.046	0.0	2	countertop
+labelme_vvuttgvlwdydbkh.jpg	4	0.799	0.217	1481.267	900.202	0.136	0.046	0.0	11	soap
+labelme_vvuttgvlwdydbkh.jpg	5	1.040	0.200	1576.265	892.735	0.090	0.025	0.0	13	vase
+labelme_vvuttgvlwdydbkh.jpg	6	1.257	0.217	1573.162	841.440	0.088	0.040	0.0	8	plant
+labelme_vvuttgvlwdydbkh.jpg	7	1.499	0.400	1621.372	910.403	0.082	0.036	0.0	3	cup
+labelme_vvuttgvlwdydbkh.jpg	8	1.924	0.258	1681.395	959.915	0.078	0.023	0.0	2	countertop
+labelme_vvuttgvlwdydbkh.jpg	9	2.215	0.200	1620.388	908.690	0.070	0.014	0.0	3	cup
+labelme_vvuttgvlwdydbkh.jpg	10	2.440	0.358	1409.525	892.355	0.110	0.038	0.0	2	countertop
+labelme_vvuttgvlwdydbkh.jpg	11	2.832	0.175	1327.745	904.610	0.083	0.014	0.0	2	countertop
+labelme_vvuttgvlwdydbkh.jpg	11	2.832	0.175	1327.745	904.610	0.083	0.014	0.0	10	sink

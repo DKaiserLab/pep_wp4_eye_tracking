@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aasmevtpkslccptd.jpg	1	0.103	0.108	1094.300	1233.790	13.127	162.458	76.9	-1	off stimulus
+sun_aasmevtpkslccptd.jpg	2	0.386	0.158	1027.360	702.565	0.218	0.114	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	3	0.561	0.600	926.352	789.832	0.111	0.144	0.0	1	backpack
+sun_aasmevtpkslccptd.jpg	4	1.186	0.208	1002.535	670.660	0.161	0.053	0.0	22	purse
+sun_aasmevtpkslccptd.jpg	4	1.186	0.208	1002.535	670.660	0.161	0.053	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	5	1.586	0.133	1016.348	672.190	0.196	0.088	0.0	22	purse
+sun_aasmevtpkslccptd.jpg	5	1.586	0.133	1016.348	672.190	0.196	0.088	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	6	1.753	0.133	1364.947	737.245	0.155	0.063	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	7	2.111	0.108	1553.850	563.755	0.291	0.163	0.0	24	refrigerator
+sun_aasmevtpkslccptd.jpg	8	2.244	0.142	1653.240	887.800	0.124	0.058	0.0	0	other
+sun_aasmevtpkslccptd.jpg	9	2.403	0.225	1687.770	943.085	0.096	0.049	0.0	26	shoe
+sun_aasmevtpkslccptd.jpg	10	2.661	0.150	1532.068	623.632	0.155	0.096	0.0	24	refrigerator

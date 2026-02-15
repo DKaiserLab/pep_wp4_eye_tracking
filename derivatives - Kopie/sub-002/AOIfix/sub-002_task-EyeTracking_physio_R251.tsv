@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahqrrgokszxtlsyi.jpg	1	0.294	0.142	1277.480	850.810	0.165	0.059	0.0	2	bottle
+sun_ahqrrgokszxtlsyi.jpg	2	0.461	0.225	1183.000	631.980	0.170	0.094	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	3	0.711	0.292	1134.330	817.715	0.255	0.095	0.0	7	knife
+sun_ahqrrgokszxtlsyi.jpg	4	1.011	0.308	1121.780	799.905	0.198	0.067	0.0	1	ax
+sun_ahqrrgokszxtlsyi.jpg	5	1.344	0.233	1412.057	809.592	0.218	0.117	0.0	11	refrigerator
+sun_ahqrrgokszxtlsyi.jpg	6	1.602	0.192	1586.640	799.320	0.285	0.104	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	7	1.819	0.133	1670.725	687.995	0.289	0.101	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	8	1.977	0.283	1603.850	506.820	0.096	0.026	0.0	12	semi-flush mount light
+sun_ahqrrgokszxtlsyi.jpg	9	2.427	0.400	1572.375	484.665	0.215	0.227	0.0	12	semi-flush mount light
+sun_ahqrrgokszxtlsyi.jpg	10	2.869	0.133	1282.582	892.973	0.223	0.089	0.0	0	other

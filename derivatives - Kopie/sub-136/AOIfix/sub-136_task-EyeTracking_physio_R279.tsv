@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aezuhrkzpxgayaoe.jpg	1	0.290	0.142	1341.970	688.430	0.439	0.176	0.0	11	window
+sun_aezuhrkzpxgayaoe.jpg	2	0.448	0.217	1425.600	635.240	0.109	0.026	0.0	0	other
+sun_aezuhrkzpxgayaoe.jpg	3	0.681	0.192	1386.600	645.650	0.095	0.023	0.0	10	tube
+sun_aezuhrkzpxgayaoe.jpg	4	0.898	0.325	1308.970	493.705	0.091	0.032	0.0	2	blind
+sun_aezuhrkzpxgayaoe.jpg	4	0.898	0.325	1308.970	493.705	0.091	0.032	0.0	11	window
+sun_aezuhrkzpxgayaoe.jpg	5	1.315	0.317	1015.002	782.735	0.186	0.131	0.0	8	toilet
+sun_aezuhrkzpxgayaoe.jpg	6	1.657	0.192	1134.080	919.955	0.169	0.070	0.0	6	sink crop
+sun_aezuhrkzpxgayaoe.jpg	6	1.657	0.192	1134.080	919.955	0.169	0.070	0.0	8	toilet
+sun_aezuhrkzpxgayaoe.jpg	7	1.865	0.133	1333.240	935.780	0.204	0.187	0.0	1	bathtub
+sun_aezuhrkzpxgayaoe.jpg	8	2.032	0.300	1664.217	880.530	0.168	0.060	0.0	1	bathtub
+sun_aezuhrkzpxgayaoe.jpg	9	2.348	0.183	1628.677	840.568	0.162	0.035	0.0	1	bathtub
+sun_aezuhrkzpxgayaoe.jpg	9	2.348	0.183	1628.677	840.568	0.162	0.035	0.0	9	towel
+sun_aezuhrkzpxgayaoe.jpg	10	2.665	0.250	1355.065	605.053	0.237	0.079	0.0	11	window

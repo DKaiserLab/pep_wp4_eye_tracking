@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azkonpsbldzbkqim.jpg	1	0.243	0.233	1282.743	799.395	0.152	0.115	0.0	1	basket
+sun_azkonpsbldzbkqim.jpg	1	0.243	0.233	1282.743	799.395	0.152	0.115	0.0	6	flowers
+sun_azkonpsbldzbkqim.jpg	1	0.243	0.233	1282.743	799.395	0.152	0.115	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	2	0.493	0.225	1366.790	896.050	0.127	0.059	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	3	0.760	0.183	1088.352	928.898	0.126	0.070	0.0	2	bathtub crop
+sun_azkonpsbldzbkqim.jpg	4	1.002	0.275	1525.720	966.575	0.052	0.020	0.0	3	cabinet
+sun_azkonpsbldzbkqim.jpg	5	1.318	0.192	1625.260	983.050	0.054	0.006	0.0	0	other
+sun_azkonpsbldzbkqim.jpg	6	1.543	0.167	1651.585	897.865	0.069	0.013	0.0	8	outlet
+sun_azkonpsbldzbkqim.jpg	7	1.768	0.208	1405.850	621.425	0.055	0.009	0.0	7	mirror crop
+sun_azkonpsbldzbkqim.jpg	8	1.985	0.292	1375.260	574.570	0.094	0.023	0.0	7	mirror crop
+sun_azkonpsbldzbkqim.jpg	9	2.343	0.283	1321.263	900.950	0.053	0.021	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	10	2.660	0.167	1354.205	849.375	0.045	0.011	0.0	5	faucet
+sun_azkonpsbldzbkqim.jpg	10	2.660	0.167	1354.205	849.375	0.045	0.011	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	11	2.860	0.150	1068.098	912.405	0.223	0.073	0.0	2	bathtub crop

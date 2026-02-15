@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abkdszjmterwgxgk.jpg	1	0.382	0.342	1327.315	750.110	0.297	0.109	0.0	1	blind
+sun_abkdszjmterwgxgk.jpg	1	0.382	0.342	1327.315	750.110	0.297	0.109	0.0	3	bottle
+sun_abkdszjmterwgxgk.jpg	1	0.382	0.342	1327.315	750.110	0.297	0.109	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	2	0.740	0.233	1342.860	810.382	0.183	0.051	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	2	0.740	0.233	1342.860	810.382	0.183	0.051	0.0	9	fruit
+sun_abkdszjmterwgxgk.jpg	2	0.740	0.233	1342.860	810.382	0.183	0.051	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	3	0.990	0.592	1306.635	762.700	0.196	0.163	0.0	1	blind
+sun_abkdszjmterwgxgk.jpg	3	0.990	0.592	1306.635	762.700	0.196	0.163	0.0	3	bottle
+sun_abkdszjmterwgxgk.jpg	3	0.990	0.592	1306.635	762.700	0.196	0.163	0.0	12	sink
+sun_abkdszjmterwgxgk.jpg	3	0.990	0.592	1306.635	762.700	0.196	0.163	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	4	1.607	0.567	1326.545	856.082	0.141	0.164	0.0	4	bowl
+sun_abkdszjmterwgxgk.jpg	4	1.607	0.567	1326.545	856.082	0.141	0.164	0.0	9	fruit
+sun_abkdszjmterwgxgk.jpg	5	2.207	0.183	1274.953	778.790	0.156	0.077	0.0	3	bottle
+sun_abkdszjmterwgxgk.jpg	5	2.207	0.183	1274.953	778.790	0.156	0.077	0.0	12	sink
+sun_abkdszjmterwgxgk.jpg	5	2.207	0.183	1274.953	778.790	0.156	0.077	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	6	2.682	0.183	1350.740	670.005	0.120	0.052	0.0	1	blind
+sun_abkdszjmterwgxgk.jpg	7	2.890	0.117	1302.960	657.967	0.084	0.019	0.0	1	blind

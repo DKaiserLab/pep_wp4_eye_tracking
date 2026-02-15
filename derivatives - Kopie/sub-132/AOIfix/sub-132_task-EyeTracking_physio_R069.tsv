@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_algkamzphkipsfil.jpg	1	0.348	0.167	1132.622	650.885	0.114	0.049	0.0	2	blind
+sun_algkamzphkipsfil.jpg	1	0.348	0.167	1132.622	650.885	0.114	0.049	0.0	9	plant
+sun_algkamzphkipsfil.jpg	2	0.548	0.200	1027.362	618.037	0.110	0.024	0.0	6	cabinet
+sun_algkamzphkipsfil.jpg	2	0.548	0.200	1027.362	618.037	0.110	0.024	0.0	9	plant
+sun_algkamzphkipsfil.jpg	2	0.548	0.200	1027.362	618.037	0.110	0.024	0.0	12	towel
+sun_algkamzphkipsfil.jpg	3	0.781	0.375	974.830	592.560	0.075	0.016	0.0	12	towel
+sun_algkamzphkipsfil.jpg	4	1.290	0.292	1171.595	903.950	0.123	0.055	0.0	7	candleholder
+sun_algkamzphkipsfil.jpg	4	1.290	0.292	1171.595	903.950	0.123	0.055	0.0	10	pot
+sun_algkamzphkipsfil.jpg	5	1.606	0.108	1143.410	880.000	0.094	0.022	0.0	7	candleholder
+sun_algkamzphkipsfil.jpg	5	1.606	0.108	1143.410	880.000	0.094	0.022	0.0	10	pot
+sun_algkamzphkipsfil.jpg	6	1.740	0.308	1213.510	810.765	0.161	0.064	0.0	2	blind
+sun_algkamzphkipsfil.jpg	6	1.740	0.308	1213.510	810.765	0.161	0.064	0.0	7	candleholder
+sun_algkamzphkipsfil.jpg	7	2.073	0.158	1324.100	743.240	0.160	0.026	0.0	2	blind
+sun_algkamzphkipsfil.jpg	8	2.265	0.417	1578.815	731.642	0.133	0.059	0.0	8	picture
+sun_algkamzphkipsfil.jpg	9	2.765	0.167	1510.755	986.800	0.116	0.024	0.0	1	bathtub crop

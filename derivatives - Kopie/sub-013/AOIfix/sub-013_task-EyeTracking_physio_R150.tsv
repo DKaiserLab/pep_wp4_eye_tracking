@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awhvlirgpcdffbsk.jpg	1	0.228	0.358	1216.395	739.575	0.075	0.025	0.0	6	glass
+sun_awhvlirgpcdffbsk.jpg	1	0.228	0.358	1216.395	739.575	0.075	0.025	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	1	0.228	0.358	1216.395	739.575	0.075	0.025	0.0	8	kitchen
+sun_awhvlirgpcdffbsk.jpg	2	0.604	0.400	1267.525	762.418	0.069	0.040	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	2	0.604	0.400	1267.525	762.418	0.069	0.040	0.0	12	napkin
+sun_awhvlirgpcdffbsk.jpg	3	1.020	0.108	1307.060	762.020	0.058	0.009	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	3	1.020	0.108	1307.060	762.020	0.058	0.009	0.0	8	kitchen
+sun_awhvlirgpcdffbsk.jpg	3	1.020	0.108	1307.060	762.020	0.058	0.009	0.0	12	napkin
+sun_awhvlirgpcdffbsk.jpg	4	1.154	0.217	1236.190	625.477	0.071	0.064	0.0	21	sink
+sun_awhvlirgpcdffbsk.jpg	4	1.154	0.217	1236.190	625.477	0.071	0.064	0.0	26	worktop
+sun_awhvlirgpcdffbsk.jpg	5	1.387	0.142	1203.520	568.345	0.088	0.026	0.0	25	window
+sun_awhvlirgpcdffbsk.jpg	6	1.545	0.308	1193.000	526.470	0.062	0.010	0.0	25	window
+sun_awhvlirgpcdffbsk.jpg	7	1.887	0.358	1463.505	604.625	0.081	0.029	0.0	14	paper roll
+sun_awhvlirgpcdffbsk.jpg	8	2.287	0.167	1514.935	633.405	0.083	0.061	0.0	11	microwave
+sun_awhvlirgpcdffbsk.jpg	9	2.479	0.225	1641.855	637.135	0.070	0.016	0.0	20	refrigerator
+sun_awhvlirgpcdffbsk.jpg	10	2.712	0.125	1623.255	630.155	0.063	0.029	0.0	20	refrigerator
+sun_awhvlirgpcdffbsk.jpg	11	2.862	0.142	1368.115	673.690	0.097	0.033	0.0	3	dishwasher

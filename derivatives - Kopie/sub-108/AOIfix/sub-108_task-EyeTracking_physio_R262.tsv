@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aykqizkgpgmqzxbh.jpg	1	0.400	0.175	1066.410	809.315	0.176	0.129	0.0	10	towel
+sun_aykqizkgpgmqzxbh.jpg	2	0.600	0.192	978.565	742.940	0.185	0.108	0.0	2	mirror
+sun_aykqizkgpgmqzxbh.jpg	3	0.817	0.208	1024.720	652.365	0.219	0.142	0.0	4	sconce
+sun_aykqizkgpgmqzxbh.jpg	4	1.042	0.325	1035.280	555.745	0.263	0.258	0.0	4	sconce
+sun_aykqizkgpgmqzxbh.jpg	5	1.400	0.525	1588.900	638.135	0.281	0.869	0.0	0	other
+sun_aykqizkgpgmqzxbh.jpg	6	1.950	0.367	1490.955	835.717	0.147	0.092	0.0	7	tissue box
+sun_aykqizkgpgmqzxbh.jpg	7	2.350	0.292	1065.360	798.245	0.133	0.134	0.0	10	towel
+sun_aykqizkgpgmqzxbh.jpg	8	2.667	0.267	1039.715	747.308	0.157	0.060	0.0	10	towel

@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acduarbnmmoglmiv.jpg	1	0.253	0.125	1181.340	752.275	0.141	0.048	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	1	0.253	0.125	1181.340	752.275	0.141	0.048	0.0	17	toilet
+sun_acduarbnmmoglmiv.jpg	2	0.395	0.500	1067.430	740.518	0.278	0.370	0.0	3	book
+sun_acduarbnmmoglmiv.jpg	2	0.395	0.500	1067.430	740.518	0.278	0.370	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	2	0.395	0.500	1067.430	740.518	0.278	0.370	0.0	17	toilet
+sun_acduarbnmmoglmiv.jpg	2	0.395	0.500	1067.430	740.518	0.278	0.370	0.0	19	tray
+sun_acduarbnmmoglmiv.jpg	3	1.178	0.183	1384.610	943.475	0.163	0.041	0.0	10	sculpture
+sun_acduarbnmmoglmiv.jpg	3	1.178	0.183	1384.610	943.475	0.163	0.041	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	4	1.387	0.225	1481.645	847.795	0.185	0.050	0.0	13	sink
+sun_acduarbnmmoglmiv.jpg	5	1.628	0.167	1567.570	745.357	0.265	0.075	0.0	8	jar
+sun_acduarbnmmoglmiv.jpg	5	1.628	0.167	1567.570	745.357	0.265	0.075	0.0	13	sink
+sun_acduarbnmmoglmiv.jpg	5	1.628	0.167	1567.570	745.357	0.265	0.075	0.0	14	soap bottle
+sun_acduarbnmmoglmiv.jpg	6	1.820	0.292	1579.370	616.265	0.121	0.038	0.0	9	mirror
+sun_acduarbnmmoglmiv.jpg	7	2.137	0.142	1510.445	570.875	0.103	0.027	0.0	0	other
+sun_acduarbnmmoglmiv.jpg	8	2.312	0.183	1255.595	505.490	0.075	0.029	0.0	0	other
+sun_acduarbnmmoglmiv.jpg	9	2.512	0.183	1190.207	497.070	0.077	0.020	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	10	2.712	0.217	1130.545	482.433	0.078	0.022	0.0	10	sculpture
+sun_acduarbnmmoglmiv.jpg	10	2.712	0.217	1130.545	482.433	0.078	0.022	0.0	12	shelves

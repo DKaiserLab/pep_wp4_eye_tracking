@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aydxycepjgosoubm.jpg	1	0.376	0.242	1324.060	849.190	0.074	0.016	0.0	8	range
+sun_aydxycepjgosoubm.jpg	2	0.659	0.283	952.243	711.990	0.139	0.037	0.0	0	other
+sun_aydxycepjgosoubm.jpg	3	1.001	0.267	1641.577	726.805	0.116	0.039	0.0	6	microwave
+sun_aydxycepjgosoubm.jpg	4	1.309	0.442	1366.800	577.600	0.121	0.039	0.0	4	extractor hood
+sun_aydxycepjgosoubm.jpg	5	1.793	0.283	1339.445	924.025	0.132	0.034	0.0	8	range
+sun_aydxycepjgosoubm.jpg	6	2.109	0.292	1654.495	776.965	0.117	0.039	0.0	6	microwave
+sun_aydxycepjgosoubm.jpg	6	2.109	0.292	1654.495	776.965	0.117	0.039	0.0	11	worktop
+sun_aydxycepjgosoubm.jpg	7	2.443	0.217	1276.408	699.758	0.097	0.015	0.0	0	other
+sun_aydxycepjgosoubm.jpg	8	2.693	0.292	916.580	765.280	0.128	0.030	0.0	10	water tank

@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajrwezxmmjejxsbt.jpg	1	0.247	0.100	1505.403	797.670	0.350	0.116	0.0	13	pitcher
+sun_ajrwezxmmjejxsbt.jpg	1	0.247	0.100	1505.403	797.670	0.350	0.116	0.0	16	refrigerator
+sun_ajrwezxmmjejxsbt.jpg	2	0.356	0.225	1579.185	899.135	0.259	0.117	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	3	0.606	0.233	1672.003	952.398	0.198	0.079	0.0	0	other
+sun_ajrwezxmmjejxsbt.jpg	4	0.847	0.308	1711.020	966.960	0.189	0.070	0.0	0	other
+sun_ajrwezxmmjejxsbt.jpg	5	1.189	0.208	1660.520	647.755	0.148	0.059	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	6	1.414	0.117	1655.910	572.265	0.158	0.053	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	7	1.547	0.217	1582.777	549.947	0.067	0.008	0.0	7	flowers
+sun_ajrwezxmmjejxsbt.jpg	8	1.789	0.183	1298.980	609.007	0.326	0.069	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	8	1.789	0.183	1298.980	609.007	0.326	0.069	0.0	14	plant
+sun_ajrwezxmmjejxsbt.jpg	9	1.997	0.167	1167.013	611.050	0.195	0.053	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	9	1.997	0.167	1167.013	611.050	0.195	0.053	0.0	14	plant
+sun_ajrwezxmmjejxsbt.jpg	10	2.189	0.242	1023.555	592.395	0.146	0.055	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	10	2.189	0.242	1023.555	592.395	0.146	0.055	0.0	10	mug
+sun_ajrwezxmmjejxsbt.jpg	10	2.189	0.242	1023.555	592.395	0.146	0.055	0.0	14	plant
+sun_ajrwezxmmjejxsbt.jpg	11	2.464	0.133	922.260	715.555	0.135	0.025	0.0	6	door
+sun_ajrwezxmmjejxsbt.jpg	12	2.622	0.242	868.840	946.675	0.120	0.072	0.0	6	door
+sun_ajrwezxmmjejxsbt.jpg	13	2.881	0.117	921.025	996.180	0.095	0.030	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	13	2.881	0.117	921.025	996.180	0.095	0.030	0.0	17	sofa

@@ -1,0 +1,29 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.112	0.225	1313.400	779.140	0.144	0.056	0.0	1	basket
+labelme_qglnhnudtmzmocz.jpg	1	0.112	0.225	1313.400	779.140	0.144	0.056	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	1	0.112	0.225	1313.400	779.140	0.144	0.056	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	1	0.112	0.225	1313.400	779.140	0.144	0.056	0.0	32	stool
+labelme_qglnhnudtmzmocz.jpg	2	0.354	0.217	1333.447	804.180	0.109	0.026	0.0	6	cake mold
+labelme_qglnhnudtmzmocz.jpg	2	0.354	0.217	1333.447	804.180	0.109	0.026	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	3	0.595	0.225	1404.315	824.120	0.154	0.035	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	3	0.595	0.225	1404.315	824.120	0.154	0.035	0.0	34	tray
+labelme_qglnhnudtmzmocz.jpg	4	0.845	0.183	1467.755	796.225	0.065	0.012	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	4	0.845	0.183	1467.755	796.225	0.065	0.012	0.0	11	cutting board
+labelme_qglnhnudtmzmocz.jpg	4	0.845	0.183	1467.755	796.225	0.065	0.012	0.0	30	spoons
+labelme_qglnhnudtmzmocz.jpg	5	1.054	0.192	1470.290	749.215	0.060	0.007	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	5	1.054	0.192	1470.290	749.215	0.060	0.007	0.0	11	cutting board
+labelme_qglnhnudtmzmocz.jpg	5	1.054	0.192	1470.290	749.215	0.060	0.007	0.0	30	spoons
+labelme_qglnhnudtmzmocz.jpg	6	1.270	0.242	1437.280	731.665	0.072	0.012	0.0	30	spoons
+labelme_qglnhnudtmzmocz.jpg	7	1.529	0.217	1357.395	724.985	0.090	0.035	0.0	1	basket
+labelme_qglnhnudtmzmocz.jpg	8	1.762	0.233	1301.900	733.815	0.120	0.035	0.0	1	basket
+labelme_qglnhnudtmzmocz.jpg	8	1.762	0.233	1301.900	733.815	0.120	0.035	0.0	32	stool
+labelme_qglnhnudtmzmocz.jpg	9	2.020	0.217	1261.638	756.933	0.072	0.011	0.0	1	basket
+labelme_qglnhnudtmzmocz.jpg	9	2.020	0.217	1261.638	756.933	0.072	0.011	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	9	2.020	0.217	1261.638	756.933	0.072	0.011	0.0	32	stool
+labelme_qglnhnudtmzmocz.jpg	10	2.445	0.300	1334.605	808.318	0.180	0.046	0.0	6	cake mold
+labelme_qglnhnudtmzmocz.jpg	10	2.445	0.300	1334.605	808.318	0.180	0.046	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	10	2.445	0.300	1334.605	808.318	0.180	0.046	0.0	34	tray
+labelme_qglnhnudtmzmocz.jpg	11	2.771	0.233	1399.318	833.217	0.203	0.065	0.0	7	cake
+labelme_qglnhnudtmzmocz.jpg	11	2.771	0.233	1399.318	833.217	0.203	0.065	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	11	2.771	0.233	1399.318	833.217	0.203	0.065	0.0	34	tray
+labelme_qglnhnudtmzmocz.jpg	11	2.771	0.233	1399.318	833.217	0.203	0.065	0.0	37	worktop

@@ -1,0 +1,25 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acduarbnmmoglmiv.jpg	1	0.103	0.242	1528.220	652.615	0.149	0.082	0.0	9	mirror
+sun_acduarbnmmoglmiv.jpg	1	0.103	0.242	1528.220	652.615	0.149	0.082	0.0	14	soap bottle
+sun_acduarbnmmoglmiv.jpg	2	0.370	0.250	1596.240	692.800	0.069	0.028	0.0	9	mirror
+sun_acduarbnmmoglmiv.jpg	3	0.637	0.200	1618.983	731.705	0.101	0.083	0.0	8	jar
+sun_acduarbnmmoglmiv.jpg	3	0.637	0.200	1618.983	731.705	0.101	0.083	0.0	13	sink
+sun_acduarbnmmoglmiv.jpg	4	0.862	0.342	1560.475	721.515	0.059	0.022	0.0	13	sink
+sun_acduarbnmmoglmiv.jpg	4	0.862	0.342	1560.475	721.515	0.059	0.022	0.0	14	soap bottle
+sun_acduarbnmmoglmiv.jpg	5	1.228	0.300	1490.235	708.347	0.066	0.011	0.0	11	shaving brush
+sun_acduarbnmmoglmiv.jpg	5	1.228	0.300	1490.235	708.347	0.066	0.011	0.0	13	sink
+sun_acduarbnmmoglmiv.jpg	6	1.545	0.325	1599.200	726.620	0.097	0.040	0.0	8	jar
+sun_acduarbnmmoglmiv.jpg	6	1.545	0.325	1599.200	726.620	0.097	0.040	0.0	13	sink
+sun_acduarbnmmoglmiv.jpg	7	1.887	0.258	1550.585	727.180	0.112	0.035	0.0	13	sink
+sun_acduarbnmmoglmiv.jpg	7	1.887	0.258	1550.585	727.180	0.112	0.035	0.0	14	soap bottle
+sun_acduarbnmmoglmiv.jpg	8	2.237	0.158	1366.435	666.235	0.066	0.015	0.0	6	brush
+sun_acduarbnmmoglmiv.jpg	8	2.237	0.158	1366.435	666.235	0.066	0.015	0.0	8	jar
+sun_acduarbnmmoglmiv.jpg	8	2.237	0.158	1366.435	666.235	0.066	0.015	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	9	2.537	0.100	1392.695	669.213	0.055	0.010	0.0	4	bottle
+sun_acduarbnmmoglmiv.jpg	9	2.537	0.100	1392.695	669.213	0.055	0.010	0.0	6	brush
+sun_acduarbnmmoglmiv.jpg	9	2.537	0.100	1392.695	669.213	0.055	0.010	0.0	7	canister
+sun_acduarbnmmoglmiv.jpg	9	2.537	0.100	1392.695	669.213	0.055	0.010	0.0	8	jar
+sun_acduarbnmmoglmiv.jpg	9	2.537	0.100	1392.695	669.213	0.055	0.010	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	10	2.645	0.233	1357.120	724.712	0.148	0.057	0.0	7	canister
+sun_acduarbnmmoglmiv.jpg	10	2.645	0.233	1357.120	724.712	0.148	0.057	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	10	2.645	0.233	1357.120	724.712	0.148	0.057	0.0	16	toilet paper

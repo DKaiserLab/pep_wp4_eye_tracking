@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anzbjguxdgpobefx.jpg	1	0.568	0.183	1137.915	778.770	0.200	0.085	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	2	0.777	0.275	1294.975	752.265	0.094	0.043	0.0	5	kettle
+sun_anzbjguxdgpobefx.jpg	3	1.077	0.208	1378.670	702.560	0.104	0.021	0.0	7	outlet
+sun_anzbjguxdgpobefx.jpg	4	1.327	0.250	1121.618	793.693	0.082	0.024	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	5	1.585	0.283	1146.665	801.648	0.079	0.035	0.0	8	plate
+sun_anzbjguxdgpobefx.jpg	5	1.585	0.283	1146.665	801.648	0.079	0.035	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	6	1.885	0.342	995.105	766.710	0.114	0.091	0.0	11	toaster
+sun_anzbjguxdgpobefx.jpg	7	2.252	0.275	892.470	750.910	0.085	0.073	0.0	7	outlet
+sun_anzbjguxdgpobefx.jpg	8	2.577	0.258	1201.405	741.380	0.066	0.033	0.0	0	other
+sun_anzbjguxdgpobefx.jpg	9	2.860	0.142	1378.165	697.475	0.189	0.055	0.0	7	outlet

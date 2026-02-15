@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alkabxwdzpdmkuvo.jpg	1	0.449	0.242	1200.700	659.545	0.226	0.084	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	2	0.708	0.175	1262.025	718.250	0.156	0.031	0.0	4	column
+sun_alkabxwdzpdmkuvo.jpg	2	0.708	0.175	1262.025	718.250	0.156	0.031	0.0	11	sconce
+sun_alkabxwdzpdmkuvo.jpg	3	0.908	0.167	1442.100	738.210	0.221	0.075	0.0	6	curtain
+sun_alkabxwdzpdmkuvo.jpg	3	0.908	0.167	1442.100	738.210	0.221	0.075	0.0	21	window
+sun_alkabxwdzpdmkuvo.jpg	4	1.091	0.333	1558.592	746.740	0.149	0.068	0.0	6	curtain
+sun_alkabxwdzpdmkuvo.jpg	5	1.441	0.167	1511.710	816.420	0.140	0.053	0.0	12	shelf
+sun_alkabxwdzpdmkuvo.jpg	6	1.624	0.208	1462.665	862.335	0.194	0.056	0.0	1	bathtub
+sun_alkabxwdzpdmkuvo.jpg	6	1.624	0.208	1462.665	862.335	0.194	0.056	0.0	8	plant
+sun_alkabxwdzpdmkuvo.jpg	7	1.849	0.175	1351.445	868.325	0.185	0.086	0.0	1	bathtub
+sun_alkabxwdzpdmkuvo.jpg	8	2.041	0.208	1265.010	855.605	0.134	0.042	0.0	1	bathtub
+sun_alkabxwdzpdmkuvo.jpg	8	2.041	0.208	1265.010	855.605	0.134	0.042	0.0	4	column
+sun_alkabxwdzpdmkuvo.jpg	9	2.266	0.192	1214.960	823.805	0.114	0.026	0.0	1	bathtub
+sun_alkabxwdzpdmkuvo.jpg	9	2.266	0.192	1214.960	823.805	0.114	0.026	0.0	15	statue
+sun_alkabxwdzpdmkuvo.jpg	9	2.266	0.192	1214.960	823.805	0.114	0.026	0.0	20	vase
+sun_alkabxwdzpdmkuvo.jpg	10	2.474	0.167	1177.577	801.065	0.213	0.052	0.0	7	flowers
+sun_alkabxwdzpdmkuvo.jpg	10	2.474	0.167	1177.577	801.065	0.213	0.052	0.0	15	statue
+sun_alkabxwdzpdmkuvo.jpg	10	2.474	0.167	1177.577	801.065	0.213	0.052	0.0	20	vase
+sun_alkabxwdzpdmkuvo.jpg	11	2.658	0.200	1036.173	819.558	0.180	0.067	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	12	2.874	0.125	956.715	847.970	0.137	0.032	0.0	13	shower screen
+sun_alkabxwdzpdmkuvo.jpg	12	2.874	0.125	956.715	847.970	0.137	0.032	0.0	18	towel

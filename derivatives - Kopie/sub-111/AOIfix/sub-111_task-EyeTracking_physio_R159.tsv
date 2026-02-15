@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atfmueokdeplnsdy.jpg	1	0.251	0.442	1309.865	754.940	0.110	0.056	0.0	16	plant
+sun_atfmueokdeplnsdy.jpg	1	0.251	0.442	1309.865	754.940	0.110	0.056	0.0	20	sink
+sun_atfmueokdeplnsdy.jpg	1	0.251	0.442	1309.865	754.940	0.110	0.056	0.0	21	stove
+sun_atfmueokdeplnsdy.jpg	1	0.251	0.442	1309.865	754.940	0.110	0.056	0.0	23	teapot
+sun_atfmueokdeplnsdy.jpg	1	0.251	0.442	1309.865	754.940	0.110	0.056	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	2	0.718	0.167	1186.865	732.273	0.109	0.027	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	2	0.718	0.167	1186.865	732.273	0.109	0.027	0.0	7	containers
+sun_atfmueokdeplnsdy.jpg	2	0.718	0.167	1186.865	732.273	0.109	0.027	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	3	0.918	0.192	1119.710	735.595	0.091	0.027	0.0	2	bowl
+sun_atfmueokdeplnsdy.jpg	3	0.918	0.192	1119.710	735.595	0.091	0.027	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	4	1.143	0.350	1135.523	660.742	0.156	0.042	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	4	1.143	0.350	1135.523	660.742	0.156	0.042	0.0	6	chandelier
+sun_atfmueokdeplnsdy.jpg	5	1.518	0.992	1150.280	647.360	0.142	0.052	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	5	1.518	0.992	1150.280	647.360	0.142	0.052	0.0	6	chandelier
+sun_atfmueokdeplnsdy.jpg	6	2.526	0.217	1105.760	661.217	0.135	0.030	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	6	2.526	0.217	1105.760	661.217	0.135	0.030	0.0	6	chandelier
+sun_atfmueokdeplnsdy.jpg	7	2.760	0.250	1122.847	753.915	0.127	0.028	0.0	2	bowl
+sun_atfmueokdeplnsdy.jpg	7	2.760	0.250	1122.847	753.915	0.127	0.028	0.0	13	kitchen island
+sun_atfmueokdeplnsdy.jpg	7	2.760	0.250	1122.847	753.915	0.127	0.028	0.0	29	worktop

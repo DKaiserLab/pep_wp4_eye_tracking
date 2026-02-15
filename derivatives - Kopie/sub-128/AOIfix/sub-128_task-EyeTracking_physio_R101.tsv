@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agxuuvqtddjgypyr.jpg	1	0.313	0.225	1341.760	723.270	0.075	0.031	0.0	4	cabinet
+sun_agxuuvqtddjgypyr.jpg	2	0.738	0.208	1697.980	776.525	0.085	0.027	0.0	13	range
+sun_agxuuvqtddjgypyr.jpg	3	0.971	0.333	1664.880	604.105	0.103	0.042	0.0	13	range
+sun_agxuuvqtddjgypyr.jpg	4	1.346	0.258	1169.820	500.380	0.105	0.025	0.0	19	window
+sun_agxuuvqtddjgypyr.jpg	5	1.663	0.167	1062.953	554.615	0.077	0.013	0.0	16	soap bottle
+sun_agxuuvqtddjgypyr.jpg	5	1.663	0.167	1062.953	554.615	0.077	0.013	0.0	19	window
+sun_agxuuvqtddjgypyr.jpg	6	1.871	0.317	1037.295	848.680	0.114	0.041	0.0	4	cabinet
+sun_agxuuvqtddjgypyr.jpg	7	2.246	0.300	1496.287	953.872	0.081	0.016	0.0	14	rug
+sun_agxuuvqtddjgypyr.jpg	8	2.580	0.200	1616.330	801.987	0.096	0.026	0.0	1	baseboard
+sun_agxuuvqtddjgypyr.jpg	9	2.813	0.208	1538.290	589.070	0.118	0.039	0.0	4	cabinet

@@ -1,0 +1,5 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aelpnoofufvvqqhf.jpg	1	0.401	0.167	1287.253	679.235	0.141	0.184	0.0	4	cabinet
+sun_aelpnoofufvvqqhf.jpg	2	0.584	0.725	1166.055	898.540	1.814	24.085	11.5	14	range
+sun_aelpnoofufvvqqhf.jpg	3	1.609	0.125	1271.770	889.660	0.922	3.065	0.0	4	cabinet
+sun_aelpnoofufvvqqhf.jpg	4	1.743	0.383	1338.025	1323.345	2.009	27.638	26.1	-1	off stimulus

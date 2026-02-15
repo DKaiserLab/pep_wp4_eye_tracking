@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aarslpsdvwwqyohc.jpg	1	0.301	0.183	1291.158	793.727	0.149	0.057	0.0	0	other
+sun_aarslpsdvwwqyohc.jpg	2	0.509	0.208	1230.290	819.045	0.154	0.061	0.0	0	other
+sun_aarslpsdvwwqyohc.jpg	3	0.734	0.400	1458.562	818.702	0.208	0.071	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	3	0.734	0.400	1458.562	818.702	0.208	0.071	0.0	15	razor
+sun_aarslpsdvwwqyohc.jpg	4	1.159	0.292	1475.980	724.825	0.120	0.027	0.0	14	outlet
+sun_aarslpsdvwwqyohc.jpg	5	1.484	0.250	1088.203	964.805	0.116	0.028	0.0	5	cabinet
+sun_aarslpsdvwwqyohc.jpg	5	1.484	0.250	1088.203	964.805	0.116	0.028	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	6	1.751	0.233	1058.050	969.000	0.127	0.029	0.0	5	cabinet
+sun_aarslpsdvwwqyohc.jpg	6	1.751	0.233	1058.050	969.000	0.127	0.029	0.0	19	toilet paper
+sun_aarslpsdvwwqyohc.jpg	7	2.001	0.283	949.232	994.872	0.122	0.037	0.0	1	bucket crop
+sun_aarslpsdvwwqyohc.jpg	8	2.301	0.408	994.940	1005.300	0.117	0.048	0.0	1	bucket crop
+sun_aarslpsdvwwqyohc.jpg	9	2.734	0.267	875.358	986.670	0.097	0.033	0.0	6	cistern crop

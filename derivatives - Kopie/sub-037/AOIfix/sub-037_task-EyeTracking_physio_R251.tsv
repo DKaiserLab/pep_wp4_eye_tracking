@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahqrrgokszxtlsyi.jpg	1	0.368	0.117	1145.670	596.245	0.098	0.039	0.0	16	wood
+sun_ahqrrgokszxtlsyi.jpg	2	0.509	0.192	1322.860	575.765	0.101	0.043	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	3	0.718	0.383	1276.305	635.120	0.094	0.030	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	4	1.118	0.158	1260.400	778.820	0.163	0.065	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	5	1.293	0.225	1177.905	831.630	0.097	0.034	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	6	1.543	0.250	1263.150	919.652	0.106	0.056	0.0	8	mitten
+sun_ahqrrgokszxtlsyi.jpg	7	1.818	0.250	1156.867	964.935	0.109	0.064	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	8	2.101	0.442	1434.820	806.685	0.136	0.070	0.0	11	refrigerator
+sun_ahqrrgokszxtlsyi.jpg	9	2.551	0.125	1399.890	818.505	0.123	0.023	0.0	11	refrigerator
+sun_ahqrrgokszxtlsyi.jpg	10	2.718	0.250	1581.375	532.680	0.086	0.029	0.0	12	semi-flush mount light

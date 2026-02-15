@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aryemauxglpckieh.jpg	1	0.299	0.183	1241.050	685.175	0.094	0.078	0.0	12	kitchen
+sun_aryemauxglpckieh.jpg	1	0.299	0.183	1241.050	685.175	0.094	0.078	0.0	32	worktop
+sun_aryemauxglpckieh.jpg	2	0.499	0.150	1088.785	668.233	0.127	0.039	0.0	2	cabinet
+sun_aryemauxglpckieh.jpg	2	0.499	0.150	1088.785	668.233	0.127	0.039	0.0	16	oven
+sun_aryemauxglpckieh.jpg	3	0.682	0.408	941.195	694.080	0.144	0.102	0.0	2	cabinet
+sun_aryemauxglpckieh.jpg	3	0.682	0.408	941.195	694.080	0.144	0.102	0.0	6	door
+sun_aryemauxglpckieh.jpg	3	0.682	0.408	941.195	694.080	0.144	0.102	0.0	16	oven
+sun_aryemauxglpckieh.jpg	4	1.107	0.325	964.855	778.675	0.129	0.049	0.0	10	kitchen island
+sun_aryemauxglpckieh.jpg	4	1.107	0.325	964.855	778.675	0.129	0.049	0.0	16	oven
+sun_aryemauxglpckieh.jpg	5	1.449	0.242	1006.105	829.210	0.094	0.024	0.0	10	kitchen island
+sun_aryemauxglpckieh.jpg	6	1.707	0.275	1066.170	887.440	0.104	0.033	0.0	10	kitchen island
+sun_aryemauxglpckieh.jpg	6	1.707	0.275	1066.170	887.440	0.104	0.033	0.0	25	stool
+sun_aryemauxglpckieh.jpg	7	2.007	0.158	1144.210	908.640	0.111	0.022	0.0	10	kitchen island
+sun_aryemauxglpckieh.jpg	7	2.007	0.158	1144.210	908.640	0.111	0.022	0.0	24	stoo
+sun_aryemauxglpckieh.jpg	8	2.199	0.233	1323.590	838.930	0.078	0.041	0.0	10	kitchen island
+sun_aryemauxglpckieh.jpg	9	2.449	0.200	1469.408	795.967	0.092	0.025	0.0	2	cabinet
+sun_aryemauxglpckieh.jpg	10	2.674	0.208	1559.015	732.350	0.082	0.019	0.0	22	sink
+sun_aryemauxglpckieh.jpg	10	2.674	0.208	1559.015	732.350	0.082	0.019	0.0	32	worktop
+sun_aryemauxglpckieh.jpg	11	2.899	0.108	1648.490	704.405	0.089	0.022	0.0	15	napkin rack
+sun_aryemauxglpckieh.jpg	11	2.899	0.108	1648.490	704.405	0.089	0.022	0.0	17	paper roll

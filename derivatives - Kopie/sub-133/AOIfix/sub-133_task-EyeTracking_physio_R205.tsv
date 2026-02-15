@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azkonpsbldzbkqim.jpg	1	0.255	0.200	1315.988	789.900	0.206	0.132	0.0	5	faucet
+sun_azkonpsbldzbkqim.jpg	1	0.255	0.200	1315.988	789.900	0.206	0.132	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	2	0.489	0.217	1377.762	830.273	0.080	0.042	0.0	5	faucet
+sun_azkonpsbldzbkqim.jpg	2	0.489	0.217	1377.762	830.273	0.080	0.042	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	3	0.739	0.300	1496.995	861.452	0.080	0.037	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	3	0.739	0.300	1496.995	861.452	0.080	0.037	0.0	10	towel
+sun_azkonpsbldzbkqim.jpg	4	1.055	0.267	1479.380	862.835	0.085	0.016	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	4	1.055	0.267	1479.380	862.835	0.085	0.016	0.0	10	towel
+sun_azkonpsbldzbkqim.jpg	5	1.356	0.225	1147.810	839.285	0.107	0.052	0.0	3	cabinet
+sun_azkonpsbldzbkqim.jpg	5	1.356	0.225	1147.810	839.285	0.107	0.052	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	6	1.639	0.250	1044.152	857.273	0.077	0.017	0.0	0	other
+sun_azkonpsbldzbkqim.jpg	7	1.922	0.283	998.618	943.872	0.107	0.043	0.0	2	bathtub crop
+sun_azkonpsbldzbkqim.jpg	8	2.239	0.200	1495.460	853.165	0.126	0.137	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	8	2.239	0.200	1495.460	853.165	0.126	0.137	0.0	10	towel
+sun_azkonpsbldzbkqim.jpg	9	2.464	0.258	1600.705	806.160	0.108	0.054	0.0	4	candle
+sun_azkonpsbldzbkqim.jpg	9	2.464	0.258	1600.705	806.160	0.108	0.054	0.0	11	window crop
+sun_azkonpsbldzbkqim.jpg	10	2.756	0.250	1683.225	865.000	0.126	0.043	0.0	8	outlet

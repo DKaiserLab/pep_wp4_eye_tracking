@@ -1,0 +1,5 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajnzlaendvxbrnmy.jpg	1	0.216	0.442	1279.215	645.895	0.069	0.032	0.0	9	towel rack
+sun_ajnzlaendvxbrnmy.jpg	2	0.683	0.217	1261.105	595.915	0.068	0.013	0.0	0	other
+sun_ajnzlaendvxbrnmy.jpg	3	0.924	0.692	1203.530	562.905	0.067	0.034	0.0	10	window
+sun_ajnzlaendvxbrnmy.jpg	4	1.641	1.283	1144.318	661.640	0.072	0.016	0.0	9	towel rack

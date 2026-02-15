@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahqykyyouxkgmdnq.jpg	1	0.264	0.200	1233.778	669.423	0.162	0.050	0.0	1	blind
+sun_ahqykyyouxkgmdnq.jpg	1	0.264	0.200	1233.778	669.423	0.162	0.050	0.0	5	door
+sun_ahqykyyouxkgmdnq.jpg	2	0.489	0.158	1051.920	657.475	0.137	0.048	0.0	3	cabinet
+sun_ahqykyyouxkgmdnq.jpg	3	0.664	0.233	1017.692	758.348	0.144	0.055	0.0	14	worktop
+sun_ahqykyyouxkgmdnq.jpg	4	0.914	0.225	1039.475	786.555	0.199	0.063	0.0	12	sink
+sun_ahqykyyouxkgmdnq.jpg	4	0.914	0.225	1039.475	786.555	0.199	0.063	0.0	14	worktop
+sun_ahqykyyouxkgmdnq.jpg	5	1.173	0.275	1472.510	679.795	0.148	0.075	0.0	0	other
+sun_ahqykyyouxkgmdnq.jpg	6	1.473	0.158	1503.645	718.585	0.091	0.020	0.0	10	range
+sun_ahqykyyouxkgmdnq.jpg	6	1.473	0.158	1503.645	718.585	0.091	0.020	0.0	14	worktop
+sun_ahqykyyouxkgmdnq.jpg	7	1.648	0.283	1527.645	724.565	0.151	0.044	0.0	10	range
+sun_ahqykyyouxkgmdnq.jpg	8	1.973	0.442	1532.430	582.935	0.110	0.028	0.0	3	cabinet
+sun_ahqykyyouxkgmdnq.jpg	8	1.973	0.442	1532.430	582.935	0.110	0.028	0.0	7	extractor hood
+sun_ahqykyyouxkgmdnq.jpg	9	2.431	0.267	1386.065	586.502	0.107	0.047	0.0	3	cabinet
+sun_ahqykyyouxkgmdnq.jpg	10	2.723	0.125	1261.220	583.365	0.110	0.022	0.0	1	blind
+sun_ahqykyyouxkgmdnq.jpg	10	2.723	0.125	1261.220	583.365	0.110	0.022	0.0	5	door
+sun_ahqykyyouxkgmdnq.jpg	11	2.864	0.142	1294.615	496.220	0.132	0.029	0.0	11	semi-flush mount light

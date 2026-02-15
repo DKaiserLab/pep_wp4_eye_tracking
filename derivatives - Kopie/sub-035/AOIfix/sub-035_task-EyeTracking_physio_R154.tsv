@@ -1,0 +1,6 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_admyjjnxxddpqaud.jpg	1	0.488	0.725	1329.620	807.155	0.284	0.110	0.0	5	range
+sun_admyjjnxxddpqaud.jpg	2	1.246	0.275	1337.400	634.910	0.085	0.022	0.0	0	other
+sun_admyjjnxxddpqaud.jpg	3	1.563	0.483	1246.190	718.670	0.116	0.023	0.0	0	other
+sun_admyjjnxxddpqaud.jpg	4	2.071	0.708	1355.520	813.935	0.349	0.112	0.0	5	range
+sun_admyjjnxxddpqaud.jpg	5	2.813	0.133	1338.562	538.965	0.093	0.012	0.0	3	extractor hood

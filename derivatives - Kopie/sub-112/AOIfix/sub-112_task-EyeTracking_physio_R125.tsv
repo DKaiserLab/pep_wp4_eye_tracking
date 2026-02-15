@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apmpdqangkfvwrpn.jpg	1	0.130	0.217	1288.560	682.483	0.103	0.038	0.0	0	other
+sun_apmpdqangkfvwrpn.jpg	2	0.380	0.308	1588.085	608.115	0.101	0.035	0.0	2	cabinet
+sun_apmpdqangkfvwrpn.jpg	3	0.713	0.167	1616.835	553.572	0.127	0.035	0.0	0	other
+sun_apmpdqangkfvwrpn.jpg	4	0.913	0.117	1263.932	448.137	0.095	0.045	0.0	11	light troffer
+sun_apmpdqangkfvwrpn.jpg	5	1.055	0.333	996.798	468.645	0.119	0.096	0.0	6	curtain
+sun_apmpdqangkfvwrpn.jpg	6	1.446	0.150	1161.338	994.717	0.253	0.107	0.0	0	other
+sun_apmpdqangkfvwrpn.jpg	7	1.630	0.158	974.165	778.930	0.242	0.127	0.0	6	curtain
+sun_apmpdqangkfvwrpn.jpg	7	1.630	0.158	974.165	778.930	0.242	0.127	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	8	1.830	0.200	919.572	560.990	0.116	0.027	0.0	2	cabinet
+sun_apmpdqangkfvwrpn.jpg	9	2.055	0.375	924.885	504.795	0.082	0.021	0.0	2	cabinet
+sun_apmpdqangkfvwrpn.jpg	9	2.055	0.375	924.885	504.795	0.082	0.021	0.0	6	curtain
+sun_apmpdqangkfvwrpn.jpg	10	2.446	0.383	1017.940	589.538	0.101	0.089	0.0	2	cabinet
+sun_apmpdqangkfvwrpn.jpg	10	2.446	0.383	1017.940	589.538	0.101	0.089	0.0	6	curtain
+sun_apmpdqangkfvwrpn.jpg	11	2.846	0.158	907.090	747.085	0.285	0.095	0.0	6	curtain

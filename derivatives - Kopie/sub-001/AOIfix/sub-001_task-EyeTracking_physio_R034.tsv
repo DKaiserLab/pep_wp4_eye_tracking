@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwvdhqsbtcesevi.jpg	1	0.461	0.367	1072.898	788.103	0.116	0.046	0.0	6	glass
+sun_akwvdhqsbtcesevi.jpg	2	0.853	0.217	1025.633	803.675	0.143	0.059	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	3	1.094	0.508	1120.625	856.530	0.233	0.064	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	4	1.644	0.233	1147.653	606.257	0.068	0.019	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	4	1.644	0.233	1147.653	606.257	0.068	0.019	0.0	8	microwave
+sun_akwvdhqsbtcesevi.jpg	5	1.911	0.817	1466.918	642.192	0.096	0.062	0.0	20	window
+sun_akwvdhqsbtcesevi.jpg	6	2.761	0.242	1164.550	700.170	0.092	0.022	0.0	1	blender
+sun_akwvdhqsbtcesevi.jpg	6	2.761	0.242	1164.550	700.170	0.092	0.022	0.0	14	range
+sun_akwvdhqsbtcesevi.jpg	6	2.761	0.242	1164.550	700.170	0.092	0.022	0.0	21	worktop

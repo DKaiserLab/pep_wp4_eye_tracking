@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajnvbqoszcilcmds.jpg	1	0.804	0.117	1170.108	909.885	0.305	0.826	0.0	0	other
+sun_ajnvbqoszcilcmds.jpg	2	0.954	0.108	1032.965	819.245	0.229	0.142	0.0	8	worktop
+sun_ajnvbqoszcilcmds.jpg	3	1.095	0.167	916.360	759.763	0.160	0.067	0.0	8	worktop
+sun_ajnvbqoszcilcmds.jpg	4	1.287	0.208	968.300	590.700	0.142	0.047	0.0	1	cabinet
+sun_ajnvbqoszcilcmds.jpg	5	1.529	0.175	1061.660	549.390	0.085	0.024	0.0	6	range
+sun_ajnvbqoszcilcmds.jpg	6	1.754	0.192	1166.170	549.860	0.079	0.028	0.0	6	range
+sun_ajnvbqoszcilcmds.jpg	7	1.970	0.183	1388.870	565.608	0.139	0.052	0.0	7	refrigerator
+sun_ajnvbqoszcilcmds.jpg	8	2.170	0.358	1549.880	559.840	0.222	0.097	0.0	3	door
+sun_ajnvbqoszcilcmds.jpg	9	2.570	0.158	1473.665	503.325	0.075	0.028	0.0	7	refrigerator
+sun_ajnvbqoszcilcmds.jpg	10	2.762	0.192	1385.185	465.365	0.095	0.042	0.0	7	refrigerator

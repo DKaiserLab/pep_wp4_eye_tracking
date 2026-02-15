@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akzfjiqikzlwlbaq.jpg	1	0.253	0.117	1246.025	865.775	0.185	0.095	0.0	12	toilet
+sun_akzfjiqikzlwlbaq.jpg	2	0.394	0.267	1304.492	926.627	0.137	0.054	0.0	2	bidet
+sun_akzfjiqikzlwlbaq.jpg	2	0.394	0.267	1304.492	926.627	0.137	0.054	0.0	8	sink
+sun_akzfjiqikzlwlbaq.jpg	2	0.394	0.267	1304.492	926.627	0.137	0.054	0.0	11	toilet paper
+sun_akzfjiqikzlwlbaq.jpg	3	0.678	0.317	1303.887	898.548	0.128	0.086	0.0	8	sink
+sun_akzfjiqikzlwlbaq.jpg	3	0.678	0.317	1303.887	898.548	0.128	0.086	0.0	11	toilet paper
+sun_akzfjiqikzlwlbaq.jpg	3	0.678	0.317	1303.887	898.548	0.128	0.086	0.0	12	toilet
+sun_akzfjiqikzlwlbaq.jpg	4	1.019	0.400	1337.165	803.615	0.110	0.047	0.0	11	toilet paper
+sun_akzfjiqikzlwlbaq.jpg	4	1.019	0.400	1337.165	803.615	0.110	0.047	0.0	12	toilet
+sun_akzfjiqikzlwlbaq.jpg	5	1.436	0.658	1328.410	785.445	0.085	0.043	0.0	11	toilet paper
+sun_akzfjiqikzlwlbaq.jpg	5	1.436	0.658	1328.410	785.445	0.085	0.043	0.0	12	toilet
+sun_akzfjiqikzlwlbaq.jpg	5	1.436	0.658	1328.410	785.445	0.085	0.043	0.0	13	towel
+sun_akzfjiqikzlwlbaq.jpg	6	2.128	0.300	1358.335	782.390	0.062	0.012	0.0	11	toilet paper
+sun_akzfjiqikzlwlbaq.jpg	6	2.128	0.300	1358.335	782.390	0.062	0.012	0.0	12	toilet
+sun_akzfjiqikzlwlbaq.jpg	6	2.128	0.300	1358.335	782.390	0.062	0.012	0.0	13	towel
+sun_akzfjiqikzlwlbaq.jpg	7	2.478	0.308	1274.060	897.685	0.086	0.025	0.0	11	toilet paper
+sun_akzfjiqikzlwlbaq.jpg	7	2.478	0.308	1274.060	897.685	0.086	0.025	0.0	12	toilet
+sun_akzfjiqikzlwlbaq.jpg	8	2.811	0.192	1299.505	906.045	0.119	0.019	0.0	2	bidet
+sun_akzfjiqikzlwlbaq.jpg	8	2.811	0.192	1299.505	906.045	0.119	0.019	0.0	8	sink
+sun_akzfjiqikzlwlbaq.jpg	8	2.811	0.192	1299.505	906.045	0.119	0.019	0.0	11	toilet paper
+sun_akzfjiqikzlwlbaq.jpg	8	2.811	0.192	1299.505	906.045	0.119	0.019	0.0	12	toilet

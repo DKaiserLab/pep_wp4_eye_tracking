@@ -1,0 +1,4 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahdycvpopffkzzsu.jpg	1	0.199	0.608	1391.105	705.870	0.332	1.857	0.0	10	toaster
+sun_ahdycvpopffkzzsu.jpg	2	0.816	0.350	1108.275	712.225	0.906	5.368	2.4	11	window
+sun_ahdycvpopffkzzsu.jpg	3	1.174	0.317	902.990	928.680	3.617	19.700	28.9	0	other

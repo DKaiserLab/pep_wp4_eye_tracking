@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axuvsdqqnoevzlud.jpg	1	0.281	0.200	1124.852	746.982	0.082	0.035	0.0	11	dishwasher
+sun_axuvsdqqnoevzlud.jpg	2	0.515	0.258	1029.865	630.435	0.087	0.026	0.0	3	bottle
+sun_axuvsdqqnoevzlud.jpg	2	0.515	0.258	1029.865	630.435	0.087	0.026	0.0	9	champagne bucket
+sun_axuvsdqqnoevzlud.jpg	2	0.515	0.258	1029.865	630.435	0.087	0.026	0.0	26	window
+sun_axuvsdqqnoevzlud.jpg	3	0.798	0.217	894.000	697.310	0.066	0.034	0.0	0	other
+sun_axuvsdqqnoevzlud.jpg	4	1.023	0.150	898.140	724.195	0.103	0.032	0.0	0	other
+sun_axuvsdqqnoevzlud.jpg	5	1.206	0.292	993.480	958.205	0.092	0.062	0.0	0	other
+sun_axuvsdqqnoevzlud.jpg	6	1.515	0.158	1102.665	975.900	0.137	0.065	0.0	22	table crop
+sun_axuvsdqqnoevzlud.jpg	7	1.706	0.292	1446.000	705.280	0.125	0.198	0.0	16	kitchen island
+sun_axuvsdqqnoevzlud.jpg	7	1.706	0.292	1446.000	705.280	0.125	0.198	0.0	27	worktop
+sun_axuvsdqqnoevzlud.jpg	8	2.023	0.325	1495.520	656.345	0.081	0.027	0.0	15	kettle
+sun_axuvsdqqnoevzlud.jpg	8	2.023	0.325	1495.520	656.345	0.081	0.027	0.0	21	stove
+sun_axuvsdqqnoevzlud.jpg	9	2.365	0.467	1436.845	618.210	0.090	0.060	0.0	24	urn
+sun_axuvsdqqnoevzlud.jpg	10	2.856	0.142	1637.845	586.015	0.110	0.029	0.0	0	other

@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aijkdpqohzcmjsco.jpg	1	0.381	0.275	1292.690	782.610	0.104	0.052	0.0	0	other
+sun_aijkdpqohzcmjsco.jpg	2	0.681	0.508	1177.380	650.725	0.102	0.036	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	2	0.681	0.508	1177.380	650.725	0.102	0.036	0.0	5	fluorescent tube
+sun_aijkdpqohzcmjsco.jpg	3	1.206	0.250	1180.037	716.678	0.099	0.018	0.0	0	other
+sun_aijkdpqohzcmjsco.jpg	4	1.472	0.267	1161.560	736.035	0.083	0.019	0.0	0	other
+sun_aijkdpqohzcmjsco.jpg	5	1.764	0.167	1107.967	725.043	0.076	0.013	0.0	12	outlet
+sun_aijkdpqohzcmjsco.jpg	6	1.956	0.208	1096.795	725.715	0.086	0.015	0.0	12	outlet
+sun_aijkdpqohzcmjsco.jpg	7	2.331	0.217	1074.238	791.915	0.680	0.640	0.0	3	dishcloth
+sun_aijkdpqohzcmjsco.jpg	7	2.331	0.217	1074.238	791.915	0.680	0.640	0.0	23	worktop
+sun_aijkdpqohzcmjsco.jpg	8	2.556	0.233	1089.153	778.415	0.094	0.017	0.0	3	dishcloth
+sun_aijkdpqohzcmjsco.jpg	8	2.556	0.233	1089.153	778.415	0.094	0.017	0.0	23	worktop
+sun_aijkdpqohzcmjsco.jpg	9	2.839	0.167	1308.460	780.592	0.127	0.025	0.0	16	refrigerator

@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aowvammdqpmypflg.jpg	1	0.303	0.475	1081.375	668.520	0.113	0.053	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	1	0.303	0.475	1081.375	668.520	0.113	0.053	0.0	15	window
+sun_aowvammdqpmypflg.jpg	2	0.811	0.367	1441.888	624.112	0.158	0.049	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	2	0.811	0.367	1441.888	624.112	0.158	0.049	0.0	6	extractor hood
+sun_aowvammdqpmypflg.jpg	3	1.211	0.217	1495.830	640.347	0.121	0.022	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	3	1.211	0.217	1495.830	640.347	0.121	0.022	0.0	9	microwave
+sun_aowvammdqpmypflg.jpg	4	1.470	0.258	1598.700	751.815	0.092	0.019	0.0	7	fruit
+sun_aowvammdqpmypflg.jpg	4	1.470	0.258	1598.700	751.815	0.092	0.019	0.0	13	toaster
+sun_aowvammdqpmypflg.jpg	5	1.761	0.217	1557.812	822.695	0.087	0.015	0.0	2	bowl
+sun_aowvammdqpmypflg.jpg	5	1.761	0.217	1557.812	822.695	0.087	0.015	0.0	7	fruit
+sun_aowvammdqpmypflg.jpg	5	1.761	0.217	1557.812	822.695	0.087	0.015	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	6	2.020	0.308	1142.625	951.740	0.178	0.069	0.0	4	chair
+sun_aowvammdqpmypflg.jpg	7	2.345	0.192	1082.440	925.885	0.119	0.052	0.0	4	chair
+sun_aowvammdqpmypflg.jpg	7	2.345	0.192	1082.440	925.885	0.119	0.052	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	8	2.570	0.225	1053.230	580.790	0.128	0.040	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	8	2.570	0.225	1053.230	580.790	0.128	0.040	0.0	15	window
+sun_aowvammdqpmypflg.jpg	9	2.811	0.192	1069.800	460.670	0.170	0.040	0.0	5	curtain
+sun_aowvammdqpmypflg.jpg	9	2.811	0.192	1069.800	460.670	0.170	0.040	0.0	15	window

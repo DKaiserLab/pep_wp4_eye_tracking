@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxqlzmoovksgjbl.jpg	1	0.326	0.417	1443.905	792.753	0.171	0.097	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	1	0.326	0.417	1443.905	792.753	0.171	0.097	0.0	14	stove
+sun_ajxqlzmoovksgjbl.jpg	2	0.768	0.183	1211.468	726.933	0.167	0.099	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	3	0.968	0.225	1097.935	687.200	0.247	0.134	0.0	4	chair
+sun_ajxqlzmoovksgjbl.jpg	3	0.968	0.225	1097.935	687.200	0.247	0.134	0.0	9	picture
+sun_ajxqlzmoovksgjbl.jpg	4	1.218	0.183	1117.402	653.908	0.137	0.030	0.0	9	picture
+sun_ajxqlzmoovksgjbl.jpg	5	1.426	0.642	1066.190	643.550	0.158	0.069	0.0	8	pendant lamp
+sun_ajxqlzmoovksgjbl.jpg	6	2.093	0.192	941.455	576.540	0.170	0.102	0.0	2	cabinet
+sun_ajxqlzmoovksgjbl.jpg	6	2.093	0.192	941.455	576.540	0.170	0.102	0.0	8	pendant lamp
+sun_ajxqlzmoovksgjbl.jpg	7	2.318	0.167	1474.308	884.715	0.152	0.085	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	7	2.318	0.167	1474.308	884.715	0.152	0.085	0.0	11	plantpot
+sun_ajxqlzmoovksgjbl.jpg	8	2.501	0.275	1468.850	819.505	0.136	0.052	0.0	10	plant
+sun_ajxqlzmoovksgjbl.jpg	9	2.801	0.200	1470.432	679.467	0.239	0.110	0.0	2	cabinet

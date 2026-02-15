@@ -1,0 +1,29 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awlmntruykfbsame.jpg	1	0.258	0.225	1029.560	737.260	0.145	0.047	0.0	3	chair
+sun_awlmntruykfbsame.jpg	1	0.258	0.225	1029.560	737.260	0.145	0.047	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	2	0.525	0.300	938.062	759.132	0.108	0.031	0.0	3	chair
+sun_awlmntruykfbsame.jpg	2	0.525	0.300	938.062	759.132	0.108	0.031	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	3	0.875	0.225	1413.325	767.080	0.119	0.028	0.0	2	cabinet
+sun_awlmntruykfbsame.jpg	3	0.875	0.225	1413.325	767.080	0.119	0.028	0.0	5	drawer
+sun_awlmntruykfbsame.jpg	3	0.875	0.225	1413.325	767.080	0.119	0.028	0.0	8	range
+sun_awlmntruykfbsame.jpg	3	0.875	0.225	1413.325	767.080	0.119	0.028	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	4	1.125	0.200	1523.505	706.695	0.094	0.040	0.0	4	dish drainer
+sun_awlmntruykfbsame.jpg	4	1.125	0.200	1523.505	706.695	0.094	0.040	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	5	1.366	0.250	1271.182	418.683	0.108	0.048	0.0	1	cabinet crop
+sun_awlmntruykfbsame.jpg	5	1.366	0.250	1271.182	418.683	0.108	0.048	0.0	6	extractor hood
+sun_awlmntruykfbsame.jpg	6	1.633	0.217	1088.140	457.875	0.113	0.022	0.0	7	pot
+sun_awlmntruykfbsame.jpg	6	1.633	0.217	1088.140	457.875	0.113	0.022	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	6	1.633	0.217	1088.140	457.875	0.113	0.022	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	7	1.891	0.333	967.225	505.352	0.084	0.015	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	7	1.891	0.333	967.225	505.352	0.084	0.015	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	7	1.891	0.333	967.225	505.352	0.084	0.015	0.0	12	vase
+sun_awlmntruykfbsame.jpg	8	2.283	0.250	1114.205	727.655	0.100	0.019	0.0	3	chair
+sun_awlmntruykfbsame.jpg	8	2.283	0.250	1114.205	727.655	0.100	0.019	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	9	2.566	0.283	1364.315	746.322	0.080	0.056	0.0	2	cabinet
+sun_awlmntruykfbsame.jpg	9	2.566	0.283	1364.315	746.322	0.080	0.056	0.0	5	drawer
+sun_awlmntruykfbsame.jpg	9	2.566	0.283	1364.315	746.322	0.080	0.056	0.0	8	range
+sun_awlmntruykfbsame.jpg	9	2.566	0.283	1364.315	746.322	0.080	0.056	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	10	2.883	0.125	1498.230	732.620	0.097	0.025	0.0	2	cabinet
+sun_awlmntruykfbsame.jpg	10	2.883	0.125	1498.230	732.620	0.097	0.025	0.0	4	dish drainer
+sun_awlmntruykfbsame.jpg	10	2.883	0.125	1498.230	732.620	0.097	0.025	0.0	5	drawer
+sun_awlmntruykfbsame.jpg	10	2.883	0.125	1498.230	732.620	0.097	0.025	0.0	13	worktop

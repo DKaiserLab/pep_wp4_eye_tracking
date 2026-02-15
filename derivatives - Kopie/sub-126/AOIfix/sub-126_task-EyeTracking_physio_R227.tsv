@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aasmevtpkslccptd.jpg	1	0.299	0.267	1025.690	780.852	0.114	0.041	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	2	0.591	0.308	973.085	718.830	0.124	0.040	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	3	0.916	0.292	944.440	642.345	0.129	0.027	0.0	2	basket
+sun_aasmevtpkslccptd.jpg	3	0.916	0.292	944.440	642.345	0.129	0.027	0.0	4	bottle
+sun_aasmevtpkslccptd.jpg	3	0.916	0.292	944.440	642.345	0.129	0.027	0.0	5	bowl
+sun_aasmevtpkslccptd.jpg	3	0.916	0.292	944.440	642.345	0.129	0.027	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	4	1.233	0.300	977.153	603.445	0.126	0.027	0.0	2	basket
+sun_aasmevtpkslccptd.jpg	4	1.233	0.300	977.153	603.445	0.126	0.027	0.0	21	paper roll
+sun_aasmevtpkslccptd.jpg	5	1.549	0.250	1069.457	547.482	0.129	0.030	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	6	1.824	0.242	1187.365	559.530	0.209	0.079	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	7	2.083	0.267	1267.155	633.408	0.136	0.034	0.0	20	oven
+sun_aasmevtpkslccptd.jpg	7	2.083	0.267	1267.155	633.408	0.136	0.034	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	8	2.366	0.300	1323.285	665.817	0.145	0.058	0.0	29	table
+sun_aasmevtpkslccptd.jpg	9	2.699	0.308	1457.840	687.160	0.096	0.024	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	9	2.699	0.308	1457.840	687.160	0.096	0.024	0.0	24	refrigerator

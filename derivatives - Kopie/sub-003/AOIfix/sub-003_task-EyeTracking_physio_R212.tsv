@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.645	0.758	1074.845	736.755	0.530	0.783	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	1	0.645	0.758	1074.845	736.755	0.530	0.783	0.0	17	microwave
+sun_acfmftudsenhrfhy.jpg	1	0.645	0.758	1074.845	736.755	0.530	0.783	0.0	28	teapot
+sun_acfmftudsenhrfhy.jpg	1	0.645	0.758	1074.845	736.755	0.530	0.783	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	2	1.428	0.525	1045.270	758.820	0.532	0.931	0.0	3	bowl
+sun_acfmftudsenhrfhy.jpg	2	1.428	0.525	1045.270	758.820	0.532	0.931	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	2	1.428	0.525	1045.270	758.820	0.532	0.931	0.0	28	teapot
+sun_acfmftudsenhrfhy.jpg	2	1.428	0.525	1045.270	758.820	0.532	0.931	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	3	2.095	0.183	1066.952	717.290	2.262	6.465	0.0	17	microwave
+sun_acfmftudsenhrfhy.jpg	3	2.095	0.183	1066.952	717.290	2.262	6.465	0.0	28	teapot
+sun_acfmftudsenhrfhy.jpg	3	2.095	0.183	1066.952	717.290	2.262	6.465	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	4	2.312	0.158	1134.515	674.500	0.085	0.020	0.0	9	coffee maker
+sun_acfmftudsenhrfhy.jpg	4	2.312	0.158	1134.515	674.500	0.085	0.020	0.0	17	microwave
+sun_acfmftudsenhrfhy.jpg	5	2.495	0.175	1256.015	635.870	0.102	0.077	0.0	0	other
+sun_acfmftudsenhrfhy.jpg	6	2.687	0.142	1315.145	632.125	0.093	0.077	0.0	0	other
+sun_acfmftudsenhrfhy.jpg	7	2.878	0.125	1416.715	700.165	0.098	0.017	0.0	19	oven

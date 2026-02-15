@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aavzagnbsbymxlyh.jpg	1	0.299	0.217	1307.447	786.420	0.125	0.046	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	2	0.540	0.167	1333.717	913.138	0.131	0.038	0.0	15	pipes
+sun_aavzagnbsbymxlyh.jpg	2	0.540	0.167	1333.717	913.138	0.131	0.038	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	3	0.732	0.167	1260.800	965.963	0.094	0.021	0.0	3	bowl
+sun_aavzagnbsbymxlyh.jpg	3	0.732	0.167	1260.800	965.963	0.094	0.021	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	4	0.932	0.533	1253.592	768.635	0.192	0.111	0.0	19	sink
+sun_aavzagnbsbymxlyh.jpg	4	0.932	0.533	1253.592	768.635	0.192	0.111	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	5	1.482	0.317	1225.265	749.538	0.213	0.068	0.0	18	range
+sun_aavzagnbsbymxlyh.jpg	5	1.482	0.317	1225.265	749.538	0.213	0.068	0.0	19	sink
+sun_aavzagnbsbymxlyh.jpg	5	1.482	0.317	1225.265	749.538	0.213	0.068	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	6	1.815	0.350	1283.302	780.033	0.090	0.045	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	7	2.190	0.292	1195.070	816.385	0.098	0.051	0.0	12	outlet
+sun_aavzagnbsbymxlyh.jpg	7	2.190	0.292	1195.070	816.385	0.098	0.051	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	8	2.507	0.450	1290.835	812.480	0.092	0.038	0.0	20	table

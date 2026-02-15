@@ -1,0 +1,7 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adcrxklhlbwrbkgm.jpg	1	0.600	0.225	1245.665	521.200	0.099	0.022	0.0	12	light troffer
+sun_adcrxklhlbwrbkgm.jpg	2	0.858	0.208	1592.835	489.830	0.117	0.030	0.0	13	microwave
+sun_adcrxklhlbwrbkgm.jpg	3	1.125	0.392	935.850	705.745	0.185	0.081	0.0	24	toaster
+sun_adcrxklhlbwrbkgm.jpg	4	1.541	0.425	1241.675	587.370	0.108	0.037	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	5	1.991	0.667	1296.233	594.375	0.148	0.039	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	6	2.675	0.292	1249.145	667.840	0.275	0.089	0.0	0	other

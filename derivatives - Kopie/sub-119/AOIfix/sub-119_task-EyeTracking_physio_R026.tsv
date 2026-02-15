@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_avtdeaxixgmwquck.jpg	1	0.391	0.258	1233.850	699.625	0.052	0.016	0.0	11	flowers
+sun_avtdeaxixgmwquck.jpg	2	0.675	0.275	1275.775	662.590	0.059	0.024	0.0	20	television
+sun_avtdeaxixgmwquck.jpg	3	0.966	0.392	1254.900	635.385	0.067	0.032	0.0	20	television
+sun_avtdeaxixgmwquck.jpg	4	1.391	0.175	1474.540	731.465	0.123	0.042	0.0	16	oven
+sun_avtdeaxixgmwquck.jpg	5	1.600	0.217	1595.145	808.415	0.176	0.083	0.0	10	dishwasher
+sun_avtdeaxixgmwquck.jpg	5	1.600	0.217	1595.145	808.415	0.176	0.083	0.0	13	kitchen island
+sun_avtdeaxixgmwquck.jpg	6	1.833	0.142	1607.595	759.825	0.199	0.039	0.0	21	toaster oven
+sun_avtdeaxixgmwquck.jpg	7	1.991	0.300	1584.535	757.105	0.077	0.028	0.0	21	toaster oven
+sun_avtdeaxixgmwquck.jpg	8	2.475	0.317	1072.207	785.082	0.066	0.022	0.0	0	other
+sun_avtdeaxixgmwquck.jpg	9	2.841	0.167	1028.730	826.587	0.066	0.023	0.0	4	box
+sun_avtdeaxixgmwquck.jpg	9	2.841	0.167	1028.730	826.587	0.066	0.023	0.0	5	cabinet

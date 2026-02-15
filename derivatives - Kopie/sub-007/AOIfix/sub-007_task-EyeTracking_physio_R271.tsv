@@ -1,0 +1,7 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aisuhvwdvarrjlni.jpg	1	0.967	0.583	1278.122	667.098	0.082	0.020	0.0	9	dish rack
+sun_aisuhvwdvarrjlni.jpg	2	1.576	0.183	1325.280	634.348	0.079	0.016	0.0	0	other
+sun_aisuhvwdvarrjlni.jpg	3	1.784	0.417	1221.112	635.717	0.082	0.018	0.0	34	window
+sun_aisuhvwdvarrjlni.jpg	4	2.234	0.575	1045.235	822.955	0.183	0.048	0.0	11	door
+sun_aisuhvwdvarrjlni.jpg	4	2.234	0.575	1045.235	822.955	0.183	0.048	0.0	21	plant
+sun_aisuhvwdvarrjlni.jpg	5	2.834	0.142	1121.695	832.880	0.150	0.034	0.0	24	range

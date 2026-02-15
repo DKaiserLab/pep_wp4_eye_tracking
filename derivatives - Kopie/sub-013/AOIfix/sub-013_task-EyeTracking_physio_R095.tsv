@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apfmyjfgtjmwzvfb.jpg	1	0.305	0.358	1327.400	779.715	0.086	0.023	0.0	12	tissue box
+sun_apfmyjfgtjmwzvfb.jpg	2	0.672	0.125	1294.725	787.045	0.112	0.034	0.0	12	tissue box
+sun_apfmyjfgtjmwzvfb.jpg	3	0.822	0.225	1309.895	599.600	0.060	0.018	0.0	0	other
+sun_apfmyjfgtjmwzvfb.jpg	4	1.072	0.175	1297.375	541.740	0.058	0.010	0.0	8	sconce
+sun_apfmyjfgtjmwzvfb.jpg	5	1.272	0.275	1086.510	505.755	0.067	0.030	0.0	8	sconce
+sun_apfmyjfgtjmwzvfb.jpg	6	1.572	0.183	1235.327	554.312	0.065	0.021	0.0	5	mirror
+sun_apfmyjfgtjmwzvfb.jpg	7	1.797	0.183	1312.095	773.910	0.123	0.024	0.0	12	tissue box
+sun_apfmyjfgtjmwzvfb.jpg	8	1.997	0.167	1281.420	808.847	0.064	0.027	0.0	7	pot
+sun_apfmyjfgtjmwzvfb.jpg	8	1.997	0.167	1281.420	808.847	0.064	0.027	0.0	12	tissue box
+sun_apfmyjfgtjmwzvfb.jpg	9	2.180	0.158	1266.625	856.870	0.078	0.019	0.0	2	countertop
+sun_apfmyjfgtjmwzvfb.jpg	9	2.180	0.158	1266.625	856.870	0.078	0.019	0.0	7	pot
+sun_apfmyjfgtjmwzvfb.jpg	9	2.180	0.158	1266.625	856.870	0.078	0.019	0.0	10	soap dispenser
+sun_apfmyjfgtjmwzvfb.jpg	10	2.347	0.658	1286.635	864.880	0.083	0.066	0.0	2	countertop
+sun_apfmyjfgtjmwzvfb.jpg	10	2.347	0.658	1286.635	864.880	0.083	0.066	0.0	9	sink

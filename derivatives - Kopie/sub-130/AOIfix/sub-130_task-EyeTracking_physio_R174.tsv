@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alaftnkvuoaxsizt.jpg	1	0.353	0.100	1177.270	778.470	0.177	0.073	0.0	0	other
+sun_alaftnkvuoaxsizt.jpg	2	0.478	0.342	950.960	771.365	0.114	0.046	0.0	0	other
+sun_alaftnkvuoaxsizt.jpg	3	0.844	0.192	969.055	826.335	0.117	0.051	0.0	0	other
+sun_alaftnkvuoaxsizt.jpg	4	1.069	0.283	1209.392	876.635	0.108	0.043	0.0	9	toilet crop
+sun_alaftnkvuoaxsizt.jpg	4	1.069	0.283	1209.392	876.635	0.108	0.043	0.0	10	toilet paper holder
+sun_alaftnkvuoaxsizt.jpg	5	1.378	0.275	1330.975	884.125	0.098	0.021	0.0	9	toilet crop
+sun_alaftnkvuoaxsizt.jpg	6	1.678	0.242	1440.425	883.440	0.119	0.023	0.0	0	other
+sun_alaftnkvuoaxsizt.jpg	7	1.986	0.217	1570.460	860.773	0.156	0.089	0.0	8	sink
+sun_alaftnkvuoaxsizt.jpg	8	2.344	0.183	1616.048	798.685	0.382	0.188	0.0	2	faucet
+sun_alaftnkvuoaxsizt.jpg	9	2.686	0.250	1628.702	802.902	0.269	0.147	0.0	2	faucet

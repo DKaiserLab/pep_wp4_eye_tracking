@@ -1,0 +1,25 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acpufsxakyzrtcti.jpg	1	0.265	0.133	1197.378	680.562	0.105	0.016	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	1	0.265	0.133	1197.378	680.562	0.105	0.016	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	2	0.415	0.117	1177.905	661.860	0.078	0.038	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	2	0.415	0.117	1177.905	661.860	0.078	0.038	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	3	0.732	0.208	1476.450	862.085	0.275	0.104	0.0	19	plate
+sun_acpufsxakyzrtcti.jpg	3	0.732	0.208	1476.450	862.085	0.275	0.104	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	3	0.732	0.208	1476.450	862.085	0.275	0.104	0.0	27	trash can
+sun_acpufsxakyzrtcti.jpg	4	0.957	0.167	1383.730	936.535	0.255	0.111	0.0	1	bowl
+sun_acpufsxakyzrtcti.jpg	4	0.957	0.167	1383.730	936.535	0.255	0.111	0.0	19	plate
+sun_acpufsxakyzrtcti.jpg	4	0.957	0.167	1383.730	936.535	0.255	0.111	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	5	1.148	0.283	1572.482	965.190	0.202	0.113	0.0	1	bowl
+sun_acpufsxakyzrtcti.jpg	5	1.148	0.283	1572.482	965.190	0.202	0.113	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	6	1.440	0.192	1538.250	974.525	0.212	0.067	0.0	10	knife
+sun_acpufsxakyzrtcti.jpg	6	1.440	0.192	1538.250	974.525	0.212	0.067	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	7	1.648	0.300	1370.072	926.358	0.446	0.363	0.0	1	bowl
+sun_acpufsxakyzrtcti.jpg	7	1.648	0.300	1370.072	926.358	0.446	0.363	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	8	1.990	0.117	1239.017	722.595	0.095	0.023	0.0	20	refrigerator
+sun_acpufsxakyzrtcti.jpg	9	2.132	0.250	1109.500	634.962	0.077	0.028	0.0	26	toaster
+sun_acpufsxakyzrtcti.jpg	10	2.407	0.333	942.747	674.848	0.099	0.031	0.0	23	soap dispenser
+sun_acpufsxakyzrtcti.jpg	10	2.407	0.333	942.747	674.848	0.099	0.031	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	11	2.757	0.108	895.135	634.930	0.081	0.015	0.0	4	can
+sun_acpufsxakyzrtcti.jpg	11	2.757	0.108	895.135	634.930	0.081	0.015	0.0	9	jar
+sun_acpufsxakyzrtcti.jpg	11	2.757	0.108	895.135	634.930	0.081	0.015	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	12	2.898	0.108	1355.180	626.190	0.079	0.017	0.0	16	plant

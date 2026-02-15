@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acdlgczjpwkeuvgy.jpg	1	0.255	0.300	1084.122	803.650	0.109	0.040	0.0	9	chair
+sun_acdlgczjpwkeuvgy.jpg	1	0.255	0.300	1084.122	803.650	0.109	0.040	0.0	20	kitchen island
+sun_acdlgczjpwkeuvgy.jpg	1	0.255	0.300	1084.122	803.650	0.109	0.040	0.0	24	napkin holder
+sun_acdlgczjpwkeuvgy.jpg	2	0.580	0.225	1194.710	860.525	0.101	0.027	0.0	20	kitchen island
+sun_acdlgczjpwkeuvgy.jpg	3	0.847	0.400	1472.735	772.550	0.106	0.028	0.0	9	chair
+sun_acdlgczjpwkeuvgy.jpg	3	0.847	0.400	1472.735	772.550	0.106	0.028	0.0	20	kitchen island
+sun_acdlgczjpwkeuvgy.jpg	4	1.272	0.217	1408.932	712.217	0.136	0.038	0.0	0	other
+sun_acdlgczjpwkeuvgy.jpg	5	1.555	0.117	1304.703	746.445	0.260	0.070	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	5	1.555	0.117	1304.703	746.445	0.260	0.070	0.0	29	range
+sun_acdlgczjpwkeuvgy.jpg	5	1.555	0.117	1304.703	746.445	0.260	0.070	0.0	41	worktop
+sun_acdlgczjpwkeuvgy.jpg	6	1.838	0.300	1253.800	769.915	0.119	0.030	0.0	10	coaster
+sun_acdlgczjpwkeuvgy.jpg	6	1.838	0.300	1253.800	769.915	0.119	0.030	0.0	20	kitchen island
+sun_acdlgczjpwkeuvgy.jpg	6	1.838	0.300	1253.800	769.915	0.119	0.030	0.0	29	range
+sun_acdlgczjpwkeuvgy.jpg	7	2.163	0.217	1155.600	773.278	0.121	0.026	0.0	13	dishwasher
+sun_acdlgczjpwkeuvgy.jpg	7	2.163	0.217	1155.600	773.278	0.121	0.026	0.0	20	kitchen island
+sun_acdlgczjpwkeuvgy.jpg	8	2.405	0.600	1095.970	788.118	0.096	0.028	0.0	20	kitchen island
+sun_acdlgczjpwkeuvgy.jpg	8	2.405	0.600	1095.970	788.118	0.096	0.028	0.0	24	napkin holder
+sun_acdlgczjpwkeuvgy.jpg	8	2.405	0.600	1095.970	788.118	0.096	0.028	0.0	26	paper towels

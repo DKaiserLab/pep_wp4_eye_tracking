@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abwmjfnrmqjdltxn.jpg	1	0.583	0.225	880.875	753.740	0.165	0.040	0.0	3	cabinet
+sun_abwmjfnrmqjdltxn.jpg	1	0.583	0.225	880.875	753.740	0.165	0.040	0.0	13	sink crop
+sun_abwmjfnrmqjdltxn.jpg	2	0.841	0.200	849.775	688.290	0.133	0.028	0.0	3	cabinet
+sun_abwmjfnrmqjdltxn.jpg	2	0.841	0.200	849.775	688.290	0.133	0.028	0.0	13	sink crop
+sun_abwmjfnrmqjdltxn.jpg	2	0.841	0.200	849.775	688.290	0.133	0.028	0.0	16	window
+sun_abwmjfnrmqjdltxn.jpg	3	1.066	0.200	931.630	612.247	0.156	0.035	0.0	3	cabinet
+sun_abwmjfnrmqjdltxn.jpg	4	1.291	0.200	1037.760	598.730	0.174	0.044	0.0	16	window
+sun_abwmjfnrmqjdltxn.jpg	5	1.516	0.192	1157.600	638.410	0.106	0.023	0.0	4	casserole
+sun_abwmjfnrmqjdltxn.jpg	6	1.733	0.192	1268.780	665.930	0.094	0.016	0.0	4	casserole
+sun_abwmjfnrmqjdltxn.jpg	6	1.733	0.192	1268.780	665.930	0.094	0.016	0.0	15	stove
+sun_abwmjfnrmqjdltxn.jpg	7	1.941	0.200	1351.883	663.750	0.149	0.025	0.0	7	kettle
+sun_abwmjfnrmqjdltxn.jpg	7	1.941	0.200	1351.883	663.750	0.149	0.025	0.0	11	pot
+sun_abwmjfnrmqjdltxn.jpg	7	1.941	0.200	1351.883	663.750	0.149	0.025	0.0	15	stove
+sun_abwmjfnrmqjdltxn.jpg	7	1.941	0.200	1351.883	663.750	0.149	0.025	0.0	17	worktop
+sun_abwmjfnrmqjdltxn.jpg	8	2.175	0.167	1481.540	675.745	0.109	0.022	0.0	3	cabinet
+sun_abwmjfnrmqjdltxn.jpg	8	2.175	0.167	1481.540	675.745	0.109	0.022	0.0	17	worktop
+sun_abwmjfnrmqjdltxn.jpg	9	2.366	0.225	1619.850	709.715	0.140	0.042	0.0	6	door
+sun_abwmjfnrmqjdltxn.jpg	10	2.616	0.242	1671.370	757.240	0.144	0.035	0.0	12	refrigerator
+sun_abwmjfnrmqjdltxn.jpg	11	2.891	0.117	1639.365	792.408	0.098	0.026	0.0	0	other

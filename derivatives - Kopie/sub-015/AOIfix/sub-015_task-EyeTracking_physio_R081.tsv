@@ -1,0 +1,24 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aijkdpqohzcmjsco.jpg	1	0.375	0.133	1342.170	849.580	0.099	0.016	0.0	10	mug
+sun_aijkdpqohzcmjsco.jpg	1	0.375	0.133	1342.170	849.580	0.099	0.016	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	1	0.375	0.133	1342.170	849.580	0.099	0.016	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	2	0.517	0.125	1323.480	830.330	0.093	0.012	0.0	10	mug
+sun_aijkdpqohzcmjsco.jpg	2	0.517	0.125	1323.480	830.330	0.093	0.012	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	3	0.684	0.233	1243.560	817.487	0.098	0.016	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	3	0.684	0.233	1243.560	817.487	0.098	0.016	0.0	6	glass
+sun_aijkdpqohzcmjsco.jpg	3	0.684	0.233	1243.560	817.487	0.098	0.016	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	3	0.684	0.233	1243.560	817.487	0.098	0.016	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	4	0.950	0.250	1202.592	593.145	0.085	0.016	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	4	0.950	0.250	1202.592	593.145	0.085	0.016	0.0	9	microwave
+sun_aijkdpqohzcmjsco.jpg	5	1.217	0.158	1173.890	572.890	0.118	0.020	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	5	1.217	0.158	1173.890	572.890	0.118	0.020	0.0	9	microwave
+sun_aijkdpqohzcmjsco.jpg	6	1.409	0.242	1596.970	533.645	0.099	0.029	0.0	1	bowl
+sun_aijkdpqohzcmjsco.jpg	6	1.409	0.242	1596.970	533.645	0.099	0.029	0.0	17	shelf
+sun_aijkdpqohzcmjsco.jpg	7	1.667	0.408	1642.550	584.955	0.138	0.034	0.0	6	glass
+sun_aijkdpqohzcmjsco.jpg	8	2.125	0.258	1239.175	769.155	0.127	0.028	0.0	6	glass
+sun_aijkdpqohzcmjsco.jpg	9	2.400	0.183	1251.182	815.358	0.106	0.014	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	9	2.400	0.183	1251.182	815.358	0.106	0.014	0.0	6	glass
+sun_aijkdpqohzcmjsco.jpg	9	2.400	0.183	1251.182	815.358	0.106	0.014	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	9	2.400	0.183	1251.182	815.358	0.106	0.014	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	10	2.600	0.142	1085.680	753.445	0.204	0.075	0.0	12	outlet
+sun_aijkdpqohzcmjsco.jpg	11	2.767	0.233	1218.592	539.822	0.115	0.029	0.0	2	cabinet

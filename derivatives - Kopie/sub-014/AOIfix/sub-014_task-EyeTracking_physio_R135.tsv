@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amgkcbncvhsceeuq.jpg	1	0.379	0.167	1352.102	691.808	0.072	0.020	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	1	0.379	0.167	1352.102	691.808	0.072	0.020	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	2	0.571	0.183	1462.883	626.993	0.130	0.046	0.0	0	other
+sun_amgkcbncvhsceeuq.jpg	3	0.779	0.292	1107.600	619.625	0.192	0.172	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	4	1.129	0.150	1035.885	642.825	0.122	0.078	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	5	1.304	0.175	903.460	613.235	0.122	0.065	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	6	1.513	0.208	898.985	558.055	0.106	0.019	0.0	12	picture
+sun_amgkcbncvhsceeuq.jpg	7	1.779	0.150	1404.698	726.087	0.123	0.106	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	8	1.946	0.175	1313.405	702.815	0.112	0.019	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	8	1.946	0.175	1313.405	702.815	0.112	0.019	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	9	2.321	0.108	1334.520	712.185	0.129	0.171	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	9	2.321	0.108	1334.520	712.185	0.129	0.171	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	10	2.463	0.100	1500.625	681.202	0.094	0.020	0.0	15	range
+sun_amgkcbncvhsceeuq.jpg	11	2.579	0.308	1559.375	677.265	0.079	0.022	0.0	15	range

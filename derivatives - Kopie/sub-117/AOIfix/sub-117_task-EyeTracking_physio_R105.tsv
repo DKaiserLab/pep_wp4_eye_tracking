@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anydqmweocgeuwol.jpg	1	0.222	0.183	1305.733	663.765	0.086	0.011	0.0	0	other
+sun_anydqmweocgeuwol.jpg	2	0.431	0.150	1335.080	628.122	0.096	0.025	0.0	10	window
+sun_anydqmweocgeuwol.jpg	3	0.881	0.350	1404.565	598.562	0.062	0.011	0.0	9	vase
+sun_anydqmweocgeuwol.jpg	3	0.881	0.350	1404.565	598.562	0.062	0.011	0.0	10	window
+sun_anydqmweocgeuwol.jpg	4	1.256	0.475	1389.160	563.960	0.079	0.071	0.0	3	plant
+sun_anydqmweocgeuwol.jpg	4	1.256	0.475	1389.160	563.960	0.079	0.071	0.0	9	vase
+sun_anydqmweocgeuwol.jpg	4	1.256	0.475	1389.160	563.960	0.079	0.071	0.0	10	window
+sun_anydqmweocgeuwol.jpg	5	1.747	0.658	1394.060	529.730	0.066	0.009	0.0	3	plant
+sun_anydqmweocgeuwol.jpg	5	1.747	0.658	1394.060	529.730	0.066	0.009	0.0	10	window
+sun_anydqmweocgeuwol.jpg	6	2.431	0.308	1400.615	557.250	0.057	0.007	0.0	3	plant
+sun_anydqmweocgeuwol.jpg	6	2.431	0.308	1400.615	557.250	0.057	0.007	0.0	9	vase
+sun_anydqmweocgeuwol.jpg	6	2.431	0.308	1400.615	557.250	0.057	0.007	0.0	10	window
+sun_anydqmweocgeuwol.jpg	7	2.764	0.242	1427.725	563.425	0.078	0.014	0.0	3	plant
+sun_anydqmweocgeuwol.jpg	7	2.764	0.242	1427.725	563.425	0.078	0.014	0.0	9	vase
+sun_anydqmweocgeuwol.jpg	7	2.764	0.242	1427.725	563.425	0.078	0.014	0.0	10	window

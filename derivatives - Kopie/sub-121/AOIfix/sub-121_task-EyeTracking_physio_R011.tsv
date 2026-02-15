@@ -1,0 +1,6 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aleqenyvunhactkl.jpg	1	0.428	0.192	1266.420	751.475	0.077	0.027	0.0	8	toilet
+sun_aleqenyvunhactkl.jpg	2	0.853	0.592	1313.810	738.290	0.203	0.216	0.0	0	other
+sun_aleqenyvunhactkl.jpg	3	1.462	0.492	1403.600	674.920	0.119	0.121	0.0	4	pipe
+sun_aleqenyvunhactkl.jpg	4	2.087	0.158	1371.625	691.175	0.337	0.481	0.0	0	other
+sun_aleqenyvunhactkl.jpg	5	2.270	0.617	1232.702	813.165	0.161	0.144	0.0	8	toilet

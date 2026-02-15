@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrkvwbkgrglcoga.jpg	1	0.268	0.350	1294.207	757.070	0.330	0.191	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	1	0.268	0.350	1294.207	757.070	0.330	0.191	0.0	7	jar
+sun_agrkvwbkgrglcoga.jpg	2	0.643	0.175	1421.925	689.210	0.237	0.064	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	3	0.852	0.183	1483.933	607.898	0.150	0.042	0.0	5	extractor hood
+sun_agrkvwbkgrglcoga.jpg	4	1.052	0.242	1523.580	634.500	0.197	0.080	0.0	5	extractor hood
+sun_agrkvwbkgrglcoga.jpg	5	1.335	0.283	1256.997	556.628	0.191	0.139	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	5	1.335	0.283	1256.997	556.628	0.191	0.139	0.0	5	extractor hood
+sun_agrkvwbkgrglcoga.jpg	6	1.652	0.233	1042.615	807.722	0.369	0.150	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	6	1.652	0.233	1042.615	807.722	0.369	0.150	0.0	13	refrigerator
+sun_agrkvwbkgrglcoga.jpg	6	1.652	0.233	1042.615	807.722	0.369	0.150	0.0	17	worktop
+sun_agrkvwbkgrglcoga.jpg	7	1.902	0.317	978.668	850.928	0.193	0.089	0.0	1	bowl
+sun_agrkvwbkgrglcoga.jpg	7	1.902	0.317	978.668	850.928	0.193	0.089	0.0	6	fruits
+sun_agrkvwbkgrglcoga.jpg	7	1.902	0.317	978.668	850.928	0.193	0.089	0.0	17	worktop
+sun_agrkvwbkgrglcoga.jpg	8	2.227	0.292	941.300	854.440	0.237	0.107	0.0	1	bowl
+sun_agrkvwbkgrglcoga.jpg	8	2.227	0.292	941.300	854.440	0.237	0.107	0.0	6	fruits
+sun_agrkvwbkgrglcoga.jpg	8	2.227	0.292	941.300	854.440	0.237	0.107	0.0	17	worktop
+sun_agrkvwbkgrglcoga.jpg	9	2.544	0.458	1037.345	671.435	0.229	0.107	0.0	9	microwave
+sun_agrkvwbkgrglcoga.jpg	9	2.544	0.458	1037.345	671.435	0.229	0.107	0.0	13	refrigerator

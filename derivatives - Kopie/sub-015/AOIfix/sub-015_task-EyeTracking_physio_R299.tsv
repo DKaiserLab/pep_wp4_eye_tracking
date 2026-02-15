@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aueoksosdjqlckgv.jpg	1	0.321	0.183	1369.682	751.395	0.184	0.118	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	2	0.529	0.167	1253.238	822.518	0.110	0.035	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	3	0.704	0.125	1243.730	842.290	0.094	0.018	0.0	12	plate
+sun_aueoksosdjqlckgv.jpg	3	0.704	0.125	1243.730	842.290	0.094	0.018	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	4	0.854	0.358	1522.890	664.835	0.131	0.027	0.0	11	paper towels
+sun_aueoksosdjqlckgv.jpg	5	1.246	0.192	1575.790	625.375	0.095	0.018	0.0	6	coffee maker
+sun_aueoksosdjqlckgv.jpg	6	1.479	0.150	1357.610	532.672	0.100	0.022	0.0	0	other
+sun_aueoksosdjqlckgv.jpg	7	1.654	0.283	1215.945	639.660	0.119	0.029	0.0	0	other
+sun_aueoksosdjqlckgv.jpg	8	1.979	0.242	1583.050	664.305	0.097	0.019	0.0	6	coffee maker
+sun_aueoksosdjqlckgv.jpg	9	2.263	0.117	1477.762	563.308	0.091	0.014	0.0	0	other
+sun_aueoksosdjqlckgv.jpg	10	2.396	0.108	1337.250	542.735	0.162	0.046	0.0	0	other
+sun_aueoksosdjqlckgv.jpg	11	2.538	0.292	1165.000	766.050	0.311	0.076	0.0	4	cabinet
+sun_aueoksosdjqlckgv.jpg	12	2.854	0.150	1023.805	810.540	0.147	0.032	0.0	4	cabinet

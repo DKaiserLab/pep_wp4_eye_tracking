@@ -1,0 +1,23 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_annrglxxvocekqkh.jpg	1	0.335	0.225	1283.415	699.040	0.091	0.040	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	1	0.335	0.225	1283.415	699.040	0.091	0.040	0.0	2	board
+sun_annrglxxvocekqkh.jpg	1	0.335	0.225	1283.415	699.040	0.091	0.040	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	1	0.335	0.225	1283.415	699.040	0.091	0.040	0.0	13	knife
+sun_annrglxxvocekqkh.jpg	1	0.335	0.225	1283.415	699.040	0.091	0.040	0.0	21	sink
+sun_annrglxxvocekqkh.jpg	1	0.335	0.225	1283.415	699.040	0.091	0.040	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	2	0.577	0.225	1115.610	710.680	0.135	0.066	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	3	0.827	0.308	1029.260	716.890	0.108	0.028	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	3	0.827	0.308	1029.260	716.890	0.108	0.028	0.0	9	chair
+sun_annrglxxvocekqkh.jpg	4	1.169	0.317	1135.245	694.560	0.082	0.017	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	5	1.510	0.275	1145.585	858.410	0.272	0.122	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	6	1.802	0.283	1242.055	777.128	0.269	0.083	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	6	1.802	0.283	1242.055	777.128	0.269	0.083	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	7	2.102	0.458	1288.745	739.185	0.174	0.047	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	7	2.102	0.458	1288.745	739.185	0.174	0.047	0.0	2	board
+sun_annrglxxvocekqkh.jpg	7	2.102	0.458	1288.745	739.185	0.174	0.047	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	7	2.102	0.458	1288.745	739.185	0.174	0.047	0.0	13	knife
+sun_annrglxxvocekqkh.jpg	7	2.102	0.458	1288.745	739.185	0.174	0.047	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	8	2.585	0.267	1248.960	758.067	0.165	0.072	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	8	2.585	0.267	1248.960	758.067	0.165	0.072	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	8	2.585	0.267	1248.960	758.067	0.165	0.072	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	9	2.869	0.133	1202.865	761.695	0.153	0.081	0.0	1	bar

@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azbzyzntqpgdoyyu.jpg	1	0.287	0.242	1322.450	731.190	0.095	0.016	0.0	7	glass
+sun_azbzyzntqpgdoyyu.jpg	2	0.562	0.183	1353.375	685.688	0.068	0.012	0.0	0	other
+sun_azbzyzntqpgdoyyu.jpg	3	0.762	0.200	1415.280	644.858	0.069	0.013	0.0	9	shelf
+sun_azbzyzntqpgdoyyu.jpg	3	0.762	0.200	1415.280	644.858	0.069	0.013	0.0	12	television
+sun_azbzyzntqpgdoyyu.jpg	4	0.987	0.383	1445.922	601.122	0.073	0.017	0.0	9	shelf
+sun_azbzyzntqpgdoyyu.jpg	4	0.987	0.383	1445.922	601.122	0.073	0.017	0.0	15	vase
+sun_azbzyzntqpgdoyyu.jpg	5	1.404	0.217	1316.910	581.457	0.076	0.016	0.0	0	other
+sun_azbzyzntqpgdoyyu.jpg	6	1.646	0.183	1222.235	581.038	0.067	0.009	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	7	1.846	0.200	1113.322	599.255	0.057	0.015	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	8	2.062	0.250	1065.090	620.253	0.083	0.018	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	9	2.346	0.183	1016.575	701.855	0.050	0.007	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	10	2.554	0.158	1026.455	758.610	0.093	0.013	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	11	2.738	0.267	1059.930	786.887	0.076	0.021	0.0	4	countertop
+sun_azbzyzntqpgdoyyu.jpg	11	2.738	0.267	1059.930	786.887	0.076	0.021	0.0	10	sink

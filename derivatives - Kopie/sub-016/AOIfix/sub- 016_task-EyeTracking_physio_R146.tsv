@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxvejtymbkewxpy.jpg	1	0.404	0.217	1164.915	673.562	0.112	0.076	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	2	0.654	0.225	1131.810	584.920	0.069	0.013	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	3	0.887	0.158	1168.725	568.970	0.110	0.046	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	4	1.079	0.408	1396.545	657.490	0.079	0.114	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	4	1.079	0.408	1396.545	657.490	0.079	0.114	0.0	9	extractor hood
+sun_ajxvejtymbkewxpy.jpg	5	1.512	0.192	1285.610	732.200	0.093	0.029	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	6	1.729	0.250	1056.455	804.090	0.093	0.033	0.0	7	cutting board
+sun_ajxvejtymbkewxpy.jpg	6	1.729	0.250	1056.455	804.090	0.093	0.033	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	6	1.729	0.250	1056.455	804.090	0.093	0.033	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	7	2.020	0.242	1564.640	829.195	0.110	0.032	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	7	2.020	0.242	1564.640	829.195	0.110	0.032	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	8	2.295	0.283	1578.497	592.463	0.094	0.073	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	8	2.295	0.283	1578.497	592.463	0.094	0.073	0.0	12	microwave
+sun_ajxvejtymbkewxpy.jpg	9	2.587	0.167	1539.773	549.270	0.216	0.112	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	10	2.787	0.217	1028.108	637.735	0.171	0.106	0.0	18	window

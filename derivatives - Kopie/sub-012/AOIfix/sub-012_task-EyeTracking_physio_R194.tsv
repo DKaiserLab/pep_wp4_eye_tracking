@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ambrwzywvjncguna.jpg	1	0.491	0.342	1007.420	788.355	0.164	0.058	0.0	4	cabinet
+sun_ambrwzywvjncguna.jpg	1	0.491	0.342	1007.420	788.355	0.164	0.058	0.0	10	door
+sun_ambrwzywvjncguna.jpg	1	0.491	0.342	1007.420	788.355	0.164	0.058	0.0	13	microwave
+sun_ambrwzywvjncguna.jpg	1	0.491	0.342	1007.420	788.355	0.164	0.058	0.0	30	worktop
+sun_ambrwzywvjncguna.jpg	2	0.858	0.225	1168.745	816.390	0.129	0.035	0.0	8	column
+sun_ambrwzywvjncguna.jpg	2	0.858	0.225	1168.745	816.390	0.129	0.035	0.0	11	drawers
+sun_ambrwzywvjncguna.jpg	2	0.858	0.225	1168.745	816.390	0.129	0.035	0.0	30	worktop
+sun_ambrwzywvjncguna.jpg	3	1.099	0.317	1305.562	871.207	0.155	0.046	0.0	16	oven
+sun_ambrwzywvjncguna.jpg	4	1.433	0.367	1347.635	651.280	0.141	0.037	0.0	4	cabinet
+sun_ambrwzywvjncguna.jpg	5	1.816	0.350	1327.267	655.847	0.105	0.017	0.0	0	other
+sun_ambrwzywvjncguna.jpg	6	2.191	0.258	1304.305	639.855	0.095	0.014	0.0	4	cabinet
+sun_ambrwzywvjncguna.jpg	6	2.191	0.258	1304.305	639.855	0.095	0.014	0.0	7	ceiling recessed light
+sun_ambrwzywvjncguna.jpg	7	2.466	0.100	1280.825	653.205	0.123	0.032	0.0	4	cabinet
+sun_ambrwzywvjncguna.jpg	7	2.466	0.100	1280.825	653.205	0.123	0.032	0.0	7	ceiling recessed light
+sun_ambrwzywvjncguna.jpg	8	2.816	0.117	1106.085	750.760	0.221	0.106	0.0	4	cabinet
+sun_ambrwzywvjncguna.jpg	8	2.816	0.117	1106.085	750.760	0.221	0.106	0.0	28	utensils canister

@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acwjdupvyjsugpay.jpg	1	0.419	0.200	1217.418	802.050	0.125	0.045	0.0	10	sink
+sun_acwjdupvyjsugpay.jpg	1	0.419	0.200	1217.418	802.050	0.125	0.045	0.0	11	worktop
+sun_acwjdupvyjsugpay.jpg	2	0.644	0.200	1108.678	811.670	0.105	0.024	0.0	10	sink
+sun_acwjdupvyjsugpay.jpg	2	0.644	0.200	1108.678	811.670	0.105	0.024	0.0	11	worktop
+sun_acwjdupvyjsugpay.jpg	3	0.878	0.192	1009.905	827.420	0.152	0.041	0.0	10	sink
+sun_acwjdupvyjsugpay.jpg	3	0.878	0.192	1009.905	827.420	0.152	0.041	0.0	11	worktop
+sun_acwjdupvyjsugpay.jpg	4	1.119	0.308	1388.135	688.355	0.100	0.027	0.0	3	coffee maker
+sun_acwjdupvyjsugpay.jpg	4	1.119	0.308	1388.135	688.355	0.100	0.027	0.0	5	microwave
+sun_acwjdupvyjsugpay.jpg	5	1.453	0.192	1534.550	641.425	0.160	0.050	0.0	9	refrigerator
+sun_acwjdupvyjsugpay.jpg	6	1.669	0.467	1651.980	691.685	0.136	0.037	0.0	0	other
+sun_acwjdupvyjsugpay.jpg	7	2.169	0.200	1452.173	697.310	0.082	0.027	0.0	5	microwave
+sun_acwjdupvyjsugpay.jpg	7	2.169	0.200	1452.173	697.310	0.082	0.027	0.0	9	refrigerator
+sun_acwjdupvyjsugpay.jpg	7	2.169	0.200	1452.173	697.310	0.082	0.027	0.0	11	worktop
+sun_acwjdupvyjsugpay.jpg	8	2.411	0.200	1170.425	545.572	0.225	0.063	0.0	2	cabinet
+sun_acwjdupvyjsugpay.jpg	9	2.636	0.367	1054.262	483.455	0.133	0.056	0.0	2	cabinet

@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aiequdasdjeizszp.jpg	1	0.512	0.158	1239.910	708.045	0.313	0.079	0.0	10	refrigerator
+sun_aiequdasdjeizszp.jpg	2	0.687	0.483	1387.112	688.835	0.171	0.096	0.0	12	stove
+sun_aiequdasdjeizszp.jpg	3	1.195	0.275	1197.660	751.085	0.311	0.143	0.0	10	refrigerator
+sun_aiequdasdjeizszp.jpg	4	1.487	0.217	1260.247	737.030	0.272	0.085	0.0	10	refrigerator
+sun_aiequdasdjeizszp.jpg	5	1.737	0.500	1615.642	855.862	0.139	0.073	0.0	5	fruits
+sun_aiequdasdjeizszp.jpg	5	1.737	0.500	1615.642	855.862	0.139	0.073	0.0	6	glass
+sun_aiequdasdjeizszp.jpg	5	1.737	0.500	1615.642	855.862	0.139	0.073	0.0	13	table crop
+sun_aiequdasdjeizszp.jpg	6	2.270	0.200	1285.495	972.520	0.118	0.029	0.0	3	chair crop
+sun_aiequdasdjeizszp.jpg	7	2.504	0.217	1536.040	880.420	0.128	0.052	0.0	13	table crop
+sun_aiequdasdjeizszp.jpg	8	2.745	0.258	1641.965	915.070	0.146	0.050	0.0	1	bowl
+sun_aiequdasdjeizszp.jpg	8	2.745	0.258	1641.965	915.070	0.146	0.050	0.0	13	table crop

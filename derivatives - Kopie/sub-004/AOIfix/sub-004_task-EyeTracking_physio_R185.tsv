@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afmsnwrincaowafk.jpg	1	0.275	0.217	1012.853	710.038	0.134	0.040	0.0	5	range
+sun_afmsnwrincaowafk.jpg	2	0.508	0.183	989.023	695.590	0.102	0.027	0.0	5	range
+sun_afmsnwrincaowafk.jpg	3	0.716	0.192	1108.365	797.725	0.194	0.050	0.0	5	range
+sun_afmsnwrincaowafk.jpg	4	0.958	0.208	1073.095	502.030	0.054	0.011	0.0	3	extractor hood
+sun_afmsnwrincaowafk.jpg	5	1.200	0.208	1407.670	542.495	0.117	0.036	0.0	1	cabinet
+sun_afmsnwrincaowafk.jpg	6	1.441	0.250	1516.938	715.605	0.106	0.018	0.0	2	dishwasher
+sun_afmsnwrincaowafk.jpg	6	1.441	0.250	1516.938	715.605	0.106	0.018	0.0	9	worktop
+sun_afmsnwrincaowafk.jpg	7	1.716	0.300	1655.207	937.670	0.256	0.091	0.0	7	table
+sun_afmsnwrincaowafk.jpg	8	2.041	0.233	1508.182	863.075	0.187	0.048	0.0	2	dishwasher
+sun_afmsnwrincaowafk.jpg	9	2.300	0.200	1496.003	728.558	0.083	0.034	0.0	2	dishwasher
+sun_afmsnwrincaowafk.jpg	10	2.533	0.242	1320.095	697.845	0.115	0.051	0.0	6	sink
+sun_afmsnwrincaowafk.jpg	10	2.533	0.242	1320.095	697.845	0.115	0.051	0.0	9	worktop
+sun_afmsnwrincaowafk.jpg	11	2.800	0.200	1299.130	686.763	0.092	0.018	0.0	0	other

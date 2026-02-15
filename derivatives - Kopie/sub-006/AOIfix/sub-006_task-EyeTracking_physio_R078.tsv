@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adcrxklhlbwrbkgm.jpg	1	0.513	0.400	1252.705	733.408	0.117	0.061	0.0	9	faucet
+sun_adcrxklhlbwrbkgm.jpg	2	0.938	0.283	1015.283	789.918	0.126	0.173	0.0	6	dishcloth
+sun_adcrxklhlbwrbkgm.jpg	2	0.938	0.283	1015.283	789.918	0.126	0.173	0.0	16	paper roll
+sun_adcrxklhlbwrbkgm.jpg	2	0.938	0.283	1015.283	789.918	0.126	0.173	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	3	1.288	0.158	1263.600	768.585	0.080	0.042	0.0	9	faucet
+sun_adcrxklhlbwrbkgm.jpg	3	1.288	0.158	1263.600	768.585	0.080	0.042	0.0	21	sink
+sun_adcrxklhlbwrbkgm.jpg	3	1.288	0.158	1263.600	768.585	0.080	0.042	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	4	1.488	0.158	1250.760	728.340	0.068	0.014	0.0	9	faucet
+sun_adcrxklhlbwrbkgm.jpg	5	1.780	0.392	1284.700	705.020	0.071	0.033	0.0	15	outlet
+sun_adcrxklhlbwrbkgm.jpg	6	2.196	0.417	1258.572	707.152	0.071	0.017	0.0	9	faucet
+sun_adcrxklhlbwrbkgm.jpg	7	2.638	0.367	1250.247	705.702	0.075	0.054	0.0	9	faucet

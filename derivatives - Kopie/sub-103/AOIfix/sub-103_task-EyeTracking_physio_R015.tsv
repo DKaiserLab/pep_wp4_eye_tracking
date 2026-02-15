@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahrhvpdhoamfdhpf.jpg	1	0.286	0.225	1309.415	725.995	0.176	0.078	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	1	0.286	0.225	1309.415	725.995	0.176	0.078	0.0	11	range
+sun_ahrhvpdhoamfdhpf.jpg	1	0.286	0.225	1309.415	725.995	0.176	0.078	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	2	0.528	0.150	1384.455	749.717	0.087	0.032	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	2	0.528	0.150	1384.455	749.717	0.087	0.032	0.0	7	magazine
+sun_ahrhvpdhoamfdhpf.jpg	2	0.528	0.150	1384.455	749.717	0.087	0.032	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	3	0.694	0.233	1444.905	771.247	0.120	0.038	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	3	0.694	0.233	1444.905	771.247	0.120	0.038	0.0	7	magazine
+sun_ahrhvpdhoamfdhpf.jpg	3	0.694	0.233	1444.905	771.247	0.120	0.038	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	4	0.953	0.208	1520.385	759.265	0.206	0.079	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	4	0.953	0.208	1520.385	759.265	0.206	0.079	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	4	0.953	0.208	1520.385	759.265	0.206	0.079	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	5	1.178	0.133	1573.705	745.457	0.128	0.046	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	6	1.328	0.283	1622.682	723.567	0.096	0.036	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	7	1.820	0.325	1624.645	679.040	0.098	0.037	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	8	2.161	0.292	1596.145	686.395	0.164	0.038	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	9	2.478	0.200	1529.003	686.195	0.083	0.022	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	10	2.703	0.208	1440.155	698.645	0.118	0.029	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	10	2.703	0.208	1440.155	698.645	0.118	0.029	0.0	8	microwave

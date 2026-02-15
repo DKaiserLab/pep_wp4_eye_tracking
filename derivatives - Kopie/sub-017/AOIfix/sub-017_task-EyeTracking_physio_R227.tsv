@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aasmevtpkslccptd.jpg	1	0.536	0.542	1009.930	659.540	0.119	0.041	0.0	2	basket
+sun_aasmevtpkslccptd.jpg	1	0.536	0.542	1009.930	659.540	0.119	0.041	0.0	22	purse
+sun_aasmevtpkslccptd.jpg	1	0.536	0.542	1009.930	659.540	0.119	0.041	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	2	1.095	0.442	929.125	725.300	0.144	0.058	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	3	1.570	0.383	1127.452	683.670	0.132	0.044	0.0	15	glass
+sun_aasmevtpkslccptd.jpg	3	1.570	0.383	1127.452	683.670	0.132	0.044	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	4	1.986	0.475	1237.570	648.250	0.114	0.036	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	4	1.986	0.475	1237.570	648.250	0.114	0.036	0.0	20	oven
+sun_aasmevtpkslccptd.jpg	4	1.986	0.475	1237.570	648.250	0.114	0.036	0.0	29	table
+sun_aasmevtpkslccptd.jpg	5	2.486	0.517	994.188	650.005	0.121	0.044	0.0	2	basket
+sun_aasmevtpkslccptd.jpg	5	2.486	0.517	994.188	650.005	0.121	0.044	0.0	32	worktop

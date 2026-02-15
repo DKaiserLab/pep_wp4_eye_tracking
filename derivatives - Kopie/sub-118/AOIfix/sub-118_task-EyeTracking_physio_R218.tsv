@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alyergctkjrpiwgr.jpg	1	0.384	0.192	1236.935	746.950	0.123	0.041	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	1	0.384	0.192	1236.935	746.950	0.123	0.041	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	2	0.601	0.275	1074.165	777.410	0.170	0.053	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	2	0.601	0.275	1074.165	777.410	0.170	0.053	0.0	37	vase
+sun_alyergctkjrpiwgr.jpg	3	0.901	0.542	1003.115	831.005	0.116	0.029	0.0	27	pot
+sun_alyergctkjrpiwgr.jpg	3	0.901	0.542	1003.115	831.005	0.116	0.029	0.0	32	stove
+sun_alyergctkjrpiwgr.jpg	4	1.501	0.242	1334.155	791.980	0.126	0.025	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	4	1.501	0.242	1334.155	791.980	0.126	0.025	0.0	24	oven
+sun_alyergctkjrpiwgr.jpg	5	1.784	0.192	1506.755	794.610	0.092	0.036	0.0	0	other
+sun_alyergctkjrpiwgr.jpg	6	2.001	0.225	1623.765	803.645	0.135	0.029	0.0	3	bowl
+sun_alyergctkjrpiwgr.jpg	6	2.001	0.225	1623.765	803.645	0.135	0.029	0.0	18	fruits
+sun_alyergctkjrpiwgr.jpg	6	2.001	0.225	1623.765	803.645	0.135	0.029	0.0	20	glass
+sun_alyergctkjrpiwgr.jpg	6	2.001	0.225	1623.765	803.645	0.135	0.029	0.0	33	table runner
+sun_alyergctkjrpiwgr.jpg	6	2.001	0.225	1623.765	803.645	0.135	0.029	0.0	34	table
+sun_alyergctkjrpiwgr.jpg	7	2.242	0.258	1702.250	769.835	0.155	0.027	0.0	9	chair
+sun_alyergctkjrpiwgr.jpg	7	2.242	0.258	1702.250	769.835	0.155	0.027	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	8	2.559	0.183	1351.340	526.487	0.075	0.032	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	9	2.767	0.233	1178.220	579.928	0.082	0.025	0.0	5	cabinet

@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_kxvouciolcpqplr.jpg	1	0.211	0.183	1380.483	589.710	0.167	0.064	0.0	1	cabinet
+labelme_kxvouciolcpqplr.jpg	2	0.419	0.308	1089.640	569.510	0.126	0.098	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	3	0.744	0.150	1090.602	485.090	0.109	0.072	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	4	0.919	0.325	904.580	632.090	0.100	0.036	0.0	15	wardrobe
+labelme_kxvouciolcpqplr.jpg	5	1.269	0.225	1077.640	624.500	0.093	0.050	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	6	1.519	0.225	1052.815	698.895	0.084	0.031	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	7	1.778	0.458	1294.050	787.595	0.084	0.038	0.0	4	curtain
+labelme_kxvouciolcpqplr.jpg	8	2.261	0.350	1323.128	801.340	0.098	0.053	0.0	4	curtain
+labelme_kxvouciolcpqplr.jpg	9	2.628	0.250	1496.947	766.030	0.118	0.061	0.0	9	range

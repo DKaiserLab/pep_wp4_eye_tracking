@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_avtdeaxixgmwquck.jpg	1	0.401	0.300	1245.655	728.352	0.169	0.055	0.0	0	other
+sun_avtdeaxixgmwquck.jpg	2	0.734	0.308	1061.570	794.530	0.196	0.057	0.0	8	chair
+sun_avtdeaxixgmwquck.jpg	3	1.076	0.292	1396.230	816.875	0.200	0.099	0.0	4	box
+sun_avtdeaxixgmwquck.jpg	4	1.593	0.292	1268.460	730.355	0.711	0.544	0.0	2	bottle
+sun_avtdeaxixgmwquck.jpg	5	1.893	0.425	1237.295	757.190	0.151	0.072	0.0	3	bowl
+sun_avtdeaxixgmwquck.jpg	6	2.343	0.658	1270.500	778.880	0.160	0.057	0.0	2	bottle
+sun_avtdeaxixgmwquck.jpg	6	2.343	0.658	1270.500	778.880	0.160	0.057	0.0	12	glass
+sun_avtdeaxixgmwquck.jpg	6	2.343	0.658	1270.500	778.880	0.160	0.057	0.0	13	kitchen island

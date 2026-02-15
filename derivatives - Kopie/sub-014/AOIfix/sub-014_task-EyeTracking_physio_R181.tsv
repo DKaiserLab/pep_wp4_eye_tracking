@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqqabpdqjxygueuw.jpg	1	0.218	0.242	1218.870	671.855	0.093	0.018	0.0	36	window
+sun_aqqabpdqjxygueuw.jpg	2	0.484	0.192	1157.010	640.820	0.100	0.022	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	2	0.484	0.192	1157.010	640.820	0.100	0.022	0.0	36	window
+sun_aqqabpdqjxygueuw.jpg	3	0.701	0.125	973.560	654.830	0.094	0.028	0.0	0	other
+sun_aqqabpdqjxygueuw.jpg	4	0.843	0.292	857.410	682.865	0.122	0.059	0.0	16	fruit
+sun_aqqabpdqjxygueuw.jpg	5	1.268	0.292	1105.360	659.775	0.106	0.039	0.0	32	table lamp
+sun_aqqabpdqjxygueuw.jpg	6	1.659	0.325	1510.940	678.700	0.124	0.067	0.0	6	cabinets
+sun_aqqabpdqjxygueuw.jpg	7	2.009	0.258	1584.015	647.025	0.108	0.042	0.0	7	canister
+sun_aqqabpdqjxygueuw.jpg	7	2.009	0.258	1584.015	647.025	0.108	0.042	0.0	14	extractor hood
+sun_aqqabpdqjxygueuw.jpg	8	2.301	0.342	1050.930	728.205	0.174	0.117	0.0	3	bottles
+sun_aqqabpdqjxygueuw.jpg	8	2.301	0.342	1050.930	728.205	0.174	0.117	0.0	5	cabinet
+sun_aqqabpdqjxygueuw.jpg	8	2.301	0.342	1050.930	728.205	0.174	0.117	0.0	13	door
+sun_aqqabpdqjxygueuw.jpg	9	2.676	0.275	1189.845	733.470	0.108	0.047	0.0	11	dishwasher
+sun_aqqabpdqjxygueuw.jpg	9	2.676	0.275	1189.845	733.470	0.108	0.047	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	9	2.676	0.275	1189.845	733.470	0.108	0.047	0.0	34	utensils
+sun_aqqabpdqjxygueuw.jpg	9	2.676	0.275	1189.845	733.470	0.108	0.047	0.0	37	worktop

@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aasmevtpkslccptd.jpg	1	0.563	0.283	1131.925	661.447	0.101	0.028	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	1	0.563	0.283	1131.925	661.447	0.101	0.028	0.0	11	dishwasher
+sun_aasmevtpkslccptd.jpg	1	0.563	0.283	1131.925	661.447	0.101	0.028	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	2	0.872	0.417	1028.140	617.655	0.095	0.040	0.0	30	toaster
+sun_aasmevtpkslccptd.jpg	3	1.338	0.283	1458.315	662.895	0.096	0.021	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	3	1.338	0.283	1458.315	662.895	0.096	0.021	0.0	24	refrigerator
+sun_aasmevtpkslccptd.jpg	4	1.672	0.317	1462.418	598.065	0.081	0.022	0.0	3	bottle rack
+sun_aasmevtpkslccptd.jpg	4	1.672	0.317	1462.418	598.065	0.081	0.022	0.0	23	range
+sun_aasmevtpkslccptd.jpg	4	1.672	0.317	1462.418	598.065	0.081	0.022	0.0	24	refrigerator
+sun_aasmevtpkslccptd.jpg	5	2.013	0.292	1411.095	598.600	0.088	0.023	0.0	23	range
+sun_aasmevtpkslccptd.jpg	6	2.322	0.175	1384.090	588.070	0.100	0.026	0.0	23	range
+sun_aasmevtpkslccptd.jpg	7	2.513	0.142	1414.090	563.940	0.096	0.031	0.0	0	other
+sun_aasmevtpkslccptd.jpg	8	2.680	0.200	1349.422	583.038	0.102	0.027	0.0	0	other

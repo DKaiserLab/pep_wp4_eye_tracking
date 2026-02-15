@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axouwjxmvidopcvg.jpg	1	0.357	0.217	1306.298	725.007	0.107	0.039	0.0	7	faucet
+sun_axouwjxmvidopcvg.jpg	1	0.357	0.217	1306.298	725.007	0.107	0.039	0.0	21	window
+sun_axouwjxmvidopcvg.jpg	2	0.599	0.175	1376.530	780.445	0.100	0.023	0.0	3	cabinet
+sun_axouwjxmvidopcvg.jpg	3	0.799	0.250	1486.878	779.098	0.125	0.047	0.0	16	refrigerator
+sun_axouwjxmvidopcvg.jpg	3	0.799	0.250	1486.878	779.098	0.125	0.047	0.0	22	worktop
+sun_axouwjxmvidopcvg.jpg	4	1.066	0.308	1580.870	774.095	0.113	0.032	0.0	3	cabinet
+sun_axouwjxmvidopcvg.jpg	4	1.066	0.308	1580.870	774.095	0.113	0.032	0.0	16	refrigerator
+sun_axouwjxmvidopcvg.jpg	5	1.399	0.242	1497.565	726.790	0.112	0.045	0.0	2	bowl
+sun_axouwjxmvidopcvg.jpg	5	1.399	0.242	1497.565	726.790	0.112	0.045	0.0	9	fruits
+sun_axouwjxmvidopcvg.jpg	5	1.399	0.242	1497.565	726.790	0.112	0.045	0.0	16	refrigerator
+sun_axouwjxmvidopcvg.jpg	6	1.674	0.192	1456.820	725.015	0.080	0.021	0.0	0	other
+sun_axouwjxmvidopcvg.jpg	7	1.891	0.192	1362.995	719.605	0.109	0.050	0.0	21	window
+sun_axouwjxmvidopcvg.jpg	8	2.249	0.242	1259.785	722.200	0.178	0.075	0.0	21	window
+sun_axouwjxmvidopcvg.jpg	9	2.541	0.158	1195.190	725.625	0.072	0.011	0.0	12	outlet
+sun_axouwjxmvidopcvg.jpg	9	2.541	0.158	1195.190	725.625	0.072	0.011	0.0	22	worktop
+sun_axouwjxmvidopcvg.jpg	10	2.716	0.250	1105.003	745.360	0.103	0.050	0.0	15	range
+sun_axouwjxmvidopcvg.jpg	10	2.716	0.250	1105.003	745.360	0.103	0.050	0.0	20	toaster
+sun_axouwjxmvidopcvg.jpg	10	2.716	0.250	1105.003	745.360	0.103	0.050	0.0	22	worktop

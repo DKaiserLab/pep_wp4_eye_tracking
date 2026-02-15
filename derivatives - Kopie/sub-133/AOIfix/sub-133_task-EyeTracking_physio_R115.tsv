@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aknkhdxyjkyfjvgl.jpg	1	0.267	0.225	1341.550	821.340	0.158	0.058	0.0	5	curtain
+sun_aknkhdxyjkyfjvgl.jpg	2	0.509	0.217	1468.920	814.007	0.098	0.033	0.0	11	tissue box
+sun_aknkhdxyjkyfjvgl.jpg	2	0.509	0.217	1468.920	814.007	0.098	0.033	0.0	12	toilet crop
+sun_aknkhdxyjkyfjvgl.jpg	3	0.759	0.317	1554.080	838.442	0.098	0.040	0.0	11	tissue box
+sun_aknkhdxyjkyfjvgl.jpg	3	0.759	0.317	1554.080	838.442	0.098	0.040	0.0	12	toilet crop
+sun_aknkhdxyjkyfjvgl.jpg	4	1.100	0.125	1618.670	896.710	0.103	0.042	0.0	0	other
+sun_aknkhdxyjkyfjvgl.jpg	5	1.259	0.117	1563.300	952.935	0.069	0.022	0.0	4	countertop
+sun_aknkhdxyjkyfjvgl.jpg	6	1.409	0.208	1644.415	993.100	0.077	0.028	0.0	0	other
+sun_aknkhdxyjkyfjvgl.jpg	7	1.642	0.233	1610.777	1011.390	0.069	0.012	0.0	4	countertop
+sun_aknkhdxyjkyfjvgl.jpg	7	1.642	0.233	1610.777	1011.390	0.069	0.012	0.0	9	sink
+sun_aknkhdxyjkyfjvgl.jpg	8	1.909	0.183	1415.480	816.630	0.088	0.037	0.0	12	toilet crop
+sun_aknkhdxyjkyfjvgl.jpg	9	2.267	0.192	1392.425	870.110	0.064	0.021	0.0	1	bathtub
+sun_aknkhdxyjkyfjvgl.jpg	10	2.475	0.250	1404.250	968.472	0.112	0.036	0.0	12	toilet crop
+sun_aknkhdxyjkyfjvgl.jpg	11	2.750	0.183	1466.275	963.007	0.075	0.024	0.0	4	countertop
+sun_aknkhdxyjkyfjvgl.jpg	11	2.750	0.183	1466.275	963.007	0.075	0.024	0.0	12	toilet crop

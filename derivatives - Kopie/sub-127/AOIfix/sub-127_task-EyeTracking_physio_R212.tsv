@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.278	0.108	1205.655	596.480	0.132	0.027	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	2	0.470	0.158	967.385	562.875	0.111	0.019	0.0	13	figure
+sun_acfmftudsenhrfhy.jpg	2	0.470	0.158	967.385	562.875	0.111	0.019	0.0	22	refrigerator
+sun_acfmftudsenhrfhy.jpg	2	0.470	0.158	967.385	562.875	0.111	0.019	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	3	0.645	0.275	898.490	582.910	0.155	0.044	0.0	13	figure
+sun_acfmftudsenhrfhy.jpg	3	0.645	0.275	898.490	582.910	0.155	0.044	0.0	22	refrigerator
+sun_acfmftudsenhrfhy.jpg	3	0.645	0.275	898.490	582.910	0.155	0.044	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	4	0.961	0.367	1353.898	678.993	0.102	0.020	0.0	18	outlet
+sun_acfmftudsenhrfhy.jpg	4	0.961	0.367	1353.898	678.993	0.102	0.020	0.0	19	oven
+sun_acfmftudsenhrfhy.jpg	4	0.961	0.367	1353.898	678.993	0.102	0.020	0.0	29	toaster
+sun_acfmftudsenhrfhy.jpg	5	1.353	0.308	1465.630	833.660	0.109	0.022	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	6	1.686	0.175	1540.135	742.795	0.130	0.030	0.0	1	bottle rack
+sun_acfmftudsenhrfhy.jpg	6	1.686	0.175	1540.135	742.795	0.130	0.030	0.0	4	bread box
+sun_acfmftudsenhrfhy.jpg	6	1.686	0.175	1540.135	742.795	0.130	0.030	0.0	6	canister
+sun_acfmftudsenhrfhy.jpg	6	1.686	0.175	1540.135	742.795	0.130	0.030	0.0	12	faucet
+sun_acfmftudsenhrfhy.jpg	7	1.895	0.225	1628.385	575.955	0.131	0.049	0.0	21	picture
+sun_acfmftudsenhrfhy.jpg	8	2.136	0.392	1602.500	512.230	0.157	0.068	0.0	21	picture
+sun_acfmftudsenhrfhy.jpg	9	2.553	0.292	1454.805	757.105	0.122	0.018	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	9	2.553	0.292	1454.805	757.105	0.122	0.018	0.0	25	sink
+sun_acfmftudsenhrfhy.jpg	9	2.553	0.292	1454.805	757.105	0.122	0.018	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	10	2.878	0.125	1223.380	634.575	0.196	0.066	0.0	5	cabinet

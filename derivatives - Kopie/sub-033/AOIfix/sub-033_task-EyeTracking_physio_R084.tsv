@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aryemauxglpckieh.jpg	1	0.357	0.258	1182.025	577.960	0.104	0.034	0.0	14	microwave
+sun_aryemauxglpckieh.jpg	2	0.648	0.300	1234.433	558.480	0.092	0.030	0.0	14	microwave
+sun_aryemauxglpckieh.jpg	2	0.648	0.300	1234.433	558.480	0.092	0.030	0.0	18	pendant lamp
+sun_aryemauxglpckieh.jpg	3	0.965	0.308	1278.315	578.060	0.215	0.141	0.0	14	microwave
+sun_aryemauxglpckieh.jpg	4	1.298	0.225	1229.435	646.340	0.143	0.041	0.0	0	other
+sun_aryemauxglpckieh.jpg	5	1.573	0.242	1602.650	674.920	0.149	0.036	0.0	0	other
+sun_aryemauxglpckieh.jpg	6	1.840	0.300	1641.378	665.770	0.128	0.039	0.0	17	paper roll
+sun_aryemauxglpckieh.jpg	6	1.840	0.300	1641.378	665.770	0.128	0.039	0.0	19	plate
+sun_aryemauxglpckieh.jpg	7	2.198	0.175	1550.975	1402.470	0.206	0.069	0.0	-1	off stimulus
+sun_aryemauxglpckieh.jpg	8	2.432	0.508	1310.545	652.645	0.197	0.081	0.0	11	kitchen utensils

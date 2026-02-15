@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aigrduzwokggqqja.jpg	1	0.336	0.183	1169.463	732.205	1.077	9.241	54.5	11	kitchen island
+sun_aigrduzwokggqqja.jpg	1	0.336	0.183	1169.463	732.205	1.077	9.241	54.5	15	sink
+sun_aigrduzwokggqqja.jpg	2	0.561	0.467	1155.575	735.320	0.088	0.030	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	2	0.561	0.467	1155.575	735.320	0.088	0.030	0.0	15	sink
+sun_aigrduzwokggqqja.jpg	3	1.053	0.233	1453.513	729.670	0.115	0.046	0.0	14	refrigerator
+sun_aigrduzwokggqqja.jpg	4	1.311	0.325	1415.555	736.225	0.052	0.012	0.0	14	refrigerator
+sun_aigrduzwokggqqja.jpg	5	1.669	0.200	1295.075	733.102	0.056	0.011	0.0	3	cabinet
+sun_aigrduzwokggqqja.jpg	5	1.669	0.200	1295.075	733.102	0.056	0.011	0.0	6	coffee maker
+sun_aigrduzwokggqqja.jpg	5	1.669	0.200	1295.075	733.102	0.056	0.011	0.0	16	stove
+sun_aigrduzwokggqqja.jpg	5	1.669	0.200	1295.075	733.102	0.056	0.011	0.0	19	worktop
+sun_aigrduzwokggqqja.jpg	6	1.886	0.283	1209.038	735.217	0.050	0.011	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	7	2.186	0.333	1168.633	742.090	0.080	0.042	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	7	2.186	0.333	1168.633	742.090	0.080	0.042	0.0	15	sink
+sun_aigrduzwokggqqja.jpg	8	2.536	0.233	1194.145	744.060	0.051	0.012	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	8	2.536	0.233	1194.145	744.060	0.051	0.012	0.0	15	sink
+sun_aigrduzwokggqqja.jpg	9	2.794	0.208	1428.495	739.440	0.126	0.049	0.0	14	refrigerator

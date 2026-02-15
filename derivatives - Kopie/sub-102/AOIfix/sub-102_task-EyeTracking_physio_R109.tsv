@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_attdviyipsljunts.jpg	1	0.420	0.233	1128.465	726.945	0.190	0.090	0.0	25	worktop
+sun_attdviyipsljunts.jpg	2	0.679	0.308	953.415	709.900	0.176	0.050	0.0	14	outlet
+sun_attdviyipsljunts.jpg	3	1.154	0.333	989.602	585.663	0.337	0.185	0.0	0	other
+sun_attdviyipsljunts.jpg	4	1.512	0.258	1044.865	487.005	0.125	0.123	0.0	0	other
+sun_attdviyipsljunts.jpg	5	1.795	0.225	1210.125	462.915	0.123	0.047	0.0	0	other
+sun_attdviyipsljunts.jpg	6	2.037	0.217	1325.695	480.962	0.171	0.091	0.0	11	light troffer
+sun_attdviyipsljunts.jpg	7	2.270	0.525	1449.185	524.865	0.139	0.062	0.0	0	other
+sun_attdviyipsljunts.jpg	8	2.837	0.167	1209.832	724.500	0.230	0.060	0.0	21	sink
+sun_attdviyipsljunts.jpg	8	2.837	0.167	1209.832	724.500	0.230	0.060	0.0	25	worktop

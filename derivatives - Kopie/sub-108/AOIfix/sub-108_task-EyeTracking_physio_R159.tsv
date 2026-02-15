@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atfmueokdeplnsdy.jpg	1	0.489	0.717	1332.217	722.730	0.238	0.170	0.0	16	plant
+sun_atfmueokdeplnsdy.jpg	1	0.489	0.717	1332.217	722.730	0.238	0.170	0.0	28	windows
+sun_atfmueokdeplnsdy.jpg	2	1.231	0.308	1148.445	742.565	0.180	0.091	0.0	7	containers
+sun_atfmueokdeplnsdy.jpg	2	1.231	0.308	1148.445	742.565	0.180	0.091	0.0	13	kitchen island
+sun_atfmueokdeplnsdy.jpg	2	1.231	0.308	1148.445	742.565	0.180	0.091	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	3	1.573	0.525	900.270	859.655	0.174	0.153	0.0	15	oven
+sun_atfmueokdeplnsdy.jpg	3	1.573	0.525	900.270	859.655	0.174	0.153	0.0	24	tray
+sun_atfmueokdeplnsdy.jpg	3	1.573	0.525	900.270	859.655	0.174	0.153	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	4	2.173	0.542	1560.810	812.830	0.154	0.079	0.0	2	bowl
+sun_atfmueokdeplnsdy.jpg	4	2.173	0.542	1560.810	812.830	0.154	0.079	0.0	12	fruit
+sun_atfmueokdeplnsdy.jpg	4	2.173	0.542	1560.810	812.830	0.154	0.079	0.0	27	window
+sun_atfmueokdeplnsdy.jpg	4	2.173	0.542	1560.810	812.830	0.154	0.079	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	5	2.773	0.233	1176.370	641.455	0.149	0.115	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	5	2.773	0.233	1176.370	641.455	0.149	0.115	0.0	6	chandelier

@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amjiwsczphtrowfh.jpg	1	0.291	0.333	1066.193	560.355	0.105	0.065	0.0	8	clock
+sun_amjiwsczphtrowfh.jpg	1	0.291	0.333	1066.193	560.355	0.105	0.065	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	2	0.658	0.517	1455.440	544.598	0.071	0.018	0.0	24	television
+sun_amjiwsczphtrowfh.jpg	3	1.374	0.150	1021.355	577.742	0.165	0.118	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	4	1.533	0.233	1049.835	536.675	0.075	0.021	0.0	8	clock
+sun_amjiwsczphtrowfh.jpg	5	1.808	0.258	963.940	622.475	0.117	0.019	0.0	13	pendant lamp
+sun_amjiwsczphtrowfh.jpg	6	2.099	0.133	1012.735	562.740	0.073	0.016	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	7	2.249	0.442	1055.555	550.020	0.067	0.020	0.0	8	clock

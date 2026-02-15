@@ -1,0 +1,24 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_annrglxxvocekqkh.jpg	1	0.662	0.217	1210.520	694.750	0.098	0.047	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	1	0.662	0.217	1210.520	694.750	0.098	0.047	0.0	21	sink
+sun_annrglxxvocekqkh.jpg	1	0.662	0.217	1210.520	694.750	0.098	0.047	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	2	0.903	0.217	1155.047	653.430	0.094	0.025	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	2	0.903	0.217	1155.047	653.430	0.094	0.025	0.0	11	faucet
+sun_annrglxxvocekqkh.jpg	2	0.903	0.217	1155.047	653.430	0.094	0.025	0.0	21	sink
+sun_annrglxxvocekqkh.jpg	2	0.903	0.217	1155.047	653.430	0.094	0.025	0.0	23	tray
+sun_annrglxxvocekqkh.jpg	2	0.903	0.217	1155.047	653.430	0.094	0.025	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	3	1.137	0.433	1096.938	644.010	0.066	0.039	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	3	1.137	0.433	1096.938	644.010	0.066	0.039	0.0	14	lemons
+sun_annrglxxvocekqkh.jpg	3	1.137	0.433	1096.938	644.010	0.066	0.039	0.0	23	tray
+sun_annrglxxvocekqkh.jpg	3	1.137	0.433	1096.938	644.010	0.066	0.039	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	4	1.612	0.200	1406.570	627.493	0.062	0.035	0.0	8	casserole
+sun_annrglxxvocekqkh.jpg	4	1.612	0.200	1406.570	627.493	0.062	0.035	0.0	18	range
+sun_annrglxxvocekqkh.jpg	4	1.612	0.200	1406.570	627.493	0.062	0.035	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	5	1.837	0.242	1495.960	634.990	0.056	0.014	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	5	1.837	0.242	1495.960	634.990	0.056	0.014	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	6	2.095	0.292	1429.870	644.815	0.051	0.013	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	6	2.095	0.292	1429.870	644.815	0.051	0.013	0.0	18	range
+sun_annrglxxvocekqkh.jpg	6	2.095	0.292	1429.870	644.815	0.051	0.013	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	7	2.445	0.333	1393.565	655.185	0.053	0.015	0.0	18	range
+sun_annrglxxvocekqkh.jpg	8	2.803	0.175	1542.835	633.610	0.067	0.029	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	8	2.803	0.175	1542.835	633.610	0.067	0.029	0.0	25	worktop

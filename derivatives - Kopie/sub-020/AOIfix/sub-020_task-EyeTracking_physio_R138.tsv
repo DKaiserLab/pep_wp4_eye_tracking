@@ -1,0 +1,23 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aovnyfewezfmgwke.jpg	1	0.321	0.283	1304.992	708.325	0.097	0.050	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	2	0.630	0.325	1462.290	681.680	0.105	0.097	0.0	7	glass
+sun_aovnyfewezfmgwke.jpg	2	0.630	0.325	1462.290	681.680	0.105	0.097	0.0	9	napkin
+sun_aovnyfewezfmgwke.jpg	2	0.630	0.325	1462.290	681.680	0.105	0.097	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	2	0.630	0.325	1462.290	681.680	0.105	0.097	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	3	0.988	0.300	1306.053	715.290	0.075	0.050	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	4	1.296	0.308	1327.550	695.765	0.102	0.070	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	5	1.630	0.267	1452.250	683.253	0.079	0.050	0.0	7	glass
+sun_aovnyfewezfmgwke.jpg	5	1.630	0.267	1452.250	683.253	0.079	0.050	0.0	9	napkin
+sun_aovnyfewezfmgwke.jpg	5	1.630	0.267	1452.250	683.253	0.079	0.050	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	5	1.630	0.267	1452.250	683.253	0.079	0.050	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	6	1.938	0.183	1304.673	709.247	0.067	0.015	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	7	2.138	0.233	1459.213	689.090	0.076	0.047	0.0	7	glass
+sun_aovnyfewezfmgwke.jpg	7	2.138	0.233	1459.213	689.090	0.076	0.047	0.0	9	napkin
+sun_aovnyfewezfmgwke.jpg	7	2.138	0.233	1459.213	689.090	0.076	0.047	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	7	2.138	0.233	1459.213	689.090	0.076	0.047	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	8	2.405	0.233	1571.447	735.798	0.122	0.058	0.0	18	sink
+sun_aovnyfewezfmgwke.jpg	8	2.405	0.233	1571.447	735.798	0.122	0.058	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	9	2.671	0.275	1484.845	680.135	0.048	0.006	0.0	8	jar
+sun_aovnyfewezfmgwke.jpg	9	2.671	0.275	1484.845	680.135	0.048	0.006	0.0	9	napkin
+sun_aovnyfewezfmgwke.jpg	9	2.671	0.275	1484.845	680.135	0.048	0.006	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	9	2.671	0.275	1484.845	680.135	0.048	0.006	0.0	23	worktop

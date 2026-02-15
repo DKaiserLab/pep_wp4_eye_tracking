@@ -1,0 +1,7 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aprmzdnceosyiiqx.jpg	1	0.490	0.367	1373.970	818.860	0.287	0.170	0.0	4	toilet
+sun_aprmzdnceosyiiqx.jpg	2	0.882	0.808	1561.440	856.765	0.173	0.095	0.0	1	bathtub
+sun_aprmzdnceosyiiqx.jpg	2	0.882	0.808	1561.440	856.765	0.173	0.095	0.0	5	towel
+sun_aprmzdnceosyiiqx.jpg	3	1.715	0.442	1529.145	704.425	0.181	0.082	0.0	2	curtain
+sun_aprmzdnceosyiiqx.jpg	4	2.190	0.408	1068.290	593.310	0.160	0.088	0.0	4	toilet
+sun_aprmzdnceosyiiqx.jpg	5	2.615	0.383	979.150	723.423	0.269	0.092	0.0	3	sink crop

@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abwmjfnrmqjdltxn.jpg	1	0.346	0.142	1219.640	695.525	0.234	0.110	0.0	3	cabinet
+sun_abwmjfnrmqjdltxn.jpg	1	0.346	0.142	1219.640	695.525	0.234	0.110	0.0	8	kitchen island
+sun_abwmjfnrmqjdltxn.jpg	1	0.346	0.142	1219.640	695.525	0.234	0.110	0.0	15	stove
+sun_abwmjfnrmqjdltxn.jpg	1	0.346	0.142	1219.640	695.525	0.234	0.110	0.0	17	worktop
+sun_abwmjfnrmqjdltxn.jpg	2	0.529	0.142	1112.120	618.625	0.077	0.015	0.0	3	cabinet
+sun_abwmjfnrmqjdltxn.jpg	2	0.529	0.142	1112.120	618.625	0.077	0.015	0.0	5	coffee maker
+sun_abwmjfnrmqjdltxn.jpg	3	0.696	0.225	915.555	612.565	0.102	0.025	0.0	3	cabinet
+sun_abwmjfnrmqjdltxn.jpg	4	0.971	0.167	873.733	618.327	0.098	0.012	0.0	3	cabinet
+sun_abwmjfnrmqjdltxn.jpg	4	0.971	0.167	873.733	618.327	0.098	0.012	0.0	16	window
+sun_abwmjfnrmqjdltxn.jpg	5	1.171	0.233	987.280	650.445	0.112	0.030	0.0	16	window
+sun_abwmjfnrmqjdltxn.jpg	6	1.421	0.200	996.378	571.035	0.110	0.021	0.0	16	window
+sun_abwmjfnrmqjdltxn.jpg	7	1.629	0.117	1031.865	547.507	0.086	0.015	0.0	16	window
+sun_abwmjfnrmqjdltxn.jpg	8	1.779	0.158	1455.440	565.590	0.081	0.022	0.0	3	cabinet
+sun_abwmjfnrmqjdltxn.jpg	9	1.963	0.267	1592.983	579.500	0.105	0.036	0.0	0	other
+sun_abwmjfnrmqjdltxn.jpg	10	2.254	0.275	1619.590	667.805	0.172	0.047	0.0	6	door
+sun_abwmjfnrmqjdltxn.jpg	11	2.563	0.400	1674.705	843.105	0.089	0.032	0.0	14	sofa crop

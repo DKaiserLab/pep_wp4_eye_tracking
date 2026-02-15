@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aenotlpyftoioydp.jpg	1	0.295	0.117	1197.488	750.233	0.204	0.077	0.0	0	other
+sun_aenotlpyftoioydp.jpg	2	0.437	0.200	1086.912	716.403	0.091	0.047	0.0	13	paper towels
+sun_aenotlpyftoioydp.jpg	3	0.653	0.158	1002.945	664.955	0.239	0.055	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	3	0.653	0.158	1002.945	664.955	0.239	0.055	0.0	11	microwave
+sun_aenotlpyftoioydp.jpg	4	0.828	0.200	982.338	543.733	0.098	0.023	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	5	1.045	0.208	1007.285	503.080	0.064	0.015	0.0	9	flowers
+sun_aenotlpyftoioydp.jpg	6	1.312	0.292	1525.250	578.195	0.093	0.032	0.0	0	other
+sun_aenotlpyftoioydp.jpg	7	1.662	0.108	1584.675	928.155	0.181	0.046	0.0	0	other
+sun_aenotlpyftoioydp.jpg	8	1.787	0.242	1567.880	856.170	0.205	0.052	0.0	0	other
+sun_aenotlpyftoioydp.jpg	9	2.053	0.217	1612.418	835.730	0.133	0.027	0.0	6	chair crop
+sun_aenotlpyftoioydp.jpg	9	2.053	0.217	1612.418	835.730	0.133	0.027	0.0	15	plant
+sun_aenotlpyftoioydp.jpg	9	2.053	0.217	1612.418	835.730	0.133	0.027	0.0	16	plantpot
+sun_aenotlpyftoioydp.jpg	10	2.278	0.400	1610.850	809.675	0.132	0.035	0.0	15	plant
+sun_aenotlpyftoioydp.jpg	11	2.695	0.325	1611.270	830.605	0.218	0.053	0.0	15	plant
+sun_aenotlpyftoioydp.jpg	11	2.695	0.325	1611.270	830.605	0.218	0.053	0.0	16	plantpot

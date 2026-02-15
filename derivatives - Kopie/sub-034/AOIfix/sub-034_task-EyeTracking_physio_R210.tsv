@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adoqbnxbotablpwl.jpg	1	0.248	0.142	1183.200	679.200	0.168	0.104	0.0	2	cabinet
+sun_adoqbnxbotablpwl.jpg	2	0.415	0.208	1032.905	659.680	0.136	0.030	0.0	9	sink
+sun_adoqbnxbotablpwl.jpg	2	0.415	0.208	1032.905	659.680	0.136	0.030	0.0	11	worktop
+sun_adoqbnxbotablpwl.jpg	3	0.648	0.292	914.855	584.350	0.141	0.042	0.0	1	blind
+sun_adoqbnxbotablpwl.jpg	4	0.948	0.125	911.195	564.180	0.126	0.030	0.0	1	blind
+sun_adoqbnxbotablpwl.jpg	5	1.107	0.183	1349.470	575.275	0.170	0.060	0.0	6	microwave
+sun_adoqbnxbotablpwl.jpg	5	1.107	0.183	1349.470	575.275	0.170	0.060	0.0	8	range
+sun_adoqbnxbotablpwl.jpg	6	1.315	0.192	1613.770	627.175	0.117	0.044	0.0	11	worktop
+sun_adoqbnxbotablpwl.jpg	7	1.523	0.183	1701.470	662.253	0.132	0.033	0.0	10	window crop
+sun_adoqbnxbotablpwl.jpg	8	1.740	0.150	1420.517	543.027	0.149	0.043	0.0	2	cabinet
+sun_adoqbnxbotablpwl.jpg	8	1.740	0.150	1420.517	543.027	0.149	0.043	0.0	6	microwave
+sun_adoqbnxbotablpwl.jpg	9	1.907	0.267	1301.860	475.455	0.087	0.023	0.0	2	cabinet
+sun_adoqbnxbotablpwl.jpg	9	1.907	0.267	1301.860	475.455	0.087	0.023	0.0	6	microwave
+sun_adoqbnxbotablpwl.jpg	10	2.332	0.192	1088.010	880.020	0.151	0.048	0.0	2	cabinet
+sun_adoqbnxbotablpwl.jpg	10	2.332	0.192	1088.010	880.020	0.151	0.048	0.0	4	dishwasher
+sun_adoqbnxbotablpwl.jpg	11	2.582	0.158	1444.535	882.875	0.085	0.011	0.0	0	other
+sun_adoqbnxbotablpwl.jpg	12	2.765	0.242	1598.680	930.005	0.107	0.021	0.0	0	other

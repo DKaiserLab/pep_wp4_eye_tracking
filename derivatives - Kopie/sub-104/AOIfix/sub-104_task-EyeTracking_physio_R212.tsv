@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.330	0.225	1151.385	786.220	0.103	0.037	0.0	30	tray
+sun_acfmftudsenhrfhy.jpg	1	0.330	0.225	1151.385	786.220	0.103	0.037	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	2	0.605	0.367	1597.060	927.550	0.079	0.013	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	3	1.047	0.267	1032.195	644.525	0.068	0.018	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	3	1.047	0.267	1032.195	644.525	0.068	0.018	0.0	31	vase
+sun_acfmftudsenhrfhy.jpg	4	1.330	0.283	1001.043	632.602	0.092	0.016	0.0	14	flowers
+sun_acfmftudsenhrfhy.jpg	4	1.330	0.283	1001.043	632.602	0.092	0.016	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	4	1.330	0.283	1001.043	632.602	0.092	0.016	0.0	31	vase
+sun_acfmftudsenhrfhy.jpg	5	1.664	0.333	1462.880	617.632	0.101	0.020	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	6	2.039	0.408	1128.270	926.215	0.065	0.016	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	7	2.480	0.225	1079.225	928.990	0.083	0.016	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	8	2.789	0.217	1046.685	664.482	0.103	0.059	0.0	17	microwave
+sun_acfmftudsenhrfhy.jpg	8	2.789	0.217	1046.685	664.482	0.103	0.059	0.0	24	shelves

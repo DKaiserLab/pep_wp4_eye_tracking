@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adbqksnwuqqwdpxc.jpg	1	0.310	0.217	1270.675	765.663	0.159	0.048	0.0	2	countertop
+sun_adbqksnwuqqwdpxc.jpg	2	0.544	0.358	1267.115	800.435	0.100	0.073	0.0	2	countertop
+sun_adbqksnwuqqwdpxc.jpg	2	0.544	0.358	1267.115	800.435	0.100	0.073	0.0	9	toilet paper
+sun_adbqksnwuqqwdpxc.jpg	3	0.935	0.792	1349.110	695.335	0.065	0.039	0.0	1	coffee maker
+sun_adbqksnwuqqwdpxc.jpg	3	0.935	0.792	1349.110	695.335	0.065	0.039	0.0	2	countertop
+sun_adbqksnwuqqwdpxc.jpg	4	1.760	0.208	1228.300	719.360	0.084	0.024	0.0	2	countertop
+sun_adbqksnwuqqwdpxc.jpg	5	2.002	0.242	1086.575	794.250	0.103	0.081	0.0	0	other
+sun_adbqksnwuqqwdpxc.jpg	6	2.277	0.342	1033.820	808.945	0.093	0.066	0.0	0	other
+sun_adbqksnwuqqwdpxc.jpg	7	2.635	0.283	1076.480	817.922	0.200	0.070	0.0	0	other

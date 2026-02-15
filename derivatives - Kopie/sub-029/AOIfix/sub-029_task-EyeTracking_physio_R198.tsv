@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acpufsxakyzrtcti.jpg	1	0.249	0.242	1185.065	683.195	0.124	0.098	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	1	0.249	0.242	1185.065	683.195	0.124	0.098	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	2	0.524	0.233	988.538	702.418	0.126	0.044	0.0	22	sink
+sun_acpufsxakyzrtcti.jpg	2	0.524	0.233	988.538	702.418	0.126	0.044	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	3	0.774	0.175	906.600	750.070	0.149	0.055	0.0	24	stove
+sun_acpufsxakyzrtcti.jpg	3	0.774	0.175	906.600	750.070	0.149	0.055	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	4	0.974	0.242	1127.300	515.480	0.267	0.243	0.0	3	cabinet
+sun_acpufsxakyzrtcti.jpg	4	0.974	0.242	1127.300	515.480	0.267	0.243	0.0	11	microwave
+sun_acpufsxakyzrtcti.jpg	5	1.232	0.142	1224.820	558.680	0.093	0.022	0.0	0	other
+sun_acpufsxakyzrtcti.jpg	6	1.399	0.208	1455.340	739.955	0.201	0.069	0.0	0	other
+sun_acpufsxakyzrtcti.jpg	7	1.632	0.200	1433.963	879.800	0.174	0.060	0.0	5	chair
+sun_acpufsxakyzrtcti.jpg	7	1.632	0.200	1433.963	879.800	0.174	0.060	0.0	19	plate
+sun_acpufsxakyzrtcti.jpg	7	1.632	0.200	1433.963	879.800	0.174	0.060	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	7	1.632	0.200	1433.963	879.800	0.174	0.060	0.0	27	trash can
+sun_acpufsxakyzrtcti.jpg	8	1.865	0.192	1223.860	705.500	0.140	0.056	0.0	20	refrigerator
+sun_acpufsxakyzrtcti.jpg	8	1.865	0.192	1223.860	705.500	0.140	0.056	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	9	2.082	0.200	1228.342	680.705	0.127	0.026	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	10	2.307	0.225	1201.650	687.430	0.145	0.027	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	11	2.566	0.242	1256.430	721.715	0.120	0.065	0.0	3	cabinet
+sun_acpufsxakyzrtcti.jpg	11	2.566	0.242	1256.430	721.715	0.120	0.065	0.0	20	refrigerator
+sun_acpufsxakyzrtcti.jpg	12	2.824	0.183	1239.678	722.160	0.093	0.022	0.0	20	refrigerator

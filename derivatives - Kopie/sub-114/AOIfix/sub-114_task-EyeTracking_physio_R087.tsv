@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aclkmsuodfedolnj.jpg	1	0.336	0.183	1387.905	712.207	0.056	0.008	0.0	5	dishwasher
+sun_aclkmsuodfedolnj.jpg	2	0.561	0.192	1541.950	685.935	0.047	0.011	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	2	0.561	0.192	1541.950	685.935	0.047	0.011	0.0	14	sink
+sun_aclkmsuodfedolnj.jpg	2	0.561	0.192	1541.950	685.935	0.047	0.011	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	3	0.803	0.400	1644.105	692.530	0.045	0.019	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	3	0.803	0.400	1644.105	692.530	0.045	0.019	0.0	14	sink
+sun_aclkmsuodfedolnj.jpg	3	0.803	0.400	1644.105	692.530	0.045	0.019	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	4	1.261	0.225	1159.330	772.645	0.121	0.018	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	5	1.544	0.425	1011.850	744.040	0.053	0.034	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	5	1.544	0.425	1011.850	744.040	0.053	0.034	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	6	1.994	0.167	1041.918	649.200	0.065	0.019	0.0	1	bottle
+sun_aclkmsuodfedolnj.jpg	6	1.994	0.167	1041.918	649.200	0.065	0.019	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	6	1.994	0.167	1041.918	649.200	0.065	0.019	0.0	9	knife set
+sun_aclkmsuodfedolnj.jpg	7	2.186	0.383	1201.330	579.215	0.068	0.038	0.0	7	extractor hood
+sun_aclkmsuodfedolnj.jpg	8	2.586	0.242	1339.590	625.910	0.117	0.063	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	8	2.586	0.242	1339.590	625.910	0.117	0.063	0.0	13	scales
+sun_aclkmsuodfedolnj.jpg	9	2.878	0.125	1420.235	736.775	0.046	0.010	0.0	5	dishwasher

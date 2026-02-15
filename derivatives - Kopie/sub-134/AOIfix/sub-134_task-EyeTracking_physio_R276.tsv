@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afznskzeyysxrlqg.jpg	1	0.523	0.233	1140.515	708.688	0.104	0.023	0.0	2	box
+sun_afznskzeyysxrlqg.jpg	2	0.773	0.250	1076.943	726.722	0.200	0.090	0.0	31	toaster oven
+sun_afznskzeyysxrlqg.jpg	3	1.048	0.558	993.325	775.975	0.169	0.086	0.0	22	range
+sun_afznskzeyysxrlqg.jpg	4	1.631	0.242	1099.885	738.825	0.196	0.049	0.0	31	toaster oven
+sun_afznskzeyysxrlqg.jpg	5	1.889	0.250	1231.363	724.388	0.258	0.102	0.0	30	tissue box
+sun_afznskzeyysxrlqg.jpg	6	2.164	0.408	1348.570	735.140	0.183	0.069	0.0	1	books
+sun_afznskzeyysxrlqg.jpg	6	2.164	0.408	1348.570	735.140	0.183	0.069	0.0	10	door
+sun_afznskzeyysxrlqg.jpg	6	2.164	0.408	1348.570	735.140	0.183	0.069	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	7	2.598	0.217	1439.217	723.803	0.223	0.097	0.0	10	door
+sun_afznskzeyysxrlqg.jpg	8	2.839	0.167	1520.182	688.658	0.125	0.032	0.0	0	other

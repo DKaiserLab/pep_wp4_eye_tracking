@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alxnnlzdudyhqwig.jpg	1	0.279	0.283	1308.310	783.080	0.079	0.016	0.0	6	cabinet
+sun_alxnnlzdudyhqwig.jpg	1	0.279	0.283	1308.310	783.080	0.079	0.016	0.0	18	kitchen island
+sun_alxnnlzdudyhqwig.jpg	1	0.279	0.283	1308.310	783.080	0.079	0.016	0.0	30	sink
+sun_alxnnlzdudyhqwig.jpg	2	0.704	0.208	1303.905	783.250	0.072	0.015	0.0	6	cabinet
+sun_alxnnlzdudyhqwig.jpg	2	0.704	0.208	1303.905	783.250	0.072	0.015	0.0	18	kitchen island
+sun_alxnnlzdudyhqwig.jpg	2	0.704	0.208	1303.905	783.250	0.072	0.015	0.0	30	sink
+sun_alxnnlzdudyhqwig.jpg	3	0.937	0.175	1355.450	787.230	0.068	0.008	0.0	6	cabinet
+sun_alxnnlzdudyhqwig.jpg	3	0.937	0.175	1355.450	787.230	0.068	0.008	0.0	18	kitchen island
+sun_alxnnlzdudyhqwig.jpg	4	1.137	0.300	1466.303	760.548	0.098	0.050	0.0	30	sink
+sun_alxnnlzdudyhqwig.jpg	4	1.137	0.300	1466.303	760.548	0.098	0.050	0.0	34	worktop
+sun_alxnnlzdudyhqwig.jpg	5	1.471	0.300	1528.365	760.565	0.065	0.031	0.0	30	sink
+sun_alxnnlzdudyhqwig.jpg	5	1.471	0.300	1528.365	760.565	0.065	0.031	0.0	34	worktop
+sun_alxnnlzdudyhqwig.jpg	6	1.787	0.517	1456.283	756.075	0.080	0.035	0.0	30	sink
+sun_alxnnlzdudyhqwig.jpg	6	1.787	0.517	1456.283	756.075	0.080	0.035	0.0	34	worktop
+sun_alxnnlzdudyhqwig.jpg	7	2.321	0.242	1392.165	742.030	0.065	0.034	0.0	2	blender
+sun_alxnnlzdudyhqwig.jpg	7	2.321	0.242	1392.165	742.030	0.065	0.034	0.0	15	food processor
+sun_alxnnlzdudyhqwig.jpg	7	2.321	0.242	1392.165	742.030	0.065	0.034	0.0	34	worktop
+sun_alxnnlzdudyhqwig.jpg	8	2.579	0.292	1261.070	768.520	0.093	0.029	0.0	31	stove

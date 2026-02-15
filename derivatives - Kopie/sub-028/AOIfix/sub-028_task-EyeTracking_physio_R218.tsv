@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alyergctkjrpiwgr.jpg	1	0.350	0.200	1313.713	764.553	0.211	0.069	0.0	1	book
+sun_alyergctkjrpiwgr.jpg	1	0.350	0.200	1313.713	764.553	0.211	0.069	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	2	0.575	0.542	1369.485	831.905	0.171	0.073	0.0	24	oven
+sun_alyergctkjrpiwgr.jpg	3	1.142	0.208	1261.930	728.830	0.160	0.044	0.0	1	book
+sun_alyergctkjrpiwgr.jpg	3	1.142	0.208	1261.930	728.830	0.160	0.044	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	3	1.142	0.208	1261.930	728.830	0.160	0.044	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	4	1.433	0.208	1275.705	786.340	0.164	0.076	0.0	1	book
+sun_alyergctkjrpiwgr.jpg	4	1.433	0.208	1275.705	786.340	0.164	0.076	0.0	4	bread
+sun_alyergctkjrpiwgr.jpg	4	1.433	0.208	1275.705	786.340	0.164	0.076	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	5	1.650	0.600	1284.578	765.467	0.238	0.116	0.0	1	book
+sun_alyergctkjrpiwgr.jpg	5	1.650	0.600	1284.578	765.467	0.238	0.116	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	6	2.275	0.325	1229.260	707.205	0.090	0.015	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	7	2.633	0.375	1241.935	786.560	0.184	0.047	0.0	1	book
+sun_alyergctkjrpiwgr.jpg	7	2.633	0.375	1241.935	786.560	0.184	0.047	0.0	4	bread
+sun_alyergctkjrpiwgr.jpg	7	2.633	0.375	1241.935	786.560	0.184	0.047	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	7	2.633	0.375	1241.935	786.560	0.184	0.047	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	7	2.633	0.375	1241.935	786.560	0.184	0.047	0.0	19	frying pan

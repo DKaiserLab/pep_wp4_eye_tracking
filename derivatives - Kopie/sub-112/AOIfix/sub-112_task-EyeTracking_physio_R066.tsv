@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahovdllcccjqjyeb.jpg	1	0.278	0.250	1234.757	794.793	0.268	0.213	0.0	3	cabinet
+sun_ahovdllcccjqjyeb.jpg	1	0.278	0.250	1234.757	794.793	0.268	0.213	0.0	9	faucet
+sun_ahovdllcccjqjyeb.jpg	1	0.278	0.250	1234.757	794.793	0.268	0.213	0.0	14	sink
+sun_ahovdllcccjqjyeb.jpg	1	0.278	0.250	1234.757	794.793	0.268	0.213	0.0	16	window
+sun_ahovdllcccjqjyeb.jpg	1	0.278	0.250	1234.757	794.793	0.268	0.213	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	2	0.545	0.225	1159.315	764.210	0.098	0.026	0.0	16	window
+sun_ahovdllcccjqjyeb.jpg	3	0.795	0.558	1074.790	759.925	0.090	0.024	0.0	3	cabinet
+sun_ahovdllcccjqjyeb.jpg	3	0.795	0.558	1074.790	759.925	0.090	0.024	0.0	5	coffee maker
+sun_ahovdllcccjqjyeb.jpg	4	1.387	0.175	1288.350	732.335	0.116	0.027	0.0	16	window
+sun_ahovdllcccjqjyeb.jpg	5	1.587	0.425	1501.780	744.340	0.091	0.039	0.0	3	cabinet
+sun_ahovdllcccjqjyeb.jpg	5	1.587	0.425	1501.780	744.340	0.091	0.039	0.0	11	microwave
+sun_ahovdllcccjqjyeb.jpg	6	2.037	0.208	1547.840	664.970	0.095	0.038	0.0	3	cabinet
+sun_ahovdllcccjqjyeb.jpg	7	2.278	0.183	1486.677	551.415	0.081	0.015	0.0	0	other
+sun_ahovdllcccjqjyeb.jpg	8	2.495	0.508	1228.690	587.605	0.091	0.048	0.0	4	ceiling recessed light

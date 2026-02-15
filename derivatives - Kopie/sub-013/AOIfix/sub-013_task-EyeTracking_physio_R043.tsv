@@ -1,0 +1,26 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.275	0.117	1438.535	881.245	NaN	0.000	85.7	7	cake
+labelme_qglnhnudtmzmocz.jpg	1	0.275	0.117	1438.535	881.245	NaN	0.000	85.7	34	tray
+labelme_qglnhnudtmzmocz.jpg	1	0.275	0.117	1438.535	881.245	NaN	0.000	85.7	37	worktop
+labelme_qglnhnudtmzmocz.jpg	2	0.450	0.408	1318.845	780.820	0.113	0.071	0.0	1	basket
+labelme_qglnhnudtmzmocz.jpg	2	0.450	0.408	1318.845	780.820	0.113	0.071	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	2	0.450	0.408	1318.845	780.820	0.113	0.071	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	2	0.450	0.408	1318.845	780.820	0.113	0.071	0.0	32	stool
+labelme_qglnhnudtmzmocz.jpg	3	0.892	0.167	1443.835	831.972	0.080	0.028	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	4	1.083	0.158	1484.400	754.915	0.072	0.031	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	4	1.083	0.158	1484.400	754.915	0.072	0.031	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	4	1.083	0.158	1484.400	754.915	0.072	0.031	0.0	11	cutting board
+labelme_qglnhnudtmzmocz.jpg	5	1.267	0.350	1104.483	680.745	0.095	0.066	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	5	1.267	0.350	1104.483	680.745	0.095	0.066	0.0	20	pinecone
+labelme_qglnhnudtmzmocz.jpg	5	1.267	0.350	1104.483	680.745	0.095	0.066	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	6	1.650	0.208	1169.650	618.215	0.072	0.027	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	7	1.883	0.175	1125.035	508.805	0.069	0.017	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	8	2.083	0.317	1520.628	563.658	0.109	0.096	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	8	2.083	0.317	1520.628	563.658	0.109	0.096	0.0	13	flowers
+labelme_qglnhnudtmzmocz.jpg	8	2.083	0.317	1520.628	563.658	0.109	0.096	0.0	18	pan
+labelme_qglnhnudtmzmocz.jpg	9	2.542	0.225	1567.485	739.350	0.054	0.024	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	9	2.542	0.225	1567.485	739.350	0.054	0.024	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	9	2.542	0.225	1567.485	739.350	0.054	0.024	0.0	36	wisk
+labelme_qglnhnudtmzmocz.jpg	10	2.792	0.208	1510.255	761.190	0.086	0.042	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	10	2.792	0.208	1510.255	761.190	0.086	0.042	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	10	2.792	0.208	1510.255	761.190	0.086	0.042	0.0	36	wisk

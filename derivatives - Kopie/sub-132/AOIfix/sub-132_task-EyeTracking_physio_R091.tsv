@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amjiwsczphtrowfh.jpg	1	0.663	0.150	1240.052	674.033	0.091	0.024	0.0	11	outlet
+sun_amjiwsczphtrowfh.jpg	1	0.663	0.150	1240.052	674.033	0.091	0.024	0.0	24	television
+sun_amjiwsczphtrowfh.jpg	2	0.830	0.375	1039.590	698.660	0.111	0.034	0.0	0	other
+sun_amjiwsczphtrowfh.jpg	3	1.230	0.200	997.265	678.122	0.108	0.038	0.0	0	other
+sun_amjiwsczphtrowfh.jpg	4	1.447	0.100	941.768	723.950	0.176	0.072	0.0	4	cabinet
+sun_amjiwsczphtrowfh.jpg	4	1.447	0.100	941.768	723.950	0.176	0.072	0.0	27	worktop
+sun_amjiwsczphtrowfh.jpg	5	1.572	0.258	1021.555	828.245	0.143	0.052	0.0	4	cabinet
+sun_amjiwsczphtrowfh.jpg	6	1.872	0.208	1505.595	776.545	0.204	0.079	0.0	4	cabinet
+sun_amjiwsczphtrowfh.jpg	6	1.872	0.208	1505.595	776.545	0.204	0.079	0.0	10	curtain
+sun_amjiwsczphtrowfh.jpg	7	2.113	0.192	1628.050	728.830	0.100	0.051	0.0	10	curtain
+sun_amjiwsczphtrowfh.jpg	8	2.338	0.208	1671.755	640.420	0.072	0.016	0.0	10	curtain
+sun_amjiwsczphtrowfh.jpg	8	2.338	0.208	1671.755	640.420	0.072	0.016	0.0	21	table lamp
+sun_amjiwsczphtrowfh.jpg	8	2.338	0.208	1671.755	640.420	0.072	0.016	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	9	2.580	0.225	1674.500	598.310	0.085	0.027	0.0	10	curtain
+sun_amjiwsczphtrowfh.jpg	9	2.580	0.225	1674.500	598.310	0.085	0.027	0.0	21	table lamp
+sun_amjiwsczphtrowfh.jpg	9	2.580	0.225	1674.500	598.310	0.085	0.027	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	10	2.872	0.133	1553.463	831.000	0.109	0.032	0.0	10	curtain

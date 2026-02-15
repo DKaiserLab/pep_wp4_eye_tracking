@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_rbrrbtaxscidgzz.jpg	1	0.337	0.225	1045.455	786.200	0.096	0.033	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	2	0.579	0.342	976.650	806.240	0.104	0.040	0.0	9	plant
+labelme_rbrrbtaxscidgzz.jpg	3	0.954	0.325	1171.070	574.525	0.168	0.116	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	4	1.304	0.208	1255.020	705.315	0.118	0.049	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	5	1.562	0.250	1453.500	773.750	0.084	0.022	0.0	10	pot
+labelme_rbrrbtaxscidgzz.jpg	6	1.837	0.233	1572.447	753.618	0.113	0.042	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	7	2.095	0.208	1683.215	580.305	0.160	0.055	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	8	2.320	0.217	1637.470	487.972	0.145	0.053	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	9	2.579	0.275	1102.100	579.400	0.128	0.062	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	10	2.879	0.133	1015.495	654.495	0.133	0.038	0.0	3	cabinet

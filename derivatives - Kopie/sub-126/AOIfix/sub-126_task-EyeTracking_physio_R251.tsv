@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahqrrgokszxtlsyi.jpg	1	0.425	0.192	1034.630	941.015	0.106	0.041	0.0	13	stove crop
+sun_ahqrrgokszxtlsyi.jpg	2	0.625	0.217	1020.345	931.750	0.084	0.030	0.0	13	stove crop
+sun_ahqrrgokszxtlsyi.jpg	3	0.859	0.158	994.735	955.785	0.098	0.022	0.0	13	stove crop
+sun_ahqrrgokszxtlsyi.jpg	4	1.175	0.283	1450.680	902.020	0.105	0.047	0.0	11	refrigerator
+sun_ahqrrgokszxtlsyi.jpg	5	1.484	0.375	1427.210	856.560	0.077	0.023	0.0	11	refrigerator
+sun_ahqrrgokszxtlsyi.jpg	6	1.892	0.383	1654.472	710.235	0.145	0.064	0.0	0	other
+sun_ahqrrgokszxtlsyi.jpg	7	2.309	0.317	1155.838	595.388	0.172	0.055	0.0	16	wood
+sun_ahqrrgokszxtlsyi.jpg	8	2.650	0.233	1118.608	593.928	0.119	0.069	0.0	16	wood
+sun_ahqrrgokszxtlsyi.jpg	9	2.917	0.108	1063.655	1196.810	4.517	38.933	61.5	-1	off stimulus

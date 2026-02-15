@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apbmvnchyjqxptff.jpg	1	0.419	0.200	1348.858	802.312	0.121	0.029	0.0	17	range
+sun_apbmvnchyjqxptff.jpg	2	0.635	0.100	1425.310	1157.810	NaN	36.131	75.0	-1	off stimulus
+sun_apbmvnchyjqxptff.jpg	3	0.769	0.275	1443.275	814.130	0.136	0.102	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	3	0.769	0.275	1443.275	814.130	0.136	0.102	0.0	17	range
+sun_apbmvnchyjqxptff.jpg	3	0.769	0.275	1443.275	814.130	0.136	0.102	0.0	24	worktop
+sun_apbmvnchyjqxptff.jpg	4	1.069	0.408	1529.815	808.105	0.115	0.069	0.0	22	toaster oven
+sun_apbmvnchyjqxptff.jpg	4	1.069	0.408	1529.815	808.105	0.115	0.069	0.0	24	worktop
+sun_apbmvnchyjqxptff.jpg	5	1.510	0.158	1626.935	818.765	0.115	0.036	0.0	0	other
+sun_apbmvnchyjqxptff.jpg	6	1.744	0.275	1163.055	686.480	0.121	0.073	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	7	2.035	0.242	1090.035	707.375	0.117	0.034	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	8	2.294	0.517	1045.537	805.013	0.081	0.041	0.0	24	worktop
+sun_apbmvnchyjqxptff.jpg	9	2.827	0.175	1129.130	789.495	0.101	0.037	0.0	10	jar
+sun_apbmvnchyjqxptff.jpg	9	2.827	0.175	1129.130	789.495	0.101	0.037	0.0	24	worktop

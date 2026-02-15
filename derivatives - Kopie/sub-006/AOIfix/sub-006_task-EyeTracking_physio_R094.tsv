@@ -1,0 +1,7 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anlddfvefwvocyae.jpg	1	0.744	0.258	1300.790	711.245	0.209	0.184	0.0	8	tissue box
+sun_anlddfvefwvocyae.jpg	2	1.019	0.542	1281.535	725.950	0.081	0.068	0.0	8	tissue box
+sun_anlddfvefwvocyae.jpg	3	1.777	0.208	1296.235	697.960	0.073	0.033	0.0	0	other
+sun_anlddfvefwvocyae.jpg	4	2.011	0.308	1428.855	682.920	0.087	0.034	0.0	4	flowers
+sun_anlddfvefwvocyae.jpg	5	2.344	0.192	1279.870	694.210	0.088	0.019	0.0	8	tissue box
+sun_anlddfvefwvocyae.jpg	6	2.552	0.417	1282.327	710.428	0.072	0.023	0.0	8	tissue box

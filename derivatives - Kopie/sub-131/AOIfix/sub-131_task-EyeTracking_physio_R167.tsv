@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amhdrfkpqmptmlvl.jpg	1	0.305	0.167	1325.950	767.108	0.146	0.056	0.0	3	curtain
+sun_amhdrfkpqmptmlvl.jpg	2	0.489	0.267	1360.013	924.155	0.142	0.121	0.0	1	cabinet crop
+sun_amhdrfkpqmptmlvl.jpg	2	0.489	0.267	1360.013	924.155	0.142	0.121	0.0	2	countertop
+sun_amhdrfkpqmptmlvl.jpg	2	0.489	0.267	1360.013	924.155	0.142	0.121	0.0	3	curtain
+sun_amhdrfkpqmptmlvl.jpg	3	0.772	0.217	1461.020	921.860	0.157	0.111	0.0	2	countertop
+sun_amhdrfkpqmptmlvl.jpg	3	0.772	0.217	1461.020	921.860	0.157	0.111	0.0	6	sink
+sun_amhdrfkpqmptmlvl.jpg	4	1.005	0.233	1538.405	847.955	0.253	0.140	0.0	2	countertop
+sun_amhdrfkpqmptmlvl.jpg	5	1.256	0.167	1615.180	821.910	0.130	0.039	0.0	2	countertop
+sun_amhdrfkpqmptmlvl.jpg	6	1.464	0.492	1239.030	501.120	0.189	0.126	0.0	3	curtain
+sun_amhdrfkpqmptmlvl.jpg	6	1.464	0.492	1239.030	501.120	0.189	0.126	0.0	9	window
+sun_amhdrfkpqmptmlvl.jpg	7	1.972	0.300	1281.615	540.413	0.134	0.103	0.0	3	curtain
+sun_amhdrfkpqmptmlvl.jpg	8	2.297	0.300	1183.783	714.845	0.150	0.103	0.0	0	other
+sun_amhdrfkpqmptmlvl.jpg	9	2.631	0.217	1256.725	935.430	0.100	0.046	0.0	3	curtain
+sun_amhdrfkpqmptmlvl.jpg	10	2.872	0.133	1314.003	959.423	0.094	0.029	0.0	3	curtain

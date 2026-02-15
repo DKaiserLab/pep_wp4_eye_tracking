@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_rbrrbtaxscidgzz.jpg	1	0.273	0.292	1179.020	765.885	0.166	0.079	0.0	13	toaster
+labelme_rbrrbtaxscidgzz.jpg	2	0.706	0.150	1309.355	760.842	0.307	0.119	0.0	10	pot
+labelme_rbrrbtaxscidgzz.jpg	3	0.889	0.167	1219.750	623.227	0.116	0.022	0.0	1	breadbin
+labelme_rbrrbtaxscidgzz.jpg	3	0.889	0.167	1219.750	623.227	0.116	0.022	0.0	3	cabinet
+labelme_rbrrbtaxscidgzz.jpg	4	1.106	0.325	1543.065	742.110	0.191	0.083	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	5	1.489	0.350	1178.075	762.130	0.136	0.040	0.0	13	toaster
+labelme_rbrrbtaxscidgzz.jpg	6	1.856	0.292	1184.535	790.685	0.089	0.017	0.0	13	toaster
+labelme_rbrrbtaxscidgzz.jpg	6	1.856	0.292	1184.535	790.685	0.089	0.017	0.0	14	worktop
+labelme_rbrrbtaxscidgzz.jpg	7	2.173	0.283	1383.545	823.755	0.147	0.066	0.0	14	worktop
+labelme_rbrrbtaxscidgzz.jpg	8	2.489	0.292	1512.975	761.295	0.149	0.046	0.0	0	other
+labelme_rbrrbtaxscidgzz.jpg	9	2.814	0.192	1237.350	732.145	0.142	0.043	0.0	13	toaster

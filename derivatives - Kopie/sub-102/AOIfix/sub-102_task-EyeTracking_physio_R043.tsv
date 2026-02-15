@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.577	0.225	1405.330	809.770	0.413	0.219	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	2	0.827	0.250	1484.838	806.395	0.195	0.051	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	3	1.102	0.292	1563.700	804.590	0.151	0.048	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	3	1.102	0.292	1563.700	804.590	0.151	0.048	0.0	25	scales
+labelme_qglnhnudtmzmocz.jpg	4	1.410	0.317	1614.698	768.440	0.199	0.069	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	4	1.410	0.317	1614.698	768.440	0.199	0.069	0.0	14	food
+labelme_qglnhnudtmzmocz.jpg	4	1.410	0.317	1614.698	768.440	0.199	0.069	0.0	25	scales
+labelme_qglnhnudtmzmocz.jpg	5	1.743	0.250	1581.428	669.615	0.173	0.074	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	6	2.018	0.258	1554.075	568.705	0.113	0.028	0.0	13	flowers
+labelme_qglnhnudtmzmocz.jpg	6	2.018	0.258	1554.075	568.705	0.113	0.028	0.0	16	ladle
+labelme_qglnhnudtmzmocz.jpg	7	2.293	0.325	1529.160	503.995	0.117	0.046	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	7	2.293	0.325	1529.160	503.995	0.117	0.046	0.0	18	pan
+labelme_qglnhnudtmzmocz.jpg	8	2.852	0.150	1204.170	611.628	0.262	0.060	0.0	3	bookcase
+labelme_qglnhnudtmzmocz.jpg	8	2.852	0.150	1204.170	611.628	0.262	0.060	0.0	33	towel

@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axuvsdqqnoevzlud.jpg	1	0.241	0.200	1320.290	615.273	0.107	0.036	0.0	2	basket
+sun_axuvsdqqnoevzlud.jpg	1	0.241	0.200	1320.290	615.273	0.107	0.036	0.0	18	plants
+sun_axuvsdqqnoevzlud.jpg	2	0.475	0.508	1154.045	615.150	0.082	0.020	0.0	20	sink
+sun_axuvsdqqnoevzlud.jpg	3	1.008	0.367	1111.960	781.255	0.137	0.049	0.0	4	bowl
+sun_axuvsdqqnoevzlud.jpg	3	1.008	0.367	1111.960	781.255	0.137	0.049	0.0	14	garlic
+sun_axuvsdqqnoevzlud.jpg	3	1.008	0.367	1111.960	781.255	0.137	0.049	0.0	27	worktop
+sun_axuvsdqqnoevzlud.jpg	4	1.408	0.250	1535.047	641.785	0.192	0.073	0.0	12	flowers
+sun_axuvsdqqnoevzlud.jpg	4	1.408	0.250	1535.047	641.785	0.192	0.073	0.0	25	vase
+sun_axuvsdqqnoevzlud.jpg	5	1.691	0.325	1160.790	617.270	0.245	0.092	0.0	20	sink
+sun_axuvsdqqnoevzlud.jpg	6	2.050	0.208	1239.570	479.065	0.120	0.028	0.0	6	cabinet
+sun_axuvsdqqnoevzlud.jpg	7	2.283	0.242	1516.025	517.285	0.125	0.027	0.0	7	cabinets
+sun_axuvsdqqnoevzlud.jpg	7	2.283	0.242	1516.025	517.285	0.125	0.027	0.0	12	flowers
+sun_axuvsdqqnoevzlud.jpg	8	2.608	0.233	1714.955	495.817	1.405	6.770	28.6	19	sculpture
+sun_axuvsdqqnoevzlud.jpg	9	2.850	0.158	1687.500	502.180	0.082	0.026	0.0	19	sculpture

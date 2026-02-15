@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_mitrosygehdeufb.jpg	1	0.328	0.167	1348.588	767.385	0.077	0.022	0.0	1	countertop
+labelme_mitrosygehdeufb.jpg	1	0.328	0.167	1348.588	767.385	0.077	0.022	0.0	6	tissue box
+labelme_mitrosygehdeufb.jpg	2	0.519	0.208	1255.220	803.820	0.071	0.016	0.0	1	countertop
+labelme_mitrosygehdeufb.jpg	3	0.761	0.208	1347.245	766.455	0.085	0.021	0.0	1	countertop
+labelme_mitrosygehdeufb.jpg	3	0.761	0.208	1347.245	766.455	0.085	0.021	0.0	6	tissue box
+labelme_mitrosygehdeufb.jpg	4	1.003	0.225	1389.720	769.015	0.127	0.039	0.0	6	tissue box
+labelme_mitrosygehdeufb.jpg	5	1.253	0.258	1154.100	689.155	0.105	0.065	0.0	3	mirror
+labelme_mitrosygehdeufb.jpg	6	1.553	0.158	1193.800	591.440	0.065	0.030	0.0	3	mirror
+labelme_mitrosygehdeufb.jpg	7	1.728	0.383	1354.720	591.678	0.070	0.078	0.0	3	mirror
+labelme_mitrosygehdeufb.jpg	8	2.136	0.375	1129.070	629.990	0.371	0.466	0.0	3	mirror
+labelme_mitrosygehdeufb.jpg	9	2.528	0.367	996.475	616.860	0.145	0.093	0.0	3	mirror

@@ -1,0 +1,6 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axouwjxmvidopcvg.jpg	1	0.453	0.308	1208.580	712.880	0.134	0.191	0.0	12	outlet
+sun_axouwjxmvidopcvg.jpg	2	1.995	0.183	1250.500	768.585	0.183	0.111	0.0	5	dishwasher
+sun_axouwjxmvidopcvg.jpg	2	1.995	0.183	1250.500	768.585	0.183	0.111	0.0	18	sink
+sun_axouwjxmvidopcvg.jpg	3	2.195	0.308	1272.610	724.260	0.138	0.081	0.0	21	window
+sun_axouwjxmvidopcvg.jpg	4	2.537	0.333	1037.580	679.260	0.149	0.063	0.0	11	microwave

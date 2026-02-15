@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwygwqxkobglwvv.jpg	1	0.317	0.183	1299.513	811.392	0.276	0.137	0.0	5	kitchen island
+sun_akwygwqxkobglwvv.jpg	2	0.526	0.192	1389.880	778.495	0.172	0.069	0.0	5	kitchen island
+sun_akwygwqxkobglwvv.jpg	3	0.734	0.250	1540.015	733.747	0.187	0.092	0.0	1	cabinet
+sun_akwygwqxkobglwvv.jpg	3	0.734	0.250	1540.015	733.747	0.187	0.092	0.0	7	oven
+sun_akwygwqxkobglwvv.jpg	4	1.009	0.283	1591.957	672.033	0.157	0.046	0.0	0	other
+sun_akwygwqxkobglwvv.jpg	5	1.309	0.208	1543.625	652.215	0.180	0.054	0.0	1	cabinet
+sun_akwygwqxkobglwvv.jpg	5	1.309	0.208	1543.625	652.215	0.180	0.054	0.0	7	oven
+sun_akwygwqxkobglwvv.jpg	6	1.551	0.208	1476.655	608.155	0.102	0.024	0.0	1	cabinet
+sun_akwygwqxkobglwvv.jpg	6	1.551	0.208	1476.655	608.155	0.102	0.024	0.0	12	window
+sun_akwygwqxkobglwvv.jpg	7	1.776	0.250	1384.680	603.103	0.163	0.048	0.0	1	cabinet
+sun_akwygwqxkobglwvv.jpg	7	1.776	0.250	1384.680	603.103	0.163	0.048	0.0	12	window
+sun_akwygwqxkobglwvv.jpg	8	2.043	0.233	1304.303	604.650	0.169	0.045	0.0	8	pendant lamp
+sun_akwygwqxkobglwvv.jpg	9	2.301	0.308	1201.455	611.025	0.137	0.048	0.0	4	extractor hood
+sun_akwygwqxkobglwvv.jpg	10	2.668	0.192	1116.260	622.645	0.071	0.013	0.0	9	refrigerator
+sun_akwygwqxkobglwvv.jpg	11	2.893	0.117	1057.500	634.832	0.126	0.045	0.0	9	refrigerator

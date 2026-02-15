@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrhekhltqnhqoau.jpg	1	0.682	0.425	1640.200	792.410	0.210	0.162	0.0	2	books
+sun_agrhekhltqnhqoau.jpg	1	0.682	0.425	1640.200	792.410	0.210	0.162	0.0	19	shelves
+sun_agrhekhltqnhqoau.jpg	2	1.123	0.142	1672.730	829.460	0.178	0.063	0.0	2	books
+sun_agrhekhltqnhqoau.jpg	2	1.123	0.142	1672.730	829.460	0.178	0.063	0.0	19	shelves
+sun_agrhekhltqnhqoau.jpg	3	1.307	0.208	1074.465	747.940	0.213	0.096	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	3	1.307	0.208	1074.465	747.940	0.213	0.096	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	4	1.540	0.333	996.395	646.095	0.109	0.060	0.0	6	calendar
+sun_agrhekhltqnhqoau.jpg	4	1.540	0.333	996.395	646.095	0.109	0.060	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	5	1.907	0.258	1284.005	720.395	0.226	0.105	0.0	4	bowl
+sun_agrhekhltqnhqoau.jpg	5	1.907	0.258	1284.005	720.395	0.226	0.105	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	5	1.907	0.258	1284.005	720.395	0.226	0.105	0.0	17	range
+sun_agrhekhltqnhqoau.jpg	5	1.907	0.258	1284.005	720.395	0.226	0.105	0.0	22	worktop
+sun_agrhekhltqnhqoau.jpg	6	2.190	0.258	1457.675	753.270	0.192	0.064	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	7	2.473	0.417	1539.895	780.985	0.138	0.057	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	7	2.473	0.417	1539.895	780.985	0.138	0.057	0.0	9	dishwasher

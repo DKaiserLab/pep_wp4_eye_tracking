@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvoexkareccqxgq.jpg	1	0.425	0.267	1305.907	649.335	0.162	0.112	0.0	2	books
+sun_alvoexkareccqxgq.jpg	1	0.425	0.267	1305.907	649.335	0.162	0.112	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	2	0.717	0.208	1354.220	560.360	0.138	0.026	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	3	0.950	0.175	1284.315	495.620	0.155	0.054	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	4	1.159	0.183	1024.247	485.433	0.138	0.062	0.0	6	box
+sun_alvoexkareccqxgq.jpg	4	1.159	0.183	1024.247	485.433	0.138	0.062	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	5	1.359	0.175	870.440	520.725	0.145	0.071	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	6	1.584	0.342	995.050	843.255	0.125	0.044	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	7	1.942	0.233	1174.820	723.207	0.138	0.082	0.0	34	pot
+sun_alvoexkareccqxgq.jpg	7	1.942	0.233	1174.820	723.207	0.138	0.082	0.0	35	range
+sun_alvoexkareccqxgq.jpg	8	2.200	0.333	1221.303	670.062	0.183	0.070	0.0	0	other
+sun_alvoexkareccqxgq.jpg	9	2.542	0.300	1236.935	678.848	0.139	0.041	0.0	19	jar
+sun_alvoexkareccqxgq.jpg	10	2.859	0.167	1257.600	605.977	0.205	0.051	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	10	2.859	0.167	1257.600	605.977	0.205	0.051	0.0	14	extractor hood

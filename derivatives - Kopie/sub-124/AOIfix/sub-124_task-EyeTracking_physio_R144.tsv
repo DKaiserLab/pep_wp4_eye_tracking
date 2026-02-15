@@ -1,0 +1,25 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_asrcfjusjydonoin.jpg	1	0.240	0.167	1226.135	739.007	0.168	0.063	0.0	5	cabinet
+sun_asrcfjusjydonoin.jpg	1	0.240	0.167	1226.135	739.007	0.168	0.063	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	2	0.548	0.233	1108.735	792.908	0.117	0.030	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	3	0.798	0.192	1098.605	854.715	0.135	0.032	0.0	11	food
+sun_asrcfjusjydonoin.jpg	3	0.798	0.192	1098.605	854.715	0.135	0.032	0.0	25	tray
+sun_asrcfjusjydonoin.jpg	3	0.798	0.192	1098.605	854.715	0.135	0.032	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	4	1.007	0.200	1132.015	880.730	0.108	0.024	0.0	11	food
+sun_asrcfjusjydonoin.jpg	4	1.007	0.200	1132.015	880.730	0.108	0.024	0.0	25	tray
+sun_asrcfjusjydonoin.jpg	4	1.007	0.200	1132.015	880.730	0.108	0.024	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	5	1.240	0.150	1219.595	870.870	0.089	0.013	0.0	11	food
+sun_asrcfjusjydonoin.jpg	5	1.240	0.150	1219.595	870.870	0.089	0.013	0.0	12	fruit
+sun_asrcfjusjydonoin.jpg	5	1.240	0.150	1219.595	870.870	0.089	0.013	0.0	25	tray
+sun_asrcfjusjydonoin.jpg	5	1.240	0.150	1219.595	870.870	0.089	0.013	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	6	1.415	0.175	1343.825	863.575	0.072	0.015	0.0	11	food
+sun_asrcfjusjydonoin.jpg	6	1.415	0.175	1343.825	863.575	0.072	0.015	0.0	22	spoon
+sun_asrcfjusjydonoin.jpg	6	1.415	0.175	1343.825	863.575	0.072	0.015	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	7	1.632	0.275	1430.645	864.045	0.096	0.034	0.0	11	food
+sun_asrcfjusjydonoin.jpg	7	1.632	0.275	1430.645	864.045	0.096	0.034	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	8	1.940	0.183	1453.797	661.405	0.171	0.067	0.0	24	table lamp
+sun_asrcfjusjydonoin.jpg	8	1.940	0.183	1453.797	661.405	0.171	0.067	0.0	27	window
+sun_asrcfjusjydonoin.jpg	9	2.148	0.200	1386.037	580.192	0.088	0.019	0.0	0	other
+sun_asrcfjusjydonoin.jpg	10	2.373	0.167	1190.095	583.235	0.081	0.025	0.0	0	other
+sun_asrcfjusjydonoin.jpg	11	2.573	0.183	1011.220	635.273	0.083	0.014	0.0	27	window
+sun_asrcfjusjydonoin.jpg	12	2.773	0.233	963.503	689.548	0.126	0.044	0.0	27	window

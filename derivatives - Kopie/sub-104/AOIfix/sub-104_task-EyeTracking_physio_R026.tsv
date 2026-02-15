@@ -1,0 +1,8 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_avtdeaxixgmwquck.jpg	1	0.572	0.500	1231.655	657.798	0.079	0.023	0.0	20	television
+sun_avtdeaxixgmwquck.jpg	2	1.106	0.425	1167.660	507.050	0.139	0.034	0.0	0	other
+sun_avtdeaxixgmwquck.jpg	3	1.556	0.250	1059.057	574.245	0.079	0.023	0.0	0	other
+sun_avtdeaxixgmwquck.jpg	4	1.822	0.525	980.370	687.590	0.115	0.039	0.0	19	sliding door
+sun_avtdeaxixgmwquck.jpg	5	2.414	0.250	1364.828	778.810	0.060	0.007	0.0	4	box
+sun_avtdeaxixgmwquck.jpg	6	2.689	0.242	1460.155	779.610	0.081	0.017	0.0	4	box
+sun_avtdeaxixgmwquck.jpg	6	2.689	0.242	1460.155	779.610	0.081	0.017	0.0	16	oven

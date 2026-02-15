@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afkjkqlhqnwftaam.jpg	1	0.258	0.292	1231.005	537.470	0.081	0.015	0.0	7	sink
+sun_afkjkqlhqnwftaam.jpg	2	0.591	0.167	1495.472	521.190	0.061	0.014	0.0	7	sink
+sun_afkjkqlhqnwftaam.jpg	3	0.791	0.242	1325.420	537.210	0.086	0.022	0.0	7	sink
+sun_afkjkqlhqnwftaam.jpg	4	1.083	0.383	1657.202	789.368	0.143	0.117	0.0	1	bidet crop
+sun_afkjkqlhqnwftaam.jpg	5	1.508	0.208	1284.190	850.680	0.143	0.039	0.0	2	cabinet
+sun_afkjkqlhqnwftaam.jpg	6	1.741	0.183	1183.997	860.120	0.117	0.021	0.0	2	cabinet
+sun_afkjkqlhqnwftaam.jpg	7	1.966	0.342	845.950	699.555	0.141	0.044	0.0	3	door
+sun_afkjkqlhqnwftaam.jpg	7	1.966	0.342	845.950	699.555	0.141	0.044	0.0	7	sink
+sun_afkjkqlhqnwftaam.jpg	8	2.574	0.433	1242.217	622.192	0.113	0.053	0.0	5	drain
+sun_afkjkqlhqnwftaam.jpg	8	2.574	0.433	1242.217	622.192	0.113	0.053	0.0	7	sink

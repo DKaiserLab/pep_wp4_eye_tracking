@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acpufsxakyzrtcti.jpg	1	0.284	0.217	1230.367	614.265	0.130	0.051	0.0	14	paper towels
+sun_acpufsxakyzrtcti.jpg	1	0.284	0.217	1230.367	614.265	0.130	0.051	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	2	0.525	0.300	1177.122	626.763	0.088	0.069	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	3	0.842	0.342	1194.450	634.420	0.083	0.020	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	4	1.209	0.208	1337.325	620.135	0.070	0.022	0.0	0	other
+sun_acpufsxakyzrtcti.jpg	5	1.442	0.342	1412.735	613.190	0.080	0.015	0.0	16	plant
+sun_acpufsxakyzrtcti.jpg	6	1.800	0.308	1504.780	627.685	0.082	0.024	0.0	13	outlet
+sun_acpufsxakyzrtcti.jpg	7	2.292	0.358	1478.710	813.115	0.112	0.078	0.0	27	trash can
+sun_acpufsxakyzrtcti.jpg	8	2.667	0.342	1421.210	853.080	0.288	0.138	0.0	27	trash can

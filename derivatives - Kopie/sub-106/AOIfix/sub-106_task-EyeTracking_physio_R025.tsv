@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahvszpwjtodgwusx.jpg	1	0.301	0.183	1042.682	834.702	0.175	0.102	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	2	0.509	0.158	966.200	1021.705	0.150	0.106	0.0	0	other
+sun_ahvszpwjtodgwusx.jpg	3	0.693	0.175	1275.800	1005.010	0.213	0.065	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	3	0.693	0.175	1275.800	1005.010	0.213	0.065	0.0	7	chair
+sun_ahvszpwjtodgwusx.jpg	4	0.893	0.158	1483.350	1011.915	0.178	0.070	0.0	7	chair
+sun_ahvszpwjtodgwusx.jpg	5	1.093	0.350	1589.005	980.880	0.102	0.039	0.0	7	chair
+sun_ahvszpwjtodgwusx.jpg	6	1.493	0.233	1248.735	607.465	0.105	0.036	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	7	1.743	0.175	1084.305	615.810	0.180	0.130	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	7	1.743	0.175	1084.305	615.810	0.180	0.130	0.0	9	extractor hood
+sun_ahvszpwjtodgwusx.jpg	8	1.934	0.233	927.730	629.298	0.188	0.125	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	9	2.201	0.150	865.357	647.025	0.135	0.041	0.0	11	flowers
+sun_ahvszpwjtodgwusx.jpg	9	2.201	0.150	865.357	647.025	0.135	0.041	0.0	22	shelves
+sun_ahvszpwjtodgwusx.jpg	9	2.201	0.150	865.357	647.025	0.135	0.041	0.0	28	vase
+sun_ahvszpwjtodgwusx.jpg	10	2.409	0.242	1240.925	874.510	0.092	0.019	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	10	2.409	0.242	1240.925	874.510	0.092	0.019	0.0	7	chair
+sun_ahvszpwjtodgwusx.jpg	11	2.684	0.267	1380.128	863.358	0.106	0.028	0.0	6	cabinet

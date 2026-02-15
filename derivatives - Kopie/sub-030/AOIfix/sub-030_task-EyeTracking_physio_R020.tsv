@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akuognalfgmelepa.jpg	1	0.551	0.650	1306.325	726.013	0.166	0.097	0.0	1	basket
+sun_akuognalfgmelepa.jpg	1	0.551	0.650	1306.325	726.013	0.166	0.097	0.0	2	book
+sun_akuognalfgmelepa.jpg	2	1.226	0.367	1157.842	781.625	0.191	0.064	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	3	1.618	0.425	1298.230	725.000	0.204	0.443	0.0	1	basket
+sun_akuognalfgmelepa.jpg	3	1.618	0.425	1298.230	725.000	0.204	0.443	0.0	2	book
+sun_akuognalfgmelepa.jpg	4	2.068	0.375	1502.295	654.295	0.203	0.170	0.0	0	other
+sun_akuognalfgmelepa.jpg	5	2.468	0.358	1394.815	649.630	0.270	0.086	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	6	2.851	0.150	1251.577	683.480	0.118	0.043	0.0	14	faucet
+sun_akuognalfgmelepa.jpg	6	2.851	0.150	1251.577	683.480	0.118	0.043	0.0	27	window

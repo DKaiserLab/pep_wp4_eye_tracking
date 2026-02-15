@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ataniphupyuxeowc.jpg	1	0.394	0.450	991.485	537.565	0.053	0.031	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	1	0.394	0.450	991.485	537.565	0.053	0.031	0.0	15	ladle
+sun_ataniphupyuxeowc.jpg	2	0.877	0.175	1156.065	714.700	0.093	0.036	0.0	19	plate
+sun_ataniphupyuxeowc.jpg	3	1.102	0.225	1266.100	796.070	0.062	0.035	0.0	6	cabinets
+sun_ataniphupyuxeowc.jpg	4	1.344	0.183	1364.253	743.038	0.251	0.207	0.0	19	plate
+sun_ataniphupyuxeowc.jpg	4	1.344	0.183	1364.253	743.038	0.251	0.207	0.0	30	worktop
+sun_ataniphupyuxeowc.jpg	5	1.586	0.242	1557.190	621.280	0.040	0.010	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	5	1.586	0.242	1557.190	621.280	0.040	0.010	0.0	25	sculpture
+sun_ataniphupyuxeowc.jpg	5	1.586	0.242	1557.190	621.280	0.040	0.010	0.0	27	statue
+sun_ataniphupyuxeowc.jpg	5	1.586	0.242	1557.190	621.280	0.040	0.010	0.0	29	tray
+sun_ataniphupyuxeowc.jpg	6	1.861	0.525	1600.460	589.820	0.034	0.010	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	6	1.861	0.525	1600.460	589.820	0.034	0.010	0.0	27	statue
+sun_ataniphupyuxeowc.jpg	6	1.861	0.525	1600.460	589.820	0.034	0.010	0.0	29	tray
+sun_ataniphupyuxeowc.jpg	7	2.444	0.350	1317.040	642.207	0.047	0.024	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	8	2.869	0.142	1225.625	958.505	0.042	0.005	0.0	23	rug

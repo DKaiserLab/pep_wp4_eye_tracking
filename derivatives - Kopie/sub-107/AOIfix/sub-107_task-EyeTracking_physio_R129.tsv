@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abqihmfbiddwtcmz.jpg	1	0.343	0.250	1235.972	693.375	0.106	0.067	0.0	15	sink
+sun_abqihmfbiddwtcmz.jpg	1	0.343	0.250	1235.972	693.375	0.106	0.067	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	2	0.609	0.192	953.665	720.440	0.467	0.623	0.0	13	refrigerator
+sun_abqihmfbiddwtcmz.jpg	3	0.809	0.358	854.040	715.750	0.241	0.130	0.0	13	refrigerator
+sun_abqihmfbiddwtcmz.jpg	4	1.201	0.267	947.588	525.023	0.078	0.030	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	5	1.493	0.183	1352.055	537.862	0.139	0.068	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	6	1.718	0.175	1505.255	653.340	0.072	0.061	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	6	1.718	0.175	1505.255	653.340	0.072	0.061	0.0	17	stove
+sun_abqihmfbiddwtcmz.jpg	7	1.909	0.200	1596.975	717.545	0.140	0.047	0.0	8	fruits
+sun_abqihmfbiddwtcmz.jpg	7	1.909	0.200	1596.975	717.545	0.140	0.047	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	8	2.126	0.200	1702.730	867.383	0.116	0.093	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	8	2.126	0.200	1702.730	867.383	0.116	0.093	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	9	2.351	0.158	1634.115	931.170	0.085	0.030	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	10	2.534	0.208	1470.095	969.330	0.069	0.036	0.0	7	french bread
+sun_abqihmfbiddwtcmz.jpg	10	2.534	0.208	1470.095	969.330	0.069	0.036	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	11	2.768	0.200	1302.595	1017.062	0.066	0.025	0.0	4	chair crop

@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aaslbwtcdcwjukuo.jpg	1	0.260	0.167	1252.345	683.303	0.112	0.031	0.0	12	paper towels
+sun_aaslbwtcdcwjukuo.jpg	1	0.260	0.167	1252.345	683.303	0.112	0.031	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	2	0.444	0.208	1381.835	630.205	0.203	0.140	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	3	0.669	0.142	1417.610	626.860	0.183	0.049	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	4	0.827	0.258	1450.450	598.840	0.130	0.037	0.0	10	light switch
+sun_aaslbwtcdcwjukuo.jpg	5	1.110	0.192	1588.350	764.640	0.195	0.041	0.0	14	refrigerator
+sun_aaslbwtcdcwjukuo.jpg	6	1.327	0.133	1613.360	847.445	0.094	0.023	0.0	14	refrigerator
+sun_aaslbwtcdcwjukuo.jpg	7	1.510	0.467	1213.710	556.062	0.118	0.035	0.0	5	cabinet crop
+sun_aaslbwtcdcwjukuo.jpg	8	2.002	0.167	894.537	590.392	0.184	0.060	0.0	9	door crop
+sun_aaslbwtcdcwjukuo.jpg	9	2.210	0.250	1538.650	534.065	0.125	0.024	0.0	6	cabinet
+sun_aaslbwtcdcwjukuo.jpg	10	2.510	0.192	1339.075	540.540	0.093	0.017	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	11	2.719	0.233	1148.418	748.340	0.171	0.059	0.0	8	dishwasher

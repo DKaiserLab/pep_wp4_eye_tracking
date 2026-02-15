@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajuvfnxneqoptivg.jpg	1	0.249	0.600	1387.967	674.308	0.167	0.076	0.0	11	towel
+sun_ajuvfnxneqoptivg.jpg	2	0.883	0.167	1286.307	571.130	0.093	0.023	0.0	0	other
+sun_ajuvfnxneqoptivg.jpg	3	1.083	0.250	1002.618	523.057	0.126	0.068	0.0	5	door frame
+sun_ajuvfnxneqoptivg.jpg	4	1.349	0.217	1022.062	478.105	0.089	0.023	0.0	5	door frame
+sun_ajuvfnxneqoptivg.jpg	5	1.883	0.242	1393.970	895.205	0.196	0.111	0.0	3	countertop
+sun_ajuvfnxneqoptivg.jpg	5	1.883	0.242	1393.970	895.205	0.196	0.111	0.0	8	sink
+sun_ajuvfnxneqoptivg.jpg	6	2.141	0.250	1415.475	876.388	0.110	0.038	0.0	3	countertop
+sun_ajuvfnxneqoptivg.jpg	6	2.141	0.250	1415.475	876.388	0.110	0.038	0.0	8	sink
+sun_ajuvfnxneqoptivg.jpg	7	2.408	0.208	1362.565	712.845	0.230	0.065	0.0	11	towel
+sun_ajuvfnxneqoptivg.jpg	8	2.624	0.192	1324.250	705.135	0.229	0.121	0.0	0	other
+sun_ajuvfnxneqoptivg.jpg	9	2.841	0.167	1393.327	658.030	0.136	0.028	0.0	11	towel

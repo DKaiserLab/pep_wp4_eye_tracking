@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_askezdnmkcjbtpiw.jpg	1	0.423	0.317	1013.512	781.485	0.198	0.068	0.0	9	countertop
+sun_askezdnmkcjbtpiw.jpg	1	0.423	0.317	1013.512	781.485	0.198	0.068	0.0	12	faucet
+sun_askezdnmkcjbtpiw.jpg	1	0.423	0.317	1013.512	781.485	0.198	0.068	0.0	20	sink
+sun_askezdnmkcjbtpiw.jpg	2	0.790	0.167	982.413	643.577	0.112	0.030	0.0	14	mirror
+sun_askezdnmkcjbtpiw.jpg	3	0.973	0.150	1019.750	503.690	0.156	0.057	0.0	0	other
+sun_askezdnmkcjbtpiw.jpg	4	1.140	0.142	1146.470	462.160	0.150	0.062	0.0	0	other
+sun_askezdnmkcjbtpiw.jpg	5	1.315	0.225	1601.335	634.415	0.212	0.069	0.0	0	other
+sun_askezdnmkcjbtpiw.jpg	6	1.548	0.242	1584.995	697.730	0.176	0.041	0.0	0	other
+sun_askezdnmkcjbtpiw.jpg	7	1.815	0.175	1588.035	904.840	0.132	0.066	0.0	1	bathtub
+sun_askezdnmkcjbtpiw.jpg	8	2.006	0.167	1547.440	1008.702	0.147	0.056	0.0	17	rug
+sun_askezdnmkcjbtpiw.jpg	9	2.206	0.283	1680.372	1015.433	0.096	0.031	0.0	0	other
+sun_askezdnmkcjbtpiw.jpg	10	2.523	0.217	1336.575	858.715	0.139	0.047	0.0	21	towel rack
+sun_askezdnmkcjbtpiw.jpg	10	2.523	0.217	1336.575	858.715	0.139	0.047	0.0	22	towel
+sun_askezdnmkcjbtpiw.jpg	11	2.765	0.208	1266.670	766.350	0.146	0.043	0.0	4	cabinet
+sun_askezdnmkcjbtpiw.jpg	11	2.765	0.208	1266.670	766.350	0.146	0.043	0.0	6	chair

@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agfbbeozqztznacq.jpg	1	0.466	0.258	1159.330	725.545	0.104	0.020	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	1	0.466	0.258	1159.330	725.545	0.104	0.020	0.0	14	spice rack
+sun_agfbbeozqztznacq.jpg	1	0.466	0.258	1159.330	725.545	0.104	0.020	0.0	16	worktop
+sun_agfbbeozqztznacq.jpg	2	0.749	0.333	984.875	720.545	0.090	0.021	0.0	12	plate
+sun_agfbbeozqztznacq.jpg	2	0.749	0.333	984.875	720.545	0.090	0.021	0.0	16	worktop
+sun_agfbbeozqztznacq.jpg	3	1.116	0.200	1343.182	699.240	0.101	0.022	0.0	0	other
+sun_agfbbeozqztznacq.jpg	4	1.341	0.350	1501.168	631.755	0.146	0.045	0.0	8	microwave
+sun_agfbbeozqztznacq.jpg	5	2.032	0.150	1151.693	721.582	0.107	0.069	0.0	14	spice rack
+sun_agfbbeozqztznacq.jpg	5	2.032	0.150	1151.693	721.582	0.107	0.069	0.0	16	worktop
+sun_agfbbeozqztznacq.jpg	6	2.216	0.183	1446.880	732.768	0.117	0.031	0.0	6	kitchen
+sun_agfbbeozqztznacq.jpg	6	2.216	0.183	1446.880	732.768	0.117	0.031	0.0	16	worktop
+sun_agfbbeozqztznacq.jpg	7	2.424	0.275	1585.315	725.295	0.085	0.020	0.0	6	kitchen
+sun_agfbbeozqztznacq.jpg	7	2.424	0.275	1585.315	725.295	0.085	0.020	0.0	16	worktop
+sun_agfbbeozqztznacq.jpg	8	2.741	0.242	1435.915	708.645	0.102	0.019	0.0	6	kitchen

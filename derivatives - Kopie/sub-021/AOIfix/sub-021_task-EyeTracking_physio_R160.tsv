@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azwwluglgwfhhwee.jpg	1	0.294	0.167	1100.405	717.665	0.131	0.026	0.0	17	sink
+sun_azwwluglgwfhhwee.jpg	1	0.294	0.167	1100.405	717.665	0.131	0.026	0.0	18	soap bottle
+sun_azwwluglgwfhhwee.jpg	2	0.477	0.192	1070.450	682.120	0.092	0.024	0.0	18	soap bottle
+sun_azwwluglgwfhhwee.jpg	3	0.685	0.183	1151.190	672.202	0.101	0.021	0.0	1	bottle
+sun_azwwluglgwfhhwee.jpg	4	0.902	0.358	851.815	740.205	0.106	0.036	0.0	6	dish rack
+sun_azwwluglgwfhhwee.jpg	4	0.902	0.358	851.815	740.205	0.106	0.036	0.0	14	refrigerator crop
+sun_azwwluglgwfhhwee.jpg	5	1.310	0.133	1495.102	717.947	0.196	0.073	0.0	13	range
+sun_azwwluglgwfhhwee.jpg	5	1.310	0.133	1495.102	717.947	0.196	0.073	0.0	16	saucepan
+sun_azwwluglgwfhhwee.jpg	6	1.460	0.258	1614.605	726.270	0.109	0.039	0.0	4	coffee maker
+sun_azwwluglgwfhhwee.jpg	6	1.460	0.258	1614.605	726.270	0.109	0.039	0.0	9	knife set
+sun_azwwluglgwfhhwee.jpg	6	1.460	0.258	1614.605	726.270	0.109	0.039	0.0	20	worktop
+sun_azwwluglgwfhhwee.jpg	7	1.744	0.325	1611.730	912.465	0.224	0.101	0.0	12	pot
+sun_azwwluglgwfhhwee.jpg	8	2.085	0.192	1659.110	806.700	0.123	0.033	0.0	4	coffee maker
+sun_azwwluglgwfhhwee.jpg	8	2.085	0.192	1659.110	806.700	0.123	0.033	0.0	19	soap dispenser
+sun_azwwluglgwfhhwee.jpg	8	2.085	0.192	1659.110	806.700	0.123	0.033	0.0	20	worktop
+sun_azwwluglgwfhhwee.jpg	9	2.327	0.325	1411.720	564.555	0.087	0.047	0.0	2	cabinet
+sun_azwwluglgwfhhwee.jpg	10	2.660	0.100	1463.945	593.173	0.096	0.032	0.0	0	other
+sun_azwwluglgwfhhwee.jpg	11	2.819	0.183	1207.525	668.760	0.117	0.044	0.0	1	bottle
+sun_azwwluglgwfhhwee.jpg	11	2.819	0.183	1207.525	668.760	0.117	0.044	0.0	11	pitcher

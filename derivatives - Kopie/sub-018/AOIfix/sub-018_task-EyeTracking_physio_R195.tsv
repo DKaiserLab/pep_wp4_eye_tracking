@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alxnnlzdudyhqwig.jpg	1	0.377	0.333	1139.870	748.858	0.100	0.030	0.0	31	stove
+sun_alxnnlzdudyhqwig.jpg	2	0.777	0.183	1200.412	746.360	0.058	0.010	0.0	31	stove
+sun_alxnnlzdudyhqwig.jpg	3	0.993	0.342	1472.450	718.325	0.135	0.042	0.0	27	plantpot
+sun_alxnnlzdudyhqwig.jpg	4	1.360	0.225	1412.425	726.040	0.087	0.033	0.0	2	blender
+sun_alxnnlzdudyhqwig.jpg	5	1.602	0.217	1479.845	840.170	0.204	0.079	0.0	9	chair
+sun_alxnnlzdudyhqwig.jpg	6	1.852	0.267	1646.135	723.663	0.105	0.021	0.0	12	door
+sun_alxnnlzdudyhqwig.jpg	6	1.852	0.267	1646.135	723.663	0.105	0.021	0.0	28	refrigerator
+sun_alxnnlzdudyhqwig.jpg	7	2.152	0.242	1222.035	667.475	0.171	0.055	0.0	6	cabinet
+sun_alxnnlzdudyhqwig.jpg	8	2.435	0.317	1178.293	740.460	0.139	0.039	0.0	29	saucepan
+sun_alxnnlzdudyhqwig.jpg	8	2.435	0.317	1178.293	740.460	0.139	0.039	0.0	31	stove
+sun_alxnnlzdudyhqwig.jpg	9	2.777	0.225	1260.570	686.795	0.159	0.032	0.0	19	knife set

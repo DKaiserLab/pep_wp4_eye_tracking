@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajuvfnxneqoptivg.jpg	1	0.355	0.117	1074.270	793.257	0.120	0.023	0.0	2	chair
+sun_ajuvfnxneqoptivg.jpg	1	0.355	0.117	1074.270	793.257	0.120	0.023	0.0	5	door frame
+sun_ajuvfnxneqoptivg.jpg	1	0.355	0.117	1074.270	793.257	0.120	0.023	0.0	9	table
+sun_ajuvfnxneqoptivg.jpg	2	0.497	0.175	1356.010	779.545	0.171	0.055	0.0	11	towel
+sun_ajuvfnxneqoptivg.jpg	3	0.689	0.267	1427.455	771.230	0.155	0.071	0.0	6	mirror
+sun_ajuvfnxneqoptivg.jpg	3	0.689	0.267	1427.455	771.230	0.155	0.071	0.0	11	towel
+sun_ajuvfnxneqoptivg.jpg	4	0.972	0.175	1408.185	886.720	0.129	0.031	0.0	3	countertop
+sun_ajuvfnxneqoptivg.jpg	4	0.972	0.175	1408.185	886.720	0.129	0.031	0.0	8	sink
+sun_ajuvfnxneqoptivg.jpg	5	1.155	0.100	1370.500	827.102	0.305	0.171	0.0	3	countertop
+sun_ajuvfnxneqoptivg.jpg	5	1.155	0.100	1370.500	827.102	0.305	0.171	0.0	8	sink
+sun_ajuvfnxneqoptivg.jpg	6	1.297	0.242	906.370	802.590	0.252	0.129	0.0	4	door crop
+sun_ajuvfnxneqoptivg.jpg	7	1.555	0.192	973.905	766.685	0.132	0.041	0.0	0	other
+sun_ajuvfnxneqoptivg.jpg	8	1.797	0.275	1155.460	531.170	0.118	0.045	0.0	0	other
+sun_ajuvfnxneqoptivg.jpg	9	2.114	0.250	1461.945	657.735	0.211	0.113	0.0	6	mirror
+sun_ajuvfnxneqoptivg.jpg	10	2.555	0.225	1471.915	919.945	0.148	0.052	0.0	3	countertop
+sun_ajuvfnxneqoptivg.jpg	10	2.555	0.225	1471.915	919.945	0.148	0.052	0.0	6	mirror
+sun_ajuvfnxneqoptivg.jpg	11	2.814	0.192	1358.155	724.135	0.128	0.068	0.0	11	towel

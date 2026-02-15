@@ -1,0 +1,25 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atfmueokdeplnsdy.jpg	1	0.457	0.225	1241.240	752.115	0.096	0.056	0.0	1	basket
+sun_atfmueokdeplnsdy.jpg	1	0.457	0.225	1241.240	752.115	0.096	0.056	0.0	3	cabinet
+sun_atfmueokdeplnsdy.jpg	1	0.457	0.225	1241.240	752.115	0.096	0.056	0.0	8	dishwasher
+sun_atfmueokdeplnsdy.jpg	1	0.457	0.225	1241.240	752.115	0.096	0.056	0.0	10	drawers
+sun_atfmueokdeplnsdy.jpg	1	0.457	0.225	1241.240	752.115	0.096	0.056	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	2	0.698	0.283	1174.365	760.930	0.112	0.064	0.0	10	drawers
+sun_atfmueokdeplnsdy.jpg	2	0.698	0.283	1174.365	760.930	0.112	0.064	0.0	13	kitchen island
+sun_atfmueokdeplnsdy.jpg	2	0.698	0.283	1174.365	760.930	0.112	0.064	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	3	0.998	0.242	1210.730	757.525	0.075	0.027	0.0	1	basket
+sun_atfmueokdeplnsdy.jpg	3	0.998	0.242	1210.730	757.525	0.075	0.027	0.0	10	drawers
+sun_atfmueokdeplnsdy.jpg	3	0.998	0.242	1210.730	757.525	0.075	0.027	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	4	1.265	0.350	1306.247	773.630	0.071	0.023	0.0	20	sink
+sun_atfmueokdeplnsdy.jpg	4	1.265	0.350	1306.247	773.630	0.071	0.023	0.0	21	stove
+sun_atfmueokdeplnsdy.jpg	4	1.265	0.350	1306.247	773.630	0.071	0.023	0.0	23	teapot
+sun_atfmueokdeplnsdy.jpg	4	1.265	0.350	1306.247	773.630	0.071	0.023	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	5	1.640	0.217	1481.043	808.567	0.089	0.024	0.0	2	bowl
+sun_atfmueokdeplnsdy.jpg	5	1.640	0.217	1481.043	808.567	0.089	0.024	0.0	12	fruit
+sun_atfmueokdeplnsdy.jpg	5	1.640	0.217	1481.043	808.567	0.089	0.024	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	6	1.873	0.242	1472.145	783.575	0.107	0.030	0.0	12	fruit
+sun_atfmueokdeplnsdy.jpg	7	2.148	0.333	1616.983	761.325	0.145	0.039	0.0	27	window
+sun_atfmueokdeplnsdy.jpg	8	2.507	0.242	1533.635	839.145	0.091	0.023	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	9	2.765	0.158	1471.515	809.505	0.119	0.032	0.0	2	bowl
+sun_atfmueokdeplnsdy.jpg	9	2.765	0.158	1471.515	809.505	0.119	0.032	0.0	12	fruit
+sun_atfmueokdeplnsdy.jpg	9	2.765	0.158	1471.515	809.505	0.119	0.032	0.0	29	worktop

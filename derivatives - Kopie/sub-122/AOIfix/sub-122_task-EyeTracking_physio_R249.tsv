@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alkabxwdzpdmkuvo.jpg	1	0.271	0.575	1185.085	695.120	0.166	0.132	0.0	11	sconce
+sun_alkabxwdzpdmkuvo.jpg	1	0.271	0.575	1185.085	695.120	0.166	0.132	0.0	15	statue
+sun_alkabxwdzpdmkuvo.jpg	2	0.863	0.583	1210.707	727.192	0.286	0.135	0.0	15	statue
+sun_alkabxwdzpdmkuvo.jpg	3	1.479	0.283	1367.952	785.398	0.282	0.056	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	4	1.779	0.517	1471.380	824.913	0.208	0.079	0.0	1	bathtub
+sun_alkabxwdzpdmkuvo.jpg	4	1.779	0.517	1471.380	824.913	0.208	0.079	0.0	8	plant
+sun_alkabxwdzpdmkuvo.jpg	4	1.779	0.517	1471.380	824.913	0.208	0.079	0.0	12	shelf
+sun_alkabxwdzpdmkuvo.jpg	5	2.313	0.258	1538.505	824.115	0.215	0.072	0.0	12	shelf
+sun_alkabxwdzpdmkuvo.jpg	6	2.596	0.200	1627.207	839.197	0.159	0.053	0.0	5	countertop
+sun_alkabxwdzpdmkuvo.jpg	6	2.596	0.200	1627.207	839.197	0.159	0.053	0.0	12	shelf
+sun_alkabxwdzpdmkuvo.jpg	7	2.813	0.192	1675.660	808.540	0.210	0.074	0.0	2	box
+sun_alkabxwdzpdmkuvo.jpg	7	2.813	0.192	1675.660	808.540	0.210	0.074	0.0	6	curtain
+sun_alkabxwdzpdmkuvo.jpg	7	2.813	0.192	1675.660	808.540	0.210	0.074	0.0	10	pot
+sun_alkabxwdzpdmkuvo.jpg	7	2.813	0.192	1675.660	808.540	0.210	0.074	0.0	14	sink

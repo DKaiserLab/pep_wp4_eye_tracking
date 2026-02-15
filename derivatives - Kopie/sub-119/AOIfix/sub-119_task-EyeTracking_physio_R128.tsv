@@ -1,0 +1,26 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anjplxxhrqpqpzlr.jpg	1	0.314	0.267	1337.888	744.765	0.132	0.032	0.0	3	bottle
+sun_anjplxxhrqpqpzlr.jpg	1	0.314	0.267	1337.888	744.765	0.132	0.032	0.0	11	chair
+sun_anjplxxhrqpqpzlr.jpg	1	0.314	0.267	1337.888	744.765	0.132	0.032	0.0	21	kitchen island
+sun_anjplxxhrqpqpzlr.jpg	1	0.314	0.267	1337.888	744.765	0.132	0.032	0.0	27	plate
+sun_anjplxxhrqpqpzlr.jpg	1	0.314	0.267	1337.888	744.765	0.132	0.032	0.0	41	worktop
+sun_anjplxxhrqpqpzlr.jpg	2	0.606	0.342	1404.385	726.815	0.059	0.027	0.0	4	bottles
+sun_anjplxxhrqpqpzlr.jpg	2	0.606	0.342	1404.385	726.815	0.059	0.027	0.0	27	plate
+sun_anjplxxhrqpqpzlr.jpg	2	0.606	0.342	1404.385	726.815	0.059	0.027	0.0	41	worktop
+sun_anjplxxhrqpqpzlr.jpg	3	0.964	0.250	1486.975	684.485	0.059	0.011	0.0	23	picture
+sun_anjplxxhrqpqpzlr.jpg	3	0.964	0.250	1486.975	684.485	0.059	0.011	0.0	28	pot
+sun_anjplxxhrqpqpzlr.jpg	3	0.964	0.250	1486.975	684.485	0.059	0.011	0.0	30	range
+sun_anjplxxhrqpqpzlr.jpg	4	1.264	0.300	1537.043	707.467	0.040	0.003	0.0	20	kettle
+sun_anjplxxhrqpqpzlr.jpg	4	1.264	0.300	1537.043	707.467	0.040	0.003	0.0	30	range
+sun_anjplxxhrqpqpzlr.jpg	5	1.606	0.225	1579.480	711.630	0.037	0.005	0.0	30	range
+sun_anjplxxhrqpqpzlr.jpg	6	1.881	0.392	1675.225	709.650	0.049	0.013	0.0	19	jar
+sun_anjplxxhrqpqpzlr.jpg	6	1.881	0.392	1675.225	709.650	0.049	0.013	0.0	27	plate
+sun_anjplxxhrqpqpzlr.jpg	7	2.314	0.200	1214.770	660.295	0.104	0.019	0.0	23	picture
+sun_anjplxxhrqpqpzlr.jpg	7	2.314	0.200	1214.770	660.295	0.104	0.019	0.0	32	shelf
+sun_anjplxxhrqpqpzlr.jpg	7	2.314	0.200	1214.770	660.295	0.104	0.019	0.0	40	window
+sun_anjplxxhrqpqpzlr.jpg	8	2.564	0.200	1146.493	654.395	0.036	0.005	0.0	2	books
+sun_anjplxxhrqpqpzlr.jpg	8	2.564	0.200	1146.493	654.395	0.036	0.005	0.0	9	cabinets
+sun_anjplxxhrqpqpzlr.jpg	8	2.564	0.200	1146.493	654.395	0.036	0.005	0.0	32	shelf
+sun_anjplxxhrqpqpzlr.jpg	9	2.798	0.208	1078.575	689.400	0.134	0.039	0.0	9	cabinets
+sun_anjplxxhrqpqpzlr.jpg	9	2.798	0.208	1078.575	689.400	0.134	0.039	0.0	20	kettle
+sun_anjplxxhrqpqpzlr.jpg	9	2.798	0.208	1078.575	689.400	0.134	0.039	0.0	27	plate

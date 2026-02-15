@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrhekhltqnhqoau.jpg	1	0.254	0.175	1281.185	778.550	3.002	1.252	0.0	22	worktop
+sun_agrhekhltqnhqoau.jpg	2	0.454	0.400	986.940	876.942	0.161	0.092	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	2	0.454	0.400	986.940	876.942	0.161	0.092	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	3	0.888	0.333	974.090	713.430	3.460	5.050	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	4	1.288	0.258	1197.190	762.930	0.099	0.033	0.0	22	worktop
+sun_agrhekhltqnhqoau.jpg	5	1.579	0.425	1278.380	774.345	0.115	0.024	0.0	22	worktop
+sun_agrhekhltqnhqoau.jpg	6	2.046	0.242	1595.330	776.330	0.091	0.029	0.0	2	books
+sun_agrhekhltqnhqoau.jpg	6	2.046	0.242	1595.330	776.330	0.091	0.029	0.0	19	shelves
+sun_agrhekhltqnhqoau.jpg	7	2.304	0.267	1700.882	748.067	0.163	0.043	0.0	2	books
+sun_agrhekhltqnhqoau.jpg	7	2.304	0.267	1700.882	748.067	0.163	0.043	0.0	15	plantpot
+sun_agrhekhltqnhqoau.jpg	7	2.304	0.267	1700.882	748.067	0.163	0.043	0.0	19	shelves
+sun_agrhekhltqnhqoau.jpg	7	2.304	0.267	1700.882	748.067	0.163	0.043	0.0	22	worktop
+sun_agrhekhltqnhqoau.jpg	8	2.604	0.217	1692.582	683.920	0.082	0.042	0.0	14	plant
+sun_agrhekhltqnhqoau.jpg	8	2.604	0.217	1692.582	683.920	0.082	0.042	0.0	15	plantpot
+sun_agrhekhltqnhqoau.jpg	9	2.846	0.175	1216.940	426.620	9.723	106.337	0.0	1	basket
+sun_agrhekhltqnhqoau.jpg	9	2.846	0.175	1216.940	426.620	9.723	106.337	0.0	3	bottle

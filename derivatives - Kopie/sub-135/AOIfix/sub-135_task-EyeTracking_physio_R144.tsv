@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_asrcfjusjydonoin.jpg	1	0.456	0.292	1041.830	830.885	0.117	0.065	0.0	11	food
+sun_asrcfjusjydonoin.jpg	1	0.456	0.292	1041.830	830.885	0.117	0.065	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	2	0.781	0.342	1335.905	868.860	0.074	0.033	0.0	3	bowl
+sun_asrcfjusjydonoin.jpg	2	0.781	0.342	1335.905	868.860	0.074	0.033	0.0	11	food
+sun_asrcfjusjydonoin.jpg	2	0.781	0.342	1335.905	868.860	0.074	0.033	0.0	22	spoon
+sun_asrcfjusjydonoin.jpg	2	0.781	0.342	1335.905	868.860	0.074	0.033	0.0	25	tray
+sun_asrcfjusjydonoin.jpg	2	0.781	0.342	1335.905	868.860	0.074	0.033	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	3	1.164	0.408	1202.205	600.570	0.844	0.702	0.0	0	other
+sun_asrcfjusjydonoin.jpg	4	1.606	0.425	1572.260	686.655	0.089	0.066	0.0	18	plant
+sun_asrcfjusjydonoin.jpg	4	1.606	0.425	1572.260	686.655	0.089	0.066	0.0	27	window
+sun_asrcfjusjydonoin.jpg	5	2.073	0.375	1002.060	678.245	2.062	0.891	0.0	27	window
+sun_asrcfjusjydonoin.jpg	6	2.498	0.233	1206.395	806.640	2.872	1.949	0.0	21	sink
+sun_asrcfjusjydonoin.jpg	6	2.498	0.233	1206.395	806.640	2.872	1.949	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	7	2.756	0.250	1216.045	927.178	0.083	0.021	0.0	11	food
+sun_asrcfjusjydonoin.jpg	7	2.756	0.250	1216.045	927.178	0.083	0.021	0.0	25	tray
+sun_asrcfjusjydonoin.jpg	7	2.756	0.250	1216.045	927.178	0.083	0.021	0.0	28	worktop

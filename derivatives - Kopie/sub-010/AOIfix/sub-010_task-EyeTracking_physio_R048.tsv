@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvoexkareccqxgq.jpg	1	0.194	0.167	1147.310	646.155	0.150	0.056	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	1	0.194	0.167	1147.310	646.155	0.150	0.056	0.0	31	plate
+sun_alvoexkareccqxgq.jpg	2	0.385	0.242	1074.600	534.100	0.091	0.033	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	2	0.385	0.242	1074.600	534.100	0.091	0.033	0.0	18	glasses
+sun_alvoexkareccqxgq.jpg	2	0.385	0.242	1074.600	534.100	0.091	0.033	0.0	37	sculpture
+sun_alvoexkareccqxgq.jpg	3	0.644	0.225	1008.445	523.480	0.098	0.022	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	4	0.894	0.283	1046.040	507.928	0.071	0.017	0.0	6	box
+sun_alvoexkareccqxgq.jpg	4	0.894	0.283	1046.040	507.928	0.071	0.017	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	4	0.894	0.283	1046.040	507.928	0.071	0.017	0.0	37	sculpture
+sun_alvoexkareccqxgq.jpg	4	0.894	0.283	1046.040	507.928	0.071	0.017	0.0	41	tins
+sun_alvoexkareccqxgq.jpg	5	1.194	0.208	1121.835	541.285	0.079	0.021	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	6	1.427	0.125	1247.520	548.280	0.097	0.020	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	7	1.577	0.208	1472.180	553.420	0.081	0.014	0.0	44	window
+sun_alvoexkareccqxgq.jpg	8	1.802	0.125	1507.225	587.270	0.083	0.016	0.0	29	plant
+sun_alvoexkareccqxgq.jpg	8	1.802	0.125	1507.225	587.270	0.083	0.016	0.0	44	window
+sun_alvoexkareccqxgq.jpg	9	2.152	0.142	1565.410	632.150	0.091	0.021	0.0	44	window
+sun_alvoexkareccqxgq.jpg	10	2.310	0.417	1606.220	631.678	0.087	0.018	0.0	1	basket
+sun_alvoexkareccqxgq.jpg	11	2.744	0.258	1640.380	643.995	0.107	0.019	0.0	1	basket
+sun_alvoexkareccqxgq.jpg	11	2.744	0.258	1640.380	643.995	0.107	0.019	0.0	15	flowers
+sun_alvoexkareccqxgq.jpg	11	2.744	0.258	1640.380	643.995	0.107	0.019	0.0	33	pot holder

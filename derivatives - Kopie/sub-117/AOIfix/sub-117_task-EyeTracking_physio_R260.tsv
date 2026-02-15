@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anzbjguxdgpobefx.jpg	1	0.321	0.208	1291.000	723.740	0.077	0.014	0.0	5	kettle
+sun_anzbjguxdgpobefx.jpg	2	0.555	0.258	1372.045	696.420	0.066	0.011	0.0	7	outlet
+sun_anzbjguxdgpobefx.jpg	3	0.838	0.200	1435.548	712.155	0.076	0.020	0.0	1	box
+sun_anzbjguxdgpobefx.jpg	4	1.063	0.225	1497.060	740.140	0.089	0.028	0.0	1	box
+sun_anzbjguxdgpobefx.jpg	4	1.063	0.225	1497.060	740.140	0.089	0.028	0.0	3	cup
+sun_anzbjguxdgpobefx.jpg	5	1.313	0.167	1541.878	777.683	0.087	0.016	0.0	3	cup
+sun_anzbjguxdgpobefx.jpg	5	1.313	0.167	1541.878	777.683	0.087	0.016	0.0	9	refrigerator
+sun_anzbjguxdgpobefx.jpg	5	1.313	0.167	1541.878	777.683	0.087	0.016	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	6	1.496	0.258	1528.835	804.705	0.075	0.019	0.0	6	mug
+sun_anzbjguxdgpobefx.jpg	6	1.496	0.258	1528.835	804.705	0.075	0.019	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	7	1.771	0.108	1432.400	773.090	0.062	0.017	0.0	1	box
+sun_anzbjguxdgpobefx.jpg	7	1.771	0.108	1432.400	773.090	0.062	0.017	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	8	2.005	0.192	1158.390	668.225	0.073	0.015	0.0	0	other
+sun_anzbjguxdgpobefx.jpg	9	2.221	0.192	1037.785	691.725	0.069	0.009	0.0	11	toaster
+sun_anzbjguxdgpobefx.jpg	10	2.438	0.258	981.915	720.265	0.072	0.016	0.0	11	toaster
+sun_anzbjguxdgpobefx.jpg	11	2.721	0.217	908.365	731.342	0.096	0.019	0.0	11	toaster

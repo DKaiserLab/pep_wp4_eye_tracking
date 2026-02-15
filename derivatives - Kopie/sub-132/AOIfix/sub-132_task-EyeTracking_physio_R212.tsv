@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.351	0.100	1383.575	731.082	0.126	0.032	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	1	0.351	0.100	1383.575	731.082	0.126	0.032	0.0	19	oven
+sun_acfmftudsenhrfhy.jpg	1	0.351	0.100	1383.575	731.082	0.126	0.032	0.0	29	toaster
+sun_acfmftudsenhrfhy.jpg	1	0.351	0.100	1383.575	731.082	0.126	0.032	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	2	0.484	0.425	1469.195	864.920	0.341	0.474	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	2	0.484	0.425	1469.195	864.920	0.341	0.474	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	3	0.926	0.183	1449.273	766.877	0.156	0.045	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	3	0.926	0.183	1449.273	766.877	0.156	0.045	0.0	25	sink
+sun_acfmftudsenhrfhy.jpg	3	0.926	0.183	1449.273	766.877	0.156	0.045	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	4	1.142	0.200	1374.305	605.215	0.112	0.023	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	5	1.492	0.367	962.878	643.235	0.164	0.241	0.0	22	refrigerator
+sun_acfmftudsenhrfhy.jpg	5	1.492	0.367	962.878	643.235	0.164	0.241	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	6	1.917	0.325	1007.235	854.485	0.168	0.079	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	6	1.917	0.325	1007.235	854.485	0.168	0.079	0.0	8	chair
+sun_acfmftudsenhrfhy.jpg	6	1.917	0.325	1007.235	854.485	0.168	0.079	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	7	2.284	0.258	1088.500	746.810	0.107	0.035	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	7	2.284	0.258	1088.500	746.810	0.107	0.035	0.0	28	teapot
+sun_acfmftudsenhrfhy.jpg	7	2.284	0.258	1088.500	746.810	0.107	0.035	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	8	2.567	0.442	1133.220	645.910	0.115	0.024	0.0	5	cabinet

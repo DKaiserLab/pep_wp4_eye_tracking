@@ -1,0 +1,25 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvoexkareccqxgq.jpg	1	0.460	0.275	1252.350	777.945	0.115	0.038	0.0	13	dishcloth
+sun_alvoexkareccqxgq.jpg	1	0.460	0.275	1252.350	777.945	0.115	0.038	0.0	35	range
+sun_alvoexkareccqxgq.jpg	2	0.760	0.208	1085.205	712.930	0.130	0.043	0.0	3	bottle
+sun_alvoexkareccqxgq.jpg	2	0.760	0.208	1085.205	712.930	0.130	0.043	0.0	16	food
+sun_alvoexkareccqxgq.jpg	3	1.102	0.358	1115.770	715.455	0.112	0.031	0.0	3	bottle
+sun_alvoexkareccqxgq.jpg	3	1.102	0.358	1115.770	715.455	0.112	0.031	0.0	16	food
+sun_alvoexkareccqxgq.jpg	3	1.102	0.358	1115.770	715.455	0.112	0.031	0.0	31	plate
+sun_alvoexkareccqxgq.jpg	3	1.102	0.358	1115.770	715.455	0.112	0.031	0.0	35	range
+sun_alvoexkareccqxgq.jpg	4	1.485	0.683	1092.572	753.233	0.095	0.029	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	4	1.485	0.683	1092.572	753.233	0.095	0.029	0.0	12	cutting board
+sun_alvoexkareccqxgq.jpg	4	1.485	0.683	1092.572	753.233	0.095	0.029	0.0	16	food
+sun_alvoexkareccqxgq.jpg	4	1.485	0.683	1092.572	753.233	0.095	0.029	0.0	35	range
+sun_alvoexkareccqxgq.jpg	4	1.485	0.683	1092.572	753.233	0.095	0.029	0.0	45	worktop
+sun_alvoexkareccqxgq.jpg	5	2.202	0.167	1319.992	737.238	0.114	0.024	0.0	7	cabinet
+sun_alvoexkareccqxgq.jpg	5	2.202	0.167	1319.992	737.238	0.114	0.024	0.0	12	cutting board
+sun_alvoexkareccqxgq.jpg	5	2.202	0.167	1319.992	737.238	0.114	0.024	0.0	35	range
+sun_alvoexkareccqxgq.jpg	5	2.202	0.167	1319.992	737.238	0.114	0.024	0.0	45	worktop
+sun_alvoexkareccqxgq.jpg	6	2.402	0.250	1573.165	727.048	0.113	0.042	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	6	2.402	0.250	1573.165	727.048	0.113	0.042	0.0	16	food
+sun_alvoexkareccqxgq.jpg	6	2.402	0.250	1573.165	727.048	0.113	0.042	0.0	25	oil jar
+sun_alvoexkareccqxgq.jpg	6	2.402	0.250	1573.165	727.048	0.113	0.042	0.0	43	vinegar jar
+sun_alvoexkareccqxgq.jpg	6	2.402	0.250	1573.165	727.048	0.113	0.042	0.0	45	worktop
+sun_alvoexkareccqxgq.jpg	7	2.677	0.225	1689.740	706.075	0.091	0.021	0.0	15	flowers
+sun_alvoexkareccqxgq.jpg	7	2.677	0.225	1689.740	706.075	0.091	0.021	0.0	28	pitcher

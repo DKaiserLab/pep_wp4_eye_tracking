@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atgzwnczaxwddrai.jpg	1	0.276	0.150	1395.298	798.360	0.066	0.030	0.0	23	stool
+sun_atgzwnczaxwddrai.jpg	2	0.451	0.275	1577.895	818.050	0.129	0.050	0.0	21	sink
+sun_atgzwnczaxwddrai.jpg	2	0.451	0.275	1577.895	818.050	0.129	0.050	0.0	26	worktop
+sun_atgzwnczaxwddrai.jpg	3	0.743	0.167	1651.987	825.173	0.101	0.049	0.0	26	worktop
+sun_atgzwnczaxwddrai.jpg	4	0.926	0.217	1596.050	822.820	0.082	0.059	0.0	21	sink
+sun_atgzwnczaxwddrai.jpg	4	0.926	0.217	1596.050	822.820	0.082	0.059	0.0	26	worktop
+sun_atgzwnczaxwddrai.jpg	5	1.168	0.192	1585.825	763.280	0.086	0.017	0.0	0	other
+sun_atgzwnczaxwddrai.jpg	6	1.376	0.208	1412.240	754.060	0.119	0.035	0.0	4	cabinet
+sun_atgzwnczaxwddrai.jpg	6	1.376	0.208	1412.240	754.060	0.119	0.035	0.0	23	stool
+sun_atgzwnczaxwddrai.jpg	6	1.376	0.208	1412.240	754.060	0.119	0.035	0.0	24	table
+sun_atgzwnczaxwddrai.jpg	6	1.376	0.208	1412.240	754.060	0.119	0.035	0.0	26	worktop
+sun_atgzwnczaxwddrai.jpg	7	1.643	0.217	1343.662	769.122	0.098	0.028	0.0	23	stool
+sun_atgzwnczaxwddrai.jpg	8	1.909	0.300	1081.882	774.227	0.060	0.010	0.0	4	cabinet
+sun_atgzwnczaxwddrai.jpg	9	2.234	0.175	1045.765	821.355	0.081	0.030	0.0	10	hotpl
+sun_atgzwnczaxwddrai.jpg	9	2.234	0.175	1045.765	821.355	0.081	0.030	0.0	26	worktop
+sun_atgzwnczaxwddrai.jpg	10	2.426	0.233	1058.263	864.050	0.085	0.042	0.0	13	oven
+sun_atgzwnczaxwddrai.jpg	11	2.676	0.192	1046.790	873.760	0.085	0.029	0.0	10	hotpl
+sun_atgzwnczaxwddrai.jpg	11	2.676	0.192	1046.790	873.760	0.085	0.029	0.0	13	oven
+sun_atgzwnczaxwddrai.jpg	12	2.893	0.117	1178.192	788.335	0.081	0.021	0.0	8	door

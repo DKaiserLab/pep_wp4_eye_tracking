@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvdofgavhiiyosk.jpg	1	0.422	0.225	1351.785	706.450	0.090	0.091	0.0	11	window
+sun_alvdofgavhiiyosk.jpg	1	0.422	0.225	1351.785	706.450	0.090	0.091	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	2	0.672	0.108	1424.210	697.395	0.207	0.085	0.0	11	window
+sun_alvdofgavhiiyosk.jpg	3	0.972	0.258	1575.845	694.555	0.142	0.130	0.0	6	microwave
+sun_alvdofgavhiiyosk.jpg	3	0.972	0.258	1575.845	694.555	0.142	0.130	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	4	1.247	0.225	1595.615	683.155	0.348	0.468	0.0	6	microwave
+sun_alvdofgavhiiyosk.jpg	5	1.480	0.150	1602.540	659.460	0.148	0.085	0.0	6	microwave
+sun_alvdofgavhiiyosk.jpg	6	1.664	0.458	1664.210	697.185	0.171	0.105	0.0	6	microwave
+sun_alvdofgavhiiyosk.jpg	6	1.664	0.458	1664.210	697.185	0.171	0.105	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	7	2.264	0.125	1803.535	536.365	0.351	0.291	0.0	-1	off stimulus
+sun_alvdofgavhiiyosk.jpg	8	2.447	0.333	1537.827	739.358	0.080	0.044	0.0	10	washing machine
+sun_alvdofgavhiiyosk.jpg	8	2.447	0.333	1537.827	739.358	0.080	0.044	0.0	11	window
+sun_alvdofgavhiiyosk.jpg	8	2.447	0.333	1537.827	739.358	0.080	0.044	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	9	2.789	0.167	1544.513	754.120	0.268	0.174	0.0	10	washing machine
+sun_alvdofgavhiiyosk.jpg	9	2.789	0.167	1544.513	754.120	0.268	0.174	0.0	12	worktop

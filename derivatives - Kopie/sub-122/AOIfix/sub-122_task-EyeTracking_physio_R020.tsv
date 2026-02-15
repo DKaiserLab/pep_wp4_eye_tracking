@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akuognalfgmelepa.jpg	1	0.458	0.283	1191.935	672.683	0.131	0.030	0.0	27	window
+sun_akuognalfgmelepa.jpg	2	0.758	0.300	1107.955	681.340	0.162	0.049	0.0	0	other
+sun_akuognalfgmelepa.jpg	3	1.075	0.275	1031.340	671.690	0.166	0.043	0.0	19	knife set
+sun_akuognalfgmelepa.jpg	4	1.375	0.300	961.413	675.447	0.141	0.040	0.0	0	other
+sun_akuognalfgmelepa.jpg	5	1.700	0.375	902.780	709.345	0.197	0.060	0.0	1	basket
+sun_akuognalfgmelepa.jpg	5	1.700	0.375	902.780	709.345	0.197	0.060	0.0	28	worktop
+sun_akuognalfgmelepa.jpg	6	2.100	0.175	1039.640	806.220	0.202	0.055	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	6	2.100	0.175	1039.640	806.220	0.202	0.055	0.0	9	chair crop
+sun_akuognalfgmelepa.jpg	7	2.300	0.183	1294.642	844.825	0.161	0.061	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	8	2.500	0.175	1407.640	808.205	0.171	0.057	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	9	2.808	0.200	1462.693	859.592	0.225	0.067	0.0	5	cabinet

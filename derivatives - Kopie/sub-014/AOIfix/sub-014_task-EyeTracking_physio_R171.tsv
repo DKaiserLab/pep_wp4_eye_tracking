@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aobtqmsjotgsxppu.jpg	1	0.329	0.333	1093.372	567.065	0.163	0.086	0.0	1	basket
+sun_aobtqmsjotgsxppu.jpg	1	0.329	0.333	1093.372	567.065	0.163	0.086	0.0	6	refrigerator
+sun_aobtqmsjotgsxppu.jpg	2	0.704	0.800	1509.737	807.123	0.131	0.130	0.0	9	worktop
+sun_aobtqmsjotgsxppu.jpg	3	1.538	0.200	1191.832	684.055	0.148	0.090	0.0	4	microwave
+sun_aobtqmsjotgsxppu.jpg	4	1.754	0.158	1292.975	705.060	0.154	0.033	0.0	4	microwave
+sun_aobtqmsjotgsxppu.jpg	5	2.004	0.300	1270.100	701.362	0.109	0.098	0.0	4	microwave
+sun_aobtqmsjotgsxppu.jpg	6	2.329	0.383	1588.617	829.423	0.179	0.139	0.0	5	range
+sun_aobtqmsjotgsxppu.jpg	7	2.746	0.258	1206.815	715.435	0.109	0.099	0.0	4	microwave

@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aheymxjdkejwbehi.jpg	1	0.318	0.183	1329.122	701.070	0.173	0.073	0.0	0	other
+sun_aheymxjdkejwbehi.jpg	2	0.526	0.250	1457.717	755.755	0.158	0.127	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	2	0.526	0.250	1457.717	755.755	0.158	0.127	0.0	20	kitchen island
+sun_aheymxjdkejwbehi.jpg	2	0.526	0.250	1457.717	755.755	0.158	0.127	0.0	26	refrigerator
+sun_aheymxjdkejwbehi.jpg	3	0.859	0.283	1464.703	724.760	0.132	0.056	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	3	0.859	0.283	1464.703	724.760	0.132	0.056	0.0	26	refrigerator
+sun_aheymxjdkejwbehi.jpg	4	1.176	0.183	1688.130	743.847	0.142	0.044	0.0	12	door
+sun_aheymxjdkejwbehi.jpg	4	1.176	0.183	1688.130	743.847	0.142	0.044	0.0	32	washing machine
+sun_aheymxjdkejwbehi.jpg	4	1.176	0.183	1688.130	743.847	0.142	0.044	0.0	33	window
+sun_aheymxjdkejwbehi.jpg	5	1.393	0.308	1060.490	743.275	0.195	0.131	0.0	17	hotpl
+sun_aheymxjdkejwbehi.jpg	5	1.393	0.308	1060.490	743.275	0.195	0.131	0.0	19	kettle
+sun_aheymxjdkejwbehi.jpg	5	1.393	0.308	1060.490	743.275	0.195	0.131	0.0	20	kitchen island
+sun_aheymxjdkejwbehi.jpg	5	1.393	0.308	1060.490	743.275	0.195	0.131	0.0	33	window
+sun_aheymxjdkejwbehi.jpg	6	1.718	0.250	1076.178	677.160	0.153	0.050	0.0	33	window
+sun_aheymxjdkejwbehi.jpg	7	1.993	0.167	1141.858	676.930	0.114	0.030	0.0	33	window
+sun_aheymxjdkejwbehi.jpg	8	2.376	0.125	1355.580	1037.485	0.321	0.328	0.0	9	chair
+sun_aheymxjdkejwbehi.jpg	9	2.534	0.200	1317.122	888.605	0.123	0.041	0.0	9	chair
+sun_aheymxjdkejwbehi.jpg	10	2.759	0.250	1390.597	825.278	0.127	0.055	0.0	9	chair

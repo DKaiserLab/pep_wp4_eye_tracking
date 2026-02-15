@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aevezokbkeojznwq.jpg	1	0.299	0.233	1428.755	710.428	0.108	0.036	0.0	3	cabinet
+sun_aevezokbkeojznwq.jpg	1	0.299	0.233	1428.755	710.428	0.108	0.036	0.0	10	sink
+sun_aevezokbkeojznwq.jpg	1	0.299	0.233	1428.755	710.428	0.108	0.036	0.0	14	worktop
+sun_aevezokbkeojznwq.jpg	2	0.557	0.217	1134.720	690.388	0.098	0.022	0.0	3	cabinet
+sun_aevezokbkeojznwq.jpg	2	0.557	0.217	1134.720	690.388	0.098	0.022	0.0	14	worktop
+sun_aevezokbkeojznwq.jpg	3	0.807	0.133	1267.980	648.223	0.112	0.031	0.0	0	other
+sun_aevezokbkeojznwq.jpg	4	0.957	0.367	1324.428	622.497	0.144	0.073	0.0	2	brush
+sun_aevezokbkeojznwq.jpg	4	0.957	0.367	1324.428	622.497	0.144	0.073	0.0	5	mitten
+sun_aevezokbkeojznwq.jpg	4	0.957	0.367	1324.428	622.497	0.144	0.073	0.0	11	strainer
+sun_aevezokbkeojznwq.jpg	5	1.366	0.300	942.047	817.365	0.111	0.040	0.0	0	other
+sun_aevezokbkeojznwq.jpg	6	1.691	0.358	1012.085	741.030	0.111	0.033	0.0	8	range
+sun_aevezokbkeojznwq.jpg	7	2.082	0.317	1301.842	727.112	0.132	0.044	0.0	3	cabinet
+sun_aevezokbkeojznwq.jpg	8	2.424	0.258	1473.985	695.060	0.114	0.047	0.0	10	sink
+sun_aevezokbkeojznwq.jpg	8	2.424	0.258	1473.985	695.060	0.114	0.047	0.0	14	worktop
+sun_aevezokbkeojznwq.jpg	9	2.716	0.283	1320.045	623.165	0.139	0.034	0.0	2	brush
+sun_aevezokbkeojznwq.jpg	9	2.716	0.283	1320.045	623.165	0.139	0.034	0.0	5	mitten

@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apynckhmoftszqoq.jpg	1	0.265	0.158	1350.130	663.225	0.119	0.030	0.0	8	sink
+sun_apynckhmoftszqoq.jpg	2	0.457	0.358	1145.830	745.160	0.161	0.050	0.0	1	bathtub
+sun_apynckhmoftszqoq.jpg	2	0.457	0.358	1145.830	745.160	0.161	0.050	0.0	2	curtain
+sun_apynckhmoftszqoq.jpg	3	0.848	0.325	1355.730	675.700	0.088	0.029	0.0	8	sink
+sun_apynckhmoftszqoq.jpg	4	1.240	0.333	891.852	806.457	0.182	0.073	0.0	6	rug
+sun_apynckhmoftszqoq.jpg	5	1.590	0.208	906.705	758.985	0.127	0.028	0.0	0	other
+sun_apynckhmoftszqoq.jpg	6	1.832	0.208	1045.115	630.625	0.098	0.018	0.0	1	bathtub
+sun_apynckhmoftszqoq.jpg	6	1.832	0.208	1045.115	630.625	0.098	0.018	0.0	2	curtain
+sun_apynckhmoftszqoq.jpg	7	2.107	0.142	1721.920	660.455	0.119	0.038	0.0	-1	off stimulus
+sun_apynckhmoftszqoq.jpg	8	2.273	0.167	1609.352	632.385	0.067	0.011	0.0	5	pot
+sun_apynckhmoftszqoq.jpg	8	2.273	0.167	1609.352	632.385	0.067	0.011	0.0	7	shelves
+sun_apynckhmoftszqoq.jpg	9	2.515	0.150	1523.318	953.312	0.104	0.014	0.0	3	lid
+sun_apynckhmoftszqoq.jpg	10	2.707	0.158	1464.600	981.330	0.133	0.023	0.0	3	lid
+sun_apynckhmoftszqoq.jpg	11	2.907	0.100	1466.903	565.918	0.091	0.015	0.0	0	other

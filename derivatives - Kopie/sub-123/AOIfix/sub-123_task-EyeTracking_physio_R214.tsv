@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azckywjqzicxsgez.jpg	1	0.458	0.217	1167.683	748.040	0.088	0.033	0.0	3	plant
+sun_azckywjqzicxsgez.jpg	2	0.700	0.125	1095.770	763.890	0.098	0.019	0.0	1	bathtub
+sun_azckywjqzicxsgez.jpg	2	0.700	0.125	1095.770	763.890	0.098	0.019	0.0	3	plant
+sun_azckywjqzicxsgez.jpg	2	0.700	0.125	1095.770	763.890	0.098	0.019	0.0	4	plantpot
+sun_azckywjqzicxsgez.jpg	3	0.992	0.325	1039.710	678.940	0.086	0.024	0.0	3	plant
+sun_azckywjqzicxsgez.jpg	4	1.334	0.300	1098.225	588.625	0.078	0.061	0.0	0	other
+sun_azckywjqzicxsgez.jpg	5	1.684	0.358	1571.820	669.170	0.077	0.036	0.0	0	other
+sun_azckywjqzicxsgez.jpg	6	2.084	0.333	1539.765	988.040	0.103	0.028	0.0	1	bathtub
+sun_azckywjqzicxsgez.jpg	7	2.459	0.242	1265.555	970.310	0.094	0.033	0.0	1	bathtub
+sun_azckywjqzicxsgez.jpg	8	2.717	0.250	1114.460	1003.392	0.122	0.025	0.0	1	bathtub

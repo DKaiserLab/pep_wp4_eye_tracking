@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acpufsxakyzrtcti.jpg	1	0.486	0.117	1161.832	658.212	0.181	0.078	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	1	0.486	0.117	1161.832	658.212	0.181	0.078	0.0	26	toaster
+sun_acpufsxakyzrtcti.jpg	1	0.486	0.117	1161.832	658.212	0.181	0.078	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	2	0.711	0.217	1220.457	638.505	0.095	0.037	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	3	0.969	0.208	1434.975	689.160	0.096	0.100	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	4	1.194	0.250	1422.963	834.737	0.115	0.040	0.0	27	trash can
+sun_acpufsxakyzrtcti.jpg	5	1.478	0.483	1203.220	653.170	0.110	0.075	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	5	1.478	0.483	1203.220	653.170	0.110	0.075	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	6	1.978	0.642	1254.095	652.000	0.092	0.048	0.0	2	box
+sun_acpufsxakyzrtcti.jpg	6	1.978	0.642	1254.095	652.000	0.092	0.048	0.0	14	paper towels
+sun_acpufsxakyzrtcti.jpg	6	1.978	0.642	1254.095	652.000	0.092	0.048	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	7	2.644	0.208	1171.290	689.065	0.115	0.039	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	8	2.878	0.125	1205.960	740.360	1.033	2.969	0.0	20	refrigerator

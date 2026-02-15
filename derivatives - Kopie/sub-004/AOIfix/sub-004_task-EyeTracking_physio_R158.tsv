@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajkawyunawdxfxob.jpg	1	0.337	0.175	1389.225	607.655	0.091	0.019	0.0	0	other
+sun_ajkawyunawdxfxob.jpg	2	0.520	0.142	1329.185	547.850	0.100	0.020	0.0	30	window
+sun_ajkawyunawdxfxob.jpg	3	0.695	0.233	929.260	607.760	0.119	0.030	0.0	6	dishcloth
+sun_ajkawyunawdxfxob.jpg	3	0.695	0.233	929.260	607.760	0.119	0.030	0.0	16	oven
+sun_ajkawyunawdxfxob.jpg	4	0.962	0.317	1291.338	517.560	0.103	0.020	0.0	4	cabinet
+sun_ajkawyunawdxfxob.jpg	5	1.295	0.250	1356.088	495.520	0.083	0.026	0.0	18	pendant lamp
+sun_ajkawyunawdxfxob.jpg	5	1.295	0.250	1356.088	495.520	0.083	0.026	0.0	30	window
+sun_ajkawyunawdxfxob.jpg	6	1.562	0.167	1230.325	563.060	0.112	0.024	0.0	4	cabinet
+sun_ajkawyunawdxfxob.jpg	7	1.762	0.342	1560.170	649.890	0.102	0.030	0.0	15	outlet
+sun_ajkawyunawdxfxob.jpg	7	1.762	0.342	1560.170	649.890	0.102	0.030	0.0	17	paper towels
+sun_ajkawyunawdxfxob.jpg	8	2.137	0.292	1182.130	619.710	0.092	0.029	0.0	22	pot
+sun_ajkawyunawdxfxob.jpg	8	2.137	0.292	1182.130	619.710	0.092	0.029	0.0	28	tray
+sun_ajkawyunawdxfxob.jpg	8	2.137	0.292	1182.130	619.710	0.092	0.029	0.0	29	utensils canister
+sun_ajkawyunawdxfxob.jpg	9	2.454	0.225	939.580	649.250	0.108	0.027	0.0	16	oven
+sun_ajkawyunawdxfxob.jpg	10	2.712	0.258	1291.695	693.645	0.138	0.045	0.0	4	cabinet
+sun_ajkawyunawdxfxob.jpg	10	2.712	0.258	1291.695	693.645	0.138	0.045	0.0	7	dishwasher

@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aheymxjdkejwbehi.jpg	1	0.259	0.233	1165.223	661.273	0.176	0.063	0.0	33	window
+sun_aheymxjdkejwbehi.jpg	2	0.509	0.183	1209.940	598.992	0.116	0.051	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	3	0.709	0.183	1175.787	504.440	0.135	0.041	0.0	0	other
+sun_aheymxjdkejwbehi.jpg	4	0.917	0.217	1137.085	500.205	0.131	0.051	0.0	4	bottle
+sun_aheymxjdkejwbehi.jpg	4	0.917	0.217	1137.085	500.205	0.131	0.051	0.0	24	plant
+sun_aheymxjdkejwbehi.jpg	5	1.159	0.292	1499.055	572.600	0.147	0.060	0.0	26	refrigerator
+sun_aheymxjdkejwbehi.jpg	6	1.475	0.217	1506.658	634.072	0.152	0.077	0.0	26	refrigerator
+sun_aheymxjdkejwbehi.jpg	7	1.742	0.142	1664.425	694.425	0.156	0.059	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	7	1.742	0.142	1664.425	694.425	0.156	0.059	0.0	12	door
+sun_aheymxjdkejwbehi.jpg	8	1.917	0.150	1700.105	688.247	0.128	0.025	0.0	12	door
+sun_aheymxjdkejwbehi.jpg	8	1.917	0.150	1700.105	688.247	0.128	0.025	0.0	33	window
+sun_aheymxjdkejwbehi.jpg	9	2.101	0.600	1685.290	841.033	0.201	0.112	0.0	9	chair
+sun_aheymxjdkejwbehi.jpg	9	2.101	0.600	1685.290	841.033	0.201	0.112	0.0	12	door
+sun_aheymxjdkejwbehi.jpg	9	2.101	0.600	1685.290	841.033	0.201	0.112	0.0	32	washing machine

@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amppupofnobgmmut.jpg	1	0.299	0.175	1366.030	743.255	0.310	0.088	0.0	6	toilet
+sun_amppupofnobgmmut.jpg	2	0.532	0.150	1355.520	904.062	0.196	0.049	0.0	6	toilet
+sun_amppupofnobgmmut.jpg	3	0.724	0.167	1051.190	802.195	0.215	0.057	0.0	3	shampoo
+sun_amppupofnobgmmut.jpg	3	0.724	0.167	1051.190	802.195	0.215	0.057	0.0	4	shower
+sun_amppupofnobgmmut.jpg	4	0.907	0.150	1072.025	775.183	0.136	0.037	0.0	3	shampoo
+sun_amppupofnobgmmut.jpg	4	0.907	0.150	1072.025	775.183	0.136	0.037	0.0	4	shower
+sun_amppupofnobgmmut.jpg	5	1.091	0.300	1236.943	585.452	0.079	0.025	0.0	4	shower
+sun_amppupofnobgmmut.jpg	5	1.091	0.300	1236.943	585.452	0.079	0.025	0.0	5	toilet paper
+sun_amppupofnobgmmut.jpg	6	1.424	0.183	1425.838	635.415	0.089	0.019	0.0	6	toilet
+sun_amppupofnobgmmut.jpg	7	1.649	0.158	1481.675	751.200	0.115	0.021	0.0	6	toilet
+sun_amppupofnobgmmut.jpg	8	1.841	0.242	1073.700	772.065	0.179	0.109	0.0	3	shampoo
+sun_amppupofnobgmmut.jpg	8	1.841	0.242	1073.700	772.065	0.179	0.109	0.0	4	shower
+sun_amppupofnobgmmut.jpg	9	2.107	0.325	892.430	869.865	0.160	0.057	0.0	1	door
+sun_amppupofnobgmmut.jpg	9	2.107	0.325	892.430	869.865	0.160	0.057	0.0	4	shower
+sun_amppupofnobgmmut.jpg	10	2.457	0.442	1093.945	766.975	0.132	0.072	0.0	3	shampoo
+sun_amppupofnobgmmut.jpg	10	2.457	0.442	1093.945	766.975	0.132	0.072	0.0	4	shower

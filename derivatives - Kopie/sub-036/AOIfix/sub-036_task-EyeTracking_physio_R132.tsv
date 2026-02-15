@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acdlgczjpwkeuvgy.jpg	1	0.340	0.192	1100.395	731.790	0.155	0.069	0.0	26	paper towels
+sun_acdlgczjpwkeuvgy.jpg	1	0.340	0.192	1100.395	731.790	0.155	0.069	0.0	41	worktop
+sun_acdlgczjpwkeuvgy.jpg	2	0.557	0.333	1016.450	699.370	0.088	0.016	0.0	3	board
+sun_acdlgczjpwkeuvgy.jpg	3	0.923	0.475	1219.090	704.965	0.108	0.022	0.0	29	range
+sun_acdlgczjpwkeuvgy.jpg	4	1.432	0.200	1322.722	655.188	0.081	0.031	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	5	1.665	0.183	1058.840	565.120	0.113	0.035	0.0	0	other
+sun_acdlgczjpwkeuvgy.jpg	6	1.873	0.200	881.303	570.268	0.171	0.041	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	7	2.115	0.133	1233.372	536.480	0.091	0.014	0.0	39	tray
+sun_acdlgczjpwkeuvgy.jpg	8	2.273	0.217	1284.763	552.388	0.091	0.025	0.0	6	cabinet
+sun_acdlgczjpwkeuvgy.jpg	8	2.273	0.217	1284.763	552.388	0.091	0.025	0.0	39	tray
+sun_acdlgczjpwkeuvgy.jpg	9	2.557	0.183	1665.102	716.622	0.108	0.029	0.0	40	window
+sun_acdlgczjpwkeuvgy.jpg	10	2.773	0.208	1741.810	803.960	0.117	0.030	0.0	-1	off stimulus

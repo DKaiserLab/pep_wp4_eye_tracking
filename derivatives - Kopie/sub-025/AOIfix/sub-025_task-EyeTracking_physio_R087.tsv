@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aclkmsuodfedolnj.jpg	1	0.479	0.300	1238.745	663.303	0.076	0.037	0.0	8	kettle
+sun_aclkmsuodfedolnj.jpg	1	0.479	0.300	1238.745	663.303	0.076	0.037	0.0	12	range
+sun_aclkmsuodfedolnj.jpg	1	0.479	0.300	1238.745	663.303	0.076	0.037	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	2	0.804	0.292	1267.895	722.875	0.104	0.026	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	2	0.804	0.292	1267.895	722.875	0.104	0.026	0.0	12	range
+sun_aclkmsuodfedolnj.jpg	3	1.121	0.158	1487.560	715.270	0.171	0.047	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	3	1.121	0.158	1487.560	715.270	0.171	0.047	0.0	5	dishwasher
+sun_aclkmsuodfedolnj.jpg	3	1.121	0.158	1487.560	715.270	0.171	0.047	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	4	1.379	0.383	1249.650	734.285	0.150	0.060	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	4	1.379	0.383	1249.650	734.285	0.150	0.060	0.0	12	range
+sun_aclkmsuodfedolnj.jpg	5	1.779	0.267	1251.070	810.765	0.177	0.037	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	5	1.779	0.267	1251.070	810.765	0.177	0.037	0.0	12	range
+sun_aclkmsuodfedolnj.jpg	6	2.063	0.383	1258.025	704.007	0.186	0.071	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	6	2.063	0.383	1258.025	704.007	0.186	0.071	0.0	12	range
+sun_aclkmsuodfedolnj.jpg	6	2.063	0.383	1258.025	704.007	0.186	0.071	0.0	16	worktop
+sun_aclkmsuodfedolnj.jpg	7	2.479	0.442	1623.285	661.155	0.154	0.080	0.0	10	outlet
+sun_aclkmsuodfedolnj.jpg	7	2.479	0.442	1623.285	661.155	0.154	0.080	0.0	14	sink
+sun_aclkmsuodfedolnj.jpg	7	2.479	0.442	1623.285	661.155	0.154	0.080	0.0	16	worktop

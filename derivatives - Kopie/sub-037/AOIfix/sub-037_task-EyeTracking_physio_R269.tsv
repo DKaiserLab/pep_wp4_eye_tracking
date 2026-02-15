@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apunwgjjmfutuzff.jpg	1	0.353	0.108	1267.995	595.445	0.086	0.022	0.0	20	window
+sun_apunwgjjmfutuzff.jpg	2	0.653	0.167	1245.895	573.665	0.206	0.239	0.0	20	window
+sun_apunwgjjmfutuzff.jpg	3	0.844	0.208	1128.530	734.725	0.168	0.070	0.0	5	curtain
+sun_apunwgjjmfutuzff.jpg	4	1.069	0.150	1124.357	776.475	0.139	0.140	0.0	7	dishcloth
+sun_apunwgjjmfutuzff.jpg	4	1.069	0.150	1124.357	776.475	0.139	0.140	0.0	9	fruit
+sun_apunwgjjmfutuzff.jpg	4	1.069	0.150	1124.357	776.475	0.139	0.140	0.0	21	worktop
+sun_apunwgjjmfutuzff.jpg	5	1.244	0.658	1236.055	655.135	0.124	0.237	0.0	20	window
+sun_apunwgjjmfutuzff.jpg	6	1.928	0.233	1286.363	746.455	0.111	0.053	0.0	19	soap bottle
+sun_apunwgjjmfutuzff.jpg	6	1.928	0.233	1286.363	746.455	0.111	0.053	0.0	21	worktop
+sun_apunwgjjmfutuzff.jpg	7	2.186	0.250	1121.562	802.910	0.127	0.043	0.0	4	cabinets
+sun_apunwgjjmfutuzff.jpg	7	2.186	0.250	1121.562	802.910	0.127	0.043	0.0	7	dishcloth
+sun_apunwgjjmfutuzff.jpg	7	2.186	0.250	1121.562	802.910	0.127	0.043	0.0	21	worktop
+sun_apunwgjjmfutuzff.jpg	8	2.461	0.142	1068.995	796.065	0.135	0.055	0.0	4	cabinets
+sun_apunwgjjmfutuzff.jpg	8	2.461	0.142	1068.995	796.065	0.135	0.055	0.0	7	dishcloth
+sun_apunwgjjmfutuzff.jpg	8	2.461	0.142	1068.995	796.065	0.135	0.055	0.0	9	fruit
+sun_apunwgjjmfutuzff.jpg	8	2.461	0.142	1068.995	796.065	0.135	0.055	0.0	21	worktop
+sun_apunwgjjmfutuzff.jpg	9	2.628	0.275	1285.025	753.735	0.144	0.043	0.0	18	sink
+sun_apunwgjjmfutuzff.jpg	9	2.628	0.275	1285.025	753.735	0.144	0.043	0.0	19	soap bottle
+sun_apunwgjjmfutuzff.jpg	9	2.628	0.275	1285.025	753.735	0.144	0.043	0.0	21	worktop

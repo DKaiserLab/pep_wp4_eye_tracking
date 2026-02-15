@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alyergctkjrpiwgr.jpg	1	0.310	0.117	1307.447	772.537	0.349	0.152	0.0	1	book
+sun_alyergctkjrpiwgr.jpg	1	0.310	0.117	1307.447	772.537	0.349	0.152	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	2	0.451	0.192	1129.865	794.610	0.458	0.163	0.0	36	utensils canister
+sun_alyergctkjrpiwgr.jpg	3	0.660	0.250	1051.517	764.183	0.303	0.115	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	3	0.660	0.250	1051.517	764.183	0.303	0.115	0.0	37	vase
+sun_alyergctkjrpiwgr.jpg	4	0.935	0.608	1100.415	796.400	0.348	0.144	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	4	0.935	0.608	1100.415	796.400	0.348	0.144	0.0	36	utensils canister
+sun_alyergctkjrpiwgr.jpg	5	1.560	0.425	1193.640	832.915	0.505	0.189	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	5	1.560	0.425	1193.640	832.915	0.505	0.189	0.0	32	stove
+sun_alyergctkjrpiwgr.jpg	6	2.010	0.283	1243.188	830.045	0.300	0.127	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	6	2.010	0.283	1243.188	830.045	0.300	0.127	0.0	32	stove
+sun_alyergctkjrpiwgr.jpg	6	2.010	0.283	1243.188	830.045	0.300	0.127	0.0	35	towel
+sun_alyergctkjrpiwgr.jpg	7	2.318	0.333	1113.935	836.380	0.355	0.141	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	7	2.318	0.333	1113.935	836.380	0.355	0.141	0.0	19	frying pan
+sun_alyergctkjrpiwgr.jpg	7	2.318	0.333	1113.935	836.380	0.355	0.141	0.0	32	stove
+sun_alyergctkjrpiwgr.jpg	8	2.676	0.342	1075.400	832.475	0.365	0.148	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	8	2.676	0.342	1075.400	832.475	0.365	0.148	0.0	19	frying pan
+sun_alyergctkjrpiwgr.jpg	8	2.676	0.342	1075.400	832.475	0.365	0.148	0.0	32	stove

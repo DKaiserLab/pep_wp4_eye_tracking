@@ -1,0 +1,23 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aowvammdqpmypflg.jpg	1	0.342	0.108	1345.340	587.120	0.185	0.061	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	1	0.342	0.108	1345.340	587.120	0.185	0.061	0.0	11	refrigerator
+sun_aowvammdqpmypflg.jpg	2	0.659	0.225	1134.630	503.860	0.122	0.067	0.0	5	curtain
+sun_aowvammdqpmypflg.jpg	2	0.659	0.225	1134.630	503.860	0.122	0.067	0.0	15	window
+sun_aowvammdqpmypflg.jpg	3	0.901	0.308	1158.285	496.890	0.109	0.092	0.0	5	curtain
+sun_aowvammdqpmypflg.jpg	3	0.901	0.308	1158.285	496.890	0.109	0.092	0.0	15	window
+sun_aowvammdqpmypflg.jpg	4	1.484	0.125	1560.275	631.750	0.187	0.086	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	4	1.484	0.125	1560.275	631.750	0.187	0.086	0.0	9	microwave
+sun_aowvammdqpmypflg.jpg	5	1.642	0.183	1588.122	742.152	0.152	0.038	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	5	1.642	0.183	1588.122	742.152	0.152	0.038	0.0	13	toaster
+sun_aowvammdqpmypflg.jpg	6	1.842	0.167	1561.668	807.805	0.119	0.085	0.0	2	bowl
+sun_aowvammdqpmypflg.jpg	6	1.842	0.167	1561.668	807.805	0.119	0.085	0.0	7	fruit
+sun_aowvammdqpmypflg.jpg	6	1.842	0.167	1561.668	807.805	0.119	0.085	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	7	2.267	0.108	1560.060	857.790	0.232	0.112	0.0	2	bowl
+sun_aowvammdqpmypflg.jpg	7	2.267	0.108	1560.060	857.790	0.232	0.112	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	8	2.401	0.192	1392.440	860.710	0.112	0.071	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	8	2.401	0.192	1392.440	860.710	0.112	0.071	0.0	10	oven
+sun_aowvammdqpmypflg.jpg	9	2.601	0.117	1436.673	839.123	0.134	0.143	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	9	2.601	0.117	1436.673	839.123	0.134	0.143	0.0	10	oven
+sun_aowvammdqpmypflg.jpg	9	2.601	0.117	1436.673	839.123	0.134	0.143	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	10	2.759	0.150	1334.815	728.892	0.116	0.068	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	10	2.759	0.150	1334.815	728.892	0.116	0.068	0.0	11	refrigerator

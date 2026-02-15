@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aheymxjdkejwbehi.jpg	1	0.320	0.158	1203.805	719.830	0.240	0.069	0.0	5	bowl
+sun_aheymxjdkejwbehi.jpg	1	0.320	0.158	1203.805	719.830	0.240	0.069	0.0	21	outet
+sun_aheymxjdkejwbehi.jpg	1	0.320	0.158	1203.805	719.830	0.240	0.069	0.0	25	plate
+sun_aheymxjdkejwbehi.jpg	2	0.495	0.250	1024.943	844.072	0.249	0.131	0.0	3	books
+sun_aheymxjdkejwbehi.jpg	2	0.495	0.250	1024.943	844.072	0.249	0.131	0.0	20	kitchen island
+sun_aheymxjdkejwbehi.jpg	3	0.779	0.192	1169.075	580.890	0.195	0.071	0.0	8	ceiling recessed light
+sun_aheymxjdkejwbehi.jpg	3	0.779	0.192	1169.075	580.890	0.195	0.071	0.0	33	window
+sun_aheymxjdkejwbehi.jpg	4	0.987	0.242	1203.930	514.535	0.143	0.050	0.0	0	other
+sun_aheymxjdkejwbehi.jpg	5	1.245	0.183	1257.033	450.415	0.125	0.046	0.0	22	picture
+sun_aheymxjdkejwbehi.jpg	6	1.445	0.167	1477.997	518.515	0.266	0.142	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	7	1.637	0.233	1659.652	581.938	0.302	0.141	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	7	1.637	0.233	1659.652	581.938	0.302	0.141	0.0	12	door
+sun_aheymxjdkejwbehi.jpg	8	1.895	0.183	1703.888	656.000	0.249	0.108	0.0	12	door
+sun_aheymxjdkejwbehi.jpg	8	1.895	0.183	1703.888	656.000	0.249	0.108	0.0	33	window
+sun_aheymxjdkejwbehi.jpg	9	2.104	0.267	1564.908	526.567	0.177	0.058	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	9	2.104	0.267	1564.908	526.567	0.177	0.058	0.0	26	refrigerator
+sun_aheymxjdkejwbehi.jpg	10	2.395	0.300	1228.965	683.555	0.204	0.101	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	11	2.720	0.192	1010.865	653.060	0.294	0.156	0.0	33	window
