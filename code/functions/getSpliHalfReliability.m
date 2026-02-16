@@ -9,6 +9,8 @@ if ~isfield(cfg, 'variables_of_interest')
 end
 if ~isfield(cfg, 'labels'); cfg.labels = {'odd', 'even'}; end
 if ~isfield(cfg, 'regressOutMean'); cfg.regressOutMean = true; end
+if ~isfield(cfg, 'correlation_type'); cfg.correlation_type = 'Spearman'; end
+if ~isfield(cfg, 'n_permutations'); cfg.n_permutations = 10000; end
 
 if cfg.regressOutMean
     GDM_field = 'GDM_demeaned';
@@ -194,13 +196,36 @@ for iCate = 1:length(cfg.categories)
         d.(GDM_field).(category).splitHalfReliability.ObjectCatePrio.r = R;
 
         % do permutation test
-        res = doPermutations([I',J'], R, cfg);
+        res = doPermutations([K',L'], R, cfg);
         d.(GDM_field).(category).splitHalfReliability.ObjectCatePrio.p = res.p_value;
         d.(GDM_field).(category).splitHalfReliability.ObjectCatePrio.ci = [res.ci_lower, res.ci_upper];
         d.(GDM_field).(category).splitHalfReliability.ObjectCatePrio.perm_r_mat = res.perm_r_mat;
     end
-end
 
+    %% gaze distance
+    if ismember('GazeDist', cfg.variables_of_interest)
+
+        % odd
+        idx = find(strcmp('GazeDistOdd', {d.([category, '_RDM']).ratingRDM.name}));
+        [M] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+        % even
+        idx = find(strcmp('GazeDistEven', {d.([category, '_RDM']).ratingRDM.name}));
+        [N] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+
+        % print correlation
+        disp(' ')
+        disp('Gaze Distance')
+        [R, p] = corr(M', N', 'Type', cfg.correlation_type, 'rows', 'pairwise');
+        disp(['r: ' num2str(R) ', p = ' num2str(p)]);
+        d.(GDM_field).(category).splitHalfReliability.GazeDist.r = R;
+
+        % do permutation test
+        res = doPermutations([M',N'], R, cfg);
+        d.(GDM_field).(category).splitHalfReliability.GazeDist.p = res.p_value;
+        d.(GDM_field).(category).splitHalfReliability.GazeDist.ci = [res.ci_lower, res.ci_upper];
+        d.(GDM_field).(category).splitHalfReliability.GazeDist.perm_r_mat = res.perm_r_mat;
+    end
+end
 
 %% get stats for category average
 %% fixation count
@@ -267,7 +292,17 @@ if ismember('ObjectCatePrio' , cfg.variables_of_interest)
         d.(GDM_field).kitchen.splitHalfReliability.ObjectCatePrio.r]);
     d.(GDM_field).combined.splitHalfReliability.ObjectCatePrio.p = sum(meanPermRes >= meanR) / cfg.n_permutations;
     d.(GDM_field).combined.splitHalfReliability.ObjectCatePrio.ci = [meanR - prctile(meanPermRes, 5), meanR - prctile(meanPermRes, 95)];
-    d.(GDM_field).(category).splitHalfReliability.ObjectCatePrio.perm_r_mat = res.perm_r_mat;
+end
+
+%% gaze distance
+if ismember('GazeDist' , cfg.variables_of_interest)
+    % asses permutation test
+    meanPermRes = mean([d.(GDM_field).bathroom.splitHalfReliability.GazeDist.perm_r_mat;...
+        d.(GDM_field).kitchen.splitHalfReliability.GazeDist.perm_r_mat]);
+    meanR = mean([d.(GDM_field).bathroom.splitHalfReliability.GazeDist.r;...
+        d.(GDM_field).kitchen.splitHalfReliability.GazeDist.r]);
+    d.(GDM_field).combined.splitHalfReliability.GazeDist.p = sum(meanPermRes >= meanR) / cfg.n_permutations;
+    d.(GDM_field).combined.splitHalfReliability.GazeDist.ci = [meanR - prctile(meanPermRes, 5), meanR - prctile(meanPermRes, 95)];
 end
 
 end

@@ -21,6 +21,9 @@ if ~isfield(cfg, 'save_name'); cfg.save_name = 'compare_task_RDMs_to_predictor_R
 if ~isfield(cfg, 'xaxis_labels'); cfg.xaxis_labels = true;end
 if ~isfield(cfg, 'plot_type'); cfg.plot_type = 'bar';end
 if ~isfield(cfg, 'plotting'); cfg.plotting = true;end
+if ~isfield(cfg, 'fdr_correction'); cfg.fdr_correction = true;end
+
+
 % if permutations with sign flips are used, corrleation type needs to be
 % spearman
 if strcmp(cfg.permutation_type, 'sign_flip_ref')
@@ -325,7 +328,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
                     % add confidence interval if available
                     if ismember('ci_lower', res_table.Properties.VariableNames)
                         r_val = res_table.r_val(xiPos);
-                        errorHandles(current_x_pos) = errorbar(current_x_pos, r_val, r_val-res_table.ci_lower(xiPos), res_table.ci_upper(xiPos)-r_val, 'k', 'LineWidth', 1);  % Error bars
+                        errorHandles(current_x_pos) = errorbar(current_x_pos, r_val, r_val-res_table.ci_lower(xiPos), res_table.ci_upper(xiPos)-r_val, 'k', 'LineWidth', 1.5);  % Error bars
                     end
                     % add bootstrapping median if available
                     if ismember('boot_median', res_table.Properties.VariableNames)
@@ -367,16 +370,19 @@ if cfg.plotting
     all_asterisks = cell(height(res_table), numel(cfg.variables_of_interest));
     for i_pred = 1:height(res_table)
         % do fdr correction
-        [~, ~, ~, fdr_pval] = fdr_bh(all_p_vals(i_pred, :));
-        all_asterisks(i_pred, :) = pval2asterisks(fdr_pval, 'none');
+        pval = all_p_vals(i_pred, :);
+        if cfg.fdr_correction
+            [~, ~, ~, pval] = fdr_bh(pval);
+        end
+        all_asterisks(i_pred, :) = pval2asterisks(pval, 'none');
 
         % write back adjusted p values and print them
         disp([newline, newline])
         disp(char(res_table.name(i_pred)))
         for voi_n = 1:numel(cfg.variables_of_interest)
             voi = char(cfg.variables_of_interest(voi_n));
-            d.compare_task_to_predictor.(voi).category_average.p_val(i_pred) = fdr_pval(voi_n);
-            disp(['FDR corrected p value for ', voi, ': ', num2str(fdr_pval(voi_n)),...
+            d.compare_task_to_predictor.(voi).category_average.p_val(i_pred) = pval(voi_n);
+            disp(['FDR corrected p value for ', voi, ': ', num2str(pval(voi_n)),...
                 ' ', char(all_asterisks(i_pred, voi_n))])
         end
     end
@@ -392,7 +398,7 @@ if cfg.plotting
 
         % get y position based on error bars
         y_pos = errorHandles(i_bar).YPositiveDelta + errorHandles(i_bar).YData + 0.08;
-        text(i_bar, y_pos, ast_vec{count}, 'HorizontalAlignment', 'center', 'FontSize', 12);
+        text(i_bar, y_pos, ast_vec{count}, 'HorizontalAlignment', 'center', 'FontSize', 20);
     end
 
     % get aesthetics
