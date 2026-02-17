@@ -1,7 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-sun_adcrxklhlbwrbkgm.jpg	1	0.112	0.333	1303.245	737.590	0.178	0.124	0.0	9	faucet
-sun_adcrxklhlbwrbkgm.jpg	2	0.462	0.275	1277.065	740.600	0.162	0.059	0.0	9	faucet
-sun_adcrxklhlbwrbkgm.jpg	3	0.770	0.100	1345.410	1417.222	1.727	22.353	50.0	-1	off stimulus
-sun_adcrxklhlbwrbkgm.jpg	4	0.979	0.492	1266.840	734.135	0.131	0.035	0.0	9	faucet
-sun_adcrxklhlbwrbkgm.jpg	5	1.495	0.333	1305.375	702.037	0.211	0.055	0.0	15	outlet
-sun_adcrxklhlbwrbkgm.jpg	6	2.045	0.642	1279.100	674.230	0.138	0.064	0.0	15	outlet

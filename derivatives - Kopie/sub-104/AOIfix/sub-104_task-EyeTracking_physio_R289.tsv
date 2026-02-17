@@ -1,7 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-labelme_mitrosygehdeufb.jpg	1	0.363	0.267	1021.692	819.860	0.070	0.014	0.0	1	countertop
-labelme_mitrosygehdeufb.jpg	2	0.655	0.133	996.510	848.707	0.126	0.049	0.0	1	countertop
-labelme_mitrosygehdeufb.jpg	3	0.822	1.075	1281.250	814.530	0.070	0.073	0.0	1	countertop
-labelme_mitrosygehdeufb.jpg	4	1.972	0.192	1127.365	837.930	0.064	0.010	0.0	1	countertop
-labelme_mitrosygehdeufb.jpg	5	2.205	0.375	1392.880	590.680	0.089	0.041	0.0	3	mirror
-labelme_mitrosygehdeufb.jpg	6	2.630	0.375	959.010	579.245	0.154	0.138	0.0	3	mirror

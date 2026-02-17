@@ -1,8 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-sun_abetroyqyygtscdw.jpg	1	0.323	0.208	1219.990	672.820	0.166	0.056	0.0	3	door
-sun_abetroyqyygtscdw.jpg	2	0.748	0.500	1293.602	674.725	0.385	0.362	0.0	0	other
-sun_abetroyqyygtscdw.jpg	3	1.282	0.592	1397.670	653.675	0.172	0.082	0.0	6	mirror
-sun_abetroyqyygtscdw.jpg	4	2.090	0.125	1255.840	702.475	0.941	1.253	13.3	4	light switch
-sun_abetroyqyygtscdw.jpg	5	2.223	0.150	1227.675	663.315	0.413	0.603	0.0	3	door
-sun_abetroyqyygtscdw.jpg	6	2.390	0.192	1234.440	706.285	0.419	0.173	0.0	3	door
-sun_abetroyqyygtscdw.jpg	7	2.598	0.400	1237.628	691.003	0.172	0.079	0.0	3	door

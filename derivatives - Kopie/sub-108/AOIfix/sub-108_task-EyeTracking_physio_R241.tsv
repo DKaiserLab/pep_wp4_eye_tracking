@@ -1,8 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-labelme_tyvaihcwznonioe.jpg	1	0.507	0.525	1270.960	797.700	0.114	0.043	0.0	2	countertop
-labelme_tyvaihcwznonioe.jpg	2	1.065	0.308	1323.500	847.850	0.090	0.044	0.0	2	countertop
-labelme_tyvaihcwznonioe.jpg	3	1.399	0.333	1373.227	848.928	0.127	0.052	0.0	2	countertop
-labelme_tyvaihcwznonioe.jpg	4	1.757	0.275	1232.265	845.285	0.133	0.047	0.0	2	countertop
-labelme_tyvaihcwznonioe.jpg	4	1.757	0.275	1232.265	845.285	0.133	0.047	0.0	6	soap dish
-labelme_tyvaihcwznonioe.jpg	5	2.057	0.458	987.305	883.860	0.131	0.068	0.0	2	countertop
-labelme_tyvaihcwznonioe.jpg	6	2.640	0.267	1629.903	927.722	0.107	0.038	0.0	2	countertop

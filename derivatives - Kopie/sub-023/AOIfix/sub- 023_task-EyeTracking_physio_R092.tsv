@@ -1,8 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-sun_arehvoriqhbnqssp.jpg	1	0.552	0.508	1137.985	936.135	0.132	0.092	0.0	3	float
-sun_arehvoriqhbnqssp.jpg	2	1.094	0.200	1484.615	799.235	0.178	0.137	0.0	7	toilet
-sun_arehvoriqhbnqssp.jpg	3	1.319	0.158	1171.270	627.710	0.287	0.161	0.0	0	other
-sun_arehvoriqhbnqssp.jpg	4	1.494	0.183	1016.700	618.645	0.209	0.118	0.0	5	soap dispenser
-sun_arehvoriqhbnqssp.jpg	5	1.694	0.192	997.490	575.905	0.129	0.063	0.0	5	soap dispenser
-sun_arehvoriqhbnqssp.jpg	6	1.919	0.375	1551.955	662.520	0.223	0.150	0.0	7	toilet
-sun_arehvoriqhbnqssp.jpg	7	2.310	0.575	1427.970	756.565	0.183	0.086	0.0	0	other

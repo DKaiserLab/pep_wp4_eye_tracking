@@ -1,7 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-sun_aepbpufpcgbxxcdd.jpg	1	0.273	0.267	1389.742	443.222	0.158	0.042	0.0	4	clock
-sun_aepbpufpcgbxxcdd.jpg	2	0.556	1.042	1446.625	431.765	0.078	0.048	0.0	5	doll
-sun_aepbpufpcgbxxcdd.jpg	3	1.631	0.475	1167.790	547.890	0.101	0.041	0.0	7	flowers
-sun_aepbpufpcgbxxcdd.jpg	4	2.140	0.425	1462.250	442.895	0.098	0.043	0.0	5	doll
-sun_aepbpufpcgbxxcdd.jpg	5	2.615	0.150	1566.800	444.887	0.068	0.007	0.0	8	kettle
-sun_aepbpufpcgbxxcdd.jpg	6	2.798	0.208	1623.775	428.810	0.075	0.015	0.0	16	vase

@@ -1,8 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-labelme_aqzpndrsppatraq.jpg	1	0.335	0.308	1220.275	736.520	0.102	0.021	0.0	2	bathtub
-labelme_aqzpndrsppatraq.jpg	2	0.668	0.267	1104.548	753.405	0.252	0.081	0.0	2	bathtub
-labelme_aqzpndrsppatraq.jpg	3	1.035	0.375	1108.780	613.345	0.108	0.019	0.0	0	other
-labelme_aqzpndrsppatraq.jpg	4	1.451	0.225	1318.640	694.705	0.095	0.021	0.0	6	toilet
-labelme_aqzpndrsppatraq.jpg	5	1.735	0.242	1391.180	852.275	0.117	0.044	0.0	6	toilet
-labelme_aqzpndrsppatraq.jpg	6	1.993	0.658	1493.710	872.110	0.107	0.043	0.0	4	magazine
-labelme_aqzpndrsppatraq.jpg	7	2.685	0.242	1126.245	818.630	0.140	0.047	0.0	2	bathtub

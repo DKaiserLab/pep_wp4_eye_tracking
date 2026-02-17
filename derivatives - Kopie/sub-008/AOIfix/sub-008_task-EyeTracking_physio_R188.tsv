@@ -1,8 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-sun_aobyfgpmnvnnuolx.jpg	1	0.328	0.242	1236.340	761.500	0.055	0.025	0.0	0	other
-sun_aobyfgpmnvnnuolx.jpg	2	0.595	0.300	1106.420	716.600	0.072	0.025	0.0	0	other
-sun_aobyfgpmnvnnuolx.jpg	3	0.928	0.208	1105.210	621.940	0.086	0.033	0.0	1	cabinet
-sun_aobyfgpmnvnnuolx.jpg	4	1.178	0.233	1541.610	654.595	0.057	0.034	0.0	1	cabinet
-sun_aobyfgpmnvnnuolx.jpg	5	1.428	0.233	1671.105	679.025	0.086	0.038	0.0	10	refrigerator
-sun_aobyfgpmnvnnuolx.jpg	6	1.679	0.550	1693.368	696.055	0.799	4.846	9.1	10	refrigerator
-sun_aobyfgpmnvnnuolx.jpg	7	2.262	0.742	1150.050	415.280	0.068	0.048	0.0	4	flush mount light

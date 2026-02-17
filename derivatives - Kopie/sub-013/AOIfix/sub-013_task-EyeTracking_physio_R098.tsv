@@ -1,8 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-sun_arhwdncltdednobr.jpg	1	0.283	0.183	1339.160	757.322	0.133	0.052	0.0	4	countertop
-sun_arhwdncltdednobr.jpg	2	0.492	0.567	1124.788	810.360	0.108	0.082	0.0	2	bathtub
-sun_arhwdncltdednobr.jpg	3	1.083	0.433	1175.140	756.002	0.089	0.051	0.0	0	other
-sun_arhwdncltdednobr.jpg	4	1.533	0.208	1150.915	745.410	0.144	0.076	0.0	0	other
-sun_arhwdncltdednobr.jpg	5	1.767	1.050	1206.783	757.607	0.129	0.151	0.0	0	other
-sun_arhwdncltdednobr.jpg	6	2.842	0.158	1404.755	725.660	0.142	0.037	0.0	4	countertop
-sun_arhwdncltdednobr.jpg	6	2.842	0.158	1404.755	725.660	0.142	0.037	0.0	8	sink

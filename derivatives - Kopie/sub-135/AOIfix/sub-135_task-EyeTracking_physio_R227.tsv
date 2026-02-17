@@ -1,8 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-sun_aasmevtpkslccptd.jpg	1	0.163	0.108	1253.830	751.570	0.132	0.056	0.0	32	worktop
-sun_aasmevtpkslccptd.jpg	2	0.313	0.500	1002.995	693.350	0.120	0.084	0.0	32	worktop
-sun_aasmevtpkslccptd.jpg	3	0.847	0.258	1327.065	680.830	0.118	0.046	0.0	10	dishcloth
-sun_aasmevtpkslccptd.jpg	3	0.847	0.258	1327.065	680.830	0.118	0.046	0.0	29	table
-sun_aasmevtpkslccptd.jpg	4	1.113	1.217	1313.862	718.067	4.820	5.745	0.0	32	worktop
-sun_aasmevtpkslccptd.jpg	5	2.355	0.208	1296.575	756.090	0.152	0.090	0.0	32	worktop
-sun_aasmevtpkslccptd.jpg	6	2.597	0.333	961.750	839.905	0.134	0.313	0.0	0	other

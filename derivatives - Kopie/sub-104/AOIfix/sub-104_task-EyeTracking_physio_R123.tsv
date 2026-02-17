@@ -1,9 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-labelme_vvuttgvlwdydbkh.jpg	1	0.462	0.200	1515.190	789.047	0.087	0.023	0.0	8	plant
-labelme_vvuttgvlwdydbkh.jpg	2	0.679	0.217	1577.118	820.158	0.093	0.013	0.0	8	plant
-labelme_vvuttgvlwdydbkh.jpg	3	0.962	0.383	927.610	520.717	0.180	0.070	0.0	7	picture
-labelme_vvuttgvlwdydbkh.jpg	4	1.362	0.158	895.750	580.290	0.109	0.025	0.0	7	picture
-labelme_vvuttgvlwdydbkh.jpg	5	1.554	0.325	909.825	933.630	0.071	0.011	0.0	12	towel
-labelme_vvuttgvlwdydbkh.jpg	6	1.946	0.250	1129.310	580.242	0.077	0.013	0.0	7	picture
-labelme_vvuttgvlwdydbkh.jpg	7	2.221	0.133	1087.200	610.035	0.086	0.014	0.0	7	picture
-labelme_vvuttgvlwdydbkh.jpg	8	2.412	0.592	1476.915	872.520	0.061	0.017	0.0	11	soap

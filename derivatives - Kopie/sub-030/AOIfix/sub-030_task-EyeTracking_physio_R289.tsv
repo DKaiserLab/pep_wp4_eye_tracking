@@ -1,5 +1,0 @@
-stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
-labelme_mitrosygehdeufb.jpg	1	0.348	0.167	1291.640	653.280	0.271	0.165	0.0	0	other
-labelme_mitrosygehdeufb.jpg	2	0.540	1.083	1319.493	719.702	0.171	0.231	0.0	6	tissue box
-labelme_mitrosygehdeufb.jpg	3	1.774	0.950	1316.953	732.810	0.177	0.104	0.0	6	tissue box
-labelme_mitrosygehdeufb.jpg	4	2.749	0.258	1296.910	727.920	0.134	0.069	0.0	6	tissue box
