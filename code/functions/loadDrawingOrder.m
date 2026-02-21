@@ -2,7 +2,7 @@ function [d, cfg] = loadDrawingOrder(cfg, d)
 
 % get drawing order file
 drawingOrder = readtable(fullfile(pwd, '..',...
-    ['DrawingOrderExp', num2str(cfg.exp_num), '.xlsx']),'Format','auto');
+    ['DrawingOrderExp', cfg.exp_name, '.xlsx']),'Format','auto');
 allObjects = table2cell(drawingOrder(:, 3:end));
 
 % % get unique objects

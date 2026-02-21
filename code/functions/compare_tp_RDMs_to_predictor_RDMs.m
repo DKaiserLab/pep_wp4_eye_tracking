@@ -107,8 +107,5 @@ if cfg.plotting
         if cfg.add_legend
             legend(p, cfg.RDM_to_partial_out, 'Location','northeastoutside');
         end
-        %     % saving
-        %     fig_path = fullfile(pwd, 'figures', ['exp_', num2str(cfg.exp_num)], 'compare_roi_RDMs_to_predictor_RDMs');
-        %     save_plot(cfg.save_name, fig_path)
     end
 end

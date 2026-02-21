@@ -98,9 +98,9 @@ for sub = subs
         [timest,what,msgs] = parseMsgs(dat.messages);
 
         % remove first trials (practice)
-        if cfg.exp_num == 1
+        if strcmp(cfg.exp_name, 'free')
             numPracticeTrials = 6;
-        elseif cfg.exp_num == 2
+        elseif strcmp(cfg.exp_name, 'gazeCon')
             numPracticeTrials = 10;
         end
         timest.fix = timest.fix(numPracticeTrials + 1: end,1);

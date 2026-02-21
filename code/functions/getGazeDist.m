@@ -5,7 +5,7 @@ if ~isfield(cfg, 'ETSamplingFrequency'); cfg.ETSamplingFrequency = 120; end % in
 if ~isfield(cfg, 'binSize'); cfg.binSize = 0.05; end % in sec
 
 % check if files exist
-dataDir = fullfile(pwd, '..', 'derivatives', 'groupLevel', 'gazeDist', ['exp', num2str(cfg.exp_num)]);
+dataDir = fullfile(pwd, '..', 'derivatives', 'groupLevel', 'gazeDist', ['exp', cfg.exp_name]);
 allExist = (exist(fullfile(dataDir, 'binnedBatDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'binnedKitDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'meanBatDists.mat'), 'file') && ...
@@ -192,7 +192,7 @@ else
     end
 
     %% store data
-    dataDir = fullfile(pwd, '..', 'derivatives', 'groupLevel', 'gazeDist', ['exp', num2str(cfg.exp_num)]);
+    dataDir = fullfile(pwd, '..', 'derivatives', 'groupLevel', 'gazeDist', ['exp', cfg.exp_name]);
     if ~exist(dataDir, 'dir')
         mkdir(dataDir)
     end 

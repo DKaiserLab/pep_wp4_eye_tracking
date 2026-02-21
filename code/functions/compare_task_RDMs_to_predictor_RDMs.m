@@ -10,9 +10,6 @@ if ~isfield(cfg, 'plot_rdm'); cfg.plot_rdm = false;end
 if ~isfield(cfg, 'permutation_test'); cfg.permutation_test = false;end
 if ~isfield(cfg, 'n_permutations'); cfg.n_permutations = 10000;end
 if ~isfield(cfg, 'permutation_type'); cfg.permutation_type = 'row_col_shuffle_ref';end
-if ~isfield(cfg, 'bootstrapping'); cfg.bootstrapping = false;end
-if ~isfield(cfg, 'bootstrapp_type'); cfg.bootstrapp_type = 'removing';end
-if ~isfield(cfg, 'n_bootstrapp_iterations'); cfg.n_bootstrapp_iterations = 10000;end
 if ~isfield(cfg, 'add_legend'); cfg.add_legend = true;end
 if ~isfield(cfg, 'show_single_cate'); cfg.show_single_cate = false;end
 if ~isfield(cfg, 'order_predictors'); cfg.order_predictors = false;end
@@ -47,7 +44,7 @@ if cfg.plotting
     hold on
     previous_x_pos = 0;
 end
-% prepare random permutation and/or bootstrapping (each task and category should have the same
+% prepare random permutation (each task and category should have the same
 % random samplings)
 if cfg.permutation_test
     % generate permutated subjects list
@@ -65,14 +62,7 @@ if cfg.permutation_test
         end
     end
 end
-if cfg.bootstrapping
-    % generate randomly sampled subjects list (with replacement)
-    random_samples = cell(1, cfg.n_bootstrapp_iterations);
-    for i = 1:cfg.n_bootstrapp_iterations
-        % get random sequence
-        random_samples{i} = randsample(1:cfg.n, cfg.n, true);
-    end
-end
+
 % loop through tasks
 for voi_n = 1:numel(cfg.variables_of_interest)
     voi = char(cfg.variables_of_interest(voi_n));
@@ -172,32 +162,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             end
             d.compare_task_to_predictor.permutation_test.(voi).(category) = perm_r_mat;
         end
-        % make bootstrapping
-        if cfg.bootstrapping
-            resampled_RDMs = RDMs;
-            bootstrapped_r_mat = zeros(height(r_mat)-1, cfg.n_bootstrapp_iterations);
-            for iter = 1:cfg.n_bootstrapp_iterations
-                % resample RDMs
-                for rdm = 1:numel(RDMs)
-                    % get RDM
-                    target_RDM = RDMs(rdm).RDM;
-                    if strcmp(cfg.bootstrapp_type,'w/o_removing')
-                        target_RDM(logical(eye(size(target_RDM)))) = 1;
-                    elseif strcmp(cfg.bootstrapp_type,'removing')
-                        target_RDM(logical(eye(size(target_RDM)))) = NaN;
-                    end
-                    % add resampled RDM
-                    resampled_RDMs(rdm).RDM = target_RDM(random_samples{iter},random_samples{iter});
-                end
-                % run partial correlation
-                [~, r_mat, ~, ~] = partial_cor_RDM(cfg, resampled_RDMs);
-                bootstrapped_r_mat(1:end, iter) = r_mat(2:end, 1);
-                if mod(iter/cfg.n_bootstrapp_iterations, 0.1) == 0
-                    disp([num2str((iter/cfg.n_bootstrapp_iterations)*100), '% of bootstrapping of ', voi, ' ', category, ' is done'])
-                end
-            end
-            d.compare_task_to_predictor.bootstrapping.(voi).(category) = bootstrapped_r_mat;
-        end
+       
         % runtime control
         disp(['Compare inter-subject RDM of ', voi, ' with partial correaltion of predictor RDMs - ', category])
 
@@ -211,17 +176,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
         d.compare_task_to_predictor.(voi).(cfg.categories{2}).r_val)/2;
     d.compare_task_to_predictor.(voi).category_average = res_table;
     % get confidence intervals
-    if cfg.bootstrapping
-        % average categories
-        boot_r_vals_cate1 = d.compare_task_to_predictor.bootstrapping.(voi).(cfg.categories{1});
-        boot_r_vals_cate2 = d.compare_task_to_predictor.bootstrapping.(voi).(cfg.categories{2});
-        bootstrapping_r_vals = (boot_r_vals_cate1 + boot_r_vals_cate2)/2;
-        % get confidence intervals and store in result table
-        cis = prctile(bootstrapping_r_vals', [5, 95]);
-        res_table.ci_upper = cis(2,:)';
-        res_table.ci_lower = cis(1,:)';
-        res_table.boot_median = median(bootstrapping_r_vals')';
-    elseif cfg.permutation_test
+    if cfg.permutation_test
         % get p values of random permutation
         perm_r_mat = (d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{1}) +...
             d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{2}))/2;
@@ -265,14 +220,6 @@ for voi_n = 1:numel(cfg.variables_of_interest)
                     >= res_table.r_val_cate2(row)) / cfg.n_permutations;
                 res_table.ci_upper(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 5);
                 res_table.ci_lower(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 95);
-            elseif cfg.bootstrapping
-                % get p value from randomly sampled data (one-sided test of
-                % bootstrapping distribution against 0)
-                p_value = sum(bootstrapping_r_vals(row,:) <= 0) / cfg.n_bootstrapp_iterations;
-                res_table.p_val(row) = p_value;
-                % get p values for categories
-                res_table.p_val_cate1(row) = sum(boot_r_vals_cate1(row,:) <= 0) / cfg.n_bootstrapp_iterations;
-                res_table.p_val_cate2(row) = sum(boot_r_vals_cate2(row,:) <= 0) / cfg.n_bootstrapp_iterations;
             else
                 % get p values from r values
                 N = nchoosek(cfg.n, 2);
@@ -280,7 +227,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
                 res_table.p_val_cate1(row) = r2p(res_table.r_val_cate1(row), N);
                 res_table.p_val_cate2(row) = r2p(res_table.r_val_cate2(row), N);
             end
-         
+
             % store in data struct
             d.compare_task_to_predictor.(voi).category_average = res_table;
         end
@@ -295,8 +242,6 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             for row = 1:height(res_table)
                 if cfg.permutation_test
                     Y{row} = perm_r_mat(row,:)' + res_table.r_val(row);
-                elseif cfg.bootstrapping
-                    Y{row} = bootstrapping_r_vals(row,:)';
                 end
             end
             % make violin plot
@@ -323,16 +268,12 @@ for voi_n = 1:numel(cfg.variables_of_interest)
                 end
             end
 
-            if cfg.permutation_test || cfg.bootstrapping
+            if cfg.permutation_test
                 if strcmp(cfg.plot_type, 'bar')
                     % add confidence interval if available
                     if ismember('ci_lower', res_table.Properties.VariableNames)
                         r_val = res_table.r_val(xiPos);
                         errorHandles(current_x_pos) = errorbar(current_x_pos, r_val, r_val-res_table.ci_lower(xiPos), res_table.ci_upper(xiPos)-r_val, 'k', 'LineWidth', 1.5);  % Error bars
-                    end
-                    % add bootstrapping median if available
-                    if ismember('boot_median', res_table.Properties.VariableNames)
-                        text(current_x_pos, res_table.boot_median(xiPos), '-', 'HorizontalAlignment', 'center', 'FontSize', 12);
                     end
                 elseif strcmp(cfg.plot_type, 'violin')
                     % plot oberseved mean r
@@ -341,10 +282,11 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             end
             % add marks for single category
             if cfg.show_single_cate
-                if cfg.exp_num == 1
+
+                if strcmp(cfg.exp_name, 'free')
                     cate_mark1 = 'B';
                     cate_mark2 = 'K';
-                elseif cfg.exp_num == 2
+                elseif strcmp(cfg.exp_name, 'gazeCon')
                     cate_mark1 = 'B';
                     cate_mark2 = 'L';
                 end
@@ -432,7 +374,7 @@ if cfg.plotting
         legend(res_table.short_names, 'Location','northeastoutside');
     end
     % saving
-    fig_path = fullfile(pwd, 'figures', ['exp_', num2str(cfg.exp_num)], 'compare_roi_RDMs_to_predictor_RDMs');
+    fig_path = fullfile(pwd, 'figures', ['exp_', cfg.exp_name], 'compare_roi_RDMs_to_predictor_RDMs');
     save_plot(cfg.save_name, fig_path)
 end
 end
