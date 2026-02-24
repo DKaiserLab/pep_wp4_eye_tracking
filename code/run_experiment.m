@@ -439,10 +439,10 @@ try
                 if ~isempty(dat.samplingFrequency)
                     dt = dat.samplingFrequency;
                 else
-                    dt = 1/120; % Assume 120 Hz eye-tracker
+                    dt = 1/60; % Assume 120 Hz eye-tracker
                 end
             else
-                dt = 1/120; % Assume 120 Hz eye-tracker
+                dt = 1/60; % Assume 120 Hz eye-tracker
             end
 
             % Define system matrices for a simple constant velocity model

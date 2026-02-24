@@ -206,10 +206,12 @@ for iCate = 1:length(cfg.categories)
     if ismember('GazeDist', cfg.variables_of_interest)
 
         % odd
-        idx = find(strcmp('GazeDistOdd', {d.([category, '_RDM']).ratingRDM.name}));
+        idx = find(strcmp(['meanOdd',[upper(category(1)), category(2:3)],'Dists'],...
+            {d.([category, '_RDM']).ratingRDM.name}));
         [M] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
         % even
-        idx = find(strcmp('GazeDistEven', {d.([category, '_RDM']).ratingRDM.name}));
+        idx = find(strcmp(['meanEven',[upper(category(1)), category(2:3)],'Dists'],...
+            {d.([category, '_RDM']).ratingRDM.name}));
         [N] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
 
         % print correlation
