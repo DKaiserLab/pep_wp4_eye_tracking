@@ -10,17 +10,25 @@ if ~isfield(cfg, 'plot_rdm'); cfg.plot_rdm = false;end
 if ~isfield(cfg, 'permutation_test'); cfg.permutation_test = false;end
 if ~isfield(cfg, 'n_permutations'); cfg.n_permutations = 10000;end
 if ~isfield(cfg, 'permutation_type'); cfg.permutation_type = 'row_col_shuffle_ref';end
-if ~isfield(cfg, 'add_legend'); cfg.add_legend = true;end
+if ~isfield(cfg, 'add_legend'); cfg.add_legend = false;end
 if ~isfield(cfg, 'show_single_cate'); cfg.show_single_cate = false;end
 if ~isfield(cfg, 'order_predictors'); cfg.order_predictors = false;end
 if ~isfield(cfg, 'partial_cor'); cfg.partial_cor = true;end
 if ~isfield(cfg, 'save_name'); cfg.save_name = 'compare_task_RDMs_to_predictor_RDMs';end
 if ~isfield(cfg, 'xaxis_labels'); cfg.xaxis_labels = true;end
-if ~isfield(cfg, 'plot_type'); cfg.plot_type = 'bar';end
-if ~isfield(cfg, 'plotting'); cfg.plotting = true;end
+if ~isfield(cfg, 'plot_type'); cfg.plot_type = 'violin';end
+if ~isfield(cfg, 'scatter_in_violin'); cfg.scatter_in_violin = 0;end
+if ~isfield(cfg, 'plott_gap'); cfg.plott_gap = 0;end
+if cfg.scatter_in_violin == 0
+    violin_type = 'full';
+elseif cfg.scatter_in_violin == 1
+    violin_type = 'half';
+end
+if ~isfield(cfg, 'task_plotting'); cfg.task_plotting = true;end
 if ~isfield(cfg, 'fdr_correction'); cfg.fdr_correction = true;end
 
-
+if ~isfield(cfg, 'plotting_predictors'); cfg.plotting_predictors = 1:numel(cfg.predictor_RDMs);end
+cfg.plot_rdm = false;
 % if permutations with sign flips are used, corrleation type needs to be
 % spearman
 if strcmp(cfg.permutation_type, 'sign_flip_ref')
@@ -39,11 +47,10 @@ for var = 1:numel(cfg.RDM_to_partial_out)
     end
 end
 % prepare figure
-if cfg.plotting
-    figure;
-    hold on
-    previous_x_pos = 0;
-end
+figure;
+hold on
+previous_x_pos = 0;
+% tiledlayout(numel(cfg.variables_of_interest)/2,2)
 % prepare random permutation (each task and category should have the same
 % random samplings)
 if cfg.permutation_test
@@ -103,6 +110,8 @@ for voi_n = 1:numel(cfg.variables_of_interest)
         res_table = table;
         res_table.name = cfg.labels(2:end)';
         res_table.r_val = r_mat(2:end, 1);
+        % store in data struct
+        d.compare_task_to_predictor.(voi).(category) = res_table;
 
         % make random permutations
         if cfg.permutation_test
@@ -162,7 +171,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             end
             d.compare_task_to_predictor.permutation_test.(voi).(category) = perm_r_mat;
         end
-       
+
         % runtime control
         disp(['Compare inter-subject RDM of ', voi, ' with partial correaltion of predictor RDMs - ', category])
 
@@ -186,10 +195,48 @@ for voi_n = 1:numel(cfg.variables_of_interest)
 
 
     % plotting
-    if cfg.plotting
-        % loop through res_table and add according variables
-        disp(['p and mean r values for ', voi])
-        clr = cool(numel(RDMs));
+
+    % filter predictors to plot
+    if numel(cfg.plotting_predictors) ~= numel(cfg.predictor_RDMs)
+        res_table = res_table(cfg.plotting_predictors, :);
+    end
+
+    if ~isempty(short_names) && numel(cfg.plotting_predictors) ~= numel(short_names)
+        short_names = short_names(cfg.plotting_predictors);
+        colors = colors(cfg.plotting_predictors, :);
+    end
+
+    if numel(cfg.plotting_predictors) ~= height(perm_r_mat)
+        perm_r_mat = perm_r_mat(cfg.plotting_predictors, :);
+    end
+
+
+    % loop through res_table and add according variables
+    if cfg.plotting_predictors == 1
+        if strcmp(voi, 'GazeDist')
+            res_table.color_R = .98;
+            res_table.color_G = .41;
+            res_table.color_B = .91;
+            res_table.short_names = 'Gaze Dist';
+        elseif strcmp(voi, 'ObjectFixCount')
+            res_table.color_R = .87;
+            res_table.color_G = .01;
+            res_table.color_B = .87;
+            res_table.short_names = 'Fixation Count';
+        elseif strcmp(voi, 'ObjectDwellsCate')
+            res_table.color_R = .6;
+            res_table.color_G = .02;
+            res_table.color_B = .6;
+            res_table.short_names = 'Objects Dwells';
+        elseif strcmp(voi, 'ObjectCatePrio')
+            res_table.color_R = .24;
+            res_table.color_G = .04;
+            res_table.color_B = .3;
+            res_table.short_names = 'Fixation Order';
+        end
+
+    else
+        clr = summer(numel(RDMs));
         for row = 1:height(res_table)
             % colors
             if ~isempty(colors)
@@ -201,180 +248,230 @@ for voi_n = 1:numel(cfg.variables_of_interest)
                 res_table.color_G(row) = clr(row,2);
                 res_table.color_B(row) = clr(row,3);
             end
-            % short names
+
+            % get variable names
             if ~isempty(short_names)
                 res_table.short_names{row} = short_names{row};
             else
                 res_table.short_names{row} = cfg.labels{row+1};
             end
-            % p val
-            if cfg.permutation_test
-                % get p value from random permutation (one-sided test aginst
-                % permutation distribution)
-                p_value = sum(perm_r_mat(row,:) >= res_table.r_val(row)) / cfg.n_permutations;
-                res_table.p_val(row) = p_value;
-                % get p values for categories
-                res_table.p_val_cate1(row) = sum(d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{1})(row,:)...
-                    >= res_table.r_val_cate1(row)) / cfg.n_permutations;
-                res_table.p_val_cate2(row) = sum(d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{2})(row,:)...
-                    >= res_table.r_val_cate2(row)) / cfg.n_permutations;
-                res_table.ci_upper(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 5);
-                res_table.ci_lower(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 95);
-            else
-                % get p values from r values
-                N = nchoosek(cfg.n, 2);
-                res_table.p_val(row) = r2p(res_table.r_val(row), N);
-                res_table.p_val_cate1(row) = r2p(res_table.r_val_cate1(row), N);
-                res_table.p_val_cate2(row) = r2p(res_table.r_val_cate2(row), N);
-            end
+        end
+    end
 
-            % store in data struct
-            d.compare_task_to_predictor.(voi).category_average = res_table;
+    % get p vals
+    for row = 1:height(res_table)
+        if cfg.permutation_test
+            % get p value from random permutation (one-sided test aginst
+            % permutation distribution)
+            p_value = sum(perm_r_mat(row,:) >= res_table.r_val(row)) / cfg.n_permutations;
+            res_table.p_val(row) = p_value;
+            % get p values for categories
+            res_table.p_val_cate1(row) = sum(d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{1})(row,:)...
+                >= res_table.r_val_cate1(row)) / cfg.n_permutations;
+            res_table.p_val_cate2(row) = sum(d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{2})(row,:)...
+                >= res_table.r_val_cate2(row)) / cfg.n_permutations;
+            res_table.ci_upper(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 5);
+            res_table.ci_lower(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 95);
+        else
+            % get p values from r values
+            N = nchoosek(cfg.n, 2);
+            res_table.p_val(row) = r2p(res_table.r_val(row), N);
+            res_table.p_val_cate1(row) = r2p(res_table.r_val_cate1(row), N);
+            res_table.p_val_cate2(row) = r2p(res_table.r_val_cate2(row), N);
         end
-        % order row based on r values
-        if cfg.order_predictors
-            res_table = sortrows(res_table, 'r_val', 'descend');
-        end
+    end
 
-        % make plot
-        if strcmp(cfg.plot_type, 'violin')
-            Y = cell(1,height(res_table));
-            for row = 1:height(res_table)
-                if cfg.permutation_test
-                    Y{row} = perm_r_mat(row,:)' + res_table.r_val(row);
-                end
-            end
-            % make violin plot
-            daviolinplot(Y,'scatter',2,'scatteralpha',0.5,'jitter',1,'box', 1, ...
-                'color',[res_table.color_R,res_table.color_G,res_table.color_B],...
-                'boxcolors', 'same', 'scattercolors','same','scattersize', 5, 'outliers',0);
-            yline(0);
-        elseif strcmp(cfg.plot_type, 'bar')
-            for xiPos = 1:height(res_table)
-                current_x_pos = previous_x_pos + xiPos;
-                % Draw individual bar
-                barColor = [res_table.color_R(xiPos),res_table.color_G(xiPos),res_table.color_B(xiPos)];
-                barHandles(current_x_pos) = bar(current_x_pos, res_table.r_val(xiPos), 'FaceColor', barColor, 'EdgeColor', 'k');
-            end
-        end
+    % store in data struct
+    d.compare_task_to_predictor.(voi).category_average = res_table;
+
+    % order row based on r values
+    if cfg.order_predictors
+        res_table = sortrows(res_table, 'r_val', 'descend');
+    end
+
+    % store in data struct
+    d.compare_task_to_predictor.(voi).category_average = res_table;
+
+    % make plot
+    if strcmp(cfg.plot_type, 'violin')
         for xiPos = 1:height(res_table)
             current_x_pos = previous_x_pos + xiPos;
-            if strcmp(cfg.plot_type, 'bar')
-                if contains(res_table.name(xiPos), 'Originhal')
-                    % Apply hatch only to this bar
-                    hatchfill2(barHandles(current_x_pos), 'HatchAngle', 45, ...
-                        'HatchColor', 'k', ...
-                        'HatchLineWidth', 1);
-                end
-            end
-
             if cfg.permutation_test
-                if strcmp(cfg.plot_type, 'bar')
-                    % add confidence interval if available
-                    if ismember('ci_lower', res_table.Properties.VariableNames)
-                        r_val = res_table.r_val(xiPos);
-                        errorHandles(current_x_pos) = errorbar(current_x_pos, r_val, r_val-res_table.ci_lower(xiPos), res_table.ci_upper(xiPos)-r_val, 'k', 'LineWidth', 1.5);  % Error bars
-                    end
-                elseif strcmp(cfg.plot_type, 'violin')
-                    % plot oberseved mean r
-                    plot([current_x_pos-0.1,current_x_pos+0.1], [res_table.r_val(xiPos), res_table.r_val(xiPos)], 'k', 'LineWidth',2);
-                end
+                Y = {perm_r_mat(xiPos,:)'};
             end
-            % add marks for single category
-            if cfg.show_single_cate
 
-                if strcmp(cfg.exp_name, 'free')
-                    cate_mark1 = 'B';
-                    cate_mark2 = 'K';
-                elseif strcmp(cfg.exp_name, 'gazeCon')
-                    cate_mark1 = 'B';
-                    cate_mark2 = 'L';
-                end
-                text(current_x_pos-0.2, res_table.r_val_cate1(xiPos), cate_mark1, 'HorizontalAlignment', 'center', 'FontSize', 5);
-                text(current_x_pos-0.2, res_table.r_val_cate2(xiPos), cate_mark2, 'HorizontalAlignment', 'center', 'FontSize', 5);
+            % make violin plot
+
+            % make violin plot
+            currentColor = [res_table.color_R(xiPos), res_table.color_G(xiPos), res_table.color_B(xiPos)];
+            mainHandles(current_x_pos) = daviolinplot(Y,...
+                'color', currentColor,...
+                'violin', violin_type, 'violinalpha', 0.2,...
+                'scatter',cfg.scatter_in_violin,'scatteralpha',0.2,'jitter',1,'scattercolors', 'same', 'scattersize', 5,...
+                'box', 0,...
+                'outliers',0);
+            mainHandles(current_x_pos).ds.Vertices(:, 1) = mainHandles(current_x_pos).ds.Vertices(:, 1) + current_x_pos - 1;
+            mainHandles(current_x_pos).ds.EdgeColor = currentColor;
+            mainHandles(current_x_pos).ds.EdgeAlpha = 0.5;
+            mainHandles(current_x_pos).ds.LineWidth = 2;
+            if cfg.scatter_in_violin == 1
+                mainHandles(current_x_pos).sc.XData = mainHandles(current_x_pos).sc.XData + current_x_pos - 1.05;
+                mainHandles(current_x_pos).sc.MarkerEdgeColor = currentColor;
+                mainHandles(current_x_pos).sc.MarkerEdgeAlpha = 0.2;
             end
         end
-        % make cap between reference RDMs
-        previous_x_pos = current_x_pos + 1;
+
+
+    elseif strcmp(cfg.plot_type, 'bar')
+        for xiPos = 1:height(res_table)
+            current_x_pos = previous_x_pos + xiPos;
+            % Draw individual bar
+            barColor = [res_table.color_R(xiPos),res_table.color_G(xiPos),res_table.color_B(xiPos)];
+            barHandles(current_x_pos) = bar(current_x_pos, res_table.r_val(xiPos), 'FaceColor', barColor, 'EdgeColor', 'k');
+        end
+    end
+    for xiPos = 1:height(res_table)
+        current_x_pos = previous_x_pos + xiPos;
+        if strcmp(cfg.plot_type, 'bar')
+            if contains(res_table.name(xiPos), 'Originhal')
+                % Apply hatch only to this bar
+                hatchfill2(barHandles(current_x_pos), 'HatchAngle', 45, ...
+                    'HatchColor', 'k', ...
+                    'HatchLineWidth', 1);
+            end
+        end
+
+        if cfg.permutation_test
+            if strcmp(cfg.plot_type, 'bar')
+                % add confidence interval if available
+                if ismember('ci_lower', res_table.Properties.VariableNames)
+                    r_val = res_table.r_val(xiPos);
+                    errorHandles(current_x_pos) = errorbar(current_x_pos, r_val,...
+                        r_val-res_table.ci_lower(xiPos), res_table.ci_upper(xiPos)-r_val, 'k', 'LineWidth', 1);  % Error bars
+                end
+            elseif strcmp(cfg.plot_type, 'violin')
+                % plot oberseved mean r
+                plot([current_x_pos-0.15,current_x_pos+0.15], [res_table.r_val(xiPos), res_table.r_val(xiPos)],...
+                    'Color', [res_table.color_R(xiPos), res_table.color_G(xiPos), res_table.color_B(xiPos)], 'LineWidth',3);
+            end
+        end
+        % add marks for single category
+        if cfg.show_single_cate
+
+            if strcmp(cfg.exp_name, 'free')
+                cate_mark1 = 'B';
+                cate_mark2 = 'K';
+            elseif strcmp(cfg.exp_name, 'gazeCon')
+                cate_mark1 = 'B';
+                cate_mark2 = 'L';
+            end
+            text(current_x_pos-0.2, res_table.r_val_cate1(xiPos), cate_mark1, 'HorizontalAlignment', 'center', 'FontSize', 5);
+            text(current_x_pos-0.2, res_table.r_val_cate2(xiPos), cate_mark2, 'HorizontalAlignment', 'center', 'FontSize', 5);
+        end
+
+    end
+    % make gap between reference RDMs
+    previous_x_pos = current_x_pos + cfg.plott_gap;
+end
+
+
+% collect p values
+all_p_vals = nan(height(res_table), numel(cfg.variables_of_interest));
+for voi_n = 1:numel(cfg.variables_of_interest)
+    voi = char(cfg.variables_of_interest(voi_n));
+    all_p_vals(:, voi_n) = d.compare_task_to_predictor.(voi).category_average.p_val;
+end
+
+% get asterisks
+all_asterisks = cell(height(res_table), numel(cfg.variables_of_interest));
+for i_pred = 1:height(res_table)
+    % do fdr correction
+    pval = all_p_vals(i_pred, :);
+    if cfg.fdr_correction
+        [~, ~, ~, pval] = fdr_bh(all_p_vals(i_pred, :));
+    end
+    all_asterisks(i_pred, :) = pval2asterisks(pval, 'none');
+
+    % write back adjusted p values and print them
+    disp([newline, newline])
+    disp(char(res_table.name(i_pred)))
+    for voi_n = 1:numel(cfg.variables_of_interest)
+        voi = char(cfg.variables_of_interest(voi_n));
+        d.compare_task_to_predictor.(voi).category_average.p_val(i_pred) = pval(voi_n);
+        disp(['FDR corrected p value for ', voi, ': ', num2str(pval(voi_n)),...
+            ' ', char(all_asterisks(i_pred, voi_n))])
+        disp(['R value for ', voi, ': ', ...
+            num2str(d.compare_task_to_predictor.(voi).category_average.r_val((xiPos)))])
     end
 end
 
-if cfg.plotting
-
-    % collect p values
-    all_p_vals = nan(height(res_table), numel(cfg.variables_of_interest));
-    for voi_n = 1:numel(cfg.variables_of_interest)
-        voi = char(cfg.variables_of_interest(voi_n));
-        all_p_vals(:, voi_n) = d.compare_task_to_predictor.(voi).category_average.p_val;
-    end
-
-    % get asterisks
-    all_asterisks = cell(height(res_table), numel(cfg.variables_of_interest));
-    for i_pred = 1:height(res_table)
-        % do fdr correction
-        pval = all_p_vals(i_pred, :);
-        if cfg.fdr_correction
-            [~, ~, ~, pval] = fdr_bh(pval);
-        end
-        all_asterisks(i_pred, :) = pval2asterisks(pval, 'none');
-
-        % write back adjusted p values and print them
-        disp([newline, newline])
-        disp(char(res_table.name(i_pred)))
-        for voi_n = 1:numel(cfg.variables_of_interest)
-            voi = char(cfg.variables_of_interest(voi_n));
-            d.compare_task_to_predictor.(voi).category_average.p_val(i_pred) = pval(voi_n);
-            disp(['FDR corrected p value for ', voi, ': ', num2str(pval(voi_n)),...
-                ' ', char(all_asterisks(i_pred, voi_n))])
-        end
-    end
-
-    % plot asterisks
-    ast_vec = reshape(all_asterisks, 1, []);
-    count = 0;
-    for i_bar = 1:length(barHandles)
-        if ~isgraphics(barHandles(i_bar))
+% plot asterisks
+ast_vec = reshape(all_asterisks, 1, []);
+y_pos = zeros(1, length(mainHandles));
+count = 0;
+for i_bar = 1:length(mainHandles)
+    if strcmp(cfg.plot_type, 'bar')
+        if ~isgraphics(mainHandles(i_bar))
             continue
         end
         count = count + 1;
 
         % get y position based on error bars
-        y_pos = errorHandles(i_bar).YPositiveDelta + errorHandles(i_bar).YData + 0.08;
-        text(i_bar, y_pos, ast_vec{count}, 'HorizontalAlignment', 'center', 'FontSize', 20);
-    end
+        y_pos(i_bar) = errorHandles(i_bar).YPositiveDelta + errorHandles(i_bar).YData + 0.08;
 
-    % get aesthetics
-    hold off
-    if cfg.partial_cor
-        ylabel(['Partial correlation [r]', newline]);
-    else
-        ylabel([cfg.correlation_type, ' correlation [r]', newline]);
+    elseif strcmp(cfg.plot_type, 'violin')
+        if ~isgraphics(mainHandles(i_bar).ds)
+            continue
+        end
+        y_pos(i_bar) = max(mainHandles(i_bar).ds.Vertices(:, 2)) + 0.08;
+
     end
-    title('Compare reference RDM with predictors')
-    if isfield(cfg, 'plot_type')
-        ylim(cfg.ylim)
-    else
-        ylim([-0.1, max(res_table.r_val) + 0.1])
-    end
-    xlim([-1, previous_x_pos])
-    set(gca, 'LineWidth', 1, 'FontName', cfg.FontName, 'FontSize', cfg.FontSize, 'FontWeight', 'bold')
-    ax = gca;
-    ax.Box = 'off';
-    % get labels
-    if cfg.xaxis_labels
-        xticks(ceil(length(cfg.predictor_RDMs)/2):length(cfg.predictor_RDMs)+1:(length(cfg.predictor_RDMs)+2)*length(cfg.variables_of_interest));
-        xticklabels(strrep(cfg.variables_of_interest, '_', ' '));
+    count = count + 1;
+    astHandle{count} = text(i_bar, y_pos(i_bar), ast_vec{count}, 'HorizontalAlignment', 'center', 'FontWeight', 'bold', 'FontSize', 20);
+end
+
+for i_ast = 1:length(mainHandles)
+    astHandle{i_ast}.Position(2) = max(y_pos);
+end
+
+% get aesthetics
+hold off
+if cfg.partial_cor
+    ylabel(['Partial correlation [r]', newline]);
+else
+    ylabel([cfg.correlation_type, ' correlation [r]', newline]);
+end
+%title('Compare reference RDM with predictors')
+if isfield(cfg, 'plot_type')
+    ylim(cfg.ylim)
+else
+    ylim([-0.1, max(res_table.r_val) + 0.1])
+end
+xlim([0, previous_x_pos + 1])
+set(gca, 'LineWidth', 2, 'FontName', cfg.FontName, 'FontSize', cfg.FontSize, 'FontWeight', 'bold')
+ax = gca;
+ax.Box = 'off';
+yline(0, 'LineWidth', 2, 'Color', 'k');
+% get labels
+if cfg.xaxis_labels
+    if cfg.task_plotting
+        xticks(ceil(length(cfg.plotting_predictors)/2):...
+            length(cfg.plotting_predictors)+cfg.plott_gap:...
+            (length(cfg.plotting_predictors)+2)*length(cfg.variables_of_interest));
+        xticklabels(cfg.variables_of_interest);
         xtickangle(45);
     else
-        xticklabels([]);
-        ax.XColor = 'none';
+        xticks(1:height(res_table));
+        xticklabels(res_table.short_names);
+        xtickangle(45);
     end
-    % add legend to last plot
-    if cfg.add_legend
-        legend(res_table.short_names, 'Location','northeastoutside');
-    end
-    % saving
-    fig_path = fullfile(pwd, 'figures', ['exp_', cfg.exp_name], 'compare_roi_RDMs_to_predictor_RDMs');
-    save_plot(cfg.save_name, fig_path)
+else
+    xticklabels([]);
+    ax.XColor = 'none';
 end
+% add legend to last plot
+if cfg.add_legend
+    legend(res_table.short_names, 'Location','northeastoutside');
+end
+
 end
