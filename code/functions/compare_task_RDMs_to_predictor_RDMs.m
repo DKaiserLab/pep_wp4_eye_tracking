@@ -217,22 +217,18 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             res_table.color_R = .98;
             res_table.color_G = .41;
             res_table.color_B = .91;
-            res_table.short_names = 'Gaze Dist';
         elseif strcmp(voi, 'ObjectFixCount')
             res_table.color_R = .87;
             res_table.color_G = .01;
             res_table.color_B = .87;
-            res_table.short_names = 'Fixation Count';
         elseif strcmp(voi, 'ObjectDwellsCate')
             res_table.color_R = .6;
             res_table.color_G = .02;
             res_table.color_B = .6;
-            res_table.short_names = 'Objects Dwells';
         elseif strcmp(voi, 'ObjectCatePrio')
             res_table.color_R = .24;
             res_table.color_G = .04;
             res_table.color_B = .3;
-            res_table.short_names = 'Fixation Order';
         end
 
     else
@@ -441,7 +437,7 @@ if cfg.partial_cor
 else
     ylabel([cfg.correlation_type, ' correlation [r]', newline]);
 end
-%title('Compare reference RDM with predictors')
+title(['Correlation to Scene Priors', newline])
 if isfield(cfg, 'plot_type')
     ylim(cfg.ylim)
 else
@@ -452,19 +448,34 @@ set(gca, 'LineWidth', 2, 'FontName', cfg.FontName, 'FontSize', cfg.FontSize, 'Fo
 ax = gca;
 ax.Box = 'off';
 yline(0, 'LineWidth', 2, 'Color', 'k');
+
+
 % get labels
+% get plotting names
+varNames = strrep(cfg.variables_of_interest, '_', ' ');
+for varName = 1:length(varNames)
+    if strcmp(varNames{varName}, 'GazeDist')
+        varNames{varName} = 'Gaze Dist';
+    elseif strcmp(varNames{varName}, 'ObjectFixCount')
+        varNames{varName} = 'Fixation Count';
+    elseif strcmp(varNames{varName}, 'ObjectDwellsCate')
+        varNames{varName} = 'Objects Dwells';
+    elseif strcmp(varNames{varName}, 'ObjectCatePrio')
+        varNames{varName} = 'Fixation Order';
+    end
+end
+
+
 if cfg.xaxis_labels
     if cfg.task_plotting
         xticks(ceil(length(cfg.plotting_predictors)/2):...
             length(cfg.plotting_predictors)+cfg.plott_gap:...
             (length(cfg.plotting_predictors)+2)*length(cfg.variables_of_interest));
-        xticklabels(cfg.variables_of_interest);
-        xtickangle(45);
     else
         xticks(1:height(res_table));
-        xticklabels(res_table.short_names);
-        xtickangle(45);
     end
+    xticklabels(varNames);
+    xtickangle(45);
 else
     xticklabels([]);
     ax.XColor = 'none';

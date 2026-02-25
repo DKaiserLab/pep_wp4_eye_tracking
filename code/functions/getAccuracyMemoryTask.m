@@ -71,6 +71,34 @@ xticklabels({'Kitchen', 'Bathroom'});
 ylabel('Mean Accuracy');
 title('Accuracy in Kitchen vs. Bathroom Trials');
 hold off;
+
+
+% combine categories
+avgAccuracies = [d.memoryTask.kitchenMeans; d.memoryTask.bathroomMeans];
+meanAvgAcc = mean(avgAccuracies);
+[~, pvAvg] = ttest(meanAvgAcc', 0, 'tail', 'right');
+
+
+
+% display results
+disp(newline)
+disp('Bathroom')
+disp(['Mean accuracy: ', num2str(meanBathroom)])
+disp(['P value t-test: ', num2str(pv(2))])
+
+disp(newline)
+disp('Kitchen')
+disp(['Mean accuracy: ', num2str(meanKitchen)])
+disp(['P value t-test: ', num2str(pv(1))])
+
+disp(newline)
+disp('Combined')
+disp(['Mean accuracy: ', num2str(mean(meanAvgAcc))])
+disp(['Std of accuracy: ', num2str(std(meanAvgAcc))])
+disp(['P value t-test: ', num2str(pvAvg)])
+
+
+
 end
 
 
