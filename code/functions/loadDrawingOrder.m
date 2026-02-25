@@ -1,8 +1,11 @@
 function [d, cfg] = loadDrawingOrder(cfg, d)
 
+if ~isfield(cfg, 'minNumPerCate'); cfg.minNumPerCate = 20; end
+
 % get drawing order file
 drawingOrder = readtable(fullfile(pwd, '..',...
-    ['DrawingOrderExp', cfg.exp_name, '.xlsx']),'Format','auto');
+    ['DrawingOrder', [upper(cfg.exp_name(1)), cfg.exp_name(2:end)],...
+    '.xlsx']),'Format','auto');
 allObjects = table2cell(drawingOrder(:, 3:end));
 
 % % get unique objects
@@ -29,7 +32,7 @@ for iCate = 1:length(cfg.categories)
 
     % get object category memberships
     objCategoryFileAll = readtable(fullfile(pwd, '..', 'objectCategories.xlsx'),'Format','auto');
-    objCategoryFile = objCategoryFileAll(objCategoryFileAll.([category, 'Frequency']) >= 10, :);
+    objCategoryFile = objCategoryFileAll(objCategoryFileAll.([category, 'Frequency']) >= cfg.minNumPerCate, :);
 
     % init result table
     orderTable = nan(cfg.n, height(objCategoryFile));

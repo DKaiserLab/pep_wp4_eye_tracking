@@ -2,6 +2,8 @@ function d = evaluateDrawingOrder(d, cfg)
 
 if ~isfield(cfg, 'regressOutSize'); cfg.regressOutSize = true; end
 if ~isfield(cfg, 'partialCorr'); cfg.partialCorr = true; end
+if ~isfield(cfg, 'linearModelling'); cfg.linearModelling = false; end
+if ~isfield(cfg, 'linearModellingAll'); cfg.linearModellingAll = false; end
 
 % get drawing order
 [d, cfg] = loadDrawingOrder(cfg, d);
@@ -21,7 +23,7 @@ for iCate = 1:length(cfg.categories)
     fixMat = d.GDM.(category).ObjectCatePrio;
     %     if cfg.regressOutSize
     %
-    %        
+    %
     %
     %         % Residuals after regressing out object size
     %         fixMatRes = zeros(size(fixMat));
@@ -43,7 +45,7 @@ for iCate = 1:length(cfg.categories)
     %     end
     meanFix = mean(fixMat, 'omitnan');
 
-    %% compare mean drawing order to mean fixation order             
+    %% compare mean drawing order to mean fixation order
     if cfg.partialCorr
         [rval, pval] = partialcorr(meanFix', meanDraw', avgObjSize', 'tail','right', 'type', 'Spearman','rows','pairwise');
     else
@@ -55,32 +57,32 @@ for iCate = 1:length(cfg.categories)
     d.drawingOrder.(category).corr2fixationOrder_r = rval;
     d.drawingOrder.(category).corr2fixationOrder_p = pval;
 
-    % plot
-    figure;
-    hold on
-    scatter(meanDraw(~isnan(meanDraw)), meanFix(~isnan(meanDraw)), 60, 'filled');
-    xlabel('Mean Drawing Order');
-    ylabel('Mean Fixation Order');
-    title(sprintf('Mean order correlation %s: r = %.2f, p = %.4f',...
-        category, rval, pval));
-    h1 = lsline;
-    h1.LineWidth = 3;
-    scatter(meanDraw(~isnan(meanDraw)), meanFix(~isnan(meanDraw)), 60, tiedrank(1-avgObjSize(~isnan(meanDraw))),'filled');
-    colormap(parula);
-    cb = colorbar;
-    cb.Label.String = 'Ranked Object Size';
-    title(['Mean Fixation vs Mean Drawing Order (colored by Ranked Object Size) - ', category]);
-
-    % add stats
-    text(min(meanDraw(~isnan(meanDraw))) + 0.02, max(meanFix(~isnan(meanDraw))) - 0.02, ...
-        sprintf('r = %.2f, p = %.3g', rval, pval), ...
-        'FontSize', 12, 'VerticalAlignment', 'top');
+%     % plot
+%     figure;
+%     hold on
+%     scatter(meanDraw(~isnan(meanDraw)), meanFix(~isnan(meanDraw)), 60, 'filled');
+%     xlabel('Mean Drawing Order');
+%     ylabel('Mean Fixation Order');
+%     title(sprintf('Mean order correlation %s: r = %.2f, p = %.4f',...
+%         category, rval, pval));
+%     h1 = lsline;
+%     h1.LineWidth = 3;
+%     scatter(meanDraw(~isnan(meanDraw)), meanFix(~isnan(meanDraw)), 60, tiedrank(1-avgObjSize(~isnan(meanDraw))),'filled');
+%     colormap(parula);
+%     cb = colorbar;
+%     cb.Label.String = 'Ranked Object Size';
+%     title(['Mean Fixation vs Mean Drawing Order (colored by Ranked Object Size) - ', category]);
+% 
+%     % add stats
+%     text(min(meanDraw(~isnan(meanDraw))) + 0.02, max(meanFix(~isnan(meanDraw))) - 0.02, ...
+%         sprintf('r = %.2f, p = %.3g', rval, pval), ...
+%         'FontSize', 12, 'VerticalAlignment', 'top');
 
     if cfg.partialCorr
         labelString = 'Partial correaltion';
     else
         labelString = 'Spearman Correaltion';
-    end 
+    end
     text(min(meanDraw(~isnan(meanDraw))) + 0.02, max(meanFix(~isnan(meanDraw))) + 0.02, ...
         labelString, 'FontSize', 12, 'VerticalAlignment', 'top');
 
@@ -89,6 +91,42 @@ for iCate = 1:length(cfg.categories)
         cfg.(['categoriesNames_', category])(~isnan(meanDraw)), 'FontSize', 8);
 
     %% linear mixed effect model
+%     % plot
+%     figure;
+%     hold on
+%     scatter(meanDraw(~isnan(meanDraw)), meanFix(~isnan(meanDraw)), 60, 'filled');
+%     xlabel('Mean Drawing Order');
+%     ylabel('Mean Fixation Order');
+%     title(sprintf('Mean order correlation %s: r = %.2f, p = %.4f',...
+%         category, rval, pval));
+%     h1 = lsline;
+%     h1.LineWidth = 3;
+%     scatter(meanDraw(~isnan(meanDraw)), meanFix(~isnan(meanDraw)), 60, tiedrank(1-avgObjSize(~isnan(meanDraw))),'filled');
+%     colormap(parula);
+%     cb = colorbar;
+%     cb.Label.String = 'Ranked Object Size';
+%     title(['Mean Fixation vs Mean Drawing Order (colored by Ranked Object Size) - ', category]);
+% 
+%     % add stats
+%     text(min(meanDraw(~isnan(meanDraw))) + 0.02, max(meanFix(~isnan(meanDraw))) - 0.02, ...
+%         sprintf('r = %.2f, p = %.3g', rval, pval), ...
+%         'FontSize', 12, 'VerticalAlignment', 'top');
+% 
+%     if cfg.partialCorr
+%         labelString = 'Partial correaltion';
+%     else
+%         labelString = 'Spearman Correaltion';
+%     end
+%     text(min(meanDraw(~isnan(meanDraw))) + 0.02, max(meanFix(~isnan(meanDraw))) + 0.02, ...
+%         labelString, 'FontSize', 12, 'VerticalAlignment', 'top');
+% 
+%     % label points (object names)
+%     text(meanDraw(~isnan(meanDraw)) + 0.2, meanFix(~isnan(meanDraw)),...
+%         cfg.(['categoriesNames_', category])(~isnan(meanDraw)), 'FontSize', 8);
+% 
+    %% linear mixed effect model
+
+    if cfg.linearModelling
 
     % build long table
     longTable = table;
@@ -106,7 +144,7 @@ for iCate = 1:length(cfg.categories)
     % store long table in d
     d.drawingOrder.(category).table4lme = longTable;
 
-    % process variables 
+    % process variables
     longTable.subject = categorical(longTable.subject);
     longTable.fixOrder = zscore(longTable.fixOrder);
     longTable.drawingOrder = zscore(longTable.drawingOrder);
@@ -114,14 +152,14 @@ for iCate = 1:length(cfg.categories)
 
     % fit LME
     lme = fitlme(longTable, ...
-    ['fixOrder ~ drawingOrder*objectSize +' ...
-    ' (drawingOrder*objectSize|subject)']);
+        ['fixOrder ~ drawingOrder*objectSize +' ...
+        ' (drawingOrder*objectSize|subject)']);
     disp(['R square adjusted for ', category, ': ', num2str(lme.Rsquared.Adjusted)])
     anovaResults.(category) = anova(lme);
     disp(anovaResults.(category))
 
+    end 
 
-   
     %% own vs other
 
     % init matrices
@@ -133,9 +171,12 @@ for iCate = 1:length(cfg.categories)
         drawOwn = drawMat(iSub, :);
 
         % Own correlation
-        [rvals, ~] = corr([fixOwn', drawOwn'], 'tail','right', 'type', 'Spearman','rows','pairwise');
-        rval = rvals(1,2);
-
+        if cfg.partialCorr
+            [rval, ~] = partialcorr(fixOwn', drawOwn', avgObjSize', 'tail','right', 'type', 'Spearman','rows','pairwise');
+        else
+            [rvals, ~] = corr([fixOwn', drawOwn'], 'tail','right', 'type', 'Spearman','rows','pairwise');
+            rval = rvals(1,2);
+        end
         ownCorrs(iSub) = rval;
 
         % Other correlations (exclude self)
@@ -144,9 +185,9 @@ for iCate = 1:length(cfg.categories)
         for iOther = 1:length(otherSubs)
             fixOther = fixMat(otherSubs(iOther), :);
             if cfg.partialCorr
-                [rval, ~] = partialcorr(fixOther', drawOwn', avgObjSize', 'tail','right', 'type', 'Spearman','rows','pairwise');
+                [rval, ~] = partialcorr(fixOther', drawOwn', avgObjSize', 'tail', 'right', 'type', 'Spearman', 'rows', 'pairwise');
             else
-                [rvals, ~] = corr([fixOther', drawOwn'], 'tail','right', 'type', 'Spearman','rows','pairwise');
+                [rvals, ~] = corr([fixOther', drawOwn'], 'tail', 'right', 'type', 'Spearman', 'rows', 'pairwise');
                 rval = rvals(1,2);
             end
             tmpCorrs(iOther) = rval;
@@ -234,6 +275,9 @@ text(1-0.02, sem_data + mean_data + 0.1, pval2asterisks(pv, 'none'),...
 
 % Customize plot
 xticks([]);
+if  ~isfield(cfg, 'ylim')
+    ylim(cfg.ylim)
+end
 ylabel('Own correlation - mean other correlation');
 title('Own vs other');
 set(gca, 'LineWidth', 1, 'FontName', cfg.FontName, 'FontSize', cfg.FontSize, 'FontWeight', 'bold')
@@ -243,55 +287,57 @@ ax.Box = 'off';
 
 %% liner modelling for full experiment
 
-superLongTable = [d.drawingOrder.bathroom.table4lme; d.drawingOrder.kitchen.table4lme];
+if cfg.linearModellingAll
 
-% process variables
-superLongTable.subject = categorical(superLongTable.subject);
-superLongTable.fixOrder = zscore(superLongTable.fixOrder);
-superLongTable.drawingOrder = zscore(superLongTable.drawingOrder);
-superLongTable.objectSize = zscore(superLongTable.objectSize);
-superLongTable.sceneCategory = categorical(superLongTable.sceneCategory);
+    superLongTable = [d.drawingOrder.bathroom.table4lme; d.drawingOrder.kitchen.table4lme];
 
-% fit LME
-lme_full = fitlme(superLongTable, ...
-    ['fixOrder ~ drawingOrder*objectSize +' ...
-    ' (drawingOrder*objectSize|subject) +' ...
-    ' (drawingOrder*objectSize|sceneCategory)']);
-disp(['R square adjusted for both categories combined: ', num2str(lme_full.Rsquared.Adjusted)])
-anovaResultsCombined = anova(lme_full);
-disp(anovaResultsCombined)
+    % process variables
+    superLongTable.subject = categorical(superLongTable.subject);
+    superLongTable.fixOrder = zscore(superLongTable.fixOrder);
+    superLongTable.drawingOrder = zscore(superLongTable.drawingOrder);
+    superLongTable.objectSize = zscore(superLongTable.objectSize);
+    superLongTable.sceneCategory = categorical(superLongTable.sceneCategory);
 
-%% variance partitioning 
+    % fit LME
+    lme_full = fitlme(superLongTable, ...
+        ['fixOrder ~ drawingOrder*objectSize +' ...
+        ' (drawingOrder*objectSize|subject) +' ...
+        ' (drawingOrder*objectSize|sceneCategory)']);
+    disp(['R square adjusted for both categories combined: ', num2str(lme_full.Rsquared.Adjusted)])
+    anovaResultsCombined = anova(lme_full);
+    disp(anovaResultsCombined)
 
-% Reduced models
-lme_noobj  = fitlme(superLongTable, ['fixOrder ~ drawingOrder + objectSize:drawingOrder +' ...
-    ' (drawingOrder + objectSize:drawingOrder|subject) +' ...
-    ' (drawingOrder + objectSize:drawingOrder|sceneCategory)']);
-lme_nodraw = fitlme(superLongTable, ['fixOrder ~ objectSize + objectSize:drawingOrder +' ...
-    ' (objectSize + objectSize:drawingOrder |subject) +' ...
-    ' (objectSize + objectSize:drawingOrder |sceneCategory)']);
-lme_noInt  = fitlme(superLongTable, ['fixOrder ~ drawingOrder + objectSize +' ...
-    ' (drawingOrder + objectSize|subject) +' ...
-    ' (drawingOrder + objectSize|sceneCategory)']);
+    %% variance partitioning
 
-% get R square
-r2_full     = lme_full.Rsquared.Ordinary;
-r2_noobj    = lme_noobj.Rsquared.Ordinary;
-r2_nodraw   = lme_nodraw.Rsquared.Ordinary;
-r2_noInt    = lme_noInt.Rsquared.Ordinary;
+    % Reduced models
+    lme_noobj  = fitlme(superLongTable, ['fixOrder ~ drawingOrder + objectSize:drawingOrder +' ...
+        ' (drawingOrder + objectSize:drawingOrder|subject) +' ...
+        ' (drawingOrder + objectSize:drawingOrder|sceneCategory)']);
+    lme_nodraw = fitlme(superLongTable, ['fixOrder ~ objectSize + objectSize:drawingOrder +' ...
+        ' (objectSize + objectSize:drawingOrder |subject) +' ...
+        ' (objectSize + objectSize:drawingOrder |sceneCategory)']);
+    lme_noInt  = fitlme(superLongTable, ['fixOrder ~ drawingOrder + objectSize +' ...
+        ' (drawingOrder + objectSize|subject) +' ...
+        ' (drawingOrder + objectSize|sceneCategory)']);
 
-% estimate variance contributions
-var_DrawOrder  = r2_full - r2_nodraw;
-var_ObjSize    = r2_full - r2_noobj;
-var_Interaction = r2_full - r2_noInt;
+    % get R square
+    r2_full     = lme_full.Rsquared.Ordinary;
+    r2_noobj    = lme_noobj.Rsquared.Ordinary;
+    r2_nodraw   = lme_nodraw.Rsquared.Ordinary;
+    r2_noInt    = lme_noInt.Rsquared.Ordinary;
 
-% sizes based on contributions (scale for visibility)
-A = 1:round(var_DrawOrder*1000); 
-B = (A(end)+1:A(end)+round(var_ObjSize*1000))-round(var_Interaction*1000); 
+    % estimate variance contributions
+    var_DrawOrder  = r2_full - r2_nodraw;
+    var_ObjSize    = r2_full - r2_noobj;
+    var_Interaction = r2_full - r2_noInt;
 
-% make figure
-figure
-setListData = {A, B};
-h = vennEulerDiagram(setListData, [], 'drawProportional', true);
+    % sizes based on contributions (scale for visibility)
+    A = 1:round(var_DrawOrder*1000);
+    B = (A(end)+1:A(end)+round(var_ObjSize*1000))-round(var_Interaction*1000);
 
-end 
+    % make figure
+    figure
+    setListData = {A, B};
+    h = vennEulerDiagram(setListData, [], 'drawProportional', true);
+end
+end
