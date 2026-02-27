@@ -23,6 +23,7 @@ if ~isfield(cfg, 'random_seqs')
 end
 
 % make random permutations
+rng(1) % ensure reproducible outcome
 for iRDM = 1:width(matin2D)
     permutation_RDMs(iRDM).RDM = squareform(matin2D(:, iRDM));
     permutation_RDMs(iRDM).name = ['RDM', num2str(iRDM)];

@@ -1,6 +1,6 @@
 function [d, cfg] = loadDrawingOrder(cfg, d)
 
-if ~isfield(cfg, 'minNumPerCate'); cfg.minNumPerCate = 20; end
+if ~isfield(cfg, 'minNumPerCate'); cfg.minNumPerCate = 15; end
 
 % get drawing order file
 drawingOrder = readtable(fullfile(pwd, '..',...

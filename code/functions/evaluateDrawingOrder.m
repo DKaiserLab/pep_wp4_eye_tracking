@@ -255,6 +255,10 @@ sem_data = std(avgDiffs, 0, 1, 'omitnan')/sqrt(cfg.n);
 % stats including False Discovery Rate (FDR) correction
 [~, pv] = ttest(avgDiffs, 0, 'tail', 'right');
 
+% show results
+disp(['Combined r value: ', num2str(mean_data)])
+disp(['Combined p value: ', num2str(pv)])
+
 % Create bar plot
 figure;
 hold on;

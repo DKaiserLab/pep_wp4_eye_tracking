@@ -54,6 +54,7 @@ previous_x_pos = 0;
 % prepare random permutation (each task and category should have the same
 % random samplings)
 if cfg.permutation_test
+    rng(1) % ensure reproducible outcome
     % generate permutated subjects list
     random_seqs = cell(numel(cfg.RDM_to_partial_out), cfg.n_permutations);
     for i = 1:cfg.n_permutations

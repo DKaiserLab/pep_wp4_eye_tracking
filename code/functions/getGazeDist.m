@@ -5,15 +5,17 @@ if ~isfield(cfg, 'ETSamplingFrequency'); cfg.ETSamplingFrequency = 120; end % in
 if ~isfield(cfg, 'binSize'); cfg.binSize = 0.05; end % in sec
 
 % check if files exist
-dataDir = fullfile(pwd, '..', 'derivatives', 'groupLevel', 'gazeDist', ['exp', cfg.exp_name]);
-allExist = (exist(fullfile(dataDir, 'binnedBatDists.mat'), 'file') && ...
-    exist(fullfile(dataDir, 'binnedKitDists.mat'), 'file') && ...
-    exist(fullfile(dataDir, 'meanBatDists.mat'), 'file') && ...
+dataDir = fullfile(pwd, '..', 'derivatives', 'groupLevel', 'gazeDist', ['exp_', cfg.exp_name]);
+allExist = (exist(fullfile(dataDir, 'meanBatDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'meanKitDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'meanOddBatDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'meanEvenBatDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'meanOddKitDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'meanEvenKitDists.mat'), 'file'));
+
+% exist(fullfile(dataDir, 'binnedBatDists.mat'), 'file') && ...
+% exist(fullfile(dataDir, 'binnedKitDists.mat'), 'file') && ...
+    
 
 % if data exist already load it
 if allExist
@@ -30,10 +32,10 @@ if allExist
     d.kitchen_RDM.ratingRDM(idx).color = [0, 0, 0]';
 
     % bined distances
-    load(fullfile(dataDir, 'binnedKitDists.mat'));
-    d.kitchen_RDM.ratingRDM(idx+1).RDM = binnedKitDists;
-    d.kitchen_RDM.ratingRDM(idx+1).name = 'binedGazeDist';
-    d.kitchen_RDM.ratingRDM(idx+1).color = [0, 0, 0]';
+%     load(fullfile(dataDir, 'binnedKitDists.mat'));
+%     d.kitchen_RDM.ratingRDM(idx+1).RDM = binnedKitDists;
+%     d.kitchen_RDM.ratingRDM(idx+1).name = 'binedGazeDist';
+%     d.kitchen_RDM.ratingRDM(idx+1).color = [0, 0, 0]';
 
     % odd distances
     load(fullfile(dataDir, 'meanOddKitDists.mat'));
@@ -59,10 +61,10 @@ if allExist
     d.bathroom_RDM.ratingRDM(idx).color = [0, 0, 0]';
 
     % bined distances
-    load(fullfile(dataDir, 'binnedBatDists.mat'));
-    d.bathroom_RDM.ratingRDM(idx+1).RDM = binnedBatDists;
-    d.bathroom_RDM.ratingRDM(idx+1).name = 'binedGazeDist';
-    d.bathroom_RDM.ratingRDM(idx+1).color = [0, 0, 0]';
+%     load(fullfile(dataDir, 'binnedBatDists.mat'));
+%     d.bathroom_RDM.ratingRDM(idx+1).RDM = binnedBatDists;
+%     d.bathroom_RDM.ratingRDM(idx+1).name = 'binedGazeDist';
+%     d.bathroom_RDM.ratingRDM(idx+1).color = [0, 0, 0]';
 
      % odd distances
     load(fullfile(dataDir, 'meanOddBatDists.mat'));
@@ -192,7 +194,7 @@ else
     end
 
     %% store data
-    dataDir = fullfile(pwd, '..', 'derivatives', 'groupLevel', 'gazeDist', ['exp', cfg.exp_name]);
+    dataDir = fullfile(pwd, '..', 'derivatives', 'groupLevel', 'gazeDist', ['exp_', cfg.exp_name]);
     if ~exist(dataDir, 'dir')
         mkdir(dataDir)
     end 
@@ -212,15 +214,15 @@ else
     d.kitchen_RDM.ratingRDM(idx).color = [0, 0, 0]';
 
     % bined distances
-    binnedKitMean = squeeze(mean(binedDistKit, 'omitnan'))/...
-        max(binedDistKit,[], 'all');
-    d.kitchen_RDM.ratingRDM(idx+1).RDM = binnedKitMean;
-    d.kitchen_RDM.ratingRDM(idx+1).name = 'binedGazeDist';
-    d.kitchen_RDM.ratingRDM(idx+1).color = [0, 0, 0]';
+%     binnedKitDists = squeeze(mean(binedDistKit, 'omitnan'))/...
+%         max(binedDistKit,[], 'all');
+%     d.kitchen_RDM.ratingRDM(idx+1).RDM = binnedKitDists;
+%     d.kitchen_RDM.ratingRDM(idx+1).name = 'binedGazeDist';
+%     d.kitchen_RDM.ratingRDM(idx+1).color = [0, 0, 0]';
 
     % save
-    save(fullfile(dataDir, 'meanKitDists.mat'), 'meanKitDists');
-    save(fullfile(dataDir, 'binnedKitDists.mat'), 'binnedKitMean');
+%     save(fullfile(dataDir, 'meanKitDists.mat'), 'meanKitDists');
+%     save(fullfile(dataDir, 'binnedKitDists.mat'), 'binnedKitDists');
 
     % bathroom
     if isfield(d, "bathroom_RDM")
@@ -235,15 +237,15 @@ else
     d.bathroom_RDM.ratingRDM(idx).color = [0, 0, 0]';
 
     % bined distances
-    binnedBatMean = squeeze(mean(binedDistKit, 'omitnan'))/...
-        max(binedDistKit,[], 'all');
-    d.bathroom_RDM.ratingRDM(idx+1).RDM = binnedBatMean;
-    d.bathroom_RDM.ratingRDM(idx+1).name = 'binedGazeDist';
-    d.bathroom_RDM.ratingRDM(idx+1).color = [0, 0, 0]';
+%     binnedBatDists = squeeze(mean(binedDistKit, 'omitnan'))/...
+%         max(binedDistKit,[], 'all');
+%     d.bathroom_RDM.ratingRDM(idx+1).RDM = binnedBatDists;
+%     d.bathroom_RDM.ratingRDM(idx+1).name = 'binedGazeDist';
+%     d.bathroom_RDM.ratingRDM(idx+1).color = [0, 0, 0]';
 
     % save
-    save(fullfile(dataDir, 'meanBatDists.mat'), 'meanBatDists');
-    save(fullfile(dataDir, 'binnedBatDists.mat'), 'binnedBatMean');
+%     save(fullfile(dataDir, 'meanBatDists.mat'), 'meanBatDists');
+%     save(fullfile(dataDir, 'binnedBatDists.mat'), 'binnedBatDists');
 
     %% split odd and even
 
@@ -252,7 +254,7 @@ else
     meanOddBatDists = squeeze(mean(oddBatDist, 'omitnan'))/...
         max(bathDists,[], 'all');
     d.bathroom_RDM.ratingRDM(idx+2).RDM = meanOddBatDists;
-    d.bathroom_RDM.ratingRDM(idx+2).name = 'GazeDistOdd';
+    d.bathroom_RDM.ratingRDM(idx+2).name = 'meanOddBatDists';
     d.bathroom_RDM.ratingRDM(idx+2).color = [0, 0, 0]';
     save(fullfile(dataDir, 'meanOddBatDists.mat'), 'meanOddBatDists');
 
@@ -260,7 +262,7 @@ else
     meanEvenBatDists = squeeze(mean(evenBatDist, 'omitnan'))/...
         max(bathDists,[], 'all');
     d.bathroom_RDM.ratingRDM(idx+3).RDM = meanEvenBatDists;
-    d.bathroom_RDM.ratingRDM(idx+3).name = 'GazeDistEven';
+    d.bathroom_RDM.ratingRDM(idx+3).name = 'meanEvenBatDists';
     d.bathroom_RDM.ratingRDM(idx+3).color = [0, 0, 0]';
     save(fullfile(dataDir, 'meanEvenBatDists.mat'), 'meanEvenBatDists');
 
@@ -269,7 +271,7 @@ else
     meanOddKitDists = squeeze(mean(oddKitDist, 'omitnan'))/...
         max(kitDists,[], 'all');
     d.kitchen_RDM.ratingRDM(idx+2).RDM = meanOddKitDists;
-    d.kitchen_RDM.ratingRDM(idx+2).name = 'GazeDistOdd';
+    d.kitchen_RDM.ratingRDM(idx+2).name = 'meanOddKitDists';
     d.kitchen_RDM.ratingRDM(idx+2).color = [0, 0, 0]';
     save(fullfile(dataDir, 'meanOddKitDists.mat'), 'meanOddKitDists');
 
@@ -277,7 +279,7 @@ else
     meanEvenKitDists = squeeze(mean(evenKitDist, 'omitnan'))/...
         max(kitDists,[], 'all');
     d.kitchen_RDM.ratingRDM(idx+3).RDM = meanEvenKitDists;
-    d.kitchen_RDM.ratingRDM(idx+3).name = 'GazeDistEven';
+    d.kitchen_RDM.ratingRDM(idx+3).name = 'meanEvenKitDists';
     d.kitchen_RDM.ratingRDM(idx+3).color = [0, 0, 0]';
     save(fullfile(dataDir, 'meanEvenKitDists.mat'), 'meanEvenKitDists');
 
