@@ -1,7 +1,7 @@
-function res = compare_experiments_is_rdms(iscMat, nPerm)
+function res = compare_experiments_is_rdms(iscMat, nPerm, gazeMeasure)
 
-if nargin < 2
-    nPerm = 10000;
+if nargin < 3
+    gazeMeasure = ' ';
 end
 
 nSub = size(iscMat,1);
@@ -27,7 +27,11 @@ betweenMask = group(i) ~= group(j);
 withinMean  = median(pairs(withinMask));
 betweenMean = median(pairs(betweenMask));
 
-obsStat = withinMean - betweenMean;
+if strcmp(gazeMeasure, 'GazeDist')
+    obsStat = betweenMean - withinMean; % is dissimilarity larger between experiments?
+else
+    obsStat = withinMean - betweenMean; % is similarity larger within experiments?
+end
 
 %% ---- Permutation test ----
 permStats = zeros(nPerm,1);

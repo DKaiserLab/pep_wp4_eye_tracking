@@ -101,6 +101,19 @@ for voi_n = 1:numel(cfg.variables_of_interest)
         for field = 1:numel({RDMs.name})
             RDMs(field).name = char(cfg.labels{field}); % give it a comprehensive name
         end
+
+        %% --------- SPECIAL CASE OF MEMORY PERFORMANCE AS SINGLE PREDICTOR
+        if length(cfg.predictor_RDMs) == 1
+            if strcmp(cfg.predictor_RDMs, 'MemoryAccuracy')
+                cfg.partial_cor = false; % partial correaltion makes no sense here
+                RDMs(1) = ref_RDM;
+                ref_idx = find(strcmp(all_ref_names,  'MemoryAccuracy'));
+                RDMs(2) = d.([category,'_RDM']).ratingRDM(ref_idx);
+                cfg.labels = {' ', voi};
+            end
+        end
+        %% -------------------------------
+
         % partial correlation
         if cfg.partial_cor
             [~, r_mat, ~, cfg] = partial_cor_RDM(cfg, RDMs);
@@ -230,6 +243,10 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             res_table.color_R = .24;
             res_table.color_G = .04;
             res_table.color_B = .3;
+        else
+            res_table.color_R = .98;
+            res_table.color_G = .41;
+            res_table.color_B = .91;
         end
 
     else

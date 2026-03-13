@@ -1,6 +1,8 @@
 function d = getAccuracyMemoryTask(cfg, d)
 
 % Initialize arrays to store mean accuracies
+d.memoryTask.kitchenAll = [];
+d.memoryTask.bathroomAll = [];
 d.memoryTask.kitchenMeans = [];
 d.memoryTask.bathroomMeans = [];
 sourcedataDir = fullfile(pwd, '..', 'sourcedata');
@@ -15,20 +17,39 @@ for i = 1:length(cfg.subNums)
     % Check if file exists
     if ~isfile(filePath)
         warning('File not found: %s', filePath);
-        continue;
+
+        d.memoryTask.kitchenAll(end+1, :) = nan(75, 1);
+        d.memoryTask.bathroomAll(end+1, :) = nan(75, 1);
+        d.memoryTask.kitchenMeans(end+1) = NaN;
+        d.memoryTask.bathroomMeans(end+1) = NaN; % 'bahtroom' typo kept as in data
+    else
+
+        % Load CSV file as a table
+        data = readtable(filePath, 'Delimiter', ',');
+
+        % Extract accuracy (2nd to last column) and category (last column)
+        accuracy = table2array(data(:, end-1));  % Convert to numerical array
+        category = string(data{:, end});  % Convert last column to string array
+
+        % Compute means for kitchen and bathroom
+        d.memoryTask.kitchenAll(end+1, :) = accuracy(category == "kitchen");
+        d.memoryTask.bathroomAll(end+1, :) = accuracy(category == "bahtroom");
+        d.memoryTask.kitchenMeans(end+1) = mean(accuracy(category == "kitchen"), 'omitnan');
+        d.memoryTask.bathroomMeans(end+1) = mean(accuracy(category == "bahtroom"), 'omitnan'); % 'bahtroom' typo kept as in data
     end
-
-    % Load CSV file as a table
-    data = readtable(filePath, 'Delimiter', ',');
-
-    % Extract accuracy (2nd to last column) and category (last column)
-    accuracy = table2array(data(:, end-1));  % Convert to numerical array
-    category = string(data{:, end});  % Convert last column to string array
-
-    % Compute means for kitchen and bathroom
-    d.memoryTask.kitchenMeans(end+1) = mean(accuracy(category == "kitchen"), 'omitnan');
-    d.memoryTask.bathroomMeans(end+1) = mean(accuracy(category == "bahtroom"), 'omitnan'); % 'bahtroom' typo kept as in data
 end
+
+% Compute ISC
+cfg.plotting = false;
+idx = length(d.kitchen_RDM.ratingRDM) + 1;
+[~, rdm, ~] = make_RDM(d.memoryTask.kitchenAll', cfg);
+d.kitchen_RDM.ratingRDM(idx).name = 'MemoryAccuracy';
+d.kitchen_RDM.ratingRDM(idx).color = [0, 0, 0];
+d.kitchen_RDM.ratingRDM(idx).RDM = rdm;
+[~, rdm, ~] = make_RDM(d.memoryTask.bathroomAll', cfg);
+d.bathroom_RDM.ratingRDM(idx).name = 'MemoryAccuracy';
+d.bathroom_RDM.ratingRDM(idx).color = [0, 0, 0];
+d.bathroom_RDM.ratingRDM(idx).RDM = rdm;
 
 % Compute group means
 meanKitchen = mean(d.memoryTask.kitchenMeans, 'omitnan');
@@ -72,13 +93,10 @@ ylabel('Mean Accuracy');
 title('Accuracy in Kitchen vs. Bathroom Trials');
 hold off;
 
-
 % combine categories
 avgAccuracies = [d.memoryTask.kitchenMeans; d.memoryTask.bathroomMeans];
 meanAvgAcc = mean(avgAccuracies);
 [~, pvAvg] = ttest(meanAvgAcc', 0, 'tail', 'right');
-
-
 
 % display results
 disp(newline)
@@ -97,9 +115,4 @@ disp(['Mean accuracy: ', num2str(mean(meanAvgAcc))])
 disp(['Std of accuracy: ', num2str(std(meanAvgAcc))])
 disp(['P value t-test: ', num2str(pvAvg)])
 
-
-
 end
-
-
-

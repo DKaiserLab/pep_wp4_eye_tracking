@@ -67,7 +67,8 @@ for row = 1:numel({RDMs.name})
                     other_partial_vectorized_RDMs(:,i) = vec_current_RDM;
                 end
                 % get partial correlation
-                [rho,pval] =  partialcorr(vec_RDM1, vec_RDM2, other_partial_vectorized_RDMs, 'Tail','right','Type', cfg.partial_correlation_type);
+                [rho,pval] =  partialcorr(vec_RDM1, vec_RDM2, other_partial_vectorized_RDMs,...
+                    'Rows', 'Pairwise', 'Tail','Right','Type', cfg.partial_correlation_type);
                
             else
                 % correlate vertorized RDMs
