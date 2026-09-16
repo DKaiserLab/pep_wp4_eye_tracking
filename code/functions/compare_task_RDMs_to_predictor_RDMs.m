@@ -173,6 +173,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
                         % get predictor RDM
                         permutation_RDMs = RDMs;
                         pred_RDM = permutation_RDMs(pred+1).RDM;
+
                         % replace predictor RDM by permutated RDM in RDMs struct
                         permutation_RDMs(pred+1).RDM = pred_RDM(random_seqs{pred, perm}, random_seqs{pred, perm});
                         [~, r_mat, ~, ~] = partial_cor_RDM(cfg, permutation_RDMs);
@@ -198,15 +199,12 @@ for voi_n = 1:numel(cfg.variables_of_interest)
     res_table.r_val = (d.compare_task_to_predictor.(voi).(cfg.categories{1}).r_val +...
         d.compare_task_to_predictor.(voi).(cfg.categories{2}).r_val)/2;
     d.compare_task_to_predictor.(voi).category_average = res_table;
-    % get confidence intervals
+
     if cfg.permutation_test
-        % get p values of random permutation
         perm_r_mat = (d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{1}) +...
             d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{2}))/2;
         d.compare_task_to_predictor.permutation_test.(voi).category_average = perm_r_mat;
     end
-
-
 
     % plotting
 
@@ -279,13 +277,35 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             % permutation distribution)
             p_value = sum(perm_r_mat(row,:) >= res_table.r_val(row)) / cfg.n_permutations;
             res_table.p_val(row) = p_value;
-            % get p values for categories
+            res_table.ci_upper(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 5);
+            res_table.ci_lower(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 95);
+
+            % get p values for individual categories
             res_table.p_val_cate1(row) = sum(d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{1})(row,:)...
                 >= res_table.r_val_cate1(row)) / cfg.n_permutations;
             res_table.p_val_cate2(row) = sum(d.compare_task_to_predictor.permutation_test.(voi).(cfg.categories{2})(row,:)...
                 >= res_table.r_val_cate2(row)) / cfg.n_permutations;
-            res_table.ci_upper(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 5);
-            res_table.ci_lower(row) = res_table.r_val(row) - prctile(perm_r_mat(row,:), 95);
+
+            % compute equivalence tests
+            eqi_bound = 0;
+            all_ps = [];
+            all_bounds = [];
+            p = 1;
+            while p >= 0.05 || eqi_bound <= 0.1
+                all_bounds = [all_bounds, eqi_bound];
+
+                % one-sided test for small than boundary
+                bound_null = perm_r_mat(row,:) + eqi_bound;
+                p = sum(bound_null <= res_table.r_val_cate2(row)) / cfg.n_permutations;
+                all_ps = [all_ps, p];
+
+                eqi_bound = eqi_bound + 0.01;                
+            end
+            pred_name = strrep(res_table.name{row}, '*partial* ', '');
+            pred_name = strrep(pred_name, ' ', '_');
+            d.compare_task_to_predictor.permutation_test.(voi).equivalence_test.(pred_name).all_ps = all_ps;
+            d.compare_task_to_predictor.permutation_test.(voi).equivalence_test.(pred_name).all_bounds = all_bounds;
+
         else
             % get p values from r values
             N = nchoosek(cfg.n, 2);
@@ -372,13 +392,8 @@ for voi_n = 1:numel(cfg.variables_of_interest)
         % add marks for single category
         if cfg.show_single_cate
 
-            if strcmp(cfg.exp_name, 'free')
-                cate_mark1 = 'B';
-                cate_mark2 = 'K';
-            elseif strcmp(cfg.exp_name, 'gazeCon')
-                cate_mark1 = 'B';
-                cate_mark2 = 'L';
-            end
+            cate_mark1 = 'B';
+            cate_mark2 = 'K';
             text(current_x_pos-0.2, res_table.r_val_cate1(xiPos), cate_mark1, 'HorizontalAlignment', 'center', 'FontSize', 5);
             text(current_x_pos-0.2, res_table.r_val_cate2(xiPos), cate_mark2, 'HorizontalAlignment', 'center', 'FontSize', 5);
         end

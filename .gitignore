@@ -1,9 +1,6 @@
 /derivatives*
-/dnn_features
 /code/figures
 /vgg16_imagenet
 *.asv
-*.asv
-/drawings/
 /AOIs/AOImasks
 drawings/exp2/Drawingmarch/File_000.zip
