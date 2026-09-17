@@ -8,7 +8,7 @@ if ~isfield(cfg, 'variables_of_interest')
         'ObjectCatePrio'};
 end
 if ~isfield(cfg, 'labels'); cfg.labels = {'odd', 'even'}; end
-if ~isfield(cfg, 'regressOutMean'); cfg.regressOutMean = true; end
+if ~isfield(cfg, 'regressOutMean'); cfg.regressOutMean = false; end
 if ~isfield(cfg, 'correlation_type'); cfg.correlation_type = 'Spearman'; end
 if ~isfield(cfg, 'n_permutations'); cfg.n_permutations = 10000; end
 
