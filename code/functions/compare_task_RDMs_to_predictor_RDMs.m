@@ -225,7 +225,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
 
     % loop through res_table and add according variables
     if cfg.plotting_predictors == 1
-        if strcmp(voi, 'GazeDist')
+        if strcmp(voi, 'GazeDist') || strcmp(voi, 'MannanDist')
             res_table.color_R = .98;
             res_table.color_G = .41;
             res_table.color_B = .91;
@@ -301,6 +301,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
 
                 eqi_bound = eqi_bound + 0.01;                
             end
+
             pred_name = strrep(res_table.name{row}, '*partial* ', '');
             pred_name = strrep(pred_name, ' ', '_');
             d.compare_task_to_predictor.permutation_test.(voi).equivalence_test.(pred_name).all_ps = all_ps;
@@ -392,17 +393,18 @@ for voi_n = 1:numel(cfg.variables_of_interest)
         % add marks for single category
         if cfg.show_single_cate
 
-            cate_mark1 = 'B';
-            cate_mark2 = 'K';
-            text(current_x_pos-0.2, res_table.r_val_cate1(xiPos), cate_mark1, 'HorizontalAlignment', 'center', 'FontSize', 5);
-            text(current_x_pos-0.2, res_table.r_val_cate2(xiPos), cate_mark2, 'HorizontalAlignment', 'center', 'FontSize', 5);
+            cate_mark1 = 'o';
+            cate_mark2 = '^';
+            cate_marker(1) = plot(current_x_pos-0.2, res_table.r_val_cate1(xiPos), cate_mark1,...
+                'MarkerEdgeColor', 'k', 'LineWidth', 2, 'MarkerSize', 4);
+            cate_marker(2) = plot(current_x_pos-0.2, res_table.r_val_cate2(xiPos), cate_mark2,...
+                'MarkerEdgeColor', 'k', 'LineWidth', 2, 'MarkerSize', 4);
         end
 
     end
     % make gap between reference RDMs
     previous_x_pos = current_x_pos + cfg.plott_gap;
 end
-
 
 % collect p values
 all_p_vals = nan(height(res_table), numel(cfg.variables_of_interest));
@@ -470,7 +472,7 @@ if cfg.partial_cor
 else
     ylabel([cfg.correlation_type, ' correlation [r]', newline]);
 end
-title(['Correlation to Scene Priors', newline])
+%title(['Correlation to Scene Priors', newline])
 if isfield(cfg, 'plot_type')
     ylim(cfg.ylim)
 else
@@ -482,12 +484,17 @@ ax = gca;
 ax.Box = 'off';
 yline(0, 'LineWidth', 2, 'Color', 'k');
 
+% add category marker legend
+if cfg.show_single_cate
+    legend(cate_marker, {'bathroom', 'kitchen'}, "location", "northeastoutside", "Box", "off")
+end
+
 
 % get labels
 % get plotting names
 varNames = strrep(cfg.variables_of_interest, '_', ' ');
 for varName = 1:length(varNames)
-    if strcmp(varNames{varName}, 'GazeDist')
+    if strcmp(varNames{varName}, 'GazeDist') || strcmp(varNames{varName}, 'MannanDist')
         varNames{varName} = 'Gaze Dist';
     elseif strcmp(varNames{varName}, 'ObjectFixCount')
         varNames{varName} = 'Fixation Count';

@@ -21,6 +21,7 @@ if ~isfield(cfg, 'random_seqs')
         end
     end
 end
+cfg.plot_rdm = false;
 
 % make random permutations
 rng(1) % ensure reproducible outcome

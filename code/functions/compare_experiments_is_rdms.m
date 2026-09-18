@@ -27,7 +27,7 @@ betweenMask = group(i) ~= group(j);
 withinMean  = median(pairs(withinMask));
 betweenMean = median(pairs(betweenMask));
 
-if strcmp(gazeMeasure, 'GazeDist')
+if contains(gazeMeasure, 'Dist')
     obsStat = betweenMean - withinMean; % is dissimilarity larger between experiments?
 else
     obsStat = withinMean - betweenMean; % is similarity larger within experiments?
