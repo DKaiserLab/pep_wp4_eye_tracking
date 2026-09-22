@@ -16,9 +16,11 @@ function b_detFix(cfg)
 myDir = pwd;
 
 % params
-disttoscreen = 68;  % cm, change to whatever is appropriate, though it matters little for I2MC
-maxMergeDist = 15;
-minFixDur    = 100;
+if ~isfield(cfg, 'force_recompute'); cfg.force_recompute = false; end
+if ~isfield(cfg, 'disttoscreen'); cfg.disttoscreen = 68; end % cm, change to whatever is appropriate, though it matters little for I2MC
+if ~isfield(cfg, 'minFixDur'); cfg.minFixDur = 100; end
+if ~isfield(cfg, 'maxMergeDist'); cfg.maxMergeDist = 15; end
+
 
 % define subjets
 subs = [];
@@ -62,7 +64,7 @@ for sub = subs
     check_files = dir(dirs.all_fix);
 
     % check if files exist already, if yes skip that subject
-    if length({check_files.name}) > 100
+    if length({check_files.name}) > 100 && ~cfg.force_recompute
 
         % run time control
         disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
@@ -106,7 +108,7 @@ for sub = subs
         opt.missingx      = nan;
         opt.missingy      = nan;
         opt.scrSz         = [sess.geometry.displayArea.width sess.geometry.displayArea.height]/10;  % mm -> cm
-        opt.disttoscreen  = disttoscreen;
+        opt.disttoscreen  = cfg.disttoscreen;
         opt.freq          = sess.settings.freq;
         if opt.freq>120
             opt.downsamples   = [2 5 10];
@@ -132,8 +134,8 @@ for sub = subs
             warning('By default, I2MC runs a Chebyshev filter over the data as part of its operation. It appears that this filter (the function ''cheby1'' from the signal processing toolbox) is not available in your installation. I am thus disabling the filter.')
             opt.downsampFilter= false;
         end
-        opt.maxMergeDist  = maxMergeDist;
-        opt.minFixDur     = minFixDur;
+        opt.maxMergeDist  = cfg.maxMergeDist;
+        opt.minFixDur     = cfg.minFixDur;
 
         %% event detection
         % make data struct

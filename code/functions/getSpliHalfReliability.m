@@ -11,6 +11,7 @@ if ~isfield(cfg, 'labels'); cfg.labels = {'odd', 'even'}; end
 if ~isfield(cfg, 'regressOutMean'); cfg.regressOutMean = false; end
 if ~isfield(cfg, 'correlation_type'); cfg.correlation_type = 'Spearman'; end
 if ~isfield(cfg, 'n_permutations'); cfg.n_permutations = 10000; end
+if ~isfield(cfg, 'halfs'); cfg.halfs = "odd_even"; end % "odd_even" or "early_late"
 
 if cfg.regressOutMean
     GDM_field = 'GDM_demeaned';
@@ -26,16 +27,25 @@ for iCate = 1:length(cfg.categories)
 
     %% fixation count
     if ismember('ObjectFixCount' , cfg.variables_of_interest)
-        numImgs = size(d.(GDM_field).(category).ObjectFixCount, 2);
-        [ObserverFixOdd, ~] = corr(d.(GDM_field).(category).ObjectFixCount(:,1:2:numImgs)',...
-            'type', 'spearman', 'rows', 'complete');
-        [ObserverFixEven, ~] = corr(d.(GDM_field).(category).ObjectFixCount(:,2:2:numImgs)',...
-            'type', 'spearman', 'rows', 'complete');
 
-        % odd
+        if strcmp(cfg.halfs, "odd_even")
+            numImgs = size(d.(GDM_field).(category).ObjectFixCount, 2);
+            [ObserverFixOdd, ~] = corr(d.(GDM_field).(category).ObjectFixCount(:,1:2:numImgs)',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverFixEven, ~] = corr(d.(GDM_field).(category).ObjectFixCount(:,2:2:numImgs)',...
+                'type', 'spearman', 'rows', 'complete');
+        elseif strcmp(cfg.halfs, "early_late")
+            numImgs = size(d.(GDM_field).(category).ObjectFixCount, 2);
+            [ObserverFixOdd, ~] = corr(d.(GDM_field).(category).ObjectFixCount(:,1:numImgs/2)',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverFixEven, ~] = corr(d.(GDM_field).(category).ObjectFixCount(:,numImgs/2+1:end)',...
+                'type', 'spearman', 'rows', 'complete');
+        end
+
+        % split A
         ObserverFixOdd(logical(eye(size(ObserverFixOdd)))) = 0;
         [A] = squareform(ObserverFixOdd);
-        % even
+        % split B
         ObserverFixEven(logical(eye(size(ObserverFixEven)))) = 0;
         [B] = squareform(ObserverFixEven);
 
@@ -55,19 +65,27 @@ for iCate = 1:length(cfg.categories)
 
     %% single object dwell time
     if ismember('IndividualObjectDwells' , cfg.variables_of_interest)
-        [ObserverMatOdd, ~] = corr(d.(GDM_field).(category).IndividualObjectDwells(:,d.(GDM_field).(category).isOdd(1,:))',...
-            'type', 'spearman', 'rows', 'complete');
-        [ObserverMatEven, ~] = corr(d.(GDM_field).(category).IndividualObjectDwells(:,~d.(GDM_field).(category).isOdd(1,:))',...
-            'type', 'spearman', 'rows', 'complete');
+
+        if strcmp(cfg.halfs, "odd_even")
+            [ObserverMatOdd, ~] = corr(d.(GDM_field).(category).IndividualObjectDwells(:,d.(GDM_field).(category).isOdd(1,:))',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEven, ~] = corr(d.(GDM_field).(category).IndividualObjectDwells(:,~d.(GDM_field).(category).isOdd(1,:))',...
+                'type', 'spearman', 'rows', 'complete');
+        elseif strcmp(cfg.halfs, "early_late")
+            [ObserverMatOdd, ~] = corr(d.(GDM_field).(category).IndividualObjectDwells(:,d.(GDM_field).(category).isEarly(1,:))',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEven, ~] = corr(d.(GDM_field).(category).IndividualObjectDwells(:,~d.(GDM_field).(category).isEarly(1,:))',...
+                'type', 'spearman', 'rows', 'complete');
+        end
 
         % runtime control
         disp(' ')
         disp(['Split-half reliablity for ', category, ' images'])
 
-        % odd
+        % split A
         ObserverMatOdd(logical(eye(size(ObserverMatOdd)))) = 0;
         [C] = squareform(ObserverMatOdd);
-        % even
+        % split B
         ObserverMatEven(logical(eye(size(ObserverMatEven)))) = 0;
         [D] = squareform(ObserverMatEven);
 
@@ -87,15 +105,23 @@ for iCate = 1:length(cfg.categories)
 
     %% object category dwell time
     if ismember('ObjectDwellsCate' , cfg.variables_of_interest)
-        [ObserverMatOddCate, ~] = corr(d.(GDM_field).(category).ObjectDwellsCateOdd',...
-            'type', 'spearman', 'rows', 'complete');
-        [ObserverMatEvenCate, ~] = corr(d.(GDM_field).(category).ObjectDwellsCateEven',...
-            'type', 'spearman', 'rows', 'complete');
 
-        % odd
+        if strcmp(cfg.halfs, "odd_even")
+            [ObserverMatOddCate, ~] = corr(d.(GDM_field).(category).ObjectDwellsCateOdd',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEvenCate, ~] = corr(d.(GDM_field).(category).ObjectDwellsCateEven',...
+                'type', 'spearman', 'rows', 'complete');
+        elseif strcmp(cfg.halfs, "early_late")
+            [ObserverMatOddCate, ~] = corr(d.(GDM_field).(category).ObjectDwellsCateLate',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEvenCate, ~] = corr(d.(GDM_field).(category).ObjectDwellsCateEarly',...
+                'type', 'spearman', 'rows', 'complete');
+        end
+
+        % split A
         ObserverMatOddCate(logical(eye(size(ObserverMatOddCate)))) = 0;
         [E] = squareform(ObserverMatOddCate);
-        % even
+        % split B
         ObserverMatEvenCate(logical(eye(size(ObserverMatEvenCate)))) = 0;
         [F] = squareform(ObserverMatEvenCate);
 
@@ -116,19 +142,22 @@ for iCate = 1:length(cfg.categories)
     %% first fix - single object dwell time
     if ismember('IndividualObjects_firstFix' , cfg.variables_of_interest)
 
-        % runtime control
-        disp(' ')
-        disp(['Split-half reliablity for ', category, ' images on first fixation'])
+        if strcmp(cfg.halfs, "odd_even")
+            [ObserverMatOdd, ~] = corr(d.(GDM_field).(category).IndividualObjects_firstFix(:,d.(GDM_field).(category).isOdd(1,:))',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEven, ~] = corr(d.(GDM_field).(category).IndividualObjects_firstFix(:,~d.(GDM_field).(category).isOdd(1,:))',...
+                'type', 'spearman', 'rows', 'complete');
+        elseif strcmp(cfg.halfs, "early_late")
+            [ObserverMatOdd, ~] = corr(d.(GDM_field).(category).IndividualObjects_firstFix(:,d.(GDM_field).(category).isEarly(1,:))',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEven, ~] = corr(d.(GDM_field).(category).IndividualObjects_firstFix(:,~d.(GDM_field).(category).isEarly(1,:))',...
+                'type', 'spearman', 'rows', 'complete');
+        end
 
-        [ObserverMatOdd, ~] = corr(d.(GDM_field).(category).IndividualObjects_firstFix(:,d.(GDM_field).(category).isOdd(1,:))',...
-            'type', 'spearman', 'rows', 'complete');
-        [ObserverMatEven, ~] = corr(d.(GDM_field).(category).IndividualObjects_firstFix(:,~d.(GDM_field).(category).isOdd(1,:))',...
-            'type', 'spearman', 'rows', 'complete');
-
-        % odd
+        % split A
         ObserverMatOdd(logical(eye(size(ObserverMatOdd)))) = 0;
         [G] = squareform(ObserverMatOdd);
-        % even
+        % split B
         ObserverMatEven(logical(eye(size(ObserverMatEven)))) = 0;
         [H] = squareform(ObserverMatEven);
 
@@ -148,15 +177,23 @@ for iCate = 1:length(cfg.categories)
 
     %% first fix - object category dwell time
     if ismember('ObjectsCate_firstFix' , cfg.variables_of_interest)
-        [ObserverMatOddCate, ~] = corr(d.(GDM_field).(category).ObjectsCate_firstFixOdd',...
-            'type', 'spearman', 'rows', 'complete');
-        [ObserverMatEvenCate, ~] = corr(d.(GDM_field).(category).ObjectsCate_firstFixEven',...
-            'type', 'spearman', 'rows', 'complete');
 
-        % odd
+        if strcmp(cfg.halfs, "odd_even")
+            [ObserverMatOddCate, ~] = corr(d.(GDM_field).(category).ObjectsCate_firstFixOdd',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEvenCate, ~] = corr(d.(GDM_field).(category).ObjectsCate_firstFixEven',...
+                'type', 'spearman', 'rows', 'complete');
+        elseif strcmp(cfg.halfs, "early_late")
+            [ObserverMatOddCate, ~] = corr(d.(GDM_field).(category).ObjectsCate_firstFixLate',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEvenCate, ~] = corr(d.(GDM_field).(category).ObjectsCate_firstFixEarly',...
+                'type', 'spearman', 'rows', 'complete');
+        end
+
+        % split A
         ObserverMatOddCate(logical(eye(size(ObserverMatOddCate)))) = 0;
         [I] = squareform(ObserverMatOddCate);
-        % even
+        % split B
         ObserverMatEvenCate(logical(eye(size(ObserverMatEvenCate)))) = 0;
         [J] = squareform(ObserverMatEvenCate);
 
@@ -176,15 +213,23 @@ for iCate = 1:length(cfg.categories)
 
     %% object category fixation priority
     if ismember('ObjectCatePrio' , cfg.variables_of_interest)
-        [ObserverMatOddCate, ~] = corr(d.(GDM_field).(category).ObjectCatePrioOdd',...
-            'type', 'spearman', 'rows', 'complete');
-        [ObserverMatEvenCate, ~] = corr(d.(GDM_field).(category).ObjectCatePrioEven',...
-            'type', 'spearman', 'rows', 'complete');
 
-        % odd
+        if strcmp(cfg.halfs, "odd_even")
+            [ObserverMatOddCate, ~] = corr(d.(GDM_field).(category).ObjectCatePrioOdd',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEvenCate, ~] = corr(d.(GDM_field).(category).ObjectCatePrioEven',...
+                'type', 'spearman', 'rows', 'complete');
+        elseif strcmp(cfg.halfs, "early_late")
+            [ObserverMatOddCate, ~] = corr(d.(GDM_field).(category).ObjectCatePrioLate',...
+                'type', 'spearman', 'rows', 'complete');
+            [ObserverMatEvenCate, ~] = corr(d.(GDM_field).(category).ObjectCatePrioEarly',...
+                'type', 'spearman', 'rows', 'complete');
+        end
+
+        % split A
         ObserverMatOddCate(logical(eye(size(ObserverMatOddCate)))) = 0;
         [K] = squareform(ObserverMatOddCate);
-        % even
+        % split B
         ObserverMatEvenCate(logical(eye(size(ObserverMatEvenCate)))) = 0;
         [L] = squareform(ObserverMatEvenCate);
 
@@ -205,14 +250,25 @@ for iCate = 1:length(cfg.categories)
     %% gaze distance
     if ismember('GazeDist', cfg.variables_of_interest)
 
-        % odd
-        idx = find(strcmp(['meanOdd',[upper(category(1)), category(2:3)],'Dists'],...
-            {d.([category, '_RDM']).ratingRDM.name}));
-        [M] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
-        % even
-        idx = find(strcmp(['meanEven',[upper(category(1)), category(2:3)],'Dists'],...
-            {d.([category, '_RDM']).ratingRDM.name}));
-        [N] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+        if strcmp(cfg.halfs, "odd_even")
+            % split A
+            idx = find(strcmp(['meanOdd',[upper(category(1)), category(2:3)],'Dists'],...
+                {d.([category, '_RDM']).ratingRDM.name}));
+            [M] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+            % split B
+            idx = find(strcmp(['meanEven',[upper(category(1)), category(2:3)],'Dists'],...
+                {d.([category, '_RDM']).ratingRDM.name}));
+            [N] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+        elseif strcmp(cfg.halfs, "early_late")
+            % split A
+            idx = find(strcmp(['meanLate',[upper(category(1)), category(2:3)],'Dists'],...
+                {d.([category, '_RDM']).ratingRDM.name}));
+            [M] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+            % split B
+            idx = find(strcmp(['meanEarly',[upper(category(1)), category(2:3)],'Dists'],...
+                {d.([category, '_RDM']).ratingRDM.name}));
+            [N] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+        end
 
         % print correlation
         disp(' ')
@@ -231,14 +287,25 @@ for iCate = 1:length(cfg.categories)
     %% Mannan gaze distance
     if ismember('MannanDist', cfg.variables_of_interest)
 
-        % odd
-        idx = find(strcmp(['meanOdd',[upper(category(1)), category(2:3)],'MannanDists'],...
-            {d.([category, '_RDM']).ratingRDM.name}));
-        [O] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
-        % even
-        idx = find(strcmp(['meanEven',[upper(category(1)), category(2:3)],'MannanDists'],...
-            {d.([category, '_RDM']).ratingRDM.name}));
-        [P] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+        if strcmp(cfg.halfs, "odd_even")
+            % split A
+            idx = find(strcmp(['meanOdd',[upper(category(1)), category(2:3)],'MannanDists'],...
+                {d.([category, '_RDM']).ratingRDM.name}));
+            [O] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+            % split B
+            idx = find(strcmp(['meanEven',[upper(category(1)), category(2:3)],'MannanDists'],...
+                {d.([category, '_RDM']).ratingRDM.name}));
+            [P] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+        elseif strcmp(cfg.halfs, "early_late")
+            % split A
+            idx = find(strcmp(['meanLate',[upper(category(1)), category(2:3)],'MannanDists'],...
+                {d.([category, '_RDM']).ratingRDM.name}));
+            [O] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+            % split B
+            idx = find(strcmp(['meanEarly',[upper(category(1)), category(2:3)],'MannanDists'],...
+                {d.([category, '_RDM']).ratingRDM.name}));
+            [P] = squareform(d.([category, '_RDM']).ratingRDM(idx).RDM);
+        end
 
         % print correlation
         disp(' ')

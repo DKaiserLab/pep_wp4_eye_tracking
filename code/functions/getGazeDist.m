@@ -14,7 +14,11 @@ allExist = (exist(fullfile(dataDir, 'meanBatDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'meanOddBatDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'meanEvenBatDists.mat'), 'file') && ...
     exist(fullfile(dataDir, 'meanOddKitDists.mat'), 'file') && ...
-    exist(fullfile(dataDir, 'meanEvenKitDists.mat'), 'file'));
+    exist(fullfile(dataDir, 'meanEvenKitDists.mat'), 'file')) && ...
+    exist(fullfile(dataDir, 'meanLateBatDists.mat'), 'file') && ...
+    exist(fullfile(dataDir, 'meanEarlyBatDists.mat'), 'file') && ...
+    exist(fullfile(dataDir, 'meanLateKitDists.mat'), 'file') && ...
+    exist(fullfile(dataDir, 'meanEarlyKitDists.mat'), 'file');
 
 % Mannan distances are additionally checked
 if cfg.calculateMannanDist
@@ -24,12 +28,15 @@ if cfg.calculateMannanDist
         exist(fullfile(dataDir, 'meanOddKitMannanDists.mat'), 'file') && ...
         exist(fullfile(dataDir, 'meanOddBatMannanDists.mat'), 'file') && ...
         exist(fullfile(dataDir, 'meanEvenKitMannanDists.mat'), 'file') && ...
-        exist(fullfile(dataDir, 'meanEvenBatMannanDists.mat'), 'file');
-    
+        exist(fullfile(dataDir, 'meanEvenBatMannanDists.mat'), 'file') && ...
+        exist(fullfile(dataDir, 'meanLateKitMannanDists.mat'), 'file') && ...
+        exist(fullfile(dataDir, 'meanLateBatMannanDists.mat'), 'file') && ...
+        exist(fullfile(dataDir, 'meanEarlyKitMannanDists.mat'), 'file') && ...
+        exist(fullfile(dataDir, 'meanEarlyBatMannanDists.mat'), 'file');
 end
 
 % if data exist already load it
-if allExist && ~cfg.force_recompute 
+if allExist && ~cfg.force_recompute
 
     % kitchen
     if isfield(d, "kitchen_RDM")
@@ -127,6 +134,18 @@ if allExist && ~cfg.force_recompute
     d.bathroom_RDM.ratingRDM(idx+3).name = 'meanEvenBatDists';
     d.bathroom_RDM.ratingRDM(idx+3).color = [0, 0, 0]';
 
+    % late distances
+    load(fullfile(dataDir, 'meanLateBatDists.mat'));
+    d.bathroom_RDM.ratingRDM(idx+2).RDM = meanLateBatDists;
+    d.bathroom_RDM.ratingRDM(idx+2).name = 'meanLateBatDists';
+    d.bathroom_RDM.ratingRDM(idx+2).color = [0, 0, 0]';
+
+    % early distances
+    load(fullfile(dataDir, 'meanEarlyBatDists.mat'));
+    d.bathroom_RDM.ratingRDM(idx+3).RDM = meanEarlyBatDists;
+    d.bathroom_RDM.ratingRDM(idx+3).name = 'meanEarlyBatDists';
+    d.bathroom_RDM.ratingRDM(idx+3).color = [0, 0, 0]';
+
     if cfg.calculateMannanDist
         % odd Mannan distances
         load(fullfile(dataDir, 'meanOddBatMannanDists.mat'));
@@ -138,6 +157,18 @@ if allExist && ~cfg.force_recompute
         load(fullfile(dataDir, 'meanEvenBatMannanDists.mat'));
         d.bathroom_RDM.ratingRDM(idx+5).RDM = meanEvenBatMannanDists;
         d.bathroom_RDM.ratingRDM(idx+5).name = 'meanEvenBatMannanDists';
+        d.bathroom_RDM.ratingRDM(idx+5).color = [0, 0, 0]';
+
+        % late Mannan distances
+        load(fullfile(dataDir, 'meanLateBatMannanDists.mat'));
+        d.bathroom_RDM.ratingRDM(idx+4).RDM = meanLateBatMannanDists;
+        d.bathroom_RDM.ratingRDM(idx+4).name = 'meanLateBatMannanDists';
+        d.bathroom_RDM.ratingRDM(idx+4).color = [0, 0, 0]';
+
+        % early Mannan distances
+        load(fullfile(dataDir, 'meanEarlyBatMannanDists.mat'));
+        d.bathroom_RDM.ratingRDM(idx+5).RDM = meanEarlyBatMannanDists;
+        d.bathroom_RDM.ratingRDM(idx+5).name = 'meanEarlyBatMannanDists';
         d.bathroom_RDM.ratingRDM(idx+5).color = [0, 0, 0]';
     end
 
@@ -593,5 +624,99 @@ else
         save(fullfile(dataDir,'meanEvenKitMannanDists.mat'),'meanEvenKitMannanDists');
     end
 
+    %% split late and early
+
+    % bathroom
+    lateBatDist = bathDists((size(bathDists,1)/2)+1:end, :, :);
+    meanLateBatDists = squeeze(mean(lateBatDist,'omitnan'))/max(bathDists,[],'all');
+
+    d.bathroom_RDM.ratingRDM(idx+2).RDM = meanLateBatDists;
+    d.bathroom_RDM.ratingRDM(idx+2).name = 'meanLateBatDists';
+    d.bathroom_RDM.ratingRDM(idx+2).color = [0,0,0]';
+
+    save(fullfile(dataDir,'meanLateBatDists.mat'),'meanLateBatDists');
+
+    earlyBatDist = bathDists(1:(size(bathDists,1)/2), :, :);
+    meanEarlyBatDists = squeeze(mean(earlyBatDist,'omitnan'))/max(bathDists,[],'all');
+
+    d.bathroom_RDM.ratingRDM(idx+3).RDM = meanEarlyBatDists;
+    d.bathroom_RDM.ratingRDM(idx+3).name = 'meanEarlyBatDists';
+    d.bathroom_RDM.ratingRDM(idx+3).color = [0,0,0]';
+
+    save(fullfile(dataDir,'meanEarlyBatDists.mat'),'meanEarlyBatDists');
+
+    % Mannan Distance:
+    if cfg.calculateMannanDist
+        lateBatMannanDist = bathMannanDists((size(bathDists,1)/2)+1:end, :, :);
+        meanLateBatMannanDists = squeeze(mean(lateBatMannanDist,'omitnan'))/max(bathMannanDists,[],'all');
+
+        d.bathroom_RDM.ratingRDM(idx+4).RDM = meanLateBatMannanDists;
+        d.bathroom_RDM.ratingRDM(idx+4).name = 'meanLateBatMannanDists';
+        d.bathroom_RDM.ratingRDM(idx+4).color = [0,0,0]';
+
+        save(fullfile(dataDir,'meanLateBatMannanDists.mat'),'meanLateBatMannanDists');
+
+        earlyBatMannanDist = bathMannanDists(1:(size(bathDists,1)/2), :, :);
+        meanEarlyBatMannanDists = squeeze(mean(earlyBatMannanDist,'omitnan'))/max(bathMannanDists,[],'all');
+
+        d.bathroom_RDM.ratingRDM(idx+5).RDM = meanEarlyBatMannanDists;
+        d.bathroom_RDM.ratingRDM(idx+5).name = 'meanEarlyBatMannanDists';
+        d.bathroom_RDM.ratingRDM(idx+5).color = [0,0,0]';
+
+        save(fullfile(dataDir,'meanEarlyBatMannanDists.mat'),'meanEarlyBatMannanDists');
+    end
+
+    % kitchen
+    lateKitDist = kitDists((size(bathDists,1)/2)+1:end,:,:);
+    meanLateKitDists = squeeze(mean(lateKitDist,'omitnan'))/max(kitDists,[],'all');
+
+    d.kitchen_RDM.ratingRDM(idx+2).RDM = meanLateKitDists;
+    d.kitchen_RDM.ratingRDM(idx+2).name = 'meanLateKitDists';
+    d.kitchen_RDM.ratingRDM(idx+2).color = [0,0,0]';
+
+    save(fullfile(dataDir,'meanLateKitDists.mat'),'meanLateKitDists');
+
+    earlyKitDist = kitDists(21:(size(bathDists,1)/2), :, :);
+    meanEarlyKitDists = squeeze(mean(earlyKitDist,'omitnan'))/max(kitDists,[],'all');
+
+    d.kitchen_RDM.ratingRDM(idx+3).RDM = meanEarlyKitDists;
+    d.kitchen_RDM.ratingRDM(idx+3).name = 'meanEarlyKitDists';
+    d.kitchen_RDM.ratingRDM(idx+3).color = [0,0,0]';
+
+    save(fullfile(dataDir,'meanEarlyKitDists.mat'),'meanEarlyKitDists');
+
+    % Mannan Distance:
+    if cfg.calculateMannanDist
+
+        lateKitMannanDist = kitMannanDists((size(bathDists,1)/2)+1:end, :, :);
+        meanLateKitMannanDists = squeeze(mean(lateKitMannanDist,'omitnan'))/max(kitMannanDists,[],'all');
+
+        d.kitchen_RDM.ratingRDM(idx+4).RDM = meanLateKitMannanDists;
+        d.kitchen_RDM.ratingRDM(idx+4).name = 'meanLateKitMannanDists';
+        d.kitchen_RDM.ratingRDM(idx+4).color = [0,0,0]';
+
+        save(fullfile(dataDir,'meanLateKitMannanDists.mat'),'meanLateKitMannanDists');
+
+        earlyKitMannanDist = kitMannanDists(1:(size(bathDists,1)/2), :, :);
+        meanEarlyKitMannanDists = squeeze(mean(earlyKitMannanDist,'omitnan'))/max(kitMannanDists,[],'all');
+
+        d.kitchen_RDM.ratingRDM(idx+5).RDM = meanEarlyKitMannanDists;
+        d.kitchen_RDM.ratingRDM(idx+5).name = 'meanEarlyKitMannanDists';
+        d.kitchen_RDM.ratingRDM(idx+5).color = [0,0,0]';
+
+        save(fullfile(dataDir,'meanEarlyKitMannanDists.mat'),'meanEarlyKitMannanDists');
+    end
 end
+
+%% comapre bewteen categories
+pwc_idx = height(d.RDM_pwc_table);
+d.RDM_pwc_table.task(idx + 1) = "Gaze dist";
+[d.RDM_pwc_table.r(idx + 1), d.RDM_pwc_table.p(idx + 1)] =...
+    corr(squareform(meanBatDists)', squareform(meanKitDists)');
+
+d.RDM_pwc_table.task(idx + 2) = "Mannan dist";
+[d.RDM_pwc_table.r(idx + 2), d.RDM_pwc_table.p(idx + 2)] =...
+    corr(squareform(meanMannanBatDists)', squareform(meanMannanKitDists)');
+
+
 end

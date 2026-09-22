@@ -1,6 +1,8 @@
 function e_getGazePatterns(cfg)
 
-if ~isfield(cfg, 'minNumPerCate'); cfg.minNumPerCate = 20; end
+if ~isfield(cfg, 'minNumPerCate'); cfg.minNumPerCate = 10; end
+if ~isfield(cfg, 'force_recompute'); cfg.force_recompute = false; end
+if ~isfield(cfg, 'cutFirstFix'); cfg.cutFirstFix = false; end
 
 %% 2. initialize
 % define subjets
@@ -65,10 +67,14 @@ for iCate = 1:length(cfg.categories)
                 exist(fullfile(outputDir, 'ObjectDwellsCate.mat'), 'file') && ...
                 exist(fullfile(outputDir, 'ObjectDwellsCateOdd.mat'), 'file') && ...
                 exist(fullfile(outputDir, 'ObjectDwellsCateEven.mat'), 'file') && ...
+                exist(fullfile(outputDir, 'ObjectDwellsCateEarly.mat'), 'file') && ...
+                exist(fullfile(outputDir, 'ObjectDwellsCateLate.mat'), 'file') && ...
                 exist(fullfile(outputDir, 'ObjectCatePrio.mat'), 'file') && ...
+                exist(fullfile(outputDir, 'ObjectCatePrioEarly.mat'), 'file') && ...
+                exist(fullfile(outputDir, 'ObjectCatePrioLate.mat'), 'file') && ...
                 exist(fullfile(outputDir, 'ObjectCatePrioOdd.mat'), 'file') && ...
                 exist(fullfile(outputDir, 'ObjectCatePrioEven.mat'), 'file');
-            if allExist
+            if allExist && ~cfg.force_recompute
                 disp(['Subject ',subs{iSubj}, ' already exists'])
                 continue
             end 
@@ -93,9 +99,12 @@ for iCate = 1:length(cfg.categories)
         IndividualObjectDwells  = zeros(1, NumObjsTotal);
         ObjectFixated = zeros(1, NumObjsTotal);
         isOdd = logical(zeros(1, NumObjsTotal));
+        isEarly = logical(zeros(1, NumObjsTotal));
         ObjectDwellsCate = zeros(1, height(category_file));
         ObjectDwellsCateOdd = zeros(1, height(category_file));
         ObjectDwellsCateEven = zeros(1, height(category_file));
+        ObjectDwellsCateEarly = zeros(1, height(category_file));
+        ObjectDwellsCateLate = zeros(1, height(category_file));
         timeToFixMat = nan(height(category_trials), height(category_file));
 
         ObjCount = 0;
@@ -107,14 +116,20 @@ for iCate = 1:length(cfg.categories)
             image_name = char(log_file.image(category_idx(iImg)));
             ObjsInImg = dir(fullfile('..','AOIs',char(image_name),'*.png'));
 
-            % check whether image is odd
+            % check whether image is odd and early
             if mod(iImg, 2) == 1; isCurrentOdd = true; else; isCurrentOdd = false; end
+            if iImg <= height(category_trials)/2; isCurrentEarly = true; else; isCurrentEarly = false; end
 
             % get AOI fix data for image and participant
             warning off
             fix_data = readtable(fullfile(category_trials(iImg).folder,category_trials(iImg).name),...
                 'FileType', 'text', 'Delimiter', '\t');
             warning on
+
+            % cut first fixation
+            if cfg.cutFirstFix
+                fix_data = fix_data(fix_data.fixNr > 1, :);
+            end
 
             % get sum of all fixations
             ObjectDwellTotal = nan(1, height(fix_data));
@@ -169,6 +184,17 @@ for iCate = 1:length(cfg.categories)
                                 + sum(fix_data_obj.duration)/ObjectDwellTotal(iImg);
                         end
 
+                        % add dwell time to category seperate for early and late trials
+                        if isCurrentEarly
+                            ObjectDwellsCateEarly(cate_num) = ...
+                                ObjectDwellsCateEarly(cate_num)...
+                                + sum(fix_data_obj.duration)/ObjectDwellTotal(iImg);
+                        else
+                            ObjectDwellsCateLate(cate_num) = ...
+                                ObjectDwellsCateLate(cate_num)...
+                                + sum(fix_data_obj.duration)/ObjectDwellTotal(iImg);
+                        end
+
                         % get time when object category was fixated first
                         firstCateFix = fix_data_obj.startT(1);
                         if isnan(timeToFixMat(iImg, cate_num(1)))
@@ -203,6 +229,13 @@ for iCate = 1:length(cfg.categories)
                 isOdd(ObjCountinit:ObjCount) = false;
             end
 
+            % mark early trials
+            if isCurrentOdd
+                isEarly(ObjCountinit:ObjCount) = true;
+            else
+                isEarly(ObjCountinit:ObjCount) = false;
+            end
+
             %write data in struct
             Data{iImg} = fix_data;
         end % images
@@ -213,6 +246,10 @@ for iCate = 1:length(cfg.categories)
         ObjectCatePrioOdd = mean(oddTrialsTimeToFixMat, 'omitnan');
         evenTrialsTimeToFixMat = timeToFixMat(2:2:height(timeToFixMat), :);
         ObjectCatePrioEven = mean(evenTrialsTimeToFixMat, 'omitnan');
+        earlyTrialsTimeToFixMat = timeToFixMat(1:(height(timeToFixMat)/2), :);
+        ObjectCatePrioEarly = mean(earlyTrialsTimeToFixMat, 'omitnan');
+        lateTrialsTimeToFixMat = timeToFixMat((height(timeToFixMat)/2)+1:end, :);
+        ObjectCatePrioLate = mean(lateTrialsTimeToFixMat, 'omitnan');
 
         % save subject data
         save(fullfile(outputDir, 'ObjectFixCount.mat'), 'ObjectFixCount');
@@ -221,10 +258,14 @@ for iCate = 1:length(cfg.categories)
         save(fullfile(outputDir, 'ObjectDwellsCate.mat'), 'ObjectDwellsCate');
         save(fullfile(outputDir, 'ObjectDwellsCateOdd.mat'), 'ObjectDwellsCateOdd');
         save(fullfile(outputDir, 'ObjectDwellsCateEven.mat'), 'ObjectDwellsCateEven');
+        save(fullfile(outputDir, 'ObjectDwellsCateEarly.mat'), 'ObjectDwellsCateEarly');
+        save(fullfile(outputDir, 'ObjectDwellsCateLate.mat'), 'ObjectDwellsCateLate');
         save(fullfile(outputDir, 'ObjectCatePrio.mat'), 'ObjectCatePrio');
         save(fullfile(outputDir, 'ObjectCatePrioOdd.mat'), 'ObjectCatePrioOdd');
         save(fullfile(outputDir, 'ObjectCatePrioEven.mat'), 'ObjectCatePrioEven');
-        save(fullfile(outputDir, 'fixData.mat'), 'Data', 'isOdd');
+        save(fullfile(outputDir, 'ObjectCatePrioEarly.mat'), 'ObjectCatePrioEarly');
+        save(fullfile(outputDir, 'ObjectCatePrioLate.mat'), 'ObjectCatePrioLate');
+        save(fullfile(outputDir, 'fixData.mat'), 'Data', 'isOdd', 'isEarly');
 
     end % subjects
 end

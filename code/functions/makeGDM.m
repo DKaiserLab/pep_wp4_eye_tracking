@@ -3,9 +3,9 @@ function d = makeGDM(d, cfg)
 if ~isfield(cfg, 'variables_of_interest')
 cfg.variables_of_interest = {'ObjectFixCount',...
     'ObjectDwellsCate', 'ObjectDwellsCateEven', 'ObjectDwellsCateOdd',...
-    'ObjectsCate_firstFix', 'ObjectsCate_firstFixEven', 'ObjectsCate_firstFixOdd',...
-    'IndividualObjectDwells', 'IndividualObjects_firstFix',...
-    'ObjectCatePrio', 'ObjectCatePrioOdd', 'ObjectCatePrioEven'};
+    'ObjectDwellsCateEarly', 'ObjectDwellsCateLate',...
+    'ObjectCatePrio', 'ObjectCatePrioOdd', 'ObjectCatePrioEven', ...
+    'ObjectCatePrioEarly', 'ObjectCatePrioLate'};
 end
 
 for iCate = 1:length(cfg.categories)
@@ -16,6 +16,7 @@ for iCate = 1:length(cfg.categories)
     dataDir = fullfile(pwd, '..', 'derivatives', subID, 'gazePatterns', category);
     load(fullfile(dataDir, 'fixData.mat'))
     d.GDM.(category).isOdd = isOdd;
+    d.GDM.(category).isEarly = isEarly;
 
     for voi = cfg.variables_of_interest
         newMat = [];

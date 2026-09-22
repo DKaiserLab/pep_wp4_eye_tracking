@@ -11,6 +11,7 @@ function d_AOIfix(cfg)
 % doi: https://doi.org/10.3758/s13428-020-01358-8
 
 myDir = pwd;
+if ~isfield(cfg, 'force_recompute'); cfg.force_recompute = false; end
 
 % add directories path
 dirs.funclib = fullfile(myDir, '..', '..', 'Titta', 'demo_analysis', 'function_library');
@@ -71,7 +72,7 @@ for sub = subs
     check_files = dir(dirs.AOIfix);
 
     % check if files exist already, if yes skip that subject
-    if length({check_files.name}) > 100
+    if length({check_files.name}) > 100 && ~cfg.force_recompute
 
         % run time control
         disp(['Files for subject ', sub, ' already exist. Subject will be skipped'])
