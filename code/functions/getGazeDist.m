@@ -79,18 +79,42 @@ if allExist && ~cfg.force_recompute
     d.kitchen_RDM.ratingRDM(idx+3).name = 'meanEvenKitDists';
     d.kitchen_RDM.ratingRDM(idx+3).color = [0, 0, 0]';
 
+    % late distances
+    load(fullfile(dataDir, 'meanLateKitDists.mat'));
+    d.kitchen_RDM.ratingRDM(idx+4).RDM = meanLateKitDists;
+    d.kitchen_RDM.ratingRDM(idx+4).name = 'meanLateKitDists';
+    d.kitchen_RDM.ratingRDM(idx+4).color = [0, 0, 0]';
+
+    % early distances
+    load(fullfile(dataDir, 'meanEarlyKitDists.mat'));
+    d.kitchen_RDM.ratingRDM(idx+5).RDM = meanEarlyKitDists;
+    d.kitchen_RDM.ratingRDM(idx+5).name = 'meanEarlyKitDists';
+    d.kitchen_RDM.ratingRDM(idx+5).color = [0, 0, 0]';
+
     if cfg.calculateMannanDist
         % odd Mannan distances
         load(fullfile(dataDir, 'meanOddKitMannanDists.mat'));
-        d.kitchen_RDM.ratingRDM(idx+4).RDM = meanOddKitMannanDists;
-        d.kitchen_RDM.ratingRDM(idx+4).name = 'meanOddKitMannanDists';
-        d.kitchen_RDM.ratingRDM(idx+4).color = [0, 0, 0]';
+        d.kitchen_RDM.ratingRDM(idx+6).RDM = meanOddKitMannanDists;
+        d.kitchen_RDM.ratingRDM(idx+6).name = 'meanOddKitMannanDists';
+        d.kitchen_RDM.ratingRDM(idx+6).color = [0, 0, 0]';
 
         % even Mannan distances
         load(fullfile(dataDir, 'meanEvenKitMannanDists.mat'));
-        d.kitchen_RDM.ratingRDM(idx+5).RDM = meanEvenKitMannanDists;
-        d.kitchen_RDM.ratingRDM(idx+5).name = 'meanEvenKitMannanDists';
-        d.kitchen_RDM.ratingRDM(idx+5).color = [0, 0, 0]';
+        d.kitchen_RDM.ratingRDM(idx+7).RDM = meanEvenKitMannanDists;
+        d.kitchen_RDM.ratingRDM(idx+7).name = 'meanEvenKitMannanDists';
+        d.kitchen_RDM.ratingRDM(idx+7).color = [0, 0, 0]';
+
+        % late Mannan distances
+        load(fullfile(dataDir, 'meanLateKitMannanDists.mat'));
+        d.kitchen_RDM.ratingRDM(idx+8).RDM = meanLateKitMannanDists;
+        d.kitchen_RDM.ratingRDM(idx+8).name = 'meanLateKitMannanDists';
+        d.kitchen_RDM.ratingRDM(idx+8).color = [0, 0, 0]';
+
+        % early Mannan distances
+        load(fullfile(dataDir, 'meanEarlyKitMannanDists.mat'));
+        d.kitchen_RDM.ratingRDM(idx+9).RDM = meanEarlyKitMannanDists;
+        d.kitchen_RDM.ratingRDM(idx+9).name = 'meanEarlyKitMannanDists';
+        d.kitchen_RDM.ratingRDM(idx+9).color = [0, 0, 0]';
     end
 
     % bathroom
@@ -136,40 +160,40 @@ if allExist && ~cfg.force_recompute
 
     % late distances
     load(fullfile(dataDir, 'meanLateBatDists.mat'));
-    d.bathroom_RDM.ratingRDM(idx+2).RDM = meanLateBatDists;
-    d.bathroom_RDM.ratingRDM(idx+2).name = 'meanLateBatDists';
-    d.bathroom_RDM.ratingRDM(idx+2).color = [0, 0, 0]';
+    d.bathroom_RDM.ratingRDM(idx+4).RDM = meanLateBatDists;
+    d.bathroom_RDM.ratingRDM(idx+4).name = 'meanLateBatDists';
+    d.bathroom_RDM.ratingRDM(idx+4).color = [0, 0, 0]';
 
     % early distances
     load(fullfile(dataDir, 'meanEarlyBatDists.mat'));
-    d.bathroom_RDM.ratingRDM(idx+3).RDM = meanEarlyBatDists;
-    d.bathroom_RDM.ratingRDM(idx+3).name = 'meanEarlyBatDists';
-    d.bathroom_RDM.ratingRDM(idx+3).color = [0, 0, 0]';
+    d.bathroom_RDM.ratingRDM(idx+5).RDM = meanEarlyBatDists;
+    d.bathroom_RDM.ratingRDM(idx+5).name = 'meanEarlyBatDists';
+    d.bathroom_RDM.ratingRDM(idx+5).color = [0, 0, 0]';
 
     if cfg.calculateMannanDist
         % odd Mannan distances
         load(fullfile(dataDir, 'meanOddBatMannanDists.mat'));
-        d.bathroom_RDM.ratingRDM(idx+4).RDM = meanOddBatMannanDists;
-        d.bathroom_RDM.ratingRDM(idx+4).name = 'meanOddBatMannanDists';
-        d.bathroom_RDM.ratingRDM(idx+4).color = [0, 0, 0]';
+        d.bathroom_RDM.ratingRDM(idx+6).RDM = meanOddBatMannanDists;
+        d.bathroom_RDM.ratingRDM(idx+6).name = 'meanOddBatMannanDists';
+        d.bathroom_RDM.ratingRDM(idx+6).color = [0, 0, 0]';
 
         % even Mannan distances
         load(fullfile(dataDir, 'meanEvenBatMannanDists.mat'));
-        d.bathroom_RDM.ratingRDM(idx+5).RDM = meanEvenBatMannanDists;
-        d.bathroom_RDM.ratingRDM(idx+5).name = 'meanEvenBatMannanDists';
-        d.bathroom_RDM.ratingRDM(idx+5).color = [0, 0, 0]';
+        d.bathroom_RDM.ratingRDM(idx+7).RDM = meanEvenBatMannanDists;
+        d.bathroom_RDM.ratingRDM(idx+7).name = 'meanEvenBatMannanDists';
+        d.bathroom_RDM.ratingRDM(idx+7).color = [0, 0, 0]';
 
         % late Mannan distances
         load(fullfile(dataDir, 'meanLateBatMannanDists.mat'));
-        d.bathroom_RDM.ratingRDM(idx+4).RDM = meanLateBatMannanDists;
-        d.bathroom_RDM.ratingRDM(idx+4).name = 'meanLateBatMannanDists';
-        d.bathroom_RDM.ratingRDM(idx+4).color = [0, 0, 0]';
+        d.bathroom_RDM.ratingRDM(idx+8).RDM = meanLateBatMannanDists;
+        d.bathroom_RDM.ratingRDM(idx+8).name = 'meanLateBatMannanDists';
+        d.bathroom_RDM.ratingRDM(idx+8).color = [0, 0, 0]';
 
         % early Mannan distances
         load(fullfile(dataDir, 'meanEarlyBatMannanDists.mat'));
-        d.bathroom_RDM.ratingRDM(idx+5).RDM = meanEarlyBatMannanDists;
-        d.bathroom_RDM.ratingRDM(idx+5).name = 'meanEarlyBatMannanDists';
-        d.bathroom_RDM.ratingRDM(idx+5).color = [0, 0, 0]';
+        d.bathroom_RDM.ratingRDM(idx+9).RDM = meanEarlyBatMannanDists;
+        d.bathroom_RDM.ratingRDM(idx+9).name = 'meanEarlyBatMannanDists';
+        d.bathroom_RDM.ratingRDM(idx+9).color = [0, 0, 0]';
     end
 
     disp('Data exist already')

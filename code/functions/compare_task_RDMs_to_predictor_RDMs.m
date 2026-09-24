@@ -185,6 +185,36 @@ for voi_n = 1:numel(cfg.variables_of_interest)
                 end
             end
             d.compare_task_to_predictor.permutation_test.(voi).(category) = perm_r_mat;
+
+        elseif cfg.triplets_bootstrap
+            rng(1)
+            tri_boot_r_mat = zeros(height(r_mat)-1, cfg.n_permutations);
+
+            [tri_RDMs,tri_labels] = evaluate_triplet_predictor_RDMs(d, RDMs(1), labels(1), cfg, category);
+
+            for perm = 1:cfg.n_permutations
+
+                tri_boot_RDMs = tri_RDMs;
+                for pred = 1:numel(cfg.RDM_to_partial_out)
+
+                    % get predictor RDM
+                    pred_RDM = tri_boot_RDMs(pred+1).RDM;
+
+                    % replace predictor RDM by single Draw3D images subsampled from triplets
+                    tri_sub_idx = randi(3, 1, cfg.n) + (0:3:(cfg.n-1)*3);
+                    tri_boot_RDMs(pred+1).RDM = pred_RDM(tri_sub_idx, tri_sub_idx);
+
+                end
+
+                [~, r_mat, ~, ~] = partial_cor_RDM(cfg, tri_boot_RDMs);
+                tri_boot_r_mat(pred, perm) = r_mat(pred+1, 1);
+
+                [~, r_mat, ~, ~] = partial_cor_RDM(cfg, tri_boot_RDMs);
+                tri_boot_r_mat(1:end, perm) = r_mat(2:end, 1);
+
+            end
+
+            d.compare_task_to_predictor.tri_boot_test.(voi).(category) = tri_boot_r_mat;
         end
 
         % runtime control
@@ -206,6 +236,12 @@ for voi_n = 1:numel(cfg.variables_of_interest)
         d.compare_task_to_predictor.permutation_test.(voi).category_average = perm_r_mat;
     end
 
+    if cfg.triplets_bootstrap
+        tri_boot_r_mat = (d.compare_task_to_predictor.tri_boot_test.(voi).(cfg.categories{1}) +...
+            d.compare_task_to_predictor.tri_boot_test.(voi).(cfg.categories{2}))/2;
+        d.compare_task_to_predictor.tri_boot_test.(voi).category_average = tri_boot_r_mat;
+    end
+
     % plotting
 
     % filter predictors to plot
@@ -218,8 +254,14 @@ for voi_n = 1:numel(cfg.variables_of_interest)
         colors = colors(cfg.plotting_predictors, :);
     end
 
-    if numel(cfg.plotting_predictors) ~= height(perm_r_mat)
-        perm_r_mat = perm_r_mat(cfg.plotting_predictors, :);
+    if cfg.permutation_test
+        if numel(cfg.plotting_predictors) ~= height(perm_r_mat)
+            perm_r_mat = perm_r_mat(cfg.plotting_predictors, :);
+        end
+    elseif cfg.triplets_bootstrap
+        if numel(cfg.plotting_predictors) ~= height(tri_boot_r_mat)
+            tri_boot_r_mat = tri_boot_r_mat(cfg.plotting_predictors, :);
+        end
     end
 
 
@@ -307,6 +349,21 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             d.compare_task_to_predictor.permutation_test.(voi).equivalence_test.(pred_name).all_ps = all_ps;
             d.compare_task_to_predictor.permutation_test.(voi).equivalence_test.(pred_name).all_bounds = all_bounds;
 
+        elseif cfg.triplets_bootstrap
+
+            % get p value from random triplet permutations (one-sided test aginst
+            % permutation distribution)
+            p_value = sum(tri_boot_r_mat(row,:) <= 0) / cfg.n_permutations;
+            res_table.p_val(row) = p_value;
+            res_table.ci_upper(row) = prctile(tri_boot_r_mat(row,:), 5);
+            res_table.ci_lower(row) = prctile(tri_boot_r_mat(row,:), 95);
+
+%             % get p values for individual categories
+%             res_table.p_val_cate1(row) = sum(d.compare_task_to_predictor.tri_boot_test.(voi).(cfg.categories{1})(row,:)...
+%                 <= 0) / cfg.n_permutations;
+%             res_table.p_val_cate2(row) = sum(d.compare_task_to_predictor.tri_boot_test.(voi).(cfg.categories{2})(row,:)...
+%                 <= 0) / cfg.n_permutations;
+
         else
             % get p values from r values
             N = nchoosek(cfg.n, 2);
@@ -333,6 +390,8 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             current_x_pos = previous_x_pos + xiPos;
             if cfg.permutation_test
                 Y = {perm_r_mat(xiPos,:)'};
+            elseif cfg.triplets_bootstrap
+                Y = {tri_boot_r_mat(xiPos,:)'};
             end
 
             % make violin plot
@@ -376,7 +435,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
             end
         end
 
-        if cfg.permutation_test
+        if cfg.permutation_test || cfg.triplets_bootstrap
             if strcmp(cfg.plot_type, 'bar')
                 % add confidence interval if available
                 if ismember('ci_lower', res_table.Properties.VariableNames)
