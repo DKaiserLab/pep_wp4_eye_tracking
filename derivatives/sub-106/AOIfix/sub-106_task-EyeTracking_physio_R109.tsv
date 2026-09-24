@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_attdviyipsljunts.jpg	1	0.336	0.200	1229.450	566.960	0.168	0.052	0.0	4	curtain
+sun_attdviyipsljunts.jpg	1	0.336	0.200	1229.450	566.960	0.168	0.052	0.0	20	shelf
+sun_attdviyipsljunts.jpg	2	0.570	0.250	1265.513	489.252	0.097	0.026	0.0	11	light troffer
+sun_attdviyipsljunts.jpg	3	0.836	0.300	1211.250	491.710	0.111	0.040	0.0	0	other
+sun_attdviyipsljunts.jpg	4	1.211	0.200	1085.972	596.155	0.115	0.055	0.0	0	other
+sun_attdviyipsljunts.jpg	5	1.436	0.350	1026.918	686.065	0.164	0.068	0.0	15	paper towels
+sun_attdviyipsljunts.jpg	6	1.803	0.267	1160.483	723.483	0.130	0.040	0.0	25	worktop
+sun_attdviyipsljunts.jpg	7	2.103	0.192	1285.845	727.930	0.147	0.040	0.0	3	cabinet
+sun_attdviyipsljunts.jpg	7	2.103	0.192	1285.845	727.930	0.147	0.040	0.0	21	sink
+sun_attdviyipsljunts.jpg	7	2.103	0.192	1285.845	727.930	0.147	0.040	0.0	25	worktop
+sun_attdviyipsljunts.jpg	8	2.336	0.217	1468.287	744.567	0.133	0.036	0.0	10	kitchen island
+sun_attdviyipsljunts.jpg	8	2.336	0.217	1468.287	744.567	0.133	0.036	0.0	18	range
+sun_attdviyipsljunts.jpg	9	2.595	0.258	1540.970	797.385	0.104	0.033	0.0	19	refrigerator
+sun_attdviyipsljunts.jpg	10	2.870	0.133	1445.332	849.882	0.168	0.065	0.0	10	kitchen island
+sun_attdviyipsljunts.jpg	10	2.870	0.133	1445.332	849.882	0.168	0.065	0.0	22	stool

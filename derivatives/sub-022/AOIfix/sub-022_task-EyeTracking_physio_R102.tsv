@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajyzthllrejcnemk.jpg	1	0.271	0.300	1004.293	648.310	0.087	0.019	0.0	6	mirror
+sun_ajyzthllrejcnemk.jpg	2	0.604	0.158	942.520	648.615	0.078	0.019	0.0	6	mirror
+sun_ajyzthllrejcnemk.jpg	3	0.796	0.225	996.000	845.210	0.140	0.049	0.0	3	countertop
+sun_ajyzthllrejcnemk.jpg	3	0.796	0.225	996.000	845.210	0.140	0.049	0.0	9	sink
+sun_ajyzthllrejcnemk.jpg	4	1.054	0.133	1512.435	833.577	0.165	0.047	0.0	0	other
+sun_ajyzthllrejcnemk.jpg	5	1.221	0.342	1577.715	873.380	0.132	0.035	0.0	4	door
+sun_ajyzthllrejcnemk.jpg	6	1.604	0.158	1507.735	715.195	0.057	0.010	0.0	11	towel rail
+sun_ajyzthllrejcnemk.jpg	6	1.604	0.158	1507.735	715.195	0.057	0.010	0.0	12	towel
+sun_ajyzthllrejcnemk.jpg	7	1.788	0.192	1443.435	650.845	0.089	0.017	0.0	13	window
+sun_ajyzthllrejcnemk.jpg	8	2.013	0.508	1499.080	704.830	0.076	0.020	0.0	11	towel rail
+sun_ajyzthllrejcnemk.jpg	8	2.013	0.508	1499.080	704.830	0.076	0.020	0.0	12	towel
+sun_ajyzthllrejcnemk.jpg	9	2.613	0.125	1513.230	732.045	0.149	0.053	0.0	11	towel rail
+sun_ajyzthllrejcnemk.jpg	9	2.613	0.125	1513.230	732.045	0.149	0.053	0.0	12	towel
+sun_ajyzthllrejcnemk.jpg	10	2.763	0.183	1491.310	724.475	0.077	0.012	0.0	11	towel rail
+sun_ajyzthllrejcnemk.jpg	10	2.763	0.183	1491.310	724.475	0.077	0.012	0.0	12	towel

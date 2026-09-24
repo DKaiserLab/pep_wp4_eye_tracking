@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajrwezxmmjejxsbt.jpg	1	0.603	0.233	1166.230	823.055	0.117	0.085	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	2	0.869	0.400	1125.447	874.368	0.146	0.093	0.0	15	range
+sun_ajrwezxmmjejxsbt.jpg	2	0.869	0.400	1125.447	874.368	0.146	0.093	0.0	20	worktop
+sun_ajrwezxmmjejxsbt.jpg	3	1.278	0.275	1129.525	857.430	0.091	0.035	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	3	1.278	0.275	1129.525	857.430	0.091	0.035	0.0	15	range
+sun_ajrwezxmmjejxsbt.jpg	3	1.278	0.275	1129.525	857.430	0.091	0.035	0.0	20	worktop
+sun_ajrwezxmmjejxsbt.jpg	4	1.678	0.175	1290.170	880.705	0.059	0.017	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	4	1.678	0.175	1290.170	880.705	0.059	0.017	0.0	20	worktop
+sun_ajrwezxmmjejxsbt.jpg	5	1.878	0.267	1424.330	862.358	0.157	0.045	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	5	1.878	0.267	1424.330	862.358	0.157	0.045	0.0	20	worktop
+sun_ajrwezxmmjejxsbt.jpg	6	2.169	0.367	1519.110	840.082	0.102	0.057	0.0	13	pitcher
+sun_ajrwezxmmjejxsbt.jpg	6	2.169	0.367	1519.110	840.082	0.102	0.057	0.0	16	refrigerator
+sun_ajrwezxmmjejxsbt.jpg	6	2.169	0.367	1519.110	840.082	0.102	0.057	0.0	20	worktop
+sun_ajrwezxmmjejxsbt.jpg	7	2.553	0.175	1485.340	823.355	0.102	0.037	0.0	13	pitcher
+sun_ajrwezxmmjejxsbt.jpg	7	2.553	0.175	1485.340	823.355	0.102	0.037	0.0	16	refrigerator
+sun_ajrwezxmmjejxsbt.jpg	8	2.853	0.150	1340.017	658.885	0.111	0.038	0.0	3	cabinet

@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anzbjguxdgpobefx.jpg	1	0.300	0.258	1037.575	762.315	0.119	0.094	0.0	11	toaster
+sun_anzbjguxdgpobefx.jpg	1	0.300	0.258	1037.575	762.315	0.119	0.094	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	2	0.584	0.200	1109.635	824.812	0.143	0.101	0.0	8	plate
+sun_anzbjguxdgpobefx.jpg	2	0.584	0.200	1109.635	824.812	0.143	0.101	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	3	0.809	0.242	1453.840	811.025	0.186	0.124	0.0	1	box
+sun_anzbjguxdgpobefx.jpg	3	0.809	0.242	1453.840	811.025	0.186	0.124	0.0	6	mug
+sun_anzbjguxdgpobefx.jpg	3	0.809	0.242	1453.840	811.025	0.186	0.124	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	4	1.084	0.217	1321.115	558.605	0.156	0.150	0.0	2	cabinet
+sun_anzbjguxdgpobefx.jpg	5	1.334	0.158	1096.195	587.765	0.142	0.213	0.0	2	cabinet
+sun_anzbjguxdgpobefx.jpg	6	1.525	0.225	938.725	567.075	0.081	0.076	0.0	4	extractor hood
+sun_anzbjguxdgpobefx.jpg	7	1.809	0.383	1631.550	629.435	0.300	0.485	0.0	9	refrigerator
+sun_anzbjguxdgpobefx.jpg	8	2.217	0.217	1640.447	831.860	0.181	0.125	0.0	9	refrigerator
+sun_anzbjguxdgpobefx.jpg	9	2.450	0.267	1511.403	831.148	0.084	0.061	0.0	6	mug
+sun_anzbjguxdgpobefx.jpg	9	2.450	0.267	1511.403	831.148	0.084	0.061	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	10	2.734	0.267	1440.540	828.905	0.113	0.070	0.0	1	box
+sun_anzbjguxdgpobefx.jpg	10	2.734	0.267	1440.540	828.905	0.113	0.070	0.0	12	worktop

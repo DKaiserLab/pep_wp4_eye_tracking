@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anjpziwkjniyzlkr.jpg	1	0.292	0.183	1147.222	671.080	0.075	0.023	0.0	7	microwave
+sun_anjpziwkjniyzlkr.jpg	2	0.508	0.258	1049.860	566.710	0.070	0.020	0.0	2	cabinet
+sun_anjpziwkjniyzlkr.jpg	3	0.783	0.375	972.705	591.335	0.102	0.076	0.0	10	refrigerator
+sun_anjpziwkjniyzlkr.jpg	4	1.192	0.233	935.477	748.092	0.108	0.099	0.0	2	cabinet
+sun_anjpziwkjniyzlkr.jpg	4	1.192	0.233	935.477	748.092	0.108	0.099	0.0	10	refrigerator
+sun_anjpziwkjniyzlkr.jpg	5	1.450	0.242	1276.370	843.120	0.130	0.089	0.0	2	cabinet
+sun_anjpziwkjniyzlkr.jpg	5	1.450	0.242	1276.370	843.120	0.130	0.089	0.0	9	range
+sun_anjpziwkjniyzlkr.jpg	6	1.717	0.308	1397.255	819.600	0.117	0.141	0.0	6	kitchen island
+sun_anjpziwkjniyzlkr.jpg	7	2.042	0.183	1490.952	797.127	0.103	0.063	0.0	6	kitchen island
+sun_anjpziwkjniyzlkr.jpg	8	2.258	0.225	1503.145	641.090	0.118	0.108	0.0	0	other
+sun_anjpziwkjniyzlkr.jpg	9	2.508	0.242	1328.970	626.460	0.080	0.040	0.0	12	window
+sun_anjpziwkjniyzlkr.jpg	10	2.800	0.200	1219.327	775.655	0.059	0.009	0.0	9	range

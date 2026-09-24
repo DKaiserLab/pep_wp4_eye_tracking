@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.420	0.275	1364.385	859.420	0.098	0.041	0.0	7	cake
+labelme_qglnhnudtmzmocz.jpg	1	0.420	0.275	1364.385	859.420	0.098	0.041	0.0	15	knife
+labelme_qglnhnudtmzmocz.jpg	1	0.420	0.275	1364.385	859.420	0.098	0.041	0.0	34	tray
+labelme_qglnhnudtmzmocz.jpg	1	0.420	0.275	1364.385	859.420	0.098	0.041	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	2	0.712	0.258	1416.675	851.020	0.089	0.065	0.0	7	cake
+labelme_qglnhnudtmzmocz.jpg	2	0.712	0.258	1416.675	851.020	0.089	0.065	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	2	0.712	0.258	1416.675	851.020	0.089	0.065	0.0	34	tray
+labelme_qglnhnudtmzmocz.jpg	2	0.712	0.258	1416.675	851.020	0.089	0.065	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	3	1.003	0.408	1192.285	781.335	0.068	0.077	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	4	1.437	0.342	1207.470	693.645	0.090	0.106	0.0	2	book
+labelme_qglnhnudtmzmocz.jpg	4	1.437	0.342	1207.470	693.645	0.090	0.106	0.0	3	bookcase
+labelme_qglnhnudtmzmocz.jpg	4	1.437	0.342	1207.470	693.645	0.090	0.106	0.0	12	egg
+labelme_qglnhnudtmzmocz.jpg	4	1.437	0.342	1207.470	693.645	0.090	0.106	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	5	1.795	0.217	1330.923	681.305	0.077	0.028	0.0	1	basket
+labelme_qglnhnudtmzmocz.jpg	6	2.037	0.358	1467.665	749.035	0.116	0.059	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	6	2.037	0.358	1467.665	749.035	0.116	0.059	0.0	11	cutting board
+labelme_qglnhnudtmzmocz.jpg	6	2.037	0.358	1467.665	749.035	0.116	0.059	0.0	30	spoons
+labelme_qglnhnudtmzmocz.jpg	7	2.420	0.583	1472.765	828.905	0.077	0.040	0.0	10	counter

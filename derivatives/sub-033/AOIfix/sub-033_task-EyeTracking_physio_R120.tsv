@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akoozmcccyrpzqdd.jpg	1	0.410	0.367	1503.225	599.903	0.082	0.023	0.0	8	extractor hood
+sun_akoozmcccyrpzqdd.jpg	2	0.818	0.292	1543.675	594.630	0.085	0.013	0.0	8	extractor hood
+sun_akoozmcccyrpzqdd.jpg	3	1.143	0.267	1118.122	571.420	0.169	0.050	0.0	4	cabubet
+sun_akoozmcccyrpzqdd.jpg	4	1.426	0.150	1140.460	549.747	0.122	0.021	0.0	4	cabubet
+sun_akoozmcccyrpzqdd.jpg	4	1.426	0.150	1140.460	549.747	0.122	0.021	0.0	20	pendant lamp
+sun_akoozmcccyrpzqdd.jpg	5	1.635	0.292	991.810	624.715	0.101	0.021	0.0	23	refrigerator
+sun_akoozmcccyrpzqdd.jpg	6	1.976	0.183	1193.010	851.780	0.146	0.032	0.0	12	kitchen island
+sun_akoozmcccyrpzqdd.jpg	7	2.185	0.158	1379.925	871.230	0.162	0.053	0.0	12	kitchen island
+sun_akoozmcccyrpzqdd.jpg	8	2.368	0.342	1560.430	842.075	0.177	0.079	0.0	3	cabinet
+sun_akoozmcccyrpzqdd.jpg	9	2.751	0.250	1719.885	693.732	0.192	0.081	0.0	-1	off stimulus

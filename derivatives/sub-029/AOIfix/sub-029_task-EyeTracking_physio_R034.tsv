@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwvdhqsbtcesevi.jpg	1	0.378	0.417	1079.773	875.025	0.194	0.088	0.0	6	glass
+sun_akwvdhqsbtcesevi.jpg	1	0.378	0.417	1079.773	875.025	0.194	0.088	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	2	0.828	0.200	1016.825	852.438	0.102	0.017	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	2	0.828	0.200	1016.825	852.438	0.102	0.017	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	3	1.045	0.292	1220.435	866.865	0.114	0.038	0.0	6	glass
+sun_akwvdhqsbtcesevi.jpg	3	1.045	0.292	1220.435	866.865	0.114	0.038	0.0	16	sink
+sun_akwvdhqsbtcesevi.jpg	3	1.045	0.292	1220.435	866.865	0.114	0.038	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	4	1.353	0.192	1223.190	905.720	0.132	0.044	0.0	6	glass
+sun_akwvdhqsbtcesevi.jpg	4	1.353	0.192	1223.190	905.720	0.132	0.044	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	5	1.561	0.167	1133.707	906.570	0.128	0.035	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	5	1.561	0.167	1133.707	906.570	0.128	0.035	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	6	1.753	0.225	1414.915	686.885	0.177	0.082	0.0	20	window
+sun_akwvdhqsbtcesevi.jpg	7	2.003	0.208	1148.345	671.190	0.216	0.062	0.0	1	blender
+sun_akwvdhqsbtcesevi.jpg	7	2.003	0.208	1148.345	671.190	0.216	0.062	0.0	4	coffee maker
+sun_akwvdhqsbtcesevi.jpg	8	2.228	0.158	1086.150	585.595	0.127	0.048	0.0	8	microwave
+sun_akwvdhqsbtcesevi.jpg	9	2.411	0.267	1500.465	591.507	0.228	0.108	0.0	20	window
+sun_akwvdhqsbtcesevi.jpg	10	2.703	0.258	1243.535	616.970	0.180	0.097	0.0	3	cabinet

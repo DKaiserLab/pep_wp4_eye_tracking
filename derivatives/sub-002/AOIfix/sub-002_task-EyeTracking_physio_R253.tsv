@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aeqdtdmvphproomc.jpg	1	0.266	0.125	1278.605	1274.778	2.964	11.479	73.3	-1	off stimulus
+sun_aeqdtdmvphproomc.jpg	2	0.408	0.183	1295.090	670.470	0.430	0.299	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	2	0.408	0.183	1295.090	670.470	0.430	0.299	0.0	29	television
+sun_aeqdtdmvphproomc.jpg	3	0.625	0.258	1011.215	741.145	0.267	0.147	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	4	0.900	0.167	982.783	694.320	0.287	0.131	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	5	1.100	0.275	1303.490	581.370	0.211	0.125	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	5	1.100	0.275	1303.490	581.370	0.211	0.125	0.0	17	pitcher
+sun_aeqdtdmvphproomc.jpg	6	1.416	0.225	1586.195	571.515	0.175	0.080	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	7	1.658	0.242	1630.735	580.900	0.159	0.065	0.0	8	chandelier crop
+sun_aeqdtdmvphproomc.jpg	7	1.658	0.242	1630.735	580.900	0.159	0.065	0.0	18	plant
+sun_aeqdtdmvphproomc.jpg	7	1.658	0.242	1630.735	580.900	0.159	0.065	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	8	1.925	0.250	1400.845	750.620	0.273	0.152	0.0	33	worktop
+sun_aeqdtdmvphproomc.jpg	9	2.208	0.200	1341.763	649.753	0.262	0.065	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	10	2.441	0.233	1632.558	595.850	0.193	0.071	0.0	18	plant
+sun_aeqdtdmvphproomc.jpg	10	2.441	0.233	1632.558	595.850	0.193	0.071	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	11	2.708	0.225	1570.815	894.060	0.200	0.112	0.0	13	forks
+sun_aeqdtdmvphproomc.jpg	11	2.708	0.225	1570.815	894.060	0.200	0.112	0.0	16	napkin
+sun_aeqdtdmvphproomc.jpg	11	2.708	0.225	1570.815	894.060	0.200	0.112	0.0	20	plates
+sun_aeqdtdmvphproomc.jpg	11	2.708	0.225	1570.815	894.060	0.200	0.112	0.0	26	table

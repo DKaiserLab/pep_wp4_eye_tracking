@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awqncsdprzjtqkum.jpg	1	0.257	0.125	1132.785	707.450	0.131	0.047	0.0	24	window
+sun_awqncsdprzjtqkum.jpg	2	0.407	0.175	1004.735	717.335	0.128	0.030	0.0	24	window
+sun_awqncsdprzjtqkum.jpg	3	0.616	0.183	886.518	764.232	0.120	0.036	0.0	24	window
+sun_awqncsdprzjtqkum.jpg	4	0.841	0.425	1088.260	834.215	0.101	0.064	0.0	19	sink
+sun_awqncsdprzjtqkum.jpg	4	0.841	0.425	1088.260	834.215	0.101	0.064	0.0	25	worktop
+sun_awqncsdprzjtqkum.jpg	5	1.291	0.192	1270.140	796.505	0.114	0.035	0.0	21	teacup set
+sun_awqncsdprzjtqkum.jpg	5	1.291	0.192	1270.140	796.505	0.114	0.035	0.0	25	worktop
+sun_awqncsdprzjtqkum.jpg	6	1.516	0.267	1523.682	709.560	0.092	0.025	0.0	13	light switch
+sun_awqncsdprzjtqkum.jpg	7	1.807	0.192	1563.775	655.230	0.093	0.021	0.0	15	pendant lamp
+sun_awqncsdprzjtqkum.jpg	8	2.024	0.108	1354.100	591.435	0.194	0.057	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	9	2.157	0.383	1116.343	597.620	0.108	0.038	0.0	24	window
+sun_awqncsdprzjtqkum.jpg	10	2.574	0.333	1149.582	765.773	0.087	0.024	0.0	2	botlle
+sun_awqncsdprzjtqkum.jpg	10	2.574	0.333	1149.582	765.773	0.087	0.024	0.0	10	faucet
+sun_awqncsdprzjtqkum.jpg	10	2.574	0.333	1149.582	765.773	0.087	0.024	0.0	24	window

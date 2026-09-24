@@ -1,0 +1,24 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.434	0.192	1144.685	664.735	0.143	0.048	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	2	0.642	0.183	1040.605	645.612	0.190	0.053	0.0	13	flowers
+labelme_qglnhnudtmzmocz.jpg	2	0.642	0.183	1040.605	645.612	0.190	0.053	0.0	35	window
+labelme_qglnhnudtmzmocz.jpg	3	0.842	0.208	931.700	649.760	0.142	0.046	0.0	35	window
+labelme_qglnhnudtmzmocz.jpg	4	1.067	0.400	899.555	681.705	0.174	0.052	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	5	1.501	0.192	1068.155	806.185	0.370	0.220	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	6	1.717	0.183	1288.142	852.830	0.396	0.205	0.0	6	cake mold
+labelme_qglnhnudtmzmocz.jpg	6	1.717	0.183	1288.142	852.830	0.396	0.205	0.0	15	knife
+labelme_qglnhnudtmzmocz.jpg	6	1.717	0.183	1288.142	852.830	0.396	0.205	0.0	34	tray
+labelme_qglnhnudtmzmocz.jpg	6	1.717	0.183	1288.142	852.830	0.396	0.205	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	7	1.917	0.175	1368.545	809.935	0.299	0.082	0.0	6	cake mold
+labelme_qglnhnudtmzmocz.jpg	7	1.917	0.175	1368.545	809.935	0.299	0.082	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	8	2.109	0.217	1441.905	834.965	0.236	0.088	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	8	2.109	0.217	1441.905	834.965	0.236	0.088	0.0	34	tray
+labelme_qglnhnudtmzmocz.jpg	8	2.109	0.217	1441.905	834.965	0.236	0.088	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	9	2.342	0.167	1525.190	847.577	0.252	0.186	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	9	2.342	0.167	1525.190	847.577	0.252	0.186	0.0	25	scales
+labelme_qglnhnudtmzmocz.jpg	10	2.526	0.208	1616.145	785.870	0.269	0.157	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	10	2.526	0.208	1616.145	785.870	0.269	0.157	0.0	14	food
+labelme_qglnhnudtmzmocz.jpg	10	2.526	0.208	1616.145	785.870	0.269	0.157	0.0	25	scales
+labelme_qglnhnudtmzmocz.jpg	11	2.751	0.150	1676.915	764.028	0.309	0.131	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	11	2.751	0.150	1676.915	764.028	0.309	0.131	0.0	14	food
+labelme_qglnhnudtmzmocz.jpg	11	2.751	0.150	1676.915	764.028	0.309	0.131	0.0	25	scales

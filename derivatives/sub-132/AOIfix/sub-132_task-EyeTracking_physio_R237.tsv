@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anryaplzeujmzfkd.jpg	1	0.516	0.242	1273.080	918.005	0.100	0.026	0.0	11	shelf
+sun_anryaplzeujmzfkd.jpg	2	0.825	0.367	1116.338	903.993	0.086	0.028	0.0	1	bathtub crop
+sun_anryaplzeujmzfkd.jpg	2	0.825	0.367	1116.338	903.993	0.086	0.028	0.0	11	shelf
+sun_anryaplzeujmzfkd.jpg	3	1.216	0.158	1396.205	872.670	0.136	0.039	0.0	0	other
+sun_anryaplzeujmzfkd.jpg	4	1.425	0.208	1599.450	849.180	0.146	0.035	0.0	14	toilet
+sun_anryaplzeujmzfkd.jpg	5	1.658	0.200	1667.890	786.655	0.218	0.060	0.0	4	cabinet
+sun_anryaplzeujmzfkd.jpg	5	1.658	0.200	1667.890	786.655	0.218	0.060	0.0	6	countertop
+sun_anryaplzeujmzfkd.jpg	6	1.891	0.183	1672.773	677.142	0.101	0.024	0.0	4	cabinet
+sun_anryaplzeujmzfkd.jpg	7	2.091	0.250	1649.118	606.065	0.100	0.042	0.0	4	cabinet
+sun_anryaplzeujmzfkd.jpg	8	2.475	0.533	1651.600	891.602	0.091	0.042	0.0	6	countertop
+sun_anryaplzeujmzfkd.jpg	8	2.475	0.533	1651.600	891.602	0.091	0.042	0.0	14	toilet

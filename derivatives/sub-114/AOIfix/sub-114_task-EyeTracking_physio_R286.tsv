@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abkdszjmterwgxgk.jpg	1	0.261	0.233	1334.428	790.875	0.107	0.052	0.0	3	bottle
+sun_abkdszjmterwgxgk.jpg	1	0.261	0.233	1334.428	790.875	0.107	0.052	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	1	0.261	0.233	1334.428	790.875	0.107	0.052	0.0	12	sink
+sun_abkdszjmterwgxgk.jpg	1	0.261	0.233	1334.428	790.875	0.107	0.052	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	2	0.536	0.233	1511.550	838.492	0.065	0.009	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	2	0.536	0.233	1511.550	838.492	0.065	0.009	0.0	7	dishwasher
+sun_abkdszjmterwgxgk.jpg	2	0.536	0.233	1511.550	838.492	0.065	0.009	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	3	0.819	0.183	1599.925	824.277	0.042	0.015	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	3	0.819	0.183	1599.925	824.277	0.042	0.015	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	4	1.036	0.358	1073.565	692.565	0.095	0.031	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	5	1.411	0.417	1014.200	677.085	0.205	0.061	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	6	1.869	0.375	1176.660	984.080	0.109	0.040	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	7	2.277	0.225	1306.200	837.985	0.102	0.036	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	7	2.277	0.225	1306.200	837.985	0.102	0.036	0.0	9	fruit
+sun_abkdszjmterwgxgk.jpg	8	2.536	0.467	1620.695	683.037	0.096	0.061	0.0	5	cabinet

@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aicgqimzgcarglin.jpg	1	0.312	0.242	1122.105	683.645	0.112	0.069	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	2	0.578	0.225	1032.630	670.130	0.134	0.047	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	3	0.845	0.317	1334.322	670.885	0.216	0.080	0.0	21	window
+sun_aicgqimzgcarglin.jpg	4	1.187	0.175	1428.970	671.305	0.137	0.035	0.0	21	window
+sun_aicgqimzgcarglin.jpg	5	1.395	0.200	1532.015	686.755	0.149	0.046	0.0	0	other
+sun_aicgqimzgcarglin.jpg	6	1.612	0.267	1644.852	685.345	0.126	0.032	0.0	2	bottle
+sun_aicgqimzgcarglin.jpg	6	1.612	0.267	1644.852	685.345	0.126	0.032	0.0	21	window
+sun_aicgqimzgcarglin.jpg	7	1.903	0.258	1641.190	617.645	0.123	0.030	0.0	21	window
+sun_aicgqimzgcarglin.jpg	8	2.203	0.208	1314.480	744.825	0.251	0.082	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	8	2.203	0.208	1314.480	744.825	0.251	0.082	0.0	17	sink
+sun_aicgqimzgcarglin.jpg	8	2.203	0.208	1314.480	744.825	0.251	0.082	0.0	21	window
+sun_aicgqimzgcarglin.jpg	8	2.203	0.208	1314.480	744.825	0.251	0.082	0.0	22	worktop
+sun_aicgqimzgcarglin.jpg	9	2.445	0.233	1103.982	831.093	0.111	0.035	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	9	2.445	0.233	1103.982	831.093	0.111	0.035	0.0	12	kitchen island
+sun_aicgqimzgcarglin.jpg	10	2.703	0.200	1024.440	852.115	0.112	0.025	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	10	2.703	0.200	1024.440	852.115	0.112	0.025	0.0	13	oven

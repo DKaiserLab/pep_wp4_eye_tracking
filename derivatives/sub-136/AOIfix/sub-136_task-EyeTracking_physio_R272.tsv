@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_augqzaedeyyzlqny.jpg	1	0.386	0.225	1145.565	920.760	0.175	0.068	0.0	4	door
+sun_augqzaedeyyzlqny.jpg	2	0.744	0.183	1532.977	904.828	0.118	0.024	0.0	3	countertop
+sun_augqzaedeyyzlqny.jpg	2	0.744	0.183	1532.977	904.828	0.118	0.024	0.0	9	sink
+sun_augqzaedeyyzlqny.jpg	3	0.952	0.192	1613.720	835.215	0.194	0.047	0.0	5	mirror
+sun_augqzaedeyyzlqny.jpg	4	1.186	0.192	1567.780	602.625	0.103	0.031	0.0	0	other
+sun_augqzaedeyyzlqny.jpg	5	1.394	0.183	1406.753	559.322	0.095	0.046	0.0	8	shower screen
+sun_augqzaedeyyzlqny.jpg	5	1.394	0.183	1406.753	559.322	0.095	0.046	0.0	12	window
+sun_augqzaedeyyzlqny.jpg	6	1.603	0.292	1193.305	573.490	0.094	0.023	0.0	8	shower screen
+sun_augqzaedeyyzlqny.jpg	7	1.953	0.592	1583.840	801.115	0.200	0.271	0.0	5	mirror
+sun_augqzaedeyyzlqny.jpg	7	1.953	0.592	1583.840	801.115	0.200	0.271	0.0	6	plant
+sun_augqzaedeyyzlqny.jpg	8	2.561	0.258	1579.580	841.065	0.127	0.034	0.0	6	plant
+sun_augqzaedeyyzlqny.jpg	8	2.561	0.258	1579.580	841.065	0.127	0.034	0.0	7	plantpot
+sun_augqzaedeyyzlqny.jpg	9	2.828	0.175	1578.435	821.195	0.155	0.060	0.0	5	mirror
+sun_augqzaedeyyzlqny.jpg	9	2.828	0.175	1578.435	821.195	0.155	0.060	0.0	6	plant
+sun_augqzaedeyyzlqny.jpg	9	2.828	0.175	1578.435	821.195	0.155	0.060	0.0	7	plantpot

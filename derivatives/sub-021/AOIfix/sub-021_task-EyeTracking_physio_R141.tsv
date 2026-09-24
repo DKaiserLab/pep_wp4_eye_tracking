@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axbqssteryzzlcop.jpg	1	0.334	0.125	1199.080	784.640	0.125	0.035	0.0	10	toilet
+sun_axbqssteryzzlcop.jpg	2	0.475	0.208	1145.045	808.455	0.109	0.025	0.0	5	flowers
+sun_axbqssteryzzlcop.jpg	3	0.717	0.242	1081.805	611.490	0.095	0.025	0.0	5	flowers
+sun_axbqssteryzzlcop.jpg	3	0.717	0.242	1081.805	611.490	0.095	0.025	0.0	12	window
+sun_axbqssteryzzlcop.jpg	4	0.975	0.225	1044.750	579.410	0.080	0.014	0.0	5	flowers
+sun_axbqssteryzzlcop.jpg	4	0.975	0.225	1044.750	579.410	0.080	0.014	0.0	12	window
+sun_axbqssteryzzlcop.jpg	5	1.242	0.283	1449.465	745.390	0.118	0.047	0.0	0	other
+sun_axbqssteryzzlcop.jpg	6	1.542	0.192	1488.860	740.950	0.120	0.031	0.0	9	toilet paper
+sun_axbqssteryzzlcop.jpg	7	1.775	0.133	1601.945	829.383	0.182	0.053	0.0	7	sink
+sun_axbqssteryzzlcop.jpg	8	1.942	0.125	1692.145	940.875	0.160	0.034	0.0	2	cabinet
+sun_axbqssteryzzlcop.jpg	8	1.942	0.125	1692.145	940.875	0.160	0.034	0.0	4	door crop
+sun_axbqssteryzzlcop.jpg	9	2.125	0.200	1040.730	945.950	0.160	0.076	0.0	1	bathtub crop
+sun_axbqssteryzzlcop.jpg	10	2.359	0.217	1172.760	859.658	0.190	0.054	0.0	5	flowers
+sun_axbqssteryzzlcop.jpg	11	2.592	0.408	1133.950	844.370	0.226	0.099	0.0	5	flowers

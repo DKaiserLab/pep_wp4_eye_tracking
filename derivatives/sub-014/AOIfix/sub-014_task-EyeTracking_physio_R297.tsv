@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azbzyzntqpgdoyyu.jpg	1	0.555	0.258	1446.685	640.175	0.089	0.062	0.0	9	shelf
+sun_azbzyzntqpgdoyyu.jpg	1	0.555	0.258	1446.685	640.175	0.089	0.062	0.0	12	television
+sun_azbzyzntqpgdoyyu.jpg	2	1.005	0.300	1137.560	616.305	0.116	0.068	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	3	1.380	0.150	637.695	1060.092	0.216	0.088	0.0	-1	off stimulus
+sun_azbzyzntqpgdoyyu.jpg	4	1.646	0.200	223.810	1634.530	0.526	0.911	12.5	-2	off screen
+sun_azbzyzntqpgdoyyu.jpg	5	1.880	0.217	615.590	1563.188	0.165	0.050	0.0	-2	off screen
+sun_azbzyzntqpgdoyyu.jpg	6	2.146	0.275	1238.820	722.715	0.160	0.182	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	6	2.146	0.275	1238.820	722.715	0.160	0.182	0.0	13	tissue box
+sun_azbzyzntqpgdoyyu.jpg	7	2.446	0.367	1199.932	689.280	0.107	0.032	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	8	2.838	0.167	1304.557	659.332	0.144	0.053	0.0	0	other

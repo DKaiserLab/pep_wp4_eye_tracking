@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_annrglxxvocekqkh.jpg	1	0.470	0.217	1053.320	483.587	0.079	0.039	0.0	0	other
+sun_annrglxxvocekqkh.jpg	2	0.720	0.217	974.962	541.060	0.071	0.013	0.0	0	other
+sun_annrglxxvocekqkh.jpg	3	0.987	0.217	1012.348	721.260	0.090	0.016	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	3	0.987	0.217	1012.348	721.260	0.090	0.016	0.0	9	chair
+sun_annrglxxvocekqkh.jpg	4	1.262	0.292	1125.365	857.750	0.075	0.016	0.0	1	bar
+sun_annrglxxvocekqkh.jpg	4	1.262	0.292	1125.365	857.750	0.075	0.016	0.0	9	chair
+sun_annrglxxvocekqkh.jpg	5	1.579	0.225	1370.725	856.580	0.099	0.052	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	6	1.837	0.200	1480.052	747.763	0.085	0.018	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	7	2.070	0.317	1479.753	575.605	0.072	0.016	0.0	22	toaster
+sun_annrglxxvocekqkh.jpg	7	2.070	0.317	1479.753	575.605	0.072	0.016	0.0	25	worktop
+sun_annrglxxvocekqkh.jpg	8	2.429	0.358	1407.865	556.710	0.056	0.016	0.0	6	cabinet
+sun_annrglxxvocekqkh.jpg	8	2.429	0.358	1407.865	556.710	0.056	0.016	0.0	8	casserole
+sun_annrglxxvocekqkh.jpg	8	2.429	0.358	1407.865	556.710	0.056	0.016	0.0	18	range
+sun_annrglxxvocekqkh.jpg	8	2.429	0.358	1407.865	556.710	0.056	0.016	0.0	22	toaster
+sun_annrglxxvocekqkh.jpg	9	2.804	0.200	1356.485	572.338	0.180	0.042	0.0	7	casse
+sun_annrglxxvocekqkh.jpg	9	2.804	0.200	1356.485	572.338	0.180	0.042	0.0	8	casserole
+sun_annrglxxvocekqkh.jpg	9	2.804	0.200	1356.485	572.338	0.180	0.042	0.0	18	range

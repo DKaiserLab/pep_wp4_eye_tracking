@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agldadusrezhmyva.jpg	1	0.921	0.275	1170.785	873.060	0.116	0.036	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	1	0.921	0.275	1170.785	873.060	0.116	0.036	0.0	23	sink
+sun_agldadusrezhmyva.jpg	2	1.221	0.408	1146.590	981.225	0.087	0.033	0.0	13	food
+sun_agldadusrezhmyva.jpg	2	1.221	0.408	1146.590	981.225	0.087	0.033	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	3	1.671	0.225	1217.450	997.860	0.067	0.022	0.0	13	food
+sun_agldadusrezhmyva.jpg	3	1.671	0.225	1217.450	997.860	0.067	0.022	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	4	1.929	0.233	1329.780	961.395	0.089	0.031	0.0	10	faucet
+sun_agldadusrezhmyva.jpg	4	1.929	0.233	1329.780	961.395	0.089	0.031	0.0	15	glass
+sun_agldadusrezhmyva.jpg	4	1.929	0.233	1329.780	961.395	0.089	0.031	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	5	2.187	0.250	1425.035	973.508	0.110	0.039	0.0	13	food
+sun_agldadusrezhmyva.jpg	5	2.187	0.250	1425.035	973.508	0.110	0.039	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	5	2.187	0.250	1425.035	973.508	0.110	0.039	0.0	26	tray
+sun_agldadusrezhmyva.jpg	6	2.479	0.225	1519.905	947.960	0.086	0.023	0.0	1	basket
+sun_agldadusrezhmyva.jpg	6	2.479	0.225	1519.905	947.960	0.086	0.023	0.0	13	food
+sun_agldadusrezhmyva.jpg	6	2.479	0.225	1519.905	947.960	0.086	0.023	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	6	2.479	0.225	1519.905	947.960	0.086	0.023	0.0	26	tray
+sun_agldadusrezhmyva.jpg	7	2.721	0.125	1578.010	902.345	0.107	0.032	0.0	1	basket
+sun_agldadusrezhmyva.jpg	7	2.721	0.125	1578.010	902.345	0.107	0.032	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	8	2.862	0.142	1568.750	923.895	2.024	25.862	47.1	1	basket
+sun_agldadusrezhmyva.jpg	8	2.862	0.142	1568.750	923.895	2.024	25.862	47.1	18	kitchen island

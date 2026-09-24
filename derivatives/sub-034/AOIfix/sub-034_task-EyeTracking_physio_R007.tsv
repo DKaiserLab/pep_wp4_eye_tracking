@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aazqzpomyylceich.jpg	1	0.309	0.133	1255.385	754.727	0.111	0.033	0.0	3	countertop
+sun_aazqzpomyylceich.jpg	1	0.309	0.133	1255.385	754.727	0.111	0.033	0.0	4	flask
+sun_aazqzpomyylceich.jpg	1	0.309	0.133	1255.385	754.727	0.111	0.033	0.0	10	towels
+sun_aazqzpomyylceich.jpg	2	0.467	0.242	1161.525	862.080	0.097	0.017	0.0	3	countertop
+sun_aazqzpomyylceich.jpg	2	0.467	0.242	1161.525	862.080	0.097	0.017	0.0	8	sink
+sun_aazqzpomyylceich.jpg	3	0.742	0.217	1131.720	530.438	0.208	0.110	0.0	6	mirror
+sun_aazqzpomyylceich.jpg	4	0.984	0.167	1034.140	544.410	0.142	0.047	0.0	6	mirror
+sun_aazqzpomyylceich.jpg	5	1.184	0.267	1460.150	635.723	0.155	0.065	0.0	2	box
+sun_aazqzpomyylceich.jpg	6	1.484	0.167	1514.362	847.825	0.116	0.038	0.0	3	countertop
+sun_aazqzpomyylceich.jpg	7	1.675	0.433	1502.538	991.717	0.081	0.022	0.0	9	toilet paper
+sun_aazqzpomyylceich.jpg	8	2.125	0.108	1605.345	976.845	0.096	0.008	0.0	0	other
+sun_aazqzpomyylceich.jpg	9	2.267	0.150	1197.622	956.257	0.097	0.021	0.0	3	countertop
+sun_aazqzpomyylceich.jpg	9	2.267	0.150	1197.622	956.257	0.097	0.021	0.0	8	sink
+sun_aazqzpomyylceich.jpg	10	2.450	0.250	948.315	979.408	0.106	0.022	0.0	3	countertop
+sun_aazqzpomyylceich.jpg	11	2.725	0.108	898.845	934.485	0.079	0.012	0.0	3	countertop
+sun_aazqzpomyylceich.jpg	12	2.867	0.133	1424.307	794.027	0.199	0.054	0.0	3	countertop

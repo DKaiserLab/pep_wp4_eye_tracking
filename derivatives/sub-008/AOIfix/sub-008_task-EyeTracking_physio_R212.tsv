@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.242	0.375	1060.410	561.290	0.059	0.030	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	1	0.242	0.375	1060.410	561.290	0.059	0.030	0.0	10	cup
+sun_acfmftudsenhrfhy.jpg	1	0.242	0.375	1060.410	561.290	0.059	0.030	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	2	0.642	0.175	1283.320	561.965	0.092	0.027	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	2	0.642	0.175	1283.320	561.965	0.092	0.027	0.0	11	extractor hood
+sun_acfmftudsenhrfhy.jpg	3	0.842	0.283	1609.330	529.215	0.074	0.025	0.0	21	picture
+sun_acfmftudsenhrfhy.jpg	4	1.150	0.233	1523.205	848.703	0.092	0.032	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	4	1.150	0.233	1523.205	848.703	0.092	0.032	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	5	1.400	0.292	1411.970	957.170	0.081	0.019	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	6	1.708	0.208	1333.210	925.210	0.100	0.031	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	7	1.950	0.167	1564.178	652.638	0.108	0.040	0.0	21	picture
+sun_acfmftudsenhrfhy.jpg	8	2.133	0.167	1610.665	552.970	0.091	0.038	0.0	21	picture
+sun_acfmftudsenhrfhy.jpg	9	2.342	0.233	931.175	542.190	0.151	0.065	0.0	13	figure
+sun_acfmftudsenhrfhy.jpg	9	2.342	0.233	931.175	542.190	0.151	0.065	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	10	2.600	0.333	856.685	504.692	0.058	0.018	0.0	23	shell
+sun_acfmftudsenhrfhy.jpg	10	2.600	0.333	856.685	504.692	0.058	0.018	0.0	24	shelves

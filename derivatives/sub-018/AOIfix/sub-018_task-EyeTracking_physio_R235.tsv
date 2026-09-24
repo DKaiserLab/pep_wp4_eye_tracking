@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_yfvjufwlxjspvee.jpg	1	0.335	0.300	1153.418	855.845	0.164	0.106	0.0	10	range
+labelme_yfvjufwlxjspvee.jpg	2	0.785	0.183	1110.372	663.075	0.134	0.073	0.0	7	microwave
+labelme_yfvjufwlxjspvee.jpg	3	1.002	0.258	1074.805	838.375	0.126	0.032	0.0	10	range
+labelme_yfvjufwlxjspvee.jpg	3	1.002	0.258	1074.805	838.375	0.126	0.032	0.0	12	teapot
+labelme_yfvjufwlxjspvee.jpg	4	1.277	0.433	1091.352	809.230	0.161	0.045	0.0	10	range
+labelme_yfvjufwlxjspvee.jpg	4	1.277	0.433	1091.352	809.230	0.161	0.045	0.0	12	teapot
+labelme_yfvjufwlxjspvee.jpg	5	1.735	0.208	1251.240	848.290	0.137	0.045	0.0	10	range
+labelme_yfvjufwlxjspvee.jpg	6	1.969	0.183	1454.640	770.275	0.214	0.089	0.0	2	coffee maker
+labelme_yfvjufwlxjspvee.jpg	6	1.969	0.183	1454.640	770.275	0.214	0.089	0.0	11	refrigerator
+labelme_yfvjufwlxjspvee.jpg	7	2.185	0.467	1597.062	623.007	0.084	0.022	0.0	11	refrigerator
+labelme_yfvjufwlxjspvee.jpg	8	2.677	0.200	1497.072	685.480	0.166	0.046	0.0	11	refrigerator

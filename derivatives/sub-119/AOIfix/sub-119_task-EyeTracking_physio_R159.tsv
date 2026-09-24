@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atfmueokdeplnsdy.jpg	1	0.318	0.233	1258.068	725.120	0.111	0.053	0.0	3	cabinet
+sun_atfmueokdeplnsdy.jpg	2	0.701	0.308	1148.255	574.050	0.055	0.028	0.0	6	chandelier
+sun_atfmueokdeplnsdy.jpg	3	1.035	0.142	1171.535	638.185	0.049	0.011	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	3	1.035	0.142	1171.535	638.185	0.049	0.011	0.0	6	chandelier
+sun_atfmueokdeplnsdy.jpg	4	1.202	0.292	1387.595	778.515	0.130	0.080	0.0	21	stove
+sun_atfmueokdeplnsdy.jpg	5	1.510	0.300	1472.193	793.265	0.157	0.166	0.0	2	bowl
+sun_atfmueokdeplnsdy.jpg	5	1.510	0.300	1472.193	793.265	0.157	0.166	0.0	12	fruit
+sun_atfmueokdeplnsdy.jpg	6	1.835	0.150	1502.977	826.378	0.043	0.009	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	7	2.052	0.358	1137.355	828.555	0.054	0.021	0.0	13	kitchen island
+sun_atfmueokdeplnsdy.jpg	8	2.443	0.367	1181.380	768.710	0.043	0.011	0.0	10	drawers
+sun_atfmueokdeplnsdy.jpg	8	2.443	0.367	1181.380	768.710	0.043	0.011	0.0	13	kitchen island
+sun_atfmueokdeplnsdy.jpg	9	2.827	0.200	1269.450	758.060	0.234	0.184	0.0	3	cabinet
+sun_atfmueokdeplnsdy.jpg	9	2.827	0.200	1269.450	758.060	0.234	0.184	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	9	2.827	0.200	1269.450	758.060	0.234	0.184	0.0	8	dishwasher
+sun_atfmueokdeplnsdy.jpg	9	2.827	0.200	1269.450	758.060	0.234	0.184	0.0	20	sink
+sun_atfmueokdeplnsdy.jpg	9	2.827	0.200	1269.450	758.060	0.234	0.184	0.0	29	worktop

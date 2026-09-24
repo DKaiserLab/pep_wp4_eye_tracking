@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aasmevtpkslccptd.jpg	1	0.346	0.100	680.420	1042.090	6.030	46.643	8.3	-1	off stimulus
+sun_aasmevtpkslccptd.jpg	2	0.480	0.408	928.310	750.440	0.852	2.987	0.0	1	backpack
+sun_aasmevtpkslccptd.jpg	2	0.480	0.408	928.310	750.440	0.852	2.987	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	3	0.913	0.183	1022.200	657.690	0.071	0.029	0.0	2	basket
+sun_aasmevtpkslccptd.jpg	3	0.913	0.183	1022.200	657.690	0.071	0.029	0.0	22	purse
+sun_aasmevtpkslccptd.jpg	3	0.913	0.183	1022.200	657.690	0.071	0.029	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	4	1.130	0.250	1406.250	645.838	0.136	0.063	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	4	1.130	0.250	1406.250	645.838	0.136	0.063	0.0	23	range
+sun_aasmevtpkslccptd.jpg	4	1.130	0.250	1406.250	645.838	0.136	0.063	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	5	1.413	0.225	1497.185	630.100	0.063	0.013	0.0	24	refrigerator
+sun_aasmevtpkslccptd.jpg	6	1.696	0.167	1227.952	615.335	0.068	0.017	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	7	1.905	0.108	1039.360	558.780	0.052	0.012	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	8	2.030	0.850	948.233	496.995	0.095	0.079	0.0	6	cabinet

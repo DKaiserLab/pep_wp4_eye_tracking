@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahdycvpopffkzzsu.jpg	1	0.405	0.300	1073.233	621.755	0.063	0.022	0.0	11	window
+sun_ahdycvpopffkzzsu.jpg	2	0.738	0.508	1336.375	730.405	0.162	0.093	0.0	1	bottle
+sun_ahdycvpopffkzzsu.jpg	2	0.738	0.508	1336.375	730.405	0.162	0.093	0.0	9	stove
+sun_ahdycvpopffkzzsu.jpg	3	1.263	0.192	1264.165	746.945	0.171	0.051	0.0	9	stove
+sun_ahdycvpopffkzzsu.jpg	4	1.480	0.108	1555.445	918.085	1.147	1.190	69.2	6	sink
+sun_ahdycvpopffkzzsu.jpg	5	1.630	0.483	1302.280	714.408	0.166	0.048	0.0	1	bottle
+sun_ahdycvpopffkzzsu.jpg	5	1.630	0.483	1302.280	714.408	0.166	0.048	0.0	9	stove
+sun_ahdycvpopffkzzsu.jpg	6	2.138	0.308	1379.200	717.255	0.198	0.087	0.0	10	toaster
+sun_ahdycvpopffkzzsu.jpg	7	2.471	0.450	1241.470	729.415	0.101	0.040	0.0	9	stove

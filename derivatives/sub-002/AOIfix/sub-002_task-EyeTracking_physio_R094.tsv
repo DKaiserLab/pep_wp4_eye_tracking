@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anlddfvefwvocyae.jpg	1	0.287	0.300	1453.385	777.175	0.191	0.144	0.0	10	trunk
+sun_anlddfvefwvocyae.jpg	2	0.612	0.217	1632.140	790.378	0.252	0.100	0.0	5	mirror
+sun_anlddfvefwvocyae.jpg	3	0.854	0.333	1680.153	549.360	0.221	0.145	0.0	5	mirror
+sun_anlddfvefwvocyae.jpg	4	1.212	0.317	1293.912	754.142	0.238	0.204	0.0	2	countertop
+sun_anlddfvefwvocyae.jpg	4	1.212	0.317	1293.912	754.142	0.238	0.204	0.0	8	tissue box
+sun_anlddfvefwvocyae.jpg	5	1.545	0.375	1469.150	733.985	0.195	0.113	0.0	4	flowers
+sun_anlddfvefwvocyae.jpg	6	1.945	0.217	1575.485	831.040	0.224	0.132	0.0	2	countertop
+sun_anlddfvefwvocyae.jpg	6	1.945	0.217	1575.485	831.040	0.224	0.132	0.0	6	pot
+sun_anlddfvefwvocyae.jpg	7	2.195	0.300	1320.072	777.763	0.182	0.186	0.0	2	countertop
+sun_anlddfvefwvocyae.jpg	8	2.512	0.492	1271.405	741.895	0.154	0.067	0.0	8	tissue box

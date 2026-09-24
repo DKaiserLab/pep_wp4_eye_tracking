@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awqncsdprzjtqkum.jpg	1	0.312	0.208	1239.995	748.225	0.293	0.150	0.0	0	other
+sun_awqncsdprzjtqkum.jpg	2	0.579	0.267	1123.250	889.882	0.159	0.051	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	3	0.879	0.183	1056.523	901.080	0.149	0.036	0.0	7	column
+sun_awqncsdprzjtqkum.jpg	4	1.112	0.217	959.577	440.237	0.104	0.047	0.0	24	window
+sun_awqncsdprzjtqkum.jpg	5	1.354	0.225	1234.910	499.450	0.173	0.087	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	5	1.354	0.225	1234.910	499.450	0.173	0.087	0.0	14	molding
+sun_awqncsdprzjtqkum.jpg	6	1.612	0.208	1372.610	557.160	0.178	0.069	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	7	1.854	0.233	1470.590	607.110	0.237	0.182	0.0	9	door
+sun_awqncsdprzjtqkum.jpg	7	1.854	0.233	1470.590	607.110	0.237	0.182	0.0	15	pendant lamp
+sun_awqncsdprzjtqkum.jpg	8	2.112	0.233	1559.835	635.730	0.221	0.109	0.0	15	pendant lamp
+sun_awqncsdprzjtqkum.jpg	9	2.379	0.350	1642.605	662.980	0.152	0.083	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	9	2.379	0.350	1642.605	662.980	0.152	0.083	0.0	18	sideboard
+sun_awqncsdprzjtqkum.jpg	10	2.754	0.208	1664.485	761.180	0.220	0.089	0.0	5	chair
+sun_awqncsdprzjtqkum.jpg	10	2.754	0.208	1664.485	761.180	0.220	0.089	0.0	25	worktop

@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_algkamzphkipsfil.jpg	1	0.276	0.200	1187.985	659.710	0.102	0.016	0.0	2	blind
+sun_algkamzphkipsfil.jpg	1	0.276	0.200	1187.985	659.710	0.102	0.016	0.0	9	plant
+sun_algkamzphkipsfil.jpg	2	0.509	0.217	1095.678	669.717	0.087	0.019	0.0	9	plant
+sun_algkamzphkipsfil.jpg	3	0.793	0.317	1024.560	834.692	0.065	0.009	0.0	6	cabinet
+sun_algkamzphkipsfil.jpg	4	1.143	0.367	1118.260	832.160	0.080	0.013	0.0	7	candleholder
+sun_algkamzphkipsfil.jpg	5	1.559	0.300	1154.087	874.622	0.070	0.011	0.0	7	candleholder
+sun_algkamzphkipsfil.jpg	5	1.559	0.300	1154.087	874.622	0.070	0.011	0.0	10	pot
+sun_algkamzphkipsfil.jpg	6	1.893	0.183	1362.055	880.775	0.090	0.020	0.0	0	other
+sun_algkamzphkipsfil.jpg	7	2.118	0.100	1770.960	1307.070	NaN	0.000	83.3	-1	off stimulus
+sun_algkamzphkipsfil.jpg	8	2.276	0.467	1553.615	824.330	0.075	0.018	0.0	8	picture
+sun_algkamzphkipsfil.jpg	9	2.768	0.242	1463.450	836.550	0.105	0.029	0.0	3	bottle

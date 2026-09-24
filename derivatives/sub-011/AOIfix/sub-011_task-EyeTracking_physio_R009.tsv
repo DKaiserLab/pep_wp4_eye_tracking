@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglpqkbwvbofhrgt.jpg	1	0.377	0.300	1254.133	726.815	0.344	0.230	0.0	10	range
+sun_aglpqkbwvbofhrgt.jpg	2	0.702	0.200	1193.120	574.388	0.135	0.062	0.0	6	door
+sun_aglpqkbwvbofhrgt.jpg	3	0.944	0.300	1248.610	674.240	0.200	0.080	0.0	0	other
+sun_aglpqkbwvbofhrgt.jpg	4	1.260	0.358	1266.020	730.835	0.132	0.036	0.0	10	range
+sun_aglpqkbwvbofhrgt.jpg	5	1.652	0.292	1525.560	751.745	0.150	0.094	0.0	2	bowl
+sun_aglpqkbwvbofhrgt.jpg	5	1.652	0.292	1525.560	751.745	0.150	0.094	0.0	9	microwave
+sun_aglpqkbwvbofhrgt.jpg	6	1.960	0.317	1588.660	735.363	0.136	0.078	0.0	2	bowl
+sun_aglpqkbwvbofhrgt.jpg	6	1.960	0.317	1588.660	735.363	0.136	0.078	0.0	7	fruit
+sun_aglpqkbwvbofhrgt.jpg	7	2.302	0.275	1165.575	770.450	0.134	0.086	0.0	6	door
+sun_aglpqkbwvbofhrgt.jpg	8	2.594	0.408	1263.745	718.850	0.147	0.088	0.0	0	other

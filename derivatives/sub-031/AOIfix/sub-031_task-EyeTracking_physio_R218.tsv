@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alyergctkjrpiwgr.jpg	1	0.356	0.267	1429.555	719.267	0.114	0.054	0.0	14	door
+sun_alyergctkjrpiwgr.jpg	1	0.356	0.267	1429.555	719.267	0.114	0.054	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	1	0.356	0.267	1429.555	719.267	0.114	0.054	0.0	37	vase
+sun_alyergctkjrpiwgr.jpg	2	0.656	0.375	1029.040	753.765	0.125	0.061	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	2	0.656	0.375	1029.040	753.765	0.125	0.061	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	2	0.656	0.375	1029.040	753.765	0.125	0.061	0.0	37	vase
+sun_alyergctkjrpiwgr.jpg	3	1.056	0.225	1188.980	775.360	0.108	0.034	0.0	2	bottle
+sun_alyergctkjrpiwgr.jpg	4	1.322	0.675	986.435	757.610	0.082	0.058	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	5	2.014	0.383	913.035	758.598	0.079	0.031	0.0	15	figurine
+sun_alyergctkjrpiwgr.jpg	5	2.014	0.383	913.035	758.598	0.079	0.031	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	6	2.414	0.592	998.590	781.070	0.109	0.041	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	6	2.414	0.592	998.590	781.070	0.109	0.041	0.0	27	pot

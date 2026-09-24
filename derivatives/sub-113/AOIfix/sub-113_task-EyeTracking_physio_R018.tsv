@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aigrduzwokggqqja.jpg	1	0.312	0.267	1163.255	707.977	0.092	0.024	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	2	0.603	0.450	1060.120	728.625	0.079	0.020	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	3	1.203	0.300	1123.385	833.528	0.119	0.085	0.0	5	chair
+sun_aigrduzwokggqqja.jpg	3	1.203	0.300	1123.385	833.528	0.119	0.085	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	4	1.528	0.208	1263.485	800.735	0.104	0.058	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	5	1.762	0.242	1445.640	737.880	0.117	0.046	0.0	14	refrigerator
+sun_aigrduzwokggqqja.jpg	6	2.037	0.217	1538.230	681.572	0.071	0.027	0.0	0	other
+sun_aigrduzwokggqqja.jpg	7	2.270	0.350	1438.797	700.325	0.102	0.038	0.0	14	refrigerator
+sun_aigrduzwokggqqja.jpg	8	2.653	0.308	1419.450	723.445	0.069	0.019	0.0	14	refrigerator

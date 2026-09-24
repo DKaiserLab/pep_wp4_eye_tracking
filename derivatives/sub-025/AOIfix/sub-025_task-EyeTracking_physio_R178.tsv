@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afutksgwyoqttegy.jpg	1	0.238	0.158	1377.460	765.535	0.096	0.044	0.0	0	other
+sun_afutksgwyoqttegy.jpg	2	0.430	0.342	1089.125	773.775	0.091	0.040	0.0	1	board
+sun_afutksgwyoqttegy.jpg	2	0.430	0.342	1089.125	773.775	0.091	0.040	0.0	17	worktop
+sun_afutksgwyoqttegy.jpg	3	0.796	0.200	1148.525	803.493	0.087	0.034	0.0	14	sink
+sun_afutksgwyoqttegy.jpg	3	0.796	0.200	1148.525	803.493	0.087	0.034	0.0	17	worktop
+sun_afutksgwyoqttegy.jpg	4	1.030	0.217	1321.850	802.910	0.093	0.022	0.0	17	worktop
+sun_afutksgwyoqttegy.jpg	5	1.263	0.242	1220.880	866.995	0.268	0.104	0.0	6	dishwasher
+sun_afutksgwyoqttegy.jpg	6	1.538	0.208	1212.115	1026.345	0.128	0.031	0.0	10	kitchen island
+sun_afutksgwyoqttegy.jpg	7	1.771	0.300	1255.215	1023.383	0.140	0.034	0.0	10	kitchen island
+sun_afutksgwyoqttegy.jpg	8	2.113	0.325	1175.340	793.795	0.176	0.112	0.0	14	sink
+sun_afutksgwyoqttegy.jpg	8	2.113	0.325	1175.340	793.795	0.176	0.112	0.0	17	worktop
+sun_afutksgwyoqttegy.jpg	9	2.488	0.517	1619.043	795.438	0.111	0.037	0.0	9	kettle

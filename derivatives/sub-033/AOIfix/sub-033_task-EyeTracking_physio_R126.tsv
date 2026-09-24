@@ -1,0 +1,7 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ainaeweeykjelyft.jpg	1	0.527	1.008	1191.740	717.645	0.188	0.143	0.0	0	other
+sun_ainaeweeykjelyft.jpg	2	1.560	0.100	1363.773	692.445	0.353	0.300	0.0	5	window
+sun_ainaeweeykjelyft.jpg	3	1.785	0.142	1274.820	754.595	0.269	0.110	0.0	1	bathtub
+sun_ainaeweeykjelyft.jpg	4	1.943	0.500	1207.960	740.325	0.191	0.104	0.0	1	bathtub
+sun_ainaeweeykjelyft.jpg	5	2.460	0.217	1357.553	703.392	0.258	0.142	0.0	5	window
+sun_ainaeweeykjelyft.jpg	6	2.693	0.208	1343.390	672.490	0.229	0.089	0.0	5	window

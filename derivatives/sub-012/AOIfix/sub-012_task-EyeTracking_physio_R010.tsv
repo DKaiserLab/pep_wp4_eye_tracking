@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azgmgniivgpqrqvu.jpg	1	0.433	0.233	1344.605	701.503	0.177	0.206	0.0	1	cabinet
+sun_azgmgniivgpqrqvu.jpg	1	0.433	0.233	1344.605	701.503	0.177	0.206	0.0	3	extractor hood
+sun_azgmgniivgpqrqvu.jpg	1	0.433	0.233	1344.605	701.503	0.177	0.206	0.0	5	microwave
+sun_azgmgniivgpqrqvu.jpg	2	0.692	0.117	1110.875	730.312	0.382	0.112	0.0	11	window
+sun_azgmgniivgpqrqvu.jpg	3	1.008	0.333	1109.403	808.990	0.188	0.087	0.0	1	cabinet
+sun_azgmgniivgpqrqvu.jpg	4	1.358	0.250	1303.645	845.875	0.135	0.076	0.0	1	cabinet
+sun_azgmgniivgpqrqvu.jpg	4	1.358	0.250	1303.645	845.875	0.135	0.076	0.0	8	range
+sun_azgmgniivgpqrqvu.jpg	5	1.633	0.175	1386.815	862.635	0.135	0.040	0.0	1	cabinet
+sun_azgmgniivgpqrqvu.jpg	6	1.842	0.192	1367.775	614.980	0.093	0.031	0.0	1	cabinet
+sun_azgmgniivgpqrqvu.jpg	7	2.058	0.233	1145.722	606.033	0.099	0.024	0.0	2	ceiling fan
+sun_azgmgniivgpqrqvu.jpg	8	2.308	0.325	1033.565	651.475	0.101	0.036	0.0	11	window
+sun_azgmgniivgpqrqvu.jpg	9	2.800	0.200	1112.500	781.737	0.242	0.087	0.0	1	cabinet
+sun_azgmgniivgpqrqvu.jpg	9	2.800	0.200	1112.500	781.737	0.242	0.087	0.0	10	sink
+sun_azgmgniivgpqrqvu.jpg	9	2.800	0.200	1112.500	781.737	0.242	0.087	0.0	12	worktop

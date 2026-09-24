@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acduarbnmmoglmiv.jpg	1	0.227	0.200	1314.230	758.967	0.179	0.068	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	2	0.444	0.317	1252.095	813.803	0.298	0.092	0.0	7	canister
+sun_acduarbnmmoglmiv.jpg	3	0.786	0.208	1114.005	753.710	0.183	0.085	0.0	3	book
+sun_acduarbnmmoglmiv.jpg	3	0.786	0.208	1114.005	753.710	0.183	0.085	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	3	0.786	0.208	1114.005	753.710	0.183	0.085	0.0	17	toilet
+sun_acduarbnmmoglmiv.jpg	4	1.019	0.267	1006.942	734.748	0.116	0.030	0.0	4	bottle
+sun_acduarbnmmoglmiv.jpg	4	1.019	0.267	1006.942	734.748	0.116	0.030	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	4	1.019	0.267	1006.942	734.748	0.116	0.030	0.0	19	tray
+sun_acduarbnmmoglmiv.jpg	5	1.311	0.142	955.860	711.295	0.082	0.021	0.0	4	bottle
+sun_acduarbnmmoglmiv.jpg	5	1.311	0.142	955.860	711.295	0.082	0.021	0.0	20	window crop
+sun_acduarbnmmoglmiv.jpg	6	1.469	0.183	990.960	711.880	0.113	0.033	0.0	4	bottle
+sun_acduarbnmmoglmiv.jpg	7	1.686	0.250	1209.697	560.630	0.083	0.017	0.0	6	brush
+sun_acduarbnmmoglmiv.jpg	7	1.686	0.250	1209.697	560.630	0.083	0.017	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	8	1.961	0.242	1417.645	552.705	0.089	0.021	0.0	5	bowl
+sun_acduarbnmmoglmiv.jpg	8	1.961	0.242	1417.645	552.705	0.089	0.021	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	9	2.227	0.242	1501.860	594.710	0.078	0.013	0.0	0	other
+sun_acduarbnmmoglmiv.jpg	10	2.494	0.258	1573.835	631.500	0.066	0.013	0.0	9	mirror
+sun_acduarbnmmoglmiv.jpg	11	2.777	0.233	1645.255	642.430	0.071	0.017	0.0	9	mirror

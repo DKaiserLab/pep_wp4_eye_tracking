@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aevezokbkeojznwq.jpg	1	0.323	0.183	1284.200	627.170	0.124	0.029	0.0	5	mitten
+sun_aevezokbkeojznwq.jpg	2	0.523	0.217	1306.445	590.548	0.091	0.031	0.0	5	mitten
+sun_aevezokbkeojznwq.jpg	3	0.765	0.400	1271.150	717.555	1.112	3.500	4.2	3	cabinet
+sun_aevezokbkeojznwq.jpg	3	0.765	0.400	1271.150	717.555	1.112	3.500	4.2	14	worktop
+sun_aevezokbkeojznwq.jpg	4	1.198	0.267	987.233	792.305	0.109	0.037	0.0	8	range
+sun_aevezokbkeojznwq.jpg	5	1.490	0.158	992.565	657.835	0.125	0.029	0.0	0	other
+sun_aevezokbkeojznwq.jpg	6	1.681	0.167	1012.790	573.133	0.073	0.017	0.0	0	other
+sun_aevezokbkeojznwq.jpg	7	1.873	0.325	867.025	560.760	0.113	0.044	0.0	0	other
+sun_aevezokbkeojznwq.jpg	8	2.298	0.567	1323.950	606.267	0.099	0.035	0.0	2	brush
+sun_aevezokbkeojznwq.jpg	8	2.298	0.567	1323.950	606.267	0.099	0.035	0.0	5	mitten
+sun_aevezokbkeojznwq.jpg	8	2.298	0.567	1323.950	606.267	0.099	0.035	0.0	11	strainer
+sun_aevezokbkeojznwq.jpg	9	2.890	0.108	1715.000	616.030	0.129	0.082	0.0	4	dishcloth
+sun_aevezokbkeojznwq.jpg	9	2.890	0.108	1715.000	616.030	0.129	0.082	0.0	9	refrigerator

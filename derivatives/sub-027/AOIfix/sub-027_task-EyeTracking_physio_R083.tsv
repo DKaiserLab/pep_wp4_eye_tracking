@@ -1,0 +1,8 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqrdtsxisrulfusj.jpg	1	0.533	0.233	1100.943	676.467	0.120	0.040	0.0	7	food processor
+sun_aqrdtsxisrulfusj.jpg	2	0.817	0.383	1570.375	716.310	0.161	0.088	0.0	11	range
+sun_aqrdtsxisrulfusj.jpg	3	1.225	0.342	1570.610	585.965	0.111	0.056	0.0	8	microwave
+sun_aqrdtsxisrulfusj.jpg	4	1.592	0.350	1421.125	771.293	0.265	0.169	0.0	1	board
+sun_aqrdtsxisrulfusj.jpg	5	1.958	0.183	1552.385	565.638	0.195	0.075	0.0	8	microwave
+sun_aqrdtsxisrulfusj.jpg	6	2.192	0.300	1109.680	679.505	0.180	0.068	0.0	7	food processor
+sun_aqrdtsxisrulfusj.jpg	7	2.517	0.483	1245.390	748.825	0.169	0.050	0.0	0	other

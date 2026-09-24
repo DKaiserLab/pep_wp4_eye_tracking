@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxvejtymbkewxpy.jpg	1	0.332	0.150	1032.648	615.168	0.205	0.136	0.0	18	window
+sun_ajxvejtymbkewxpy.jpg	2	0.507	0.200	861.405	540.685	0.091	0.027	0.0	18	window
+sun_ajxvejtymbkewxpy.jpg	3	0.741	0.200	1401.852	510.855	0.141	0.036	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	4	0.966	0.175	1473.280	537.430	0.112	0.052	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	5	1.166	0.517	1606.963	794.268	0.106	0.092	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	5	1.166	0.517	1606.963	794.268	0.106	0.092	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	6	1.699	0.167	1537.592	734.322	0.129	0.029	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	6	1.699	0.167	1537.592	734.322	0.129	0.029	0.0	6	coffee maker
+sun_ajxvejtymbkewxpy.jpg	7	1.899	0.208	1302.470	739.190	0.113	0.025	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	8	2.132	0.242	1186.455	730.430	0.095	0.060	0.0	15	pot
+sun_ajxvejtymbkewxpy.jpg	9	2.399	0.175	1054.135	766.195	0.176	0.056	0.0	7	cutting board
+sun_ajxvejtymbkewxpy.jpg	9	2.399	0.175	1054.135	766.195	0.176	0.056	0.0	17	utensils canister
+sun_ajxvejtymbkewxpy.jpg	10	2.591	0.283	877.620	815.780	0.192	0.075	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	11	2.899	0.108	1085.395	890.985	0.172	0.062	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	11	2.899	0.108	1085.395	890.985	0.172	0.062	0.0	19	worktop

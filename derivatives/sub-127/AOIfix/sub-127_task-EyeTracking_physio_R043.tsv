@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.484	0.175	1204.515	735.225	0.096	0.037	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	2	0.684	0.175	1065.680	708.055	0.124	0.030	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	2	0.684	0.175	1065.680	708.055	0.124	0.030	0.0	27	sink
+labelme_qglnhnudtmzmocz.jpg	2	0.684	0.175	1065.680	708.055	0.124	0.030	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	3	0.892	0.233	976.942	631.185	0.115	0.022	0.0	35	window
+labelme_qglnhnudtmzmocz.jpg	3	0.892	0.233	976.942	631.185	0.115	0.022	0.0	38	wreath
+labelme_qglnhnudtmzmocz.jpg	4	1.142	0.233	1022.383	574.940	0.136	0.040	0.0	35	window
+labelme_qglnhnudtmzmocz.jpg	5	1.426	0.233	1414.982	758.648	0.144	0.033	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	5	1.426	0.233	1414.982	758.648	0.144	0.033	0.0	11	cutting board
+labelme_qglnhnudtmzmocz.jpg	5	1.426	0.233	1414.982	758.648	0.144	0.033	0.0	30	spoons
+labelme_qglnhnudtmzmocz.jpg	6	1.692	0.167	1569.102	783.930	0.103	0.025	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	6	1.692	0.167	1569.102	783.930	0.103	0.025	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	7	1.884	0.325	1655.595	810.285	0.117	0.040	0.0	14	food
+labelme_qglnhnudtmzmocz.jpg	7	1.884	0.325	1655.595	810.285	0.117	0.040	0.0	25	scales
+labelme_qglnhnudtmzmocz.jpg	8	2.234	0.200	1682.575	749.092	0.094	0.019	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	8	2.234	0.200	1682.575	749.092	0.094	0.019	0.0	25	scales
+labelme_qglnhnudtmzmocz.jpg	9	2.476	0.283	1246.790	907.087	0.164	0.049	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	10	2.784	0.158	1152.455	919.650	0.114	0.020	0.0	24	rug

@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awhvlirgpcdffbsk.jpg	1	0.447	0.408	1048.420	768.950	0.088	0.048	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	2	0.880	0.333	1501.338	742.592	0.135	0.044	0.0	2	cabinet
+sun_awhvlirgpcdffbsk.jpg	2	0.880	0.333	1501.338	742.592	0.135	0.044	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	2	0.880	0.333	1501.338	742.592	0.135	0.044	0.0	24	teapot
+sun_awhvlirgpcdffbsk.jpg	3	1.230	0.442	1435.300	771.655	0.168	0.125	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	4	1.705	0.300	1263.952	790.217	0.137	0.109	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	4	1.705	0.300	1263.952	790.217	0.137	0.109	0.0	12	napkin
+sun_awhvlirgpcdffbsk.jpg	4	1.705	0.300	1263.952	790.217	0.137	0.109	0.0	19	plate
+sun_awhvlirgpcdffbsk.jpg	5	2.039	0.242	1041.830	706.985	0.230	0.107	0.0	2	cabinet
+sun_awhvlirgpcdffbsk.jpg	5	2.039	0.242	1041.830	706.985	0.230	0.107	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	6	2.297	0.425	969.285	608.280	4.321	3.367	0.0	9	knife set
+sun_awhvlirgpcdffbsk.jpg	7	2.772	0.233	1444.590	639.370	0.158	0.060	0.0	26	worktop

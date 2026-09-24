@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aheymxjdkejwbehi.jpg	1	0.188	0.158	1292.470	706.225	0.083	0.020	0.0	6	box
+sun_aheymxjdkejwbehi.jpg	1	0.188	0.158	1292.470	706.225	0.083	0.020	0.0	18	jar
+sun_aheymxjdkejwbehi.jpg	2	0.363	0.217	1210.510	744.070	0.070	0.041	0.0	1	basket
+sun_aheymxjdkejwbehi.jpg	2	0.363	0.217	1210.510	744.070	0.070	0.041	0.0	5	bowl
+sun_aheymxjdkejwbehi.jpg	2	0.363	0.217	1210.510	744.070	0.070	0.041	0.0	20	kitchen island
+sun_aheymxjdkejwbehi.jpg	2	0.363	0.217	1210.510	744.070	0.070	0.041	0.0	25	plate
+sun_aheymxjdkejwbehi.jpg	3	0.613	0.300	1113.682	780.717	0.069	0.023	0.0	20	kitchen island
+sun_aheymxjdkejwbehi.jpg	4	0.947	0.233	1216.535	765.712	0.065	0.020	0.0	1	basket
+sun_aheymxjdkejwbehi.jpg	4	0.947	0.233	1216.535	765.712	0.065	0.020	0.0	20	kitchen island
+sun_aheymxjdkejwbehi.jpg	5	1.197	0.217	1256.973	755.957	0.088	0.044	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	5	1.197	0.217	1256.973	755.957	0.088	0.044	0.0	20	kitchen island
+sun_aheymxjdkejwbehi.jpg	6	1.430	0.383	1236.837	729.747	0.062	0.021	0.0	1	basket
+sun_aheymxjdkejwbehi.jpg	6	1.430	0.383	1236.837	729.747	0.062	0.021	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	6	1.430	0.383	1236.837	729.747	0.062	0.021	0.0	25	plate
+sun_aheymxjdkejwbehi.jpg	7	1.838	0.358	1282.050	760.685	0.079	0.061	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	7	1.838	0.358	1282.050	760.685	0.079	0.061	0.0	20	kitchen island
+sun_aheymxjdkejwbehi.jpg	8	2.213	0.217	1240.207	775.010	0.107	0.080	0.0	20	kitchen island
+sun_aheymxjdkejwbehi.jpg	9	2.463	0.167	1397.945	802.678	0.084	0.020	0.0	7	cabinet
+sun_aheymxjdkejwbehi.jpg	9	2.463	0.167	1397.945	802.678	0.084	0.020	0.0	9	chair
+sun_aheymxjdkejwbehi.jpg	10	2.663	0.342	1507.060	711.955	0.077	0.021	0.0	26	refrigerator

@@ -1,0 +1,26 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aeqdtdmvphproomc.jpg	1	0.167	0.225	1290.175	765.735	0.136	0.056	0.0	3	cabinet
+sun_aeqdtdmvphproomc.jpg	1	0.167	0.225	1290.175	765.735	0.136	0.056	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	1	0.167	0.225	1290.175	765.735	0.136	0.056	0.0	33	worktop
+sun_aeqdtdmvphproomc.jpg	2	0.409	0.200	1338.745	772.562	0.159	0.126	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	2	0.409	0.200	1338.745	772.562	0.159	0.126	0.0	9	clock
+sun_aeqdtdmvphproomc.jpg	2	0.409	0.200	1338.745	772.562	0.159	0.126	0.0	33	worktop
+sun_aeqdtdmvphproomc.jpg	3	0.634	0.167	1507.463	765.428	0.194	0.089	0.0	10	dishwasher
+sun_aeqdtdmvphproomc.jpg	3	0.634	0.167	1507.463	765.428	0.194	0.089	0.0	33	worktop
+sun_aeqdtdmvphproomc.jpg	4	0.834	0.250	1640.700	747.842	0.173	0.077	0.0	18	plant
+sun_aeqdtdmvphproomc.jpg	4	0.834	0.250	1640.700	747.842	0.173	0.077	0.0	19	plantpot
+sun_aeqdtdmvphproomc.jpg	4	0.834	0.250	1640.700	747.842	0.173	0.077	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	4	0.834	0.250	1640.700	747.842	0.173	0.077	0.0	33	worktop
+sun_aeqdtdmvphproomc.jpg	5	1.109	0.267	1687.688	691.957	0.238	0.158	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	6	1.417	0.183	1621.625	557.255	0.211	0.073	0.0	8	chandelier crop
+sun_aeqdtdmvphproomc.jpg	6	1.417	0.183	1621.625	557.255	0.211	0.073	0.0	18	plant
+sun_aeqdtdmvphproomc.jpg	6	1.417	0.183	1621.625	557.255	0.211	0.073	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	7	1.634	0.183	1524.910	501.798	0.150	0.067	0.0	8	chandelier crop
+sun_aeqdtdmvphproomc.jpg	7	1.634	0.183	1524.910	501.798	0.150	0.067	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	8	1.992	0.125	1086.220	611.715	0.217	0.091	0.0	11	extractor hood
+sun_aeqdtdmvphproomc.jpg	9	2.142	0.167	1038.863	706.953	0.327	0.128	0.0	11	extractor hood
+sun_aeqdtdmvphproomc.jpg	10	2.342	0.358	996.465	781.705	0.198	0.054	0.0	22	range
+sun_aeqdtdmvphproomc.jpg	10	2.342	0.358	996.465	781.705	0.198	0.054	0.0	23	salt and pepper
+sun_aeqdtdmvphproomc.jpg	11	2.726	0.192	1023.620	773.995	0.176	0.063	0.0	14	jar
+sun_aeqdtdmvphproomc.jpg	11	2.726	0.192	1023.620	773.995	0.176	0.063	0.0	22	range
+sun_aeqdtdmvphproomc.jpg	11	2.726	0.192	1023.620	773.995	0.176	0.063	0.0	23	salt and pepper

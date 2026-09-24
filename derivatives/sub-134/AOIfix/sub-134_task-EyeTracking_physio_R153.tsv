@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azdnupmzwdxwflvh.jpg	1	0.409	0.158	1229.470	699.070	0.087	0.013	0.0	17	oven
+sun_azdnupmzwdxwflvh.jpg	1	0.409	0.158	1229.470	699.070	0.087	0.013	0.0	26	turtle
+sun_azdnupmzwdxwflvh.jpg	2	0.600	0.175	1154.790	700.375	0.082	0.011	0.0	16	kitchen island
+sun_azdnupmzwdxwflvh.jpg	2	0.600	0.175	1154.790	700.375	0.082	0.011	0.0	18	paper towels
+sun_azdnupmzwdxwflvh.jpg	2	0.600	0.175	1154.790	700.375	0.082	0.011	0.0	20	plant
+sun_azdnupmzwdxwflvh.jpg	2	0.600	0.175	1154.790	700.375	0.082	0.011	0.0	22	pot
+sun_azdnupmzwdxwflvh.jpg	3	0.809	0.192	1059.720	701.330	0.087	0.016	0.0	16	kitchen island
+sun_azdnupmzwdxwflvh.jpg	3	0.809	0.192	1059.720	701.330	0.087	0.016	0.0	20	plant
+sun_azdnupmzwdxwflvh.jpg	3	0.809	0.192	1059.720	701.330	0.087	0.016	0.0	21	plantpot
+sun_azdnupmzwdxwflvh.jpg	4	1.192	0.283	971.168	743.192	0.095	0.038	0.0	4	cabinets
+sun_azdnupmzwdxwflvh.jpg	4	1.192	0.283	971.168	743.192	0.095	0.038	0.0	16	kitchen island
+sun_azdnupmzwdxwflvh.jpg	5	1.492	0.500	1090.648	785.840	0.309	3.011	0.0	16	kitchen island
+sun_azdnupmzwdxwflvh.jpg	6	2.034	0.142	1433.805	818.310	0.096	0.028	0.0	10	dishwasher
+sun_azdnupmzwdxwflvh.jpg	6	2.034	0.142	1433.805	818.310	0.096	0.028	0.0	23	refrigerator
+sun_azdnupmzwdxwflvh.jpg	7	2.200	0.175	1518.020	841.640	0.116	0.042	0.0	23	refrigerator
+sun_azdnupmzwdxwflvh.jpg	8	2.392	0.367	1582.697	882.755	0.156	0.037	0.0	2	bowl
+sun_azdnupmzwdxwflvh.jpg	8	2.392	0.367	1582.697	882.755	0.156	0.037	0.0	7	chair
+sun_azdnupmzwdxwflvh.jpg	8	2.392	0.367	1582.697	882.755	0.156	0.037	0.0	23	refrigerator
+sun_azdnupmzwdxwflvh.jpg	8	2.392	0.367	1582.697	882.755	0.156	0.037	0.0	25	table
+sun_azdnupmzwdxwflvh.jpg	9	2.800	0.167	1554.952	746.492	0.098	0.076	0.0	7	chair
+sun_azdnupmzwdxwflvh.jpg	9	2.800	0.167	1554.952	746.492	0.098	0.076	0.0	23	refrigerator

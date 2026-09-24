@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqrdtsxisrulfusj.jpg	1	0.260	0.275	1294.650	754.035	0.106	0.026	0.0	0	other
+sun_aqrdtsxisrulfusj.jpg	2	0.560	0.175	1406.895	781.800	0.127	0.046	0.0	1	board
+sun_aqrdtsxisrulfusj.jpg	2	0.560	0.175	1406.895	781.800	0.127	0.046	0.0	16	worktop
+sun_aqrdtsxisrulfusj.jpg	3	0.752	0.183	1499.113	775.773	0.120	0.061	0.0	1	board
+sun_aqrdtsxisrulfusj.jpg	3	0.752	0.183	1499.113	775.773	0.120	0.061	0.0	11	range
+sun_aqrdtsxisrulfusj.jpg	3	0.752	0.183	1499.113	775.773	0.120	0.061	0.0	15	toaster
+sun_aqrdtsxisrulfusj.jpg	4	0.952	0.233	1569.695	741.265	0.102	0.073	0.0	11	range
+sun_aqrdtsxisrulfusj.jpg	5	1.202	0.233	1611.988	647.463	0.099	0.048	0.0	8	microwave
+sun_aqrdtsxisrulfusj.jpg	6	1.452	0.133	1623.848	574.245	0.105	0.041	0.0	8	microwave
+sun_aqrdtsxisrulfusj.jpg	7	1.602	0.250	1379.513	485.197	0.190	0.096	0.0	2	cabinet
+sun_aqrdtsxisrulfusj.jpg	8	1.877	0.242	1141.015	500.370	0.188	0.074	0.0	2	cabinet
+sun_aqrdtsxisrulfusj.jpg	9	2.160	0.125	1065.740	568.725	0.092	0.025	0.0	2	cabinet
+sun_aqrdtsxisrulfusj.jpg	10	2.318	0.225	1013.885	833.035	0.097	0.025	0.0	16	worktop
+sun_aqrdtsxisrulfusj.jpg	11	2.568	0.283	1042.595	787.582	0.077	0.021	0.0	15	toaster
+sun_aqrdtsxisrulfusj.jpg	11	2.568	0.283	1042.595	787.582	0.077	0.021	0.0	16	worktop
+sun_aqrdtsxisrulfusj.jpg	12	2.868	0.142	1104.535	751.100	0.058	0.013	0.0	7	food processor

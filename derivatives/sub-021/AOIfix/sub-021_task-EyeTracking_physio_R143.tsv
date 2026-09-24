@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anjgzxqwccbiozsw.jpg	1	0.406	0.192	1485.985	821.855	0.230	0.068	0.0	6	chair
+sun_anjgzxqwccbiozsw.jpg	1	0.406	0.192	1485.985	821.855	0.230	0.068	0.0	18	placemat
+sun_anjgzxqwccbiozsw.jpg	1	0.406	0.192	1485.985	821.855	0.230	0.068	0.0	20	plate
+sun_anjgzxqwccbiozsw.jpg	1	0.406	0.192	1485.985	821.855	0.230	0.068	0.0	24	table
+sun_anjgzxqwccbiozsw.jpg	2	0.631	0.150	1243.012	775.395	0.133	0.053	0.0	4	cabinet
+sun_anjgzxqwccbiozsw.jpg	2	0.631	0.150	1243.012	775.395	0.133	0.053	0.0	15	oven
+sun_anjgzxqwccbiozsw.jpg	3	0.790	0.142	1193.700	764.225	0.128	0.042	0.0	4	cabinet
+sun_anjgzxqwccbiozsw.jpg	3	0.790	0.142	1193.700	764.225	0.128	0.042	0.0	27	towel
+sun_anjgzxqwccbiozsw.jpg	4	0.973	0.217	1052.767	563.310	0.102	0.028	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	5	1.206	0.175	1067.800	527.470	0.095	0.013	0.0	16	picture
+sun_anjgzxqwccbiozsw.jpg	6	1.423	0.258	1215.010	682.450	0.090	0.024	0.0	2	board
+sun_anjgzxqwccbiozsw.jpg	6	1.423	0.258	1215.010	682.450	0.090	0.024	0.0	13	mug
+sun_anjgzxqwccbiozsw.jpg	6	1.423	0.258	1215.010	682.450	0.090	0.024	0.0	30	worktop
+sun_anjgzxqwccbiozsw.jpg	7	1.698	0.200	1202.030	673.045	0.085	0.014	0.0	8	coffee maker
+sun_anjgzxqwccbiozsw.jpg	7	1.698	0.200	1202.030	673.045	0.085	0.014	0.0	13	mug
+sun_anjgzxqwccbiozsw.jpg	7	1.698	0.200	1202.030	673.045	0.085	0.014	0.0	30	worktop
+sun_anjgzxqwccbiozsw.jpg	8	1.915	0.283	1217.018	671.773	0.104	0.026	0.0	13	mug
+sun_anjgzxqwccbiozsw.jpg	9	2.215	0.367	1172.510	677.970	0.086	0.030	0.0	8	coffee maker
+sun_anjgzxqwccbiozsw.jpg	9	2.215	0.367	1172.510	677.970	0.086	0.030	0.0	30	worktop
+sun_anjgzxqwccbiozsw.jpg	10	2.606	0.233	1373.638	690.473	0.094	0.019	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	11	2.865	0.142	1445.725	697.370	0.113	0.023	0.0	26	toaster

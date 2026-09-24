@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahqjwnzgolcaoidx.jpg	1	0.195	0.342	1270.450	753.060	0.276	0.269	0.0	2	blind
+sun_ahqjwnzgolcaoidx.jpg	1	0.195	0.342	1270.450	753.060	0.276	0.269	0.0	21	window
+sun_ahqjwnzgolcaoidx.jpg	2	0.562	0.200	1282.590	583.475	0.163	0.086	0.0	2	blind
+sun_ahqjwnzgolcaoidx.jpg	2	0.562	0.200	1282.590	583.475	0.163	0.086	0.0	21	window
+sun_ahqjwnzgolcaoidx.jpg	3	0.787	0.167	1420.398	535.140	0.142	0.037	0.0	2	blind
+sun_ahqjwnzgolcaoidx.jpg	3	0.787	0.167	1420.398	535.140	0.142	0.037	0.0	21	window
+sun_ahqjwnzgolcaoidx.jpg	4	0.987	0.208	1612.355	615.420	0.168	0.062	0.0	7	curtain
+sun_ahqjwnzgolcaoidx.jpg	4	0.987	0.208	1612.355	615.420	0.168	0.062	0.0	8	door crop
+sun_ahqjwnzgolcaoidx.jpg	5	1.212	0.283	1723.235	643.733	0.169	0.065	0.0	-1	off stimulus
+sun_ahqjwnzgolcaoidx.jpg	6	1.528	0.225	1433.075	778.065	0.192	0.068	0.0	2	blind
+sun_ahqjwnzgolcaoidx.jpg	6	1.528	0.225	1433.075	778.065	0.192	0.068	0.0	11	shelves
+sun_ahqjwnzgolcaoidx.jpg	6	1.528	0.225	1433.075	778.065	0.192	0.068	0.0	21	window
+sun_ahqjwnzgolcaoidx.jpg	7	1.787	0.250	1128.467	812.678	0.185	0.099	0.0	17	towel
+sun_ahqjwnzgolcaoidx.jpg	7	1.787	0.250	1128.467	812.678	0.185	0.099	0.0	18	towels
+sun_ahqjwnzgolcaoidx.jpg	8	2.053	0.200	1042.378	786.150	0.210	0.065	0.0	0	other
+sun_ahqjwnzgolcaoidx.jpg	9	2.270	0.392	975.015	758.430	0.164	0.050	0.0	10	mirror
+sun_ahqjwnzgolcaoidx.jpg	10	2.678	0.250	1024.750	669.440	0.201	0.135	0.0	17	towel

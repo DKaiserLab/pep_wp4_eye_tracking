@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_kxvouciolcpqplr.jpg	1	0.121	0.208	1258.895	732.270	0.137	0.073	0.0	12	sink
+labelme_kxvouciolcpqplr.jpg	1	0.121	0.208	1258.895	732.270	0.137	0.073	0.0	16	worktop
+labelme_kxvouciolcpqplr.jpg	2	0.362	0.375	946.700	850.430	0.167	0.167	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	3	0.771	0.300	1306.092	833.740	0.173	0.072	0.0	4	curtain
+labelme_kxvouciolcpqplr.jpg	4	1.104	0.317	1484.507	782.885	0.150	0.050	0.0	9	range
+labelme_kxvouciolcpqplr.jpg	5	1.496	0.208	1542.440	569.670	0.114	0.039	0.0	6	extractor hood
+labelme_kxvouciolcpqplr.jpg	6	1.779	0.233	1062.818	609.097	6.626	7.706	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	7	2.029	0.325	1079.430	619.125	8.000	153.232	0.0	0	other
+labelme_kxvouciolcpqplr.jpg	8	2.371	0.650	1522.822	1043.135	5.350	43.683	0.0	0	other

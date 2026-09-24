@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aeqdtdmvphproomc.jpg	1	0.279	0.258	1030.475	731.955	0.310	0.213	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	2	0.571	0.350	921.402	831.123	0.188	0.100	0.0	1	bowl
+sun_aeqdtdmvphproomc.jpg	2	0.571	0.350	921.402	831.123	0.188	0.100	0.0	22	range
+sun_aeqdtdmvphproomc.jpg	3	0.954	0.458	1513.270	826.325	0.252	0.088	0.0	10	dishwasher
+sun_aeqdtdmvphproomc.jpg	3	0.954	0.458	1513.270	826.325	0.252	0.088	0.0	15	mug
+sun_aeqdtdmvphproomc.jpg	3	0.954	0.458	1513.270	826.325	0.252	0.088	0.0	26	table
+sun_aeqdtdmvphproomc.jpg	4	1.429	0.300	1625.843	880.085	0.184	0.052	0.0	20	plates
+sun_aeqdtdmvphproomc.jpg	4	1.429	0.300	1625.843	880.085	0.184	0.052	0.0	21	pot
+sun_aeqdtdmvphproomc.jpg	4	1.429	0.300	1625.843	880.085	0.184	0.052	0.0	26	table
+sun_aeqdtdmvphproomc.jpg	4	1.429	0.300	1625.843	880.085	0.184	0.052	0.0	30	tray
+sun_aeqdtdmvphproomc.jpg	5	1.754	0.142	1630.450	797.375	0.234	0.059	0.0	21	pot
+sun_aeqdtdmvphproomc.jpg	5	1.754	0.142	1630.450	797.375	0.234	0.059	0.0	26	table
+sun_aeqdtdmvphproomc.jpg	5	1.754	0.142	1630.450	797.375	0.234	0.059	0.0	33	worktop
+sun_aeqdtdmvphproomc.jpg	6	1.921	0.258	1366.365	630.220	0.269	0.088	0.0	2	bowls
+sun_aeqdtdmvphproomc.jpg	6	1.921	0.258	1366.365	630.220	0.269	0.088	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	7	2.204	0.533	1043.872	804.072	0.240	0.107	0.0	14	jar
+sun_aeqdtdmvphproomc.jpg	7	2.204	0.533	1043.872	804.072	0.240	0.107	0.0	22	range
+sun_aeqdtdmvphproomc.jpg	8	2.763	0.133	907.135	832.720	0.107	0.020	0.0	1	bowl
+sun_aeqdtdmvphproomc.jpg	8	2.763	0.133	907.135	832.720	0.107	0.020	0.0	22	range
+sun_aeqdtdmvphproomc.jpg	8	2.763	0.133	907.135	832.720	0.107	0.020	0.0	33	worktop

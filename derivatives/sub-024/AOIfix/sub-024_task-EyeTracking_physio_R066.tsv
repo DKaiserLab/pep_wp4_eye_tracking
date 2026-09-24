@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahovdllcccjqjyeb.jpg	1	0.302	0.225	1187.165	790.485	0.191	0.091	0.0	14	sink
+sun_ahovdllcccjqjyeb.jpg	1	0.302	0.225	1187.165	790.485	0.191	0.091	0.0	16	window
+sun_ahovdllcccjqjyeb.jpg	1	0.302	0.225	1187.165	790.485	0.191	0.091	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	2	0.552	0.125	1035.080	783.820	0.171	0.063	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	3	0.702	0.233	915.070	790.510	0.153	0.052	0.0	7	door
+sun_ahovdllcccjqjyeb.jpg	4	0.944	0.217	903.935	804.845	0.188	0.047	0.0	7	door
+sun_ahovdllcccjqjyeb.jpg	5	1.177	0.167	886.680	770.370	0.189	0.069	0.0	7	door
+sun_ahovdllcccjqjyeb.jpg	6	1.377	0.292	1210.665	704.635	0.113	0.046	0.0	16	window
+sun_ahovdllcccjqjyeb.jpg	7	1.686	0.192	1287.755	818.930	0.205	0.046	0.0	3	cabinet
+sun_ahovdllcccjqjyeb.jpg	7	1.686	0.192	1287.755	818.930	0.205	0.046	0.0	6	dishwasher
+sun_ahovdllcccjqjyeb.jpg	7	1.686	0.192	1287.755	818.930	0.205	0.046	0.0	15	stove
+sun_ahovdllcccjqjyeb.jpg	7	1.686	0.192	1287.755	818.930	0.205	0.046	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	8	1.911	0.142	1322.270	834.220	0.142	0.029	0.0	6	dishwasher
+sun_ahovdllcccjqjyeb.jpg	8	1.911	0.142	1322.270	834.220	0.142	0.029	0.0	15	stove
+sun_ahovdllcccjqjyeb.jpg	8	1.911	0.142	1322.270	834.220	0.142	0.029	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	9	2.077	0.233	1348.725	848.467	0.207	0.064	0.0	6	dishwasher
+sun_ahovdllcccjqjyeb.jpg	9	2.077	0.233	1348.725	848.467	0.207	0.064	0.0	15	stove
+sun_ahovdllcccjqjyeb.jpg	9	2.077	0.233	1348.725	848.467	0.207	0.064	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	10	2.344	0.375	1512.275	694.950	0.119	0.068	0.0	3	cabinet
+sun_ahovdllcccjqjyeb.jpg	10	2.344	0.375	1512.275	694.950	0.119	0.068	0.0	11	microwave
+sun_ahovdllcccjqjyeb.jpg	11	2.744	0.200	1540.675	665.545	0.124	0.044	0.0	3	cabinet

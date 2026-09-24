@@ -1,0 +1,5 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aasmevtpkslccptd.jpg	1	0.385	1.233	1261.447	624.493	0.106	0.059	0.0	20	oven
+sun_aasmevtpkslccptd.jpg	1	0.385	1.233	1261.447	624.493	0.106	0.059	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	2	1.626	1.375	1254.850	634.295	0.146	0.060	0.0	20	oven
+sun_aasmevtpkslccptd.jpg	2	1.626	1.375	1254.850	634.295	0.146	0.060	0.0	32	worktop

@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agldadusrezhmyva.jpg	1	0.367	0.267	1321.185	677.242	0.112	0.040	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	2	0.651	0.133	1388.525	637.648	0.099	0.051	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	3	0.809	0.317	1174.122	680.335	0.147	0.069	0.0	11	figurine
+sun_agldadusrezhmyva.jpg	3	0.809	0.317	1174.122	680.335	0.147	0.069	0.0	29	window
+sun_agldadusrezhmyva.jpg	4	1.142	0.633	1154.177	699.190	0.194	0.168	0.0	11	figurine
+sun_agldadusrezhmyva.jpg	4	1.142	0.633	1154.177	699.190	0.194	0.168	0.0	29	window
+sun_agldadusrezhmyva.jpg	5	1.801	0.117	1078.105	671.650	0.121	0.028	0.0	12	flowers
+sun_agldadusrezhmyva.jpg	5	1.801	0.117	1078.105	671.650	0.121	0.028	0.0	29	window
+sun_agldadusrezhmyva.jpg	6	1.959	0.417	1145.767	528.705	0.071	0.029	0.0	6	curtain
+sun_agldadusrezhmyva.jpg	7	2.401	0.208	1215.115	510.195	0.084	0.048	0.0	6	curtain
+sun_agldadusrezhmyva.jpg	8	2.634	0.308	1348.025	502.615	0.099	0.032	0.0	3	bowl
+sun_agldadusrezhmyva.jpg	8	2.634	0.308	1348.025	502.615	0.099	0.032	0.0	5	cabinet

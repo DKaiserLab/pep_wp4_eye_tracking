@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglpqkbwvbofhrgt.jpg	1	0.325	0.250	1314.710	771.465	0.109	0.030	0.0	4	cabinet
+sun_aglpqkbwvbofhrgt.jpg	1	0.325	0.250	1314.710	771.465	0.109	0.030	0.0	16	worktop
+sun_aglpqkbwvbofhrgt.jpg	2	0.592	0.183	1379.545	771.595	0.104	0.032	0.0	16	worktop
+sun_aglpqkbwvbofhrgt.jpg	3	0.800	0.192	1466.715	775.490	0.096	0.025	0.0	9	microwave
+sun_aglpqkbwvbofhrgt.jpg	4	1.017	0.208	1540.635	778.575	0.088	0.032	0.0	2	bowl
+sun_aglpqkbwvbofhrgt.jpg	4	1.017	0.208	1540.635	778.575	0.088	0.032	0.0	9	microwave
+sun_aglpqkbwvbofhrgt.jpg	5	1.250	0.233	1581.550	784.253	0.126	0.029	0.0	2	bowl
+sun_aglpqkbwvbofhrgt.jpg	6	1.508	0.358	1485.895	760.005	0.115	0.033	0.0	9	microwave
+sun_aglpqkbwvbofhrgt.jpg	7	1.892	0.242	1330.050	760.300	0.082	0.022	0.0	10	range
+sun_aglpqkbwvbofhrgt.jpg	7	1.892	0.242	1330.050	760.300	0.082	0.022	0.0	16	worktop
+sun_aglpqkbwvbofhrgt.jpg	8	2.158	0.233	1247.572	754.127	0.076	0.019	0.0	10	range
+sun_aglpqkbwvbofhrgt.jpg	9	2.417	0.200	1198.630	772.640	0.093	0.015	0.0	6	door
+sun_aglpqkbwvbofhrgt.jpg	9	2.417	0.200	1198.630	772.640	0.093	0.015	0.0	10	range
+sun_aglpqkbwvbofhrgt.jpg	10	2.633	0.267	1174.205	793.765	0.093	0.039	0.0	6	door
+sun_aglpqkbwvbofhrgt.jpg	10	2.633	0.267	1174.205	793.765	0.093	0.039	0.0	8	gas cylinder

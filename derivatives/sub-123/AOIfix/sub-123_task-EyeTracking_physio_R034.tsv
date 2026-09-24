@@ -1,0 +1,7 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwvdhqsbtcesevi.jpg	1	0.745	0.325	1263.235	661.355	0.067	0.020	0.0	2	bottle
+sun_akwvdhqsbtcesevi.jpg	2	1.087	0.200	1180.457	650.240	0.090	0.061	0.0	0	other
+sun_akwvdhqsbtcesevi.jpg	3	1.304	0.317	1110.408	620.915	0.078	0.045	0.0	8	microwave
+sun_akwvdhqsbtcesevi.jpg	4	1.662	0.167	1084.028	638.622	0.054	0.015	0.0	0	other
+sun_akwvdhqsbtcesevi.jpg	5	2.079	0.625	1083.555	790.545	0.082	0.032	0.0	6	glass
+sun_akwvdhqsbtcesevi.jpg	6	2.729	0.208	1201.630	768.680	0.084	0.042	0.0	3	cabinet

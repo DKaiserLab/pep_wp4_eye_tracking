@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aevezokbkeojznwq.jpg	1	0.285	0.175	1228.785	713.340	0.089	0.022	0.0	3	cabinet
+sun_aevezokbkeojznwq.jpg	1	0.285	0.175	1228.785	713.340	0.089	0.022	0.0	14	worktop
+sun_aevezokbkeojznwq.jpg	2	0.493	0.283	1197.743	638.195	0.149	0.039	0.0	6	outlet
+sun_aevezokbkeojznwq.jpg	2	0.493	0.283	1197.743	638.195	0.149	0.039	0.0	7	pitcher
+sun_aevezokbkeojznwq.jpg	2	0.493	0.283	1197.743	638.195	0.149	0.039	0.0	12	toaster
+sun_aevezokbkeojznwq.jpg	3	0.793	0.267	1172.242	599.847	0.156	0.044	0.0	6	outlet
+sun_aevezokbkeojznwq.jpg	4	1.085	0.275	1309.385	566.635	0.124	0.035	0.0	5	mitten
+sun_aevezokbkeojznwq.jpg	5	1.385	0.233	1462.847	561.570	0.130	0.045	0.0	0	other
+sun_aevezokbkeojznwq.jpg	6	1.643	0.233	1579.695	583.390	0.172	0.036	0.0	0	other
+sun_aevezokbkeojznwq.jpg	7	1.901	0.258	1696.400	652.395	0.163	0.052	0.0	9	refrigerator
+sun_aevezokbkeojznwq.jpg	8	2.185	0.275	1665.130	719.765	0.092	0.020	0.0	4	dishcloth
+sun_aevezokbkeojznwq.jpg	8	2.185	0.275	1665.130	719.765	0.092	0.020	0.0	9	refrigerator
+sun_aevezokbkeojznwq.jpg	9	2.476	0.217	1600.790	837.805	0.125	0.029	0.0	3	cabinet
+sun_aevezokbkeojznwq.jpg	10	2.718	0.250	1415.195	883.405	0.100	0.027	0.0	3	cabinet

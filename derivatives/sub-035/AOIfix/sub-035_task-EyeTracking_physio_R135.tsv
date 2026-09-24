@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amgkcbncvhsceeuq.jpg	1	0.461	0.167	1196.230	691.682	0.097	0.020	0.0	7	fruits
+sun_amgkcbncvhsceeuq.jpg	1	0.461	0.167	1196.230	691.682	0.097	0.020	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	2	0.644	0.283	1161.428	676.700	0.101	0.020	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	3	0.944	0.200	1212.090	693.670	0.101	0.021	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	3	0.944	0.200	1212.090	693.670	0.101	0.021	0.0	7	fruits
+sun_amgkcbncvhsceeuq.jpg	3	0.944	0.200	1212.090	693.670	0.101	0.021	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	4	1.178	0.325	1392.055	553.920	0.077	0.012	0.0	18	shelves
+sun_amgkcbncvhsceeuq.jpg	5	1.519	0.292	1506.540	517.820	0.102	0.024	0.0	6	extractor hood
+sun_amgkcbncvhsceeuq.jpg	5	1.519	0.292	1506.540	517.820	0.102	0.024	0.0	14	plate
+sun_amgkcbncvhsceeuq.jpg	5	1.519	0.292	1506.540	517.820	0.102	0.024	0.0	17	shelf
+sun_amgkcbncvhsceeuq.jpg	6	1.861	0.192	1293.975	652.415	0.096	0.015	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	7	2.094	0.192	1241.440	691.875	0.078	0.014	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	8	2.303	0.308	1200.215	694.515	0.102	0.032	0.0	7	fruits
+sun_amgkcbncvhsceeuq.jpg	8	2.303	0.308	1200.215	694.515	0.102	0.032	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	9	2.636	0.175	1158.305	653.430	0.113	0.055	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	10	2.836	0.167	982.807	613.572	0.117	0.023	0.0	0	other

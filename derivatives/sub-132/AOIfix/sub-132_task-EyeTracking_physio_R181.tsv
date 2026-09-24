@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqqabpdqjxygueuw.jpg	1	0.622	0.133	1162.142	685.422	0.184	0.046	0.0	19	jars
+sun_aqqabpdqjxygueuw.jpg	1	0.622	0.133	1162.142	685.422	0.184	0.046	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	2	0.797	0.417	1033.912	646.250	0.086	0.050	0.0	13	door
+sun_aqqabpdqjxygueuw.jpg	3	1.230	0.100	1125.560	689.970	0.250	0.084	0.0	19	jars
+sun_aqqabpdqjxygueuw.jpg	3	1.230	0.100	1125.560	689.970	0.250	0.084	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	4	1.339	0.292	1137.875	748.360	0.316	0.291	0.0	3	bottles
+sun_aqqabpdqjxygueuw.jpg	4	1.339	0.292	1137.875	748.360	0.316	0.291	0.0	5	cabinet
+sun_aqqabpdqjxygueuw.jpg	4	1.339	0.292	1137.875	748.360	0.316	0.291	0.0	11	dishwasher
+sun_aqqabpdqjxygueuw.jpg	4	1.339	0.292	1137.875	748.360	0.316	0.291	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	4	1.339	0.292	1137.875	748.360	0.316	0.291	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	5	1.655	0.208	1226.225	754.835	0.211	0.063	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	5	1.655	0.208	1226.225	754.835	0.211	0.063	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	6	1.914	0.183	1410.912	803.648	0.224	0.062	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	6	1.914	0.183	1410.912	803.648	0.224	0.062	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	6	1.914	0.183	1410.912	803.648	0.224	0.062	0.0	26	plantpot
+sun_aqqabpdqjxygueuw.jpg	6	1.914	0.183	1410.912	803.648	0.224	0.062	0.0	31	spoons
+sun_aqqabpdqjxygueuw.jpg	6	1.914	0.183	1410.912	803.648	0.224	0.062	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	7	2.130	0.183	1541.317	797.362	0.178	0.042	0.0	22	oven
+sun_aqqabpdqjxygueuw.jpg	8	2.364	0.350	1610.620	704.090	0.112	0.036	0.0	22	oven
+sun_aqqabpdqjxygueuw.jpg	9	2.739	0.267	1613.850	624.027	0.100	0.032	0.0	7	canister
+sun_aqqabpdqjxygueuw.jpg	9	2.739	0.267	1613.850	624.027	0.100	0.032	0.0	14	extractor hood

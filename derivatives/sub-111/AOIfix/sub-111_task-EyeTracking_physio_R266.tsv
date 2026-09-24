@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajtqfkwqpektgwsv.jpg	1	0.315	0.300	1298.328	721.200	0.139	0.094	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	1	0.315	0.300	1298.328	721.200	0.139	0.094	0.0	8	refrigerator
+sun_ajtqfkwqpektgwsv.jpg	2	0.640	0.158	1352.235	718.330	0.124	0.029	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	2	0.640	0.158	1352.235	718.330	0.124	0.029	0.0	4	microwave
+sun_ajtqfkwqpektgwsv.jpg	3	0.815	0.217	1404.850	644.825	0.145	0.048	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	3	0.815	0.217	1404.850	644.825	0.145	0.048	0.0	4	microwave
+sun_ajtqfkwqpektgwsv.jpg	4	1.049	0.250	1449.033	584.835	0.161	0.071	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	5	1.324	0.175	1433.655	693.175	0.116	0.036	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	5	1.324	0.175	1433.655	693.175	0.116	0.036	0.0	4	microwave
+sun_ajtqfkwqpektgwsv.jpg	6	1.524	0.158	1446.500	742.495	0.128	0.037	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	6	1.524	0.158	1446.500	742.495	0.128	0.037	0.0	4	microwave
+sun_ajtqfkwqpektgwsv.jpg	7	1.699	0.342	1450.135	828.990	0.113	0.037	0.0	7	range
+sun_ajtqfkwqpektgwsv.jpg	8	2.049	0.242	1420.290	836.920	0.110	0.030	0.0	7	range
+sun_ajtqfkwqpektgwsv.jpg	9	2.315	0.300	1421.225	770.565	0.124	0.045	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	9	2.315	0.300	1421.225	770.565	0.124	0.045	0.0	4	microwave
+sun_ajtqfkwqpektgwsv.jpg	9	2.315	0.300	1421.225	770.565	0.124	0.045	0.0	7	range
+sun_ajtqfkwqpektgwsv.jpg	10	2.632	0.233	1430.860	799.025	0.138	0.035	0.0	7	range
+sun_ajtqfkwqpektgwsv.jpg	11	2.882	0.125	1399.225	867.785	0.160	0.084	0.0	7	range

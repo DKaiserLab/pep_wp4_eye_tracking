@@ -1,0 +1,4 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_vvuttgvlwdydbkh.jpg	1	0.388	0.283	1268.560	709.337	0.158	0.068	0.0	0	other
+labelme_vvuttgvlwdydbkh.jpg	2	0.688	0.783	1267.375	736.342	0.184	0.098	0.0	0	other
+labelme_vvuttgvlwdydbkh.jpg	3	1.505	1.500	1350.913	868.125	0.164	0.115	0.0	0	other

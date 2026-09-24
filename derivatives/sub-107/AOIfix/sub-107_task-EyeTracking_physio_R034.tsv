@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwvdhqsbtcesevi.jpg	1	0.167	0.108	1217.880	604.860	0.117	0.031	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	2	0.384	0.225	1062.430	517.565	0.077	0.036	0.0	11	pendant lamp
+sun_akwvdhqsbtcesevi.jpg	3	0.642	0.450	937.513	510.808	0.076	0.027	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	3	0.642	0.450	937.513	510.808	0.076	0.027	0.0	11	pendant lamp
+sun_akwvdhqsbtcesevi.jpg	4	1.109	0.267	1263.300	526.997	0.101	0.051	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	4	1.109	0.267	1263.300	526.997	0.101	0.051	0.0	11	pendant lamp
+sun_akwvdhqsbtcesevi.jpg	5	1.393	0.317	1453.725	529.815	0.086	0.034	0.0	20	window
+sun_akwvdhqsbtcesevi.jpg	6	1.726	0.183	1559.378	539.502	0.068	0.027	0.0	20	window
+sun_akwvdhqsbtcesevi.jpg	7	2.009	0.167	1578.130	736.332	0.120	0.037	0.0	20	window
+sun_akwvdhqsbtcesevi.jpg	8	2.193	0.417	1537.470	834.048	0.106	0.033	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	9	2.643	0.208	1474.345	736.475	0.111	0.032	0.0	16	sink
+sun_akwvdhqsbtcesevi.jpg	9	2.643	0.208	1474.345	736.475	0.111	0.032	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	10	2.876	0.133	1364.737	710.240	0.133	0.025	0.0	4	coffee maker
+sun_akwvdhqsbtcesevi.jpg	10	2.876	0.133	1364.737	710.240	0.133	0.025	0.0	21	worktop

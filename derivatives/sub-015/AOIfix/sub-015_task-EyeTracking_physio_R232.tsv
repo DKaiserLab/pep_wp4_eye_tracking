@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agqborhpkvvwbvfl.jpg	1	0.240	0.158	1249.700	689.225	0.099	0.021	0.0	5	flowers
+sun_agqborhpkvvwbvfl.jpg	1	0.240	0.158	1249.700	689.225	0.099	0.021	0.0	12	window
+sun_agqborhpkvvwbvfl.jpg	2	0.424	0.292	1595.880	667.405	0.163	0.057	0.0	2	coffee maker
+sun_agqborhpkvvwbvfl.jpg	3	0.740	0.242	1540.810	697.400	0.173	0.051	0.0	2	coffee maker
+sun_agqborhpkvvwbvfl.jpg	4	1.007	0.308	1233.040	648.765	0.099	0.026	0.0	5	flowers
+sun_agqborhpkvvwbvfl.jpg	4	1.007	0.308	1233.040	648.765	0.099	0.026	0.0	12	window
+sun_agqborhpkvvwbvfl.jpg	5	1.340	0.192	967.775	791.020	0.223	0.079	0.0	13	worktop
+sun_agqborhpkvvwbvfl.jpg	6	1.565	0.167	1113.903	512.345	0.145	0.045	0.0	12	window
+sun_agqborhpkvvwbvfl.jpg	7	1.757	0.158	1022.105	455.205	0.095	0.014	0.0	8	picture
+sun_agqborhpkvvwbvfl.jpg	8	1.949	0.283	1261.890	657.705	0.130	0.037	0.0	5	flowers
+sun_agqborhpkvvwbvfl.jpg	8	1.949	0.283	1261.890	657.705	0.130	0.037	0.0	12	window
+sun_agqborhpkvvwbvfl.jpg	9	2.265	0.300	1439.015	591.330	0.111	0.035	0.0	4	door
+sun_agqborhpkvvwbvfl.jpg	10	2.582	0.233	1565.415	673.367	0.209	0.054	0.0	2	coffee maker
+sun_agqborhpkvvwbvfl.jpg	11	2.840	0.158	1219.035	642.355	0.151	0.044	0.0	5	flowers
+sun_agqborhpkvvwbvfl.jpg	11	2.840	0.158	1219.035	642.355	0.151	0.044	0.0	12	window

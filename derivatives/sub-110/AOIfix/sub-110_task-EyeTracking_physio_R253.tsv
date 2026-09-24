@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aeqdtdmvphproomc.jpg	1	0.308	0.183	1332.962	721.217	0.100	0.022	0.0	9	clock
+sun_aeqdtdmvphproomc.jpg	2	0.517	0.358	1031.630	765.095	0.126	0.053	0.0	14	jar
+sun_aeqdtdmvphproomc.jpg	2	0.517	0.358	1031.630	765.095	0.126	0.053	0.0	23	salt and pepper
+sun_aeqdtdmvphproomc.jpg	3	0.892	0.233	966.987	742.322	0.096	0.023	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	4	1.142	0.450	954.330	707.230	0.083	0.020	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	5	1.642	0.283	1509.287	613.283	0.099	0.038	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	6	1.975	0.250	1587.648	613.145	0.070	0.019	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	7	2.250	0.258	1634.440	616.195	0.085	0.018	0.0	18	plant
+sun_aeqdtdmvphproomc.jpg	7	2.250	0.258	1634.440	616.195	0.085	0.018	0.0	19	plantpot
+sun_aeqdtdmvphproomc.jpg	7	2.250	0.258	1634.440	616.195	0.085	0.018	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	8	2.525	0.233	1622.120	669.510	0.081	0.018	0.0	19	plantpot
+sun_aeqdtdmvphproomc.jpg	8	2.525	0.233	1622.120	669.510	0.081	0.018	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	9	2.775	0.233	1601.820	736.890	0.101	0.039	0.0	12	figurine
+sun_aeqdtdmvphproomc.jpg	9	2.775	0.233	1601.820	736.890	0.101	0.039	0.0	19	plantpot
+sun_aeqdtdmvphproomc.jpg	9	2.775	0.233	1601.820	736.890	0.101	0.039	0.0	32	window

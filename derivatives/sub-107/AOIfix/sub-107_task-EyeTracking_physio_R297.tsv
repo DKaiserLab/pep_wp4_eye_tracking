@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azbzyzntqpgdoyyu.jpg	1	0.381	0.167	1220.650	803.010	0.107	0.051	0.0	4	countertop
+sun_azbzyzntqpgdoyyu.jpg	1	0.381	0.167	1220.650	803.010	0.107	0.051	0.0	13	tissue box
+sun_azbzyzntqpgdoyyu.jpg	2	0.573	0.358	1207.120	875.440	0.088	0.029	0.0	3	cabinet
+sun_azbzyzntqpgdoyyu.jpg	3	0.956	0.275	1088.630	776.340	0.097	0.049	0.0	4	countertop
+sun_azbzyzntqpgdoyyu.jpg	3	0.956	0.275	1088.630	776.340	0.097	0.049	0.0	11	soap dish
+sun_azbzyzntqpgdoyyu.jpg	4	1.248	0.200	1016.617	769.760	0.082	0.026	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	5	1.473	0.175	1007.930	569.015	0.087	0.039	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	6	1.664	0.200	1028.765	510.398	0.094	0.026	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	7	1.898	0.183	1397.457	603.428	0.127	0.096	0.0	9	shelf
+sun_azbzyzntqpgdoyyu.jpg	8	2.098	0.250	1541.100	640.613	0.121	0.071	0.0	9	shelf
+sun_azbzyzntqpgdoyyu.jpg	9	2.364	0.175	1670.055	832.240	0.137	0.068	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	10	2.598	0.233	1713.102	1019.015	0.112	0.060	0.0	5	door crop
+sun_azbzyzntqpgdoyyu.jpg	11	2.873	0.133	1670.940	1004.263	0.090	0.021	0.0	1	bathtub crop
+sun_azbzyzntqpgdoyyu.jpg	11	2.873	0.133	1670.940	1004.263	0.090	0.021	0.0	5	door crop

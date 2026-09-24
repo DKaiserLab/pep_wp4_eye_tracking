@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agfbbeozqztznacq.jpg	1	0.550	0.500	1077.098	739.755	0.273	0.153	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	1	0.550	0.500	1077.098	739.755	0.273	0.153	0.0	10	paper roll
+sun_agfbbeozqztznacq.jpg	1	0.550	0.500	1077.098	739.755	0.273	0.153	0.0	16	worktop
+sun_agfbbeozqztznacq.jpg	2	1.075	0.217	975.060	700.220	0.238	0.191	0.0	12	plate
+sun_agfbbeozqztznacq.jpg	3	1.308	0.200	925.348	676.388	0.190	0.132	0.0	12	plate
+sun_agfbbeozqztznacq.jpg	4	1.525	0.233	1006.048	505.080	0.123	0.050	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	5	1.775	0.267	1113.085	424.190	0.141	0.051	0.0	0	other
+sun_agfbbeozqztznacq.jpg	6	2.067	0.358	1385.085	444.940	0.121	0.047	0.0	11	pendant lamp
+sun_agfbbeozqztznacq.jpg	7	2.458	0.117	1506.620	866.775	NaN	0.000	85.7	5	kitchen island
+sun_agfbbeozqztznacq.jpg	8	2.608	0.267	1494.447	513.760	0.271	0.143	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	9	2.900	0.100	1351.155	744.795	0.136	0.046	0.0	3	cabinet
+sun_agfbbeozqztznacq.jpg	9	2.900	0.100	1351.155	744.795	0.136	0.046	0.0	16	worktop

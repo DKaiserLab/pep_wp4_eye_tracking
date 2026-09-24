@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afvkcxzohlpzliti.jpg	1	0.539	0.367	1455.845	782.800	0.052	0.014	0.0	0	other
+sun_afvkcxzohlpzliti.jpg	2	0.939	0.183	1326.963	929.233	0.203	0.133	0.0	0	other
+sun_afvkcxzohlpzliti.jpg	3	1.180	0.208	1099.535	966.765	0.062	0.021	0.0	4	countertop
+sun_afvkcxzohlpzliti.jpg	3	1.180	0.208	1099.535	966.765	0.062	0.021	0.0	8	sink
+sun_afvkcxzohlpzliti.jpg	4	1.414	0.150	1043.162	909.257	0.071	0.026	0.0	4	countertop
+sun_afvkcxzohlpzliti.jpg	5	1.589	0.392	1082.595	708.175	0.085	0.107	0.0	0	other
+sun_afvkcxzohlpzliti.jpg	6	2.005	0.283	1169.952	634.300	0.088	0.033	0.0	0	other
+sun_afvkcxzohlpzliti.jpg	7	2.330	0.208	1260.745	617.595	0.062	0.020	0.0	3	ceiling recessed light
+sun_afvkcxzohlpzliti.jpg	8	2.564	0.442	1304.335	622.125	0.061	0.046	0.0	3	ceiling recessed light

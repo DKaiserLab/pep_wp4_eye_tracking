@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajnzhggqkskokvyd.jpg	1	0.292	0.167	1360.697	745.967	0.139	0.050	0.0	3	coffee maker
+sun_ajnzhggqkskokvyd.jpg	1	0.292	0.167	1360.697	745.967	0.139	0.050	0.0	4	curtain
+sun_ajnzhggqkskokvyd.jpg	1	0.292	0.167	1360.697	745.967	0.139	0.050	0.0	13	tray
+sun_ajnzhggqkskokvyd.jpg	2	0.484	0.208	1455.195	816.550	0.103	0.048	0.0	7	oven
+sun_ajnzhggqkskokvyd.jpg	2	0.484	0.208	1455.195	816.550	0.103	0.048	0.0	12	table
+sun_ajnzhggqkskokvyd.jpg	3	0.709	0.308	1511.195	849.625	0.207	0.113	0.0	7	oven
+sun_ajnzhggqkskokvyd.jpg	3	0.709	0.308	1511.195	849.625	0.207	0.113	0.0	12	table
+sun_ajnzhggqkskokvyd.jpg	4	1.059	0.117	1207.690	852.075	0.138	0.042	0.0	2	cabinets
+sun_ajnzhggqkskokvyd.jpg	5	1.192	0.283	1064.477	871.842	0.095	0.044	0.0	2	cabinets
+sun_ajnzhggqkskokvyd.jpg	6	1.500	0.175	1021.465	785.780	0.119	0.054	0.0	2	cabinets
+sun_ajnzhggqkskokvyd.jpg	7	1.692	0.192	1146.500	735.440	0.099	0.029	0.0	14	window
+sun_ajnzhggqkskokvyd.jpg	8	1.909	0.250	1225.523	735.952	0.082	0.041	0.0	4	curtain
+sun_ajnzhggqkskokvyd.jpg	8	1.909	0.250	1225.523	735.952	0.082	0.041	0.0	14	window
+sun_ajnzhggqkskokvyd.jpg	9	2.184	0.225	1294.355	719.415	0.113	0.050	0.0	4	curtain
+sun_ajnzhggqkskokvyd.jpg	9	2.184	0.225	1294.355	719.415	0.113	0.050	0.0	14	window
+sun_ajnzhggqkskokvyd.jpg	10	2.434	0.200	1411.930	726.558	0.072	0.020	0.0	3	coffee maker
+sun_ajnzhggqkskokvyd.jpg	10	2.434	0.200	1411.930	726.558	0.072	0.020	0.0	13	tray
+sun_ajnzhggqkskokvyd.jpg	11	2.650	0.358	1503.810	710.445	0.077	0.025	0.0	0	other

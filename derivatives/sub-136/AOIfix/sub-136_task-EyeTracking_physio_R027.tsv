@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqgljqwslycnxfzi.jpg	1	0.553	0.183	980.995	633.325	0.177	0.116	0.0	4	cabinet
+sun_aqgljqwslycnxfzi.jpg	2	0.753	0.100	992.590	559.213	0.126	0.030	0.0	4	cabinet
+sun_aqgljqwslycnxfzi.jpg	3	0.919	0.183	1393.782	569.195	0.118	0.026	0.0	4	cabinet
+sun_aqgljqwslycnxfzi.jpg	4	1.119	0.175	1503.845	629.800	0.198	0.145	0.0	4	cabinet
+sun_aqgljqwslycnxfzi.jpg	4	1.119	0.175	1503.845	629.800	0.198	0.145	0.0	17	window
+sun_aqgljqwslycnxfzi.jpg	5	1.328	0.225	1548.670	866.110	0.204	0.107	0.0	4	cabinet
+sun_aqgljqwslycnxfzi.jpg	6	1.636	0.158	1316.245	899.180	0.345	0.916	0.0	1	bar
+sun_aqgljqwslycnxfzi.jpg	6	1.636	0.158	1316.245	899.180	0.345	0.916	0.0	6	chair
+sun_aqgljqwslycnxfzi.jpg	7	1.811	0.258	1191.030	876.630	0.191	0.133	0.0	1	bar
+sun_aqgljqwslycnxfzi.jpg	7	1.811	0.258	1191.030	876.630	0.191	0.133	0.0	6	chair
+sun_aqgljqwslycnxfzi.jpg	8	2.094	0.167	1017.745	817.293	0.198	0.080	0.0	1	bar
+sun_aqgljqwslycnxfzi.jpg	8	2.094	0.167	1017.745	817.293	0.198	0.080	0.0	6	chair
+sun_aqgljqwslycnxfzi.jpg	9	2.278	0.175	884.245	776.010	0.177	0.095	0.0	4	cabinet
+sun_aqgljqwslycnxfzi.jpg	9	2.278	0.175	884.245	776.010	0.177	0.095	0.0	6	chair
+sun_aqgljqwslycnxfzi.jpg	10	2.486	0.192	1065.825	699.110	0.176	0.060	0.0	0	other
+sun_aqgljqwslycnxfzi.jpg	11	2.703	0.175	1340.280	730.385	0.252	0.184	0.0	15	refrigerator
+sun_aqgljqwslycnxfzi.jpg	11	2.703	0.175	1340.280	730.385	0.252	0.184	0.0	18	worktop
+sun_aqgljqwslycnxfzi.jpg	12	2.911	0.125	1434.340	719.045	0.178	0.077	0.0	7	coffee maker

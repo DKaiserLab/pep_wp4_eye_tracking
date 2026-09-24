@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahqjwnzgolcaoidx.jpg	1	0.420	0.250	1252.540	698.600	0.085	0.020	0.0	2	blind
+sun_ahqjwnzgolcaoidx.jpg	1	0.420	0.250	1252.540	698.600	0.085	0.020	0.0	21	window
+sun_ahqjwnzgolcaoidx.jpg	2	0.703	0.342	1000.555	827.510	0.181	0.083	0.0	5	cap
+sun_ahqjwnzgolcaoidx.jpg	2	0.703	0.342	1000.555	827.510	0.181	0.083	0.0	6	countertop
+sun_ahqjwnzgolcaoidx.jpg	3	1.061	0.667	997.600	873.857	0.297	0.396	0.0	6	countertop
+sun_ahqjwnzgolcaoidx.jpg	3	1.061	0.667	997.600	873.857	0.297	0.396	0.0	9	figurine
+sun_ahqjwnzgolcaoidx.jpg	4	1.745	0.417	986.470	894.577	0.155	0.045	0.0	3	bottle
+sun_ahqjwnzgolcaoidx.jpg	4	1.745	0.417	986.470	894.577	0.155	0.045	0.0	6	countertop
+sun_ahqjwnzgolcaoidx.jpg	4	1.745	0.417	986.470	894.577	0.155	0.045	0.0	9	figurine
+sun_ahqjwnzgolcaoidx.jpg	5	2.178	0.233	910.632	902.330	0.232	0.113	0.0	6	countertop
+sun_ahqjwnzgolcaoidx.jpg	5	2.178	0.233	910.632	902.330	0.232	0.113	0.0	13	soap dispenser
+sun_ahqjwnzgolcaoidx.jpg	6	2.436	0.358	892.295	877.935	0.185	0.060	0.0	6	countertop
+sun_ahqjwnzgolcaoidx.jpg	6	2.436	0.358	892.295	877.935	0.185	0.060	0.0	10	mirror
+sun_ahqjwnzgolcaoidx.jpg	6	2.436	0.358	892.295	877.935	0.185	0.060	0.0	13	soap dispenser
+sun_ahqjwnzgolcaoidx.jpg	7	2.820	0.183	969.683	802.755	0.145	0.056	0.0	10	mirror

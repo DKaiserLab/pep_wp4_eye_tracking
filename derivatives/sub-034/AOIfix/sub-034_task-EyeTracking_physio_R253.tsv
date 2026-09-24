@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aeqdtdmvphproomc.jpg	1	0.277	0.233	1059.513	705.275	0.139	0.069	0.0	11	extractor hood
+sun_aeqdtdmvphproomc.jpg	2	0.527	0.167	998.845	653.288	0.124	0.026	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	3	0.719	0.283	1118.408	554.040	0.085	0.016	0.0	11	extractor hood
+sun_aeqdtdmvphproomc.jpg	4	1.027	0.275	1062.990	614.140	0.137	0.045	0.0	11	extractor hood
+sun_aeqdtdmvphproomc.jpg	5	1.311	0.125	1111.065	634.630	0.146	0.036	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	5	1.311	0.125	1111.065	634.630	0.146	0.036	0.0	11	extractor hood
+sun_aeqdtdmvphproomc.jpg	6	1.477	0.225	1579.315	820.980	0.151	0.032	0.0	15	mug
+sun_aeqdtdmvphproomc.jpg	6	1.477	0.225	1579.315	820.980	0.151	0.032	0.0	21	pot
+sun_aeqdtdmvphproomc.jpg	6	1.477	0.225	1579.315	820.980	0.151	0.032	0.0	26	table
+sun_aeqdtdmvphproomc.jpg	7	1.736	0.267	1597.245	517.787	0.089	0.044	0.0	8	chandelier crop
+sun_aeqdtdmvphproomc.jpg	7	1.736	0.267	1597.245	517.787	0.089	0.044	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	8	2.027	0.225	1346.885	596.275	0.145	0.040	0.0	1	bowl
+sun_aeqdtdmvphproomc.jpg	8	2.027	0.225	1346.885	596.275	0.145	0.040	0.0	2	bowls
+sun_aeqdtdmvphproomc.jpg	8	2.027	0.225	1346.885	596.275	0.145	0.040	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	9	2.269	0.475	1339.115	681.540	0.131	0.050	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	9	2.269	0.475	1339.115	681.540	0.131	0.050	0.0	9	clock
+sun_aeqdtdmvphproomc.jpg	10	2.769	0.233	1083.247	800.163	0.190	0.051	0.0	14	jar
+sun_aeqdtdmvphproomc.jpg	10	2.769	0.233	1083.247	800.163	0.190	0.051	0.0	22	range
+sun_aeqdtdmvphproomc.jpg	10	2.769	0.233	1083.247	800.163	0.190	0.051	0.0	33	worktop

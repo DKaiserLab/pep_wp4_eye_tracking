@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aitsjpidonnknvwm.jpg	1	0.228	0.233	1328.075	764.043	0.150	0.051	0.0	8	sponge
+sun_aitsjpidonnknvwm.jpg	1	0.228	0.233	1328.075	764.043	0.150	0.051	0.0	10	toilet crop
+sun_aitsjpidonnknvwm.jpg	2	0.495	0.217	1200.697	820.125	0.262	0.081	0.0	6	shower screen
+sun_aitsjpidonnknvwm.jpg	3	0.728	0.225	1260.820	835.740	0.268	0.136	0.0	6	shower screen
+sun_aitsjpidonnknvwm.jpg	4	1.095	0.125	1025.835	941.290	0.329	0.494	0.0	1	bathtub
+sun_aitsjpidonnknvwm.jpg	4	1.095	0.125	1025.835	941.290	0.329	0.494	0.0	6	shower screen
+sun_aitsjpidonnknvwm.jpg	5	1.245	0.167	1322.863	865.740	0.302	0.083	0.0	10	toilet crop
+sun_aitsjpidonnknvwm.jpg	6	1.420	0.308	1284.295	845.335	0.239	0.092	0.0	6	shower screen
+sun_aitsjpidonnknvwm.jpg	6	1.420	0.308	1284.295	845.335	0.239	0.092	0.0	11	toilet paper
+sun_aitsjpidonnknvwm.jpg	7	1.753	0.242	951.870	978.825	0.204	0.315	0.0	1	bathtub
+sun_aitsjpidonnknvwm.jpg	7	1.753	0.242	951.870	978.825	0.204	0.315	0.0	4	rug
+sun_aitsjpidonnknvwm.jpg	8	2.037	0.333	1296.810	822.455	0.151	0.054	0.0	10	toilet crop
+sun_aitsjpidonnknvwm.jpg	9	2.387	0.333	1280.905	832.567	0.124	0.026	0.0	6	shower screen
+sun_aitsjpidonnknvwm.jpg	9	2.387	0.333	1280.905	832.567	0.124	0.026	0.0	11	toilet paper
+sun_aitsjpidonnknvwm.jpg	10	2.828	0.175	1670.730	787.065	0.187	0.215	0.0	0	other

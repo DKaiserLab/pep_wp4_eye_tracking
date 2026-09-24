@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aiequdasdjeizszp.jpg	1	0.409	0.208	1387.415	682.420	0.108	0.077	0.0	12	stove
+sun_aiequdasdjeizszp.jpg	2	0.642	0.250	1619.068	886.938	0.128	0.093	0.0	1	bowl
+sun_aiequdasdjeizszp.jpg	2	0.642	0.250	1619.068	886.938	0.128	0.093	0.0	5	fruits
+sun_aiequdasdjeizszp.jpg	2	0.642	0.250	1619.068	886.938	0.128	0.093	0.0	6	glass
+sun_aiequdasdjeizszp.jpg	2	0.642	0.250	1619.068	886.938	0.128	0.093	0.0	13	table crop
+sun_aiequdasdjeizszp.jpg	3	0.926	0.250	1248.105	713.965	0.104	0.072	0.0	10	refrigerator
+sun_aiequdasdjeizszp.jpg	4	1.201	0.217	1190.570	729.090	0.167	0.100	0.0	10	refrigerator
+sun_aiequdasdjeizszp.jpg	5	1.467	0.192	1094.100	692.320	0.120	0.021	0.0	15	worktop
+sun_aiequdasdjeizszp.jpg	6	1.676	0.217	1151.860	644.652	0.077	0.019	0.0	15	worktop
+sun_aiequdasdjeizszp.jpg	7	1.909	0.333	1053.435	675.378	0.101	0.050	0.0	11	sink
+sun_aiequdasdjeizszp.jpg	7	1.909	0.333	1053.435	675.378	0.101	0.050	0.0	15	worktop
+sun_aiequdasdjeizszp.jpg	8	2.276	0.283	962.900	750.565	0.089	0.056	0.0	2	cabinet
+sun_aiequdasdjeizszp.jpg	9	2.584	0.242	1201.350	690.605	0.105	0.035	0.0	10	refrigerator
+sun_aiequdasdjeizszp.jpg	9	2.584	0.242	1201.350	690.605	0.105	0.035	0.0	15	worktop
+sun_aiequdasdjeizszp.jpg	10	2.851	0.150	994.762	719.050	0.105	0.021	0.0	2	cabinet

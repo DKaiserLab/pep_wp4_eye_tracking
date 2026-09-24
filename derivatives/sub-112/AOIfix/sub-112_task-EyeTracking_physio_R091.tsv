@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amjiwsczphtrowfh.jpg	1	0.294	0.167	1215.400	643.480	0.165	0.036	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	2	0.477	0.733	1258.957	675.005	0.082	0.043	0.0	24	television
+sun_amjiwsczphtrowfh.jpg	3	1.252	0.292	1031.595	566.480	0.086	0.025	0.0	8	clock
+sun_amjiwsczphtrowfh.jpg	3	1.252	0.292	1031.595	566.480	0.086	0.025	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	4	1.560	0.250	1050.730	533.108	0.063	0.011	0.0	8	clock
+sun_amjiwsczphtrowfh.jpg	5	1.852	0.458	1550.790	605.140	0.080	0.024	0.0	10	curtain
+sun_amjiwsczphtrowfh.jpg	6	2.335	0.200	1496.900	645.188	0.094	0.024	0.0	10	curtain
+sun_amjiwsczphtrowfh.jpg	6	2.335	0.200	1496.900	645.188	0.094	0.024	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	7	2.560	0.208	1483.145	698.185	0.081	0.016	0.0	3	box
+sun_amjiwsczphtrowfh.jpg	7	2.560	0.208	1483.145	698.185	0.081	0.016	0.0	23	telephone
+sun_amjiwsczphtrowfh.jpg	7	2.560	0.208	1483.145	698.185	0.081	0.016	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	8	2.794	0.217	1431.175	713.577	0.116	0.089	0.0	2	books
+sun_amjiwsczphtrowfh.jpg	8	2.794	0.217	1431.175	713.577	0.116	0.089	0.0	3	box
+sun_amjiwsczphtrowfh.jpg	8	2.794	0.217	1431.175	713.577	0.116	0.089	0.0	7	cheese dish
+sun_amjiwsczphtrowfh.jpg	8	2.794	0.217	1431.175	713.577	0.116	0.089	0.0	26	window

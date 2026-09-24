@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adcrxklhlbwrbkgm.jpg	1	0.457	0.300	1001.395	810.113	0.148	0.079	0.0	6	dishcloth
+sun_adcrxklhlbwrbkgm.jpg	2	0.782	0.417	935.270	776.702	0.173	0.062	0.0	14	mug
+sun_adcrxklhlbwrbkgm.jpg	2	0.782	0.417	935.270	776.702	0.173	0.062	0.0	24	toaster
+sun_adcrxklhlbwrbkgm.jpg	3	1.224	0.208	999.770	796.370	0.134	0.025	0.0	6	dishcloth
+sun_adcrxklhlbwrbkgm.jpg	3	1.224	0.208	999.770	796.370	0.134	0.025	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	4	1.474	0.342	1493.750	800.210	0.137	0.068	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	4	1.474	0.342	1493.750	800.210	0.137	0.068	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	5	1.841	0.400	1627.140	815.645	0.137	0.047	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	6	2.266	0.342	1560.095	768.435	0.138	0.039	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	6	2.266	0.342	1560.095	768.435	0.138	0.039	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	7	2.624	0.158	1540.145	776.020	0.205	0.064	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	7	2.624	0.158	1540.145	776.020	0.205	0.064	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	8	2.799	0.208	1578.560	773.535	0.148	0.038	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	8	2.799	0.208	1578.560	773.535	0.148	0.038	0.0	19	range

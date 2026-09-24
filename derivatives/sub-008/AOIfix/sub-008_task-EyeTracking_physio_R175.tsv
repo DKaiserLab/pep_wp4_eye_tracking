@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aydxycepjgosoubm.jpg	1	0.263	0.175	1086.510	606.210	0.120	0.063	0.0	2	cabinet
+sun_aydxycepjgosoubm.jpg	2	0.471	0.283	893.987	651.837	0.068	0.068	0.0	10	water tank
+sun_aydxycepjgosoubm.jpg	3	0.780	0.267	1214.637	459.933	0.085	0.087	0.0	5	fluorescent tube
+sun_aydxycepjgosoubm.jpg	4	1.088	0.317	1521.220	762.460	0.088	0.032	0.0	11	worktop
+sun_aydxycepjgosoubm.jpg	5	1.421	0.308	1675.920	863.210	0.120	0.048	0.0	2	cabinet
+sun_aydxycepjgosoubm.jpg	5	1.421	0.308	1675.920	863.210	0.120	0.048	0.0	11	worktop
+sun_aydxycepjgosoubm.jpg	6	1.755	0.183	1702.705	808.712	0.093	0.048	0.0	3	cloth
+sun_aydxycepjgosoubm.jpg	6	1.755	0.183	1702.705	808.712	0.093	0.048	0.0	11	worktop
+sun_aydxycepjgosoubm.jpg	7	1.955	0.133	1529.308	799.953	0.117	0.077	0.0	2	cabinet
+sun_aydxycepjgosoubm.jpg	7	1.955	0.133	1529.308	799.953	0.117	0.077	0.0	11	worktop
+sun_aydxycepjgosoubm.jpg	8	2.105	0.192	1381.315	853.875	0.105	0.028	0.0	8	range
+sun_aydxycepjgosoubm.jpg	9	2.363	0.133	833.097	860.125	0.063	0.017	0.0	-1	off stimulus
+sun_aydxycepjgosoubm.jpg	10	2.521	0.333	940.645	846.368	0.086	0.057	0.0	9	stool
+sun_aydxycepjgosoubm.jpg	10	2.521	0.333	940.645	846.368	0.086	0.057	0.0	11	worktop
+sun_aydxycepjgosoubm.jpg	11	2.888	0.117	1386.590	880.085	0.179	0.071	0.0	8	range

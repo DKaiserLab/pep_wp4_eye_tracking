@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aunuadmjocsddsrl.jpg	1	0.207	0.275	1146.905	715.310	0.159	0.045	0.0	1	basket
+sun_aunuadmjocsddsrl.jpg	1	0.207	0.275	1146.905	715.310	0.159	0.045	0.0	11	toilet
+sun_aunuadmjocsddsrl.jpg	2	0.632	0.283	1181.460	974.105	0.415	0.168	0.0	11	toilet
+sun_aunuadmjocsddsrl.jpg	3	0.940	0.342	1301.530	968.155	0.140	0.061	0.0	13	trash can
+sun_aunuadmjocsddsrl.jpg	4	1.307	0.275	1471.510	885.740	0.303	0.148	0.0	8	sink
+sun_aunuadmjocsddsrl.jpg	5	1.598	0.217	1520.740	782.938	0.169	0.039	0.0	12	towels
+sun_aunuadmjocsddsrl.jpg	6	1.873	0.417	1376.428	510.438	0.087	0.025	0.0	3	cabinet
+sun_aunuadmjocsddsrl.jpg	7	2.315	0.242	1373.815	444.885	0.069	0.012	0.0	3	cabinet
+sun_aunuadmjocsddsrl.jpg	8	2.582	0.308	1371.375	436.275	0.063	0.014	0.0	3	cabinet

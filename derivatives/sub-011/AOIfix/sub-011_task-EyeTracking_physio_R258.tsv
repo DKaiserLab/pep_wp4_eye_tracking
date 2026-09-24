@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aiffeoqzngslhzfi.jpg	1	0.271	0.292	1114.080	692.870	0.095	0.025	0.0	1	basket
+sun_aiffeoqzngslhzfi.jpg	1	0.271	0.292	1114.080	692.870	0.095	0.025	0.0	6	microwave
+sun_aiffeoqzngslhzfi.jpg	2	0.588	0.175	1200.235	728.870	0.145	0.064	0.0	6	microwave
+sun_aiffeoqzngslhzfi.jpg	3	0.954	0.175	1513.900	774.775	0.208	0.259	0.0	11	worktop
+sun_aiffeoqzngslhzfi.jpg	4	1.146	0.283	1421.348	776.705	0.097	0.055	0.0	10	stove
+sun_aiffeoqzngslhzfi.jpg	5	1.454	0.358	1612.295	749.025	0.133	0.049	0.0	8	oven
+sun_aiffeoqzngslhzfi.jpg	6	1.838	0.233	1350.415	790.695	0.120	0.036	0.0	10	stove
+sun_aiffeoqzngslhzfi.jpg	7	2.113	0.183	1603.460	786.645	0.097	0.021	0.0	8	oven
+sun_aiffeoqzngslhzfi.jpg	7	2.113	0.183	1603.460	786.645	0.097	0.021	0.0	9	plate
+sun_aiffeoqzngslhzfi.jpg	7	2.113	0.183	1603.460	786.645	0.097	0.021	0.0	11	worktop
+sun_aiffeoqzngslhzfi.jpg	8	2.329	0.408	1631.295	794.045	0.104	0.028	0.0	9	plate
+sun_aiffeoqzngslhzfi.jpg	8	2.329	0.408	1631.295	794.045	0.104	0.028	0.0	11	worktop
+sun_aiffeoqzngslhzfi.jpg	9	2.763	0.242	1347.885	784.325	0.120	0.037	0.0	10	stove

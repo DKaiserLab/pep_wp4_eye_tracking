@@ -1,0 +1,23 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abqihmfbiddwtcmz.jpg	1	0.541	0.292	1510.475	894.805	0.322	0.101	0.0	7	french bread
+sun_abqihmfbiddwtcmz.jpg	1	0.541	0.292	1510.475	894.805	0.322	0.101	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	2	0.850	0.192	1550.390	882.380	0.233	0.083	0.0	7	french bread
+sun_abqihmfbiddwtcmz.jpg	2	0.850	0.192	1550.390	882.380	0.233	0.083	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	3	1.075	0.283	1164.362	906.715	0.390	0.358	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	3	1.075	0.283	1164.362	906.715	0.390	0.358	0.0	4	chair crop
+sun_abqihmfbiddwtcmz.jpg	3	1.075	0.283	1164.362	906.715	0.390	0.358	0.0	19	trash bag
+sun_abqihmfbiddwtcmz.jpg	4	1.458	0.417	1665.525	624.450	0.155	0.318	0.0	3	canister
+sun_abqihmfbiddwtcmz.jpg	4	1.458	0.417	1665.525	624.450	0.155	0.318	0.0	8	fruits
+sun_abqihmfbiddwtcmz.jpg	4	1.458	0.417	1665.525	624.450	0.155	0.318	0.0	9	jar
+sun_abqihmfbiddwtcmz.jpg	4	1.458	0.417	1665.525	624.450	0.155	0.318	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	5	1.975	0.217	1375.218	678.848	0.085	0.048	0.0	15	sink
+sun_abqihmfbiddwtcmz.jpg	5	1.975	0.217	1375.218	678.848	0.085	0.048	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	6	2.216	0.158	1441.265	683.415	0.136	0.051	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	6	2.216	0.158	1441.265	683.415	0.136	0.051	0.0	17	stove
+sun_abqihmfbiddwtcmz.jpg	6	2.216	0.158	1441.265	683.415	0.136	0.051	0.0	20	worktop
+sun_abqihmfbiddwtcmz.jpg	7	2.416	0.425	1148.525	926.100	0.285	0.140	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	7	2.416	0.425	1148.525	926.100	0.285	0.140	0.0	4	chair crop
+sun_abqihmfbiddwtcmz.jpg	7	2.416	0.425	1148.525	926.100	0.285	0.140	0.0	19	trash bag
+sun_abqihmfbiddwtcmz.jpg	8	2.891	0.117	1279.740	741.342	0.093	0.032	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	8	2.891	0.117	1279.740	741.342	0.093	0.032	0.0	15	sink
+sun_abqihmfbiddwtcmz.jpg	8	2.891	0.117	1279.740	741.342	0.093	0.032	0.0	20	worktop

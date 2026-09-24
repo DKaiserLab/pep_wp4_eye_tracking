@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aovnyfewezfmgwke.jpg	1	0.564	0.242	1184.355	635.260	0.281	0.161	0.0	22	utensils canister
+sun_aovnyfewezfmgwke.jpg	2	0.830	0.192	1128.955	630.785	0.114	0.021	0.0	10	outlet
+sun_aovnyfewezfmgwke.jpg	2	0.830	0.192	1128.955	630.785	0.114	0.021	0.0	19	spices
+sun_aovnyfewezfmgwke.jpg	3	1.039	0.200	1247.108	673.077	0.220	0.083	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	4	1.272	0.250	1603.070	822.513	0.131	0.045	0.0	18	sink
+sun_aovnyfewezfmgwke.jpg	4	1.272	0.250	1603.070	822.513	0.131	0.045	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	5	1.539	0.242	1625.990	752.955	0.112	0.029	0.0	18	sink
+sun_aovnyfewezfmgwke.jpg	5	1.539	0.242	1625.990	752.955	0.112	0.029	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	6	1.805	0.267	1559.257	736.290	0.156	0.033	0.0	18	sink
+sun_aovnyfewezfmgwke.jpg	6	1.805	0.267	1559.257	736.290	0.156	0.033	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	7	2.089	0.150	1649.765	749.077	0.174	0.062	0.0	18	sink
+sun_aovnyfewezfmgwke.jpg	7	2.089	0.150	1649.765	749.077	0.174	0.062	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	8	2.272	0.283	1320.520	964.240	0.134	0.050	0.0	0	other
+sun_aovnyfewezfmgwke.jpg	9	2.572	0.267	1182.070	924.955	0.129	0.030	0.0	0	other
+sun_aovnyfewezfmgwke.jpg	10	2.864	0.142	1079.185	865.175	0.121	0.020	0.0	2	cabinet

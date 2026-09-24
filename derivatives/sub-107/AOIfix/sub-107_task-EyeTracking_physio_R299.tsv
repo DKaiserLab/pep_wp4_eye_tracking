@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aueoksosdjqlckgv.jpg	1	0.316	0.175	1157.485	705.195	0.166	0.206	0.0	4	cabinet
+sun_aueoksosdjqlckgv.jpg	2	0.516	0.225	1040.025	677.460	0.152	0.102	0.0	4	cabinet
+sun_aueoksosdjqlckgv.jpg	3	0.791	0.183	915.545	655.892	0.135	0.066	0.0	13	refrigerator
+sun_aueoksosdjqlckgv.jpg	4	1.007	0.192	1249.830	684.985	0.113	0.089	0.0	15	stove
+sun_aueoksosdjqlckgv.jpg	4	1.007	0.192	1249.830	684.985	0.113	0.089	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	5	1.216	0.200	1366.835	687.385	0.175	0.093	0.0	15	stove
+sun_aueoksosdjqlckgv.jpg	5	1.216	0.200	1366.835	687.385	0.175	0.093	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	6	1.457	0.142	1542.630	721.035	0.102	0.077	0.0	5	camera
+sun_aueoksosdjqlckgv.jpg	6	1.457	0.142	1542.630	721.035	0.102	0.077	0.0	6	coffee maker
+sun_aueoksosdjqlckgv.jpg	6	1.457	0.142	1542.630	721.035	0.102	0.077	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	7	1.624	0.483	1647.065	803.418	0.171	0.122	0.0	4	cabinet
+sun_aueoksosdjqlckgv.jpg	8	2.124	0.175	1567.935	763.355	0.176	0.124	0.0	5	camera
+sun_aueoksosdjqlckgv.jpg	8	2.124	0.175	1567.935	763.355	0.176	0.124	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	9	2.341	0.333	1063.345	903.793	0.149	0.085	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	10	2.691	0.167	1060.488	972.783	0.199	0.085	0.0	4	cabinet
+sun_aueoksosdjqlckgv.jpg	11	2.883	0.125	1426.770	955.350	0.651	1.064	0.0	4	cabinet

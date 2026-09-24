@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aobyfgpmnvnnuolx.jpg	1	0.340	0.200	1219.408	717.452	0.119	0.077	0.0	0	other
+sun_aobyfgpmnvnnuolx.jpg	2	0.565	0.150	1132.782	704.565	0.085	0.039	0.0	0	other
+sun_aobyfgpmnvnnuolx.jpg	3	0.740	0.608	1132.875	743.115	0.072	0.140	0.0	7	light switch
+sun_aobyfgpmnvnnuolx.jpg	4	1.365	0.250	1139.860	775.483	0.086	0.101	0.0	0	other
+sun_aobyfgpmnvnnuolx.jpg	5	1.631	0.342	1176.125	776.340	0.083	0.037	0.0	6	knife set
+sun_aobyfgpmnvnnuolx.jpg	6	1.990	0.242	1154.555	802.475	0.152	0.189	0.0	0	other
+sun_aobyfgpmnvnnuolx.jpg	7	2.256	0.267	1108.432	812.938	0.098	0.082	0.0	5	hotpl
+sun_aobyfgpmnvnnuolx.jpg	7	2.256	0.267	1108.432	812.938	0.098	0.082	0.0	11	worktop
+sun_aobyfgpmnvnnuolx.jpg	8	2.548	0.233	1082.872	843.390	0.092	0.051	0.0	1	cabinet
+sun_aobyfgpmnvnnuolx.jpg	8	2.548	0.233	1082.872	843.390	0.092	0.051	0.0	11	worktop
+sun_aobyfgpmnvnnuolx.jpg	9	2.806	0.183	1161.260	808.410	0.096	0.109	0.0	11	worktop

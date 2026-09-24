@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akjyhxlvhklxxtyd.jpg	1	0.373	0.183	1289.332	804.110	0.135	0.044	0.0	2	bathtub
+sun_akjyhxlvhklxxtyd.jpg	2	0.590	0.158	946.445	818.745	0.159	0.074	0.0	4	countertop
+sun_akjyhxlvhklxxtyd.jpg	2	0.590	0.158	946.445	818.745	0.159	0.074	0.0	9	sink
+sun_akjyhxlvhklxxtyd.jpg	3	0.782	0.200	1299.957	906.043	0.227	0.072	0.0	1	bag
+sun_akjyhxlvhklxxtyd.jpg	3	0.782	0.200	1299.957	906.043	0.227	0.072	0.0	7	shelves
+sun_akjyhxlvhklxxtyd.jpg	4	0.998	0.517	1342.182	910.800	0.111	0.045	0.0	1	bag
+sun_akjyhxlvhklxxtyd.jpg	4	0.998	0.517	1342.182	910.800	0.111	0.045	0.0	6	pipe
+sun_akjyhxlvhklxxtyd.jpg	4	0.998	0.517	1342.182	910.800	0.111	0.045	0.0	7	shelves
+sun_akjyhxlvhklxxtyd.jpg	5	1.540	0.408	1539.855	899.410	0.123	0.050	0.0	6	pipe
+sun_akjyhxlvhklxxtyd.jpg	5	1.540	0.408	1539.855	899.410	0.123	0.050	0.0	7	shelves
+sun_akjyhxlvhklxxtyd.jpg	6	1.957	0.308	1527.105	885.180	0.086	0.023	0.0	6	pipe
+sun_akjyhxlvhklxxtyd.jpg	6	1.957	0.308	1527.105	885.180	0.086	0.023	0.0	7	shelves
+sun_akjyhxlvhklxxtyd.jpg	7	2.307	0.183	1392.485	713.317	0.072	0.016	0.0	14	window
+sun_akjyhxlvhklxxtyd.jpg	8	2.524	0.242	1408.100	580.505	0.089	0.033	0.0	14	window
+sun_akjyhxlvhklxxtyd.jpg	9	2.815	0.192	1171.465	550.170	0.056	0.008	0.0	0	other

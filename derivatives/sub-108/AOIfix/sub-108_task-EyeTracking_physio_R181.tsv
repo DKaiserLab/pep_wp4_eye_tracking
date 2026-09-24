@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqqabpdqjxygueuw.jpg	1	0.457	0.317	1341.297	716.810	0.166	0.056	0.0	1	board
+sun_aqqabpdqjxygueuw.jpg	1	0.457	0.317	1341.297	716.810	0.166	0.056	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	1	0.457	0.317	1341.297	716.810	0.166	0.056	0.0	28	refrigerator
+sun_aqqabpdqjxygueuw.jpg	2	0.791	0.217	1480.678	837.758	0.205	0.107	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	2	0.791	0.217	1480.678	837.758	0.205	0.107	0.0	26	plantpot
+sun_aqqabpdqjxygueuw.jpg	2	0.791	0.217	1480.678	837.758	0.205	0.107	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	3	1.024	0.233	1659.717	839.600	0.158	0.122	0.0	22	oven
+sun_aqqabpdqjxygueuw.jpg	4	1.291	0.317	1714.415	734.372	0.215	0.074	0.0	22	oven
+sun_aqqabpdqjxygueuw.jpg	5	1.657	0.317	1000.815	926.920	0.189	0.124	0.0	0	other
+sun_aqqabpdqjxygueuw.jpg	6	1.999	0.158	999.490	814.385	0.145	0.044	0.0	0	other
+sun_aqqabpdqjxygueuw.jpg	7	2.182	0.283	902.403	686.715	0.196	0.112	0.0	18	jar
+sun_aqqabpdqjxygueuw.jpg	8	2.491	0.183	845.635	657.273	0.163	0.061	0.0	5	cabinet
+sun_aqqabpdqjxygueuw.jpg	9	2.707	0.300	1277.505	771.602	0.127	0.129	0.0	20	kitchen island
+sun_aqqabpdqjxygueuw.jpg	9	2.707	0.300	1277.505	771.602	0.127	0.129	0.0	28	refrigerator
+sun_aqqabpdqjxygueuw.jpg	9	2.707	0.300	1277.505	771.602	0.127	0.129	0.0	30	sink
+sun_aqqabpdqjxygueuw.jpg	9	2.707	0.300	1277.505	771.602	0.127	0.129	0.0	37	worktop

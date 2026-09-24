@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awmotvrngkanplxe.jpg	1	0.491	0.358	981.960	837.045	0.112	0.055	0.0	10	door
+sun_awmotvrngkanplxe.jpg	1	0.491	0.358	981.960	837.045	0.112	0.055	0.0	17	table
+sun_awmotvrngkanplxe.jpg	1	0.491	0.358	981.960	837.045	0.112	0.055	0.0	18	vase
+sun_awmotvrngkanplxe.jpg	2	0.866	0.342	955.945	775.140	0.082	0.026	0.0	10	door
+sun_awmotvrngkanplxe.jpg	2	0.866	0.342	955.945	775.140	0.082	0.026	0.0	11	flowers
+sun_awmotvrngkanplxe.jpg	2	0.866	0.342	955.945	775.140	0.082	0.026	0.0	18	vase
+sun_awmotvrngkanplxe.jpg	3	1.349	0.525	1433.360	638.005	0.110	0.040	0.0	5	cabinet
+sun_awmotvrngkanplxe.jpg	4	1.932	0.483	1402.855	944.670	0.085	0.041	0.0	8	chair
+sun_awmotvrngkanplxe.jpg	5	2.441	0.450	1068.952	909.385	0.081	0.048	0.0	17	table

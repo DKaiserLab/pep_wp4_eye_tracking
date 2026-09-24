@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alyergctkjrpiwgr.jpg	1	0.275	0.117	1103.705	517.087	0.182	0.047	0.0	0	other
+sun_alyergctkjrpiwgr.jpg	2	0.408	0.375	1026.490	463.300	0.090	0.040	0.0	0	other
+sun_alyergctkjrpiwgr.jpg	3	0.808	0.192	1182.325	508.930	0.128	0.041	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	4	1.033	0.308	1502.690	510.840	0.086	0.024	0.0	8	ceiling recessed light
+sun_alyergctkjrpiwgr.jpg	5	1.366	0.192	1586.545	604.815	0.118	0.046	0.0	0	other
+sun_alyergctkjrpiwgr.jpg	6	1.658	0.225	1272.615	862.975	0.128	0.054	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	6	1.658	0.225	1272.615	862.975	0.128	0.054	0.0	32	stove
+sun_alyergctkjrpiwgr.jpg	6	1.658	0.225	1272.615	862.975	0.128	0.054	0.0	35	towel
+sun_alyergctkjrpiwgr.jpg	7	1.900	0.183	1172.098	864.383	0.118	0.034	0.0	32	stove
+sun_alyergctkjrpiwgr.jpg	8	2.100	0.258	1133.565	809.575	0.088	0.019	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	8	2.100	0.258	1133.565	809.575	0.088	0.019	0.0	19	frying pan
+sun_alyergctkjrpiwgr.jpg	8	2.100	0.258	1133.565	809.575	0.088	0.019	0.0	32	stove
+sun_alyergctkjrpiwgr.jpg	8	2.100	0.258	1133.565	809.575	0.088	0.019	0.0	36	utensils canister
+sun_alyergctkjrpiwgr.jpg	9	2.375	0.217	1151.398	779.500	0.132	0.026	0.0	2	bottle
+sun_alyergctkjrpiwgr.jpg	9	2.375	0.217	1151.398	779.500	0.132	0.026	0.0	36	utensils canister
+sun_alyergctkjrpiwgr.jpg	10	2.625	0.192	1442.170	809.930	0.107	0.026	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	10	2.625	0.192	1442.170	809.930	0.107	0.026	0.0	14	door
+sun_alyergctkjrpiwgr.jpg	11	2.833	0.167	1559.285	844.207	0.108	0.029	0.0	9	chair
+sun_alyergctkjrpiwgr.jpg	11	2.833	0.167	1559.285	844.207	0.108	0.029	0.0	33	table runner

@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aovnyfewezfmgwke.jpg	1	0.552	0.175	1280.680	676.290	0.075	0.030	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	2	0.752	0.292	1287.405	549.940	0.139	0.033	0.0	0	other
+sun_aovnyfewezfmgwke.jpg	3	1.061	0.350	1276.678	487.492	0.205	0.050	0.0	6	extractor hood
+sun_aovnyfewezfmgwke.jpg	3	1.061	0.350	1276.678	487.492	0.205	0.050	0.0	12	plant
+sun_aovnyfewezfmgwke.jpg	4	1.452	0.275	1010.925	596.295	0.121	0.024	0.0	2	cabinet
+sun_aovnyfewezfmgwke.jpg	5	1.744	0.200	1096.483	671.272	0.142	0.035	0.0	3	clock
+sun_aovnyfewezfmgwke.jpg	5	1.744	0.200	1096.483	671.272	0.142	0.035	0.0	12	plant
+sun_aovnyfewezfmgwke.jpg	5	1.744	0.200	1096.483	671.272	0.142	0.035	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	6	1.977	0.250	1199.072	661.360	0.114	0.030	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	6	1.977	0.250	1199.072	661.360	0.114	0.030	0.0	22	utensils canister
+sun_aovnyfewezfmgwke.jpg	6	1.977	0.250	1199.072	661.360	0.114	0.030	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	7	2.244	0.283	1435.303	670.600	0.131	0.031	0.0	7	glass
+sun_aovnyfewezfmgwke.jpg	7	2.244	0.283	1435.303	670.600	0.131	0.031	0.0	9	napkin
+sun_aovnyfewezfmgwke.jpg	7	2.244	0.283	1435.303	670.600	0.131	0.031	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	7	2.244	0.283	1435.303	670.600	0.131	0.031	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	8	2.561	0.442	1532.335	654.670	0.091	0.020	0.0	13	plantpot
+sun_aovnyfewezfmgwke.jpg	8	2.561	0.442	1532.335	654.670	0.091	0.020	0.0	16	shaker
+sun_aovnyfewezfmgwke.jpg	8	2.561	0.442	1532.335	654.670	0.091	0.020	0.0	23	worktop

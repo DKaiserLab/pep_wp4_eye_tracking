@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_avtdeaxixgmwquck.jpg	1	0.560	0.125	1349.640	744.605	0.261	0.054	0.0	0	other
+sun_avtdeaxixgmwquck.jpg	2	0.802	0.325	1447.970	768.990	0.120	0.082	0.0	4	box
+sun_avtdeaxixgmwquck.jpg	2	0.802	0.325	1447.970	768.990	0.120	0.082	0.0	16	oven
+sun_avtdeaxixgmwquck.jpg	3	1.144	0.267	1492.500	737.548	0.077	0.035	0.0	16	oven
+sun_avtdeaxixgmwquck.jpg	4	1.435	0.342	1464.185	672.965	0.085	0.039	0.0	16	oven
+sun_avtdeaxixgmwquck.jpg	5	1.819	0.175	1409.040	682.960	0.056	0.011	0.0	16	oven
+sun_avtdeaxixgmwquck.jpg	6	2.019	0.225	1290.780	695.860	0.108	0.036	0.0	20	television
+sun_avtdeaxixgmwquck.jpg	6	2.019	0.225	1290.780	695.860	0.108	0.036	0.0	23	window
+sun_avtdeaxixgmwquck.jpg	7	2.277	0.283	1214.138	708.965	0.070	0.027	0.0	11	flowers
+sun_avtdeaxixgmwquck.jpg	7	2.277	0.283	1214.138	708.965	0.070	0.027	0.0	22	vase
+sun_avtdeaxixgmwquck.jpg	8	2.577	0.308	1175.030	707.965	0.094	0.079	0.0	0	other

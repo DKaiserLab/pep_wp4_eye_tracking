@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqwqdcouifhpnenx.jpg	1	0.460	0.217	1311.332	608.540	0.041	0.012	0.0	8	window
+sun_aqwqdcouifhpnenx.jpg	2	0.694	0.183	1376.985	591.848	0.121	0.066	0.0	8	window
+sun_aqwqdcouifhpnenx.jpg	3	0.919	0.308	1048.530	699.295	0.114	0.096	0.0	8	window
+sun_aqwqdcouifhpnenx.jpg	4	1.269	0.275	1063.735	830.555	0.062	0.025	0.0	1	bathtub
+sun_aqwqdcouifhpnenx.jpg	5	1.602	0.242	1488.220	813.865	0.052	0.013	0.0	5	shower screen
+sun_aqwqdcouifhpnenx.jpg	6	1.869	0.192	1576.900	829.330	0.107	0.028	0.0	2	door
+sun_aqwqdcouifhpnenx.jpg	7	2.102	0.175	1472.525	650.675	0.057	0.021	0.0	5	shower screen
+sun_aqwqdcouifhpnenx.jpg	8	2.327	0.200	1386.640	627.577	0.036	0.006	0.0	8	window
+sun_aqwqdcouifhpnenx.jpg	9	2.552	0.458	1113.785	690.525	0.113	0.056	0.0	8	window

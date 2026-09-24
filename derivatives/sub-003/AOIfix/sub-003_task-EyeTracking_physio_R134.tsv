@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahmtwjhnkkalblbh.jpg	1	0.284	0.250	1191.450	731.382	0.113	0.052	0.0	3	cabinet
+sun_ahmtwjhnkkalblbh.jpg	1	0.284	0.250	1191.450	731.382	0.113	0.052	0.0	7	fruits
+sun_ahmtwjhnkkalblbh.jpg	1	0.284	0.250	1191.450	731.382	0.113	0.052	0.0	9	microwave
+sun_ahmtwjhnkkalblbh.jpg	2	0.559	0.183	1134.398	694.830	0.151	0.036	0.0	3	cabinet
+sun_ahmtwjhnkkalblbh.jpg	2	0.559	0.183	1134.398	694.830	0.151	0.036	0.0	12	window
+sun_ahmtwjhnkkalblbh.jpg	3	0.768	0.175	1002.055	687.995	0.218	0.077	0.0	12	window
+sun_ahmtwjhnkkalblbh.jpg	4	0.968	0.233	1332.970	721.508	0.148	0.052	0.0	8	jar
+sun_ahmtwjhnkkalblbh.jpg	5	1.218	0.217	1478.255	698.402	0.158	0.060	0.0	0	other
+sun_ahmtwjhnkkalblbh.jpg	6	1.451	0.308	1566.345	573.535	0.194	0.077	0.0	3	cabinet
+sun_ahmtwjhnkkalblbh.jpg	7	1.793	0.117	1299.230	700.252	0.120	0.051	0.0	0	other
+sun_ahmtwjhnkkalblbh.jpg	8	2.134	0.217	1272.435	756.965	0.679	1.866	0.0	11	stove
+sun_ahmtwjhnkkalblbh.jpg	9	2.368	0.283	1192.577	739.963	0.112	0.041	0.0	2	bowl
+sun_ahmtwjhnkkalblbh.jpg	9	2.368	0.283	1192.577	739.963	0.112	0.041	0.0	7	fruits
+sun_ahmtwjhnkkalblbh.jpg	9	2.368	0.283	1192.577	739.963	0.112	0.041	0.0	9	microwave
+sun_ahmtwjhnkkalblbh.jpg	9	2.368	0.283	1192.577	739.963	0.112	0.041	0.0	13	worktop
+sun_ahmtwjhnkkalblbh.jpg	10	2.668	0.333	1407.447	760.950	0.146	0.040	0.0	1	bottle

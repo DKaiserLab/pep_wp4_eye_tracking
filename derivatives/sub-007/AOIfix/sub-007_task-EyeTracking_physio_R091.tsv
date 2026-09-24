@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amjiwsczphtrowfh.jpg	1	1.513	0.350	1129.465	710.457	0.090	0.019	0.0	19	skimmer
+sun_amjiwsczphtrowfh.jpg	1	1.513	0.350	1129.465	710.457	0.090	0.019	0.0	20	stove
+sun_amjiwsczphtrowfh.jpg	1	1.513	0.350	1129.465	710.457	0.090	0.019	0.0	27	worktop
+sun_amjiwsczphtrowfh.jpg	2	1.879	0.133	1185.162	697.385	0.081	0.014	0.0	20	stove
+sun_amjiwsczphtrowfh.jpg	3	2.038	0.200	1244.430	690.362	0.090	0.012	0.0	11	outlet
+sun_amjiwsczphtrowfh.jpg	3	2.038	0.200	1244.430	690.362	0.090	0.012	0.0	24	television
+sun_amjiwsczphtrowfh.jpg	4	2.279	0.133	1374.608	616.135	0.069	0.013	0.0	10	curtain
+sun_amjiwsczphtrowfh.jpg	4	2.279	0.133	1374.608	616.135	0.069	0.013	0.0	26	window
+sun_amjiwsczphtrowfh.jpg	5	2.446	0.467	1453.485	538.027	0.082	0.041	0.0	24	television

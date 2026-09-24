@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adbqksnwuqqwdpxc.jpg	1	0.313	0.167	1358.990	669.572	0.100	0.028	0.0	1	coffee maker
+sun_adbqksnwuqqwdpxc.jpg	1	0.313	0.167	1358.990	669.572	0.100	0.028	0.0	2	countertop
+sun_adbqksnwuqqwdpxc.jpg	2	0.505	0.258	1447.465	694.645	0.095	0.019	0.0	2	countertop
+sun_adbqksnwuqqwdpxc.jpg	3	0.780	0.767	1349.347	659.655	0.100	0.036	0.0	1	coffee maker
+sun_adbqksnwuqqwdpxc.jpg	3	0.780	0.767	1349.347	659.655	0.100	0.036	0.0	2	countertop
+sun_adbqksnwuqqwdpxc.jpg	4	1.588	0.167	1037.142	835.280	0.248	0.101	0.0	0	other
+sun_adbqksnwuqqwdpxc.jpg	5	1.788	0.608	1335.100	660.875	0.104	0.062	0.0	1	coffee maker
+sun_adbqksnwuqqwdpxc.jpg	5	1.788	0.608	1335.100	660.875	0.104	0.062	0.0	2	countertop
+sun_adbqksnwuqqwdpxc.jpg	6	2.446	0.250	1479.017	666.030	0.086	0.019	0.0	6	mirror
+sun_adbqksnwuqqwdpxc.jpg	7	2.713	0.183	1474.378	597.882	0.090	0.024	0.0	6	mirror

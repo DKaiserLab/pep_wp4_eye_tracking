@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvdofgavhiiyosk.jpg	1	0.463	0.208	1187.255	737.850	0.102	0.030	0.0	0	other
+sun_alvdofgavhiiyosk.jpg	2	0.705	0.492	1086.225	749.945	0.092	0.028	0.0	0	other
+sun_alvdofgavhiiyosk.jpg	3	1.338	0.183	1160.283	526.827	0.087	0.026	0.0	3	extractor hood
+sun_alvdofgavhiiyosk.jpg	4	1.546	0.308	1276.120	475.875	0.084	0.031	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	5	1.905	0.208	1485.545	767.035	0.105	0.030	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	5	1.905	0.208	1485.545	767.035	0.105	0.030	0.0	9	sink
+sun_alvdofgavhiiyosk.jpg	5	1.905	0.208	1485.545	767.035	0.105	0.030	0.0	10	washing machine
+sun_alvdofgavhiiyosk.jpg	5	1.905	0.208	1485.545	767.035	0.105	0.030	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	6	2.146	0.858	1548.605	809.040	0.079	0.026	0.0	10	washing machine

@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_augqzaedeyyzlqny.jpg	1	0.295	0.183	1308.515	777.268	0.118	0.033	0.0	4	door
+sun_augqzaedeyyzlqny.jpg	2	0.503	0.175	1385.810	822.195	0.077	0.029	0.0	8	shower screen
+sun_augqzaedeyyzlqny.jpg	3	0.703	0.208	1454.825	828.960	0.057	0.022	0.0	8	shower screen
+sun_augqzaedeyyzlqny.jpg	4	0.928	0.425	1542.330	827.945	0.056	0.032	0.0	3	countertop
+sun_augqzaedeyyzlqny.jpg	4	0.928	0.425	1542.330	827.945	0.056	0.032	0.0	7	plantpot
+sun_augqzaedeyyzlqny.jpg	4	0.928	0.425	1542.330	827.945	0.056	0.032	0.0	10	toilet
+sun_augqzaedeyyzlqny.jpg	5	1.378	0.167	1510.423	736.822	0.063	0.031	0.0	11	towel
+sun_augqzaedeyyzlqny.jpg	6	1.678	0.167	1275.440	742.608	0.078	0.028	0.0	4	door
+sun_augqzaedeyyzlqny.jpg	7	1.861	0.100	1278.913	770.447	0.060	0.007	0.0	4	door
+sun_augqzaedeyyzlqny.jpg	8	1.978	0.133	1311.900	782.555	0.051	0.010	0.0	4	door
+sun_augqzaedeyyzlqny.jpg	9	2.170	0.350	1539.493	954.125	0.091	0.031	0.0	3	countertop
+sun_augqzaedeyyzlqny.jpg	9	2.170	0.350	1539.493	954.125	0.091	0.031	0.0	9	sink
+sun_augqzaedeyyzlqny.jpg	10	2.628	0.158	1422.340	873.155	0.069	0.024	0.0	1	bathtub
+sun_augqzaedeyyzlqny.jpg	10	2.628	0.158	1422.340	873.155	0.069	0.024	0.0	8	shower screen
+sun_augqzaedeyyzlqny.jpg	10	2.628	0.158	1422.340	873.155	0.069	0.024	0.0	10	toilet
+sun_augqzaedeyyzlqny.jpg	11	2.811	0.150	1327.695	852.312	0.059	0.021	0.0	1	bathtub
+sun_augqzaedeyyzlqny.jpg	11	2.811	0.150	1327.695	852.312	0.059	0.021	0.0	4	door

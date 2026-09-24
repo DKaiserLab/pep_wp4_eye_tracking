@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axbqssteryzzlcop.jpg	1	0.340	0.192	1063.480	717.800	0.181	0.137	0.0	0	other
+sun_axbqssteryzzlcop.jpg	2	0.548	0.183	887.303	757.185	0.161	0.119	0.0	0	other
+sun_axbqssteryzzlcop.jpg	3	0.757	0.300	878.665	885.293	0.128	0.052	0.0	1	bathtub crop
+sun_axbqssteryzzlcop.jpg	4	1.082	0.200	1032.138	968.780	0.071	0.010	0.0	1	bathtub crop
+sun_axbqssteryzzlcop.jpg	5	1.323	0.192	1340.325	984.550	0.091	0.013	0.0	6	rug
+sun_axbqssteryzzlcop.jpg	6	1.565	0.117	1481.880	965.038	0.065	0.019	0.0	0	other
+sun_axbqssteryzzlcop.jpg	7	1.715	0.117	1594.810	924.740	0.095	0.022	0.0	7	sink
+sun_axbqssteryzzlcop.jpg	8	1.848	0.183	1700.697	860.650	0.125	0.076	0.0	2	cabinet
+sun_axbqssteryzzlcop.jpg	8	1.848	0.183	1700.697	860.650	0.125	0.076	0.0	4	door crop
+sun_axbqssteryzzlcop.jpg	8	1.848	0.183	1700.697	860.650	0.125	0.076	0.0	7	sink
+sun_axbqssteryzzlcop.jpg	9	2.057	0.108	1638.295	616.575	0.096	0.051	0.0	0	other
+sun_axbqssteryzzlcop.jpg	10	2.190	0.192	1535.820	526.315	0.109	0.014	0.0	0	other
+sun_axbqssteryzzlcop.jpg	11	2.407	0.192	1366.590	538.695	0.077	0.020	0.0	0	other
+sun_axbqssteryzzlcop.jpg	12	2.615	0.183	1233.997	538.900	0.116	0.072	0.0	0	other
+sun_axbqssteryzzlcop.jpg	13	2.823	0.183	1101.318	566.250	0.112	0.025	0.0	5	flowers
+sun_axbqssteryzzlcop.jpg	13	2.823	0.183	1101.318	566.250	0.112	0.025	0.0	12	window

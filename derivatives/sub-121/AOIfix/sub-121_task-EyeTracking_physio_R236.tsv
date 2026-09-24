@@ -1,0 +1,26 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahbhthuvbhsokcnl.jpg	1	0.321	0.208	1325.360	679.845	0.079	0.034	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	1	0.321	0.208	1325.360	679.845	0.079	0.034	0.0	17	sink
+sun_ahbhthuvbhsokcnl.jpg	1	0.321	0.208	1325.360	679.845	0.079	0.034	0.0	21	worktop
+sun_ahbhthuvbhsokcnl.jpg	2	0.554	0.217	1114.763	682.620	0.114	0.133	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	2	0.554	0.217	1114.763	682.620	0.114	0.133	0.0	6	candleholder
+sun_ahbhthuvbhsokcnl.jpg	3	0.813	0.150	1071.253	703.910	0.088	0.025	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	4	0.971	0.333	1059.848	715.492	0.073	0.040	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	4	0.971	0.333	1059.848	715.492	0.073	0.040	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	5	1.346	0.300	1070.940	782.402	0.120	0.068	0.0	2	books
+sun_ahbhthuvbhsokcnl.jpg	5	1.346	0.300	1070.940	782.402	0.120	0.068	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	5	1.346	0.300	1070.940	782.402	0.120	0.068	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	6	1.654	0.317	1090.230	809.660	0.069	0.071	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	6	1.654	0.317	1090.230	809.660	0.069	0.071	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	6	1.654	0.317	1090.230	809.660	0.069	0.071	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	7	2.013	0.167	1079.602	764.835	0.135	0.033	0.0	2	books
+sun_ahbhthuvbhsokcnl.jpg	7	2.013	0.167	1079.602	764.835	0.135	0.033	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	7	2.013	0.167	1079.602	764.835	0.135	0.033	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	8	2.204	0.292	1439.065	735.205	0.200	0.094	0.0	11	hotpl
+sun_ahbhthuvbhsokcnl.jpg	8	2.204	0.292	1439.065	735.205	0.200	0.094	0.0	15	oven
+sun_ahbhthuvbhsokcnl.jpg	8	2.204	0.292	1439.065	735.205	0.200	0.094	0.0	21	worktop
+sun_ahbhthuvbhsokcnl.jpg	9	2.521	0.200	1502.902	711.440	0.106	0.093	0.0	11	hotpl
+sun_ahbhthuvbhsokcnl.jpg	9	2.521	0.200	1502.902	711.440	0.106	0.093	0.0	21	worktop
+sun_ahbhthuvbhsokcnl.jpg	10	2.738	0.267	1529.165	710.160	0.064	0.027	0.0	11	hotpl
+sun_ahbhthuvbhsokcnl.jpg	10	2.738	0.267	1529.165	710.160	0.064	0.027	0.0	13	microwave
+sun_ahbhthuvbhsokcnl.jpg	10	2.738	0.267	1529.165	710.160	0.064	0.027	0.0	21	worktop

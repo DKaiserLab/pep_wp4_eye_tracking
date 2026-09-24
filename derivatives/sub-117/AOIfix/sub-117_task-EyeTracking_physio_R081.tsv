@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aijkdpqohzcmjsco.jpg	1	0.263	0.217	1292.903	684.902	0.100	0.020	0.0	0	other
+sun_aijkdpqohzcmjsco.jpg	2	0.496	0.233	1329.610	623.890	0.073	0.013	0.0	14	pendant lamp
+sun_aijkdpqohzcmjsco.jpg	3	0.746	0.425	1351.740	602.910	0.071	0.014	0.0	8	heater
+sun_aijkdpqohzcmjsco.jpg	4	1.196	0.383	1331.642	605.350	0.061	0.011	0.0	8	heater
+sun_aijkdpqohzcmjsco.jpg	4	1.196	0.383	1331.642	605.350	0.061	0.011	0.0	14	pendant lamp
+sun_aijkdpqohzcmjsco.jpg	5	1.596	0.183	1311.322	603.835	0.092	0.018	0.0	14	pendant lamp
+sun_aijkdpqohzcmjsco.jpg	6	1.813	0.183	1229.985	596.392	0.081	0.012	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	6	1.813	0.183	1229.985	596.392	0.081	0.012	0.0	9	microwave
+sun_aijkdpqohzcmjsco.jpg	7	2.013	0.300	1182.235	605.612	0.075	0.011	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	7	2.013	0.300	1182.235	605.612	0.075	0.011	0.0	9	microwave
+sun_aijkdpqohzcmjsco.jpg	8	2.330	0.317	1213.887	600.442	0.072	0.011	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	8	2.330	0.317	1213.887	600.442	0.072	0.011	0.0	9	microwave
+sun_aijkdpqohzcmjsco.jpg	9	2.671	0.333	1199.262	602.213	0.068	0.010	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	9	2.671	0.333	1199.262	602.213	0.068	0.010	0.0	9	microwave

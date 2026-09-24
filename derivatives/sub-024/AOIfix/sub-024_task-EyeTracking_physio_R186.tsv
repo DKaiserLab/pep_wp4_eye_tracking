@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axuvsdqqnoevzlud.jpg	1	0.233	0.233	1185.140	653.258	0.126	0.058	0.0	20	sink
+sun_axuvsdqqnoevzlud.jpg	2	0.483	0.283	1326.425	630.202	0.146	0.052	0.0	2	basket
+sun_axuvsdqqnoevzlud.jpg	2	0.483	0.283	1326.425	630.202	0.146	0.052	0.0	18	plants
+sun_axuvsdqqnoevzlud.jpg	3	0.791	0.308	1530.495	614.290	0.119	0.045	0.0	12	flowers
+sun_axuvsdqqnoevzlud.jpg	3	0.791	0.308	1530.495	614.290	0.119	0.045	0.0	25	vase
+sun_axuvsdqqnoevzlud.jpg	4	1.133	0.250	1559.560	647.845	0.096	0.024	0.0	12	flowers
+sun_axuvsdqqnoevzlud.jpg	4	1.133	0.250	1559.560	647.845	0.096	0.024	0.0	13	food
+sun_axuvsdqqnoevzlud.jpg	4	1.133	0.250	1559.560	647.845	0.096	0.024	0.0	25	vase
+sun_axuvsdqqnoevzlud.jpg	5	1.408	0.583	1694.305	508.702	0.099	0.042	0.0	19	sculpture
+sun_axuvsdqqnoevzlud.jpg	6	2.008	0.217	1678.795	536.058	0.095	0.023	0.0	19	sculpture
+sun_axuvsdqqnoevzlud.jpg	7	2.250	0.300	1520.697	646.477	0.130	0.059	0.0	12	flowers
+sun_axuvsdqqnoevzlud.jpg	7	2.250	0.300	1520.697	646.477	0.130	0.059	0.0	21	stove
+sun_axuvsdqqnoevzlud.jpg	7	2.250	0.300	1520.697	646.477	0.130	0.059	0.0	25	vase
+sun_axuvsdqqnoevzlud.jpg	8	2.575	0.142	1424.530	646.810	0.139	0.062	0.0	6	cabinet
+sun_axuvsdqqnoevzlud.jpg	8	2.575	0.142	1424.530	646.810	0.139	0.062	0.0	7	cabinets
+sun_axuvsdqqnoevzlud.jpg	8	2.575	0.142	1424.530	646.810	0.139	0.062	0.0	24	urn
+sun_axuvsdqqnoevzlud.jpg	8	2.575	0.142	1424.530	646.810	0.139	0.062	0.0	27	worktop
+sun_axuvsdqqnoevzlud.jpg	9	2.750	0.208	1189.855	829.370	0.189	0.118	0.0	6	cabinet
+sun_axuvsdqqnoevzlud.jpg	9	2.750	0.208	1189.855	829.370	0.189	0.118	0.0	27	worktop

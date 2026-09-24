@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aijkdpqohzcmjsco.jpg	1	0.223	0.167	1282.018	775.017	0.166	0.107	0.0	0	other
+sun_aijkdpqohzcmjsco.jpg	2	0.398	0.150	1250.858	787.837	0.131	0.063	0.0	6	glass
+sun_aijkdpqohzcmjsco.jpg	3	0.573	0.242	1131.770	763.335	0.233	0.045	0.0	0	other
+sun_aijkdpqohzcmjsco.jpg	4	1.031	0.400	1179.783	767.577	0.232	0.091	0.0	23	worktop
+sun_aijkdpqohzcmjsco.jpg	5	1.465	0.275	1034.850	788.365	0.087	0.018	0.0	13	pan
+sun_aijkdpqohzcmjsco.jpg	5	1.465	0.275	1034.850	788.365	0.087	0.018	0.0	20	stove
+sun_aijkdpqohzcmjsco.jpg	5	1.465	0.275	1034.850	788.365	0.087	0.018	0.0	23	worktop
+sun_aijkdpqohzcmjsco.jpg	6	1.765	0.292	1262.845	829.020	0.101	0.025	0.0	6	glass
+sun_aijkdpqohzcmjsco.jpg	6	1.765	0.292	1262.845	829.020	0.101	0.025	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	6	1.765	0.292	1262.845	829.020	0.101	0.025	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	7	2.073	0.200	1367.713	814.050	0.116	0.023	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	7	2.073	0.200	1367.713	814.050	0.116	0.023	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	8	2.298	0.225	1381.450	663.575	0.181	0.043	0.0	16	refrigerator
+sun_aijkdpqohzcmjsco.jpg	9	2.556	0.225	1516.370	627.740	0.102	0.027	0.0	0	other
+sun_aijkdpqohzcmjsco.jpg	10	2.898	0.108	1520.005	743.150	0.109	0.027	0.0	0	other

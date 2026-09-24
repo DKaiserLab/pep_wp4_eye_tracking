@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abvctdwfbgsumtid.jpg	1	0.410	0.292	1004.430	475.475	0.083	0.025	0.0	0	other
+sun_abvctdwfbgsumtid.jpg	2	0.744	0.267	1494.773	705.855	0.166	0.100	0.0	2	cabinet
+sun_abvctdwfbgsumtid.jpg	3	1.035	0.275	1552.850	844.165	0.116	0.044	0.0	3	dishwasher
+sun_abvctdwfbgsumtid.jpg	4	1.327	0.308	1613.990	885.160	0.086	0.030	0.0	2	cabinet
+sun_abvctdwfbgsumtid.jpg	5	1.677	0.300	1112.840	943.298	0.107	0.030	0.0	2	cabinet
+sun_abvctdwfbgsumtid.jpg	5	1.677	0.300	1112.840	943.298	0.107	0.030	0.0	4	drawers
+sun_abvctdwfbgsumtid.jpg	6	1.994	0.233	1112.642	861.140	0.096	0.017	0.0	2	cabinet
+sun_abvctdwfbgsumtid.jpg	6	1.994	0.233	1112.642	861.140	0.096	0.017	0.0	4	drawers
+sun_abvctdwfbgsumtid.jpg	7	2.260	0.283	1039.517	661.650	0.134	0.049	0.0	2	cabinet
+sun_abvctdwfbgsumtid.jpg	8	2.561	0.275	983.120	723.495	0.168	0.046	0.0	8	refrigerator
+sun_abvctdwfbgsumtid.jpg	9	2.852	0.133	1038.173	778.013	0.155	0.082	0.0	2	cabinet
+sun_abvctdwfbgsumtid.jpg	9	2.852	0.133	1038.173	778.013	0.155	0.082	0.0	8	refrigerator
+sun_abvctdwfbgsumtid.jpg	9	2.852	0.133	1038.173	778.013	0.155	0.082	0.0	12	worktop

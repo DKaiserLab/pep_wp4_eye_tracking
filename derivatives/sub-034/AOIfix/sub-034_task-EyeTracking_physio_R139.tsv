@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azfvmsmpvphupjpu.jpg	1	0.273	0.125	1217.965	713.050	0.156	0.111	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	1	0.273	0.125	1217.965	713.050	0.156	0.111	0.0	11	dishwasher
+sun_azfvmsmpvphupjpu.jpg	2	0.431	0.100	941.983	690.295	0.178	0.051	0.0	20	refrigerator
+sun_azfvmsmpvphupjpu.jpg	3	0.731	0.133	1071.348	686.215	0.157	0.048	0.0	20	refrigerator
+sun_azfvmsmpvphupjpu.jpg	3	0.731	0.133	1071.348	686.215	0.157	0.048	0.0	21	saucepan
+sun_azfvmsmpvphupjpu.jpg	3	0.731	0.133	1071.348	686.215	0.157	0.048	0.0	22	shelves
+sun_azfvmsmpvphupjpu.jpg	4	0.898	0.175	1217.020	649.840	0.159	0.047	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	4	0.898	0.175	1217.020	649.840	0.159	0.047	0.0	11	dishwasher
+sun_azfvmsmpvphupjpu.jpg	4	0.898	0.175	1217.020	649.840	0.159	0.047	0.0	28	worktop
+sun_azfvmsmpvphupjpu.jpg	5	1.098	0.133	1038.223	660.905	0.165	0.066	0.0	20	refrigerator
+sun_azfvmsmpvphupjpu.jpg	6	1.256	0.225	1142.515	631.705	0.156	0.041	0.0	13	microwave
+sun_azfvmsmpvphupjpu.jpg	7	1.514	0.367	1583.033	648.920	0.147	0.066	0.0	26	teapot
+sun_azfvmsmpvphupjpu.jpg	7	1.514	0.367	1583.033	648.920	0.147	0.066	0.0	28	worktop
+sun_azfvmsmpvphupjpu.jpg	8	1.906	0.225	1592.170	673.890	0.106	0.026	0.0	17	oven
+sun_azfvmsmpvphupjpu.jpg	8	1.906	0.225	1592.170	673.890	0.106	0.026	0.0	28	worktop
+sun_azfvmsmpvphupjpu.jpg	9	2.165	0.158	1654.935	686.010	0.101	0.015	0.0	17	oven
+sun_azfvmsmpvphupjpu.jpg	10	2.348	0.208	1662.915	646.575	0.128	0.019	0.0	0	other
+sun_azfvmsmpvphupjpu.jpg	11	2.573	0.200	1560.672	645.630	0.147	0.032	0.0	28	worktop
+sun_azfvmsmpvphupjpu.jpg	12	2.790	0.167	1525.660	637.900	0.135	0.038	0.0	19	pot
+sun_azfvmsmpvphupjpu.jpg	12	2.790	0.167	1525.660	637.900	0.135	0.038	0.0	28	worktop

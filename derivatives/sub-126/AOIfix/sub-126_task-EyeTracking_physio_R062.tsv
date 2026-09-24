@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqxypnffmypblepf.jpg	1	0.463	0.417	1215.865	737.220	0.112	0.063	0.0	2	cabinet
+sun_aqxypnffmypblepf.jpg	2	0.897	0.200	1343.122	741.750	0.140	0.075	0.0	14	range
+sun_aqxypnffmypblepf.jpg	3	1.122	0.425	1529.585	756.665	0.113	0.049	0.0	21	worktop
+sun_aqxypnffmypblepf.jpg	4	1.563	0.158	1496.395	742.475	0.114	0.032	0.0	17	sink
+sun_aqxypnffmypblepf.jpg	4	1.563	0.158	1496.395	742.475	0.114	0.032	0.0	21	worktop
+sun_aqxypnffmypblepf.jpg	5	1.755	0.117	1300.987	1094.945	NaN	0.000	85.7	-1	off stimulus
+sun_aqxypnffmypblepf.jpg	6	1.888	0.300	1260.510	668.200	0.165	0.092	0.0	0	other
+sun_aqxypnffmypblepf.jpg	7	2.205	0.183	1258.120	697.003	0.097	0.054	0.0	12	microwave
+sun_aqxypnffmypblepf.jpg	7	2.205	0.183	1258.120	697.003	0.097	0.054	0.0	14	range
+sun_aqxypnffmypblepf.jpg	8	2.405	0.108	1301.640	718.555	0.160	0.067	0.0	14	range
+sun_aqxypnffmypblepf.jpg	9	2.689	0.233	1330.030	740.870	0.174	0.055	0.0	14	range

@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aaslbwtcdcwjukuo.jpg	1	0.396	0.217	1170.142	655.820	0.129	0.024	0.0	4	bottle
+sun_aaslbwtcdcwjukuo.jpg	2	0.637	0.275	1092.770	631.550	0.128	0.069	0.0	13	range
+sun_aaslbwtcdcwjukuo.jpg	3	0.929	0.317	1053.320	658.787	0.162	0.048	0.0	13	range
+sun_aaslbwtcdcwjukuo.jpg	4	1.262	0.725	1014.220	801.135	0.104	0.053	0.0	7	dishcloth
+sun_aaslbwtcdcwjukuo.jpg	4	1.262	0.725	1014.220	801.135	0.104	0.053	0.0	13	range
+sun_aaslbwtcdcwjukuo.jpg	5	1.996	0.892	970.385	830.175	0.105	0.142	0.0	13	range
+sun_aaslbwtcdcwjukuo.jpg	5	1.996	0.892	970.385	830.175	0.105	0.142	0.0	16	shelves
+sun_aaslbwtcdcwjukuo.jpg	6	2.912	0.108	1052.340	1093.540	2.530	45.125	0.0	-1	off stimulus

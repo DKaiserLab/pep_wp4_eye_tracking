@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aiffeoqzngslhzfi.jpg	1	0.322	0.233	1125.970	703.665	0.136	0.075	0.0	6	microwave
+sun_aiffeoqzngslhzfi.jpg	2	0.580	0.125	1225.255	621.780	0.058	0.012	0.0	5	extractor hood
+sun_aiffeoqzngslhzfi.jpg	3	0.730	0.242	1355.395	579.190	0.102	0.022	0.0	5	extractor hood
+sun_aiffeoqzngslhzfi.jpg	4	0.997	0.217	1520.367	681.620	0.160	0.126	0.0	7	outlet
+sun_aiffeoqzngslhzfi.jpg	5	1.230	0.150	1521.938	733.838	0.063	0.014	0.0	0	other
+sun_aiffeoqzngslhzfi.jpg	6	1.430	0.225	1022.785	1296.645	0.137	0.083	0.0	-1	off stimulus
+sun_aiffeoqzngslhzfi.jpg	7	1.722	0.117	1717.580	945.715	NaN	0.000	85.7	-1	off stimulus
+sun_aiffeoqzngslhzfi.jpg	8	1.922	0.183	1339.882	614.898	0.085	0.023	0.0	5	extractor hood
+sun_aiffeoqzngslhzfi.jpg	9	2.122	0.158	1305.310	661.500	0.080	0.031	0.0	0	other
+sun_aiffeoqzngslhzfi.jpg	10	2.313	0.167	1211.990	678.438	0.071	0.015	0.0	0	other
+sun_aiffeoqzngslhzfi.jpg	11	2.505	0.217	1170.307	698.148	0.082	0.013	0.0	6	microwave
+sun_aiffeoqzngslhzfi.jpg	12	2.738	0.267	1198.660	705.325	0.082	0.015	0.0	6	microwave

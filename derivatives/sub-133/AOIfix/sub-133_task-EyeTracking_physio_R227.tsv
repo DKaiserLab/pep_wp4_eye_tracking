@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aasmevtpkslccptd.jpg	1	0.276	0.283	1347.148	701.185	0.142	0.041	0.0	10	dishcloth
+sun_aasmevtpkslccptd.jpg	1	0.276	0.283	1347.148	701.185	0.142	0.041	0.0	29	table
+sun_aasmevtpkslccptd.jpg	1	0.276	0.283	1347.148	701.185	0.142	0.041	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	2	0.593	0.217	1426.395	644.495	0.062	0.016	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	2	0.593	0.217	1426.395	644.495	0.062	0.016	0.0	23	range
+sun_aasmevtpkslccptd.jpg	2	0.593	0.217	1426.395	644.495	0.062	0.016	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	3	0.843	0.333	1454.250	618.438	0.066	0.013	0.0	3	bottle rack
+sun_aasmevtpkslccptd.jpg	3	0.843	0.333	1454.250	618.438	0.066	0.013	0.0	23	range
+sun_aasmevtpkslccptd.jpg	4	1.209	0.192	1383.790	619.985	0.091	0.032	0.0	23	range
+sun_aasmevtpkslccptd.jpg	5	1.451	0.208	1275.890	639.580	0.065	0.012	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	5	1.451	0.208	1275.890	639.580	0.065	0.012	0.0	20	oven
+sun_aasmevtpkslccptd.jpg	5	1.451	0.208	1275.890	639.580	0.065	0.012	0.0	29	table
+sun_aasmevtpkslccptd.jpg	6	1.693	0.292	1191.120	622.900	0.081	0.017	0.0	27	sink
+sun_aasmevtpkslccptd.jpg	6	1.693	0.292	1191.120	622.900	0.081	0.017	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	7	2.026	0.183	1108.803	636.075	0.063	0.008	0.0	11	dishwasher
+sun_aasmevtpkslccptd.jpg	7	2.026	0.183	1108.803	636.075	0.063	0.008	0.0	15	glass
+sun_aasmevtpkslccptd.jpg	7	2.026	0.183	1108.803	636.075	0.063	0.008	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	8	2.226	0.217	1046.485	693.738	0.154	0.043	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	9	2.468	0.192	984.950	693.165	0.048	0.010	0.0	32	worktop
+sun_aasmevtpkslccptd.jpg	10	2.684	0.225	932.450	682.625	0.055	0.009	0.0	6	cabinet
+sun_aasmevtpkslccptd.jpg	10	2.684	0.225	932.450	682.625	0.055	0.009	0.0	32	worktop

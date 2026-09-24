@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_aqzpndrsppatraq.jpg	1	0.303	0.358	1024.635	832.605	0.125	0.041	0.0	2	bathtub
+labelme_aqzpndrsppatraq.jpg	2	0.694	0.217	1387.615	915.862	0.156	0.057	0.0	6	toilet
+labelme_aqzpndrsppatraq.jpg	3	0.928	0.317	1492.065	881.697	0.112	0.049	0.0	4	magazine
+labelme_aqzpndrsppatraq.jpg	4	1.278	0.250	1506.597	766.493	0.111	0.021	0.0	5	toilet paper
+labelme_aqzpndrsppatraq.jpg	5	1.553	0.208	1626.670	723.120	0.163	0.038	0.0	3	door
+labelme_aqzpndrsppatraq.jpg	6	1.936	0.142	1439.910	787.735	0.084	0.021	0.0	6	toilet
+labelme_aqzpndrsppatraq.jpg	7	2.103	0.200	1360.797	842.355	0.160	0.047	0.0	6	toilet
+labelme_aqzpndrsppatraq.jpg	8	2.328	0.200	1334.655	773.290	0.089	0.019	0.0	6	toilet
+labelme_aqzpndrsppatraq.jpg	9	2.569	0.258	1004.765	860.690	0.120	0.032	0.0	2	bathtub
+labelme_aqzpndrsppatraq.jpg	10	2.844	0.158	997.195	831.210	0.192	0.067	0.0	2	bathtub

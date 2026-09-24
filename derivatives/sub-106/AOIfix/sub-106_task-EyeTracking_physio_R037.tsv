@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aepbpufpcgbxxcdd.jpg	1	0.611	0.150	1429.205	870.180	0.202	0.103	0.0	2	cabinet
+sun_aepbpufpcgbxxcdd.jpg	2	0.802	0.158	1543.065	880.065	0.102	0.025	0.0	2	cabinet
+sun_aepbpufpcgbxxcdd.jpg	2	0.802	0.158	1543.065	880.065	0.102	0.025	0.0	12	range
+sun_aepbpufpcgbxxcdd.jpg	3	0.986	0.167	1651.847	802.873	0.159	0.040	0.0	12	range
+sun_aepbpufpcgbxxcdd.jpg	4	1.177	0.283	1519.115	489.102	0.189	0.113	0.0	2	cabinet
+sun_aepbpufpcgbxxcdd.jpg	5	1.494	0.217	1458.625	430.735	0.124	0.030	0.0	5	doll
+sun_aepbpufpcgbxxcdd.jpg	6	1.736	0.225	1237.275	521.625	0.165	0.069	0.0	0	other
+sun_aepbpufpcgbxxcdd.jpg	7	1.978	0.183	1167.205	552.120	0.331	0.313	0.0	7	flowers
+sun_aepbpufpcgbxxcdd.jpg	8	2.186	0.325	1028.340	686.200	0.115	0.032	0.0	6	door
+sun_aepbpufpcgbxxcdd.jpg	9	2.544	0.250	1102.818	1003.592	0.140	0.042	0.0	0	other
+sun_aepbpufpcgbxxcdd.jpg	10	2.819	0.183	1258.690	960.375	0.095	0.018	0.0	2	cabinet

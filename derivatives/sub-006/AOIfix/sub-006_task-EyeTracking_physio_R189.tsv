@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atgzwnczaxwddrai.jpg	1	0.347	0.275	1440.715	814.725	0.134	0.074	0.0	4	cabinet
+sun_atgzwnczaxwddrai.jpg	1	0.347	0.275	1440.715	814.725	0.134	0.074	0.0	7	dishwasher
+sun_atgzwnczaxwddrai.jpg	2	0.655	0.400	1179.430	716.163	0.096	0.032	0.0	8	door
+sun_atgzwnczaxwddrai.jpg	3	1.080	0.225	1342.305	685.630	0.076	0.034	0.0	15	picture
+sun_atgzwnczaxwddrai.jpg	3	1.080	0.225	1342.305	685.630	0.076	0.034	0.0	20	shelf
+sun_atgzwnczaxwddrai.jpg	4	1.322	0.750	1328.822	670.790	0.104	0.065	0.0	2	bottle
+sun_atgzwnczaxwddrai.jpg	4	1.322	0.750	1328.822	670.790	0.104	0.065	0.0	20	shelf
+sun_atgzwnczaxwddrai.jpg	5	2.097	0.408	1169.020	713.200	0.097	0.055	0.0	8	door
+sun_atgzwnczaxwddrai.jpg	5	2.097	0.408	1169.020	713.200	0.097	0.055	0.0	18	refrigerator
+sun_atgzwnczaxwddrai.jpg	6	2.530	0.275	1331.760	685.010	0.103	0.065	0.0	2	bottle
+sun_atgzwnczaxwddrai.jpg	6	2.530	0.275	1331.760	685.010	0.103	0.065	0.0	15	picture
+sun_atgzwnczaxwddrai.jpg	6	2.530	0.275	1331.760	685.010	0.103	0.065	0.0	20	shelf
+sun_atgzwnczaxwddrai.jpg	7	2.822	0.183	1324.040	669.033	0.112	0.049	0.0	2	bottle

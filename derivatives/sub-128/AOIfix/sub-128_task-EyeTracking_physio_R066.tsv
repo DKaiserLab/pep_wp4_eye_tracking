@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahovdllcccjqjyeb.jpg	1	0.285	0.258	1240.115	776.060	0.078	0.023	0.0	9	faucet
+sun_ahovdllcccjqjyeb.jpg	1	0.285	0.258	1240.115	776.060	0.078	0.023	0.0	14	sink
+sun_ahovdllcccjqjyeb.jpg	1	0.285	0.258	1240.115	776.060	0.078	0.023	0.0	16	window
+sun_ahovdllcccjqjyeb.jpg	1	0.285	0.258	1240.115	776.060	0.078	0.023	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	2	0.568	0.408	1193.215	868.485	0.119	0.031	0.0	15	stove
+sun_ahovdllcccjqjyeb.jpg	2	0.568	0.408	1193.215	868.485	0.119	0.031	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	3	0.993	0.183	1253.725	888.202	0.139	0.037	0.0	15	stove
+sun_ahovdllcccjqjyeb.jpg	3	0.993	0.183	1253.725	888.202	0.139	0.037	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	4	1.202	0.292	1414.720	886.790	0.079	0.019	0.0	15	stove
+sun_ahovdllcccjqjyeb.jpg	4	1.202	0.292	1414.720	886.790	0.079	0.019	0.0	17	worktop
+sun_ahovdllcccjqjyeb.jpg	5	1.527	0.183	1534.490	800.570	0.120	0.030	0.0	12	oven
+sun_ahovdllcccjqjyeb.jpg	6	1.743	0.233	1579.372	680.202	0.123	0.024	0.0	3	cabinet
+sun_ahovdllcccjqjyeb.jpg	6	1.743	0.233	1579.372	680.202	0.123	0.024	0.0	11	microwave
+sun_ahovdllcccjqjyeb.jpg	6	1.743	0.233	1579.372	680.202	0.123	0.024	0.0	13	refrigerator crop
+sun_ahovdllcccjqjyeb.jpg	7	1.993	0.217	1562.845	633.100	0.131	0.041	0.0	3	cabinet
+sun_ahovdllcccjqjyeb.jpg	8	2.252	0.225	1164.630	627.265	0.142	0.051	0.0	16	window
+sun_ahovdllcccjqjyeb.jpg	9	2.510	0.250	1036.350	642.470	0.146	0.044	0.0	3	cabinet
+sun_ahovdllcccjqjyeb.jpg	10	2.785	0.225	966.675	748.170	0.084	0.014	0.0	7	door

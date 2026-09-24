@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aisuhvwdvarrjlni.jpg	1	0.475	0.300	1276.753	602.500	0.082	0.022	0.0	4	cabinet
+sun_aisuhvwdvarrjlni.jpg	2	0.809	0.183	1306.457	571.055	0.063	0.008	0.0	4	cabinet
+sun_aisuhvwdvarrjlni.jpg	3	1.009	0.350	1365.865	727.082	0.199	0.084	0.0	4	cabinet
+sun_aisuhvwdvarrjlni.jpg	4	1.375	0.300	1394.510	848.512	0.178	0.068	0.0	0	other
+sun_aisuhvwdvarrjlni.jpg	5	1.692	0.233	1486.088	868.635	0.124	0.042	0.0	8	crock
+sun_aisuhvwdvarrjlni.jpg	6	1.942	0.417	1555.450	877.607	0.126	0.042	0.0	8	crock
+sun_aisuhvwdvarrjlni.jpg	7	2.375	0.383	1523.658	892.612	0.139	0.049	0.0	8	crock
+sun_aisuhvwdvarrjlni.jpg	8	2.809	0.200	1058.497	643.038	0.161	0.046	0.0	11	door

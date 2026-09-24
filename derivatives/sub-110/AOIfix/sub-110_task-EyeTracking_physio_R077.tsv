@@ -1,0 +1,8 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aevezokbkeojznwq.jpg	1	0.350	0.158	1252.805	630.135	0.082	0.031	0.0	12	toaster
+sun_aevezokbkeojznwq.jpg	2	0.525	0.483	1309.673	573.192	0.092	0.049	0.0	5	mitten
+sun_aevezokbkeojznwq.jpg	3	1.041	0.450	1150.365	663.440	0.100	0.057	0.0	7	pitcher
+sun_aevezokbkeojznwq.jpg	3	1.041	0.450	1150.365	663.440	0.100	0.057	0.0	14	worktop
+sun_aevezokbkeojznwq.jpg	4	1.525	0.342	998.810	788.710	0.146	0.087	0.0	8	range
+sun_aevezokbkeojznwq.jpg	5	1.883	0.550	991.947	736.062	0.118	0.072	0.0	8	range
+sun_aevezokbkeojznwq.jpg	6	2.683	0.342	1147.565	900.535	0.323	0.146	0.0	0	other

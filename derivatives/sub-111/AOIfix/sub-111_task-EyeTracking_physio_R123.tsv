@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_vvuttgvlwdydbkh.jpg	1	0.273	0.233	1255.318	760.105	0.117	0.050	0.0	4	light switch
+labelme_vvuttgvlwdydbkh.jpg	1	0.273	0.233	1255.318	760.105	0.117	0.050	0.0	6	outlet
+labelme_vvuttgvlwdydbkh.jpg	2	0.531	0.333	1583.237	748.380	0.141	0.055	0.0	5	mirror
+labelme_vvuttgvlwdydbkh.jpg	3	0.881	0.167	1575.670	819.582	0.124	0.028	0.0	8	plant
+labelme_vvuttgvlwdydbkh.jpg	4	1.064	0.242	1544.575	923.220	0.125	0.037	0.0	2	countertop
+labelme_vvuttgvlwdydbkh.jpg	4	1.064	0.242	1544.575	923.220	0.125	0.037	0.0	13	vase
+labelme_vvuttgvlwdydbkh.jpg	5	1.331	0.308	1587.155	919.050	0.093	0.029	0.0	2	countertop
+labelme_vvuttgvlwdydbkh.jpg	5	1.331	0.308	1587.155	919.050	0.093	0.029	0.0	13	vase
+labelme_vvuttgvlwdydbkh.jpg	6	1.656	0.158	1477.300	885.965	0.139	0.044	0.0	11	soap
+labelme_vvuttgvlwdydbkh.jpg	7	1.856	0.500	959.957	836.957	0.113	0.048	0.0	12	towel
+labelme_vvuttgvlwdydbkh.jpg	8	2.389	0.325	1379.055	618.065	0.127	0.046	0.0	5	mirror
+labelme_vvuttgvlwdydbkh.jpg	9	2.731	0.275	1399.415	674.345	0.107	0.037	0.0	5	mirror

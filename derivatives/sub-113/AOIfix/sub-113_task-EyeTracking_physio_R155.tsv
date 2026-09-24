@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_arvuykssgbdzaavk.jpg	1	0.275	0.250	977.185	641.952	0.095	0.032	0.0	32	windows
+sun_arvuykssgbdzaavk.jpg	2	0.551	0.175	917.675	655.580	0.098	0.021	0.0	32	windows
+sun_arvuykssgbdzaavk.jpg	3	0.751	0.325	1102.250	786.440	0.089	0.015	0.0	1	basket
+sun_arvuykssgbdzaavk.jpg	3	0.751	0.325	1102.250	786.440	0.089	0.015	0.0	12	flowers
+sun_arvuykssgbdzaavk.jpg	3	0.751	0.325	1102.250	786.440	0.089	0.015	0.0	14	kitchen island
+sun_arvuykssgbdzaavk.jpg	3	0.751	0.325	1102.250	786.440	0.089	0.015	0.0	29	table
+sun_arvuykssgbdzaavk.jpg	4	1.101	0.608	1083.235	831.610	0.099	0.066	0.0	14	kitchen island
+sun_arvuykssgbdzaavk.jpg	4	1.101	0.608	1083.235	831.610	0.099	0.066	0.0	16	magazine
+sun_arvuykssgbdzaavk.jpg	4	1.101	0.608	1083.235	831.610	0.099	0.066	0.0	29	table
+sun_arvuykssgbdzaavk.jpg	5	1.759	0.250	1540.600	778.048	0.136	0.031	0.0	10	drawers
+sun_arvuykssgbdzaavk.jpg	5	1.759	0.250	1540.600	778.048	0.136	0.031	0.0	33	worktop
+sun_arvuykssgbdzaavk.jpg	6	2.034	0.175	1537.950	721.310	0.125	0.057	0.0	2	bowl
+sun_arvuykssgbdzaavk.jpg	6	2.034	0.175	1537.950	721.310	0.125	0.057	0.0	26	range
+sun_arvuykssgbdzaavk.jpg	6	2.034	0.175	1537.950	721.310	0.125	0.057	0.0	33	worktop
+sun_arvuykssgbdzaavk.jpg	7	2.242	0.267	1431.675	570.540	0.104	0.026	0.0	11	extractor hood
+sun_arvuykssgbdzaavk.jpg	8	2.542	0.167	1353.560	601.710	0.094	0.022	0.0	3	cabinet
+sun_arvuykssgbdzaavk.jpg	9	2.734	0.275	1244.285	699.160	0.086	0.028	0.0	2	bowl
+sun_arvuykssgbdzaavk.jpg	9	2.734	0.275	1244.285	699.160	0.086	0.028	0.0	3	cabinet
+sun_arvuykssgbdzaavk.jpg	9	2.734	0.275	1244.285	699.160	0.086	0.028	0.0	33	worktop

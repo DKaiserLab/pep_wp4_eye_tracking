@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ambrwzywvjncguna.jpg	1	0.359	0.292	1056.925	596.060	0.092	0.025	0.0	4	cabinet
+sun_ambrwzywvjncguna.jpg	2	0.675	0.508	1114.805	596.285	0.098	0.052	0.0	4	cabinet
+sun_ambrwzywvjncguna.jpg	2	0.675	0.508	1114.805	596.285	0.098	0.052	0.0	29	vase
+sun_ambrwzywvjncguna.jpg	3	1.217	0.308	994.535	756.150	0.195	0.056	0.0	4	cabinet
+sun_ambrwzywvjncguna.jpg	3	1.217	0.308	994.535	756.150	0.195	0.056	0.0	10	door
+sun_ambrwzywvjncguna.jpg	3	1.217	0.308	994.535	756.150	0.195	0.056	0.0	13	microwave
+sun_ambrwzywvjncguna.jpg	4	1.567	0.258	1317.130	863.010	0.123	0.036	0.0	16	oven
+sun_ambrwzywvjncguna.jpg	5	1.842	0.183	1405.642	858.243	0.148	0.030	0.0	11	drawers
+sun_ambrwzywvjncguna.jpg	6	2.050	0.208	1579.585	782.805	0.227	0.065	0.0	15	outlet
+sun_ambrwzywvjncguna.jpg	6	2.050	0.208	1579.585	782.805	0.227	0.065	0.0	30	worktop
+sun_ambrwzywvjncguna.jpg	7	2.275	0.183	1625.572	668.050	0.120	0.040	0.0	4	cabinet
+sun_ambrwzywvjncguna.jpg	7	2.275	0.183	1625.572	668.050	0.120	0.040	0.0	27	urn
+sun_ambrwzywvjncguna.jpg	8	2.484	0.333	1496.903	538.540	0.099	0.025	0.0	5	candle
+sun_ambrwzywvjncguna.jpg	9	2.850	0.158	1304.710	519.565	0.125	0.031	0.0	17	picture

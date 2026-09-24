@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axuvsdqqnoevzlud.jpg	1	0.231	0.183	1085.930	581.462	0.078	0.027	0.0	26	window
+sun_axuvsdqqnoevzlud.jpg	2	0.439	0.242	979.940	464.790	0.066	0.026	0.0	26	window
+sun_axuvsdqqnoevzlud.jpg	3	0.706	0.183	1069.312	653.372	0.094	0.036	0.0	10	decanter
+sun_axuvsdqqnoevzlud.jpg	3	0.706	0.183	1069.312	653.372	0.094	0.036	0.0	17	pitcher
+sun_axuvsdqqnoevzlud.jpg	3	0.706	0.183	1069.312	653.372	0.094	0.036	0.0	26	window
+sun_axuvsdqqnoevzlud.jpg	4	0.906	0.300	1037.618	814.338	0.105	0.042	0.0	27	worktop
+sun_axuvsdqqnoevzlud.jpg	5	1.248	0.275	1584.080	657.935	0.078	0.019	0.0	13	food
+sun_axuvsdqqnoevzlud.jpg	6	1.548	0.242	1648.195	557.060	0.073	0.027	0.0	0	other
+sun_axuvsdqqnoevzlud.jpg	7	1.806	0.333	1693.260	502.452	0.078	0.044	0.0	19	sculpture
+sun_axuvsdqqnoevzlud.jpg	8	2.181	0.142	1526.025	574.650	0.087	0.015	0.0	12	flowers
+sun_axuvsdqqnoevzlud.jpg	9	2.356	0.333	1150.218	622.457	0.095	0.030	0.0	20	sink
+sun_axuvsdqqnoevzlud.jpg	10	2.714	0.292	1196.290	620.985	0.083	0.031	0.0	20	sink

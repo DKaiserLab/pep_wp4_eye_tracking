@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_admyjjnxxddpqaud.jpg	1	0.303	0.225	1105.730	705.570	0.095	0.025	0.0	0	other
+sun_admyjjnxxddpqaud.jpg	2	0.561	0.367	939.483	716.385	0.100	0.026	0.0	0	other
+sun_admyjjnxxddpqaud.jpg	3	0.970	0.225	1032.355	858.780	0.079	0.036	0.0	2	cabinet
+sun_admyjjnxxddpqaud.jpg	4	1.228	0.283	1343.150	871.660	0.123	0.039	0.0	5	range
+sun_admyjjnxxddpqaud.jpg	5	1.537	0.317	1580.965	852.572	0.111	0.035	0.0	1	cabinet crop
+sun_admyjjnxxddpqaud.jpg	6	1.887	0.208	1406.760	646.040	0.095	0.058	0.0	0	other
+sun_admyjjnxxddpqaud.jpg	7	2.112	0.217	1279.298	573.920	0.105	0.040	0.0	2	cabinet
+sun_admyjjnxxddpqaud.jpg	7	2.112	0.217	1279.298	573.920	0.105	0.040	0.0	3	extractor hood
+sun_admyjjnxxddpqaud.jpg	8	2.362	0.533	1187.697	562.215	0.081	0.024	0.0	2	cabinet

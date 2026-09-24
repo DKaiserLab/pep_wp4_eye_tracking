@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awqncsdprzjtqkum.jpg	1	0.350	0.150	1416.105	668.263	0.208	0.089	0.0	0	other
+sun_awqncsdprzjtqkum.jpg	2	0.517	0.167	1515.503	648.440	0.096	0.041	0.0	6	clock
+sun_awqncsdprzjtqkum.jpg	3	0.725	0.175	1204.470	768.570	0.208	0.070	0.0	3	bottle
+sun_awqncsdprzjtqkum.jpg	3	0.725	0.175	1204.470	768.570	0.208	0.070	0.0	12	jar
+sun_awqncsdprzjtqkum.jpg	4	0.925	0.233	1205.138	854.173	0.136	0.045	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	4	0.925	0.233	1205.138	854.173	0.136	0.045	0.0	25	worktop
+sun_awqncsdprzjtqkum.jpg	5	1.192	0.125	1011.595	724.025	0.100	0.022	0.0	24	window
+sun_awqncsdprzjtqkum.jpg	6	1.342	0.383	925.688	636.300	0.089	0.029	0.0	22	teapot
+sun_awqncsdprzjtqkum.jpg	6	1.342	0.383	925.688	636.300	0.089	0.029	0.0	24	window
+sun_awqncsdprzjtqkum.jpg	7	1.750	0.167	1451.045	705.668	0.236	0.184	0.0	9	door
+sun_awqncsdprzjtqkum.jpg	8	1.950	0.200	1545.915	765.845	0.121	0.063	0.0	5	chair
+sun_awqncsdprzjtqkum.jpg	8	1.950	0.200	1545.915	765.845	0.121	0.063	0.0	25	worktop
+sun_awqncsdprzjtqkum.jpg	9	2.175	0.275	1618.355	798.640	0.146	0.058	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	9	2.175	0.275	1618.355	798.640	0.146	0.058	0.0	25	worktop
+sun_awqncsdprzjtqkum.jpg	10	2.492	0.308	1405.635	834.550	0.183	0.053	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	10	2.492	0.308	1405.635	834.550	0.183	0.053	0.0	8	dishcloth
+sun_awqncsdprzjtqkum.jpg	11	2.825	0.175	1284.355	687.345	0.148	0.041	0.0	4	cabinet

@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anryxjxdjnraelom.jpg	1	0.302	0.250	1053.475	781.790	0.141	0.043	0.0	7	toilet
+sun_anryxjxdjnraelom.jpg	2	0.569	0.275	1113.015	875.970	0.080	0.022	0.0	7	toilet
+sun_anryxjxdjnraelom.jpg	3	0.869	0.267	1173.497	1001.220	0.092	0.035	0.0	2	rug
+sun_anryxjxdjnraelom.jpg	3	0.869	0.267	1173.497	1001.220	0.092	0.035	0.0	7	toilet
+sun_anryxjxdjnraelom.jpg	4	1.152	0.367	1223.483	1026.693	0.086	0.041	0.0	2	rug
+sun_anryxjxdjnraelom.jpg	5	1.535	0.167	1191.382	1012.362	0.067	0.016	0.0	2	rug
+sun_anryxjxdjnraelom.jpg	5	1.535	0.167	1191.382	1012.362	0.067	0.016	0.0	7	toilet
+sun_anryxjxdjnraelom.jpg	6	1.744	0.242	1617.440	845.220	0.071	0.023	0.0	3	shower screen
+sun_anryxjxdjnraelom.jpg	7	2.019	0.200	1676.875	821.053	0.048	0.012	0.0	3	shower screen
+sun_anryxjxdjnraelom.jpg	8	2.260	0.158	1345.175	550.485	0.085	0.036	0.0	0	other
+sun_anryxjxdjnraelom.jpg	9	2.435	0.267	1217.505	454.748	0.078	0.046	0.0	0	other
+sun_anryxjxdjnraelom.jpg	10	2.735	0.158	832.790	506.590	0.119	0.036	0.0	-1	off stimulus

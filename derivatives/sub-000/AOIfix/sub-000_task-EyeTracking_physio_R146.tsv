@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxvejtymbkewxpy.jpg	1	0.386	0.392	1003.850	826.120	0.125	0.065	0.0	7	cutting board
+sun_ajxvejtymbkewxpy.jpg	1	0.386	0.392	1003.850	826.120	0.125	0.065	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	1	0.386	0.392	1003.850	826.120	0.125	0.065	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	2	0.811	0.183	1036.580	845.460	0.100	0.025	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	2	0.811	0.183	1036.580	845.460	0.100	0.025	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	3	1.011	0.333	1085.330	845.378	0.165	0.077	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	3	1.011	0.333	1085.330	845.378	0.165	0.077	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	4	1.361	1.333	986.740	837.277	0.186	0.143	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	4	1.361	1.333	986.740	837.277	0.186	0.143	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	5	2.711	0.292	1021.450	813.260	0.143	0.071	0.0	7	cutting board
+sun_ajxvejtymbkewxpy.jpg	5	2.711	0.292	1021.450	813.260	0.143	0.071	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	5	2.711	0.292	1021.450	813.260	0.143	0.071	0.0	19	worktop

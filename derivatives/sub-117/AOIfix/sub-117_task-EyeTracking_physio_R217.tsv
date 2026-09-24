@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_asppapsiuwmrsopu.jpg	1	0.238	0.217	1286.390	675.915	0.077	0.012	0.0	0	other
+sun_asppapsiuwmrsopu.jpg	2	0.488	0.283	1301.493	624.957	0.069	0.011	0.0	0	other
+sun_asppapsiuwmrsopu.jpg	3	0.804	0.200	1401.543	616.033	0.067	0.010	0.0	3	door
+sun_asppapsiuwmrsopu.jpg	4	1.029	0.275	1504.615	620.655	0.086	0.012	0.0	3	door
+sun_asppapsiuwmrsopu.jpg	5	1.338	0.175	1597.100	657.320	0.062	0.012	0.0	3	door
+sun_asppapsiuwmrsopu.jpg	6	1.538	0.267	1682.658	733.115	0.097	0.022	0.0	12	towel rack
+sun_asppapsiuwmrsopu.jpg	7	1.830	0.275	1667.745	776.580	0.068	0.016	0.0	12	towel rack
+sun_asppapsiuwmrsopu.jpg	8	2.146	0.175	1609.085	825.045	0.062	0.012	0.0	3	door
+sun_asppapsiuwmrsopu.jpg	9	2.346	0.208	1357.510	823.190	0.119	0.045	0.0	0	other
+sun_asppapsiuwmrsopu.jpg	10	2.588	0.183	1225.050	774.345	0.073	0.016	0.0	7	shower screen
+sun_asppapsiuwmrsopu.jpg	11	2.796	0.167	1104.323	709.923	0.082	0.021	0.0	7	shower screen

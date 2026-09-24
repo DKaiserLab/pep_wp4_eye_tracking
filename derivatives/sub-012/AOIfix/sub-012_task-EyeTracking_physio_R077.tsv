@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aevezokbkeojznwq.jpg	1	0.352	0.200	1313.582	575.487	0.139	0.039	0.0	2	brush
+sun_aevezokbkeojznwq.jpg	1	0.352	0.200	1313.582	575.487	0.139	0.039	0.0	5	mitten
+sun_aevezokbkeojznwq.jpg	2	0.860	0.325	927.360	581.735	0.129	0.106	0.0	1	bag
+sun_aevezokbkeojznwq.jpg	3	1.202	0.175	1031.975	768.160	0.206	0.088	0.0	8	range
+sun_aevezokbkeojznwq.jpg	4	1.644	0.300	903.200	868.658	0.131	0.064	0.0	13	trash can
+sun_aevezokbkeojznwq.jpg	5	2.219	0.167	923.495	845.928	0.116	0.039	0.0	13	trash can
+sun_aevezokbkeojznwq.jpg	6	2.444	0.267	1241.155	824.543	0.106	0.032	0.0	3	cabinet
+sun_aevezokbkeojznwq.jpg	7	2.727	0.242	1233.215	714.580	0.143	0.050	0.0	3	cabinet
+sun_aevezokbkeojznwq.jpg	7	2.727	0.242	1233.215	714.580	0.143	0.050	0.0	14	worktop

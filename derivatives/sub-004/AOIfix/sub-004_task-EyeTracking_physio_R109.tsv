@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_attdviyipsljunts.jpg	1	0.305	0.175	1346.820	818.190	0.221	0.108	0.0	10	kitchen island
+sun_attdviyipsljunts.jpg	2	0.530	0.175	1617.425	663.215	0.117	0.042	0.0	19	refrigerator
+sun_attdviyipsljunts.jpg	3	0.755	0.233	1280.830	632.620	0.081	0.018	0.0	3	cabinet
+sun_attdviyipsljunts.jpg	4	1.022	0.233	1073.570	681.253	0.104	0.027	0.0	0	other
+sun_attdviyipsljunts.jpg	5	1.297	0.167	998.987	688.713	0.086	0.014	0.0	15	paper towels
+sun_attdviyipsljunts.jpg	6	1.480	0.258	904.910	713.425	0.133	0.035	0.0	6	door
+sun_attdviyipsljunts.jpg	7	1.755	0.175	864.410	715.960	0.145	0.043	0.0	23	water cooler
+sun_attdviyipsljunts.jpg	8	1.947	0.350	867.120	771.400	0.122	0.048	0.0	23	water cooler
+sun_attdviyipsljunts.jpg	9	2.322	0.283	1322.480	712.663	0.127	0.057	0.0	3	cabinet
+sun_attdviyipsljunts.jpg	9	2.322	0.283	1322.480	712.663	0.127	0.057	0.0	25	worktop
+sun_attdviyipsljunts.jpg	10	2.622	0.250	1299.905	699.375	0.107	0.022	0.0	2	box
+sun_attdviyipsljunts.jpg	10	2.622	0.250	1299.905	699.375	0.107	0.022	0.0	3	cabinet

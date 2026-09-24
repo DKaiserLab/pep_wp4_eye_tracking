@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abtdlltafvpypcff.jpg	1	0.333	0.233	1301.593	666.630	0.173	0.098	0.0	8	coffee maker
+sun_abtdlltafvpypcff.jpg	1	0.333	0.233	1301.593	666.630	0.173	0.098	0.0	11	mug
+sun_abtdlltafvpypcff.jpg	2	0.591	0.192	1142.175	552.655	0.129	0.040	0.0	9	extractor hood
+sun_abtdlltafvpypcff.jpg	3	0.799	0.283	1014.380	520.605	0.180	0.142	0.0	5	cabinet
+sun_abtdlltafvpypcff.jpg	4	1.108	0.292	1069.770	766.725	0.138	0.036	0.0	5	cabinet
+sun_abtdlltafvpypcff.jpg	5	1.424	0.375	1405.460	711.635	0.123	0.063	0.0	5	cabinet
+sun_abtdlltafvpypcff.jpg	5	1.424	0.375	1405.460	711.635	0.123	0.063	0.0	20	sink
+sun_abtdlltafvpypcff.jpg	5	1.424	0.375	1405.460	711.635	0.123	0.063	0.0	26	worktop
+sun_abtdlltafvpypcff.jpg	6	1.824	0.392	1303.750	495.855	0.108	0.034	0.0	5	cabinet
+sun_abtdlltafvpypcff.jpg	7	2.266	0.300	1485.990	525.025	0.143	0.039	0.0	5	cabinet
+sun_abtdlltafvpypcff.jpg	8	2.599	0.225	1546.320	733.980	0.097	0.021	0.0	26	worktop
+sun_abtdlltafvpypcff.jpg	9	2.858	0.150	1150.308	723.505	0.145	0.045	0.0	17	range

@@ -1,0 +1,26 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anneoguowdhugwoy.jpg	1	0.319	0.158	1180.140	704.345	0.106	0.044	0.0	8	mirror
+sun_anneoguowdhugwoy.jpg	1	0.319	0.158	1180.140	704.345	0.106	0.044	0.0	16	wardrobe
+sun_anneoguowdhugwoy.jpg	2	0.502	0.117	950.527	656.023	0.220	0.071	0.0	16	wardrobe
+sun_anneoguowdhugwoy.jpg	3	0.644	0.200	1215.800	653.413	0.148	0.040	0.0	8	mirror
+sun_anneoguowdhugwoy.jpg	4	0.860	0.242	1314.900	657.325	0.102	0.020	0.0	5	curtain
+sun_anneoguowdhugwoy.jpg	5	1.119	0.267	1405.053	693.080	0.107	0.028	0.0	5	curtain
+sun_anneoguowdhugwoy.jpg	6	1.402	0.267	1487.300	738.778	0.078	0.012	0.0	5	curtain
+sun_anneoguowdhugwoy.jpg	6	1.402	0.267	1487.300	738.778	0.078	0.012	0.0	14	towel
+sun_anneoguowdhugwoy.jpg	6	1.402	0.267	1487.300	738.778	0.078	0.012	0.0	15	towels
+sun_anneoguowdhugwoy.jpg	7	1.685	0.200	1502.360	771.565	0.110	0.027	0.0	6	door
+sun_anneoguowdhugwoy.jpg	7	1.685	0.200	1502.360	771.565	0.110	0.027	0.0	14	towel
+sun_anneoguowdhugwoy.jpg	7	1.685	0.200	1502.360	771.565	0.110	0.027	0.0	15	towels
+sun_anneoguowdhugwoy.jpg	8	1.910	0.183	1309.050	808.165	0.135	0.030	0.0	1	bathtub
+sun_anneoguowdhugwoy.jpg	8	1.910	0.183	1309.050	808.165	0.135	0.030	0.0	3	cabinet
+sun_anneoguowdhugwoy.jpg	8	1.910	0.183	1309.050	808.165	0.135	0.030	0.0	4	countertop
+sun_anneoguowdhugwoy.jpg	8	1.910	0.183	1309.050	808.165	0.135	0.030	0.0	5	curtain
+sun_anneoguowdhugwoy.jpg	9	2.110	0.217	1179.493	866.002	0.123	0.039	0.0	2	box
+sun_anneoguowdhugwoy.jpg	9	2.110	0.217	1179.493	866.002	0.123	0.039	0.0	3	cabinet
+sun_anneoguowdhugwoy.jpg	9	2.110	0.217	1179.493	866.002	0.123	0.039	0.0	4	countertop
+sun_anneoguowdhugwoy.jpg	9	2.110	0.217	1179.493	866.002	0.123	0.039	0.0	16	wardrobe
+sun_anneoguowdhugwoy.jpg	10	2.352	0.225	1070.855	896.395	0.133	0.032	0.0	16	wardrobe
+sun_anneoguowdhugwoy.jpg	11	2.602	0.283	1198.235	868.825	0.104	0.021	0.0	2	box
+sun_anneoguowdhugwoy.jpg	11	2.602	0.283	1198.235	868.825	0.104	0.021	0.0	3	cabinet
+sun_anneoguowdhugwoy.jpg	11	2.602	0.283	1198.235	868.825	0.104	0.021	0.0	4	countertop
+sun_anneoguowdhugwoy.jpg	12	2.910	0.100	1384.095	865.665	0.191	0.055	0.0	1	bathtub

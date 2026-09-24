@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afbibxsnpvkmvhxn.jpg	1	0.202	0.275	1076.765	809.705	0.128	0.053	0.0	8	range
+sun_afbibxsnpvkmvhxn.jpg	2	0.502	0.100	1030.588	839.085	0.148	0.031	0.0	8	range
+sun_afbibxsnpvkmvhxn.jpg	3	0.827	0.242	987.885	790.830	0.195	0.040	0.0	8	range
+sun_afbibxsnpvkmvhxn.jpg	4	1.102	0.250	1353.890	753.585	0.166	0.084	0.0	6	microwave
+sun_afbibxsnpvkmvhxn.jpg	5	1.385	0.450	1630.340	922.515	0.110	0.036	0.0	9	sink
+sun_afbibxsnpvkmvhxn.jpg	5	1.385	0.450	1630.340	922.515	0.110	0.036	0.0	10	worktop
+sun_afbibxsnpvkmvhxn.jpg	6	1.860	0.158	1619.670	875.340	0.126	0.025	0.0	9	sink
+sun_afbibxsnpvkmvhxn.jpg	6	1.860	0.158	1619.670	875.340	0.126	0.025	0.0	10	worktop
+sun_afbibxsnpvkmvhxn.jpg	7	2.069	0.208	1246.495	804.715	0.106	0.037	0.0	6	microwave
+sun_afbibxsnpvkmvhxn.jpg	7	2.069	0.208	1246.495	804.715	0.106	0.037	0.0	10	worktop
+sun_afbibxsnpvkmvhxn.jpg	8	2.319	0.125	1056.745	833.645	0.102	0.026	0.0	8	range
+sun_afbibxsnpvkmvhxn.jpg	9	2.610	0.392	1016.685	778.285	0.161	0.054	0.0	8	range

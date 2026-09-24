@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqrdtsxisrulfusj.jpg	1	0.445	0.175	1354.900	693.985	0.092	0.094	0.0	0	other
+sun_aqrdtsxisrulfusj.jpg	2	0.645	0.217	1445.552	661.410	0.133	0.068	0.0	0	other
+sun_aqrdtsxisrulfusj.jpg	3	0.879	0.308	1515.710	698.800	0.244	0.379	0.0	0	other
+sun_aqrdtsxisrulfusj.jpg	4	1.195	0.242	1555.170	697.660	0.124	0.064	0.0	11	range
+sun_aqrdtsxisrulfusj.jpg	5	1.470	0.658	1595.100	710.525	0.241	0.277	0.0	11	range
+sun_aqrdtsxisrulfusj.jpg	6	2.271	0.225	1435.695	708.530	0.253	0.264	0.0	0	other
+sun_aqrdtsxisrulfusj.jpg	7	2.521	0.200	1303.368	697.082	0.156	0.145	0.0	0	other
+sun_aqrdtsxisrulfusj.jpg	8	2.746	0.217	1097.482	682.780	0.110	0.032	0.0	7	food processor

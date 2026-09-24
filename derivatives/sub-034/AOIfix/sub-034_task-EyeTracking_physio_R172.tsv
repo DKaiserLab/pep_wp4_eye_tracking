@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agguqiubmwhqqunb.jpg	1	0.442	0.167	1085.692	810.970	0.107	0.029	0.0	7	shower
+sun_agguqiubmwhqqunb.jpg	1	0.442	0.167	1085.692	810.970	0.107	0.029	0.0	9	step
+sun_agguqiubmwhqqunb.jpg	2	0.626	0.292	1035.625	864.620	0.080	0.023	0.0	1	bathtub crop
+sun_agguqiubmwhqqunb.jpg	2	0.626	0.292	1035.625	864.620	0.080	0.023	0.0	9	step
+sun_agguqiubmwhqqunb.jpg	3	0.951	0.158	1244.235	644.190	0.183	0.053	0.0	0	other
+sun_agguqiubmwhqqunb.jpg	4	1.142	0.250	1558.157	653.183	0.112	0.070	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	5	1.409	0.133	1621.200	698.210	0.163	0.029	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	5	1.409	0.133	1621.200	698.210	0.163	0.029	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	6	1.559	0.117	1623.050	798.310	0.113	0.027	0.0	4	countertop
+sun_agguqiubmwhqqunb.jpg	6	1.559	0.117	1623.050	798.310	0.113	0.027	0.0	8	sink
+sun_agguqiubmwhqqunb.jpg	7	1.884	0.308	1472.350	871.600	0.093	0.032	0.0	4	countertop
+sun_agguqiubmwhqqunb.jpg	7	1.884	0.308	1472.350	871.600	0.093	0.032	0.0	11	towel
+sun_agguqiubmwhqqunb.jpg	8	2.209	0.275	1475.615	812.060	0.080	0.023	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	8	2.209	0.275	1475.615	812.060	0.080	0.023	0.0	4	countertop
+sun_agguqiubmwhqqunb.jpg	9	2.492	0.192	1494.890	800.435	0.091	0.021	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	9	2.492	0.192	1494.890	800.435	0.091	0.021	0.0	4	countertop
+sun_agguqiubmwhqqunb.jpg	10	2.701	0.258	1628.400	792.995	0.124	0.026	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	10	2.701	0.258	1628.400	792.995	0.124	0.026	0.0	4	countertop
+sun_agguqiubmwhqqunb.jpg	10	2.701	0.258	1628.400	792.995	0.124	0.026	0.0	8	sink

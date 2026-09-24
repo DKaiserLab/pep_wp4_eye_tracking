@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahixopvqokygrcgy.jpg	1	0.270	0.133	1234.348	653.650	0.171	0.137	0.0	3	countertop
+sun_ahixopvqokygrcgy.jpg	1	0.270	0.133	1234.348	653.650	0.171	0.137	0.0	5	mirror
+sun_ahixopvqokygrcgy.jpg	2	0.420	0.200	1105.225	533.273	0.070	0.032	0.0	5	mirror
+sun_ahixopvqokygrcgy.jpg	2	0.420	0.200	1105.225	533.273	0.070	0.032	0.0	7	sconce
+sun_ahixopvqokygrcgy.jpg	3	0.636	0.250	1041.085	504.832	0.083	0.016	0.0	0	other
+sun_ahixopvqokygrcgy.jpg	4	0.911	0.342	1068.095	662.970	0.163	0.089	0.0	3	countertop
+sun_ahixopvqokygrcgy.jpg	4	0.911	0.342	1068.095	662.970	0.163	0.089	0.0	6	picture
+sun_ahixopvqokygrcgy.jpg	5	1.270	0.258	1111.690	806.505	0.136	0.033	0.0	1	bathtub crop
+sun_ahixopvqokygrcgy.jpg	5	1.270	0.258	1111.690	806.505	0.136	0.033	0.0	2	cabinet
+sun_ahixopvqokygrcgy.jpg	6	1.553	0.208	1211.305	882.815	0.097	0.017	0.0	1	bathtub crop
+sun_ahixopvqokygrcgy.jpg	7	1.786	0.283	1397.530	861.940	0.095	0.029	0.0	8	shower screen
+sun_ahixopvqokygrcgy.jpg	7	1.786	0.283	1397.530	861.940	0.095	0.029	0.0	10	stool
+sun_ahixopvqokygrcgy.jpg	8	2.095	0.225	1464.170	772.930	0.113	0.027	0.0	8	shower screen
+sun_ahixopvqokygrcgy.jpg	9	2.336	0.208	1514.345	698.755	0.146	0.022	0.0	8	shower screen
+sun_ahixopvqokygrcgy.jpg	10	2.553	0.183	1524.910	640.640	0.121	0.043	0.0	8	shower screen
+sun_ahixopvqokygrcgy.jpg	11	2.770	0.183	1307.148	545.523	0.109	0.024	0.0	7	sconce

@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.398	0.167	1173.892	606.505	0.151	0.048	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	2	0.573	0.175	1264.060	604.985	0.109	0.081	0.0	11	extractor hood
+sun_acfmftudsenhrfhy.jpg	3	0.765	0.200	1267.785	711.408	0.119	0.089	0.0	26	stove
+sun_acfmftudsenhrfhy.jpg	3	0.765	0.200	1267.785	711.408	0.119	0.089	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	4	0.981	0.333	1144.830	711.262	0.100	0.028	0.0	9	coffee maker
+sun_acfmftudsenhrfhy.jpg	4	0.981	0.333	1144.830	711.262	0.100	0.028	0.0	17	microwave
+sun_acfmftudsenhrfhy.jpg	4	0.981	0.333	1144.830	711.262	0.100	0.028	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	5	1.340	0.333	1265.700	631.952	0.071	0.020	0.0	0	other
+sun_acfmftudsenhrfhy.jpg	6	1.690	0.317	1381.527	720.100	0.104	0.098	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	6	1.690	0.317	1381.527	720.100	0.104	0.098	0.0	19	oven
+sun_acfmftudsenhrfhy.jpg	6	1.690	0.317	1381.527	720.100	0.104	0.098	0.0	29	toaster
+sun_acfmftudsenhrfhy.jpg	6	1.690	0.317	1381.527	720.100	0.104	0.098	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	7	2.048	0.117	1405.245	771.955	0.081	0.014	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	7	2.048	0.117	1405.245	771.955	0.081	0.014	0.0	25	sink
+sun_acfmftudsenhrfhy.jpg	7	2.048	0.117	1405.245	771.955	0.081	0.014	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	8	2.198	0.183	1108.722	794.538	0.157	0.114	0.0	27	sugar bowl
+sun_acfmftudsenhrfhy.jpg	8	2.198	0.183	1108.722	794.538	0.157	0.114	0.0	30	tray
+sun_acfmftudsenhrfhy.jpg	8	2.198	0.183	1108.722	794.538	0.157	0.114	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	9	2.415	0.400	1601.828	745.290	0.095	0.055	0.0	1	bottle rack
+sun_acfmftudsenhrfhy.jpg	10	2.840	0.167	1391.057	882.747	0.138	0.036	0.0	7	chair crop

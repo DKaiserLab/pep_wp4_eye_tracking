@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqyyqhbfyinaxiuf.jpg	1	0.442	0.142	1393.760	702.465	0.198	0.070	0.0	6	shower curtain
+sun_aqyyqhbfyinaxiuf.jpg	2	0.609	0.400	1492.872	659.872	0.098	0.034	0.0	6	shower curtain
+sun_aqyyqhbfyinaxiuf.jpg	3	1.051	0.333	1390.988	737.668	0.215	0.145	0.0	6	shower curtain
+sun_aqyyqhbfyinaxiuf.jpg	4	1.409	0.308	1220.070	807.410	0.544	0.215	0.0	6	shower curtain
+sun_aqyyqhbfyinaxiuf.jpg	4	1.409	0.308	1220.070	807.410	0.544	0.215	0.0	8	toilet
+sun_aqyyqhbfyinaxiuf.jpg	5	1.726	0.275	1153.325	854.300	0.672	0.326	0.0	8	toilet
+sun_aqyyqhbfyinaxiuf.jpg	6	2.017	0.317	1226.135	882.875	0.366	0.150	0.0	6	shower curtain
+sun_aqyyqhbfyinaxiuf.jpg	6	2.017	0.317	1226.135	882.875	0.366	0.150	0.0	8	toilet
+sun_aqyyqhbfyinaxiuf.jpg	7	2.351	0.200	1197.463	943.970	0.107	0.031	0.0	8	toilet
+sun_aqyyqhbfyinaxiuf.jpg	8	2.567	0.200	1155.043	987.905	0.130	0.032	0.0	8	toilet
+sun_aqyyqhbfyinaxiuf.jpg	9	2.784	0.158	1072.860	1003.575	0.105	0.024	0.0	1	cabinet
+sun_aqyyqhbfyinaxiuf.jpg	9	2.784	0.158	1072.860	1003.575	0.105	0.024	0.0	9	water valve

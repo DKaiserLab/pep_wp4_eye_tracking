@@ -1,0 +1,23 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahbhthuvbhsokcnl.jpg	1	0.282	0.250	1076.860	754.793	0.152	0.053	0.0	2	books
+sun_ahbhthuvbhsokcnl.jpg	1	0.282	0.250	1076.860	754.793	0.152	0.053	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	1	0.282	0.250	1076.860	754.793	0.152	0.053	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	1	0.282	0.250	1076.860	754.793	0.152	0.053	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	2	0.565	0.283	1362.130	800.355	0.145	0.042	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	3	0.882	0.267	1502.638	740.503	0.139	0.034	0.0	8	drawers
+sun_ahbhthuvbhsokcnl.jpg	3	0.882	0.267	1502.638	740.503	0.139	0.034	0.0	11	hotpl
+sun_ahbhthuvbhsokcnl.jpg	3	0.882	0.267	1502.638	740.503	0.139	0.034	0.0	15	oven
+sun_ahbhthuvbhsokcnl.jpg	3	0.882	0.267	1502.638	740.503	0.139	0.034	0.0	21	worktop
+sun_ahbhthuvbhsokcnl.jpg	4	1.207	0.175	1417.275	1044.645	0.080	0.017	0.0	0	other
+sun_ahbhthuvbhsokcnl.jpg	5	1.407	0.142	1312.480	993.910	0.168	0.046	0.0	0	other
+sun_ahbhthuvbhsokcnl.jpg	6	1.582	0.225	1091.105	800.980	0.128	0.039	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	6	1.582	0.225	1091.105	800.980	0.128	0.039	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	6	1.582	0.225	1091.105	800.980	0.128	0.039	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	7	1.832	0.233	955.298	755.205	0.143	0.044	0.0	3	bowl
+sun_ahbhthuvbhsokcnl.jpg	7	1.832	0.233	955.298	755.205	0.143	0.044	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	7	1.832	0.233	955.298	755.205	0.143	0.044	0.0	18	table
+sun_ahbhthuvbhsokcnl.jpg	8	2.090	0.475	1132.395	685.330	0.172	0.058	0.0	5	cabinet
+sun_ahbhthuvbhsokcnl.jpg	9	2.590	0.275	1042.365	748.240	0.144	0.042	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	10	2.882	0.125	926.380	740.540	0.134	0.054	0.0	3	bowl
+sun_ahbhthuvbhsokcnl.jpg	10	2.882	0.125	926.380	740.540	0.134	0.054	0.0	7	chair
+sun_ahbhthuvbhsokcnl.jpg	10	2.882	0.125	926.380	740.540	0.134	0.054	0.0	18	table

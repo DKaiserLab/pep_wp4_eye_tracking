@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anaaondppjmietbw.jpg	1	0.267	0.192	1073.675	649.210	0.109	0.029	0.0	0	other
+sun_anaaondppjmietbw.jpg	2	0.484	0.275	907.090	621.650	0.127	0.037	0.0	4	mirror
+sun_anaaondppjmietbw.jpg	3	0.809	0.317	1131.035	836.443	0.081	0.030	0.0	7	sink
+sun_anaaondppjmietbw.jpg	4	1.159	0.233	1379.358	802.298	0.106	0.033	0.0	0	other
+sun_anaaondppjmietbw.jpg	5	1.409	0.425	1512.835	769.285	0.092	0.044	0.0	0	other
+sun_anaaondppjmietbw.jpg	6	1.992	0.225	1455.200	704.035	0.153	0.168	0.0	0	other
+sun_anaaondppjmietbw.jpg	7	2.242	0.225	1343.835	588.060	0.101	0.023	0.0	0	other
+sun_anaaondppjmietbw.jpg	8	2.500	0.233	1195.460	570.945	0.083	0.017	0.0	0	other
+sun_anaaondppjmietbw.jpg	9	2.750	0.258	1095.335	602.625	0.123	0.029	0.0	5	outlet

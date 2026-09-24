@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anbqoyitlozwisvu.jpg	1	0.305	0.175	1212.015	748.315	0.053	0.014	0.0	17	outlet
+sun_anbqoyitlozwisvu.jpg	2	0.513	0.183	1159.143	644.830	0.085	0.036	0.0	8	curtain
+sun_anbqoyitlozwisvu.jpg	2	0.513	0.183	1159.143	644.830	0.085	0.036	0.0	28	window
+sun_anbqoyitlozwisvu.jpg	3	0.713	0.317	1160.908	620.197	0.062	0.024	0.0	8	curtain
+sun_anbqoyitlozwisvu.jpg	4	1.072	0.225	1085.705	823.420	0.070	0.024	0.0	3	cabinet
+sun_anbqoyitlozwisvu.jpg	4	1.072	0.225	1085.705	823.420	0.070	0.024	0.0	19	pot
+sun_anbqoyitlozwisvu.jpg	4	1.072	0.225	1085.705	823.420	0.070	0.024	0.0	29	worktop
+sun_anbqoyitlozwisvu.jpg	5	1.313	0.358	1055.345	845.600	0.068	0.025	0.0	1	bottle
+sun_anbqoyitlozwisvu.jpg	5	1.313	0.358	1055.345	845.600	0.068	0.025	0.0	3	cabinet
+sun_anbqoyitlozwisvu.jpg	6	1.705	0.258	1334.690	893.470	0.076	0.042	0.0	6	chair
+sun_anbqoyitlozwisvu.jpg	6	1.705	0.258	1334.690	893.470	0.076	0.042	0.0	13	kitchen island
+sun_anbqoyitlozwisvu.jpg	7	1.980	0.267	1413.845	911.332	0.063	0.019	0.0	6	chair
+sun_anbqoyitlozwisvu.jpg	8	2.272	0.225	1483.480	877.400	0.071	0.010	0.0	6	chair
+sun_anbqoyitlozwisvu.jpg	9	2.547	0.267	1358.925	789.393	0.056	0.011	0.0	26	toaster
+sun_anbqoyitlozwisvu.jpg	9	2.547	0.267	1358.925	789.393	0.056	0.011	0.0	29	worktop
+sun_anbqoyitlozwisvu.jpg	10	2.847	0.158	970.795	767.855	0.068	0.015	0.0	25	television

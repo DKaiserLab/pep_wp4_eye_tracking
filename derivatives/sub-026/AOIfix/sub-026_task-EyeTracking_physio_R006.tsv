@@ -1,0 +1,29 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvdofgavhiiyosk.jpg	1	0.315	0.167	1300.695	801.398	0.127	0.022	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	1	0.315	0.167	1300.695	801.398	0.127	0.022	0.0	4	hotpl
+sun_alvdofgavhiiyosk.jpg	1	0.315	0.167	1300.695	801.398	0.127	0.022	0.0	5	kettle
+sun_alvdofgavhiiyosk.jpg	1	0.315	0.167	1300.695	801.398	0.127	0.022	0.0	7	oven
+sun_alvdofgavhiiyosk.jpg	1	0.315	0.167	1300.695	801.398	0.127	0.022	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	2	0.806	0.167	1240.900	853.072	0.416	0.163	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	2	0.806	0.167	1240.900	853.072	0.416	0.163	0.0	7	oven
+sun_alvdofgavhiiyosk.jpg	2	0.806	0.167	1240.900	853.072	0.416	0.163	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	3	0.990	0.358	1203.830	792.320	0.219	0.121	0.0	4	hotpl
+sun_alvdofgavhiiyosk.jpg	3	0.990	0.358	1203.830	792.320	0.219	0.121	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	4	1.365	0.208	1171.375	772.565	0.103	0.036	0.0	4	hotpl
+sun_alvdofgavhiiyosk.jpg	4	1.365	0.208	1171.375	772.565	0.103	0.036	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	5	1.598	0.158	1039.950	778.750	0.111	0.028	0.0	0	other
+sun_alvdofgavhiiyosk.jpg	6	1.781	0.117	1253.512	906.638	0.463	0.143	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	6	1.781	0.117	1253.512	906.638	0.463	0.143	0.0	7	oven
+sun_alvdofgavhiiyosk.jpg	7	1.956	0.258	1550.750	736.120	0.086	0.015	0.0	6	microwave
+sun_alvdofgavhiiyosk.jpg	7	1.956	0.258	1550.750	736.120	0.086	0.015	0.0	10	washing machine
+sun_alvdofgavhiiyosk.jpg	7	1.956	0.258	1550.750	736.120	0.086	0.015	0.0	11	window
+sun_alvdofgavhiiyosk.jpg	7	1.956	0.258	1550.750	736.120	0.086	0.015	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	8	2.240	0.150	1483.602	710.452	0.106	0.020	0.0	9	sink
+sun_alvdofgavhiiyosk.jpg	8	2.240	0.150	1483.602	710.452	0.106	0.020	0.0	11	window
+sun_alvdofgavhiiyosk.jpg	8	2.240	0.150	1483.602	710.452	0.106	0.020	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	9	2.415	0.225	1544.030	770.000	0.111	0.025	0.0	10	washing machine
+sun_alvdofgavhiiyosk.jpg	9	2.415	0.225	1544.030	770.000	0.111	0.025	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	10	2.656	0.125	1559.275	765.105	0.118	0.034	0.0	10	washing machine
+sun_alvdofgavhiiyosk.jpg	10	2.656	0.125	1559.275	765.105	0.118	0.034	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	11	2.815	0.192	1285.575	903.480	0.171	0.053	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	11	2.815	0.192	1285.575	903.480	0.171	0.053	0.0	7	oven

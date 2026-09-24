@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahdycvpopffkzzsu.jpg	1	0.188	0.292	1280.110	671.210	0.102	0.069	0.0	1	bottle
+sun_ahdycvpopffkzzsu.jpg	2	0.497	0.300	1471.805	686.835	0.097	0.028	0.0	3	dish rack
+sun_ahdycvpopffkzzsu.jpg	2	0.497	0.300	1471.805	686.835	0.097	0.028	0.0	8	sponge
+sun_ahdycvpopffkzzsu.jpg	3	0.830	0.583	1386.653	701.663	0.076	0.017	0.0	10	toaster
+sun_ahdycvpopffkzzsu.jpg	4	1.438	0.358	1407.480	724.350	0.082	0.018	0.0	3	dish rack
+sun_ahdycvpopffkzzsu.jpg	4	1.438	0.358	1407.480	724.350	0.082	0.018	0.0	10	toaster
+sun_ahdycvpopffkzzsu.jpg	5	1.822	0.342	1537.085	841.030	0.223	0.059	0.0	6	sink
+sun_ahdycvpopffkzzsu.jpg	6	2.197	0.200	1197.823	685.460	0.113	0.027	0.0	0	other
+sun_ahdycvpopffkzzsu.jpg	7	2.422	0.325	1093.050	618.355	0.076	0.022	0.0	11	window

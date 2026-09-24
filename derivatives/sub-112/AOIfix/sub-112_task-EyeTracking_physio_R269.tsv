@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apunwgjjmfutuzff.jpg	1	0.365	0.300	1283.075	742.473	0.219	0.078	0.0	19	soap bottle
+sun_apunwgjjmfutuzff.jpg	2	0.682	0.267	1300.735	736.688	0.088	0.024	0.0	19	soap bottle
+sun_apunwgjjmfutuzff.jpg	3	0.982	0.283	1313.582	640.987	0.094	0.040	0.0	5	curtain
+sun_apunwgjjmfutuzff.jpg	3	0.982	0.283	1313.582	640.987	0.094	0.040	0.0	20	window
+sun_apunwgjjmfutuzff.jpg	4	1.282	0.200	1254.990	643.852	0.092	0.017	0.0	20	window
+sun_apunwgjjmfutuzff.jpg	5	1.499	0.617	1195.658	648.050	0.088	0.040	0.0	20	window
+sun_apunwgjjmfutuzff.jpg	6	2.132	0.225	1275.630	660.345	0.079	0.017	0.0	20	window
+sun_apunwgjjmfutuzff.jpg	7	2.382	0.183	1380.352	688.985	0.090	0.020	0.0	20	window
+sun_apunwgjjmfutuzff.jpg	8	2.599	0.325	1467.330	754.840	0.104	0.045	0.0	6	dish rack
+sun_apunwgjjmfutuzff.jpg	8	2.599	0.325	1467.330	754.840	0.104	0.045	0.0	10	jar
+sun_apunwgjjmfutuzff.jpg	8	2.599	0.325	1467.330	754.840	0.104	0.045	0.0	21	worktop

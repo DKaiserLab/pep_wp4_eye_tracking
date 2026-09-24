@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahmxuekfssakrqmm.jpg	1	0.400	0.242	1297.700	709.545	0.098	0.041	0.0	12	paper towels
+sun_ahmxuekfssakrqmm.jpg	2	0.750	0.425	1257.595	713.315	0.131	0.068	0.0	12	paper towels
+sun_ahmxuekfssakrqmm.jpg	2	0.750	0.425	1257.595	713.315	0.131	0.068	0.0	22	toaster
+sun_ahmxuekfssakrqmm.jpg	3	1.192	0.583	1289.322	700.882	0.105	0.038	0.0	12	paper towels
+sun_ahmxuekfssakrqmm.jpg	4	1.792	0.225	1194.370	726.965	0.095	0.025	0.0	22	toaster
+sun_ahmxuekfssakrqmm.jpg	4	1.792	0.225	1194.370	726.965	0.095	0.025	0.0	25	worktop
+sun_ahmxuekfssakrqmm.jpg	5	2.050	0.525	1296.765	743.110	0.181	0.046	0.0	12	paper towels
+sun_ahmxuekfssakrqmm.jpg	5	2.050	0.525	1296.765	743.110	0.181	0.046	0.0	17	sink
+sun_ahmxuekfssakrqmm.jpg	5	2.050	0.525	1296.765	743.110	0.181	0.046	0.0	19	stool
+sun_ahmxuekfssakrqmm.jpg	5	2.050	0.525	1296.765	743.110	0.181	0.046	0.0	25	worktop
+sun_ahmxuekfssakrqmm.jpg	6	2.608	0.400	1310.385	708.175	0.123	0.029	0.0	24	window

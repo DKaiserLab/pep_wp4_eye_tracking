@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_tyvaihcwznonioe.jpg	1	0.292	0.450	1218.520	829.660	0.162	0.081	0.0	2	countertop
+labelme_tyvaihcwznonioe.jpg	1	0.292	0.450	1218.520	829.660	0.162	0.081	0.0	6	soap dish
+labelme_tyvaihcwznonioe.jpg	1	0.292	0.450	1218.520	829.660	0.162	0.081	0.0	7	soap
+labelme_tyvaihcwznonioe.jpg	2	0.759	0.342	1189.625	746.345	0.278	0.122	0.0	0	other
+labelme_tyvaihcwznonioe.jpg	3	1.134	0.392	1105.920	771.330	0.202	0.093	0.0	0	other
+labelme_tyvaihcwznonioe.jpg	4	1.551	0.375	1213.520	834.305	0.115	0.060	0.0	2	countertop
+labelme_tyvaihcwznonioe.jpg	4	1.551	0.375	1213.520	834.305	0.115	0.060	0.0	6	soap dish
+labelme_tyvaihcwznonioe.jpg	4	1.551	0.375	1213.520	834.305	0.115	0.060	0.0	7	soap
+labelme_tyvaihcwznonioe.jpg	5	1.943	0.200	1282.742	845.723	0.089	0.034	0.0	2	countertop
+labelme_tyvaihcwznonioe.jpg	6	2.176	0.400	1233.858	827.045	0.095	0.026	0.0	2	countertop
+labelme_tyvaihcwznonioe.jpg	6	2.176	0.400	1233.858	827.045	0.095	0.026	0.0	6	soap dish
+labelme_tyvaihcwznonioe.jpg	6	2.176	0.400	1233.858	827.045	0.095	0.026	0.0	7	soap
+labelme_tyvaihcwznonioe.jpg	7	2.593	0.325	1175.285	794.930	0.121	0.042	0.0	2	countertop
+labelme_tyvaihcwznonioe.jpg	7	2.593	0.325	1175.285	794.930	0.121	0.042	0.0	8	toothpaste

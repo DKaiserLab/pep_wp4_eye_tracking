@@ -1,0 +1,5 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azkonpsbldzbkqim.jpg	1	0.568	0.325	1568.720	735.340	0.121	0.057	0.0	11	window crop
+sun_azkonpsbldzbkqim.jpg	2	0.918	0.875	1414.055	737.345	0.101	0.033	0.0	7	mirror crop
+sun_azkonpsbldzbkqim.jpg	3	1.810	0.850	1290.862	737.082	0.116	0.066	0.0	0	other
+sun_azkonpsbldzbkqim.jpg	4	2.685	0.317	1382.512	725.622	0.124	0.041	0.0	7	mirror crop

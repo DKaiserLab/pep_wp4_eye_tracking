@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajcbalthjpmuyygk.jpg	1	0.579	0.100	1183.810	833.368	0.381	0.769	0.0	2	countertop
+sun_ajcbalthjpmuyygk.jpg	1	0.579	0.100	1183.810	833.368	0.381	0.769	0.0	5	sink
+sun_ajcbalthjpmuyygk.jpg	2	0.704	0.225	1142.260	790.840	0.100	0.062	0.0	2	countertop
+sun_ajcbalthjpmuyygk.jpg	2	0.704	0.225	1142.260	790.840	0.100	0.062	0.0	5	sink
+sun_ajcbalthjpmuyygk.jpg	3	0.946	0.233	1165.742	722.460	0.117	0.085	0.0	1	basket
+sun_ajcbalthjpmuyygk.jpg	3	0.946	0.233	1165.742	722.460	0.117	0.085	0.0	2	countertop
+sun_ajcbalthjpmuyygk.jpg	4	1.204	0.208	1189.240	708.610	0.084	0.030	0.0	1	basket
+sun_ajcbalthjpmuyygk.jpg	4	1.204	0.208	1189.240	708.610	0.084	0.030	0.0	2	countertop
+sun_ajcbalthjpmuyygk.jpg	4	1.204	0.208	1189.240	708.610	0.084	0.030	0.0	3	jar
+sun_ajcbalthjpmuyygk.jpg	5	1.446	0.217	1340.380	772.382	0.093	0.049	0.0	2	countertop
+sun_ajcbalthjpmuyygk.jpg	6	1.688	0.675	1451.080	760.505	0.099	0.090	0.0	0	other
+sun_ajcbalthjpmuyygk.jpg	7	2.404	0.208	1234.775	748.610	0.094	0.042	0.0	2	countertop
+sun_ajcbalthjpmuyygk.jpg	8	2.638	0.367	1155.450	695.050	0.088	0.049	0.0	2	countertop

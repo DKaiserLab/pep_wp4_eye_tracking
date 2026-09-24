@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adcrxklhlbwrbkgm.jpg	1	0.657	0.417	1572.842	753.107	0.110	0.048	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	1	0.657	0.417	1572.842	753.107	0.110	0.048	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	2	1.232	0.275	998.215	727.585	0.109	0.062	0.0	16	paper roll
+sun_adcrxklhlbwrbkgm.jpg	3	1.532	0.158	973.730	688.620	0.124	0.022	0.0	15	outlet
+sun_adcrxklhlbwrbkgm.jpg	3	1.532	0.158	973.730	688.620	0.124	0.022	0.0	16	paper roll
+sun_adcrxklhlbwrbkgm.jpg	4	1.716	0.342	1221.685	583.115	0.099	0.026	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	5	2.082	0.175	1352.070	692.175	0.115	0.025	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	6	2.274	0.492	1425.230	713.595	0.102	0.033	0.0	5	coffee maker
+sun_adcrxklhlbwrbkgm.jpg	7	2.791	0.208	1574.375	797.455	0.150	0.055	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	7	2.791	0.208	1574.375	797.455	0.150	0.055	0.0	19	range

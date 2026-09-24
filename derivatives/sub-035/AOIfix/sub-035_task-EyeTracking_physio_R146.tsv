@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxvejtymbkewxpy.jpg	1	0.529	0.150	1235.725	746.253	0.128	0.022	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	2	0.695	0.275	1286.015	769.285	0.199	0.060	0.0	10	hotpl
+sun_ajxvejtymbkewxpy.jpg	2	0.695	0.275	1286.015	769.285	0.199	0.060	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	3	0.987	0.267	1262.700	785.475	0.283	0.070	0.0	10	hotpl
+sun_ajxvejtymbkewxpy.jpg	3	0.987	0.267	1262.700	785.475	0.283	0.070	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	3	0.987	0.267	1262.700	785.475	0.283	0.070	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	4	1.279	0.333	1127.280	741.955	0.163	0.047	0.0	11	kettle
+sun_ajxvejtymbkewxpy.jpg	5	1.629	0.167	1100.408	731.845	0.162	0.068	0.0	11	kettle
+sun_ajxvejtymbkewxpy.jpg	5	1.629	0.167	1100.408	731.845	0.162	0.068	0.0	17	utensils canister
+sun_ajxvejtymbkewxpy.jpg	6	1.829	0.125	1289.730	711.060	0.095	0.041	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	7	1.987	0.192	1394.420	590.660	0.088	0.013	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	8	2.212	0.217	1153.932	560.435	0.084	0.017	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	9	2.454	0.208	1160.030	627.750	0.082	0.022	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	10	2.679	0.325	1226.385	659.955	0.120	0.032	0.0	9	extractor hood

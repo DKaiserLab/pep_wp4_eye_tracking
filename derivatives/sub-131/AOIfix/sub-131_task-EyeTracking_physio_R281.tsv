@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aarslpsdvwwqyohc.jpg	1	0.275	0.175	1326.455	777.605	0.103	0.040	0.0	13	mug
+sun_aarslpsdvwwqyohc.jpg	2	0.467	0.217	1399.960	829.865	0.117	0.036	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	2	0.467	0.217	1399.960	829.865	0.117	0.036	0.0	10	hairbrush
+sun_aarslpsdvwwqyohc.jpg	2	0.467	0.217	1399.960	829.865	0.117	0.036	0.0	20	toothbrush
+sun_aarslpsdvwwqyohc.jpg	3	0.708	0.267	1474.007	847.975	0.087	0.036	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	4	1.000	0.475	1430.605	833.420	0.085	0.028	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	4	1.000	0.475	1430.605	833.420	0.085	0.028	0.0	15	razor
+sun_aarslpsdvwwqyohc.jpg	5	1.500	0.183	1382.983	825.332	0.065	0.015	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	5	1.500	0.183	1382.983	825.332	0.065	0.015	0.0	10	hairbrush
+sun_aarslpsdvwwqyohc.jpg	5	1.500	0.183	1382.983	825.332	0.065	0.015	0.0	20	toothbrush
+sun_aarslpsdvwwqyohc.jpg	6	1.717	0.175	1161.605	846.460	0.110	0.056	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	7	1.925	0.217	1066.533	865.765	0.091	0.020	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	7	1.925	0.217	1066.533	865.765	0.091	0.020	0.0	18	tissue box
+sun_aarslpsdvwwqyohc.jpg	8	2.150	0.217	1084.365	848.760	0.081	0.055	0.0	18	tissue box
+sun_aarslpsdvwwqyohc.jpg	9	2.425	0.350	1480.265	608.993	0.088	0.030	0.0	12	mirror
+sun_aarslpsdvwwqyohc.jpg	10	2.809	0.200	1430.425	605.300	0.047	0.008	0.0	12	mirror

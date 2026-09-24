@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aknopalvgzzgfngw.jpg	1	0.458	0.200	1143.737	676.578	0.215	0.170	0.0	13	window
+sun_aknopalvgzzgfngw.jpg	2	0.691	0.125	1014.165	560.470	0.255	0.081	0.0	13	window
+sun_aknopalvgzzgfngw.jpg	3	0.841	0.242	908.330	555.310	0.255	0.115	0.0	13	window
+sun_aknopalvgzzgfngw.jpg	4	1.191	0.317	1011.602	844.428	0.223	0.067	0.0	0	other
+sun_aknopalvgzzgfngw.jpg	5	1.533	0.217	1209.898	822.610	0.270	0.138	0.0	3	countertop
+sun_aknopalvgzzgfngw.jpg	5	1.533	0.217	1209.898	822.610	0.270	0.138	0.0	12	towel
+sun_aknopalvgzzgfngw.jpg	6	1.775	0.200	1436.858	720.443	0.391	0.174	0.0	0	other
+sun_aknopalvgzzgfngw.jpg	7	2.000	0.417	1591.392	645.183	0.174	0.086	0.0	0	other
+sun_aknopalvgzzgfngw.jpg	8	2.450	0.283	1312.815	595.205	0.279	0.106	0.0	2	cabinet
+sun_aknopalvgzzgfngw.jpg	9	2.758	0.150	1201.297	648.188	0.138	0.092	0.0	2	cabinet
+sun_aknopalvgzzgfngw.jpg	9	2.758	0.150	1201.297	648.188	0.138	0.092	0.0	13	window

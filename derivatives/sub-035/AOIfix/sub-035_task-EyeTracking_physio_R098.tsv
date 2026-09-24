@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_arhwdncltdednobr.jpg	1	0.174	0.208	1386.575	659.600	0.145	0.061	0.0	6	plant
+sun_arhwdncltdednobr.jpg	1	0.174	0.208	1386.575	659.600	0.145	0.061	0.0	7	plantpot
+sun_arhwdncltdednobr.jpg	2	0.566	0.133	1315.553	711.352	0.192	0.134	0.0	4	countertop
+sun_arhwdncltdednobr.jpg	3	0.716	0.233	1200.048	751.678	0.103	0.034	0.0	0	other
+sun_arhwdncltdednobr.jpg	4	0.966	0.200	1474.808	717.337	0.129	0.032	0.0	0	other
+sun_arhwdncltdednobr.jpg	5	1.191	0.208	1428.000	590.245	0.105	0.020	0.0	5	mirror
+sun_arhwdncltdednobr.jpg	6	1.416	0.200	1407.128	623.705	0.097	0.016	0.0	5	mirror
+sun_arhwdncltdednobr.jpg	6	1.416	0.200	1407.128	623.705	0.097	0.016	0.0	6	plant
+sun_arhwdncltdednobr.jpg	7	1.641	0.258	1679.895	682.265	0.100	0.023	0.0	1	basket crop
+sun_arhwdncltdednobr.jpg	7	1.641	0.258	1679.895	682.265	0.100	0.023	0.0	6	plant
+sun_arhwdncltdednobr.jpg	8	1.916	0.183	1656.925	719.197	0.104	0.023	0.0	1	basket crop
+sun_arhwdncltdednobr.jpg	8	1.916	0.183	1656.925	719.197	0.104	0.023	0.0	6	plant
+sun_arhwdncltdednobr.jpg	9	2.124	0.308	1458.790	717.600	0.099	0.026	0.0	4	countertop
+sun_arhwdncltdednobr.jpg	9	2.124	0.308	1458.790	717.600	0.099	0.026	0.0	9	soap dish
+sun_arhwdncltdednobr.jpg	10	2.449	0.400	1184.387	743.740	0.127	0.059	0.0	0	other
+sun_arhwdncltdednobr.jpg	11	2.874	0.133	1061.155	756.322	0.084	0.015	0.0	0	other

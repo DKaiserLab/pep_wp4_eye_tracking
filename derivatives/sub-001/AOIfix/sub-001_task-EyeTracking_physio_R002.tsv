@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abntrinbqbsqoowj.jpg	1	0.333	0.458	1443.555	658.560	0.115	0.053	0.0	6	canister
+sun_abntrinbqbsqoowj.jpg	2	0.817	0.342	1285.975	666.275	0.158	0.087	0.0	13	refrigerator
+sun_abntrinbqbsqoowj.jpg	3	1.175	0.175	1354.970	684.395	0.145	0.053	0.0	13	refrigerator
+sun_abntrinbqbsqoowj.jpg	4	1.383	0.342	1620.480	658.905	0.099	0.023	0.0	12	plate
+sun_abntrinbqbsqoowj.jpg	4	1.383	0.342	1620.480	658.905	0.099	0.023	0.0	18	window
+sun_abntrinbqbsqoowj.jpg	5	1.775	0.375	1120.490	700.015	0.101	0.042	0.0	0	other
+sun_abntrinbqbsqoowj.jpg	6	2.167	0.200	1131.368	656.418	0.170	0.061	0.0	0	other
+sun_abntrinbqbsqoowj.jpg	7	2.392	0.217	1331.957	661.078	0.119	0.026	0.0	13	refrigerator
+sun_abntrinbqbsqoowj.jpg	8	2.642	0.175	1533.035	560.525	0.190	0.064	0.0	18	window
+sun_abntrinbqbsqoowj.jpg	9	2.850	0.158	1458.905	490.845	0.064	0.015	0.0	11	pendant lamp
+sun_abntrinbqbsqoowj.jpg	9	2.850	0.158	1458.905	490.845	0.064	0.015	0.0	17	watering can

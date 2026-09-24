@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_iocgjwcthdvttcs.jpg	1	0.427	0.242	1474.460	717.760	0.193	0.079	0.0	6	picture
+labelme_iocgjwcthdvttcs.jpg	2	0.686	0.442	1449.370	694.900	0.101	0.045	0.0	6	picture
+labelme_iocgjwcthdvttcs.jpg	3	1.161	0.233	1277.505	719.622	0.215	0.063	0.0	0	other
+labelme_iocgjwcthdvttcs.jpg	4	1.411	0.192	1214.060	698.610	0.181	0.084	0.0	0	other
+labelme_iocgjwcthdvttcs.jpg	5	1.644	0.200	1134.688	653.445	0.094	0.022	0.0	0	other
+labelme_iocgjwcthdvttcs.jpg	6	1.861	0.150	1082.862	631.338	0.111	0.044	0.0	2	bottle
+labelme_iocgjwcthdvttcs.jpg	7	2.069	0.250	1071.705	480.697	0.094	0.026	0.0	6	picture
+labelme_iocgjwcthdvttcs.jpg	8	2.336	0.175	1049.365	445.890	0.091	0.018	0.0	6	picture
+labelme_iocgjwcthdvttcs.jpg	9	2.527	0.183	1065.855	442.090	0.081	0.017	0.0	6	picture
+labelme_iocgjwcthdvttcs.jpg	10	2.761	0.167	1375.965	678.923	0.115	0.040	0.0	6	picture

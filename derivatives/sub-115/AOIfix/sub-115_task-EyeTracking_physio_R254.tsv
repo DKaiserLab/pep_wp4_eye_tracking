@@ -1,0 +1,24 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aowvammdqpmypflg.jpg	1	0.165	0.225	1365.755	587.290	0.149	0.158	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	1	0.165	0.225	1365.755	587.290	0.149	0.158	0.0	6	extractor hood
+sun_aowvammdqpmypflg.jpg	2	0.415	0.183	1499.693	520.225	0.131	0.055	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	2	0.415	0.183	1499.693	520.225	0.131	0.055	0.0	6	extractor hood
+sun_aowvammdqpmypflg.jpg	3	0.632	0.158	1586.950	514.245	0.093	0.014	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	4	0.815	0.200	1516.995	758.428	0.153	0.045	0.0	7	fruit
+sun_aowvammdqpmypflg.jpg	4	0.815	0.200	1516.995	758.428	0.153	0.045	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	5	1.048	0.342	1308.095	780.625	0.104	0.036	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	5	1.048	0.342	1308.095	780.625	0.104	0.036	0.0	11	refrigerator
+sun_aowvammdqpmypflg.jpg	5	1.048	0.342	1308.095	780.625	0.104	0.036	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	6	1.440	0.183	1116.553	566.025	0.109	0.045	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	6	1.440	0.183	1116.553	566.025	0.109	0.045	0.0	15	window
+sun_aowvammdqpmypflg.jpg	7	1.648	0.208	934.565	550.535	0.124	0.033	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	7	1.648	0.208	934.565	550.535	0.124	0.033	0.0	15	window
+sun_aowvammdqpmypflg.jpg	8	1.890	0.283	1092.128	813.658	0.142	0.061	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	8	1.890	0.283	1092.128	813.658	0.142	0.061	0.0	4	chair
+sun_aowvammdqpmypflg.jpg	8	1.890	0.283	1092.128	813.658	0.142	0.061	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	9	2.223	0.192	1374.140	797.890	0.077	0.025	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	9	2.223	0.192	1374.140	797.890	0.077	0.025	0.0	10	oven
+sun_aowvammdqpmypflg.jpg	9	2.223	0.192	1374.140	797.890	0.077	0.025	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	10	2.457	0.458	1468.020	890.645	0.095	0.045	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	10	2.457	0.458	1468.020	890.645	0.095	0.045	0.0	14	washing machine
+sun_aowvammdqpmypflg.jpg	10	2.457	0.458	1468.020	890.645	0.095	0.045	0.0	16	worktop

@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrhekhltqnhqoau.jpg	1	0.184	0.117	1146.352	630.245	0.141	0.040	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	2	0.334	0.192	963.600	577.110	0.135	0.069	0.0	6	calendar
+sun_agrhekhltqnhqoau.jpg	2	0.334	0.192	963.600	577.110	0.135	0.069	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	3	0.551	0.200	901.705	539.155	0.100	0.026	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	3	0.551	0.200	901.705	539.155	0.100	0.026	0.0	18	refrigerator
+sun_agrhekhltqnhqoau.jpg	4	0.776	0.342	934.305	469.410	0.072	0.011	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	5	1.126	0.250	950.280	469.400	0.089	0.014	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	6	1.409	0.250	1178.977	525.087	0.091	0.016	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	7	1.684	0.233	1221.052	481.365	0.086	0.009	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	8	1.942	0.233	1414.590	539.837	0.087	0.020	0.0	8	curtain
+sun_agrhekhltqnhqoau.jpg	8	1.942	0.233	1414.590	539.837	0.087	0.020	0.0	21	window
+sun_agrhekhltqnhqoau.jpg	9	2.201	0.167	1483.380	522.602	0.091	0.018	0.0	8	curtain
+sun_agrhekhltqnhqoau.jpg	10	2.509	0.258	1521.330	523.200	0.079	0.056	0.0	8	curtain
+sun_agrhekhltqnhqoau.jpg	10	2.509	0.258	1521.330	523.200	0.079	0.056	0.0	21	window
+sun_agrhekhltqnhqoau.jpg	11	2.792	0.208	1649.785	556.760	0.086	0.014	0.0	5	cabinet
+sun_agrhekhltqnhqoau.jpg	11	2.792	0.208	1649.785	556.760	0.086	0.014	0.0	13	picture

@@ -1,0 +1,5 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aigrduzwokggqqja.jpg	1	0.254	0.258	1141.050	752.510	0.124	0.062	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	1	0.254	0.258	1141.050	752.510	0.124	0.062	0.0	15	sink
+sun_aigrduzwokggqqja.jpg	2	0.529	2.475	1156.290	747.095	0.114	0.106	0.0	11	kitchen island
+sun_aigrduzwokggqqja.jpg	2	0.529	2.475	1156.290	747.095	0.114	0.106	0.0	15	sink

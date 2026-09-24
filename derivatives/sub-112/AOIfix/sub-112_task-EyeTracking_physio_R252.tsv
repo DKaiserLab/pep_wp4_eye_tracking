@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afuskngoumwbljpz.jpg	1	0.393	0.475	1308.035	783.140	0.145	0.072	0.0	1	bathtub
+sun_afuskngoumwbljpz.jpg	1	0.393	0.475	1308.035	783.140	0.145	0.072	0.0	2	curtain
+sun_afuskngoumwbljpz.jpg	2	0.885	0.517	1267.740	794.685	0.165	0.057	0.0	1	bathtub
+sun_afuskngoumwbljpz.jpg	2	0.885	0.517	1267.740	794.685	0.165	0.057	0.0	2	curtain
+sun_afuskngoumwbljpz.jpg	3	1.451	0.450	938.612	628.845	0.084	0.047	0.0	7	window
+sun_afuskngoumwbljpz.jpg	4	1.960	0.175	1691.800	695.235	0.148	0.038	0.0	3	door
+sun_afuskngoumwbljpz.jpg	4	1.960	0.175	1691.800	695.235	0.148	0.038	0.0	6	towel
+sun_afuskngoumwbljpz.jpg	5	2.151	0.217	1626.412	696.232	0.117	0.041	0.0	3	door
+sun_afuskngoumwbljpz.jpg	5	2.151	0.217	1626.412	696.232	0.117	0.041	0.0	6	towel
+sun_afuskngoumwbljpz.jpg	6	2.385	0.217	1618.135	597.567	0.097	0.024	0.0	3	door
+sun_afuskngoumwbljpz.jpg	6	2.385	0.217	1618.135	597.567	0.097	0.024	0.0	5	towel ring
+sun_afuskngoumwbljpz.jpg	6	2.385	0.217	1618.135	597.567	0.097	0.024	0.0	6	towel
+sun_afuskngoumwbljpz.jpg	7	2.618	0.217	1621.987	562.530	0.094	0.054	0.0	3	door
+sun_afuskngoumwbljpz.jpg	7	2.618	0.217	1621.987	562.530	0.094	0.054	0.0	5	towel ring
+sun_afuskngoumwbljpz.jpg	8	2.851	0.158	1633.455	607.600	0.099	0.024	0.0	3	door
+sun_afuskngoumwbljpz.jpg	8	2.851	0.158	1633.455	607.600	0.099	0.024	0.0	5	towel ring
+sun_afuskngoumwbljpz.jpg	8	2.851	0.158	1633.455	607.600	0.099	0.024	0.0	6	towel

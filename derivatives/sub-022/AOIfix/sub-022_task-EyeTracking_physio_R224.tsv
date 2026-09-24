@@ -1,0 +1,5 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ageomnacdflnblsi.jpg	1	0.281	0.250	1207.727	722.780	0.150	0.067	0.0	2	mirror
+sun_ageomnacdflnblsi.jpg	2	0.556	0.208	1317.225	582.130	0.120	0.108	0.0	2	mirror
+sun_ageomnacdflnblsi.jpg	3	0.781	0.158	1345.600	569.320	0.084	0.054	0.0	2	mirror
+sun_ageomnacdflnblsi.jpg	4	1.164	0.500	1389.975	1166.240	2.000	12.820	33.3	-1	off stimulus

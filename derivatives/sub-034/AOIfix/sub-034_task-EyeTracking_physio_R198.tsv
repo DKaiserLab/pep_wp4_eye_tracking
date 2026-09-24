@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acpufsxakyzrtcti.jpg	1	0.245	0.133	1177.322	729.180	0.203	0.148	0.0	20	refrigerator
+sun_acpufsxakyzrtcti.jpg	2	0.411	0.200	936.457	713.343	0.257	0.058	0.0	22	sink
+sun_acpufsxakyzrtcti.jpg	2	0.411	0.200	936.457	713.343	0.257	0.058	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	3	0.628	0.167	888.972	725.080	0.112	0.036	0.0	22	sink
+sun_acpufsxakyzrtcti.jpg	3	0.628	0.167	888.972	725.080	0.112	0.036	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	4	0.978	0.158	1008.095	586.245	0.123	0.061	0.0	0	other
+sun_acpufsxakyzrtcti.jpg	5	1.186	0.167	1106.927	511.893	0.075	0.013	0.0	3	cabinet
+sun_acpufsxakyzrtcti.jpg	5	1.186	0.167	1106.927	511.893	0.075	0.013	0.0	11	microwave
+sun_acpufsxakyzrtcti.jpg	6	1.386	0.233	1305.650	517.940	0.102	0.026	0.0	3	cabinet
+sun_acpufsxakyzrtcti.jpg	7	1.645	0.200	1395.295	590.548	0.242	0.060	0.0	16	plant
+sun_acpufsxakyzrtcti.jpg	8	1.878	0.208	1533.185	870.280	0.131	0.032	0.0	19	plate
+sun_acpufsxakyzrtcti.jpg	8	1.878	0.208	1533.185	870.280	0.131	0.032	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	9	2.111	0.292	1583.195	961.295	0.090	0.016	0.0	1	bowl
+sun_acpufsxakyzrtcti.jpg	9	2.111	0.292	1583.195	961.295	0.090	0.016	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	10	2.428	0.150	1609.570	963.822	0.074	0.012	0.0	1	bowl
+sun_acpufsxakyzrtcti.jpg	10	2.428	0.150	1609.570	963.822	0.074	0.012	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	11	2.595	0.242	1453.730	925.340	0.091	0.018	0.0	19	plate
+sun_acpufsxakyzrtcti.jpg	11	2.595	0.242	1453.730	925.340	0.091	0.018	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	12	2.853	0.150	1392.695	918.433	0.079	0.012	0.0	1	bowl
+sun_acpufsxakyzrtcti.jpg	12	2.853	0.150	1392.695	918.433	0.079	0.012	0.0	25	table

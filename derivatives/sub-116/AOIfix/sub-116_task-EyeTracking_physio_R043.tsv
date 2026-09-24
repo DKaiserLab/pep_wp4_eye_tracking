@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.287	0.167	1326.590	757.595	0.354	0.077	0.0	1	basket
+labelme_qglnhnudtmzmocz.jpg	1	0.287	0.167	1326.590	757.595	0.354	0.077	0.0	32	stool
+labelme_qglnhnudtmzmocz.jpg	2	0.470	0.200	1376.330	789.973	0.480	0.169	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	2	0.470	0.200	1376.330	789.973	0.480	0.169	0.0	11	cutting board
+labelme_qglnhnudtmzmocz.jpg	2	0.470	0.200	1376.330	789.973	0.480	0.169	0.0	36	wisk
+labelme_qglnhnudtmzmocz.jpg	3	0.687	0.792	1411.490	824.675	0.557	0.597	0.0	10	counter
+labelme_qglnhnudtmzmocz.jpg	4	1.503	0.250	1424.640	739.267	0.224	0.088	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	4	1.503	0.250	1424.640	739.267	0.224	0.088	0.0	30	spoons
+labelme_qglnhnudtmzmocz.jpg	5	1.770	0.217	1441.387	706.673	0.196	0.061	0.0	30	spoons
+labelme_qglnhnudtmzmocz.jpg	6	2.003	0.117	1333.632	653.120	0.288	0.093	0.0	0	other
+labelme_qglnhnudtmzmocz.jpg	7	2.137	0.217	1182.275	634.600	0.196	0.071	0.0	3	bookcase
+labelme_qglnhnudtmzmocz.jpg	7	2.137	0.217	1182.275	634.600	0.196	0.071	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	8	2.370	0.200	1104.590	631.770	0.137	0.044	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	8	2.370	0.200	1104.590	631.770	0.137	0.044	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	9	2.595	0.408	1024.660	663.580	0.131	0.059	0.0	13	flowers
+labelme_qglnhnudtmzmocz.jpg	9	2.595	0.408	1024.660	663.580	0.131	0.059	0.0	35	window
+labelme_qglnhnudtmzmocz.jpg	9	2.595	0.408	1024.660	663.580	0.131	0.059	0.0	38	wreath

@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azwwluglgwfhhwee.jpg	1	0.419	0.300	1349.130	743.312	0.131	0.065	0.0	1	bottle
+sun_azwwluglgwfhhwee.jpg	1	0.419	0.300	1349.130	743.312	0.131	0.065	0.0	13	range
+sun_azwwluglgwfhhwee.jpg	2	0.744	0.242	1413.555	756.800	0.120	0.040	0.0	13	range
+sun_azwwluglgwfhhwee.jpg	3	1.003	0.250	1528.175	749.725	0.160	0.043	0.0	13	range
+sun_azwwluglgwfhhwee.jpg	3	1.003	0.250	1528.175	749.725	0.160	0.043	0.0	16	saucepan
+sun_azwwluglgwfhhwee.jpg	3	1.003	0.250	1528.175	749.725	0.160	0.043	0.0	20	worktop
+sun_azwwluglgwfhhwee.jpg	4	1.278	0.492	1540.795	680.810	0.136	0.052	0.0	9	knife set
+sun_azwwluglgwfhhwee.jpg	4	1.278	0.492	1540.795	680.810	0.136	0.052	0.0	13	range
+sun_azwwluglgwfhhwee.jpg	5	1.786	0.250	1448.317	683.955	0.160	0.058	0.0	13	range
+sun_azwwluglgwfhhwee.jpg	6	2.069	0.208	1276.050	690.545	0.128	0.028	0.0	5	cutlery
+sun_azwwluglgwfhhwee.jpg	7	2.303	0.467	1145.120	697.260	0.118	0.067	0.0	1	bottle
+sun_azwwluglgwfhhwee.jpg	7	2.303	0.467	1145.120	697.260	0.118	0.067	0.0	17	sink
+sun_azwwluglgwfhhwee.jpg	8	2.786	0.217	1184.883	707.268	0.122	0.044	0.0	1	bottle
+sun_azwwluglgwfhhwee.jpg	8	2.786	0.217	1184.883	707.268	0.122	0.044	0.0	7	dishcloth

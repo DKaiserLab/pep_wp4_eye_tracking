@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_maitcyodsfflkgk.jpg	1	0.304	0.192	1131.800	701.890	0.068	0.035	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	1	0.304	0.192	1131.800	701.890	0.068	0.035	0.0	9	vase
+labelme_maitcyodsfflkgk.jpg	2	0.521	0.433	991.038	707.510	0.062	0.072	0.0	1	cabinet
+labelme_maitcyodsfflkgk.jpg	3	0.971	0.192	1007.285	634.495	0.114	0.057	0.0	1	cabinet
+labelme_maitcyodsfflkgk.jpg	4	1.188	0.225	1126.690	579.160	0.185	0.059	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	4	1.188	0.225	1126.690	579.160	0.185	0.059	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	5	1.438	0.242	1379.895	630.895	0.078	0.027	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	6	1.729	0.350	1519.903	630.362	0.065	0.017	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	7	2.104	0.225	1425.370	615.710	0.094	0.024	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	8	2.404	0.175	1154.620	572.330	0.087	0.016	0.0	3	flowers
+labelme_maitcyodsfflkgk.jpg	8	2.404	0.175	1154.620	572.330	0.087	0.016	0.0	4	mirror
+labelme_maitcyodsfflkgk.jpg	9	2.613	0.325	972.020	604.015	0.105	0.057	0.0	1	cabinet

@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.515	0.208	1316.675	748.440	0.267	0.082	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	1	0.515	0.208	1316.675	748.440	0.267	0.082	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	2	0.749	0.325	1343.030	940.565	0.127	0.027	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	3	1.107	0.400	1109.910	978.450	0.109	0.027	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	4	1.532	0.225	1012.030	839.560	0.110	0.027	0.0	8	chair
+sun_acfmftudsenhrfhy.jpg	4	1.532	0.225	1012.030	839.560	0.110	0.027	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	5	1.782	0.175	1077.515	655.170	0.120	0.028	0.0	17	microwave
+sun_acfmftudsenhrfhy.jpg	6	1.982	0.283	1011.683	581.420	0.096	0.018	0.0	13	figure
+sun_acfmftudsenhrfhy.jpg	6	1.982	0.283	1011.683	581.420	0.096	0.018	0.0	14	flowers
+sun_acfmftudsenhrfhy.jpg	6	1.982	0.283	1011.683	581.420	0.096	0.018	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	7	2.299	0.267	1252.345	584.072	0.088	0.023	0.0	11	extractor hood
+sun_acfmftudsenhrfhy.jpg	8	2.590	0.250	1547.770	558.738	0.091	0.038	0.0	21	picture
+sun_acfmftudsenhrfhy.jpg	9	2.874	0.125	1305.720	593.850	0.099	0.013	0.0	11	extractor hood

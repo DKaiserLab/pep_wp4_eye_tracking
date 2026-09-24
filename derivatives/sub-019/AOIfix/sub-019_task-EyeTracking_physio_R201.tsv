@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aaslbwtcdcwjukuo.jpg	1	0.361	0.300	1240.865	683.172	0.126	0.062	0.0	12	paper towels
+sun_aaslbwtcdcwjukuo.jpg	1	0.361	0.300	1240.865	683.172	0.126	0.062	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	2	0.678	0.475	1295.130	678.100	0.152	0.127	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	3	1.178	0.400	1251.455	688.820	0.133	0.054	0.0	12	paper towels
+sun_aaslbwtcdcwjukuo.jpg	3	1.178	0.400	1251.455	688.820	0.133	0.054	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	4	1.594	0.267	1320.020	709.770	0.153	0.048	0.0	17	sink
+sun_aaslbwtcdcwjukuo.jpg	4	1.594	0.267	1320.020	709.770	0.153	0.048	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	5	1.894	1.108	1213.170	696.980	0.125	0.040	0.0	19	worktop

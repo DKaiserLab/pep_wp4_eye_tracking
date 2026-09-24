@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agguqiubmwhqqunb.jpg	1	0.231	0.333	1431.190	732.888	0.152	0.037	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	1	0.231	0.333	1431.190	732.888	0.152	0.037	0.0	12	tube
+sun_agguqiubmwhqqunb.jpg	2	0.589	0.325	1516.790	743.275	0.133	0.035	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	3	0.939	0.242	1631.895	742.235	0.126	0.025	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	3	0.939	0.242	1631.895	742.235	0.126	0.025	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	4	1.197	0.608	1662.685	754.890	0.111	0.045	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	4	1.197	0.608	1662.685	754.890	0.111	0.045	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	5	1.839	0.258	1110.035	766.625	0.119	0.035	0.0	5	dish
+sun_agguqiubmwhqqunb.jpg	5	1.839	0.258	1110.035	766.625	0.119	0.035	0.0	9	step
+sun_agguqiubmwhqqunb.jpg	6	2.122	0.125	1026.135	787.245	0.144	0.038	0.0	7	shower
+sun_agguqiubmwhqqunb.jpg	6	2.122	0.125	1026.135	787.245	0.144	0.038	0.0	9	step
+sun_agguqiubmwhqqunb.jpg	7	2.439	0.125	1413.070	693.295	0.083	0.018	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	8	2.581	0.250	1474.680	732.118	0.129	0.029	0.0	2	bottle
+sun_agguqiubmwhqqunb.jpg	8	2.581	0.250	1474.680	732.118	0.129	0.029	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	9	2.864	0.142	1328.410	735.525	0.107	0.031	0.0	6	mirror
+sun_agguqiubmwhqqunb.jpg	9	2.864	0.142	1328.410	735.525	0.107	0.031	0.0	10	tissue box

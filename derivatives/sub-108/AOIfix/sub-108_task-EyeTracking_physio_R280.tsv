@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_angrmjwcbqlakjjz.jpg	1	0.546	0.292	1072.245	716.995	0.205	0.212	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	1	0.546	0.292	1072.245	716.995	0.205	0.212	0.0	24	range
+sun_angrmjwcbqlakjjz.jpg	2	0.863	0.400	977.705	735.175	0.194	0.221	0.0	4	cabinet
+sun_angrmjwcbqlakjjz.jpg	3	1.296	0.267	1415.885	671.197	0.199	0.150	0.0	8	curtains
+sun_angrmjwcbqlakjjz.jpg	3	1.296	0.267	1415.885	671.197	0.199	0.150	0.0	31	window
+sun_angrmjwcbqlakjjz.jpg	4	1.580	0.300	1484.838	636.477	0.213	0.126	0.0	31	window
+sun_angrmjwcbqlakjjz.jpg	5	1.905	0.292	1683.680	766.820	0.219	0.118	0.0	12	dried herbs
+sun_angrmjwcbqlakjjz.jpg	5	1.905	0.292	1683.680	766.820	0.219	0.118	0.0	23	rack
+sun_angrmjwcbqlakjjz.jpg	6	2.213	0.250	1666.875	710.758	0.224	0.095	0.0	12	dried herbs
+sun_angrmjwcbqlakjjz.jpg	6	2.213	0.250	1666.875	710.758	0.224	0.095	0.0	23	rack
+sun_angrmjwcbqlakjjz.jpg	7	2.580	0.375	1039.000	580.150	0.203	0.107	0.0	4	cabinet

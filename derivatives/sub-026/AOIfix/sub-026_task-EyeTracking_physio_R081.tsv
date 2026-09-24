@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aijkdpqohzcmjsco.jpg	1	0.254	0.342	1268.880	843.285	0.146	0.082	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	1	0.254	0.342	1268.880	843.285	0.146	0.082	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	2	0.837	0.192	1299.590	848.100	0.136	0.042	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	2	0.837	0.192	1299.590	848.100	0.136	0.042	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	3	1.046	0.175	1247.045	861.080	0.165	0.071	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	3	1.046	0.175	1247.045	861.080	0.165	0.071	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	4	1.254	0.967	1199.275	623.650	0.096	0.038	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	4	1.254	0.967	1199.275	623.650	0.096	0.038	0.0	9	microwave
+sun_aijkdpqohzcmjsco.jpg	5	2.246	0.758	1246.110	853.000	0.166	0.060	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	5	2.246	0.758	1246.110	853.000	0.166	0.060	0.0	21	table

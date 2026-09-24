@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglwoufpxbtxqecp.jpg	1	0.480	0.283	1063.017	658.457	0.193	0.100	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	1	0.480	0.283	1063.017	658.457	0.193	0.100	0.0	16	mug
+sun_aglwoufpxbtxqecp.jpg	2	0.796	0.333	985.737	642.227	0.192	0.062	0.0	0	other
+sun_aglwoufpxbtxqecp.jpg	3	1.171	0.375	1472.250	644.760	0.306	0.337	0.0	22	refrigerator
+sun_aglwoufpxbtxqecp.jpg	4	1.571	0.433	1510.997	683.928	0.208	0.056	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	4	1.571	0.433	1510.997	683.928	0.208	0.056	0.0	22	refrigerator
+sun_aglwoufpxbtxqecp.jpg	5	2.055	0.308	1241.515	846.805	0.121	0.081	0.0	3	bowl
+sun_aglwoufpxbtxqecp.jpg	5	2.055	0.308	1241.515	846.805	0.121	0.081	0.0	12	fruit
+sun_aglwoufpxbtxqecp.jpg	5	2.055	0.308	1241.515	846.805	0.121	0.081	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	6	2.388	0.258	1284.475	863.900	0.155	0.062	0.0	3	bowl
+sun_aglwoufpxbtxqecp.jpg	6	2.388	0.258	1284.475	863.900	0.155	0.062	0.0	12	fruit
+sun_aglwoufpxbtxqecp.jpg	6	2.388	0.258	1284.475	863.900	0.155	0.062	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	7	2.680	0.167	1171.945	829.447	0.181	0.076	0.0	6	chair
+sun_aglwoufpxbtxqecp.jpg	7	2.680	0.167	1171.945	829.447	0.181	0.076	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	8	2.880	0.125	1055.325	777.625	0.175	0.095	0.0	21	range

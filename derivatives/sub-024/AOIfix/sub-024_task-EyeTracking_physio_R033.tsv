@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrhekhltqnhqoau.jpg	1	0.324	0.133	1239.868	663.233	0.138	0.054	0.0	17	range
+sun_agrhekhltqnhqoau.jpg	2	0.482	0.292	1475.850	576.565	0.120	0.104	0.0	8	curtain
+sun_agrhekhltqnhqoau.jpg	2	0.482	0.292	1475.850	576.565	0.120	0.104	0.0	21	window
+sun_agrhekhltqnhqoau.jpg	3	0.799	0.208	1525.500	611.110	0.126	0.045	0.0	21	window
+sun_agrhekhltqnhqoau.jpg	4	1.032	0.208	1599.960	690.645	0.135	0.044	0.0	22	worktop
+sun_agrhekhltqnhqoau.jpg	5	1.266	0.283	1631.610	758.270	0.160	0.072	0.0	2	books
+sun_agrhekhltqnhqoau.jpg	5	1.266	0.283	1631.610	758.270	0.160	0.072	0.0	19	shelves
+sun_agrhekhltqnhqoau.jpg	5	1.266	0.283	1631.610	758.270	0.160	0.072	0.0	22	worktop
+sun_agrhekhltqnhqoau.jpg	6	1.574	0.283	1650.055	850.382	0.263	0.135	0.0	2	books
+sun_agrhekhltqnhqoau.jpg	6	1.574	0.283	1650.055	850.382	0.263	0.135	0.0	19	shelves
+sun_agrhekhltqnhqoau.jpg	7	1.882	0.267	1596.247	713.340	0.171	0.085	0.0	22	worktop
+sun_agrhekhltqnhqoau.jpg	8	2.166	0.200	1544.745	630.528	0.139	0.103	0.0	21	window
+sun_agrhekhltqnhqoau.jpg	9	2.407	0.225	1256.390	568.600	0.128	0.041	0.0	11	microwave
+sun_agrhekhltqnhqoau.jpg	10	2.657	0.250	994.322	614.382	0.181	0.096	0.0	6	calendar
+sun_agrhekhltqnhqoau.jpg	10	2.657	0.250	994.322	614.382	0.181	0.096	0.0	18	refrigerator

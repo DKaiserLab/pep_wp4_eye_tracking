@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_attdviyipsljunts.jpg	1	0.289	0.350	1316.468	843.308	0.087	0.054	0.0	10	kitchen island
+sun_attdviyipsljunts.jpg	1	0.289	0.350	1316.468	843.308	0.087	0.054	0.0	22	stool
+sun_attdviyipsljunts.jpg	2	0.664	0.275	1112.490	832.355	0.078	0.045	0.0	10	kitchen island
+sun_attdviyipsljunts.jpg	3	0.964	0.433	902.382	745.467	0.089	0.080	0.0	6	door
+sun_attdviyipsljunts.jpg	3	0.964	0.433	902.382	745.467	0.089	0.080	0.0	23	water cooler
+sun_attdviyipsljunts.jpg	3	0.964	0.433	902.382	745.467	0.089	0.080	0.0	25	worktop
+sun_attdviyipsljunts.jpg	4	1.422	0.283	1198.630	795.260	0.097	0.057	0.0	10	kitchen island
+sun_attdviyipsljunts.jpg	5	1.730	0.175	1075.075	755.785	0.091	0.020	0.0	3	cabinet
+sun_attdviyipsljunts.jpg	5	1.730	0.175	1075.075	755.785	0.091	0.020	0.0	25	worktop
+sun_attdviyipsljunts.jpg	6	1.939	0.267	1340.758	735.312	0.104	0.039	0.0	3	cabinet
+sun_attdviyipsljunts.jpg	6	1.939	0.267	1340.758	735.312	0.104	0.039	0.0	25	worktop
+sun_attdviyipsljunts.jpg	7	2.247	0.258	1211.600	749.195	0.063	0.025	0.0	5	dishwasher
+sun_attdviyipsljunts.jpg	7	2.247	0.258	1211.600	749.195	0.063	0.025	0.0	25	worktop
+sun_attdviyipsljunts.jpg	8	2.522	0.183	1074.570	766.145	0.117	0.060	0.0	3	cabinet
+sun_attdviyipsljunts.jpg	9	2.730	0.250	1298.753	839.120	0.135	0.084	0.0	10	kitchen island

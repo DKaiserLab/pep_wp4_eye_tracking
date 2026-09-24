@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahvszpwjtodgwusx.jpg	1	0.292	0.267	1314.550	687.548	0.078	0.033	0.0	3	bottle
+sun_ahvszpwjtodgwusx.jpg	1	0.292	0.267	1314.550	687.548	0.078	0.033	0.0	20	pot
+sun_ahvszpwjtodgwusx.jpg	2	0.575	0.233	1361.550	571.320	0.276	0.066	0.0	17	picture
+sun_ahvszpwjtodgwusx.jpg	3	0.825	0.275	1428.985	480.110	0.124	0.036	0.0	0	other
+sun_ahvszpwjtodgwusx.jpg	4	1.125	0.283	1450.740	582.925	0.111	0.030	0.0	17	picture
+sun_ahvszpwjtodgwusx.jpg	5	1.442	0.158	1396.085	609.875	0.076	0.011	0.0	17	picture
+sun_ahvszpwjtodgwusx.jpg	6	1.634	0.225	1118.530	559.765	0.123	0.036	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	6	1.634	0.225	1118.530	559.765	0.123	0.036	0.0	9	extractor hood
+sun_ahvszpwjtodgwusx.jpg	7	1.875	0.292	978.250	587.740	0.144	0.043	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	8	2.200	0.158	902.520	582.125	0.098	0.019	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	9	2.392	0.333	1023.700	795.660	0.079	0.021	0.0	6	cabinet
+sun_ahvszpwjtodgwusx.jpg	10	2.775	0.233	1472.860	877.613	0.077	0.013	0.0	7	chair

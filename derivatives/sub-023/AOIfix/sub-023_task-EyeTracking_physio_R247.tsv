@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aiequdasdjeizszp.jpg	1	0.264	0.400	1355.900	655.733	0.168	0.082	0.0	12	stove
+sun_aiequdasdjeizszp.jpg	2	0.931	0.417	1365.900	665.695	0.109	0.064	0.0	12	stove
+sun_aiequdasdjeizszp.jpg	3	1.364	0.233	1316.023	629.960	0.087	0.030	0.0	12	stove
+sun_aiequdasdjeizszp.jpg	4	1.614	0.183	1364.443	639.697	0.118	0.038	0.0	12	stove
+sun_aiequdasdjeizszp.jpg	5	1.814	0.133	1262.297	629.440	0.133	0.035	0.0	12	stove
+sun_aiequdasdjeizszp.jpg	6	1.981	0.167	1087.455	639.097	0.108	0.034	0.0	15	worktop
+sun_aiequdasdjeizszp.jpg	7	2.197	0.167	1628.780	866.227	0.199	0.057	0.0	5	fruits
+sun_aiequdasdjeizszp.jpg	7	2.197	0.167	1628.780	866.227	0.199	0.057	0.0	6	glass
+sun_aiequdasdjeizszp.jpg	7	2.197	0.167	1628.780	866.227	0.199	0.057	0.0	13	table crop
+sun_aiequdasdjeizszp.jpg	8	2.381	0.183	1668.233	866.072	0.174	0.062	0.0	4	chair
+sun_aiequdasdjeizszp.jpg	8	2.381	0.183	1668.233	866.072	0.174	0.062	0.0	5	fruits
+sun_aiequdasdjeizszp.jpg	8	2.381	0.183	1668.233	866.072	0.174	0.062	0.0	13	table crop
+sun_aiequdasdjeizszp.jpg	9	2.614	0.133	1396.310	623.592	0.099	0.044	0.0	12	stove
+sun_aiequdasdjeizszp.jpg	10	2.764	0.167	1359.158	616.740	0.113	0.036	0.0	12	stove

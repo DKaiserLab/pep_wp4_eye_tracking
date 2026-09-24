@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_amgkcbncvhsceeuq.jpg	1	0.268	0.208	1155.890	688.735	0.247	0.072	0.0	19	table
+sun_amgkcbncvhsceeuq.jpg	1	0.268	0.208	1155.890	688.735	0.247	0.072	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	2	0.493	0.217	1063.367	690.872	0.120	0.029	0.0	5	chair
+sun_amgkcbncvhsceeuq.jpg	2	0.493	0.217	1063.367	690.872	0.120	0.029	0.0	19	table
+sun_amgkcbncvhsceeuq.jpg	2	0.493	0.217	1063.367	690.872	0.120	0.029	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	3	0.726	0.400	997.795	683.257	0.126	0.044	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	4	1.143	0.200	1062.043	700.650	0.134	0.062	0.0	5	chair
+sun_amgkcbncvhsceeuq.jpg	4	1.143	0.200	1062.043	700.650	0.134	0.062	0.0	19	table
+sun_amgkcbncvhsceeuq.jpg	4	1.143	0.200	1062.043	700.650	0.134	0.062	0.0	21	window
+sun_amgkcbncvhsceeuq.jpg	5	1.368	0.175	1160.125	736.170	0.239	0.059	0.0	5	chair
+sun_amgkcbncvhsceeuq.jpg	5	1.368	0.175	1160.125	736.170	0.239	0.059	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	5	1.368	0.175	1160.125	736.170	0.239	0.059	0.0	19	table
+sun_amgkcbncvhsceeuq.jpg	6	1.568	0.183	1234.938	750.832	0.188	0.056	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	6	1.568	0.183	1234.938	750.832	0.188	0.056	0.0	20	telephone
+sun_amgkcbncvhsceeuq.jpg	7	1.776	0.583	1350.375	743.368	0.204	0.110	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	8	2.376	0.308	1284.425	737.120	0.192	0.077	0.0	8	kitchen island
+sun_amgkcbncvhsceeuq.jpg	8	2.376	0.308	1284.425	737.120	0.192	0.077	0.0	13	plae
+sun_amgkcbncvhsceeuq.jpg	9	2.693	0.317	1250.812	723.918	0.290	0.135	0.0	3	cabinet
+sun_amgkcbncvhsceeuq.jpg	9	2.693	0.317	1250.812	723.918	0.290	0.135	0.0	8	kitchen island

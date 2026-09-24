@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahrhvpdhoamfdhpf.jpg	1	0.521	0.225	1363.110	784.960	0.104	0.019	0.0	7	magazine
+sun_ahrhvpdhoamfdhpf.jpg	1	0.521	0.225	1363.110	784.960	0.104	0.019	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	2	0.763	0.225	1458.590	825.755	0.104	0.031	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	3	1.013	0.250	1571.620	845.490	0.100	0.019	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	4	1.280	0.317	1649.985	842.278	0.083	0.016	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	4	1.280	0.317	1649.985	842.278	0.083	0.016	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	5	1.621	0.192	1620.755	719.480	0.118	0.034	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	6	1.838	0.167	1513.350	624.755	0.125	0.025	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	6	1.838	0.167	1513.350	624.755	0.125	0.025	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	7	2.030	0.208	1317.495	600.585	0.129	0.028	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	7	2.030	0.208	1317.495	600.585	0.129	0.028	0.0	9	oven
+sun_ahrhvpdhoamfdhpf.jpg	8	2.255	0.175	1210.005	606.460	0.114	0.024	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	8	2.255	0.175	1210.005	606.460	0.114	0.024	0.0	9	oven
+sun_ahrhvpdhoamfdhpf.jpg	9	2.455	0.217	1057.297	652.908	0.150	0.046	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	9	2.455	0.217	1057.297	652.908	0.150	0.046	0.0	10	plant
+sun_ahrhvpdhoamfdhpf.jpg	10	2.688	0.242	971.785	710.155	0.096	0.028	0.0	2	bottle
+sun_ahrhvpdhoamfdhpf.jpg	10	2.688	0.242	971.785	710.155	0.096	0.028	0.0	10	plant
+sun_ahrhvpdhoamfdhpf.jpg	10	2.688	0.242	971.785	710.155	0.096	0.028	0.0	13	table

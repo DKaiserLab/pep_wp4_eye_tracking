@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aisuhvwdvarrjlni.jpg	1	0.362	0.175	1220.665	731.620	0.090	0.060	0.0	4	cabinet
+sun_aisuhvwdvarrjlni.jpg	1	0.362	0.175	1220.665	731.620	0.090	0.060	0.0	10	dishcloth
+sun_aisuhvwdvarrjlni.jpg	2	0.571	0.325	1190.675	640.275	0.196	0.306	0.0	34	window
+sun_aisuhvwdvarrjlni.jpg	3	0.937	0.150	1032.010	819.793	0.103	0.031	0.0	2	bottle
+sun_aisuhvwdvarrjlni.jpg	3	0.937	0.150	1032.010	819.793	0.103	0.031	0.0	11	door
+sun_aisuhvwdvarrjlni.jpg	3	0.937	0.150	1032.010	819.793	0.103	0.031	0.0	21	plant
+sun_aisuhvwdvarrjlni.jpg	4	1.096	0.167	1037.075	840.737	0.102	0.066	0.0	2	bottle
+sun_aisuhvwdvarrjlni.jpg	4	1.096	0.167	1037.075	840.737	0.102	0.066	0.0	11	door
+sun_aisuhvwdvarrjlni.jpg	4	1.096	0.167	1037.075	840.737	0.102	0.066	0.0	21	plant
+sun_aisuhvwdvarrjlni.jpg	4	1.096	0.167	1037.075	840.737	0.102	0.066	0.0	33	vase
+sun_aisuhvwdvarrjlni.jpg	5	1.279	0.375	1015.985	845.625	0.097	0.034	0.0	2	bottle
+sun_aisuhvwdvarrjlni.jpg	5	1.279	0.375	1015.985	845.625	0.097	0.034	0.0	11	door
+sun_aisuhvwdvarrjlni.jpg	5	1.279	0.375	1015.985	845.625	0.097	0.034	0.0	29	table
+sun_aisuhvwdvarrjlni.jpg	6	1.696	0.150	914.808	707.625	0.088	0.087	0.0	25	refrigerator
+sun_aisuhvwdvarrjlni.jpg	7	1.871	0.208	921.490	673.085	0.077	0.067	0.0	25	refrigerator
+sun_aisuhvwdvarrjlni.jpg	8	2.121	0.242	904.245	581.775	0.085	0.029	0.0	14	jar
+sun_aisuhvwdvarrjlni.jpg	9	2.387	0.617	1091.030	595.750	0.067	0.064	0.0	4	cabinet

@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_uogxwpbmtxcnafj.jpg	1	0.427	0.233	1209.238	719.725	0.149	0.053	0.0	1	bathtub
+labelme_uogxwpbmtxcnafj.jpg	2	0.685	0.275	1105.970	692.835	0.100	0.033	0.0	1	bathtub
+labelme_uogxwpbmtxcnafj.jpg	2	0.685	0.275	1105.970	692.835	0.100	0.033	0.0	3	curtain
+labelme_uogxwpbmtxcnafj.jpg	3	0.977	0.242	1029.945	661.605	0.108	0.029	0.0	1	bathtub
+labelme_uogxwpbmtxcnafj.jpg	3	0.977	0.242	1029.945	661.605	0.108	0.029	0.0	3	curtain
+labelme_uogxwpbmtxcnafj.jpg	4	1.244	0.208	943.880	653.825	0.101	0.026	0.0	0	other
+labelme_uogxwpbmtxcnafj.jpg	5	1.485	0.233	1059.745	542.895	0.099	0.033	0.0	3	curtain
+labelme_uogxwpbmtxcnafj.jpg	6	1.744	0.275	1173.390	488.885	0.076	0.016	0.0	0	other
+labelme_uogxwpbmtxcnafj.jpg	7	2.052	0.217	1312.045	494.625	0.091	0.043	0.0	0	other
+labelme_uogxwpbmtxcnafj.jpg	8	2.294	0.192	1420.770	506.345	0.075	0.021	0.0	5	soap dish
+labelme_uogxwpbmtxcnafj.jpg	9	2.502	0.200	1396.618	499.225	0.083	0.027	0.0	5	soap dish
+labelme_uogxwpbmtxcnafj.jpg	10	2.727	0.258	1376.410	487.790	0.073	0.014	0.0	4	soap bottle
+labelme_uogxwpbmtxcnafj.jpg	10	2.727	0.258	1376.410	487.790	0.073	0.014	0.0	5	soap dish

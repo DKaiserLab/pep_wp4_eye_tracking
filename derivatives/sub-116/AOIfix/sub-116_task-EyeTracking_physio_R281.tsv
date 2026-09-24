@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aarslpsdvwwqyohc.jpg	1	0.306	0.217	1326.040	701.433	0.281	0.104	0.0	12	mirror
+sun_aarslpsdvwwqyohc.jpg	2	0.539	0.417	1369.335	762.203	0.245	0.106	0.0	17	soap dispenser
+sun_aarslpsdvwwqyohc.jpg	3	0.972	0.275	1420.905	851.590	0.232	0.156	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	3	0.972	0.275	1420.905	851.590	0.232	0.156	0.0	10	hairbrush
+sun_aarslpsdvwwqyohc.jpg	4	1.272	0.242	1452.445	826.020	0.334	0.092	0.0	7	countertop
+sun_aarslpsdvwwqyohc.jpg	4	1.272	0.242	1452.445	826.020	0.334	0.092	0.0	15	razor
+sun_aarslpsdvwwqyohc.jpg	5	1.531	0.575	1458.200	723.350	0.341	0.190	0.0	14	outlet
+sun_aarslpsdvwwqyohc.jpg	6	2.122	0.233	1346.360	775.027	0.581	0.262	0.0	0	other
+sun_aarslpsdvwwqyohc.jpg	7	2.372	0.233	1156.128	820.452	0.445	0.167	0.0	0	other
+sun_aarslpsdvwwqyohc.jpg	8	2.622	0.333	1105.440	823.745	0.232	0.104	0.0	18	tissue box

@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atfmueokdeplnsdy.jpg	1	0.400	0.175	1156.690	676.645	0.088	0.022	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	1	0.400	0.175	1156.690	676.645	0.088	0.022	0.0	6	chandelier
+sun_atfmueokdeplnsdy.jpg	2	0.600	0.208	1373.425	632.875	0.206	0.090	0.0	14	mantle
+sun_atfmueokdeplnsdy.jpg	2	0.600	0.208	1373.425	632.875	0.206	0.090	0.0	17	plate
+sun_atfmueokdeplnsdy.jpg	3	0.842	0.142	1248.240	559.635	0.121	0.036	0.0	0	other
+sun_atfmueokdeplnsdy.jpg	4	1.000	0.325	1217.800	491.555	0.101	0.070	0.0	6	chandelier
+sun_atfmueokdeplnsdy.jpg	5	1.384	0.100	1212.650	1473.075	3.008	16.268	66.7	-2	off screen
+sun_atfmueokdeplnsdy.jpg	6	1.542	0.308	1121.265	651.855	0.188	0.175	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	6	1.542	0.308	1121.265	651.855	0.188	0.175	0.0	6	chandelier
+sun_atfmueokdeplnsdy.jpg	7	1.876	0.183	998.077	707.330	0.192	0.082	0.0	16	plant
+sun_atfmueokdeplnsdy.jpg	8	2.092	0.500	966.298	741.630	0.157	0.094	0.0	16	plant
+sun_atfmueokdeplnsdy.jpg	8	2.092	0.500	966.298	741.630	0.157	0.094	0.0	25	vase
+sun_atfmueokdeplnsdy.jpg	9	2.626	0.292	949.415	724.515	0.175	0.059	0.0	16	plant

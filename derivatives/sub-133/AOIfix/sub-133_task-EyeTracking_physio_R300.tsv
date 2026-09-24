@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahrbttcvmcxopgma.jpg	1	0.406	0.242	1329.160	792.485	0.048	0.006	0.0	1	bathtub crop
+sun_ahrbttcvmcxopgma.jpg	1	0.406	0.242	1329.160	792.485	0.048	0.006	0.0	4	shower screen
+sun_ahrbttcvmcxopgma.jpg	2	0.681	0.183	1257.523	811.185	0.066	0.013	0.0	1	bathtub crop
+sun_ahrbttcvmcxopgma.jpg	2	0.681	0.183	1257.523	811.185	0.066	0.013	0.0	4	shower screen
+sun_ahrbttcvmcxopgma.jpg	3	0.898	0.200	1126.515	819.570	0.099	0.029	0.0	1	bathtub crop
+sun_ahrbttcvmcxopgma.jpg	4	1.215	0.217	1642.108	740.672	0.066	0.013	0.0	5	tissue box
+sun_ahrbttcvmcxopgma.jpg	4	1.215	0.217	1642.108	740.672	0.066	0.013	0.0	6	toilet
+sun_ahrbttcvmcxopgma.jpg	5	1.465	0.283	1666.620	704.357	0.061	0.009	0.0	5	tissue box
+sun_ahrbttcvmcxopgma.jpg	6	1.773	0.217	1601.383	708.495	0.074	0.020	0.0	6	toilet
+sun_ahrbttcvmcxopgma.jpg	7	2.023	0.325	1214.975	725.695	0.084	0.024	0.0	4	shower screen
+sun_ahrbttcvmcxopgma.jpg	8	2.381	0.308	1623.125	705.430	0.091	0.052	0.0	5	tissue box
+sun_ahrbttcvmcxopgma.jpg	8	2.381	0.308	1623.125	705.430	0.091	0.052	0.0	6	toilet
+sun_ahrbttcvmcxopgma.jpg	9	2.706	0.300	1657.257	715.960	0.076	0.027	0.0	5	tissue box
+sun_ahrbttcvmcxopgma.jpg	9	2.706	0.300	1657.257	715.960	0.076	0.027	0.0	6	toilet

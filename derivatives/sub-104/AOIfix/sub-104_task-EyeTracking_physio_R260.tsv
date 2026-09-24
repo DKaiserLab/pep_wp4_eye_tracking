@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anzbjguxdgpobefx.jpg	1	0.237	0.175	1245.615	752.820	0.071	0.014	0.0	5	kettle
+sun_anzbjguxdgpobefx.jpg	2	0.445	0.308	959.970	810.940	0.082	0.017	0.0	11	toaster
+sun_anzbjguxdgpobefx.jpg	2	0.445	0.308	959.970	810.940	0.082	0.017	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	3	0.770	0.275	915.315	899.140	0.081	0.019	0.0	10	stove
+sun_anzbjguxdgpobefx.jpg	4	1.095	0.175	1393.575	852.760	0.076	0.028	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	5	1.287	0.192	1467.260	831.480	0.062	0.013	0.0	6	mug
+sun_anzbjguxdgpobefx.jpg	5	1.287	0.192	1467.260	831.480	0.062	0.013	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	6	1.504	0.217	1522.637	809.015	0.080	0.013	0.0	6	mug
+sun_anzbjguxdgpobefx.jpg	6	1.504	0.217	1522.637	809.015	0.080	0.013	0.0	12	worktop
+sun_anzbjguxdgpobefx.jpg	7	1.745	0.242	1482.105	634.815	0.134	0.055	0.0	0	other
+sun_anzbjguxdgpobefx.jpg	8	2.012	0.175	1357.470	553.670	0.086	0.023	0.0	2	cabinet
+sun_anzbjguxdgpobefx.jpg	9	2.229	0.208	1053.130	511.095	0.189	0.040	0.0	2	cabinet
+sun_anzbjguxdgpobefx.jpg	10	2.470	0.425	966.135	539.040	0.194	0.046	0.0	2	cabinet

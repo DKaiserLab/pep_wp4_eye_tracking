@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aiequdasdjeizszp.jpg	1	0.351	0.125	1067.400	816.230	0.114	0.024	0.0	0	other
+sun_aiequdasdjeizszp.jpg	2	0.509	0.167	896.842	803.192	0.104	0.032	0.0	2	cabinet
+sun_aiequdasdjeizszp.jpg	3	0.751	0.208	1130.905	582.420	0.087	0.029	0.0	0	other
+sun_aiequdasdjeizszp.jpg	4	0.992	0.225	1412.035	585.110	0.126	0.045	0.0	12	stove
+sun_aiequdasdjeizszp.jpg	5	1.509	0.283	1569.870	906.072	0.190	0.159	0.0	6	glass
+sun_aiequdasdjeizszp.jpg	5	1.509	0.283	1569.870	906.072	0.190	0.159	0.0	13	table crop
+sun_aiequdasdjeizszp.jpg	6	1.817	0.258	1340.950	894.380	0.115	0.063	0.0	0	other
+sun_aiequdasdjeizszp.jpg	7	2.109	0.900	1235.680	909.625	0.134	0.054	0.0	3	chair crop

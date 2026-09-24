@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atfmueokdeplnsdy.jpg	1	0.348	0.183	1198.402	735.452	0.153	0.048	0.0	1	basket
+sun_atfmueokdeplnsdy.jpg	1	0.348	0.183	1198.402	735.452	0.153	0.048	0.0	7	containers
+sun_atfmueokdeplnsdy.jpg	1	0.348	0.183	1198.402	735.452	0.153	0.048	0.0	10	drawers
+sun_atfmueokdeplnsdy.jpg	1	0.348	0.183	1198.402	735.452	0.153	0.048	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	2	0.548	0.233	1086.190	768.077	0.297	0.179	0.0	13	kitchen island
+sun_atfmueokdeplnsdy.jpg	2	0.548	0.233	1086.190	768.077	0.297	0.179	0.0	18	refrigerator
+sun_atfmueokdeplnsdy.jpg	3	0.798	0.300	1013.618	802.217	0.247	0.132	0.0	11	football trophy
+sun_atfmueokdeplnsdy.jpg	3	0.798	0.300	1013.618	802.217	0.247	0.132	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	4	1.139	0.208	1010.595	519.495	0.125	0.064	0.0	0	other
+sun_atfmueokdeplnsdy.jpg	5	1.373	0.325	1238.465	502.720	0.120	0.049	0.0	6	chandelier
+sun_atfmueokdeplnsdy.jpg	6	1.731	0.275	1465.525	530.625	0.139	0.070	0.0	0	other
+sun_atfmueokdeplnsdy.jpg	7	2.089	0.350	1565.863	829.590	0.823	1.179	0.0	29	worktop
+sun_atfmueokdeplnsdy.jpg	8	2.639	0.367	1256.818	772.472	0.561	0.957	0.0	4	cabinets
+sun_atfmueokdeplnsdy.jpg	8	2.639	0.367	1256.818	772.472	0.561	0.957	0.0	8	dishwasher

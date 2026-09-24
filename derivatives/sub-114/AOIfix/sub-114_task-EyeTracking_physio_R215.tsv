@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awlmntruykfbsame.jpg	1	0.524	0.225	1411.075	794.870	0.054	0.016	0.0	2	cabinet
+sun_awlmntruykfbsame.jpg	1	0.524	0.225	1411.075	794.870	0.054	0.016	0.0	5	drawer
+sun_awlmntruykfbsame.jpg	1	0.524	0.225	1411.075	794.870	0.054	0.016	0.0	8	range
+sun_awlmntruykfbsame.jpg	1	0.524	0.225	1411.075	794.870	0.054	0.016	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	2	0.790	0.275	1486.090	797.530	0.068	0.019	0.0	2	cabinet
+sun_awlmntruykfbsame.jpg	2	0.790	0.275	1486.090	797.530	0.068	0.019	0.0	5	drawer
+sun_awlmntruykfbsame.jpg	2	0.790	0.275	1486.090	797.530	0.068	0.019	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	3	1.107	0.158	1566.355	802.305	0.052	0.013	0.0	2	cabinet
+sun_awlmntruykfbsame.jpg	4	1.315	0.308	1665.170	797.450	0.044	0.008	0.0	2	cabinet
+sun_awlmntruykfbsame.jpg	4	1.315	0.308	1665.170	797.450	0.044	0.008	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	5	1.674	0.208	1244.100	921.890	0.110	0.097	0.0	3	chair
+sun_awlmntruykfbsame.jpg	6	1.932	0.183	1041.928	847.335	0.064	0.020	0.0	3	chair
+sun_awlmntruykfbsame.jpg	6	1.932	0.183	1041.928	847.335	0.064	0.020	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	7	2.174	0.258	938.150	801.320	0.040	0.009	0.0	3	chair
+sun_awlmntruykfbsame.jpg	7	2.174	0.258	938.150	801.320	0.040	0.009	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	8	2.457	0.550	1003.298	691.688	0.095	0.050	0.0	3	chair

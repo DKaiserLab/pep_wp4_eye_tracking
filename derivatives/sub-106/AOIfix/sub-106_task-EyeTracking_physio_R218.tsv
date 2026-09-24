@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alyergctkjrpiwgr.jpg	1	0.329	0.142	1213.915	581.650	0.173	0.069	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	2	0.513	0.375	1036.560	438.570	0.082	0.027	0.0	0	other
+sun_alyergctkjrpiwgr.jpg	3	0.921	0.258	1375.445	591.520	0.212	0.106	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	4	1.196	0.267	1460.640	661.645	0.219	0.104	0.0	13	door frame
+sun_alyergctkjrpiwgr.jpg	4	1.196	0.267	1460.640	661.645	0.219	0.104	0.0	14	door
+sun_alyergctkjrpiwgr.jpg	5	1.488	0.275	1507.540	766.355	0.122	0.041	0.0	9	chair
+sun_alyergctkjrpiwgr.jpg	6	1.779	0.325	1551.655	804.920	0.137	0.041	0.0	9	chair
+sun_alyergctkjrpiwgr.jpg	7	2.138	0.258	1146.890	844.495	0.132	0.064	0.0	17	food
+sun_alyergctkjrpiwgr.jpg	7	2.138	0.258	1146.890	844.495	0.132	0.064	0.0	19	frying pan
+sun_alyergctkjrpiwgr.jpg	7	2.138	0.258	1146.890	844.495	0.132	0.064	0.0	32	stove
+sun_alyergctkjrpiwgr.jpg	8	2.413	0.183	1030.793	834.510	0.154	0.078	0.0	27	pot
+sun_alyergctkjrpiwgr.jpg	8	2.413	0.183	1030.793	834.510	0.154	0.078	0.0	32	stove
+sun_alyergctkjrpiwgr.jpg	9	2.638	0.283	908.727	807.562	0.091	0.027	0.0	3	bowl
+sun_alyergctkjrpiwgr.jpg	9	2.638	0.283	908.727	807.562	0.091	0.027	0.0	29	side table

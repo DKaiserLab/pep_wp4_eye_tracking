@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apynckhmoftszqoq.jpg	1	0.370	0.283	1348.233	712.115	0.100	0.018	0.0	8	sink
+sun_apynckhmoftszqoq.jpg	2	0.687	0.392	1401.815	706.105	0.126	0.025	0.0	8	sink
+sun_apynckhmoftszqoq.jpg	3	1.103	0.242	1337.220	706.355	0.086	0.018	0.0	8	sink
+sun_apynckhmoftszqoq.jpg	4	1.362	0.592	1272.535	722.450	0.100	0.020	0.0	8	sink
+sun_apynckhmoftszqoq.jpg	5	1.987	0.192	1356.260	714.420	0.095	0.018	0.0	8	sink
+sun_apynckhmoftszqoq.jpg	6	2.203	0.325	1574.215	677.205	0.122	0.040	0.0	7	shelves
+sun_apynckhmoftszqoq.jpg	7	2.562	0.242	1530.985	564.355	0.131	0.023	0.0	0	other
+sun_apynckhmoftszqoq.jpg	8	2.837	0.183	1297.028	502.178	0.167	0.070	0.0	0	other

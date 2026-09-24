@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axouwjxmvidopcvg.jpg	1	0.396	0.225	1335.990	735.010	0.113	0.061	0.0	21	window
+sun_axouwjxmvidopcvg.jpg	1	0.396	0.225	1335.990	735.010	0.113	0.061	0.0	22	worktop
+sun_axouwjxmvidopcvg.jpg	2	0.637	0.158	1304.280	739.790	0.100	0.074	0.0	7	faucet
+sun_axouwjxmvidopcvg.jpg	2	0.637	0.158	1304.280	739.790	0.100	0.074	0.0	18	sink
+sun_axouwjxmvidopcvg.jpg	2	0.637	0.158	1304.280	739.790	0.100	0.074	0.0	22	worktop
+sun_axouwjxmvidopcvg.jpg	3	0.821	0.592	1091.335	728.895	0.105	0.106	0.0	0	other
+sun_axouwjxmvidopcvg.jpg	4	1.437	0.350	1321.330	719.382	0.114	0.067	0.0	7	faucet
+sun_axouwjxmvidopcvg.jpg	4	1.437	0.350	1321.330	719.382	0.114	0.067	0.0	21	window
+sun_axouwjxmvidopcvg.jpg	5	1.821	0.183	1477.588	777.188	0.131	0.120	0.0	3	cabinet
+sun_axouwjxmvidopcvg.jpg	5	1.821	0.183	1477.588	777.188	0.131	0.120	0.0	22	worktop
+sun_axouwjxmvidopcvg.jpg	6	2.029	0.267	1541.408	834.957	0.093	0.039	0.0	16	refrigerator
+sun_axouwjxmvidopcvg.jpg	7	2.313	0.183	1572.125	877.450	0.078	0.020	0.0	3	cabinet
+sun_axouwjxmvidopcvg.jpg	7	2.313	0.183	1572.125	877.450	0.078	0.020	0.0	16	refrigerator
+sun_axouwjxmvidopcvg.jpg	8	2.529	0.208	1549.820	671.290	0.098	0.030	0.0	16	refrigerator
+sun_axouwjxmvidopcvg.jpg	9	2.754	0.250	1517.975	632.837	0.082	0.034	0.0	16	refrigerator

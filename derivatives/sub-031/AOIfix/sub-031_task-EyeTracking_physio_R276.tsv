@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afznskzeyysxrlqg.jpg	1	0.277	0.325	1337.240	908.270	0.151	0.177	0.0	14	jar
+sun_afznskzeyysxrlqg.jpg	1	0.277	0.325	1337.240	908.270	0.151	0.177	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	2	0.627	0.208	1437.740	931.935	0.134	0.049	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	3	0.868	0.408	973.735	955.040	0.135	0.108	0.0	7	coasters
+sun_afznskzeyysxrlqg.jpg	3	0.868	0.408	973.735	955.040	0.135	0.108	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	4	1.302	0.200	880.955	817.850	0.151	0.055	0.0	13	flowers
+sun_afznskzeyysxrlqg.jpg	5	1.535	0.450	1197.363	933.377	0.119	0.057	0.0	4	can
+sun_afznskzeyysxrlqg.jpg	5	1.535	0.450	1197.363	933.377	0.119	0.057	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	6	2.010	0.308	1031.690	851.085	0.261	0.206	0.0	9	dishwasher
+sun_afznskzeyysxrlqg.jpg	6	2.010	0.308	1031.690	851.085	0.261	0.206	0.0	12	faucet
+sun_afznskzeyysxrlqg.jpg	6	2.010	0.308	1031.690	851.085	0.261	0.206	0.0	34	worktop
+sun_afznskzeyysxrlqg.jpg	7	2.360	0.242	1157.875	690.975	0.076	0.032	0.0	0	other
+sun_afznskzeyysxrlqg.jpg	8	2.643	0.150	1285.140	588.015	0.076	0.018	0.0	3	cabinet
+sun_afznskzeyysxrlqg.jpg	9	2.810	0.192	1477.080	614.185	0.195	0.093	0.0	0	other

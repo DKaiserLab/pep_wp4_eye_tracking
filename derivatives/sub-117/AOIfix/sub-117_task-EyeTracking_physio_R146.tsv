@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxvejtymbkewxpy.jpg	1	0.520	0.275	1289.625	777.805	0.081	0.018	0.0	10	hotpl
+sun_ajxvejtymbkewxpy.jpg	1	0.520	0.275	1289.625	777.805	0.081	0.018	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	1	0.520	0.275	1289.625	777.805	0.081	0.018	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	2	0.812	0.167	1267.933	796.467	0.071	0.012	0.0	10	hotpl
+sun_ajxvejtymbkewxpy.jpg	2	0.812	0.167	1267.933	796.467	0.071	0.012	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	2	0.812	0.167	1267.933	796.467	0.071	0.012	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	3	1.003	0.225	1293.065	813.640	0.069	0.011	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	3	1.003	0.225	1293.065	813.640	0.069	0.011	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	4	1.245	0.700	1258.468	822.500	0.073	0.039	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	5	1.970	0.233	1219.975	815.840	0.075	0.014	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	5	1.970	0.233	1219.975	815.840	0.075	0.014	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	5	1.970	0.233	1219.975	815.840	0.075	0.014	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	6	2.228	0.242	1150.800	824.165	0.087	0.018	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	6	2.228	0.242	1150.800	824.165	0.087	0.018	0.0	8	dishwasher
+sun_ajxvejtymbkewxpy.jpg	6	2.228	0.242	1150.800	824.165	0.087	0.018	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	6	2.228	0.242	1150.800	824.165	0.087	0.018	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	7	2.495	0.258	1101.915	830.810	0.086	0.022	0.0	7	cutting board
+sun_ajxvejtymbkewxpy.jpg	7	2.495	0.258	1101.915	830.810	0.086	0.022	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	7	2.495	0.258	1101.915	830.810	0.086	0.022	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	8	2.770	0.200	1064.638	838.670	0.074	0.013	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	8	2.770	0.200	1064.638	838.670	0.074	0.013	0.0	19	worktop

@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvdofgavhiiyosk.jpg	1	0.547	0.167	1201.805	796.837	0.112	0.025	0.0	4	hotpl
+sun_alvdofgavhiiyosk.jpg	1	0.547	0.167	1201.805	796.837	0.112	0.025	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	2	0.739	0.192	1059.190	825.115	0.098	0.018	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	3	0.947	0.300	960.713	838.810	0.076	0.026	0.0	8	refrigerator crop
+sun_alvdofgavhiiyosk.jpg	4	1.281	0.192	1023.160	717.860	0.060	0.014	0.0	8	refrigerator crop
+sun_alvdofgavhiiyosk.jpg	5	1.497	0.192	1191.830	633.680	0.084	0.020	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	6	1.722	0.192	1336.545	619.680	0.105	0.016	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	6	1.722	0.192	1336.545	619.680	0.105	0.016	0.0	11	window
+sun_alvdofgavhiiyosk.jpg	7	1.956	0.192	1503.600	684.710	0.076	0.013	0.0	11	window
+sun_alvdofgavhiiyosk.jpg	8	2.164	0.283	1604.943	775.098	0.083	0.018	0.0	2	dishwasher
+sun_alvdofgavhiiyosk.jpg	8	2.164	0.283	1604.943	775.098	0.083	0.018	0.0	10	washing machine
+sun_alvdofgavhiiyosk.jpg	8	2.164	0.283	1604.943	775.098	0.083	0.018	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	9	2.472	0.325	1563.815	857.035	0.090	0.015	0.0	2	dishwasher
+sun_alvdofgavhiiyosk.jpg	9	2.472	0.325	1563.815	857.035	0.090	0.015	0.0	10	washing machine
+sun_alvdofgavhiiyosk.jpg	10	2.814	0.175	1450.000	866.915	0.124	0.019	0.0	1	cabinet

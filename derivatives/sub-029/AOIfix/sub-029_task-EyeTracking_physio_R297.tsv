@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azbzyzntqpgdoyyu.jpg	1	0.241	0.250	1200.445	753.973	0.193	0.149	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	1	0.241	0.250	1200.445	753.973	0.193	0.149	0.0	13	tissue box
+sun_azbzyzntqpgdoyyu.jpg	2	0.516	0.200	1031.572	767.138	0.123	0.057	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	3	0.799	0.150	1223.025	1016.160	0.134	0.092	0.0	2	bucket
+sun_azbzyzntqpgdoyyu.jpg	4	0.983	0.233	1603.175	1019.785	0.113	0.050	0.0	1	bathtub crop
+sun_azbzyzntqpgdoyyu.jpg	5	1.391	0.175	1118.435	617.140	0.171	0.112	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	6	1.591	0.158	1030.170	574.265	0.148	0.043	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	7	1.774	0.200	1467.108	564.817	0.178	0.137	0.0	15	vase
+sun_azbzyzntqpgdoyyu.jpg	8	1.991	0.250	1505.755	417.425	0.138	0.040	0.0	0	other
+sun_azbzyzntqpgdoyyu.jpg	9	2.274	0.267	1268.530	683.908	0.151	0.064	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	10	2.558	0.208	1319.795	715.960	0.203	0.079	0.0	7	glass
+sun_azbzyzntqpgdoyyu.jpg	11	2.791	0.217	1253.758	704.495	0.142	0.034	0.0	8	mirror

@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akuognalfgmelepa.jpg	1	0.291	0.200	1241.950	674.185	0.090	0.033	0.0	27	window
+sun_akuognalfgmelepa.jpg	2	0.533	0.383	1140.525	553.000	0.096	0.109	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	2	0.533	0.383	1140.525	553.000	0.096	0.109	0.0	13	door
+sun_akuognalfgmelepa.jpg	3	1.074	0.442	1141.490	790.230	0.117	0.088	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	4	1.541	0.283	1210.025	812.175	0.091	0.027	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	5	1.849	0.183	1295.850	831.670	0.095	0.100	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	6	2.058	0.200	1375.207	846.725	0.134	0.031	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	6	2.058	0.200	1375.207	846.725	0.134	0.031	0.0	17	folder
+sun_akuognalfgmelepa.jpg	7	2.283	0.275	1432.720	846.890	0.108	0.069	0.0	4	box
+sun_akuognalfgmelepa.jpg	7	2.283	0.275	1432.720	846.890	0.108	0.069	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	7	2.283	0.275	1432.720	846.890	0.108	0.069	0.0	17	folder
+sun_akuognalfgmelepa.jpg	8	2.591	0.233	1519.815	736.455	0.106	0.058	0.0	12	dishwasher
+sun_akuognalfgmelepa.jpg	9	2.849	0.158	1509.350	596.980	0.134	0.129	0.0	5	cabinet

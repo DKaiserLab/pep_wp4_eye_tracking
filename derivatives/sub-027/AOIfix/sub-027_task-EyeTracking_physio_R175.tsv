@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aydxycepjgosoubm.jpg	1	0.290	0.258	1307.815	805.450	0.163	0.054	0.0	8	range
+sun_aydxycepjgosoubm.jpg	2	0.565	0.392	1375.590	659.065	0.104	0.027	0.0	0	other
+sun_aydxycepjgosoubm.jpg	3	0.999	0.233	1563.863	733.860	0.130	0.063	0.0	7	outlet
+sun_aydxycepjgosoubm.jpg	4	1.249	0.358	1592.160	727.035	0.136	0.043	0.0	0	other
+sun_aydxycepjgosoubm.jpg	5	1.632	0.208	1436.865	684.640	0.109	0.035	0.0	0	other
+sun_aydxycepjgosoubm.jpg	6	1.866	0.275	1341.985	633.585	0.084	0.023	0.0	0	other
+sun_aydxycepjgosoubm.jpg	7	2.174	0.183	1299.483	788.038	0.319	0.081	0.0	8	range
+sun_aydxycepjgosoubm.jpg	8	2.374	0.158	1324.400	818.355	0.193	0.063	0.0	8	range
+sun_aydxycepjgosoubm.jpg	9	2.557	0.250	938.515	737.868	0.231	0.090	0.0	10	water tank
+sun_aydxycepjgosoubm.jpg	10	2.824	0.183	1129.440	700.153	0.203	0.064	0.0	0	other

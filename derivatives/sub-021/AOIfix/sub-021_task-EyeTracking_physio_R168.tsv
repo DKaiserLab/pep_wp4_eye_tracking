@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aenotlpyftoioydp.jpg	1	0.312	0.167	1212.810	619.837	0.098	0.030	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	2	0.504	0.192	1185.140	536.525	0.093	0.017	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	3	0.729	0.150	1082.152	538.938	0.084	0.014	0.0	1	bottle
+sun_aenotlpyftoioydp.jpg	3	0.729	0.150	1082.152	538.938	0.084	0.014	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	4	0.904	0.242	991.130	533.320	0.078	0.023	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	4	0.904	0.242	991.130	533.320	0.078	0.023	0.0	22	vase
+sun_aenotlpyftoioydp.jpg	5	1.179	0.317	1163.000	729.115	0.132	0.032	0.0	0	other
+sun_aenotlpyftoioydp.jpg	6	1.537	0.583	1409.247	711.842	0.101	0.030	0.0	7	door
+sun_aenotlpyftoioydp.jpg	7	2.154	0.250	1575.380	787.655	0.124	0.046	0.0	15	plant
+sun_aenotlpyftoioydp.jpg	8	2.420	0.367	1613.010	809.685	0.187	0.065	0.0	15	plant
+sun_aenotlpyftoioydp.jpg	9	2.820	0.183	1425.420	729.888	0.106	0.028	0.0	7	door

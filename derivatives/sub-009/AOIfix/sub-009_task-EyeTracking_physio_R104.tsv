@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_afbibxsnpvkmvhxn.jpg	1	0.288	0.150	1073.225	763.598	0.188	0.065	0.0	8	range
+sun_afbibxsnpvkmvhxn.jpg	2	0.604	0.150	1039.067	809.655	0.276	0.126	0.0	8	range
+sun_afbibxsnpvkmvhxn.jpg	3	0.771	0.383	929.880	831.612	0.163	0.042	0.0	1	basket
+sun_afbibxsnpvkmvhxn.jpg	3	0.771	0.383	929.880	831.612	0.163	0.042	0.0	2	cabinet
+sun_afbibxsnpvkmvhxn.jpg	3	0.771	0.383	929.880	831.612	0.163	0.042	0.0	3	coffee maker
+sun_afbibxsnpvkmvhxn.jpg	4	1.188	0.183	1271.700	780.095	0.176	0.071	0.0	6	microwave
+sun_afbibxsnpvkmvhxn.jpg	5	1.413	0.292	1609.675	828.125	0.155	0.051	0.0	0	other
+sun_afbibxsnpvkmvhxn.jpg	6	1.729	0.275	1322.550	750.380	0.190	0.070	0.0	6	microwave
+sun_afbibxsnpvkmvhxn.jpg	7	2.029	0.242	1109.600	802.400	0.155	0.059	0.0	8	range
+sun_afbibxsnpvkmvhxn.jpg	8	2.296	0.175	931.275	841.405	0.146	0.047	0.0	1	basket
+sun_afbibxsnpvkmvhxn.jpg	8	2.296	0.175	931.275	841.405	0.146	0.047	0.0	2	cabinet
+sun_afbibxsnpvkmvhxn.jpg	8	2.296	0.175	931.275	841.405	0.146	0.047	0.0	3	coffee maker
+sun_afbibxsnpvkmvhxn.jpg	9	2.504	0.208	1626.065	932.400	0.251	0.065	0.0	9	sink
+sun_afbibxsnpvkmvhxn.jpg	9	2.504	0.208	1626.065	932.400	0.251	0.065	0.0	10	worktop
+sun_afbibxsnpvkmvhxn.jpg	10	2.763	0.242	1087.060	537.595	0.230	0.089	0.0	2	cabinet
+sun_afbibxsnpvkmvhxn.jpg	10	2.763	0.242	1087.060	537.595	0.230	0.089	0.0	5	extractor hood

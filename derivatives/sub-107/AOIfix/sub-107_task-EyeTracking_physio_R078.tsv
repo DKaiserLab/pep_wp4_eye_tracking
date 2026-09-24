@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adcrxklhlbwrbkgm.jpg	1	0.582	0.250	1681.423	717.290	0.127	0.041	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	2	0.849	0.233	1615.392	779.803	0.114	0.031	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	2	0.849	0.233	1615.392	779.803	0.114	0.031	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	2	0.849	0.233	1615.392	779.803	0.114	0.031	0.0	20	saltcellar
+sun_adcrxklhlbwrbkgm.jpg	3	1.099	0.233	1505.890	797.295	0.086	0.028	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	3	1.099	0.233	1505.890	797.295	0.086	0.028	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	4	1.349	0.283	1375.023	786.597	0.068	0.039	0.0	5	coffee maker
+sun_adcrxklhlbwrbkgm.jpg	4	1.349	0.283	1375.023	786.597	0.068	0.039	0.0	21	sink
+sun_adcrxklhlbwrbkgm.jpg	4	1.349	0.283	1375.023	786.597	0.068	0.039	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	5	1.649	0.217	1215.183	762.720	0.093	0.028	0.0	21	sink
+sun_adcrxklhlbwrbkgm.jpg	5	1.649	0.217	1215.183	762.720	0.093	0.028	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	6	1.891	0.233	1053.030	770.460	0.099	0.056	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	7	2.141	0.575	942.605	755.430	0.114	0.141	0.0	14	mug
+sun_adcrxklhlbwrbkgm.jpg	7	2.141	0.575	942.605	755.430	0.114	0.141	0.0	24	toaster
+sun_adcrxklhlbwrbkgm.jpg	8	2.741	0.108	1066.815	566.575	0.102	0.030	0.0	4	cabinets
+sun_adcrxklhlbwrbkgm.jpg	9	2.866	0.142	1079.785	496.375	0.131	0.049	0.0	0	other

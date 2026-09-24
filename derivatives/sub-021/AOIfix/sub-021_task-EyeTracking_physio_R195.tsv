@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alxnnlzdudyhqwig.jpg	1	0.500	0.383	1055.320	744.533	0.127	0.215	0.0	17	grill
+sun_alxnnlzdudyhqwig.jpg	2	0.908	0.300	982.812	724.327	0.104	0.030	0.0	23	oven
+sun_alxnnlzdudyhqwig.jpg	3	1.225	0.217	992.985	699.507	0.098	0.021	0.0	23	oven
+sun_alxnnlzdudyhqwig.jpg	4	1.466	0.117	1049.053	641.765	0.122	0.025	0.0	21	microwave
+sun_alxnnlzdudyhqwig.jpg	5	1.616	0.217	1393.497	748.975	0.118	0.036	0.0	15	food processor
+sun_alxnnlzdudyhqwig.jpg	5	1.616	0.217	1393.497	748.975	0.118	0.036	0.0	34	worktop
+sun_alxnnlzdudyhqwig.jpg	6	1.866	0.208	1509.365	724.745	0.101	0.033	0.0	0	other
+sun_alxnnlzdudyhqwig.jpg	7	2.091	0.367	1509.940	642.895	0.108	0.034	0.0	33	window
+sun_alxnnlzdudyhqwig.jpg	8	2.491	0.183	1358.983	742.092	0.127	0.101	0.0	16	frying pan
+sun_alxnnlzdudyhqwig.jpg	8	2.491	0.183	1358.983	742.092	0.127	0.101	0.0	34	worktop
+sun_alxnnlzdudyhqwig.jpg	9	2.725	0.192	1304.640	806.110	0.157	0.084	0.0	18	kitchen island
+sun_alxnnlzdudyhqwig.jpg	9	2.725	0.192	1304.640	806.110	0.157	0.084	0.0	30	sink

@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abdiiftvfbsqoreg.jpg	1	0.411	0.217	1145.440	706.475	0.215	0.080	0.0	2	can
+sun_abdiiftvfbsqoreg.jpg	2	0.644	0.617	1036.053	719.540	0.243	0.511	0.0	0	other
+sun_abdiiftvfbsqoreg.jpg	3	1.277	0.192	989.440	774.895	0.186	0.067	0.0	12	towel
+sun_abdiiftvfbsqoreg.jpg	4	1.494	0.342	899.095	774.805	0.232	0.071	0.0	12	towel
+sun_abdiiftvfbsqoreg.jpg	5	1.861	0.233	964.102	613.023	0.204	0.052	0.0	5	jar
+sun_abdiiftvfbsqoreg.jpg	5	1.861	0.233	964.102	613.023	0.204	0.052	0.0	7	plantpot
+sun_abdiiftvfbsqoreg.jpg	6	2.111	0.192	1012.185	589.525	0.168	0.040	0.0	0	other
+sun_abdiiftvfbsqoreg.jpg	7	2.327	0.350	1102.665	642.732	0.159	0.067	0.0	2	can
+sun_abdiiftvfbsqoreg.jpg	7	2.327	0.350	1102.665	642.732	0.159	0.067	0.0	8	pot
+sun_abdiiftvfbsqoreg.jpg	8	2.702	0.200	1193.597	721.068	0.141	0.036	0.0	0	other

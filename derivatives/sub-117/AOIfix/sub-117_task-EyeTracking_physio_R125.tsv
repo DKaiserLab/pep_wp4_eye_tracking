@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apmpdqangkfvwrpn.jpg	1	0.286	0.283	1330.445	705.155	0.061	0.013	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	2	0.586	0.242	1365.065	699.945	0.062	0.009	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	3	0.853	0.200	1436.848	719.918	0.079	0.015	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	4	1.069	0.158	1469.815	739.800	0.084	0.014	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	5	1.244	0.833	1464.805	770.975	0.074	0.020	0.0	3	candle holder
+sun_apmpdqangkfvwrpn.jpg	5	1.244	0.833	1464.805	770.975	0.074	0.020	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	6	2.094	0.308	1444.360	774.040	0.073	0.019	0.0	3	candle holder
+sun_apmpdqangkfvwrpn.jpg	6	2.094	0.308	1444.360	774.040	0.073	0.019	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	7	2.428	0.317	1463.398	786.580	0.069	0.014	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	8	2.761	0.192	1493.665	803.310	0.100	0.018	0.0	7	dishcloth
+sun_apmpdqangkfvwrpn.jpg	8	2.761	0.192	1493.665	803.310	0.100	0.018	0.0	13	range

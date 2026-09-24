@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahjvciulzdwyyshu.jpg	1	0.425	0.117	1194.035	866.662	NaN	0.000	85.7	2	cabinet
+sun_ahjvciulzdwyyshu.jpg	2	0.559	0.233	1336.952	744.027	0.109	0.037	0.0	2	cabinet
+sun_ahjvciulzdwyyshu.jpg	2	0.559	0.233	1336.952	744.027	0.109	0.037	0.0	24	worktop
+sun_ahjvciulzdwyyshu.jpg	3	0.809	0.283	1384.255	723.990	0.116	0.041	0.0	18	shelves
+sun_ahjvciulzdwyyshu.jpg	3	0.809	0.283	1384.255	723.990	0.116	0.041	0.0	23	window
+sun_ahjvciulzdwyyshu.jpg	3	0.809	0.283	1384.255	723.990	0.116	0.041	0.0	24	worktop
+sun_ahjvciulzdwyyshu.jpg	4	1.109	0.183	1406.043	668.053	0.110	0.029	0.0	23	window
+sun_ahjvciulzdwyyshu.jpg	5	1.309	0.233	1335.832	648.080	0.086	0.029	0.0	14	pot
+sun_ahjvciulzdwyyshu.jpg	6	1.559	0.325	1276.240	625.225	0.084	0.032	0.0	17	shelf
+sun_ahjvciulzdwyyshu.jpg	7	1.900	0.300	1280.850	668.837	0.094	0.021	0.0	17	shelf
+sun_ahjvciulzdwyyshu.jpg	8	2.217	0.233	1273.237	710.618	0.084	0.016	0.0	14	pot
+sun_ahjvciulzdwyyshu.jpg	9	2.467	0.225	1164.655	734.765	0.114	0.050	0.0	24	worktop
+sun_ahjvciulzdwyyshu.jpg	10	2.709	0.208	1072.820	732.305	0.101	0.092	0.0	19	soap dispenser
+sun_ahjvciulzdwyyshu.jpg	10	2.709	0.208	1072.820	732.305	0.101	0.092	0.0	24	worktop

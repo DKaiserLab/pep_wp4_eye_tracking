@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_albwvmqgrgwlxxx.jpg	1	0.339	0.208	1068.975	737.250	0.075	0.026	0.0	1	cabinet
+labelme_albwvmqgrgwlxxx.jpg	1	0.339	0.208	1068.975	737.250	0.075	0.026	0.0	2	countertop
+labelme_albwvmqgrgwlxxx.jpg	2	0.572	0.233	955.857	563.272	0.168	0.109	0.0	0	other
+labelme_albwvmqgrgwlxxx.jpg	3	0.847	0.133	1264.737	568.028	0.171	0.041	0.0	0	other
+labelme_albwvmqgrgwlxxx.jpg	4	1.022	0.267	1548.663	839.185	0.095	0.056	0.0	0	other
+labelme_albwvmqgrgwlxxx.jpg	5	1.331	0.308	1117.100	965.935	0.081	0.019	0.0	1	cabinet
+labelme_albwvmqgrgwlxxx.jpg	5	1.331	0.308	1117.100	965.935	0.081	0.019	0.0	3	door
+labelme_albwvmqgrgwlxxx.jpg	6	1.731	0.250	1190.407	594.967	0.197	0.119	0.0	0	other
+labelme_albwvmqgrgwlxxx.jpg	7	1.997	0.167	1116.747	553.237	0.253	0.126	0.0	0	other
+labelme_albwvmqgrgwlxxx.jpg	8	2.189	0.225	1197.765	557.150	0.160	0.031	0.0	8	towel ring
+labelme_albwvmqgrgwlxxx.jpg	9	2.431	0.575	1223.385	557.640	0.153	0.035	0.0	0	other

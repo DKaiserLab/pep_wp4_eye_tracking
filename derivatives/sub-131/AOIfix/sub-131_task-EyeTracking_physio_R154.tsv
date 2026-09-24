@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_admyjjnxxddpqaud.jpg	1	0.285	0.225	1309.990	789.820	0.083	0.026	0.0	2	cabinet
+sun_admyjjnxxddpqaud.jpg	1	0.285	0.225	1309.990	789.820	0.083	0.026	0.0	5	range
+sun_admyjjnxxddpqaud.jpg	1	0.285	0.225	1309.990	789.820	0.083	0.026	0.0	9	worktop
+sun_admyjjnxxddpqaud.jpg	2	0.526	0.367	1379.025	852.755	0.132	0.105	0.0	5	range
+sun_admyjjnxxddpqaud.jpg	3	0.918	0.308	1052.640	786.855	0.098	0.115	0.0	2	cabinet
+sun_admyjjnxxddpqaud.jpg	3	0.918	0.308	1052.640	786.855	0.098	0.115	0.0	7	sink
+sun_admyjjnxxddpqaud.jpg	3	0.918	0.308	1052.640	786.855	0.098	0.115	0.0	9	worktop
+sun_admyjjnxxddpqaud.jpg	4	1.243	0.342	996.895	800.205	0.145	0.138	0.0	2	cabinet
+sun_admyjjnxxddpqaud.jpg	4	1.243	0.342	996.895	800.205	0.145	0.138	0.0	7	sink
+sun_admyjjnxxddpqaud.jpg	4	1.243	0.342	996.895	800.205	0.145	0.138	0.0	9	worktop
+sun_admyjjnxxddpqaud.jpg	5	1.626	0.317	1426.822	842.918	0.129	0.090	0.0	5	range
+sun_admyjjnxxddpqaud.jpg	6	1.960	0.158	1545.835	835.785	0.193	0.131	0.0	1	cabinet crop
+sun_admyjjnxxddpqaud.jpg	7	2.160	0.225	1555.730	522.555	0.068	0.050	0.0	2	cabinet
+sun_admyjjnxxddpqaud.jpg	8	2.418	0.158	1393.295	521.370	0.068	0.052	0.0	2	cabinet
+sun_admyjjnxxddpqaud.jpg	8	2.418	0.158	1393.295	521.370	0.068	0.052	0.0	3	extractor hood
+sun_admyjjnxxddpqaud.jpg	9	2.601	0.358	1179.860	564.215	0.110	0.094	0.0	2	cabinet

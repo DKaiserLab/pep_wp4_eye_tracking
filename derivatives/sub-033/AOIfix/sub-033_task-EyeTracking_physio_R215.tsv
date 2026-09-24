@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awlmntruykfbsame.jpg	1	0.334	0.158	1261.045	642.795	0.134	0.034	0.0	0	other
+sun_awlmntruykfbsame.jpg	2	0.525	0.433	1339.347	498.365	0.094	0.031	0.0	6	extractor hood
+sun_awlmntruykfbsame.jpg	3	0.992	0.283	984.115	506.780	0.123	0.029	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	3	0.992	0.283	984.115	506.780	0.123	0.029	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	3	0.992	0.283	984.115	506.780	0.123	0.029	0.0	12	vase
+sun_awlmntruykfbsame.jpg	4	1.309	0.225	948.225	516.910	0.082	0.018	0.0	9	shelf
+sun_awlmntruykfbsame.jpg	4	1.309	0.225	948.225	516.910	0.082	0.018	0.0	10	shelves
+sun_awlmntruykfbsame.jpg	4	1.309	0.225	948.225	516.910	0.082	0.018	0.0	12	vase
+sun_awlmntruykfbsame.jpg	5	1.575	0.200	1549.410	664.668	0.283	0.165	0.0	0	other
+sun_awlmntruykfbsame.jpg	6	1.825	0.200	1623.385	693.025	0.108	0.046	0.0	0	other
+sun_awlmntruykfbsame.jpg	7	2.059	0.225	1658.140	702.215	0.158	0.058	0.0	13	worktop
+sun_awlmntruykfbsame.jpg	8	2.342	0.658	1244.470	760.470	0.174	0.045	0.0	3	chair
+sun_awlmntruykfbsame.jpg	8	2.342	0.658	1244.470	760.470	0.174	0.045	0.0	8	range
+sun_awlmntruykfbsame.jpg	8	2.342	0.658	1244.470	760.470	0.174	0.045	0.0	13	worktop

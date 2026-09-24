@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akwvdhqsbtcesevi.jpg	1	0.420	0.167	1212.783	877.668	0.222	0.103	0.0	16	sink
+sun_akwvdhqsbtcesevi.jpg	1	0.420	0.167	1212.783	877.668	0.222	0.103	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	2	0.611	0.258	1144.025	906.270	0.133	0.033	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	2	0.611	0.258	1144.025	906.270	0.133	0.033	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	3	0.895	0.292	1032.845	853.350	0.132	0.031	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	3	0.895	0.292	1032.845	853.350	0.132	0.031	0.0	12	plate
+sun_akwvdhqsbtcesevi.jpg	3	0.895	0.292	1032.845	853.350	0.132	0.031	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	4	1.236	0.258	1160.820	906.155	0.092	0.018	0.0	5	food
+sun_akwvdhqsbtcesevi.jpg	4	1.236	0.258	1160.820	906.155	0.092	0.018	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	5	1.545	0.308	1527.615	731.740	0.198	0.060	0.0	0	other
+sun_akwvdhqsbtcesevi.jpg	6	1.878	0.350	1654.162	690.040	0.184	0.068	0.0	0	other
+sun_akwvdhqsbtcesevi.jpg	7	2.286	0.125	1494.940	776.290	0.126	0.044	0.0	3	cabinet
+sun_akwvdhqsbtcesevi.jpg	7	2.286	0.125	1494.940	776.290	0.126	0.044	0.0	16	sink
+sun_akwvdhqsbtcesevi.jpg	7	2.286	0.125	1494.940	776.290	0.126	0.044	0.0	21	worktop
+sun_akwvdhqsbtcesevi.jpg	8	2.470	0.233	1176.025	647.115	0.161	0.028	0.0	0	other
+sun_akwvdhqsbtcesevi.jpg	9	2.728	0.233	1066.200	582.658	0.146	0.058	0.0	8	microwave

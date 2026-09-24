@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azwwluglgwfhhwee.jpg	1	0.285	0.233	1193.095	617.517	0.255	0.225	0.0	1	bottle
+sun_azwwluglgwfhhwee.jpg	1	0.285	0.233	1193.095	617.517	0.255	0.225	0.0	2	cabinet
+sun_azwwluglgwfhhwee.jpg	2	0.535	0.233	1025.110	640.888	0.234	0.120	0.0	0	other
+sun_azwwluglgwfhhwee.jpg	3	0.785	0.233	1225.622	597.555	0.195	0.092	0.0	2	cabinet
+sun_azwwluglgwfhhwee.jpg	4	1.035	0.250	1351.775	629.742	0.313	0.183	0.0	2	cabinet
+sun_azwwluglgwfhhwee.jpg	5	1.301	0.367	1272.235	607.635	0.274	0.155	0.0	2	cabinet
+sun_azwwluglgwfhhwee.jpg	6	1.693	0.300	1030.945	692.430	0.225	0.140	0.0	0	other
+sun_azwwluglgwfhhwee.jpg	7	2.018	0.200	1106.990	688.837	0.203	0.065	0.0	17	sink
+sun_azwwluglgwfhhwee.jpg	7	2.018	0.200	1106.990	688.837	0.203	0.065	0.0	18	soap bottle
+sun_azwwluglgwfhhwee.jpg	8	2.251	0.133	1165.783	690.580	0.199	0.067	0.0	1	bottle
+sun_azwwluglgwfhhwee.jpg	8	2.251	0.133	1165.783	690.580	0.199	0.067	0.0	7	dishcloth
+sun_azwwluglgwfhhwee.jpg	9	2.418	0.317	1598.903	669.507	0.224	0.099	0.0	9	knife set
+sun_azwwluglgwfhhwee.jpg	10	2.751	0.117	1614.260	628.643	0.256	0.118	0.0	2	cabinet
+sun_azwwluglgwfhhwee.jpg	11	2.885	0.117	1363.088	622.653	0.285	0.214	0.0	2	cabinet

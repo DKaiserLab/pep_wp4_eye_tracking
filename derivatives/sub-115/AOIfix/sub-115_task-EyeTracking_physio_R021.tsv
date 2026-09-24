@@ -1,0 +1,28 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azxetkujrgobhzbi.jpg	1	0.167	0.142	1235.655	691.365	0.122	0.033	0.0	21	plate
+sun_azxetkujrgobhzbi.jpg	1	0.167	0.142	1235.655	691.365	0.122	0.033	0.0	27	teacup
+sun_azxetkujrgobhzbi.jpg	1	0.167	0.142	1235.655	691.365	0.122	0.033	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	2	0.333	0.342	1274.620	695.025	0.139	0.063	0.0	7	coffee maker
+sun_azxetkujrgobhzbi.jpg	2	0.333	0.342	1274.620	695.025	0.139	0.063	0.0	27	teacup
+sun_azxetkujrgobhzbi.jpg	2	0.333	0.342	1274.620	695.025	0.139	0.063	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	3	0.700	0.225	1328.490	709.110	0.138	0.044	0.0	6	can
+sun_azxetkujrgobhzbi.jpg	3	0.700	0.225	1328.490	709.110	0.138	0.044	0.0	25	sink
+sun_azxetkujrgobhzbi.jpg	3	0.700	0.225	1328.490	709.110	0.138	0.044	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	4	0.942	0.217	1393.682	728.918	0.142	0.045	0.0	14	food
+sun_azxetkujrgobhzbi.jpg	4	0.942	0.217	1393.682	728.918	0.142	0.045	0.0	25	sink
+sun_azxetkujrgobhzbi.jpg	4	0.942	0.217	1393.682	728.918	0.142	0.045	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	5	1.192	0.350	1492.710	743.805	0.119	0.044	0.0	26	stove
+sun_azxetkujrgobhzbi.jpg	5	1.192	0.350	1492.710	743.805	0.119	0.044	0.0	30	wok
+sun_azxetkujrgobhzbi.jpg	5	1.192	0.350	1492.710	743.805	0.119	0.044	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	6	1.558	0.433	1526.702	749.170	0.136	0.045	0.0	26	stove
+sun_azxetkujrgobhzbi.jpg	6	1.558	0.433	1526.702	749.170	0.136	0.045	0.0	30	wok
+sun_azxetkujrgobhzbi.jpg	6	1.558	0.433	1526.702	749.170	0.136	0.045	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	7	2.008	0.200	1430.255	734.040	0.169	0.061	0.0	14	food
+sun_azxetkujrgobhzbi.jpg	7	2.008	0.200	1430.255	734.040	0.169	0.061	0.0	25	sink
+sun_azxetkujrgobhzbi.jpg	7	2.008	0.200	1430.255	734.040	0.169	0.061	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	8	2.233	0.158	1349.345	706.185	0.131	0.056	0.0	6	can
+sun_azxetkujrgobhzbi.jpg	8	2.233	0.158	1349.345	706.185	0.131	0.056	0.0	25	sink
+sun_azxetkujrgobhzbi.jpg	8	2.233	0.158	1349.345	706.185	0.131	0.056	0.0	31	worktop
+sun_azxetkujrgobhzbi.jpg	9	2.408	0.175	1268.820	680.025	0.172	0.083	0.0	7	coffee maker
+sun_azxetkujrgobhzbi.jpg	10	2.608	0.117	1230.753	586.263	0.123	0.060	0.0	5	cabinets
+sun_azxetkujrgobhzbi.jpg	11	2.742	0.175	1265.815	519.700	0.251	0.077	0.0	5	cabinets

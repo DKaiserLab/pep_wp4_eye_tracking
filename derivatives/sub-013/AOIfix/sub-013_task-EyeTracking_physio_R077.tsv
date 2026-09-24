@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aevezokbkeojznwq.jpg	1	0.347	0.217	1294.640	644.188	0.071	0.033	0.0	5	mitten
+sun_aevezokbkeojznwq.jpg	2	0.588	0.125	1370.260	661.700	0.088	0.026	0.0	0	other
+sun_aevezokbkeojznwq.jpg	3	0.730	0.233	1477.420	668.095	0.075	0.051	0.0	0	other
+sun_aevezokbkeojznwq.jpg	4	0.980	0.167	1437.580	672.930	0.077	0.038	0.0	10	sink
+sun_aevezokbkeojznwq.jpg	4	0.980	0.167	1437.580	672.930	0.077	0.038	0.0	14	worktop
+sun_aevezokbkeojznwq.jpg	5	1.163	0.233	1275.635	626.955	0.068	0.030	0.0	5	mitten
+sun_aevezokbkeojznwq.jpg	6	1.422	0.158	1141.865	639.305	0.056	0.022	0.0	7	pitcher
+sun_aevezokbkeojznwq.jpg	7	1.597	0.200	1019.775	708.497	0.115	0.087	0.0	8	range
+sun_aevezokbkeojznwq.jpg	8	1.838	0.208	898.010	611.195	0.051	0.028	0.0	0	other
+sun_aevezokbkeojznwq.jpg	9	2.063	0.183	895.203	587.280	0.077	0.022	0.0	0	other
+sun_aevezokbkeojznwq.jpg	10	2.280	0.225	1021.555	767.075	0.092	0.029	0.0	8	range
+sun_aevezokbkeojznwq.jpg	11	2.522	0.275	995.900	736.225	0.070	0.016	0.0	8	range
+sun_aevezokbkeojznwq.jpg	12	2.813	0.192	883.115	830.885	0.093	0.031	0.0	13	trash can

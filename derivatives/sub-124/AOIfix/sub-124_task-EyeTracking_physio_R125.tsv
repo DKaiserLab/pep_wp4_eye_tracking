@@ -1,0 +1,26 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apmpdqangkfvwrpn.jpg	1	0.232	0.175	1249.935	748.420	0.072	0.011	0.0	9	faucet
+sun_apmpdqangkfvwrpn.jpg	1	0.232	0.175	1249.935	748.420	0.072	0.011	0.0	16	sink
+sun_apmpdqangkfvwrpn.jpg	1	0.232	0.175	1249.935	748.420	0.072	0.011	0.0	19	worktop
+sun_apmpdqangkfvwrpn.jpg	2	0.423	0.200	1133.125	811.720	0.096	0.033	0.0	2	cabinet
+sun_apmpdqangkfvwrpn.jpg	2	0.423	0.200	1133.125	811.720	0.096	0.033	0.0	8	dishwasher
+sun_apmpdqangkfvwrpn.jpg	3	0.640	0.267	1049.260	804.805	0.108	0.034	0.0	8	dishwasher
+sun_apmpdqangkfvwrpn.jpg	3	0.640	0.267	1049.260	804.805	0.108	0.034	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	4	0.923	0.267	1006.762	792.170	0.073	0.024	0.0	6	curtain
+sun_apmpdqangkfvwrpn.jpg	4	0.923	0.267	1006.762	792.170	0.073	0.024	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	5	1.207	0.175	1017.365	760.975	0.107	0.019	0.0	5	coffee maker
+sun_apmpdqangkfvwrpn.jpg	5	1.207	0.175	1017.365	760.975	0.107	0.019	0.0	6	curtain
+sun_apmpdqangkfvwrpn.jpg	5	1.207	0.175	1017.365	760.975	0.107	0.019	0.0	10	flowers
+sun_apmpdqangkfvwrpn.jpg	5	1.207	0.175	1017.365	760.975	0.107	0.019	0.0	19	worktop
+sun_apmpdqangkfvwrpn.jpg	6	1.415	0.175	1282.085	746.910	0.117	0.044	0.0	16	sink
+sun_apmpdqangkfvwrpn.jpg	6	1.415	0.175	1282.085	746.910	0.117	0.044	0.0	19	worktop
+sun_apmpdqangkfvwrpn.jpg	7	1.624	0.250	1381.648	754.870	0.154	0.031	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	7	1.624	0.250	1381.648	754.870	0.154	0.031	0.0	19	worktop
+sun_apmpdqangkfvwrpn.jpg	8	1.899	0.208	1459.210	766.185	0.104	0.017	0.0	3	candle holder
+sun_apmpdqangkfvwrpn.jpg	8	1.899	0.208	1459.210	766.185	0.104	0.017	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	9	2.149	0.208	1546.255	799.655	0.115	0.029	0.0	2	cabinet
+sun_apmpdqangkfvwrpn.jpg	9	2.149	0.208	1546.255	799.655	0.115	0.029	0.0	13	range
+sun_apmpdqangkfvwrpn.jpg	10	2.382	0.217	1600.677	845.615	0.107	0.030	0.0	2	cabinet
+sun_apmpdqangkfvwrpn.jpg	10	2.382	0.217	1600.677	845.615	0.107	0.030	0.0	14	refrigerator
+sun_apmpdqangkfvwrpn.jpg	11	2.732	0.267	1265.778	950.832	0.094	0.047	0.0	2	cabinet
+sun_apmpdqangkfvwrpn.jpg	11	2.732	0.267	1265.778	950.832	0.094	0.047	0.0	15	rug

@@ -1,0 +1,27 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajtqfkwqpektgwsv.jpg	1	0.453	0.142	1067.010	871.945	0.248	0.165	0.0	9	sink
+sun_ajtqfkwqpektgwsv.jpg	1	0.453	0.142	1067.010	871.945	0.248	0.165	0.0	11	worktop
+sun_ajtqfkwqpektgwsv.jpg	2	0.611	0.308	1167.235	861.350	0.196	0.086	0.0	6	plant
+sun_ajtqfkwqpektgwsv.jpg	2	0.611	0.308	1167.235	861.350	0.196	0.086	0.0	8	refrigerator
+sun_ajtqfkwqpektgwsv.jpg	2	0.611	0.308	1167.235	861.350	0.196	0.086	0.0	10	vase
+sun_ajtqfkwqpektgwsv.jpg	2	0.611	0.308	1167.235	861.350	0.196	0.086	0.0	11	worktop
+sun_ajtqfkwqpektgwsv.jpg	3	0.969	0.242	1571.370	909.605	0.137	0.035	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	3	0.969	0.242	1571.370	909.605	0.137	0.035	0.0	5	paper towels
+sun_ajtqfkwqpektgwsv.jpg	3	0.969	0.242	1571.370	909.605	0.137	0.035	0.0	11	worktop
+sun_ajtqfkwqpektgwsv.jpg	4	1.228	0.175	1591.375	912.200	0.197	0.050	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	4	1.228	0.175	1591.375	912.200	0.197	0.050	0.0	5	paper towels
+sun_ajtqfkwqpektgwsv.jpg	4	1.228	0.175	1591.375	912.200	0.197	0.050	0.0	11	worktop
+sun_ajtqfkwqpektgwsv.jpg	5	1.444	0.267	1475.815	602.365	0.088	0.022	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	6	1.736	0.125	1264.345	685.165	0.214	0.062	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	6	1.736	0.125	1264.345	685.165	0.214	0.062	0.0	8	refrigerator
+sun_ajtqfkwqpektgwsv.jpg	7	1.903	0.267	1160.568	894.572	0.107	0.020	0.0	6	plant
+sun_ajtqfkwqpektgwsv.jpg	7	1.903	0.267	1160.568	894.572	0.107	0.020	0.0	8	refrigerator
+sun_ajtqfkwqpektgwsv.jpg	7	1.903	0.267	1160.568	894.572	0.107	0.020	0.0	9	sink
+sun_ajtqfkwqpektgwsv.jpg	7	1.903	0.267	1160.568	894.572	0.107	0.020	0.0	10	vase
+sun_ajtqfkwqpektgwsv.jpg	7	1.903	0.267	1160.568	894.572	0.107	0.020	0.0	11	worktop
+sun_ajtqfkwqpektgwsv.jpg	8	2.186	0.250	1176.170	924.025	0.099	0.024	0.0	10	vase
+sun_ajtqfkwqpektgwsv.jpg	8	2.186	0.250	1176.170	924.025	0.099	0.024	0.0	11	worktop
+sun_ajtqfkwqpektgwsv.jpg	9	2.561	0.192	961.610	672.275	0.303	0.174	0.0	0	other
+sun_ajtqfkwqpektgwsv.jpg	10	2.803	0.200	1599.350	932.473	0.134	0.038	0.0	1	cabinet
+sun_ajtqfkwqpektgwsv.jpg	10	2.803	0.200	1599.350	932.473	0.134	0.038	0.0	5	paper towels
+sun_ajtqfkwqpektgwsv.jpg	10	2.803	0.200	1599.350	932.473	0.134	0.038	0.0	11	worktop

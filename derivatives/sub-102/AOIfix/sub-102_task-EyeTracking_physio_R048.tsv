@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvoexkareccqxgq.jpg	1	0.603	0.258	1210.400	825.255	0.333	0.133	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	1	0.603	0.258	1210.400	825.255	0.333	0.133	0.0	10	chair
+sun_alvoexkareccqxgq.jpg	1	0.603	0.258	1210.400	825.255	0.333	0.133	0.0	35	range
+sun_alvoexkareccqxgq.jpg	2	0.878	0.267	1067.685	830.107	0.205	0.125	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	3	1.161	0.367	953.320	842.747	0.152	0.056	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	3	1.161	0.367	953.320	842.747	0.152	0.056	0.0	24	mug
+sun_alvoexkareccqxgq.jpg	4	1.545	0.208	905.105	858.530	0.144	0.054	0.0	6	box
+sun_alvoexkareccqxgq.jpg	4	1.545	0.208	905.105	858.530	0.144	0.054	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	4	1.545	0.208	905.105	858.530	0.144	0.054	0.0	17	fruit
+sun_alvoexkareccqxgq.jpg	4	1.545	0.208	905.105	858.530	0.144	0.054	0.0	40	table
+sun_alvoexkareccqxgq.jpg	5	1.786	0.292	1040.215	709.115	0.199	0.078	0.0	27	outlet
+sun_alvoexkareccqxgq.jpg	6	2.103	0.308	1079.265	590.625	0.207	0.075	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	6	2.103	0.308	1079.265	590.625	0.207	0.075	0.0	23	mill
+sun_alvoexkareccqxgq.jpg	7	2.445	0.242	1381.235	500.795	0.164	0.075	0.0	0	other
+sun_alvoexkareccqxgq.jpg	8	2.711	0.283	1601.120	526.533	0.168	0.088	0.0	7	cabinet

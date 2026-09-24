@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alyergctkjrpiwgr.jpg	1	0.227	0.200	1388.858	776.605	0.109	0.031	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	1	0.227	0.200	1388.858	776.605	0.109	0.031	0.0	24	oven
+sun_alyergctkjrpiwgr.jpg	2	0.611	0.267	1403.548	802.265	0.591	1.100	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	2	0.611	0.267	1403.548	802.265	0.591	1.100	0.0	24	oven
+sun_alyergctkjrpiwgr.jpg	3	0.902	0.392	1292.985	806.210	0.262	0.165	0.0	1	book
+sun_alyergctkjrpiwgr.jpg	3	0.902	0.392	1292.985	806.210	0.262	0.165	0.0	4	bread
+sun_alyergctkjrpiwgr.jpg	3	0.902	0.392	1292.985	806.210	0.262	0.165	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	3	0.902	0.392	1292.985	806.210	0.262	0.165	0.0	38	worktop
+sun_alyergctkjrpiwgr.jpg	4	1.327	0.158	1333.330	818.045	0.262	0.051	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	4	1.327	0.158	1333.330	818.045	0.262	0.051	0.0	24	oven
+sun_alyergctkjrpiwgr.jpg	4	1.327	0.158	1333.330	818.045	0.262	0.051	0.0	38	worktop
+sun_alyergctkjrpiwgr.jpg	5	1.502	0.292	1361.115	682.515	0.175	0.053	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	5	1.502	0.292	1361.115	682.515	0.175	0.053	0.0	24	oven
+sun_alyergctkjrpiwgr.jpg	6	1.819	0.142	1286.240	724.620	0.136	0.027	0.0	5	cabinet
+sun_alyergctkjrpiwgr.jpg	6	1.819	0.142	1286.240	724.620	0.136	0.027	0.0	6	cabinets
+sun_alyergctkjrpiwgr.jpg	7	2.002	0.208	1511.745	688.155	0.140	0.043	0.0	0	other
+sun_alyergctkjrpiwgr.jpg	8	2.244	0.267	1417.245	712.597	0.131	0.037	0.0	16	flowers
+sun_alyergctkjrpiwgr.jpg	8	2.244	0.267	1417.245	712.597	0.131	0.037	0.0	37	vase
+sun_alyergctkjrpiwgr.jpg	9	2.527	0.417	1301.380	708.980	0.198	0.076	0.0	6	cabinets

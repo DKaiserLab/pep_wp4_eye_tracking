@@ -1,0 +1,8 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajnvbqoszcilcmds.jpg	1	0.554	0.242	1235.145	716.570	0.098	0.038	0.0	8	worktop
+sun_ajnvbqoszcilcmds.jpg	2	0.920	0.508	1217.385	710.835	0.121	0.039	0.0	8	worktop
+sun_ajnvbqoszcilcmds.jpg	3	1.462	0.333	1171.790	706.902	0.091	0.023	0.0	8	worktop
+sun_ajnvbqoszcilcmds.jpg	4	1.829	0.492	1116.495	694.130	0.145	0.173	0.0	6	range
+sun_ajnvbqoszcilcmds.jpg	4	1.829	0.492	1116.495	694.130	0.145	0.173	0.0	8	worktop
+sun_ajnvbqoszcilcmds.jpg	5	2.345	0.150	1145.090	600.800	0.139	0.032	0.0	6	range
+sun_ajnvbqoszcilcmds.jpg	6	2.537	0.467	1270.543	565.410	0.197	0.073	0.0	0	other

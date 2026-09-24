@@ -1,0 +1,8 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_admyjjnxxddpqaud.jpg	1	0.385	0.150	1195.682	739.797	0.202	0.086	0.0	0	other
+sun_admyjjnxxddpqaud.jpg	2	0.560	0.283	1347.148	837.625	0.276	0.124	0.0	5	range
+sun_admyjjnxxddpqaud.jpg	3	1.035	0.433	1336.105	860.940	0.220	0.099	0.0	5	range
+sun_admyjjnxxddpqaud.jpg	4	1.743	0.317	1254.225	760.077	0.684	0.502	0.0	9	worktop
+sun_admyjjnxxddpqaud.jpg	5	2.076	0.925	1289.475	776.495	0.163	0.083	0.0	2	cabinet
+sun_admyjjnxxddpqaud.jpg	5	2.076	0.925	1289.475	776.495	0.163	0.083	0.0	5	range
+sun_admyjjnxxddpqaud.jpg	5	2.076	0.925	1289.475	776.495	0.163	0.083	0.0	9	worktop

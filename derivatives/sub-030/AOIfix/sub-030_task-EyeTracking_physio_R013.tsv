@@ -1,0 +1,7 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agldadusrezhmyva.jpg	1	0.401	0.525	1285.750	717.060	0.193	0.064	0.0	2	bottle
+sun_agldadusrezhmyva.jpg	1	0.401	0.525	1285.750	717.060	0.193	0.064	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	1	0.401	0.525	1285.750	717.060	0.193	0.064	0.0	20	outlet
+sun_agldadusrezhmyva.jpg	2	0.934	2.067	1282.885	733.095	0.212	0.135	0.0	2	bottle
+sun_agldadusrezhmyva.jpg	2	0.934	2.067	1282.885	733.095	0.212	0.135	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	2	0.934	2.067	1282.885	733.095	0.212	0.135	0.0	30	worktop

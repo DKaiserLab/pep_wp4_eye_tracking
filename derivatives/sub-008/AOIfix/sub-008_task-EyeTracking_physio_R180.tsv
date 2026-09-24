@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aomzbprctpzqwjzj.jpg	1	0.258	0.208	1107.135	564.665	0.070	0.038	0.0	16	radiator
+sun_aomzbprctpzqwjzj.jpg	2	0.491	0.233	953.108	498.325	0.109	0.028	0.0	10	door
+sun_aomzbprctpzqwjzj.jpg	3	0.741	0.292	873.545	516.515	0.092	0.114	0.0	7	decoration
+sun_aomzbprctpzqwjzj.jpg	4	1.058	0.192	922.840	465.135	0.084	0.031	0.0	10	door
+sun_aomzbprctpzqwjzj.jpg	5	1.291	0.242	1461.890	499.605	0.100	0.054	0.0	14	pendant lamp
+sun_aomzbprctpzqwjzj.jpg	6	1.549	0.267	1501.490	492.738	0.065	0.021	0.0	14	pendant lamp
+sun_aomzbprctpzqwjzj.jpg	6	1.549	0.267	1501.490	492.738	0.065	0.021	0.0	17	shelves
+sun_aomzbprctpzqwjzj.jpg	7	1.849	0.200	1474.307	725.785	0.079	0.062	0.0	11	kitchen island
+sun_aomzbprctpzqwjzj.jpg	8	2.099	0.108	1492.380	445.595	0.056	0.009	0.0	14	pendant lamp
+sun_aomzbprctpzqwjzj.jpg	9	2.216	0.167	1496.553	477.892	0.109	0.024	0.0	14	pendant lamp
+sun_aomzbprctpzqwjzj.jpg	10	2.399	0.492	1666.725	469.650	0.084	0.029	0.0	3	cabinet

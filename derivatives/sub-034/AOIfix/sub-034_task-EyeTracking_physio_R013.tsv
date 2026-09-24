@@ -1,0 +1,25 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agldadusrezhmyva.jpg	1	0.292	0.183	1233.250	777.358	0.132	0.083	0.0	23	sink
+sun_agldadusrezhmyva.jpg	1	0.292	0.183	1233.250	777.358	0.132	0.083	0.0	30	worktop
+sun_agldadusrezhmyva.jpg	2	0.509	0.192	1473.405	872.535	0.136	0.031	0.0	1	basket
+sun_agldadusrezhmyva.jpg	2	0.509	0.192	1473.405	872.535	0.136	0.031	0.0	7	cutting board
+sun_agldadusrezhmyva.jpg	2	0.509	0.192	1473.405	872.535	0.136	0.031	0.0	13	food
+sun_agldadusrezhmyva.jpg	2	0.509	0.192	1473.405	872.535	0.136	0.031	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	3	0.717	0.267	1529.610	900.730	0.111	0.032	0.0	1	basket
+sun_agldadusrezhmyva.jpg	3	0.717	0.267	1529.610	900.730	0.111	0.032	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	4	1.009	0.233	1472.158	988.197	0.102	0.027	0.0	13	food
+sun_agldadusrezhmyva.jpg	4	1.009	0.233	1472.158	988.197	0.102	0.027	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	4	1.009	0.233	1472.158	988.197	0.102	0.027	0.0	26	tray
+sun_agldadusrezhmyva.jpg	5	1.276	0.308	1211.030	985.365	0.105	0.021	0.0	13	food
+sun_agldadusrezhmyva.jpg	5	1.276	0.308	1211.030	985.365	0.105	0.021	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	6	1.634	0.117	1081.492	847.210	0.097	0.008	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	6	1.634	0.117	1081.492	847.210	0.097	0.008	0.0	30	worktop
+sun_agldadusrezhmyva.jpg	7	1.784	0.317	962.130	820.197	0.083	0.018	0.0	13	food
+sun_agldadusrezhmyva.jpg	7	1.784	0.317	962.130	820.197	0.083	0.018	0.0	29	window
+sun_agldadusrezhmyva.jpg	7	1.784	0.317	962.130	820.197	0.083	0.018	0.0	30	worktop
+sun_agldadusrezhmyva.jpg	8	2.151	0.217	1188.132	792.845	0.102	0.018	0.0	23	sink
+sun_agldadusrezhmyva.jpg	8	2.151	0.217	1188.132	792.845	0.102	0.018	0.0	30	worktop
+sun_agldadusrezhmyva.jpg	9	2.401	0.183	1415.135	753.447	0.118	0.020	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	9	2.401	0.183	1415.135	753.447	0.118	0.020	0.0	30	worktop
+sun_agldadusrezhmyva.jpg	10	2.617	0.225	1563.335	759.340	0.115	0.030	0.0	25	stove
+sun_agldadusrezhmyva.jpg	11	2.884	0.117	1639.693	767.625	0.106	0.016	0.0	25	stove

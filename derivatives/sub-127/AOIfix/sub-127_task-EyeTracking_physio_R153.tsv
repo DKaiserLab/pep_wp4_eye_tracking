@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azdnupmzwdxwflvh.jpg	1	0.343	0.200	1068.108	775.128	0.140	0.176	0.0	16	kitchen island
+sun_azdnupmzwdxwflvh.jpg	2	0.585	0.192	941.165	730.000	0.083	0.018	0.0	4	cabinets
+sun_azdnupmzwdxwflvh.jpg	3	0.810	0.242	916.805	657.880	0.106	0.023	0.0	3	cabinet
+sun_azdnupmzwdxwflvh.jpg	3	0.810	0.242	916.805	657.880	0.106	0.023	0.0	11	door frame
+sun_azdnupmzwdxwflvh.jpg	4	1.085	0.192	1278.180	622.980	0.154	0.051	0.0	3	cabinet
+sun_azdnupmzwdxwflvh.jpg	4	1.085	0.192	1278.180	622.980	0.154	0.051	0.0	17	oven
+sun_azdnupmzwdxwflvh.jpg	5	1.310	0.217	1542.707	627.760	0.082	0.032	0.0	23	refrigerator
+sun_azdnupmzwdxwflvh.jpg	6	1.543	0.242	1622.060	643.855	0.097	0.024	0.0	23	refrigerator
+sun_azdnupmzwdxwflvh.jpg	7	1.826	0.300	1589.423	976.558	0.119	0.037	0.0	2	bowl
+sun_azdnupmzwdxwflvh.jpg	7	1.826	0.300	1589.423	976.558	0.119	0.037	0.0	25	table
+sun_azdnupmzwdxwflvh.jpg	8	2.185	0.192	1082.700	865.655	0.121	0.047	0.0	16	kitchen island
+sun_azdnupmzwdxwflvh.jpg	9	2.418	0.183	978.067	865.175	0.066	0.013	0.0	1	books
+sun_azdnupmzwdxwflvh.jpg	9	2.418	0.183	978.067	865.175	0.066	0.013	0.0	16	kitchen island
+sun_azdnupmzwdxwflvh.jpg	10	2.635	0.317	913.903	856.043	0.095	0.017	0.0	0	other

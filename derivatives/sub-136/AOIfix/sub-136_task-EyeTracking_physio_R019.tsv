@@ -1,0 +1,26 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awvfnogmotsvhofs.jpg	1	0.263	0.125	1017.945	466.285	0.161	0.112	0.0	4	mirror
+sun_awvfnogmotsvhofs.jpg	2	0.454	0.142	1558.830	480.415	0.111	0.033	0.0	5	shower door
+sun_awvfnogmotsvhofs.jpg	3	0.654	0.225	1153.830	660.265	0.306	0.807	0.0	4	mirror
+sun_awvfnogmotsvhofs.jpg	4	0.896	0.467	1314.330	808.867	0.440	7.701	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	4	0.896	0.467	1314.330	808.867	0.440	7.701	0.0	8	toilet
+sun_awvfnogmotsvhofs.jpg	4	0.896	0.467	1314.330	808.867	0.440	7.701	0.0	9	towel
+sun_awvfnogmotsvhofs.jpg	5	1.379	0.183	1391.540	899.982	0.366	0.637	0.0	5	shower door
+sun_awvfnogmotsvhofs.jpg	5	1.379	0.183	1391.540	899.982	0.366	0.637	0.0	8	toilet
+sun_awvfnogmotsvhofs.jpg	6	1.579	0.233	1181.322	851.450	0.437	2.269	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	6	1.579	0.233	1181.322	851.450	0.437	2.269	0.0	7	soap dish
+sun_awvfnogmotsvhofs.jpg	6	1.579	0.233	1181.322	851.450	0.437	2.269	0.0	9	towel
+sun_awvfnogmotsvhofs.jpg	7	1.829	0.250	1255.743	810.500	0.193	0.083	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	7	1.829	0.250	1255.743	810.500	0.193	0.083	0.0	7	soap dish
+sun_awvfnogmotsvhofs.jpg	7	1.829	0.250	1255.743	810.500	0.193	0.083	0.0	9	towel
+sun_awvfnogmotsvhofs.jpg	8	2.104	0.125	1176.600	846.615	0.190	0.114	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	8	2.104	0.125	1176.600	846.615	0.190	0.114	0.0	7	soap dish
+sun_awvfnogmotsvhofs.jpg	8	2.104	0.125	1176.600	846.615	0.190	0.114	0.0	9	towel
+sun_awvfnogmotsvhofs.jpg	9	2.246	0.183	1254.992	841.632	0.210	0.136	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	9	2.246	0.183	1254.992	841.632	0.210	0.136	0.0	7	soap dish
+sun_awvfnogmotsvhofs.jpg	9	2.246	0.183	1254.992	841.632	0.210	0.136	0.0	9	towel
+sun_awvfnogmotsvhofs.jpg	10	2.463	0.317	1443.253	861.470	0.149	0.057	0.0	5	shower door
+sun_awvfnogmotsvhofs.jpg	10	2.463	0.317	1443.253	861.470	0.149	0.057	0.0	8	toilet
+sun_awvfnogmotsvhofs.jpg	11	2.796	0.208	1226.070	841.315	0.281	0.849	0.0	2	countertop
+sun_awvfnogmotsvhofs.jpg	11	2.796	0.208	1226.070	841.315	0.281	0.849	0.0	7	soap dish
+sun_awvfnogmotsvhofs.jpg	11	2.796	0.208	1226.070	841.315	0.281	0.849	0.0	9	towel

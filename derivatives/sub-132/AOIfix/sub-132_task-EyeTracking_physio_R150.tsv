@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awhvlirgpcdffbsk.jpg	1	0.293	0.283	1313.582	699.475	0.084	0.022	0.0	2	cabinet
+sun_awhvlirgpcdffbsk.jpg	1	0.293	0.283	1313.582	699.475	0.084	0.022	0.0	8	kitchen
+sun_awhvlirgpcdffbsk.jpg	2	0.610	0.383	1354.997	829.263	0.340	0.444	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	2	0.610	0.383	1354.997	829.263	0.340	0.444	0.0	17	place mat
+sun_awhvlirgpcdffbsk.jpg	3	1.027	0.142	1203.955	885.095	0.151	0.036	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	3	1.027	0.142	1203.955	885.095	0.151	0.036	0.0	23	stool
+sun_awhvlirgpcdffbsk.jpg	4	1.210	0.183	980.380	724.110	0.133	0.050	0.0	2	cabinet
+sun_awhvlirgpcdffbsk.jpg	4	1.210	0.183	980.380	724.110	0.133	0.050	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	5	1.427	0.117	925.962	637.418	0.089	0.049	0.0	26	worktop
+sun_awhvlirgpcdffbsk.jpg	6	1.593	0.200	1057.765	559.472	0.085	0.014	0.0	2	cabinet
+sun_awhvlirgpcdffbsk.jpg	6	1.593	0.200	1057.765	559.472	0.085	0.014	0.0	25	window
+sun_awhvlirgpcdffbsk.jpg	7	1.827	0.183	1201.217	556.837	0.089	0.020	0.0	25	window
+sun_awhvlirgpcdffbsk.jpg	8	2.035	0.275	1416.435	573.170	0.153	0.078	0.0	2	cabinet
+sun_awhvlirgpcdffbsk.jpg	8	2.035	0.275	1416.435	573.170	0.153	0.078	0.0	10	light switch
+sun_awhvlirgpcdffbsk.jpg	9	2.352	0.242	1524.535	607.495	0.053	0.008	0.0	11	microwave
+sun_awhvlirgpcdffbsk.jpg	10	2.627	0.383	1617.642	613.065	0.077	0.017	0.0	20	refrigerator

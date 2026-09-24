@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aowvammdqpmypflg.jpg	1	0.484	0.458	1463.990	760.960	0.101	0.031	0.0	8	kettle
+sun_aowvammdqpmypflg.jpg	1	0.484	0.458	1463.990	760.960	0.101	0.031	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	2	0.975	0.208	1297.970	725.455	0.090	0.012	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	2	0.975	0.208	1297.970	725.455	0.090	0.012	0.0	11	refrigerator
+sun_aowvammdqpmypflg.jpg	3	1.217	0.267	1074.955	713.625	0.095	0.024	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	3	1.217	0.267	1074.955	713.625	0.095	0.024	0.0	15	window
+sun_aowvammdqpmypflg.jpg	4	1.517	0.183	988.745	566.020	0.091	0.024	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	4	1.517	0.183	988.745	566.020	0.091	0.024	0.0	15	window
+sun_aowvammdqpmypflg.jpg	5	1.725	0.400	953.477	545.100	0.094	0.027	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	5	1.725	0.400	953.477	545.100	0.094	0.027	0.0	15	window
+sun_aowvammdqpmypflg.jpg	6	2.159	0.300	932.643	880.767	0.171	0.080	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	7	2.475	0.242	908.630	835.005	0.115	0.045	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	7	2.475	0.242	908.630	835.005	0.115	0.045	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	8	2.775	0.225	1576.880	873.980	0.094	0.037	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	8	2.775	0.225	1576.880	873.980	0.094	0.037	0.0	16	worktop

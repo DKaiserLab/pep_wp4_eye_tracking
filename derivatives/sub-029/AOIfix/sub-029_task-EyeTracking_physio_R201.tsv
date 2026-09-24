@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aaslbwtcdcwjukuo.jpg	1	0.234	0.183	1213.483	699.785	0.112	0.053	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	2	0.442	0.133	1345.460	669.740	0.146	0.034	0.0	18	soap dispenser
+sun_aaslbwtcdcwjukuo.jpg	3	0.601	0.150	1201.827	661.553	0.129	0.096	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	4	0.767	0.158	1175.720	650.485	0.184	0.072	0.0	4	bottle
+sun_aaslbwtcdcwjukuo.jpg	5	0.951	0.200	1005.237	531.400	0.142	0.058	0.0	11	microwave
+sun_aaslbwtcdcwjukuo.jpg	6	1.184	0.258	1588.685	555.175	0.159	0.063	0.0	6	cabinet
+sun_aaslbwtcdcwjukuo.jpg	6	1.184	0.258	1588.685	555.175	0.159	0.063	0.0	14	refrigerator
+sun_aaslbwtcdcwjukuo.jpg	7	1.476	0.158	1396.860	791.040	0.109	0.042	0.0	6	cabinet
+sun_aaslbwtcdcwjukuo.jpg	8	1.726	0.192	1214.470	681.500	0.100	0.027	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	9	1.934	0.250	1387.007	686.185	0.107	0.037	0.0	19	worktop
+sun_aaslbwtcdcwjukuo.jpg	10	2.201	0.150	1444.003	679.450	0.106	0.025	0.0	0	other
+sun_aaslbwtcdcwjukuo.jpg	11	2.376	0.275	1223.065	659.025	0.167	0.124	0.0	12	paper towels
+sun_aaslbwtcdcwjukuo.jpg	12	2.667	0.225	1312.450	692.515	0.132	0.046	0.0	19	worktop

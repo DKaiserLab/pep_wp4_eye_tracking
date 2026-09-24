@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aclkmsuodfedolnj.jpg	1	0.385	0.250	1472.102	576.680	0.091	0.037	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	2	0.660	0.283	1650.737	507.105	0.114	0.037	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	3	0.985	0.525	1184.680	525.095	0.092	0.037	0.0	7	extractor hood
+sun_aclkmsuodfedolnj.jpg	4	1.543	0.292	909.565	539.120	0.078	0.040	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	5	1.935	0.317	889.610	454.877	0.099	0.073	0.0	2	cabinet
+sun_aclkmsuodfedolnj.jpg	6	2.318	0.275	946.645	1051.855	0.151	0.110	0.0	-1	off stimulus
+sun_aclkmsuodfedolnj.jpg	7	2.627	0.258	1444.640	1017.785	0.155	0.064	0.0	0	other
+sun_aclkmsuodfedolnj.jpg	8	2.910	0.100	1576.797	973.403	0.153	0.037	0.0	2	cabinet

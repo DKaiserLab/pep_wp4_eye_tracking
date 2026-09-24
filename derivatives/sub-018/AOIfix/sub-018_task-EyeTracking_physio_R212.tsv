@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.162	0.233	1332.215	641.122	0.157	0.087	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	2	0.412	0.225	1263.095	849.880	0.256	0.060	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	3	0.662	0.242	1081.360	762.205	0.096	0.027	0.0	3	bowl
+sun_acfmftudsenhrfhy.jpg	3	0.662	0.242	1081.360	762.205	0.096	0.027	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	3	0.662	0.242	1081.360	762.205	0.096	0.027	0.0	28	teapot
+sun_acfmftudsenhrfhy.jpg	3	0.662	0.242	1081.360	762.205	0.096	0.027	0.0	30	tray
+sun_acfmftudsenhrfhy.jpg	4	1.029	0.158	1260.135	648.275	0.084	0.029	0.0	0	other
+sun_acfmftudsenhrfhy.jpg	5	1.195	0.108	1273.350	685.805	0.113	0.022	0.0	0	other
+sun_acfmftudsenhrfhy.jpg	6	1.562	0.442	1311.065	677.795	0.084	0.019	0.0	18	outlet
+sun_acfmftudsenhrfhy.jpg	7	2.037	0.442	1344.370	711.925	0.115	0.036	0.0	18	outlet
+sun_acfmftudsenhrfhy.jpg	7	2.037	0.442	1344.370	711.925	0.115	0.036	0.0	26	stove
+sun_acfmftudsenhrfhy.jpg	7	2.037	0.442	1344.370	711.925	0.115	0.036	0.0	29	toaster
+sun_acfmftudsenhrfhy.jpg	7	2.037	0.442	1344.370	711.925	0.115	0.036	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	8	2.495	0.383	1317.080	696.882	0.108	0.035	0.0	18	outlet
+sun_acfmftudsenhrfhy.jpg	9	2.904	0.100	1263.625	666.130	0.062	0.011	0.0	0	other

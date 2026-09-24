@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_axuvsdqqnoevzlud.jpg	1	0.346	0.308	1159.825	663.395	0.067	0.029	0.0	20	sink
+sun_axuvsdqqnoevzlud.jpg	2	0.671	0.458	1163.420	638.635	0.059	0.054	0.0	20	sink
+sun_axuvsdqqnoevzlud.jpg	3	1.263	0.125	1503.025	668.485	0.064	0.020	0.0	6	cabinet
+sun_axuvsdqqnoevzlud.jpg	3	1.263	0.125	1503.025	668.485	0.064	0.020	0.0	16	kitchen island
+sun_axuvsdqqnoevzlud.jpg	3	1.263	0.125	1503.025	668.485	0.064	0.020	0.0	21	stove
+sun_axuvsdqqnoevzlud.jpg	3	1.263	0.125	1503.025	668.485	0.064	0.020	0.0	27	worktop
+sun_axuvsdqqnoevzlud.jpg	4	1.413	0.200	1547.997	675.475	0.056	0.024	0.0	13	food
+sun_axuvsdqqnoevzlud.jpg	4	1.413	0.200	1547.997	675.475	0.056	0.024	0.0	16	kitchen island
+sun_axuvsdqqnoevzlud.jpg	4	1.413	0.200	1547.997	675.475	0.056	0.024	0.0	25	vase
+sun_axuvsdqqnoevzlud.jpg	4	1.413	0.200	1547.997	675.475	0.056	0.024	0.0	27	worktop
+sun_axuvsdqqnoevzlud.jpg	5	1.638	0.133	1598.490	645.930	0.051	0.010	0.0	0	other
+sun_axuvsdqqnoevzlud.jpg	6	1.788	0.167	1655.763	611.215	0.139	0.062	0.0	0	other
+sun_axuvsdqqnoevzlud.jpg	7	1.980	0.158	1696.230	561.415	0.073	0.015	0.0	0	other
+sun_axuvsdqqnoevzlud.jpg	8	2.196	0.192	1054.665	671.945	0.182	0.071	0.0	10	decanter
+sun_axuvsdqqnoevzlud.jpg	8	2.196	0.192	1054.665	671.945	0.182	0.071	0.0	27	worktop
+sun_axuvsdqqnoevzlud.jpg	9	2.405	0.158	985.110	684.900	0.110	0.028	0.0	9	champagne bucket
+sun_axuvsdqqnoevzlud.jpg	9	2.405	0.158	985.110	684.900	0.110	0.028	0.0	27	worktop
+sun_axuvsdqqnoevzlud.jpg	10	2.597	0.175	962.660	925.360	0.138	0.042	0.0	0	other
+sun_axuvsdqqnoevzlud.jpg	11	2.805	0.200	1018.342	964.445	0.088	0.016	0.0	13	food
+sun_axuvsdqqnoevzlud.jpg	11	2.805	0.200	1018.342	964.445	0.088	0.016	0.0	22	table crop

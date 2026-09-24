@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_algkamzphkipsfil.jpg	1	0.453	0.375	1320.440	829.110	0.079	0.049	0.0	2	blind
+sun_algkamzphkipsfil.jpg	2	0.853	0.250	1381.110	842.015	0.088	0.042	0.0	0	other
+sun_algkamzphkipsfil.jpg	3	1.120	0.308	1504.780	893.710	0.094	0.027	0.0	1	bathtub crop
+sun_algkamzphkipsfil.jpg	4	1.511	0.142	1441.195	523.875	0.134	0.028	0.0	2	blind
+sun_algkamzphkipsfil.jpg	5	1.678	0.250	1385.928	607.435	0.109	0.042	0.0	2	blind
+sun_algkamzphkipsfil.jpg	6	1.986	0.183	1212.415	692.537	0.073	0.019	0.0	2	blind
+sun_algkamzphkipsfil.jpg	7	2.195	0.300	1129.972	767.575	0.113	0.035	0.0	2	blind
+sun_algkamzphkipsfil.jpg	7	2.195	0.300	1129.972	767.575	0.113	0.035	0.0	7	candleholder
+sun_algkamzphkipsfil.jpg	8	2.520	0.483	1100.520	805.513	0.107	0.057	0.0	7	candleholder
+sun_algkamzphkipsfil.jpg	8	2.520	0.483	1100.520	805.513	0.107	0.057	0.0	9	plant
+sun_algkamzphkipsfil.jpg	8	2.520	0.483	1100.520	805.513	0.107	0.057	0.0	13	vase

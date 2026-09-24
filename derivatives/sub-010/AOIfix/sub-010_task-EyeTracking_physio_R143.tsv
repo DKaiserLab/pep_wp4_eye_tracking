@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anjgzxqwccbiozsw.jpg	1	0.346	0.133	1086.030	639.725	0.106	0.016	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	2	0.513	0.150	1025.830	529.360	0.100	0.017	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	3	0.688	0.258	929.560	510.255	0.078	0.018	0.0	16	picture
+sun_anjgzxqwccbiozsw.jpg	4	0.971	0.250	1056.720	515.607	0.090	0.024	0.0	16	picture
+sun_anjgzxqwccbiozsw.jpg	5	1.263	0.283	1302.740	600.388	0.080	0.011	0.0	4	cabinet
+sun_anjgzxqwccbiozsw.jpg	6	1.580	0.175	1431.655	595.145	0.087	0.015	0.0	4	cabinet
+sun_anjgzxqwccbiozsw.jpg	7	1.780	0.200	1489.880	619.237	0.072	0.016	0.0	4	cabinet
+sun_anjgzxqwccbiozsw.jpg	8	2.005	0.308	1579.005	817.690	0.093	0.017	0.0	13	mug
+sun_anjgzxqwccbiozsw.jpg	8	2.005	0.308	1579.005	817.690	0.093	0.017	0.0	18	placemat
+sun_anjgzxqwccbiozsw.jpg	8	2.005	0.308	1579.005	817.690	0.093	0.017	0.0	20	plate
+sun_anjgzxqwccbiozsw.jpg	8	2.005	0.308	1579.005	817.690	0.093	0.017	0.0	24	table
+sun_anjgzxqwccbiozsw.jpg	9	2.330	0.283	1596.885	844.202	0.089	0.018	0.0	24	table
+sun_anjgzxqwccbiozsw.jpg	9	2.330	0.283	1596.885	844.202	0.089	0.018	0.0	25	teapot
+sun_anjgzxqwccbiozsw.jpg	10	2.638	0.300	1447.315	884.117	0.091	0.011	0.0	13	mug
+sun_anjgzxqwccbiozsw.jpg	10	2.638	0.300	1447.315	884.117	0.091	0.011	0.0	18	placemat
+sun_anjgzxqwccbiozsw.jpg	10	2.638	0.300	1447.315	884.117	0.091	0.011	0.0	24	table

@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acduarbnmmoglmiv.jpg	1	0.541	0.283	979.933	523.768	0.090	0.034	0.0	0	other
+sun_acduarbnmmoglmiv.jpg	2	0.858	0.217	1472.673	512.795	0.116	0.035	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	3	1.091	0.175	1595.045	545.220	0.092	0.030	0.0	9	mirror
+sun_acduarbnmmoglmiv.jpg	4	1.300	0.175	1673.780	779.390	0.095	0.040	0.0	0	other
+sun_acduarbnmmoglmiv.jpg	5	1.500	0.192	1572.240	922.070	0.137	0.073	0.0	13	sink
+sun_acduarbnmmoglmiv.jpg	6	1.716	0.217	1267.675	965.662	0.123	0.079	0.0	7	canister
+sun_acduarbnmmoglmiv.jpg	7	1.958	0.233	1010.267	931.737	0.107	0.049	0.0	1	basket
+sun_acduarbnmmoglmiv.jpg	7	1.958	0.233	1010.267	931.737	0.107	0.049	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	8	2.241	0.258	1100.695	586.460	0.080	0.018	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	9	2.533	0.475	1419.045	722.055	0.096	0.068	0.0	7	canister
+sun_acduarbnmmoglmiv.jpg	9	2.533	0.475	1419.045	722.055	0.096	0.068	0.0	12	shelves
+sun_acduarbnmmoglmiv.jpg	9	2.533	0.475	1419.045	722.055	0.096	0.068	0.0	13	sink

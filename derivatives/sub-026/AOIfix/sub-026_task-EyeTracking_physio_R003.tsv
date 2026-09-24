@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aapitsgbtktqubfy.jpg	1	0.314	0.142	1203.025	793.925	0.184	0.047	0.0	0	other
+sun_aapitsgbtktqubfy.jpg	2	0.639	0.208	1461.065	753.725	0.282	0.143	0.0	6	curtain
+sun_aapitsgbtktqubfy.jpg	3	0.872	0.142	1471.995	884.045	0.143	0.033	0.0	1	bathtub
+sun_aapitsgbtktqubfy.jpg	3	0.872	0.142	1471.995	884.045	0.143	0.033	0.0	6	curtain
+sun_aapitsgbtktqubfy.jpg	4	1.047	0.250	1188.760	827.620	0.190	0.073	0.0	4	countertop
+sun_aapitsgbtktqubfy.jpg	4	1.047	0.250	1188.760	827.620	0.190	0.073	0.0	9	sink
+sun_aapitsgbtktqubfy.jpg	5	1.339	0.108	1507.500	652.460	0.066	0.011	0.0	0	other
+sun_aapitsgbtktqubfy.jpg	6	1.464	0.275	1591.675	623.340	0.082	0.022	0.0	15	window
+sun_aapitsgbtktqubfy.jpg	7	1.772	0.167	1522.932	897.370	0.166	0.048	0.0	1	bathtub
+sun_aapitsgbtktqubfy.jpg	7	1.772	0.167	1522.932	897.370	0.166	0.048	0.0	12	towel
+sun_aapitsgbtktqubfy.jpg	8	1.964	0.217	1260.793	852.908	0.241	0.118	0.0	4	countertop
+sun_aapitsgbtktqubfy.jpg	8	1.964	0.217	1260.793	852.908	0.241	0.118	0.0	9	sink
+sun_aapitsgbtktqubfy.jpg	9	2.206	0.158	1101.820	778.700	0.177	0.050	0.0	8	mirror
+sun_aapitsgbtktqubfy.jpg	10	2.389	0.358	996.990	784.815	0.109	0.031	0.0	7	flowers
+sun_aapitsgbtktqubfy.jpg	11	2.772	0.233	1172.940	801.497	0.166	0.084	0.0	4	countertop

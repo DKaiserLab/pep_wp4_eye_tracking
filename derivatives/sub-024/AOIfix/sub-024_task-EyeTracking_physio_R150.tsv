@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awhvlirgpcdffbsk.jpg	1	0.304	0.167	1160.093	708.902	0.264	0.072	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	2	0.496	0.158	1108.925	725.970	0.208	0.076	0.0	6	glass
+sun_awhvlirgpcdffbsk.jpg	2	0.496	0.158	1108.925	725.970	0.208	0.076	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	3	0.671	0.167	1152.342	748.233	0.125	0.034	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	3	0.671	0.167	1152.342	748.233	0.125	0.034	0.0	12	napkin
+sun_awhvlirgpcdffbsk.jpg	3	0.671	0.167	1152.342	748.233	0.125	0.034	0.0	19	plate
+sun_awhvlirgpcdffbsk.jpg	4	0.863	0.275	1318.605	792.465	0.248	0.094	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	4	0.863	0.275	1318.605	792.465	0.248	0.094	0.0	12	napkin
+sun_awhvlirgpcdffbsk.jpg	4	0.863	0.275	1318.605	792.465	0.248	0.094	0.0	17	place mat
+sun_awhvlirgpcdffbsk.jpg	4	0.863	0.275	1318.605	792.465	0.248	0.094	0.0	19	plate
+sun_awhvlirgpcdffbsk.jpg	4	0.863	0.275	1318.605	792.465	0.248	0.094	0.0	22	spoon
+sun_awhvlirgpcdffbsk.jpg	5	1.246	0.258	1479.295	803.805	0.193	0.083	0.0	7	kitchen island
+sun_awhvlirgpcdffbsk.jpg	5	1.246	0.258	1479.295	803.805	0.193	0.083	0.0	12	napkin
+sun_awhvlirgpcdffbsk.jpg	6	1.521	0.133	1409.233	678.795	0.143	0.030	0.0	3	dishwasher
+sun_awhvlirgpcdffbsk.jpg	7	1.679	0.142	1342.280	568.780	0.122	0.033	0.0	25	window
+sun_awhvlirgpcdffbsk.jpg	8	1.846	0.133	1267.530	549.215	0.094	0.017	0.0	25	window
+sun_awhvlirgpcdffbsk.jpg	9	2.004	0.183	1191.000	544.105	0.119	0.023	0.0	25	window
+sun_awhvlirgpcdffbsk.jpg	10	2.204	0.150	1119.220	580.587	0.158	0.038	0.0	25	window
+sun_awhvlirgpcdffbsk.jpg	11	2.371	0.325	1024.265	491.350	0.117	0.038	0.0	2	cabinet
+sun_awhvlirgpcdffbsk.jpg	12	2.729	0.275	1606.560	555.560	0.132	0.088	0.0	20	refrigerator

@@ -1,0 +1,5 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahdoavtbmzlbpsyw.jpg	1	0.416	0.367	1017.243	784.425	0.157	0.070	0.0	0	other
+sun_ahdoavtbmzlbpsyw.jpg	2	0.824	0.933	1398.870	778.980	0.123	0.065	0.0	0	other
+sun_ahdoavtbmzlbpsyw.jpg	3	1.783	1.050	1116.102	816.237	0.120	0.063	0.0	33	worktop
+sun_ahdoavtbmzlbpsyw.jpg	4	2.858	0.150	1315.713	722.258	0.131	0.060	0.0	18	microwave

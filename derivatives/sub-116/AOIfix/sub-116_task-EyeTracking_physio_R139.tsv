@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azfvmsmpvphupjpu.jpg	1	0.380	0.192	1263.060	715.315	0.277	0.078	0.0	3	bottle
+sun_azfvmsmpvphupjpu.jpg	1	0.380	0.192	1263.060	715.315	0.277	0.078	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	1	0.380	0.192	1263.060	715.315	0.277	0.078	0.0	8	chair
+sun_azfvmsmpvphupjpu.jpg	2	0.589	0.267	1241.880	771.277	0.307	0.095	0.0	3	bottle
+sun_azfvmsmpvphupjpu.jpg	2	0.589	0.267	1241.880	771.277	0.307	0.095	0.0	25	table
+sun_azfvmsmpvphupjpu.jpg	3	0.872	0.183	1240.787	726.868	0.387	0.109	0.0	3	bottle
+sun_azfvmsmpvphupjpu.jpg	3	0.872	0.183	1240.787	726.868	0.387	0.109	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	3	0.872	0.183	1240.787	726.868	0.387	0.109	0.0	8	chair
+sun_azfvmsmpvphupjpu.jpg	3	0.872	0.183	1240.787	726.868	0.387	0.109	0.0	25	table
+sun_azfvmsmpvphupjpu.jpg	4	1.097	0.267	928.932	645.655	0.180	0.096	0.0	20	refrigerator
+sun_azfvmsmpvphupjpu.jpg	5	1.380	0.150	859.952	653.865	0.184	0.062	0.0	4	cabinet crop
+sun_azfvmsmpvphupjpu.jpg	6	1.672	0.158	1242.350	532.610	0.136	0.049	0.0	0	other
+sun_azfvmsmpvphupjpu.jpg	7	1.855	0.208	1431.625	553.140	0.147	0.086	0.0	0	other
+sun_azfvmsmpvphupjpu.jpg	8	2.089	0.208	1532.770	623.150	0.143	0.058	0.0	19	pot
+sun_azfvmsmpvphupjpu.jpg	9	2.322	0.550	1605.720	655.740	0.188	0.067	0.0	26	teapot
+sun_azfvmsmpvphupjpu.jpg	9	2.322	0.550	1605.720	655.740	0.188	0.067	0.0	28	worktop
+sun_azfvmsmpvphupjpu.jpg	10	2.897	0.108	1361.315	660.390	0.302	0.197	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	10	2.897	0.108	1361.315	660.390	0.302	0.197	0.0	28	worktop

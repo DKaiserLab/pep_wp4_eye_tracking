@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akcicdjszssqmkjl.jpg	1	0.262	0.167	1240.997	755.072	0.128	0.075	0.0	2	cabinet
+sun_akcicdjszssqmkjl.jpg	2	0.445	0.167	1414.125	699.822	0.285	0.208	0.0	13	range
+sun_akcicdjszssqmkjl.jpg	3	0.637	0.183	991.783	664.822	0.148	0.054	0.0	0	other
+sun_akcicdjszssqmkjl.jpg	4	1.037	0.383	1134.200	700.348	0.145	0.083	0.0	12	pitcher
+sun_akcicdjszssqmkjl.jpg	5	1.437	0.217	1022.007	727.908	0.155	0.079	0.0	1	bar
+sun_akcicdjszssqmkjl.jpg	5	1.437	0.217	1022.007	727.908	0.155	0.079	0.0	18	worktop
+sun_akcicdjszssqmkjl.jpg	6	1.687	0.283	971.732	710.260	0.137	0.033	0.0	1	bar
+sun_akcicdjszssqmkjl.jpg	6	1.687	0.283	971.732	710.260	0.137	0.033	0.0	7	faucet
+sun_akcicdjszssqmkjl.jpg	6	1.687	0.283	971.732	710.260	0.137	0.033	0.0	16	soap dispenser
+sun_akcicdjszssqmkjl.jpg	7	1.987	0.258	988.940	699.230	0.138	0.045	0.0	1	bar
+sun_akcicdjszssqmkjl.jpg	7	1.987	0.258	988.940	699.230	0.138	0.045	0.0	3	chair
+sun_akcicdjszssqmkjl.jpg	8	2.270	0.200	984.460	594.378	0.118	0.022	0.0	0	other
+sun_akcicdjszssqmkjl.jpg	9	2.503	0.175	1387.660	628.060	0.208	0.075	0.0	9	microwave
+sun_akcicdjszssqmkjl.jpg	10	2.703	0.175	1549.495	683.310	0.142	0.044	0.0	0	other

@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apaviskbumvstgsv.jpg	1	0.348	0.217	1308.240	743.975	0.331	0.102	0.0	2	sink
+sun_apaviskbumvstgsv.jpg	2	0.581	0.225	1242.380	627.045	0.087	0.030	0.0	1	mirror
+sun_apaviskbumvstgsv.jpg	3	0.831	0.167	1403.578	711.497	0.189	0.084	0.0	2	sink
+sun_apaviskbumvstgsv.jpg	4	1.023	0.275	1303.855	578.520	0.085	0.033	0.0	1	mirror
+sun_apaviskbumvstgsv.jpg	5	1.323	0.158	1276.645	618.230	0.144	0.040	0.0	1	mirror
+sun_apaviskbumvstgsv.jpg	6	1.498	0.225	1177.110	822.345	0.218	0.068	0.0	2	sink
+sun_apaviskbumvstgsv.jpg	7	1.757	0.192	1287.030	771.685	0.213	0.083	0.0	2	sink
+sun_apaviskbumvstgsv.jpg	8	1.965	0.250	1133.800	636.570	0.181	0.066	0.0	1	mirror
+sun_apaviskbumvstgsv.jpg	9	2.232	0.183	1117.293	575.345	0.111	0.025	0.0	1	mirror
+sun_apaviskbumvstgsv.jpg	10	2.432	0.167	1245.415	549.580	0.106	0.029	0.0	1	mirror
+sun_apaviskbumvstgsv.jpg	11	2.615	0.292	1228.675	646.675	0.106	0.037	0.0	1	mirror
+sun_apaviskbumvstgsv.jpg	11	2.615	0.292	1228.675	646.675	0.106	0.037	0.0	3	soap dispenser

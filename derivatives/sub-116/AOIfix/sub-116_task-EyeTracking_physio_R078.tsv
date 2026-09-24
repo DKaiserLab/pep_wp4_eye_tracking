@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adcrxklhlbwrbkgm.jpg	1	0.378	0.217	1538.452	716.137	0.230	0.104	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	1	0.378	0.217	1538.452	716.137	0.230	0.104	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	2	0.620	0.200	1597.592	743.625	0.198	0.054	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	2	0.620	0.200	1597.592	743.625	0.198	0.054	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	3	0.845	0.242	1624.015	779.730	0.183	0.062	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	3	0.845	0.242	1624.015	779.730	0.183	0.062	0.0	20	saltcellar
+sun_adcrxklhlbwrbkgm.jpg	4	1.103	0.167	1577.548	781.190	0.168	0.073	0.0	10	kettle
+sun_adcrxklhlbwrbkgm.jpg	4	1.103	0.167	1577.548	781.190	0.168	0.073	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	5	1.303	0.358	1524.970	598.945	0.133	0.069	0.0	4	cabinets
+sun_adcrxklhlbwrbkgm.jpg	5	1.303	0.358	1524.970	598.945	0.133	0.069	0.0	13	microwave
+sun_adcrxklhlbwrbkgm.jpg	6	1.695	0.242	1400.945	696.460	0.115	0.064	0.0	5	coffee maker
+sun_adcrxklhlbwrbkgm.jpg	7	1.953	0.142	1341.920	711.825	0.160	0.048	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	8	2.137	0.100	1364.088	721.832	0.146	0.028	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	9	2.262	0.325	1273.940	724.370	0.322	0.115	0.0	9	faucet
+sun_adcrxklhlbwrbkgm.jpg	10	2.612	0.233	1279.808	689.025	0.095	0.025	0.0	15	outlet
+sun_adcrxklhlbwrbkgm.jpg	11	2.870	0.133	1286.487	677.760	0.123	0.026	0.0	15	outlet

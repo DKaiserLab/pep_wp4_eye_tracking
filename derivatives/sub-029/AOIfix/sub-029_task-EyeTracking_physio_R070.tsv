@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ataniphupyuxeowc.jpg	1	0.189	0.133	1263.642	720.018	0.079	0.012	0.0	24	scales
+sun_ataniphupyuxeowc.jpg	2	0.372	0.142	1325.130	969.835	0.140	0.060	0.0	23	rug
+sun_ataniphupyuxeowc.jpg	3	0.539	0.208	974.910	947.625	0.260	0.539	0.0	30	worktop
+sun_ataniphupyuxeowc.jpg	4	0.756	0.192	936.510	881.900	0.162	0.054	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	4	0.756	0.192	936.510	881.900	0.162	0.054	0.0	7	candle
+sun_ataniphupyuxeowc.jpg	5	0.981	0.133	946.783	843.975	0.116	0.029	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	5	0.981	0.133	946.783	843.975	0.116	0.029	0.0	7	candle
+sun_ataniphupyuxeowc.jpg	6	1.156	0.208	1091.055	572.110	0.138	0.053	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	7	1.389	0.225	1296.455	578.485	0.124	0.054	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	8	1.639	0.217	1595.380	596.135	0.142	0.049	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	8	1.639	0.217	1595.380	596.135	0.142	0.049	0.0	27	statue
+sun_ataniphupyuxeowc.jpg	8	1.639	0.217	1595.380	596.135	0.142	0.049	0.0	29	tray
+sun_ataniphupyuxeowc.jpg	9	1.881	0.233	1559.663	598.315	0.116	0.027	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	9	1.881	0.233	1559.663	598.315	0.116	0.027	0.0	27	statue
+sun_ataniphupyuxeowc.jpg	9	1.881	0.233	1559.663	598.315	0.116	0.027	0.0	29	tray
+sun_ataniphupyuxeowc.jpg	10	2.139	0.225	1256.075	581.820	0.146	0.037	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	11	2.381	0.250	1485.727	767.697	0.154	0.079	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	11	2.381	0.250	1485.727	767.697	0.154	0.079	0.0	11	flowers
+sun_ataniphupyuxeowc.jpg	12	2.664	0.350	1239.642	884.653	0.141	0.048	0.0	6	cabinets

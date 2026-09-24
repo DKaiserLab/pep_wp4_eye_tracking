@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_huhykljhyigbhct.jpg	1	0.461	0.150	1430.477	786.402	0.173	0.102	0.0	0	other
+labelme_huhykljhyigbhct.jpg	2	0.770	0.192	1235.050	672.165	0.262	0.257	0.0	3	curtain
+labelme_huhykljhyigbhct.jpg	3	0.970	0.308	1264.330	671.080	0.124	0.053	0.0	8	tooth brush
+labelme_huhykljhyigbhct.jpg	4	1.303	0.400	1497.798	810.663	0.144	0.051	0.0	0	other
+labelme_huhykljhyigbhct.jpg	5	1.736	0.425	1274.475	744.530	0.111	0.035	0.0	2	countertop
+labelme_huhykljhyigbhct.jpg	6	2.178	0.200	1169.307	715.980	0.181	0.081	0.0	3	curtain
+labelme_huhykljhyigbhct.jpg	7	2.403	0.317	1280.205	725.305	0.119	0.044	0.0	0	other
+labelme_huhykljhyigbhct.jpg	8	2.736	0.267	1308.632	713.442	0.102	0.033	0.0	5	outlet

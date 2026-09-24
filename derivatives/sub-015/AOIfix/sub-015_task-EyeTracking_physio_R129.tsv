@@ -1,0 +1,24 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abqihmfbiddwtcmz.jpg	1	0.439	0.133	1262.190	909.358	0.129	0.021	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	1	0.439	0.133	1262.190	909.358	0.129	0.021	0.0	18	table crop
+sun_abqihmfbiddwtcmz.jpg	2	0.597	0.183	1147.030	930.893	0.119	0.033	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	2	0.597	0.183	1147.030	930.893	0.119	0.033	0.0	4	chair crop
+sun_abqihmfbiddwtcmz.jpg	2	0.597	0.183	1147.030	930.893	0.119	0.033	0.0	19	trash bag
+sun_abqihmfbiddwtcmz.jpg	3	0.822	0.242	1566.425	733.470	0.166	0.061	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	3	0.822	0.242	1566.425	733.470	0.166	0.061	0.0	17	stove
+sun_abqihmfbiddwtcmz.jpg	4	1.080	0.100	1668.758	716.783	0.180	0.066	0.0	8	fruits
+sun_abqihmfbiddwtcmz.jpg	4	1.080	0.100	1668.758	716.783	0.180	0.066	0.0	10	paper towels
+sun_abqihmfbiddwtcmz.jpg	4	1.080	0.100	1668.758	716.783	0.180	0.066	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	5	1.305	0.342	1609.475	532.545	0.106	0.038	0.0	1	box
+sun_abqihmfbiddwtcmz.jpg	5	1.305	0.342	1609.475	532.545	0.106	0.038	0.0	3	canister
+sun_abqihmfbiddwtcmz.jpg	5	1.305	0.342	1609.475	532.545	0.106	0.038	0.0	14	shelves
+sun_abqihmfbiddwtcmz.jpg	6	1.689	0.233	1243.153	613.152	0.144	0.039	0.0	0	other
+sun_abqihmfbiddwtcmz.jpg	7	1.939	0.233	1241.497	650.602	0.279	0.064	0.0	16	soap dispenser
+sun_abqihmfbiddwtcmz.jpg	8	2.197	0.242	1073.330	659.820	0.208	0.078	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	8	2.197	0.242	1073.330	659.820	0.208	0.078	0.0	12	plate
+sun_abqihmfbiddwtcmz.jpg	9	2.472	0.175	959.685	537.770	0.107	0.027	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	9	2.472	0.175	959.685	537.770	0.107	0.027	0.0	13	refrigerator
+sun_abqihmfbiddwtcmz.jpg	10	2.697	0.225	1552.385	529.900	0.088	0.015	0.0	1	box
+sun_abqihmfbiddwtcmz.jpg	10	2.697	0.225	1552.385	529.900	0.088	0.015	0.0	2	cabinet
+sun_abqihmfbiddwtcmz.jpg	10	2.697	0.225	1552.385	529.900	0.088	0.015	0.0	6	extractor hood
+sun_abqihmfbiddwtcmz.jpg	10	2.697	0.225	1552.385	529.900	0.088	0.015	0.0	14	shelves

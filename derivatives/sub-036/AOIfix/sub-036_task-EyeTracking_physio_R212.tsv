@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.281	0.175	1498.160	956.845	0.097	0.022	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	2	0.490	0.167	1347.773	905.048	0.116	0.030	0.0	7	chair crop
+sun_acfmftudsenhrfhy.jpg	3	0.698	0.217	1052.525	732.342	0.104	0.043	0.0	17	microwave
+sun_acfmftudsenhrfhy.jpg	3	0.698	0.217	1052.525	732.342	0.104	0.043	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	3	0.698	0.217	1052.525	732.342	0.104	0.043	0.0	28	teapot
+sun_acfmftudsenhrfhy.jpg	3	0.698	0.217	1052.525	732.342	0.104	0.043	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	4	0.931	0.200	1057.692	708.933	0.085	0.020	0.0	17	microwave
+sun_acfmftudsenhrfhy.jpg	4	0.931	0.200	1057.692	708.933	0.085	0.020	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	4	0.931	0.200	1057.692	708.933	0.085	0.020	0.0	28	teapot
+sun_acfmftudsenhrfhy.jpg	5	1.156	0.183	1150.105	596.140	0.086	0.023	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	6	1.373	0.175	984.720	608.035	0.080	0.019	0.0	14	flowers
+sun_acfmftudsenhrfhy.jpg	6	1.373	0.175	984.720	608.035	0.080	0.019	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	6	1.373	0.175	984.720	608.035	0.080	0.019	0.0	31	vase
+sun_acfmftudsenhrfhy.jpg	7	1.590	0.200	1268.830	587.325	0.091	0.040	0.0	11	extractor hood
+sun_acfmftudsenhrfhy.jpg	8	1.840	0.275	1607.745	690.525	0.103	0.029	0.0	1	bottle rack
+sun_acfmftudsenhrfhy.jpg	9	2.131	0.200	1553.985	717.340	0.083	0.020	0.0	1	bottle rack
+sun_acfmftudsenhrfhy.jpg	9	2.131	0.200	1553.985	717.340	0.083	0.020	0.0	4	bread box
+sun_acfmftudsenhrfhy.jpg	10	2.365	0.300	1407.105	666.520	0.086	0.018	0.0	19	oven

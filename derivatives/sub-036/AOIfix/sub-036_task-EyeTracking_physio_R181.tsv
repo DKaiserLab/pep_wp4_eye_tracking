@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqqabpdqjxygueuw.jpg	1	0.569	0.833	1435.032	762.287	0.149	0.095	0.0	1	board
+sun_aqqabpdqjxygueuw.jpg	1	0.569	0.833	1435.032	762.287	0.149	0.095	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	1	0.569	0.833	1435.032	762.287	0.149	0.095	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	2	1.444	0.367	1157.023	710.983	0.165	0.063	0.0	5	cabinet
+sun_aqqabpdqjxygueuw.jpg	2	1.444	0.367	1157.023	710.983	0.165	0.063	0.0	11	dishwasher
+sun_aqqabpdqjxygueuw.jpg	2	1.444	0.367	1157.023	710.983	0.165	0.063	0.0	19	jars
+sun_aqqabpdqjxygueuw.jpg	2	1.444	0.367	1157.023	710.983	0.165	0.063	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	2	1.444	0.367	1157.023	710.983	0.165	0.063	0.0	34	utensils
+sun_aqqabpdqjxygueuw.jpg	3	1.853	0.325	1401.325	728.885	0.184	0.081	0.0	1	board
+sun_aqqabpdqjxygueuw.jpg	3	1.853	0.325	1401.325	728.885	0.184	0.081	0.0	35	vase
+sun_aqqabpdqjxygueuw.jpg	3	1.853	0.325	1401.325	728.885	0.184	0.081	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	4	2.211	0.383	1182.113	719.565	0.196	0.084	0.0	11	dishwasher
+sun_aqqabpdqjxygueuw.jpg	4	2.211	0.383	1182.113	719.565	0.196	0.084	0.0	34	utensils
+sun_aqqabpdqjxygueuw.jpg	5	2.628	0.175	856.595	757.280	0.367	0.163	0.0	2	bottle
+sun_aqqabpdqjxygueuw.jpg	5	2.628	0.175	856.595	757.280	0.367	0.163	0.0	10	decanter
+sun_aqqabpdqjxygueuw.jpg	5	2.628	0.175	856.595	757.280	0.367	0.163	0.0	37	worktop
+sun_aqqabpdqjxygueuw.jpg	6	2.844	0.158	1603.095	859.450	1.905	32.485	36.8	22	oven

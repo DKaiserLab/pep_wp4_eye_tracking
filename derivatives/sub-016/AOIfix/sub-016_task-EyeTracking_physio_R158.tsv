@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajkawyunawdxfxob.jpg	1	0.308	0.225	1081.070	658.115	0.153	0.100	0.0	25	stove
+sun_ajkawyunawdxfxob.jpg	1	0.308	0.225	1081.070	658.115	0.153	0.100	0.0	31	worktop
+sun_ajkawyunawdxfxob.jpg	2	0.558	0.233	937.947	629.295	0.088	0.030	0.0	6	dishcloth
+sun_ajkawyunawdxfxob.jpg	2	0.558	0.233	937.947	629.295	0.088	0.030	0.0	16	oven
+sun_ajkawyunawdxfxob.jpg	3	0.816	0.242	924.860	582.595	0.124	0.080	0.0	6	dishcloth
+sun_ajkawyunawdxfxob.jpg	3	0.816	0.242	924.860	582.595	0.124	0.080	0.0	16	oven
+sun_ajkawyunawdxfxob.jpg	4	1.075	0.358	898.720	565.910	0.092	0.112	0.0	6	dishcloth
+sun_ajkawyunawdxfxob.jpg	4	1.075	0.358	898.720	565.910	0.092	0.112	0.0	16	oven
+sun_ajkawyunawdxfxob.jpg	5	1.475	0.492	1267.580	550.765	0.134	0.214	0.0	4	cabinet
+sun_ajkawyunawdxfxob.jpg	6	2.000	0.233	1490.810	708.102	0.174	0.104	0.0	4	cabinet
+sun_ajkawyunawdxfxob.jpg	6	2.000	0.233	1490.810	708.102	0.174	0.104	0.0	31	worktop
+sun_ajkawyunawdxfxob.jpg	7	2.266	0.225	1536.445	722.575	0.123	0.045	0.0	4	cabinet
+sun_ajkawyunawdxfxob.jpg	7	2.266	0.225	1536.445	722.575	0.123	0.045	0.0	31	worktop
+sun_ajkawyunawdxfxob.jpg	8	2.533	0.167	1328.087	549.785	0.083	0.048	0.0	30	window
+sun_ajkawyunawdxfxob.jpg	9	2.716	0.100	1203.830	522.145	0.136	0.109	0.0	4	cabinet
+sun_ajkawyunawdxfxob.jpg	10	2.833	0.167	1011.155	468.660	0.090	0.030	0.0	4	cabinet

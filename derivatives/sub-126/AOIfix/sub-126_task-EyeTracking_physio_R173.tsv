@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrkvwbkgrglcoga.jpg	1	0.286	0.367	1285.740	765.388	0.100	0.035	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	1	0.286	0.367	1285.740	765.388	0.100	0.035	0.0	7	jar
+sun_agrkvwbkgrglcoga.jpg	2	0.678	0.317	1323.293	755.880	0.084	0.021	0.0	7	jar
+sun_agrkvwbkgrglcoga.jpg	2	0.678	0.317	1323.293	755.880	0.084	0.021	0.0	10	outlet
+sun_agrkvwbkgrglcoga.jpg	3	1.020	0.533	1484.197	743.855	0.102	0.029	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	4	1.595	0.250	1212.640	579.030	0.132	0.046	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	5	1.870	0.258	995.905	739.770	0.155	0.062	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	6	2.153	0.292	933.285	876.800	0.070	0.017	0.0	1	bowl
+sun_agrkvwbkgrglcoga.jpg	6	2.153	0.292	933.285	876.800	0.070	0.017	0.0	6	fruits
+sun_agrkvwbkgrglcoga.jpg	6	2.153	0.292	933.285	876.800	0.070	0.017	0.0	17	worktop
+sun_agrkvwbkgrglcoga.jpg	7	2.470	0.175	969.065	898.010	0.073	0.010	0.0	1	bowl
+sun_agrkvwbkgrglcoga.jpg	7	2.470	0.175	969.065	898.010	0.073	0.010	0.0	6	fruits
+sun_agrkvwbkgrglcoga.jpg	7	2.470	0.175	969.065	898.010	0.073	0.010	0.0	17	worktop
+sun_agrkvwbkgrglcoga.jpg	8	2.712	0.308	1625.510	889.935	0.082	0.017	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	8	2.712	0.308	1625.510	889.935	0.082	0.017	0.0	17	worktop

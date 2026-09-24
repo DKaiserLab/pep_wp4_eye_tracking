@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvdofgavhiiyosk.jpg	1	0.607	0.583	1412.100	802.590	0.299	7.791	15.7	1	cabinet
+sun_alvdofgavhiiyosk.jpg	1	0.607	0.583	1412.100	802.590	0.299	7.791	15.7	12	worktop
+sun_alvdofgavhiiyosk.jpg	2	1.232	0.292	1541.990	806.735	0.084	0.013	0.0	10	washing machine
+sun_alvdofgavhiiyosk.jpg	3	1.549	0.275	1630.475	771.585	0.095	0.019	0.0	2	dishwasher
+sun_alvdofgavhiiyosk.jpg	3	1.549	0.275	1630.475	771.585	0.095	0.019	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	4	1.841	0.200	1676.727	728.493	0.106	0.021	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	4	1.841	0.200	1676.727	728.493	0.106	0.021	0.0	2	dishwasher
+sun_alvdofgavhiiyosk.jpg	4	1.841	0.200	1676.727	728.493	0.106	0.021	0.0	6	microwave
+sun_alvdofgavhiiyosk.jpg	4	1.841	0.200	1676.727	728.493	0.106	0.021	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	5	2.066	0.233	1646.835	701.483	0.108	0.027	0.0	6	microwave
+sun_alvdofgavhiiyosk.jpg	5	2.066	0.233	1646.835	701.483	0.108	0.027	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	6	2.307	0.108	1431.740	1050.318	NaN	0.000	84.6	-1	off stimulus
+sun_alvdofgavhiiyosk.jpg	7	2.441	0.275	1319.345	800.200	0.086	0.034	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	7	2.441	0.275	1319.345	800.200	0.086	0.034	0.0	4	hotpl
+sun_alvdofgavhiiyosk.jpg	7	2.441	0.275	1319.345	800.200	0.086	0.034	0.0	5	kettle
+sun_alvdofgavhiiyosk.jpg	7	2.441	0.275	1319.345	800.200	0.086	0.034	0.0	7	oven
+sun_alvdofgavhiiyosk.jpg	7	2.441	0.275	1319.345	800.200	0.086	0.034	0.0	12	worktop
+sun_alvdofgavhiiyosk.jpg	8	2.741	0.258	1265.000	844.840	0.102	0.022	0.0	1	cabinet
+sun_alvdofgavhiiyosk.jpg	8	2.741	0.258	1265.000	844.840	0.102	0.022	0.0	7	oven
+sun_alvdofgavhiiyosk.jpg	8	2.741	0.258	1265.000	844.840	0.102	0.022	0.0	12	worktop

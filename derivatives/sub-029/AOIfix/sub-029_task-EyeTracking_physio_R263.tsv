@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aelpnoofufvvqqhf.jpg	1	0.230	0.275	1147.440	841.935	0.225	0.158	0.0	14	range
+sun_aelpnoofufvvqqhf.jpg	2	0.522	0.183	1110.345	789.942	0.139	0.054	0.0	14	range
+sun_aelpnoofufvvqqhf.jpg	3	0.730	0.325	1322.575	787.580	0.145	0.076	0.0	10	microwave
+sun_aelpnoofufvvqqhf.jpg	4	1.072	0.192	1151.745	743.465	0.134	0.106	0.0	0	other
+sun_aelpnoofufvvqqhf.jpg	5	1.289	0.100	999.520	1119.250	2.176	10.080	75.0	-1	off stimulus
+sun_aelpnoofufvvqqhf.jpg	6	1.414	0.208	1058.360	862.365	0.129	0.051	0.0	4	cabinet
+sun_aelpnoofufvvqqhf.jpg	7	1.647	0.158	1167.410	931.330	0.128	0.045	0.0	14	range
+sun_aelpnoofufvvqqhf.jpg	8	1.830	0.208	1509.230	949.085	0.117	0.096	0.0	5	chair
+sun_aelpnoofufvvqqhf.jpg	8	1.830	0.208	1509.230	949.085	0.117	0.096	0.0	8	drawers
+sun_aelpnoofufvvqqhf.jpg	9	2.064	0.258	1508.770	818.345	0.142	0.087	0.0	21	worktop
+sun_aelpnoofufvvqqhf.jpg	10	2.347	0.175	1462.365	663.690	0.129	0.060	0.0	4	cabinet
+sun_aelpnoofufvvqqhf.jpg	10	2.347	0.175	1462.365	663.690	0.129	0.060	0.0	20	window
+sun_aelpnoofufvvqqhf.jpg	11	2.564	0.183	1225.602	607.270	0.097	0.037	0.0	4	cabinet
+sun_aelpnoofufvvqqhf.jpg	12	2.780	0.142	979.190	734.815	0.186	0.063	0.0	4	cabinet

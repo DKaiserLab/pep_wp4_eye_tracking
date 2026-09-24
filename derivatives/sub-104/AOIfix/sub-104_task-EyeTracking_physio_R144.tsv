@@ -1,0 +1,28 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_asrcfjusjydonoin.jpg	1	0.263	0.183	1219.030	798.567	0.089	0.028	0.0	21	sink
+sun_asrcfjusjydonoin.jpg	1	0.263	0.183	1219.030	798.567	0.089	0.028	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	2	0.479	0.267	1134.452	865.195	0.080	0.025	0.0	11	food
+sun_asrcfjusjydonoin.jpg	2	0.479	0.267	1134.452	865.195	0.080	0.025	0.0	25	tray
+sun_asrcfjusjydonoin.jpg	2	0.479	0.267	1134.452	865.195	0.080	0.025	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	3	0.771	0.308	1193.410	854.550	0.073	0.014	0.0	11	food
+sun_asrcfjusjydonoin.jpg	3	0.771	0.308	1193.410	854.550	0.073	0.014	0.0	12	fruit
+sun_asrcfjusjydonoin.jpg	3	0.771	0.308	1193.410	854.550	0.073	0.014	0.0	25	tray
+sun_asrcfjusjydonoin.jpg	3	0.771	0.308	1193.410	854.550	0.073	0.014	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	4	1.104	0.192	1306.405	804.500	0.111	0.019	0.0	3	bowl
+sun_asrcfjusjydonoin.jpg	4	1.104	0.192	1306.405	804.500	0.111	0.019	0.0	11	food
+sun_asrcfjusjydonoin.jpg	4	1.104	0.192	1306.405	804.500	0.111	0.019	0.0	21	sink
+sun_asrcfjusjydonoin.jpg	5	1.329	0.250	1488.665	652.615	0.099	0.014	0.0	27	window
+sun_asrcfjusjydonoin.jpg	6	1.604	0.242	1526.385	692.250	0.093	0.029	0.0	18	plant
+sun_asrcfjusjydonoin.jpg	6	1.604	0.242	1526.385	692.250	0.093	0.029	0.0	19	plate
+sun_asrcfjusjydonoin.jpg	6	1.604	0.242	1526.385	692.250	0.093	0.029	0.0	27	window
+sun_asrcfjusjydonoin.jpg	7	1.938	0.325	979.250	866.095	0.131	0.040	0.0	3	bowl
+sun_asrcfjusjydonoin.jpg	7	1.938	0.325	979.250	866.095	0.131	0.040	0.0	11	food
+sun_asrcfjusjydonoin.jpg	7	1.938	0.325	979.250	866.095	0.131	0.040	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	8	2.280	0.200	1024.562	821.160	0.075	0.026	0.0	2	bottle
+sun_asrcfjusjydonoin.jpg	8	2.280	0.200	1024.562	821.160	0.075	0.026	0.0	8	corkscrew
+sun_asrcfjusjydonoin.jpg	8	2.280	0.200	1024.562	821.160	0.075	0.026	0.0	11	food
+sun_asrcfjusjydonoin.jpg	8	2.280	0.200	1024.562	821.160	0.075	0.026	0.0	13	glass
+sun_asrcfjusjydonoin.jpg	8	2.280	0.200	1024.562	821.160	0.075	0.026	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	9	2.496	0.367	1042.243	602.655	0.099	0.024	0.0	27	window
+sun_asrcfjusjydonoin.jpg	10	2.888	0.117	1032.695	658.938	0.061	0.007	0.0	20	pot of herbs
+sun_asrcfjusjydonoin.jpg	10	2.888	0.117	1032.695	658.938	0.061	0.007	0.0	27	window

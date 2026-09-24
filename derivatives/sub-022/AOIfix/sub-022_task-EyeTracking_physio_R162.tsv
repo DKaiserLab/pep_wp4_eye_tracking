@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglwoufpxbtxqecp.jpg	1	0.393	0.175	1271.045	672.955	0.075	0.025	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	2	0.585	0.200	1300.658	612.633	0.090	0.023	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	3	0.818	0.158	1099.265	578.850	0.111	0.036	0.0	1	bottle
+sun_aglwoufpxbtxqecp.jpg	3	0.818	0.158	1099.265	578.850	0.111	0.036	0.0	23	shelf
+sun_aglwoufpxbtxqecp.jpg	4	0.993	0.183	1021.707	546.902	0.102	0.034	0.0	11	extractor hood
+sun_aglwoufpxbtxqecp.jpg	5	1.193	0.183	983.137	543.925	0.106	0.053	0.0	11	extractor hood
+sun_aglwoufpxbtxqecp.jpg	6	1.402	0.150	1062.967	566.245	0.092	0.065	0.0	1	bottle
+sun_aglwoufpxbtxqecp.jpg	6	1.402	0.150	1062.967	566.245	0.092	0.065	0.0	11	extractor hood
+sun_aglwoufpxbtxqecp.jpg	7	1.577	0.150	1040.803	610.347	0.137	0.059	0.0	1	bottle
+sun_aglwoufpxbtxqecp.jpg	8	1.785	0.142	1146.740	708.655	0.162	0.049	0.0	0	other
+sun_aglwoufpxbtxqecp.jpg	9	1.960	0.242	1228.230	765.905	0.146	0.047	0.0	0	other
+sun_aglwoufpxbtxqecp.jpg	10	2.227	0.167	1289.770	709.287	0.121	0.081	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	11	2.402	0.200	1337.985	665.725	0.100	0.117	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	12	2.618	0.192	1409.055	651.370	0.076	0.029	0.0	22	refrigerator
+sun_aglwoufpxbtxqecp.jpg	13	2.843	0.158	1362.370	660.960	0.151	0.204	0.0	9	door

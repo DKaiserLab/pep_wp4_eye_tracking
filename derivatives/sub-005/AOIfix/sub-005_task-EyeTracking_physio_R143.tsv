@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anjgzxqwccbiozsw.jpg	1	0.383	0.200	1090.480	615.755	0.162	0.059	0.0	0	other
+sun_anjgzxqwccbiozsw.jpg	2	0.625	0.325	1545.720	865.180	0.147	0.066	0.0	13	mug
+sun_anjgzxqwccbiozsw.jpg	2	0.625	0.325	1545.720	865.180	0.147	0.066	0.0	24	table
+sun_anjgzxqwccbiozsw.jpg	3	0.975	0.183	1442.443	885.260	0.139	0.036	0.0	13	mug
+sun_anjgzxqwccbiozsw.jpg	3	0.975	0.183	1442.443	885.260	0.139	0.036	0.0	18	placemat
+sun_anjgzxqwccbiozsw.jpg	3	0.975	0.183	1442.443	885.260	0.139	0.036	0.0	24	table
+sun_anjgzxqwccbiozsw.jpg	4	1.183	0.483	1241.858	725.537	0.250	0.090	0.0	4	cabinet
+sun_anjgzxqwccbiozsw.jpg	4	1.183	0.483	1241.858	725.537	0.250	0.090	0.0	15	oven
+sun_anjgzxqwccbiozsw.jpg	5	1.692	0.283	1132.430	680.725	0.240	0.102	0.0	17	pitcher
+sun_anjgzxqwccbiozsw.jpg	5	1.692	0.283	1132.430	680.725	0.240	0.102	0.0	30	worktop
+sun_anjgzxqwccbiozsw.jpg	6	2.008	0.233	1374.372	773.973	0.175	0.074	0.0	4	cabinet
+sun_anjgzxqwccbiozsw.jpg	7	2.258	0.392	1292.370	794.305	0.157	0.053	0.0	15	oven
+sun_anjgzxqwccbiozsw.jpg	8	2.667	0.333	1249.395	797.450	0.117	0.034	0.0	15	oven

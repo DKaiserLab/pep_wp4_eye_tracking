@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acpufsxakyzrtcti.jpg	1	0.315	0.183	1421.117	740.630	0.115	0.041	0.0	0	other
+sun_acpufsxakyzrtcti.jpg	2	0.532	0.292	1607.290	790.540	0.133	0.096	0.0	0	other
+sun_acpufsxakyzrtcti.jpg	3	0.848	0.350	1552.940	880.940	0.202	0.134	0.0	5	chair
+sun_acpufsxakyzrtcti.jpg	3	0.848	0.350	1552.940	880.940	0.202	0.134	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	4	1.240	0.392	1595.715	917.125	0.092	0.037	0.0	1	bowl
+sun_acpufsxakyzrtcti.jpg	4	1.240	0.392	1595.715	917.125	0.092	0.037	0.0	5	chair
+sun_acpufsxakyzrtcti.jpg	4	1.240	0.392	1595.715	917.125	0.092	0.037	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	5	1.657	0.217	1444.715	892.545	0.258	0.188	0.0	19	plate
+sun_acpufsxakyzrtcti.jpg	5	1.657	0.217	1444.715	892.545	0.258	0.188	0.0	25	table
+sun_acpufsxakyzrtcti.jpg	6	1.907	0.408	969.590	860.030	0.119	0.043	0.0	3	cabinet
+sun_acpufsxakyzrtcti.jpg	7	2.340	0.308	1056.985	712.710	0.112	0.054	0.0	3	cabinet
+sun_acpufsxakyzrtcti.jpg	7	2.340	0.308	1056.985	712.710	0.112	0.054	0.0	28	worktop
+sun_acpufsxakyzrtcti.jpg	8	2.673	0.192	1164.780	623.470	0.083	0.017	0.0	15	pitcher
+sun_acpufsxakyzrtcti.jpg	9	2.890	0.117	1401.360	585.415	0.163	0.085	0.0	16	plant

@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajrwezxmmjejxsbt.jpg	1	0.399	0.167	1268.128	641.940	0.096	0.025	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	2	0.583	0.150	1267.745	589.033	0.099	0.022	0.0	0	other
+sun_ajrwezxmmjejxsbt.jpg	3	0.758	0.167	1363.105	588.740	0.088	0.027	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	3	0.758	0.167	1363.105	588.740	0.088	0.027	0.0	14	plant
+sun_ajrwezxmmjejxsbt.jpg	3	0.758	0.167	1363.105	588.740	0.088	0.027	0.0	19	vase
+sun_ajrwezxmmjejxsbt.jpg	4	1.058	0.325	1566.410	543.655	0.131	0.038	0.0	7	flowers
+sun_ajrwezxmmjejxsbt.jpg	5	1.416	0.233	1520.352	806.423	0.147	0.053	0.0	13	pitcher
+sun_ajrwezxmmjejxsbt.jpg	5	1.416	0.233	1520.352	806.423	0.147	0.053	0.0	16	refrigerator
+sun_ajrwezxmmjejxsbt.jpg	6	1.691	0.233	1183.015	844.620	0.132	0.045	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	6	1.691	0.233	1183.015	844.620	0.132	0.045	0.0	20	worktop
+sun_ajrwezxmmjejxsbt.jpg	7	1.949	0.467	1077.707	777.762	0.164	0.081	0.0	15	range
+sun_ajrwezxmmjejxsbt.jpg	7	1.949	0.467	1077.707	777.762	0.164	0.081	0.0	20	worktop
+sun_ajrwezxmmjejxsbt.jpg	8	2.433	0.350	1261.207	798.058	0.158	0.091	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	8	2.433	0.350	1261.207	798.058	0.158	0.091	0.0	20	worktop
+sun_ajrwezxmmjejxsbt.jpg	9	2.808	0.167	1393.740	809.840	0.127	0.029	0.0	3	cabinet
+sun_ajrwezxmmjejxsbt.jpg	9	2.808	0.167	1393.740	809.840	0.127	0.029	0.0	18	toaster
+sun_ajrwezxmmjejxsbt.jpg	9	2.808	0.167	1393.740	809.840	0.127	0.029	0.0	20	worktop

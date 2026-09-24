@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abkdszjmterwgxgk.jpg	1	0.498	0.317	1393.490	752.237	0.116	0.096	0.0	1	blind
+sun_abkdszjmterwgxgk.jpg	2	0.840	0.192	1526.790	734.125	0.132	0.041	0.0	11	outlet
+sun_abkdszjmterwgxgk.jpg	3	1.090	0.275	1573.870	641.835	0.056	0.031	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	4	1.423	0.383	1245.120	882.627	0.116	0.084	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	4	1.423	0.383	1245.120	882.627	0.116	0.084	0.0	14	worktop
+sun_abkdszjmterwgxgk.jpg	5	1.848	0.200	1115.547	718.745	0.089	0.059	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	6	2.074	0.325	1050.665	666.180	0.101	0.061	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	7	2.415	0.333	1039.885	621.050	0.106	0.059	0.0	5	cabinet
+sun_abkdszjmterwgxgk.jpg	7	2.415	0.333	1039.885	621.050	0.106	0.059	0.0	8	extractor hood
+sun_abkdszjmterwgxgk.jpg	8	2.765	0.242	1165.035	674.715	0.130	0.071	0.0	1	blind
+sun_abkdszjmterwgxgk.jpg	8	2.765	0.242	1165.035	674.715	0.130	0.071	0.0	5	cabinet

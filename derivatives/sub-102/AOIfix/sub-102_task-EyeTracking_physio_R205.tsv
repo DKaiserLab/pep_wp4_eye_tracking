@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azkonpsbldzbkqim.jpg	1	0.321	0.425	1239.530	791.255	0.202	0.071	0.0	1	basket
+sun_azkonpsbldzbkqim.jpg	1	0.321	0.425	1239.530	791.255	0.202	0.071	0.0	6	flowers
+sun_azkonpsbldzbkqim.jpg	2	0.771	0.642	1104.085	812.800	0.136	0.049	0.0	0	other
+sun_azkonpsbldzbkqim.jpg	3	1.446	0.542	1389.545	842.520	0.132	0.051	0.0	5	faucet
+sun_azkonpsbldzbkqim.jpg	3	1.446	0.542	1389.545	842.520	0.132	0.051	0.0	9	sink
+sun_azkonpsbldzbkqim.jpg	4	2.021	0.283	1437.060	611.890	0.198	0.076	0.0	7	mirror crop
+sun_azkonpsbldzbkqim.jpg	5	2.330	0.333	1354.487	539.767	0.174	0.083	0.0	7	mirror crop
+sun_azkonpsbldzbkqim.jpg	6	2.688	0.325	1291.935	525.690	0.170	0.079	0.0	7	mirror crop

@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awusemdipqlufrmt.jpg	1	0.374	0.475	1196.225	721.150	0.144	0.118	0.0	2	door
+sun_awusemdipqlufrmt.jpg	2	0.874	0.283	1090.455	687.720	0.163	0.162	0.0	0	other
+sun_awusemdipqlufrmt.jpg	3	1.182	0.275	1051.935	456.940	0.157	0.098	0.0	3	extractor hood
+sun_awusemdipqlufrmt.jpg	4	1.474	0.267	947.918	428.007	0.169	0.081	0.0	12	window
+sun_awusemdipqlufrmt.jpg	5	1.766	0.467	987.635	745.395	0.138	0.078	0.0	1	cabinet
+sun_awusemdipqlufrmt.jpg	5	1.766	0.467	987.635	745.395	0.138	0.078	0.0	7	pitcher
+sun_awusemdipqlufrmt.jpg	6	2.249	0.158	1101.165	770.875	0.140	0.055	0.0	1	cabinet
+sun_awusemdipqlufrmt.jpg	6	2.249	0.158	1101.165	770.875	0.140	0.055	0.0	11	sink
+sun_awusemdipqlufrmt.jpg	7	2.441	0.175	1325.810	717.225	0.113	0.097	0.0	2	door
+sun_awusemdipqlufrmt.jpg	8	2.641	0.183	1318.175	505.735	0.158	0.065	0.0	2	door
+sun_awusemdipqlufrmt.jpg	9	2.841	0.167	1272.093	452.855	0.119	0.026	0.0	2	door

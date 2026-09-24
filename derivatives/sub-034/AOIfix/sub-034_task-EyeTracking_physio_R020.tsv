@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akuognalfgmelepa.jpg	1	0.277	0.242	1224.880	707.320	0.267	0.192	0.0	1	basket
+sun_akuognalfgmelepa.jpg	1	0.277	0.242	1224.880	707.320	0.267	0.192	0.0	14	faucet
+sun_akuognalfgmelepa.jpg	1	0.277	0.242	1224.880	707.320	0.267	0.192	0.0	28	worktop
+sun_akuognalfgmelepa.jpg	2	0.535	0.192	1092.860	707.815	0.161	0.047	0.0	0	other
+sun_akuognalfgmelepa.jpg	3	0.760	0.175	958.065	736.515	0.203	0.044	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	3	0.760	0.175	958.065	736.515	0.203	0.044	0.0	10	chair
+sun_akuognalfgmelepa.jpg	3	0.760	0.175	958.065	736.515	0.203	0.044	0.0	28	worktop
+sun_akuognalfgmelepa.jpg	4	0.952	0.167	907.003	735.235	0.293	0.162	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	4	0.952	0.167	907.003	735.235	0.293	0.162	0.0	10	chair
+sun_akuognalfgmelepa.jpg	5	1.143	0.175	1171.590	684.460	0.199	0.101	0.0	27	window
+sun_akuognalfgmelepa.jpg	6	1.343	0.242	1496.795	679.835	0.135	0.042	0.0	22	pot
+sun_akuognalfgmelepa.jpg	7	1.618	0.300	1559.482	670.043	0.161	0.051	0.0	0	other
+sun_akuognalfgmelepa.jpg	8	1.927	0.158	1527.965	641.245	0.163	0.044	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	9	2.110	0.150	1514.102	545.132	0.111	0.026	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	10	2.285	0.183	1164.162	551.108	0.102	0.033	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	10	2.285	0.183	1164.162	551.108	0.102	0.033	0.0	13	door
+sun_akuognalfgmelepa.jpg	11	2.502	0.200	1034.938	562.315	0.162	0.026	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	11	2.502	0.200	1034.938	562.315	0.162	0.026	0.0	13	door
+sun_akuognalfgmelepa.jpg	12	2.735	0.150	933.770	573.423	0.186	0.053	0.0	5	cabinet

@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aovnyfewezfmgwke.jpg	1	0.495	0.233	1300.415	723.435	0.089	0.024	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	2	0.745	0.267	1331.035	680.173	0.086	0.030	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	3	1.028	0.300	1299.878	649.058	0.068	0.022	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	4	1.345	0.267	1265.102	601.890	0.060	0.015	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	5	1.636	0.208	1223.330	602.290	0.065	0.014	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	6	1.861	0.283	1168.832	653.250	0.083	0.017	0.0	19	spices
+sun_aovnyfewezfmgwke.jpg	6	1.861	0.283	1168.832	653.250	0.083	0.017	0.0	22	utensils canister
+sun_aovnyfewezfmgwke.jpg	6	1.861	0.283	1168.832	653.250	0.083	0.017	0.0	23	worktop
+sun_aovnyfewezfmgwke.jpg	7	2.170	0.208	1258.110	673.435	0.065	0.013	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	8	2.403	0.225	1347.705	675.620	0.067	0.016	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	9	2.653	0.275	1418.250	682.090	0.083	0.016	0.0	9	napkin
+sun_aovnyfewezfmgwke.jpg	9	2.653	0.275	1418.250	682.090	0.083	0.016	0.0	21	tray
+sun_aovnyfewezfmgwke.jpg	9	2.653	0.275	1418.250	682.090	0.083	0.016	0.0	23	worktop

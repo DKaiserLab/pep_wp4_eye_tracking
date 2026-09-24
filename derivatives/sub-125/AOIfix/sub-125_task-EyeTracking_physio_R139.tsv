@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azfvmsmpvphupjpu.jpg	1	0.790	0.275	1129.025	708.615	0.082	0.051	0.0	11	dishwasher
+sun_azfvmsmpvphupjpu.jpg	2	1.090	0.233	1080.975	682.260	0.085	0.027	0.0	21	saucepan
+sun_azfvmsmpvphupjpu.jpg	2	1.090	0.233	1080.975	682.260	0.085	0.027	0.0	22	shelves
+sun_azfvmsmpvphupjpu.jpg	3	1.407	0.308	1607.055	758.670	0.105	0.139	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	4	1.740	0.192	1559.065	690.615	0.140	0.068	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	4	1.740	0.192	1559.065	690.615	0.140	0.068	0.0	17	oven
+sun_azfvmsmpvphupjpu.jpg	5	1.949	0.217	1450.890	672.470	0.112	0.036	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	6	2.199	0.183	1362.485	689.852	0.083	0.026	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	7	2.407	0.192	1286.050	706.445	0.073	0.042	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	7	2.407	0.192	1286.050	706.445	0.073	0.042	0.0	8	chair
+sun_azfvmsmpvphupjpu.jpg	8	2.615	0.233	1241.602	713.097	0.088	0.059	0.0	3	bottle
+sun_azfvmsmpvphupjpu.jpg	8	2.615	0.233	1241.602	713.097	0.088	0.059	0.0	5	cabinet
+sun_azfvmsmpvphupjpu.jpg	8	2.615	0.233	1241.602	713.097	0.088	0.059	0.0	8	chair
+sun_azfvmsmpvphupjpu.jpg	9	2.865	0.142	1201.985	712.605	0.107	0.025	0.0	11	dishwasher

@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aowefbfvclkxfhop.jpg	1	0.414	0.150	1309.003	590.840	0.079	0.020	0.0	0	other
+sun_aowefbfvclkxfhop.jpg	2	0.614	0.192	1473.400	565.460	0.114	0.076	0.0	0	other
+sun_aowefbfvclkxfhop.jpg	3	0.839	0.167	1534.822	614.467	0.094	0.030	0.0	0	other
+sun_aowefbfvclkxfhop.jpg	4	1.064	0.192	1404.330	366.020	0.096	0.049	0.0	-1	off stimulus
+sun_aowefbfvclkxfhop.jpg	5	1.273	0.192	1381.660	414.320	0.132	0.095	0.0	0	other
+sun_aowefbfvclkxfhop.jpg	6	1.481	0.192	1241.140	424.345	0.062	0.012	0.0	1	basket
+sun_aowefbfvclkxfhop.jpg	6	1.481	0.192	1241.140	424.345	0.062	0.012	0.0	3	bucket crop
+sun_aowefbfvclkxfhop.jpg	7	1.706	0.183	1073.610	470.248	0.085	0.023	0.0	0	other
+sun_aowefbfvclkxfhop.jpg	8	1.914	0.783	996.428	539.670	0.104	0.133	0.0	7	toilet
+sun_aowefbfvclkxfhop.jpg	9	2.714	0.308	1041.435	544.895	0.093	0.038	0.0	7	toilet

@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglwoufpxbtxqecp.jpg	1	0.310	0.217	1263.433	753.650	0.097	0.017	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	2	0.543	0.225	1279.865	859.360	0.119	0.032	0.0	3	bowl
+sun_aglwoufpxbtxqecp.jpg	2	0.543	0.225	1279.865	859.360	0.119	0.032	0.0	12	fruit
+sun_aglwoufpxbtxqecp.jpg	2	0.543	0.225	1279.865	859.360	0.119	0.032	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	3	0.802	0.300	1437.967	898.173	0.098	0.032	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	4	1.127	0.317	1546.267	893.548	0.132	0.055	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	4	1.127	0.317	1546.267	893.548	0.132	0.055	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	5	1.485	0.275	1092.220	792.340	0.131	0.039	0.0	10	drawers
+sun_aglwoufpxbtxqecp.jpg	5	1.485	0.275	1092.220	792.340	0.131	0.039	0.0	21	range
+sun_aglwoufpxbtxqecp.jpg	6	1.802	0.275	936.005	659.100	0.125	0.035	0.0	0	other
+sun_aglwoufpxbtxqecp.jpg	7	2.210	0.383	992.855	539.950	0.144	0.048	0.0	11	extractor hood
+sun_aglwoufpxbtxqecp.jpg	8	2.627	0.250	1106.875	588.390	0.115	0.028	0.0	1	bottle
+sun_aglwoufpxbtxqecp.jpg	8	2.627	0.250	1106.875	588.390	0.115	0.028	0.0	23	shelf
+sun_aglwoufpxbtxqecp.jpg	9	2.902	0.108	1102.505	538.565	0.106	0.018	0.0	23	shelf

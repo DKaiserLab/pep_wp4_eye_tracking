@@ -1,0 +1,10 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_akuognalfgmelepa.jpg	1	0.383	0.192	1241.310	661.860	0.089	0.017	0.0	27	window
+sun_akuognalfgmelepa.jpg	2	0.608	0.292	1535.450	687.895	0.089	0.018	0.0	15	figurine
+sun_akuognalfgmelepa.jpg	3	1.033	0.167	1393.887	832.660	0.211	0.159	0.0	4	box
+sun_akuognalfgmelepa.jpg	3	1.033	0.167	1393.887	832.660	0.211	0.159	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	4	1.241	0.267	1310.905	691.077	0.089	0.020	0.0	0	other
+sun_akuognalfgmelepa.jpg	5	1.533	0.367	1140.425	681.278	0.073	0.021	0.0	23	switch
+sun_akuognalfgmelepa.jpg	6	1.925	0.250	1035.943	753.112	0.165	0.053	0.0	5	cabinet
+sun_akuognalfgmelepa.jpg	7	2.208	0.200	1150.412	659.367	0.095	0.034	0.0	27	window
+sun_akuognalfgmelepa.jpg	8	2.433	0.567	1261.590	539.390	0.111	0.026	0.0	11	curtain

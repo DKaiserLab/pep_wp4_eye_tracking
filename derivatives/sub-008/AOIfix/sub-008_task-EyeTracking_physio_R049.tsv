@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apbmvnchyjqxptff.jpg	1	0.473	0.533	982.163	632.565	0.071	0.058	0.0	7	door
+sun_apbmvnchyjqxptff.jpg	2	1.023	0.250	968.022	802.185	0.070	0.035	0.0	20	soap bottle
+sun_apbmvnchyjqxptff.jpg	3	1.314	0.158	1445.150	749.300	0.075	0.012	0.0	17	range
+sun_apbmvnchyjqxptff.jpg	4	1.498	0.417	1483.360	635.375	0.080	0.022	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	5	1.939	0.183	1499.005	875.977	0.094	0.040	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	6	2.164	0.217	1229.110	919.747	0.065	0.021	0.0	11	kitchen island
+sun_apbmvnchyjqxptff.jpg	7	2.406	0.308	1018.895	902.665	0.103	0.024	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	8	2.748	0.217	1594.800	966.550	0.100	0.023	0.0	6	dog feeder

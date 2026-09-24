@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglwoufpxbtxqecp.jpg	1	0.277	0.183	1131.280	713.485	0.124	0.061	0.0	0	other
+sun_aglwoufpxbtxqecp.jpg	2	0.477	0.417	968.670	830.480	0.165	0.245	0.0	21	range
+sun_aglwoufpxbtxqecp.jpg	3	0.902	0.175	910.000	765.775	0.216	0.139	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	3	0.902	0.175	910.000	765.775	0.216	0.139	0.0	21	range
+sun_aglwoufpxbtxqecp.jpg	3	0.902	0.175	910.000	765.775	0.216	0.139	0.0	25	worktop
+sun_aglwoufpxbtxqecp.jpg	4	1.118	0.267	1258.910	881.860	0.073	0.081	0.0	3	bowl
+sun_aglwoufpxbtxqecp.jpg	4	1.118	0.267	1258.910	881.860	0.073	0.081	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	5	1.410	0.175	1449.745	906.930	0.100	0.046	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	6	1.610	0.175	1648.900	904.590	0.086	0.033	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	6	1.610	0.175	1648.900	904.590	0.086	0.033	0.0	6	chair
+sun_aglwoufpxbtxqecp.jpg	6	1.610	0.175	1648.900	904.590	0.086	0.033	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	7	1.802	0.217	1767.470	882.450	0.095	0.027	0.0	-1	off stimulus
+sun_aglwoufpxbtxqecp.jpg	8	2.077	0.175	1667.140	610.365	0.207	0.101	0.0	5	cabinets
+sun_aglwoufpxbtxqecp.jpg	8	2.077	0.175	1667.140	610.365	0.207	0.101	0.0	13	glass
+sun_aglwoufpxbtxqecp.jpg	9	2.268	0.275	1570.675	555.715	0.081	0.048	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	10	2.560	0.167	1406.582	561.757	0.079	0.027	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	11	2.743	0.192	1202.010	616.995	0.112	0.041	0.0	0	other

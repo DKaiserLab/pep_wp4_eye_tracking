@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atgzwnczaxwddrai.jpg	1	0.345	0.108	1337.585	604.945	0.093	0.026	0.0	15	picture
+sun_atgzwnczaxwddrai.jpg	2	0.479	0.283	1402.845	589.170	0.163	0.105	0.0	15	picture
+sun_atgzwnczaxwddrai.jpg	3	0.795	0.117	1504.532	590.888	0.130	0.098	0.0	4	cabinet
+sun_atgzwnczaxwddrai.jpg	4	0.920	0.217	1489.803	622.967	0.103	0.104	0.0	4	cabinet
+sun_atgzwnczaxwddrai.jpg	5	1.154	0.367	1479.165	714.678	0.086	0.077	0.0	25	window
+sun_atgzwnczaxwddrai.jpg	6	1.537	0.275	1435.955	767.060	0.058	0.027	0.0	4	cabinet
+sun_atgzwnczaxwddrai.jpg	6	1.537	0.275	1435.955	767.060	0.058	0.027	0.0	7	dishwasher
+sun_atgzwnczaxwddrai.jpg	6	1.537	0.275	1435.955	767.060	0.058	0.027	0.0	26	worktop
+sun_atgzwnczaxwddrai.jpg	7	1.829	0.183	1455.983	787.852	0.082	0.035	0.0	7	dishwasher
+sun_atgzwnczaxwddrai.jpg	7	1.829	0.183	1455.983	787.852	0.082	0.035	0.0	26	worktop
+sun_atgzwnczaxwddrai.jpg	8	2.029	0.208	1507.095	801.450	0.068	0.013	0.0	21	sink
+sun_atgzwnczaxwddrai.jpg	8	2.029	0.208	1507.095	801.450	0.068	0.013	0.0	26	worktop
+sun_atgzwnczaxwddrai.jpg	9	2.262	0.217	1557.892	778.535	0.063	0.026	0.0	21	sink
+sun_atgzwnczaxwddrai.jpg	9	2.262	0.217	1557.892	778.535	0.063	0.026	0.0	26	worktop
+sun_atgzwnczaxwddrai.jpg	10	2.495	0.392	1600.395	753.610	0.077	0.028	0.0	0	other

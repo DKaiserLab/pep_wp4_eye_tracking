@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglpqkbwvbofhrgt.jpg	1	0.381	0.158	1294.840	541.710	0.127	0.061	0.0	0	other
+sun_aglpqkbwvbofhrgt.jpg	2	0.564	0.217	1179.135	509.585	0.076	0.016	0.0	0	other
+sun_aglpqkbwvbofhrgt.jpg	3	0.831	0.233	1070.543	513.153	0.099	0.050	0.0	0	other
+sun_aglpqkbwvbofhrgt.jpg	4	1.081	0.558	1020.175	672.095	0.203	2.210	0.0	15	window
+sun_aglpqkbwvbofhrgt.jpg	5	1.681	0.200	1209.640	803.810	0.082	0.032	0.0	8	gas cylinder
+sun_aglpqkbwvbofhrgt.jpg	5	1.681	0.200	1209.640	803.810	0.082	0.032	0.0	10	range
+sun_aglpqkbwvbofhrgt.jpg	6	1.906	0.225	1299.780	753.620	0.151	0.069	0.0	10	range
+sun_aglpqkbwvbofhrgt.jpg	6	1.906	0.225	1299.780	753.620	0.151	0.069	0.0	16	worktop
+sun_aglpqkbwvbofhrgt.jpg	7	2.147	0.183	1390.682	722.672	0.108	0.080	0.0	0	other
+sun_aglpqkbwvbofhrgt.jpg	8	2.364	0.233	1473.387	667.210	0.075	0.033	0.0	14	tray
+sun_aglpqkbwvbofhrgt.jpg	9	2.631	0.250	1503.855	585.090	0.135	0.053	0.0	0	other
+sun_aglpqkbwvbofhrgt.jpg	10	2.906	0.100	1433.412	511.803	0.091	0.016	0.0	0	other

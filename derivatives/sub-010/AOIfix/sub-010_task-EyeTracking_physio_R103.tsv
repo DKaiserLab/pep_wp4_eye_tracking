@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acxkpeoqbwcxfvip.jpg	1	0.193	0.167	1113.785	644.870	0.150	0.056	0.0	1	cabinet
+sun_acxkpeoqbwcxfvip.jpg	2	0.401	0.158	1009.175	703.930	0.147	0.053	0.0	1	cabinet
+sun_acxkpeoqbwcxfvip.jpg	2	0.401	0.158	1009.175	703.930	0.147	0.053	0.0	15	oven
+sun_acxkpeoqbwcxfvip.jpg	3	0.585	0.192	911.050	704.460	0.099	0.016	0.0	0	other
+sun_acxkpeoqbwcxfvip.jpg	4	0.793	0.183	884.908	720.895	0.095	0.015	0.0	1	cabinet
+sun_acxkpeoqbwcxfvip.jpg	5	0.993	0.183	927.153	734.418	0.081	0.018	0.0	1	cabinet
+sun_acxkpeoqbwcxfvip.jpg	5	0.993	0.183	927.153	734.418	0.081	0.018	0.0	27	worktop
+sun_acxkpeoqbwcxfvip.jpg	6	1.210	0.225	1151.495	768.650	0.152	0.033	0.0	11	kitchen island
+sun_acxkpeoqbwcxfvip.jpg	7	1.460	0.233	1218.992	754.300	0.116	0.023	0.0	11	kitchen island
+sun_acxkpeoqbwcxfvip.jpg	8	1.710	0.292	1271.570	773.550	0.125	0.023	0.0	11	kitchen island
+sun_acxkpeoqbwcxfvip.jpg	9	2.043	0.117	1471.608	793.862	0.108	0.015	0.0	22	side table
+sun_acxkpeoqbwcxfvip.jpg	10	2.193	0.233	1621.483	586.695	0.091	0.024	0.0	0	other
+sun_acxkpeoqbwcxfvip.jpg	11	2.443	0.283	1658.243	644.260	0.102	0.024	0.0	0	other
+sun_acxkpeoqbwcxfvip.jpg	12	2.743	0.258	1630.160	735.845	0.127	0.055	0.0	25	sofa

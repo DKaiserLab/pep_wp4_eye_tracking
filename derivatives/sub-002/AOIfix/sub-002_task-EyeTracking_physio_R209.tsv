@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_awqncsdprzjtqkum.jpg	1	0.361	0.167	1236.415	747.598	0.193	0.066	0.0	0	other
+sun_awqncsdprzjtqkum.jpg	2	0.545	0.317	1129.098	779.428	0.273	0.085	0.0	10	faucet
+sun_awqncsdprzjtqkum.jpg	2	0.545	0.317	1129.098	779.428	0.273	0.085	0.0	24	window
+sun_awqncsdprzjtqkum.jpg	3	0.878	0.567	1264.675	750.665	0.243	0.210	0.0	16	pot
+sun_awqncsdprzjtqkum.jpg	3	0.878	0.567	1264.675	750.665	0.243	0.210	0.0	21	teacup set
+sun_awqncsdprzjtqkum.jpg	4	1.470	0.258	1500.915	688.240	0.267	0.167	0.0	13	light switch
+sun_awqncsdprzjtqkum.jpg	5	1.745	0.183	1655.425	637.240	0.178	0.063	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	5	1.745	0.183	1655.425	637.240	0.178	0.063	0.0	18	sideboard
+sun_awqncsdprzjtqkum.jpg	6	1.961	0.200	1272.010	583.612	0.169	0.057	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	7	2.186	0.242	1237.870	577.950	0.109	0.031	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	7	2.186	0.242	1237.870	577.950	0.109	0.031	0.0	22	teapot
+sun_awqncsdprzjtqkum.jpg	8	2.436	0.150	1234.560	619.447	0.121	0.025	0.0	4	cabinet
+sun_awqncsdprzjtqkum.jpg	8	2.436	0.150	1234.560	619.447	0.121	0.025	0.0	22	teapot
+sun_awqncsdprzjtqkum.jpg	9	2.611	0.308	1289.325	724.850	0.268	0.080	0.0	16	pot
+sun_awqncsdprzjtqkum.jpg	9	2.611	0.308	1289.325	724.850	0.268	0.080	0.0	21	teacup set

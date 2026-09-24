@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_albwvmqgrgwlxxx.jpg	1	0.301	0.258	1145.895	650.795	0.096	0.050	0.0	1	cabinet
+labelme_albwvmqgrgwlxxx.jpg	1	0.301	0.258	1145.895	650.795	0.096	0.050	0.0	2	countertop
+labelme_albwvmqgrgwlxxx.jpg	2	0.692	0.125	1212.680	551.955	0.105	0.039	0.0	0	other
+labelme_albwvmqgrgwlxxx.jpg	3	0.851	0.208	1007.500	466.070	0.097	0.058	0.0	0	other
+labelme_albwvmqgrgwlxxx.jpg	4	1.084	0.233	895.252	632.440	0.096	0.051	0.0	1	cabinet
+labelme_albwvmqgrgwlxxx.jpg	4	1.084	0.233	895.252	632.440	0.096	0.051	0.0	2	countertop
+labelme_albwvmqgrgwlxxx.jpg	5	1.326	0.267	939.115	665.942	0.110	0.060	0.0	1	cabinet
+labelme_albwvmqgrgwlxxx.jpg	5	1.326	0.267	939.115	665.942	0.110	0.060	0.0	2	countertop
+labelme_albwvmqgrgwlxxx.jpg	5	1.326	0.267	939.115	665.942	0.110	0.060	0.0	5	sink
+labelme_albwvmqgrgwlxxx.jpg	6	1.617	0.225	1219.680	613.110	0.093	0.042	0.0	0	other
+labelme_albwvmqgrgwlxxx.jpg	7	1.867	0.192	1346.800	741.615	0.118	0.030	0.0	7	toilet
+labelme_albwvmqgrgwlxxx.jpg	8	2.084	0.225	1421.285	846.240	0.089	0.026	0.0	7	toilet
+labelme_albwvmqgrgwlxxx.jpg	9	2.326	0.283	1305.230	857.440	0.104	0.031	0.0	0	other
+labelme_albwvmqgrgwlxxx.jpg	10	2.626	0.342	1434.375	869.895	0.095	0.032	0.0	7	toilet

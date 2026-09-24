@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aijkdpqohzcmjsco.jpg	1	0.298	0.217	1202.045	631.862	0.136	0.070	0.0	2	cabinet
+sun_aijkdpqohzcmjsco.jpg	1	0.298	0.217	1202.045	631.862	0.136	0.070	0.0	9	microwave
+sun_aijkdpqohzcmjsco.jpg	2	0.665	0.125	1317.860	1250.980	0.776	4.827	80.0	-1	off stimulus
+sun_aijkdpqohzcmjsco.jpg	3	0.832	0.117	1356.775	871.650	0.091	0.027	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	4	0.965	0.308	1385.425	823.335	0.111	0.050	0.0	10	mug
+sun_aijkdpqohzcmjsco.jpg	4	0.965	0.308	1385.425	823.335	0.111	0.050	0.0	15	plate
+sun_aijkdpqohzcmjsco.jpg	4	0.965	0.308	1385.425	823.335	0.111	0.050	0.0	21	table
+sun_aijkdpqohzcmjsco.jpg	5	1.323	0.200	1609.737	560.303	0.064	0.017	0.0	17	shelf
+sun_aijkdpqohzcmjsco.jpg	6	1.540	0.183	1641.235	560.395	0.058	0.012	0.0	17	shelf
+sun_aijkdpqohzcmjsco.jpg	7	1.765	0.142	1140.260	729.580	0.171	0.037	0.0	0	other
+sun_aijkdpqohzcmjsco.jpg	8	1.923	0.208	1086.345	801.140	0.120	0.047	0.0	3	dishcloth
+sun_aijkdpqohzcmjsco.jpg	8	1.923	0.208	1086.345	801.140	0.120	0.047	0.0	23	worktop
+sun_aijkdpqohzcmjsco.jpg	9	2.182	0.667	1274.087	604.953	0.099	0.073	0.0	7	gripper
+sun_aijkdpqohzcmjsco.jpg	10	2.874	0.125	1439.120	801.270	0.156	0.027	0.0	21	table

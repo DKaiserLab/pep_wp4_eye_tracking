@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_anbqoyitlozwisvu.jpg	1	0.260	0.333	1286.425	732.000	0.102	0.025	0.0	17	outlet
+sun_anbqoyitlozwisvu.jpg	2	0.610	0.267	1322.582	742.575	0.091	0.017	0.0	26	toaster
+sun_anbqoyitlozwisvu.jpg	3	0.902	0.292	1378.775	745.605	0.095	0.022	0.0	17	outlet
+sun_anbqoyitlozwisvu.jpg	3	0.902	0.292	1378.775	745.605	0.095	0.022	0.0	26	toaster
+sun_anbqoyitlozwisvu.jpg	4	1.210	0.192	1405.710	747.700	0.086	0.026	0.0	26	toaster
+sun_anbqoyitlozwisvu.jpg	4	1.210	0.192	1405.710	747.700	0.086	0.026	0.0	27	utensils canister
+sun_anbqoyitlozwisvu.jpg	5	1.419	0.125	1381.485	749.600	0.079	0.014	0.0	17	outlet
+sun_anbqoyitlozwisvu.jpg	5	1.419	0.125	1381.485	749.600	0.079	0.014	0.0	26	toaster
+sun_anbqoyitlozwisvu.jpg	6	1.560	1.183	1340.680	759.130	0.101	0.682	0.0	26	toaster
+sun_anbqoyitlozwisvu.jpg	7	2.769	0.242	1141.955	747.555	0.126	0.143	0.0	11	faucet
+sun_anbqoyitlozwisvu.jpg	7	2.769	0.242	1141.955	747.555	0.126	0.143	0.0	28	window

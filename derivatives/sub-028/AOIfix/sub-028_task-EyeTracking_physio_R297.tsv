@@ -1,0 +1,8 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azbzyzntqpgdoyyu.jpg	1	0.256	0.200	1326.637	728.457	0.207	0.139	0.0	7	glass
+sun_azbzyzntqpgdoyyu.jpg	2	0.472	0.242	1431.990	755.440	0.215	0.073	0.0	14	towel
+sun_azbzyzntqpgdoyyu.jpg	3	0.739	0.217	1437.265	657.445	0.105	0.021	0.0	12	television
+sun_azbzyzntqpgdoyyu.jpg	4	0.981	0.175	1404.180	594.265	0.088	0.041	0.0	0	other
+sun_azbzyzntqpgdoyyu.jpg	5	1.181	1.108	1466.295	671.350	0.127	0.079	0.0	12	television
+sun_azbzyzntqpgdoyyu.jpg	6	2.314	0.325	1512.745	671.720	0.106	0.030	0.0	12	television
+sun_azbzyzntqpgdoyyu.jpg	7	2.664	0.308	1423.055	676.950	0.230	0.066	0.0	12	television

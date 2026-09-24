@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aowvammdqpmypflg.jpg	1	0.286	0.217	1055.635	670.127	0.104	0.071	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	1	0.286	0.217	1055.635	670.127	0.104	0.071	0.0	15	window
+sun_aowvammdqpmypflg.jpg	2	0.528	0.283	1005.393	511.080	0.110	0.090	0.0	15	window
+sun_aowvammdqpmypflg.jpg	3	0.845	0.283	1101.660	553.707	0.067	0.030	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	3	0.845	0.283	1101.660	553.707	0.067	0.030	0.0	15	window
+sun_aowvammdqpmypflg.jpg	4	1.153	0.233	1063.562	598.345	0.077	0.047	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	4	1.153	0.233	1063.562	598.345	0.077	0.047	0.0	15	window
+sun_aowvammdqpmypflg.jpg	5	1.420	0.300	1072.005	785.202	0.095	0.048	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	5	1.420	0.300	1072.005	785.202	0.095	0.048	0.0	4	chair
+sun_aowvammdqpmypflg.jpg	5	1.420	0.300	1072.005	785.202	0.095	0.048	0.0	15	window
+sun_aowvammdqpmypflg.jpg	6	1.761	0.350	1031.865	882.808	0.126	0.094	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	7	2.145	0.208	1101.670	907.425	0.087	0.027	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	7	2.145	0.208	1101.670	907.425	0.087	0.027	0.0	4	chair
+sun_aowvammdqpmypflg.jpg	7	2.145	0.208	1101.670	907.425	0.087	0.027	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	8	2.378	0.150	1092.520	856.065	0.084	0.019	0.0	1	blinds
+sun_aowvammdqpmypflg.jpg	8	2.378	0.150	1092.520	856.065	0.084	0.019	0.0	4	chair
+sun_aowvammdqpmypflg.jpg	8	2.378	0.150	1092.520	856.065	0.084	0.019	0.0	12	table crop
+sun_aowvammdqpmypflg.jpg	9	2.561	0.267	1404.363	768.460	0.112	0.043	0.0	3	cabinets
+sun_aowvammdqpmypflg.jpg	9	2.561	0.267	1404.363	768.460	0.112	0.043	0.0	16	worktop
+sun_aowvammdqpmypflg.jpg	10	2.861	0.142	1371.955	668.115	0.092	0.030	0.0	3	cabinets

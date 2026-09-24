@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqqabpdqjxygueuw.jpg	1	0.531	0.200	1200.750	683.422	0.090	0.055	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	2	0.756	0.292	1146.365	684.735	0.107	0.041	0.0	19	jars
+sun_aqqabpdqjxygueuw.jpg	2	0.756	0.292	1146.365	684.735	0.107	0.041	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	3	1.098	0.133	1076.908	645.610	0.059	0.009	0.0	32	table lamp
+sun_aqqabpdqjxygueuw.jpg	4	1.265	0.158	1006.660	640.635	0.075	0.013	0.0	13	door
+sun_aqqabpdqjxygueuw.jpg	5	1.440	0.425	907.120	582.530	0.097	0.067	0.0	5	cabinet
+sun_aqqabpdqjxygueuw.jpg	6	1.906	0.225	974.470	886.955	0.110	0.040	0.0	0	other
+sun_aqqabpdqjxygueuw.jpg	7	2.156	0.200	972.513	1016.233	0.109	0.029	0.0	0	other
+sun_aqqabpdqjxygueuw.jpg	8	2.415	0.217	1496.480	719.732	0.108	0.017	0.0	4	bowl
+sun_aqqabpdqjxygueuw.jpg	8	2.415	0.217	1496.480	719.732	0.108	0.017	0.0	15	food
+sun_aqqabpdqjxygueuw.jpg	8	2.415	0.217	1496.480	719.732	0.108	0.017	0.0	24	pepper
+sun_aqqabpdqjxygueuw.jpg	8	2.415	0.217	1496.480	719.732	0.108	0.017	0.0	25	plant
+sun_aqqabpdqjxygueuw.jpg	9	2.673	0.283	1516.745	667.400	0.053	0.007	0.0	6	cabinets

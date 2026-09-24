@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aeqdtdmvphproomc.jpg	1	0.351	0.350	997.457	804.385	0.148	0.069	0.0	22	range
+sun_aeqdtdmvphproomc.jpg	1	0.351	0.350	997.457	804.385	0.148	0.069	0.0	23	salt and pepper
+sun_aeqdtdmvphproomc.jpg	2	0.751	0.308	1543.910	916.795	0.081	0.024	0.0	16	napkin
+sun_aeqdtdmvphproomc.jpg	2	0.751	0.308	1543.910	916.795	0.081	0.024	0.0	20	plates
+sun_aeqdtdmvphproomc.jpg	2	0.751	0.308	1543.910	916.795	0.081	0.024	0.0	26	table
+sun_aeqdtdmvphproomc.jpg	3	1.085	0.125	1569.390	797.315	0.118	0.019	0.0	10	dishwasher
+sun_aeqdtdmvphproomc.jpg	3	1.085	0.125	1569.390	797.315	0.118	0.019	0.0	21	pot
+sun_aeqdtdmvphproomc.jpg	3	1.085	0.125	1569.390	797.315	0.118	0.019	0.0	26	table
+sun_aeqdtdmvphproomc.jpg	4	1.243	0.367	1523.455	563.185	0.133	0.066	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	5	1.627	0.317	1414.185	547.235	0.164	0.066	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	5	1.627	0.317	1414.185	547.235	0.164	0.066	0.0	27	teacup
+sun_aeqdtdmvphproomc.jpg	6	1.977	0.217	1045.233	543.950	0.189	0.067	0.0	11	extractor hood
+sun_aeqdtdmvphproomc.jpg	7	2.218	0.217	991.452	617.040	0.115	0.023	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	8	2.518	0.292	1024.330	849.670	0.120	0.039	0.0	22	range
+sun_aeqdtdmvphproomc.jpg	8	2.518	0.292	1024.330	849.670	0.120	0.039	0.0	33	worktop
+sun_aeqdtdmvphproomc.jpg	9	2.827	0.125	1102.750	872.935	0.109	0.018	0.0	22	range

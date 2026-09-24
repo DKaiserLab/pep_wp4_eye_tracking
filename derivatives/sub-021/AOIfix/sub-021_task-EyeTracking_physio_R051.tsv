@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aitsjpidonnknvwm.jpg	1	0.207	0.283	1330.310	765.035	0.142	0.067	0.0	8	sponge
+sun_aitsjpidonnknvwm.jpg	1	0.207	0.283	1330.310	765.035	0.142	0.067	0.0	10	toilet crop
+sun_aitsjpidonnknvwm.jpg	2	0.532	0.150	1625.910	817.257	0.110	0.037	0.0	7	sink
+sun_aitsjpidonnknvwm.jpg	3	0.707	0.258	1636.895	641.685	0.098	0.036	0.0	2	glass
+sun_aitsjpidonnknvwm.jpg	4	0.998	0.217	1479.030	452.665	0.081	0.038	0.0	0	other
+sun_aitsjpidonnknvwm.jpg	5	1.248	0.208	1364.290	761.585	0.198	0.076	0.0	8	sponge
+sun_aitsjpidonnknvwm.jpg	5	1.248	0.208	1364.290	761.585	0.198	0.076	0.0	10	toilet crop
+sun_aitsjpidonnknvwm.jpg	6	1.473	0.225	1341.810	745.465	0.141	0.027	0.0	0	other
+sun_aitsjpidonnknvwm.jpg	7	1.732	0.133	968.288	860.675	0.198	0.068	0.0	6	shower screen
+sun_aitsjpidonnknvwm.jpg	8	1.915	0.142	1075.385	589.605	0.104	0.021	0.0	6	shower screen
+sun_aitsjpidonnknvwm.jpg	9	2.090	0.200	1318.932	700.325	0.094	0.037	0.0	0	other
+sun_aitsjpidonnknvwm.jpg	10	2.323	0.233	1458.345	488.640	0.108	0.032	0.0	0	other
+sun_aitsjpidonnknvwm.jpg	11	2.590	0.150	1712.845	695.245	0.129	0.056	0.0	0	other
+sun_aitsjpidonnknvwm.jpg	12	2.757	0.242	1686.020	652.045	0.075	0.011	0.0	5	shelf
+sun_aitsjpidonnknvwm.jpg	12	2.757	0.242	1686.020	652.045	0.075	0.011	0.0	9	tissue box

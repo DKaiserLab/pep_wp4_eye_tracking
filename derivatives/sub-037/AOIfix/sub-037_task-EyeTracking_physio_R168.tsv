@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aenotlpyftoioydp.jpg	1	0.418	0.258	1153.480	557.365	0.062	0.015	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	2	0.702	0.142	998.365	549.460	0.076	0.021	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	3	0.868	0.308	1395.745	698.455	0.106	0.067	0.0	7	door
+sun_aenotlpyftoioydp.jpg	4	1.210	0.192	1595.670	825.855	0.082	0.024	0.0	15	plant
+sun_aenotlpyftoioydp.jpg	4	1.210	0.192	1595.670	825.855	0.082	0.024	0.0	16	plantpot
+sun_aenotlpyftoioydp.jpg	5	1.435	0.200	1185.477	829.077	0.106	0.022	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	6	1.652	0.342	1085.180	757.335	0.108	0.036	0.0	17	plates rack
+sun_aenotlpyftoioydp.jpg	6	1.652	0.342	1085.180	757.335	0.108	0.036	0.0	19	salt
+sun_aenotlpyftoioydp.jpg	7	2.035	0.417	969.368	714.812	0.088	0.050	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	8	2.477	0.300	965.470	691.993	0.096	0.042	0.0	4	cabinet
+sun_aenotlpyftoioydp.jpg	8	2.477	0.300	965.470	691.993	0.096	0.042	0.0	11	microwave
+sun_aenotlpyftoioydp.jpg	9	2.802	0.175	1134.230	753.425	0.116	0.045	0.0	0	other

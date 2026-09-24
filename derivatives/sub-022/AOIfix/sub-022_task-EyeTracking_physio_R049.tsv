@@ -1,0 +1,8 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_apbmvnchyjqxptff.jpg	1	0.358	0.192	1083.175	669.370	0.119	0.040	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	2	0.575	0.183	1265.352	668.715	0.091	0.026	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	3	0.958	0.442	1187.930	754.235	0.193	0.103	0.0	4	coffee maker
+sun_apbmvnchyjqxptff.jpg	4	1.416	0.217	1085.322	744.370	0.158	0.057	0.0	0	other
+sun_apbmvnchyjqxptff.jpg	5	1.658	0.658	1216.955	701.760	0.193	0.151	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	6	2.466	0.333	1204.082	671.628	0.171	0.081	0.0	3	cabinet
+sun_apbmvnchyjqxptff.jpg	7	2.825	0.175	1119.785	710.935	0.134	0.043	0.0	3	cabinet

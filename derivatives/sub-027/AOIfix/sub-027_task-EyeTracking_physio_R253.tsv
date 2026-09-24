@@ -1,0 +1,20 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aeqdtdmvphproomc.jpg	1	0.238	0.158	1331.545	666.780	0.157	0.052	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	2	0.413	0.183	1372.790	579.332	0.090	0.024	0.0	1	bowl
+sun_aeqdtdmvphproomc.jpg	2	0.413	0.183	1372.790	579.332	0.090	0.024	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	3	0.638	0.208	1616.055	533.740	0.137	0.033	0.0	8	chandelier crop
+sun_aeqdtdmvphproomc.jpg	3	0.638	0.208	1616.055	533.740	0.137	0.033	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	4	0.880	0.217	1586.457	772.408	0.161	0.069	0.0	12	figurine
+sun_aeqdtdmvphproomc.jpg	4	0.880	0.217	1586.457	772.408	0.161	0.069	0.0	21	pot
+sun_aeqdtdmvphproomc.jpg	4	0.880	0.217	1586.457	772.408	0.161	0.069	0.0	24	sink
+sun_aeqdtdmvphproomc.jpg	4	0.880	0.217	1586.457	772.408	0.161	0.069	0.0	33	worktop
+sun_aeqdtdmvphproomc.jpg	5	1.122	0.258	1549.955	865.505	0.157	0.094	0.0	13	forks
+sun_aeqdtdmvphproomc.jpg	5	1.122	0.258	1549.955	865.505	0.157	0.094	0.0	15	mug
+sun_aeqdtdmvphproomc.jpg	5	1.122	0.258	1549.955	865.505	0.157	0.094	0.0	20	plates
+sun_aeqdtdmvphproomc.jpg	5	1.122	0.258	1549.955	865.505	0.157	0.094	0.0	26	table
+sun_aeqdtdmvphproomc.jpg	6	1.447	0.225	1007.665	696.010	0.109	0.021	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	7	1.688	0.392	954.935	650.235	0.153	0.043	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	8	2.097	0.308	976.050	655.655	0.138	0.044	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	9	2.422	0.142	979.625	621.390	0.092	0.018	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	10	2.588	0.283	899.055	668.490	0.120	0.036	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	11	2.897	0.108	981.755	677.055	0.171	0.036	0.0	0	other

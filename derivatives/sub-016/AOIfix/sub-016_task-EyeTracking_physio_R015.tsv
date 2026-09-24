@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahrhvpdhoamfdhpf.jpg	1	0.329	0.183	1114.510	705.665	0.125	0.122	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	2	0.537	0.383	1013.253	865.980	0.140	0.140	0.0	1	armchair
+sun_ahrhvpdhoamfdhpf.jpg	2	0.537	0.383	1013.253	865.980	0.140	0.140	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	3	0.937	0.233	1209.543	903.085	0.096	0.047	0.0	1	armchair
+sun_ahrhvpdhoamfdhpf.jpg	3	0.937	0.233	1209.543	903.085	0.096	0.047	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	4	1.204	0.192	1464.440	974.100	0.142	0.108	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	5	1.412	0.292	1636.445	992.130	0.138	0.041	0.0	0	other
+sun_ahrhvpdhoamfdhpf.jpg	6	1.746	0.208	1508.195	650.365	1.053	1.352	0.0	8	microwave
+sun_ahrhvpdhoamfdhpf.jpg	6	1.746	0.208	1508.195	650.365	1.053	1.352	0.0	12	refrigerator
+sun_ahrhvpdhoamfdhpf.jpg	7	1.971	0.167	1392.312	597.105	0.480	0.682	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	8	2.162	0.242	1087.740	546.745	0.421	0.333	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	9	2.421	0.267	935.072	609.170	0.158	0.156	0.0	3	cabinet
+sun_ahrhvpdhoamfdhpf.jpg	10	2.712	0.208	894.630	900.160	0.299	0.723	0.0	13	table
+sun_ahrhvpdhoamfdhpf.jpg	10	2.712	0.208	894.630	900.160	0.299	0.723	0.0	14	wine rack

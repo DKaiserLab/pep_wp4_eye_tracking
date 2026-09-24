@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahjvciulzdwyyshu.jpg	1	0.253	0.200	1152.550	647.482	0.105	0.046	0.0	9	faucet
+sun_ahjvciulzdwyyshu.jpg	1	0.253	0.200	1152.550	647.482	0.105	0.046	0.0	23	window
+sun_ahjvciulzdwyyshu.jpg	2	0.487	0.283	992.398	521.592	0.080	0.021	0.0	16	saucepan
+sun_ahjvciulzdwyyshu.jpg	3	0.787	0.458	965.975	495.560	0.078	0.014	0.0	11	grater
+sun_ahjvciulzdwyyshu.jpg	3	0.787	0.458	965.975	495.560	0.078	0.014	0.0	16	saucepan
+sun_ahjvciulzdwyyshu.jpg	4	1.287	0.250	1285.312	616.933	0.108	0.020	0.0	17	shelf
+sun_ahjvciulzdwyyshu.jpg	5	1.554	0.258	1320.920	635.335	0.098	0.019	0.0	14	pot
+sun_ahjvciulzdwyyshu.jpg	6	1.829	0.308	1298.595	640.745	0.168	0.041	0.0	14	pot
+sun_ahjvciulzdwyyshu.jpg	7	2.429	0.250	1395.590	584.572	0.128	0.125	0.0	18	shelves
+sun_ahjvciulzdwyyshu.jpg	7	2.429	0.250	1395.590	584.572	0.128	0.125	0.0	23	window
+sun_ahjvciulzdwyyshu.jpg	8	2.712	0.242	1495.195	674.355	0.210	0.067	0.0	23	window

@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_antscxbicizerfki.jpg	1	0.276	0.142	1183.510	640.535	0.105	0.051	0.0	2	cabinet
+sun_antscxbicizerfki.jpg	2	0.443	0.183	998.200	656.548	0.130	0.038	0.0	7	step
+sun_antscxbicizerfki.jpg	3	0.860	0.267	1304.215	585.775	0.124	0.036	0.0	3	countertop
+sun_antscxbicizerfki.jpg	3	0.860	0.267	1304.215	585.775	0.124	0.036	0.0	6	sink
+sun_antscxbicizerfki.jpg	4	1.143	0.208	1315.220	620.995	0.148	0.024	0.0	2	cabinet
+sun_antscxbicizerfki.jpg	4	1.143	0.208	1315.220	620.995	0.148	0.024	0.0	3	countertop
+sun_antscxbicizerfki.jpg	5	1.376	0.208	1327.950	568.340	0.097	0.021	0.0	3	countertop
+sun_antscxbicizerfki.jpg	5	1.376	0.208	1327.950	568.340	0.097	0.021	0.0	6	sink
+sun_antscxbicizerfki.jpg	6	1.601	0.167	1312.273	552.778	0.083	0.011	0.0	3	countertop
+sun_antscxbicizerfki.jpg	7	1.793	0.258	1614.045	564.075	0.101	0.030	0.0	3	countertop
+sun_antscxbicizerfki.jpg	8	2.076	0.192	1642.705	580.890	0.083	0.010	0.0	3	countertop
+sun_antscxbicizerfki.jpg	8	2.076	0.192	1642.705	580.890	0.083	0.010	0.0	6	sink
+sun_antscxbicizerfki.jpg	9	2.285	0.217	1533.480	561.413	0.115	0.059	0.0	3	countertop
+sun_antscxbicizerfki.jpg	9	2.285	0.217	1533.480	561.413	0.115	0.059	0.0	5	outlet
+sun_antscxbicizerfki.jpg	10	2.518	0.250	1604.400	570.430	0.102	0.033	0.0	3	countertop
+sun_antscxbicizerfki.jpg	10	2.518	0.250	1604.400	570.430	0.102	0.033	0.0	6	sink
+sun_antscxbicizerfki.jpg	11	2.801	0.150	1517.003	534.260	0.075	0.009	0.0	3	countertop
+sun_antscxbicizerfki.jpg	11	2.801	0.150	1517.003	534.260	0.075	0.009	0.0	4	mirror

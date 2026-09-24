@@ -1,0 +1,28 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_asrcfjusjydonoin.jpg	1	0.269	0.225	1283.280	711.345	0.101	0.043	0.0	15	kettle
+sun_asrcfjusjydonoin.jpg	1	0.269	0.225	1283.280	711.345	0.101	0.043	0.0	23	stove
+sun_asrcfjusjydonoin.jpg	1	0.269	0.225	1283.280	711.345	0.101	0.043	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	2	0.527	0.225	1025.045	744.365	0.125	0.035	0.0	2	bottle
+sun_asrcfjusjydonoin.jpg	2	0.527	0.225	1025.045	744.365	0.125	0.035	0.0	5	cabinet
+sun_asrcfjusjydonoin.jpg	2	0.527	0.225	1025.045	744.365	0.125	0.035	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	3	0.769	0.450	934.837	729.355	0.131	0.036	0.0	4	cabinet crop
+sun_asrcfjusjydonoin.jpg	3	0.769	0.450	934.837	729.355	0.131	0.036	0.0	5	cabinet
+sun_asrcfjusjydonoin.jpg	3	0.769	0.450	934.837	729.355	0.131	0.036	0.0	21	sink
+sun_asrcfjusjydonoin.jpg	3	0.769	0.450	934.837	729.355	0.131	0.036	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	4	1.252	0.367	1197.588	853.555	0.106	0.027	0.0	11	food
+sun_asrcfjusjydonoin.jpg	4	1.252	0.367	1197.588	853.555	0.106	0.027	0.0	12	fruit
+sun_asrcfjusjydonoin.jpg	4	1.252	0.367	1197.588	853.555	0.106	0.027	0.0	25	tray
+sun_asrcfjusjydonoin.jpg	4	1.252	0.367	1197.588	853.555	0.106	0.027	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	5	1.652	0.175	1314.700	870.595	0.113	0.035	0.0	3	bowl
+sun_asrcfjusjydonoin.jpg	5	1.652	0.175	1314.700	870.595	0.113	0.035	0.0	11	food
+sun_asrcfjusjydonoin.jpg	5	1.652	0.175	1314.700	870.595	0.113	0.035	0.0	22	spoon
+sun_asrcfjusjydonoin.jpg	5	1.652	0.175	1314.700	870.595	0.113	0.035	0.0	25	tray
+sun_asrcfjusjydonoin.jpg	5	1.652	0.175	1314.700	870.595	0.113	0.035	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	6	1.852	0.233	1454.040	884.160	0.100	0.021	0.0	11	food
+sun_asrcfjusjydonoin.jpg	6	1.852	0.233	1454.040	884.160	0.100	0.021	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	7	2.110	0.208	1559.665	773.355	0.112	0.020	0.0	9	drawers
+sun_asrcfjusjydonoin.jpg	7	2.110	0.208	1559.665	773.355	0.112	0.020	0.0	28	worktop
+sun_asrcfjusjydonoin.jpg	8	2.335	0.208	1562.000	682.660	0.120	0.029	0.0	18	plant
+sun_asrcfjusjydonoin.jpg	8	2.335	0.208	1562.000	682.660	0.120	0.029	0.0	27	window
+sun_asrcfjusjydonoin.jpg	9	2.577	0.192	1321.165	627.250	0.106	0.038	0.0	0	other
+sun_asrcfjusjydonoin.jpg	10	2.794	0.158	1208.420	595.695	0.111	0.031	0.0	0	other

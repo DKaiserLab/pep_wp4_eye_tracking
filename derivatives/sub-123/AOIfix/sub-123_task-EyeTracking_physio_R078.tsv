@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_adcrxklhlbwrbkgm.jpg	1	0.550	0.217	1260.145	557.778	0.060	0.017	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	2	0.784	0.342	1135.105	558.145	0.070	0.036	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	3	1.159	0.108	1074.925	587.810	0.052	0.014	0.0	0	other
+sun_adcrxklhlbwrbkgm.jpg	4	1.300	0.308	990.710	730.100	0.089	0.041	0.0	16	paper roll
+sun_adcrxklhlbwrbkgm.jpg	5	1.667	0.267	1573.882	674.820	0.070	0.021	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	6	1.984	0.275	1581.450	914.060	0.108	0.047	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	7	2.300	0.108	1603.490	942.940	0.062	0.012	0.0	19	range
+sun_adcrxklhlbwrbkgm.jpg	8	2.475	0.417	1018.600	790.005	0.094	0.062	0.0	6	dishcloth
+sun_adcrxklhlbwrbkgm.jpg	8	2.475	0.417	1018.600	790.005	0.094	0.062	0.0	16	paper roll
+sun_adcrxklhlbwrbkgm.jpg	8	2.475	0.417	1018.600	790.005	0.094	0.062	0.0	25	worktop
+sun_adcrxklhlbwrbkgm.jpg	9	2.917	0.100	1116.593	624.483	0.551	1.524	0.0	0	other

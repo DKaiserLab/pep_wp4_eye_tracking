@@ -1,0 +1,18 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ansbufagozaoxmru.jpg	1	0.324	0.200	1352.062	688.540	0.095	0.023	0.0	0	other
+sun_ansbufagozaoxmru.jpg	2	0.549	0.200	1553.045	690.300	0.099	0.025	0.0	0	other
+sun_ansbufagozaoxmru.jpg	3	0.799	0.175	1636.235	657.295	0.094	0.033	0.0	0	other
+sun_ansbufagozaoxmru.jpg	4	0.999	0.217	1456.612	571.248	0.088	0.021	0.0	5	curtain
+sun_ansbufagozaoxmru.jpg	5	1.249	0.258	1141.990	742.900	0.096	0.034	0.0	4	countertop
+sun_ansbufagozaoxmru.jpg	5	1.249	0.258	1141.990	742.900	0.096	0.034	0.0	5	curtain
+sun_ansbufagozaoxmru.jpg	5	1.249	0.258	1141.990	742.900	0.096	0.034	0.0	8	sink
+sun_ansbufagozaoxmru.jpg	6	1.533	0.200	1081.892	781.512	0.099	0.030	0.0	4	countertop
+sun_ansbufagozaoxmru.jpg	6	1.533	0.200	1081.892	781.512	0.099	0.030	0.0	8	sink
+sun_ansbufagozaoxmru.jpg	7	1.766	0.392	1011.965	757.400	0.124	0.051	0.0	1	basket
+sun_ansbufagozaoxmru.jpg	7	1.766	0.392	1011.965	757.400	0.124	0.051	0.0	4	countertop
+sun_ansbufagozaoxmru.jpg	7	1.766	0.392	1011.965	757.400	0.124	0.051	0.0	5	curtain
+sun_ansbufagozaoxmru.jpg	7	1.766	0.392	1011.965	757.400	0.124	0.051	0.0	8	sink
+sun_ansbufagozaoxmru.jpg	7	1.766	0.392	1011.965	757.400	0.124	0.051	0.0	9	soap
+sun_ansbufagozaoxmru.jpg	8	2.183	0.333	1157.945	936.998	0.388	0.158	0.0	3	cabinet crop
+sun_ansbufagozaoxmru.jpg	8	2.183	0.333	1157.945	936.998	0.388	0.158	0.0	4	countertop
+sun_ansbufagozaoxmru.jpg	9	2.574	0.408	906.915	537.895	0.097	0.068	0.0	7	shelf crop

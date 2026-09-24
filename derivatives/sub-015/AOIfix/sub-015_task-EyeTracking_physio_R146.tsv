@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajxvejtymbkewxpy.jpg	1	0.241	0.350	1274.240	626.940	0.166	0.103	0.0	9	extractor hood
+sun_ajxvejtymbkewxpy.jpg	2	0.616	0.217	1380.860	597.790	0.082	0.015	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	3	0.866	0.158	1519.685	532.425	0.138	0.030	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	4	1.158	0.167	1502.493	819.597	0.256	0.102	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	4	1.158	0.167	1502.493	819.597	0.256	0.102	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	5	1.374	0.342	1079.390	796.360	0.128	0.045	0.0	7	cutting board
+sun_ajxvejtymbkewxpy.jpg	5	1.374	0.342	1079.390	796.360	0.128	0.045	0.0	16	sink
+sun_ajxvejtymbkewxpy.jpg	5	1.374	0.342	1079.390	796.360	0.128	0.045	0.0	17	utensils canister
+sun_ajxvejtymbkewxpy.jpg	5	1.374	0.342	1079.390	796.360	0.128	0.045	0.0	19	worktop
+sun_ajxvejtymbkewxpy.jpg	6	1.741	0.167	1159.245	654.265	0.169	0.039	0.0	4	cabinet
+sun_ajxvejtymbkewxpy.jpg	7	1.924	0.150	1067.455	635.530	0.084	0.017	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	8	2.091	0.225	1059.290	611.590	0.089	0.028	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	9	2.466	0.192	1500.160	501.545	0.085	0.025	0.0	0	other
+sun_ajxvejtymbkewxpy.jpg	10	2.683	0.158	1287.525	848.960	0.180	0.059	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	11	2.858	0.142	1283.450	815.290	0.165	0.026	0.0	13	oven
+sun_ajxvejtymbkewxpy.jpg	11	2.858	0.142	1283.450	815.290	0.165	0.026	0.0	19	worktop

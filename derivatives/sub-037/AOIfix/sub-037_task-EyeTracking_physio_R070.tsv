@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ataniphupyuxeowc.jpg	1	0.210	0.250	1298.145	581.630	0.173	0.064	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	2	0.485	0.233	1496.340	582.978	0.104	0.037	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	3	0.743	0.317	1306.770	676.028	0.108	0.078	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	4	1.076	0.217	1273.132	730.280	0.193	0.138	0.0	19	plate
+sun_ataniphupyuxeowc.jpg	4	1.076	0.217	1273.132	730.280	0.193	0.138	0.0	24	scales
+sun_ataniphupyuxeowc.jpg	5	1.318	0.225	1119.305	772.910	0.094	0.101	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	5	1.318	0.225	1119.305	772.910	0.094	0.101	0.0	16	microwave
+sun_ataniphupyuxeowc.jpg	5	1.318	0.225	1119.305	772.910	0.094	0.101	0.0	17	oven
+sun_ataniphupyuxeowc.jpg	6	1.576	0.417	1514.633	742.967	0.121	0.065	0.0	11	flowers
+sun_ataniphupyuxeowc.jpg	7	2.018	0.358	1608.200	814.585	0.088	0.037	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	7	2.018	0.358	1608.200	814.585	0.088	0.037	0.0	30	worktop
+sun_ataniphupyuxeowc.jpg	8	2.401	0.258	1498.445	803.185	0.142	0.038	0.0	1	basket
+sun_ataniphupyuxeowc.jpg	8	2.401	0.258	1498.445	803.185	0.142	0.038	0.0	11	flowers
+sun_ataniphupyuxeowc.jpg	8	2.401	0.258	1498.445	803.185	0.142	0.038	0.0	30	worktop
+sun_ataniphupyuxeowc.jpg	9	2.685	0.317	1286.098	912.207	0.099	0.050	0.0	6	cabinets

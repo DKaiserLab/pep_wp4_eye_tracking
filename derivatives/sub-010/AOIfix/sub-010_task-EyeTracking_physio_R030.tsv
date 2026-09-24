@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acselzrpurxmucxu.jpg	1	0.208	0.225	1126.340	652.855	0.152	0.037	0.0	1	sink
+sun_acselzrpurxmucxu.jpg	2	0.450	0.200	1047.202	686.345	0.086	0.028	0.0	1	sink
+sun_acselzrpurxmucxu.jpg	2	0.450	0.200	1047.202	686.345	0.086	0.028	0.0	2	soap
+sun_acselzrpurxmucxu.jpg	3	0.667	0.542	1022.660	686.220	0.089	0.024	0.0	1	sink
+sun_acselzrpurxmucxu.jpg	3	0.667	0.542	1022.660	686.220	0.089	0.024	0.0	2	soap
+sun_acselzrpurxmucxu.jpg	4	1.234	0.208	1178.065	630.665	0.132	0.033	0.0	1	sink
+sun_acselzrpurxmucxu.jpg	4	1.234	0.208	1178.065	630.665	0.132	0.033	0.0	2	soap
+sun_acselzrpurxmucxu.jpg	5	1.459	0.258	1189.985	620.045	0.121	0.019	0.0	1	sink
+sun_acselzrpurxmucxu.jpg	5	1.459	0.258	1189.985	620.045	0.121	0.019	0.0	2	soap
+sun_acselzrpurxmucxu.jpg	6	1.759	0.158	1543.400	680.685	0.165	0.034	0.0	3	toilet
+sun_acselzrpurxmucxu.jpg	7	1.942	0.167	1574.078	792.960	0.105	0.017	0.0	3	toilet
+sun_acselzrpurxmucxu.jpg	8	2.142	0.192	1578.070	844.600	0.064	0.011	0.0	3	toilet
+sun_acselzrpurxmucxu.jpg	9	2.350	0.125	1507.060	887.510	0.077	0.015	0.0	3	toilet
+sun_acselzrpurxmucxu.jpg	10	2.525	0.183	1587.977	569.980	0.093	0.018	0.0	0	other
+sun_acselzrpurxmucxu.jpg	11	2.725	0.150	1604.530	513.803	0.097	0.018	0.0	0	other

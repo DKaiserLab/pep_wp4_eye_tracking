@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ataniphupyuxeowc.jpg	1	0.793	0.208	1221.730	626.870	0.096	0.019	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	2	1.018	0.217	1091.842	649.722	0.120	0.040	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	2	1.018	0.217	1091.842	649.722	0.120	0.040	0.0	16	microwave
+sun_ataniphupyuxeowc.jpg	3	1.259	0.158	1030.180	688.745	0.091	0.015	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	4	1.443	0.458	1000.970	669.510	0.080	0.016	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	4	1.443	0.458	1000.970	669.510	0.080	0.016	0.0	15	ladle
+sun_ataniphupyuxeowc.jpg	5	1.918	0.200	1097.385	688.250	0.070	0.032	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	5	1.918	0.200	1097.385	688.250	0.070	0.032	0.0	16	microwave
+sun_ataniphupyuxeowc.jpg	6	2.134	0.433	1209.505	696.938	0.100	0.045	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	6	2.134	0.433	1209.505	696.938	0.100	0.045	0.0	19	plate
+sun_ataniphupyuxeowc.jpg	7	2.601	0.183	1399.490	695.640	0.101	0.023	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	8	2.826	0.183	1583.430	562.320	0.085	0.033	0.0	5	cabinet
+sun_ataniphupyuxeowc.jpg	8	2.826	0.183	1583.430	562.320	0.085	0.033	0.0	27	statue
+sun_ataniphupyuxeowc.jpg	8	2.826	0.183	1583.430	562.320	0.085	0.033	0.0	29	tray

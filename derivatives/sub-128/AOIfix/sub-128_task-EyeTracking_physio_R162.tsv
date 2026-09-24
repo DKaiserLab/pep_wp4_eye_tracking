@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aglwoufpxbtxqecp.jpg	1	0.234	0.242	1276.220	744.110	0.092	0.015	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	2	0.493	0.225	1267.685	813.085	0.099	0.027	0.0	3	bowl
+sun_aglwoufpxbtxqecp.jpg	2	0.493	0.225	1267.685	813.085	0.099	0.027	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	2	0.493	0.225	1267.685	813.085	0.099	0.027	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	3	0.734	0.383	1292.992	841.507	0.086	0.017	0.0	3	bowl
+sun_aglwoufpxbtxqecp.jpg	3	0.734	0.383	1292.992	841.507	0.086	0.017	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	3	0.734	0.383	1292.992	841.507	0.086	0.017	0.0	12	fruit
+sun_aglwoufpxbtxqecp.jpg	3	0.734	0.383	1292.992	841.507	0.086	0.017	0.0	24	table
+sun_aglwoufpxbtxqecp.jpg	4	1.143	0.192	1410.250	828.725	0.097	0.018	0.0	6	chair
+sun_aglwoufpxbtxqecp.jpg	4	1.143	0.192	1410.250	828.725	0.097	0.018	0.0	22	refrigerator
+sun_aglwoufpxbtxqecp.jpg	5	1.468	0.200	1647.773	756.105	0.127	0.029	0.0	25	worktop
+sun_aglwoufpxbtxqecp.jpg	6	1.684	0.408	1690.925	714.780	0.124	0.036	0.0	7	coffee maker
+sun_aglwoufpxbtxqecp.jpg	7	2.118	0.233	1525.188	685.110	0.158	0.078	0.0	4	cabinet
+sun_aglwoufpxbtxqecp.jpg	7	2.118	0.233	1525.188	685.110	0.158	0.078	0.0	22	refrigerator
+sun_aglwoufpxbtxqecp.jpg	8	2.376	0.217	1358.382	740.967	0.182	0.049	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	9	2.626	0.208	1254.200	759.555	0.115	0.032	0.0	9	door
+sun_aglwoufpxbtxqecp.jpg	10	2.868	0.142	1060.710	745.835	0.226	0.045	0.0	21	range
+sun_aglwoufpxbtxqecp.jpg	10	2.868	0.142	1060.710	745.835	0.226	0.045	0.0	25	worktop

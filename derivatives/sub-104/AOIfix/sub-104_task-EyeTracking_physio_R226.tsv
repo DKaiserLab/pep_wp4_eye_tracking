@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agctjiqflyqiupzx.jpg	1	0.295	0.300	990.653	776.382	0.084	0.054	0.0	8	range
+sun_agctjiqflyqiupzx.jpg	2	0.629	0.117	927.380	642.612	0.091	0.023	0.0	8	range
+sun_agctjiqflyqiupzx.jpg	3	0.779	0.167	1077.800	519.640	0.232	0.048	0.0	2	cabinet
+sun_agctjiqflyqiupzx.jpg	3	0.779	0.167	1077.800	519.640	0.232	0.048	0.0	3	extractor hood
+sun_agctjiqflyqiupzx.jpg	4	1.079	0.233	1633.815	787.168	0.094	0.016	0.0	2	cabinet
+sun_agctjiqflyqiupzx.jpg	4	1.079	0.233	1633.815	787.168	0.094	0.016	0.0	13	worktop
+sun_agctjiqflyqiupzx.jpg	5	1.329	0.292	1634.160	846.530	0.090	0.028	0.0	2	cabinet
+sun_agctjiqflyqiupzx.jpg	5	1.329	0.292	1634.160	846.530	0.090	0.028	0.0	11	stool
+sun_agctjiqflyqiupzx.jpg	6	1.679	0.283	1109.777	741.492	0.088	0.026	0.0	2	cabinet
+sun_agctjiqflyqiupzx.jpg	6	1.679	0.283	1109.777	741.492	0.088	0.026	0.0	8	range
+sun_agctjiqflyqiupzx.jpg	7	1.987	0.192	1182.015	684.325	0.099	0.023	0.0	4	food processor
+sun_agctjiqflyqiupzx.jpg	7	1.987	0.192	1182.015	684.325	0.099	0.023	0.0	10	sink
+sun_agctjiqflyqiupzx.jpg	7	1.987	0.192	1182.015	684.325	0.099	0.023	0.0	13	worktop
+sun_agctjiqflyqiupzx.jpg	8	2.229	0.425	1532.985	706.050	0.077	0.025	0.0	1	bowl
+sun_agctjiqflyqiupzx.jpg	8	2.229	0.425	1532.985	706.050	0.077	0.025	0.0	7	pot
+sun_agctjiqflyqiupzx.jpg	9	2.695	0.308	1136.830	745.080	0.077	0.017	0.0	2	cabinet

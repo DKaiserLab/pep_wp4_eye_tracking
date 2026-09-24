@@ -1,0 +1,22 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_arvuykssgbdzaavk.jpg	1	0.306	0.250	1034.015	783.612	0.218	0.189	0.0	1	basket
+sun_arvuykssgbdzaavk.jpg	1	0.306	0.250	1034.015	783.612	0.218	0.189	0.0	12	flowers
+sun_arvuykssgbdzaavk.jpg	1	0.306	0.250	1034.015	783.612	0.218	0.189	0.0	14	kitchen island
+sun_arvuykssgbdzaavk.jpg	1	0.306	0.250	1034.015	783.612	0.218	0.189	0.0	29	table
+sun_arvuykssgbdzaavk.jpg	2	0.573	0.183	1108.005	765.470	0.221	0.076	0.0	1	basket
+sun_arvuykssgbdzaavk.jpg	2	0.573	0.183	1108.005	765.470	0.221	0.076	0.0	12	flowers
+sun_arvuykssgbdzaavk.jpg	2	0.573	0.183	1108.005	765.470	0.221	0.076	0.0	14	kitchen island
+sun_arvuykssgbdzaavk.jpg	2	0.573	0.183	1108.005	765.470	0.221	0.076	0.0	29	table
+sun_arvuykssgbdzaavk.jpg	3	0.781	0.258	1365.205	645.990	0.358	0.121	0.0	3	cabinet
+sun_arvuykssgbdzaavk.jpg	3	0.781	0.258	1365.205	645.990	0.358	0.121	0.0	31	tray
+sun_arvuykssgbdzaavk.jpg	4	1.056	0.242	1484.575	651.415	0.191	0.074	0.0	0	other
+sun_arvuykssgbdzaavk.jpg	5	1.348	0.208	1271.110	514.360	0.155	0.048	0.0	3	cabinet
+sun_arvuykssgbdzaavk.jpg	5	1.348	0.208	1271.110	514.360	0.155	0.048	0.0	24	platter
+sun_arvuykssgbdzaavk.jpg	5	1.348	0.208	1271.110	514.360	0.155	0.048	0.0	30	teapot
+sun_arvuykssgbdzaavk.jpg	6	1.606	0.208	1006.495	509.820	0.105	0.028	0.0	6	chandelier
+sun_arvuykssgbdzaavk.jpg	6	1.606	0.208	1006.495	509.820	0.105	0.028	0.0	32	windows
+sun_arvuykssgbdzaavk.jpg	7	1.831	0.292	991.265	613.575	0.148	0.042	0.0	32	windows
+sun_arvuykssgbdzaavk.jpg	8	2.156	0.217	1395.605	611.365	0.264	0.184	0.0	3	cabinet
+sun_arvuykssgbdzaavk.jpg	9	2.390	0.200	1513.703	611.650	0.315	0.148	0.0	3	cabinet
+sun_arvuykssgbdzaavk.jpg	10	2.598	0.142	1588.835	673.215	0.237	0.129	0.0	3	cabinet
+sun_arvuykssgbdzaavk.jpg	11	2.756	0.242	1403.100	740.075	0.260	0.129	0.0	26	range

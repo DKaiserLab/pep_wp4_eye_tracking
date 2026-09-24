@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aueoksosdjqlckgv.jpg	1	0.167	0.158	1195.405	772.110	0.163	0.070	0.0	4	cabinet
+sun_aueoksosdjqlckgv.jpg	2	0.483	0.208	1198.285	785.080	0.290	0.130	0.0	4	cabinet
+sun_aueoksosdjqlckgv.jpg	2	0.483	0.208	1198.285	785.080	0.290	0.130	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	3	0.708	0.450	1231.217	834.680	0.366	0.224	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	4	1.200	0.325	1057.395	591.210	0.082	0.038	0.0	0	other
+sun_aueoksosdjqlckgv.jpg	5	1.542	0.267	1162.280	605.885	0.079	0.037	0.0	3	bottle
+sun_aueoksosdjqlckgv.jpg	6	1.825	0.133	1189.840	625.517	0.091	0.020	0.0	0	other
+sun_aueoksosdjqlckgv.jpg	7	1.992	0.250	927.602	758.505	0.104	0.033	0.0	13	refrigerator
+sun_aueoksosdjqlckgv.jpg	8	2.267	0.200	883.570	846.355	0.207	0.075	0.0	0	other
+sun_aueoksosdjqlckgv.jpg	9	2.492	0.200	975.125	988.670	0.172	0.057	0.0	0	other
+sun_aueoksosdjqlckgv.jpg	10	2.717	0.133	1154.008	958.740	0.122	0.036	0.0	17	worktop
+sun_aueoksosdjqlckgv.jpg	11	2.884	0.125	858.670	1004.280	0.087	0.026	0.0	16	trash can crop

@@ -1,0 +1,19 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agldadusrezhmyva.jpg	1	0.558	0.292	1263.720	762.460	0.310	0.228	0.0	2	bottle
+sun_agldadusrezhmyva.jpg	1	0.558	0.292	1263.720	762.460	0.310	0.228	0.0	30	worktop
+sun_agldadusrezhmyva.jpg	2	0.875	0.233	1313.783	773.777	0.096	0.042	0.0	2	bottle
+sun_agldadusrezhmyva.jpg	2	0.875	0.233	1313.783	773.777	0.096	0.042	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	2	0.875	0.233	1313.783	773.777	0.096	0.042	0.0	30	worktop
+sun_agldadusrezhmyva.jpg	3	1.125	0.283	1357.598	776.975	0.127	0.053	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	3	1.125	0.283	1357.598	776.975	0.127	0.053	0.0	30	worktop
+sun_agldadusrezhmyva.jpg	4	1.433	0.192	1474.200	723.505	0.170	0.061	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	4	1.433	0.192	1474.200	723.505	0.170	0.061	0.0	22	salt
+sun_agldadusrezhmyva.jpg	5	1.650	0.367	1595.788	721.763	0.164	0.082	0.0	0	other
+sun_agldadusrezhmyva.jpg	6	2.042	0.333	1558.828	812.025	0.187	0.092	0.0	18	kitchen island
+sun_agldadusrezhmyva.jpg	6	2.042	0.333	1558.828	812.025	0.187	0.092	0.0	25	stove
+sun_agldadusrezhmyva.jpg	7	2.408	0.333	1436.485	763.615	0.131	0.030	0.0	5	cabinet
+sun_agldadusrezhmyva.jpg	7	2.408	0.333	1436.485	763.615	0.131	0.030	0.0	30	worktop
+sun_agldadusrezhmyva.jpg	8	2.767	0.242	1068.025	739.200	0.171	0.128	0.0	12	flowers
+sun_agldadusrezhmyva.jpg	8	2.767	0.242	1068.025	739.200	0.171	0.128	0.0	24	soap dispenser
+sun_agldadusrezhmyva.jpg	8	2.767	0.242	1068.025	739.200	0.171	0.128	0.0	28	vase
+sun_agldadusrezhmyva.jpg	8	2.767	0.242	1068.025	739.200	0.171	0.128	0.0	29	window

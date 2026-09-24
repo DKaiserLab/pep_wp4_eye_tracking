@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqrpegblszgcoujh.jpg	1	0.331	0.125	1236.165	724.700	0.094	0.025	0.0	3	cabinet
+sun_aqrpegblszgcoujh.jpg	1	0.331	0.125	1236.165	724.700	0.094	0.025	0.0	7	plantpot
+sun_aqrpegblszgcoujh.jpg	2	0.489	0.467	971.263	720.945	0.070	0.080	0.0	0	other
+sun_aqrpegblszgcoujh.jpg	3	1.106	0.317	1504.460	823.065	0.072	0.058	0.0	11	toilet
+sun_aqrpegblszgcoujh.jpg	4	1.447	0.258	1555.945	681.315	0.144	0.050	0.0	5	pipe
+sun_aqrpegblszgcoujh.jpg	5	1.756	0.125	1385.390	690.025	0.047	0.013	0.0	0	other
+sun_aqrpegblszgcoujh.jpg	6	1.947	0.475	1011.115	728.245	0.049	0.016	0.0	0	other
+sun_aqrpegblszgcoujh.jpg	7	2.439	0.200	985.107	735.153	0.082	0.025	0.0	0	other
+sun_aqrpegblszgcoujh.jpg	8	2.681	0.242	1279.550	732.385	0.068	0.018	0.0	3	cabinet
+sun_aqrpegblszgcoujh.jpg	8	2.681	0.242	1279.550	732.385	0.068	0.018	0.0	7	plantpot

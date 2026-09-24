@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alkabxwdzpdmkuvo.jpg	1	0.294	0.583	1204.128	717.648	0.107	0.034	0.0	15	statue
+sun_alkabxwdzpdmkuvo.jpg	2	0.894	0.583	1213.688	790.205	0.109	0.045	0.0	7	flowers
+sun_alkabxwdzpdmkuvo.jpg	2	0.894	0.583	1213.688	790.205	0.109	0.045	0.0	15	statue
+sun_alkabxwdzpdmkuvo.jpg	2	0.894	0.583	1213.688	790.205	0.109	0.045	0.0	20	vase
+sun_alkabxwdzpdmkuvo.jpg	3	1.527	0.400	1219.375	654.807	0.120	0.027	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	4	1.952	0.275	1187.465	569.215	0.176	0.034	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	5	2.244	0.292	1268.030	520.930	0.269	0.114	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	6	2.560	0.325	1494.520	597.115	0.254	0.097	0.0	0	other
+sun_alkabxwdzpdmkuvo.jpg	7	2.910	0.100	1526.938	720.152	0.171	0.057	0.0	6	curtain
+sun_alkabxwdzpdmkuvo.jpg	7	2.910	0.100	1526.938	720.152	0.171	0.057	0.0	21	window

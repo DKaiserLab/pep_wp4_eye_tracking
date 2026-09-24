@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+labelme_qglnhnudtmzmocz.jpg	1	0.461	0.167	1218.220	727.885	0.214	0.098	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	1	0.461	0.167	1218.220	727.885	0.214	0.098	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	2	0.644	0.308	1160.780	736.885	0.187	0.127	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	2	0.644	0.308	1160.780	736.885	0.187	0.127	0.0	37	worktop
+labelme_qglnhnudtmzmocz.jpg	3	1.269	0.108	1387.795	674.003	0.960	1.978	7.7	31	stairs
+labelme_qglnhnudtmzmocz.jpg	4	1.394	0.183	1463.450	692.862	0.307	0.172	0.0	30	spoons
+labelme_qglnhnudtmzmocz.jpg	5	1.594	0.558	1514.545	717.030	0.208	0.084	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	5	1.594	0.558	1514.545	717.030	0.208	0.084	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	6	2.202	0.308	1250.880	726.915	0.146	0.051	0.0	1	basket
+labelme_qglnhnudtmzmocz.jpg	6	2.202	0.308	1250.880	726.915	0.146	0.051	0.0	5	cabinet
+labelme_qglnhnudtmzmocz.jpg	6	2.202	0.308	1250.880	726.915	0.146	0.051	0.0	32	stool
+labelme_qglnhnudtmzmocz.jpg	7	2.544	0.458	1276.430	742.085	0.163	0.103	0.0	1	basket
+labelme_qglnhnudtmzmocz.jpg	7	2.544	0.458	1276.430	742.085	0.163	0.103	0.0	4	bowl
+labelme_qglnhnudtmzmocz.jpg	7	2.544	0.458	1276.430	742.085	0.163	0.103	0.0	32	stool

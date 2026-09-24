@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ajmwiafzffjerzeb.jpg	1	0.426	0.233	1004.493	689.975	0.284	0.168	0.0	6	door frame
+sun_ajmwiafzffjerzeb.jpg	2	0.685	0.192	1191.925	629.280	0.132	0.029	0.0	3	cabinet
+sun_ajmwiafzffjerzeb.jpg	2	0.685	0.192	1191.925	629.280	0.132	0.029	0.0	11	microwave
+sun_ajmwiafzffjerzeb.jpg	3	0.893	0.275	1319.540	797.010	0.189	0.077	0.0	3	cabinet
+sun_ajmwiafzffjerzeb.jpg	3	0.893	0.275	1319.540	797.010	0.189	0.077	0.0	12	oven
+sun_ajmwiafzffjerzeb.jpg	4	1.193	0.367	1496.062	737.195	0.235	0.110	0.0	13	sink
+sun_ajmwiafzffjerzeb.jpg	4	1.193	0.367	1496.062	737.195	0.235	0.110	0.0	15	worktop
+sun_ajmwiafzffjerzeb.jpg	5	1.585	0.342	1168.865	756.135	0.267	0.197	0.0	8	food processor
+sun_ajmwiafzffjerzeb.jpg	6	1.960	0.183	1097.730	785.680	0.170	0.027	0.0	0	other
+sun_ajmwiafzffjerzeb.jpg	7	2.168	0.275	960.550	665.250	0.162	0.039	0.0	14	window
+sun_ajmwiafzffjerzeb.jpg	8	2.493	0.333	1205.810	605.080	0.121	0.029	0.0	3	cabinet
+sun_ajmwiafzffjerzeb.jpg	8	2.493	0.333	1205.810	605.080	0.121	0.029	0.0	11	microwave
+sun_ajmwiafzffjerzeb.jpg	9	2.843	0.158	1328.675	667.080	0.299	0.139	0.0	10	knife set

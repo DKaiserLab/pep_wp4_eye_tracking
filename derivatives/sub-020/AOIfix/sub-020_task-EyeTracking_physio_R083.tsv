@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aqrdtsxisrulfusj.jpg	1	0.493	0.233	1063.545	762.358	0.112	0.057	0.0	7	food processor
+sun_aqrdtsxisrulfusj.jpg	1	0.493	0.233	1063.545	762.358	0.112	0.057	0.0	16	worktop
+sun_aqrdtsxisrulfusj.jpg	2	0.743	0.175	1108.340	739.860	0.093	0.038	0.0	7	food processor
+sun_aqrdtsxisrulfusj.jpg	3	0.935	0.408	1028.125	764.170	0.138	0.072	0.0	15	toaster
+sun_aqrdtsxisrulfusj.jpg	3	0.935	0.408	1028.125	764.170	0.138	0.072	0.0	16	worktop
+sun_aqrdtsxisrulfusj.jpg	4	1.410	0.492	1263.810	750.330	0.080	0.054	0.0	0	other
+sun_aqrdtsxisrulfusj.jpg	5	1.935	0.208	1545.310	657.440	0.104	0.073	0.0	8	microwave
+sun_aqrdtsxisrulfusj.jpg	6	2.177	0.225	1609.810	633.400	0.084	0.038	0.0	8	microwave
+sun_aqrdtsxisrulfusj.jpg	7	2.435	0.283	1259.532	594.165	0.088	0.024	0.0	2	cabinet
+sun_aqrdtsxisrulfusj.jpg	7	2.435	0.283	1259.532	594.165	0.088	0.024	0.0	6	fluorescent tube
+sun_aqrdtsxisrulfusj.jpg	8	2.752	0.250	1307.235	778.820	0.150	0.094	0.0	12	sink
+sun_aqrdtsxisrulfusj.jpg	8	2.752	0.250	1307.235	778.820	0.150	0.094	0.0	16	worktop

@@ -1,0 +1,9 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aovnyfewezfmgwke.jpg	1	0.340	0.342	1221.860	701.290	0.142	0.046	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	2	0.707	0.175	1207.175	627.900	0.161	0.086	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	3	1.057	0.300	1676.465	688.183	0.128	0.048	0.0	17	sill
+sun_aovnyfewezfmgwke.jpg	4	1.382	0.133	1657.275	721.290	0.078	0.012	0.0	0	other
+sun_aovnyfewezfmgwke.jpg	5	1.565	0.108	1053.940	602.670	0.186	0.122	0.0	1	bottle
+sun_aovnyfewezfmgwke.jpg	6	1.690	0.483	891.983	626.487	0.107	0.168	0.0	11	picture crop
+sun_aovnyfewezfmgwke.jpg	7	2.207	0.350	1294.097	677.720	0.112	0.040	0.0	14	range
+sun_aovnyfewezfmgwke.jpg	8	2.574	0.383	1278.072	679.290	0.077	0.050	0.0	14	range

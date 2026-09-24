@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_azbzyzntqpgdoyyu.jpg	1	0.267	0.208	1313.320	695.380	0.212	0.148	0.0	0	other
+sun_azbzyzntqpgdoyyu.jpg	2	0.509	0.233	1140.500	570.672	0.174	0.070	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	3	0.759	0.358	1042.370	593.220	0.158	0.167	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	4	1.151	0.192	1219.755	760.445	0.135	0.066	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	4	1.151	0.192	1219.755	760.445	0.135	0.066	0.0	13	tissue box
+sun_azbzyzntqpgdoyyu.jpg	5	1.376	0.225	1413.280	725.120	0.108	0.067	0.0	9	shelf
+sun_azbzyzntqpgdoyyu.jpg	5	1.376	0.225	1413.280	725.120	0.108	0.067	0.0	12	television
+sun_azbzyzntqpgdoyyu.jpg	5	1.376	0.225	1413.280	725.120	0.108	0.067	0.0	14	towel
+sun_azbzyzntqpgdoyyu.jpg	6	1.634	0.383	1495.983	658.962	0.115	0.052	0.0	12	television
+sun_azbzyzntqpgdoyyu.jpg	7	2.059	0.225	1288.440	939.545	0.093	0.045	0.0	0	other
+sun_azbzyzntqpgdoyyu.jpg	8	2.309	0.200	1239.628	898.980	0.103	0.018	0.0	3	cabinet
+sun_azbzyzntqpgdoyyu.jpg	8	2.309	0.200	1239.628	898.980	0.103	0.018	0.0	14	towel
+sun_azbzyzntqpgdoyyu.jpg	9	2.542	0.325	1164.650	670.305	0.126	0.022	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	10	2.901	0.108	1221.700	699.270	0.080	0.014	0.0	8	mirror
+sun_azbzyzntqpgdoyyu.jpg	10	2.901	0.108	1221.700	699.270	0.080	0.014	0.0	13	tissue box

@@ -1,0 +1,15 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aavzagnbsbymxlyh.jpg	1	0.487	0.133	1310.608	748.370	0.188	0.108	0.0	18	range
+sun_aavzagnbsbymxlyh.jpg	1	0.487	0.133	1310.608	748.370	0.188	0.108	0.0	19	sink
+sun_aavzagnbsbymxlyh.jpg	1	0.487	0.133	1310.608	748.370	0.188	0.108	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	2	0.645	0.533	1178.030	683.975	0.105	0.033	0.0	17	pot
+sun_aavzagnbsbymxlyh.jpg	2	0.645	0.533	1178.030	683.975	0.105	0.033	0.0	18	range
+sun_aavzagnbsbymxlyh.jpg	3	1.370	0.617	1222.767	720.207	0.140	0.084	0.0	18	range
+sun_aavzagnbsbymxlyh.jpg	4	2.012	0.258	1473.270	801.890	0.237	0.185	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	5	2.295	0.258	1342.705	906.830	0.443	0.176	0.0	15	pipes
+sun_aavzagnbsbymxlyh.jpg	5	2.295	0.258	1342.705	906.830	0.443	0.176	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	6	2.570	0.183	1203.957	932.903	0.505	0.293	0.0	3	bowl
+sun_aavzagnbsbymxlyh.jpg	6	2.570	0.183	1203.957	932.903	0.505	0.293	0.0	20	table
+sun_aavzagnbsbymxlyh.jpg	7	2.770	0.233	1236.090	672.118	0.215	0.060	0.0	2	board
+sun_aavzagnbsbymxlyh.jpg	7	2.770	0.233	1236.090	672.118	0.215	0.060	0.0	17	pot
+sun_aavzagnbsbymxlyh.jpg	7	2.770	0.233	1236.090	672.118	0.215	0.060	0.0	18	range

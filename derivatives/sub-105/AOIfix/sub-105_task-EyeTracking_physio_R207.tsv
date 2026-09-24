@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_ahjhgfuccyykgcqk.jpg	1	0.402	0.158	1368.635	755.900	0.271	0.207	0.0	2	bottle
+sun_ahjhgfuccyykgcqk.jpg	2	0.585	0.225	1555.265	832.025	0.238	0.137	0.0	0	other
+sun_ahjhgfuccyykgcqk.jpg	3	0.835	0.192	1642.510	825.585	0.225	0.096	0.0	0	other
+sun_ahjhgfuccyykgcqk.jpg	4	1.052	0.175	1675.425	757.435	0.173	0.058	0.0	0	other
+sun_ahjhgfuccyykgcqk.jpg	5	1.252	0.167	1633.043	659.298	0.129	0.033	0.0	5	mirror
+sun_ahjhgfuccyykgcqk.jpg	5	1.252	0.167	1633.043	659.298	0.129	0.033	0.0	12	window
+sun_ahjhgfuccyykgcqk.jpg	6	1.435	0.208	1652.110	612.005	0.122	0.041	0.0	5	mirror
+sun_ahjhgfuccyykgcqk.jpg	6	1.435	0.208	1652.110	612.005	0.122	0.041	0.0	12	window
+sun_ahjhgfuccyykgcqk.jpg	7	1.660	0.183	1600.888	603.720	0.138	0.057	0.0	6	plantpot
+sun_ahjhgfuccyykgcqk.jpg	7	1.660	0.183	1600.888	603.720	0.138	0.057	0.0	12	window
+sun_ahjhgfuccyykgcqk.jpg	8	1.893	0.108	1252.755	589.655	0.163	0.069	0.0	8	shelves
+sun_ahjhgfuccyykgcqk.jpg	9	2.018	0.158	1202.025	605.060	0.091	0.021	0.0	8	shelves
+sun_ahjhgfuccyykgcqk.jpg	10	2.210	0.250	1053.688	767.438	0.149	0.082	0.0	9	sink
+sun_ahjhgfuccyykgcqk.jpg	11	2.485	0.258	1080.470	840.260	0.189	0.079	0.0	4	curtain
+sun_ahjhgfuccyykgcqk.jpg	11	2.485	0.258	1080.470	840.260	0.189	0.079	0.0	9	sink
+sun_ahjhgfuccyykgcqk.jpg	12	2.760	0.250	1096.990	894.798	0.206	0.067	0.0	4	curtain

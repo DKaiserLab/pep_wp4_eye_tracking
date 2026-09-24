@@ -1,0 +1,11 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aufbguyyrccwwxuf.jpg	1	0.418	0.300	1083.595	772.457	0.173	0.084	0.0	0	other
+sun_aufbguyyrccwwxuf.jpg	2	0.751	0.325	1461.105	721.865	0.180	0.089	0.0	10	range
+sun_aufbguyyrccwwxuf.jpg	3	1.109	0.275	1596.770	779.400	0.141	0.044	0.0	1	book
+sun_aufbguyyrccwwxuf.jpg	3	1.109	0.275	1596.770	779.400	0.141	0.044	0.0	2	cabinet
+sun_aufbguyyrccwwxuf.jpg	4	1.418	0.350	1251.905	662.102	0.201	0.105	0.0	2	cabinet
+sun_aufbguyyrccwwxuf.jpg	5	1.784	0.233	1183.330	620.585	0.167	0.061	0.0	15	window
+sun_aufbguyyrccwwxuf.jpg	6	2.034	0.367	1150.845	585.082	0.235	0.077	0.0	8	flush mount light
+sun_aufbguyyrccwwxuf.jpg	6	2.034	0.367	1150.845	585.082	0.235	0.077	0.0	15	window
+sun_aufbguyyrccwwxuf.jpg	7	2.434	0.400	1057.923	932.715	0.127	0.034	0.0	2	cabinet
+sun_aufbguyyrccwwxuf.jpg	8	2.884	0.125	1462.810	823.475	0.117	0.034	0.0	10	range

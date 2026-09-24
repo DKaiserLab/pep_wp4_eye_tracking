@@ -1,0 +1,17 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abgovsbwwyozjdzp.jpg	1	0.275	0.133	1058.867	632.590	0.150	0.055	0.0	2	cabinet
+sun_abgovsbwwyozjdzp.jpg	2	0.433	0.225	916.815	563.245	0.120	0.024	0.0	1	box
+sun_abgovsbwwyozjdzp.jpg	2	0.433	0.225	916.815	563.245	0.120	0.024	0.0	3	calendar
+sun_abgovsbwwyozjdzp.jpg	2	0.433	0.225	916.815	563.245	0.120	0.024	0.0	11	refrigerator
+sun_abgovsbwwyozjdzp.jpg	3	0.675	0.258	898.100	550.785	0.082	0.013	0.0	1	box
+sun_abgovsbwwyozjdzp.jpg	3	0.675	0.258	898.100	550.785	0.082	0.013	0.0	11	refrigerator
+sun_abgovsbwwyozjdzp.jpg	4	0.975	0.175	1025.695	605.260	0.081	0.020	0.0	2	cabinet
+sun_abgovsbwwyozjdzp.jpg	4	0.975	0.175	1025.695	605.260	0.081	0.020	0.0	11	refrigerator
+sun_abgovsbwwyozjdzp.jpg	5	1.175	0.292	1152.855	745.070	0.159	0.045	0.0	5	dishwasher
+sun_abgovsbwwyozjdzp.jpg	5	1.175	0.292	1152.855	745.070	0.159	0.045	0.0	14	worktop
+sun_abgovsbwwyozjdzp.jpg	6	1.625	0.350	1612.310	480.947	0.084	0.018	0.0	13	window
+sun_abgovsbwwyozjdzp.jpg	7	2.000	0.275	1659.940	543.560	0.085	0.016	0.0	7	microwave crop
+sun_abgovsbwwyozjdzp.jpg	8	2.308	0.242	1681.630	660.300	0.118	0.043	0.0	0	other
+sun_abgovsbwwyozjdzp.jpg	9	2.567	0.250	1672.703	726.773	0.106	0.031	0.0	10	range
+sun_abgovsbwwyozjdzp.jpg	10	2.850	0.150	1377.217	733.398	0.087	0.016	0.0	2	cabinet
+sun_abgovsbwwyozjdzp.jpg	10	2.850	0.150	1377.217	733.398	0.087	0.016	0.0	14	worktop

@@ -1,0 +1,16 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acfmftudsenhrfhy.jpg	1	0.342	0.183	1340.765	623.775	0.221	0.179	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	1	0.342	0.183	1340.765	623.775	0.221	0.179	0.0	11	extractor hood
+sun_acfmftudsenhrfhy.jpg	2	0.567	0.250	1545.695	616.465	0.087	0.037	0.0	21	picture
+sun_acfmftudsenhrfhy.jpg	3	0.842	0.208	1574.795	555.900	0.084	0.023	0.0	21	picture
+sun_acfmftudsenhrfhy.jpg	4	1.100	0.275	1062.850	608.680	0.085	0.054	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	4	1.100	0.275	1062.850	608.680	0.085	0.054	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	5	1.400	0.450	998.222	644.433	0.083	0.072	0.0	24	shelves
+sun_acfmftudsenhrfhy.jpg	5	1.400	0.450	998.222	644.433	0.083	0.072	0.0	31	vase
+sun_acfmftudsenhrfhy.jpg	6	1.892	0.300	1306.895	757.188	0.096	0.039	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	6	1.892	0.300	1306.895	757.188	0.096	0.039	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	7	2.217	0.192	1414.830	785.090	0.084	0.070	0.0	5	cabinet
+sun_acfmftudsenhrfhy.jpg	7	2.217	0.192	1414.830	785.090	0.084	0.070	0.0	25	sink
+sun_acfmftudsenhrfhy.jpg	7	2.217	0.192	1414.830	785.090	0.084	0.070	0.0	33	worktop
+sun_acfmftudsenhrfhy.jpg	8	2.425	0.567	1464.668	793.460	0.066	0.026	0.0	25	sink
+sun_acfmftudsenhrfhy.jpg	8	2.425	0.567	1464.668	793.460	0.066	0.026	0.0	33	worktop

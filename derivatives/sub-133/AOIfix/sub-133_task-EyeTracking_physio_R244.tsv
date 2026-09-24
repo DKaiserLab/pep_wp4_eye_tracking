@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_antscxbicizerfki.jpg	1	0.389	0.258	1359.035	684.205	0.054	0.014	0.0	2	cabinet
+sun_antscxbicizerfki.jpg	2	0.805	0.342	1408.255	876.200	0.073	0.039	0.0	2	cabinet
+sun_antscxbicizerfki.jpg	3	1.205	0.225	1305.045	616.945	0.085	0.035	0.0	2	cabinet
+sun_antscxbicizerfki.jpg	3	1.205	0.225	1305.045	616.945	0.085	0.035	0.0	3	countertop
+sun_antscxbicizerfki.jpg	4	1.464	0.233	1386.070	549.908	0.092	0.027	0.0	3	countertop
+sun_antscxbicizerfki.jpg	5	1.714	0.217	1565.110	510.957	0.116	0.030	0.0	4	mirror
+sun_antscxbicizerfki.jpg	6	1.947	0.217	1591.622	568.773	0.085	0.024	0.0	3	countertop
+sun_antscxbicizerfki.jpg	6	1.947	0.217	1591.622	568.773	0.085	0.024	0.0	6	sink
+sun_antscxbicizerfki.jpg	7	2.181	0.208	1658.180	587.790	0.104	0.033	0.0	3	countertop
+sun_antscxbicizerfki.jpg	7	2.181	0.208	1658.180	587.790	0.104	0.033	0.0	6	sink
+sun_antscxbicizerfki.jpg	8	2.431	0.383	1101.993	614.207	0.088	0.023	0.0	2	cabinet
+sun_antscxbicizerfki.jpg	8	2.431	0.383	1101.993	614.207	0.088	0.023	0.0	3	countertop
+sun_antscxbicizerfki.jpg	9	2.847	0.158	1083.750	707.785	0.083	0.012	0.0	7	step

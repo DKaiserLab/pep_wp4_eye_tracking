@@ -1,0 +1,23 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aicgqimzgcarglin.jpg	1	0.279	0.175	1326.205	692.765	0.099	0.058	0.0	21	window
+sun_aicgqimzgcarglin.jpg	2	0.479	0.217	1405.432	708.545	0.093	0.048	0.0	21	window
+sun_aicgqimzgcarglin.jpg	3	0.713	0.233	1465.158	717.755	0.097	0.094	0.0	7	coffee maker
+sun_aicgqimzgcarglin.jpg	3	0.713	0.233	1465.158	717.755	0.097	0.094	0.0	21	window
+sun_aicgqimzgcarglin.jpg	4	0.963	0.525	1506.050	734.560	0.106	0.095	0.0	4	box
+sun_aicgqimzgcarglin.jpg	4	0.963	0.525	1506.050	734.560	0.106	0.095	0.0	7	coffee maker
+sun_aicgqimzgcarglin.jpg	4	0.963	0.525	1506.050	734.560	0.106	0.095	0.0	21	window
+sun_aicgqimzgcarglin.jpg	5	1.504	0.442	1497.555	712.445	0.092	0.138	0.0	4	box
+sun_aicgqimzgcarglin.jpg	5	1.504	0.442	1497.555	712.445	0.092	0.138	0.0	7	coffee maker
+sun_aicgqimzgcarglin.jpg	5	1.504	0.442	1497.555	712.445	0.092	0.138	0.0	21	window
+sun_aicgqimzgcarglin.jpg	6	1.979	0.225	1214.985	723.875	0.100	0.037	0.0	21	window
+sun_aicgqimzgcarglin.jpg	7	2.238	0.192	1092.540	754.000	0.097	0.072	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	7	2.238	0.192	1092.540	754.000	0.097	0.072	0.0	15	radio
+sun_aicgqimzgcarglin.jpg	7	2.238	0.192	1092.540	754.000	0.097	0.072	0.0	22	worktop
+sun_aicgqimzgcarglin.jpg	8	2.463	0.192	1009.405	766.020	0.098	0.093	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	8	2.463	0.192	1009.405	766.020	0.098	0.093	0.0	11	kettle
+sun_aicgqimzgcarglin.jpg	8	2.463	0.192	1009.405	766.020	0.098	0.093	0.0	19	stove
+sun_aicgqimzgcarglin.jpg	8	2.463	0.192	1009.405	766.020	0.098	0.093	0.0	22	worktop
+sun_aicgqimzgcarglin.jpg	9	2.671	0.333	973.537	772.118	0.090	0.042	0.0	5	cabinet
+sun_aicgqimzgcarglin.jpg	9	2.671	0.333	973.537	772.118	0.090	0.042	0.0	11	kettle
+sun_aicgqimzgcarglin.jpg	9	2.671	0.333	973.537	772.118	0.090	0.042	0.0	19	stove
+sun_aicgqimzgcarglin.jpg	9	2.671	0.333	973.537	772.118	0.090	0.042	0.0	22	worktop

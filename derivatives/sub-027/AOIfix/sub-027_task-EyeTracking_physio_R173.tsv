@@ -1,0 +1,12 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_agrkvwbkgrglcoga.jpg	1	0.307	0.292	1419.805	661.695	0.121	0.039	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	2	0.624	0.208	1530.300	605.235	0.113	0.017	0.0	5	extractor hood
+sun_agrkvwbkgrglcoga.jpg	3	0.849	0.292	1455.625	646.540	0.108	0.024	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	4	1.157	0.258	1519.760	604.170	0.107	0.028	0.0	5	extractor hood
+sun_agrkvwbkgrglcoga.jpg	5	1.474	0.233	969.183	903.337	0.136	0.034	0.0	1	bowl
+sun_agrkvwbkgrglcoga.jpg	5	1.474	0.233	969.183	903.337	0.136	0.034	0.0	17	worktop
+sun_agrkvwbkgrglcoga.jpg	6	1.740	0.333	1159.810	736.298	0.297	0.110	0.0	13	refrigerator
+sun_agrkvwbkgrglcoga.jpg	7	2.090	0.167	1269.943	739.385	0.265	0.077	0.0	3	cabinet
+sun_agrkvwbkgrglcoga.jpg	8	2.274	0.183	1451.227	730.967	0.190	0.048	0.0	0	other
+sun_agrkvwbkgrglcoga.jpg	9	2.490	0.150	1548.418	611.862	0.130	0.046	0.0	5	extractor hood
+sun_agrkvwbkgrglcoga.jpg	10	2.657	0.233	1520.318	599.632	0.095	0.018	0.0	5	extractor hood

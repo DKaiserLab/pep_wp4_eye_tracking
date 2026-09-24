@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_atgpcvhxgyoezzht.jpg	1	0.298	0.167	1123.592	778.370	0.240	0.113	0.0	12	sink
+sun_atgpcvhxgyoezzht.jpg	1	0.298	0.167	1123.592	778.370	0.240	0.113	0.0	14	worktop
+sun_atgpcvhxgyoezzht.jpg	2	0.482	0.317	1093.535	569.288	0.147	0.067	0.0	13	window
+sun_atgpcvhxgyoezzht.jpg	3	0.840	0.225	1512.800	969.975	0.178	0.110	0.0	1	bag
+sun_atgpcvhxgyoezzht.jpg	3	0.840	0.225	1512.800	969.975	0.178	0.110	0.0	2	box
+sun_atgpcvhxgyoezzht.jpg	4	1.090	0.158	1316.540	739.575	0.233	0.123	0.0	3	cabinet
+sun_atgpcvhxgyoezzht.jpg	5	1.457	0.350	1256.077	740.920	0.280	0.218	0.0	7	light switch
+sun_atgpcvhxgyoezzht.jpg	5	1.457	0.350	1256.077	740.920	0.280	0.218	0.0	8	outlet
+sun_atgpcvhxgyoezzht.jpg	6	1.832	0.308	1199.975	742.445	0.195	0.097	0.0	13	window
+sun_atgpcvhxgyoezzht.jpg	7	2.173	0.258	1248.820	733.100	0.141	0.040	0.0	7	light switch
+sun_atgpcvhxgyoezzht.jpg	8	2.465	0.317	1192.295	741.183	0.158	0.077	0.0	13	window
+sun_atgpcvhxgyoezzht.jpg	9	2.798	0.200	1246.568	731.595	0.176	0.069	0.0	7	light switch

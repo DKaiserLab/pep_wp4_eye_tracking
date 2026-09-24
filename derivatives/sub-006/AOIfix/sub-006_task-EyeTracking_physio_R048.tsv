@@ -1,0 +1,21 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_alvoexkareccqxgq.jpg	1	0.581	0.192	1381.755	748.070	0.103	0.035	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	2	0.798	0.200	1492.460	627.615	0.132	0.042	0.0	29	plant
+sun_alvoexkareccqxgq.jpg	2	0.798	0.200	1492.460	627.615	0.132	0.042	0.0	44	window
+sun_alvoexkareccqxgq.jpg	3	1.031	0.308	1094.460	578.295	0.103	0.066	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	3	1.031	0.308	1094.460	578.295	0.103	0.066	0.0	18	glasses
+sun_alvoexkareccqxgq.jpg	4	1.356	0.400	1150.862	641.460	0.113	0.150	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	4	1.356	0.400	1150.862	641.460	0.113	0.150	0.0	31	plate
+sun_alvoexkareccqxgq.jpg	5	1.781	0.133	1290.990	855.372	0.220	0.147	0.0	7	cabinet
+sun_alvoexkareccqxgq.jpg	5	1.781	0.133	1290.990	855.372	0.220	0.147	0.0	13	dishcloth
+sun_alvoexkareccqxgq.jpg	5	1.781	0.133	1290.990	855.372	0.220	0.147	0.0	35	range
+sun_alvoexkareccqxgq.jpg	6	1.923	0.267	1287.117	872.300	0.102	0.062	0.0	7	cabinet
+sun_alvoexkareccqxgq.jpg	6	1.923	0.267	1287.117	872.300	0.102	0.062	0.0	13	dishcloth
+sun_alvoexkareccqxgq.jpg	6	1.923	0.267	1287.117	872.300	0.102	0.062	0.0	35	range
+sun_alvoexkareccqxgq.jpg	7	2.215	0.283	1423.927	891.655	0.114	0.053	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	7	2.215	0.283	1423.927	891.655	0.114	0.053	0.0	36	rug
+sun_alvoexkareccqxgq.jpg	8	2.540	0.150	1468.460	732.835	0.126	0.036	0.0	8	cabinets
+sun_alvoexkareccqxgq.jpg	8	2.540	0.150	1468.460	732.835	0.126	0.036	0.0	38	sink
+sun_alvoexkareccqxgq.jpg	8	2.540	0.150	1468.460	732.835	0.126	0.036	0.0	45	worktop
+sun_alvoexkareccqxgq.jpg	9	2.740	0.242	1478.735	641.850	0.105	0.032	0.0	29	plant
+sun_alvoexkareccqxgq.jpg	9	2.740	0.242	1478.735	641.850	0.105	0.032	0.0	44	window

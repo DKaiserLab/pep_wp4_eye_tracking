@@ -1,0 +1,14 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_aeqdtdmvphproomc.jpg	1	0.388	0.225	1097.290	588.300	0.090	0.021	0.0	11	extractor hood
+sun_aeqdtdmvphproomc.jpg	2	0.638	0.358	1006.880	617.115	0.080	0.024	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	3	1.063	0.292	1013.585	732.115	0.155	0.033	0.0	0	other
+sun_aeqdtdmvphproomc.jpg	4	1.396	0.383	1438.367	797.700	0.101	0.029	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	4	1.396	0.383	1438.367	797.700	0.101	0.029	0.0	10	dishwasher
+sun_aeqdtdmvphproomc.jpg	5	1.805	0.208	1563.840	695.610	0.128	0.052	0.0	12	figurine
+sun_aeqdtdmvphproomc.jpg	5	1.805	0.208	1563.840	695.610	0.128	0.052	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	6	2.038	0.333	1629.483	594.832	0.089	0.017	0.0	18	plant
+sun_aeqdtdmvphproomc.jpg	6	2.038	0.333	1629.483	594.832	0.089	0.017	0.0	32	window
+sun_aeqdtdmvphproomc.jpg	7	2.405	0.358	1334.875	601.620	0.082	0.039	0.0	2	bowls
+sun_aeqdtdmvphproomc.jpg	7	2.405	0.358	1334.875	601.620	0.082	0.039	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	8	2.788	0.225	1200.800	720.255	0.210	0.079	0.0	4	cabinets
+sun_aeqdtdmvphproomc.jpg	8	2.788	0.225	1200.800	720.255	0.210	0.079	0.0	14	jar

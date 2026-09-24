@@ -1,0 +1,6 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_abwmjfnrmqjdltxn.jpg	1	0.328	1.208	1290.090	707.505	0.148	0.065	0.0	8	kitchen island
+sun_abwmjfnrmqjdltxn.jpg	1	0.328	1.208	1290.090	707.505	0.148	0.065	0.0	15	stove
+sun_abwmjfnrmqjdltxn.jpg	2	1.553	0.858	1288.945	687.890	0.209	0.068	0.0	15	stove
+sun_abwmjfnrmqjdltxn.jpg	3	2.436	0.567	1292.105	709.283	0.169	0.040	0.0	8	kitchen island
+sun_abwmjfnrmqjdltxn.jpg	3	2.436	0.567	1292.105	709.283	0.169	0.040	0.0	15	stove

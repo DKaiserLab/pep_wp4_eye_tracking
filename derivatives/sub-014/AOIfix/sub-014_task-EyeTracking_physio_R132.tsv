@@ -1,0 +1,13 @@
+stimulus name	fixNr	startT	duration	X (pix)	Y (pix)	RMS	BCEA	data loss (%)	AOI nr	AOI name
+sun_acdlgczjpwkeuvgy.jpg	1	0.371	0.117	1259.010	742.212	0.172	0.063	0.0	29	range
+sun_acdlgczjpwkeuvgy.jpg	2	0.562	0.175	1138.710	804.600	0.148	0.136	0.0	9	chair
+sun_acdlgczjpwkeuvgy.jpg	2	0.562	0.175	1138.710	804.600	0.148	0.136	0.0	20	kitchen island
+sun_acdlgczjpwkeuvgy.jpg	3	0.754	0.217	1103.390	795.230	0.112	0.032	0.0	20	kitchen island
+sun_acdlgczjpwkeuvgy.jpg	3	0.754	0.217	1103.390	795.230	0.112	0.032	0.0	26	paper towels
+sun_acdlgczjpwkeuvgy.jpg	4	1.004	0.383	1187.957	626.890	0.097	0.043	0.0	23	microwave
+sun_acdlgczjpwkeuvgy.jpg	5	1.421	0.142	1433.720	620.570	0.091	0.030	0.0	27	picture
+sun_acdlgczjpwkeuvgy.jpg	6	1.587	0.350	1537.105	640.430	0.124	0.034	0.0	15	door
+sun_acdlgczjpwkeuvgy.jpg	7	2.079	0.300	974.705	698.320	0.129	0.082	0.0	3	board
+sun_acdlgczjpwkeuvgy.jpg	8	2.404	0.467	919.650	858.055	0.130	0.041	0.0	30	refrigerator crop
+sun_acdlgczjpwkeuvgy.jpg	8	2.404	0.467	919.650	858.055	0.130	0.041	0.0	38	trash can
+sun_acdlgczjpwkeuvgy.jpg	9	2.888	0.117	931.235	879.430	0.125	0.030	0.0	38	trash can
