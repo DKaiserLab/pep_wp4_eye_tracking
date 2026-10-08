@@ -7,6 +7,7 @@ if ~isfield(cfg, 'RDM_to_partial_out'); cfg.RDM_to_partial_out = {'Typcial Drawi
         'Control Images vgg16_imagenet Late', 'Typical Images vgg16_imagenet Late', 'Survey responses'}; end
 if ~isfield(cfg, 'correlation_type'); cfg.correlation_type = 'spearman';end
 if ~isfield(cfg, 'plot_rdm'); cfg.plot_rdm = false;end
+if ~isfield(cfg, 'triplets_bootstrap'); cfg.triplets_bootstrap = false;end
 if ~isfield(cfg, 'permutation_test'); cfg.permutation_test = false;end
 if ~isfield(cfg, 'n_permutations'); cfg.n_permutations = 10000;end
 if ~isfield(cfg, 'permutation_type'); cfg.permutation_type = 'row_col_shuffle_ref';end
@@ -267,26 +268,50 @@ for voi_n = 1:numel(cfg.variables_of_interest)
 
     % loop through res_table and add according variables
     if cfg.plotting_predictors == 1
-        if strcmp(voi, 'GazeDist') || strcmp(voi, 'MannanDist')
-            res_table.color_R = .98;
-            res_table.color_G = .41;
-            res_table.color_B = .91;
-        elseif strcmp(voi, 'ObjectFixCount')
-            res_table.color_R = .87;
-            res_table.color_G = .01;
-            res_table.color_B = .87;
-        elseif strcmp(voi, 'ObjectDwellsCate')
-            res_table.color_R = .6;
-            res_table.color_G = .02;
-            res_table.color_B = .6;
-        elseif strcmp(voi, 'ObjectCatePrio')
-            res_table.color_R = .24;
-            res_table.color_G = .04;
-            res_table.color_B = .3;
+        if cfg.triplets_bootstrap
+            if strcmp(voi, 'GazeDist') || strcmp(voi, 'MannanDist')
+                res_table.color_R = .38;
+                res_table.color_G = 1;
+                res_table.color_B = .19;
+            elseif strcmp(voi, 'ObjectFixCount')
+                res_table.color_R = .26;
+                res_table.color_G = .73;
+                res_table.color_B = .13;
+            elseif strcmp(voi, 'ObjectDwellsCate')
+                res_table.color_R = .16;
+                res_table.color_G = .47;
+                res_table.color_B = .08;
+            elseif strcmp(voi, 'ObjectCatePrio')
+                res_table.color_R = .03;
+                res_table.color_G = .15;
+                res_table.color_B = .02;
+            else
+                res_table.color_R = .38;
+                res_table.color_G = 1;
+                res_table.color_B = .19;
+            end
         else
-            res_table.color_R = .98;
-            res_table.color_G = .41;
-            res_table.color_B = .91;
+            if strcmp(voi, 'GazeDist') || strcmp(voi, 'MannanDist')
+                res_table.color_R = .98;
+                res_table.color_G = .41;
+                res_table.color_B = .91;
+            elseif strcmp(voi, 'ObjectFixCount')
+                res_table.color_R = .87;
+                res_table.color_G = .01;
+                res_table.color_B = .87;
+            elseif strcmp(voi, 'ObjectDwellsCate')
+                res_table.color_R = .6;
+                res_table.color_G = .02;
+                res_table.color_B = .6;
+            elseif strcmp(voi, 'ObjectCatePrio')
+                res_table.color_R = .24;
+                res_table.color_G = .04;
+                res_table.color_B = .3;
+            else
+                res_table.color_R = .98;
+                res_table.color_G = .41;
+                res_table.color_B = .91;
+            end
         end
 
     else
