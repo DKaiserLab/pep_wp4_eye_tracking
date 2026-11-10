@@ -36,6 +36,7 @@ if ~isfield(cfg, 'permutation_test'); cfg.permutation_test = false; end
 if ~isfield(cfg, 'n_permutations'); cfg.n_permutations = 10000; end
 if ~isfield(cfg, 'partial_cor'); cfg.partial_cor = true; end
 if ~isfield(cfg, 'save_name'); cfg.save_name = 'compare_task_RDMs_between_experiments'; end
+if ~isfield(cfg, 'fdr_correction'); cfg.fdr_correction = true; end
 
 
 % Basic settings
@@ -269,11 +270,27 @@ for voi_n = 1:numel(cfg.variables_of_interest)
     end
 end
 
+if cfg.fdr_correction
+    for pred = 1:height(res_table)
+        p_vals = zeros(numel(cfg.variables_of_interest, 1));
+        for voi_n = 1:numel(cfg.variables_of_interest)
+            p_vals(voi_n) = d.compare_task_between_experiments.combined(voi_n).combined_p(pred);
+        end
+
+        [~, ~, ~, p_vals_fdr] = fdr_bh(p_vals);
+        for voi_n = 1:numel(cfg.variables_of_interest)
+            d.compare_task_between_experiments.combined(voi_n).combined_p_fdr(pred) = p_vals_fdr(voi_n);
+        end
+    end
+
+end
+
 
 % Display results
 for voi_n = 1:numel(cfg.variables_of_interest)
 
     voi = char(cfg.variables_of_interest(voi_n));
+
 
     disp(newline)
     disp(['================ ', voi, ' ================'])
@@ -282,6 +299,7 @@ for voi_n = 1:numel(cfg.variables_of_interest)
         disp(['  ', char(res_table.name(pred))])
         disp(['    Difference (Exp1 - Exp2) = ', num2str(d.compare_task_between_experiments.combined(voi_n).delta_r(pred))])
         disp(['    p = ', num2str(d.compare_task_between_experiments.combined(voi_n).combined_p(pred))])
+        disp(['    p_fdr = ', num2str(d.compare_task_between_experiments.combined(voi_n).combined_p_fdr(pred))])
     end
 end
 
